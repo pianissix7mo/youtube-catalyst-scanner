@@ -1,0 +1,89 @@
+name: Scanner B - YouTube Enrichment
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "data/selected_events.json"
+      - ".github/workflows/enrich.yml"
+      - "youtube_enrich.py"
+      - "scanner_common.py"
+      - "config.json"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scanner-b-enrichment
+  cancel-in-progress: true
+
+jobs:
+  enrich:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Syntax check
+        run: python -m py_compile scanner_common.py youtube_enrich.py
+
+      - name: Validate Judge B selection
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p = Path('data/selected_events.json')
+          if not p.exists():
+              raise SystemExit('data/selected_events.json missing')
+          data = json.loads(p.read_text(encoding='utf-8'))
+          if data.get('judge_version') != 'B_V1':
+              raise SystemExit('selected_events.json was not produced by Judge B V1')
+          events = data.get('events') or []
+          if len(events) > 20:
+              raise SystemExit(f'Judge B selected {len(events)} events; hard limit is 20')
+          for row in events:
+              if row.get('entity_accuracy') != 'pass':
+                  raise SystemExit('Judge B output contains entity_accuracy != pass')
+              if float(row.get('judge_score') or 0) < 58:
+                  raise SystemExit('Judge B output contains judge_score below 58')
+          print(f'Validated {len(events)} Judge B events')
+          PY
+
+      - name: YouTube supply-gap enrichment
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: python youtube_enrich.py
+
+      - name: Upload enrichment artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: scanner-b-enrichment-latest
+          path: |
+            data/selected_events.json
+            output/latest.json
+            output/latest.md
+          retention-days: 14
+
+      - name: Commit enrichment output
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add output/latest.json output/latest.md
+          if git diff --cached --quiet; then
+            echo "No enrichment changes to commit"
+            exit 0
+          fi
+          git commit -m "Update Scanner B YouTube enrichment"
+          git push
