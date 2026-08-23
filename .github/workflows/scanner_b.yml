@@ -58,13 +58,17 @@ jobs:
 
       - name: Syntax check
         if: steps.guard.outputs.run == 'true'
-        run: python -m py_compile scanner_common.py collect_external.py collect_external_safe.py news_rss.py collect_rss.py rank_candidates.py rank_rss.py youtube_enrich.py
+        run: python -m py_compile scanner_common.py collect_external.py collect_external_safe.py news_rss.py collect_rss.py clean_events.py rank_candidates.py rank_rss.py youtube_enrich.py
 
       - name: Collect external catalysts
         if: steps.guard.outputs.run == 'true'
         env:
           SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT || 'youtube-catalyst-scanner/1.0 70549770+pianissix7mo@users.noreply.github.com' }}
         run: python collect_rss.py
+
+      - name: Clean and disambiguate events
+        if: steps.guard.outputs.run == 'true'
+        run: python clean_events.py
 
       - name: Build news baseline and select Top 20
         if: steps.guard.outputs.run == 'true'
