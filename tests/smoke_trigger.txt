@@ -1,3 +1,4 @@
 Trigger Scanner B pull-request smoke test.
 Retry after SEC User-Agent fix.
 Retry with resilient ticker-map fallback.
+Retry after concurrency cleanup.
