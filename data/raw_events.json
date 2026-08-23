@@ -1,18 +1,18 @@
 {
   "scanner": "B",
-  "generated_at_utc": "2026-08-23T21:49:10.301208+00:00",
+  "generated_at_utc": "2026-08-23T21:56:54.204712+00:00",
   "lookback_hours": 24,
   "primary_news_source": "google_news_rss",
   "raw_evidence_count": 359,
   "news_evidence_count": 359,
   "sec_evidence_count": 0,
-  "event_cluster_count": 225,
+  "event_cluster_count": 220,
   "category_mapped_counts": {
     "earnings_guidance": 31,
-    "mna": 55,
-    "contract_order": 16,
-    "regulatory_legal": 16,
-    "pricing_capacity": 26,
+    "mna": 56,
+    "contract_order": 15,
+    "regulatory_legal": 15,
+    "pricing_capacity": 27,
     "ai_semis": 83,
     "macro_rates": 63,
     "crypto": 69
@@ -302,123 +302,6 @@
       ]
     },
     {
-      "entity": "Paramount Skydance Corporation",
-      "ticker": "PSKY",
-      "cik": "2041610",
-      "entity_type": "company",
-      "representative_title": "‘Appalling’: Mark Ruffalo denies antisemitism charge from Paramount Skydance over merger criticism",
-      "latest_timestamp_utc": "2026-08-23T20:07:18+00:00",
-      "categories": [
-        "contract_order",
-        "mna"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "commondreams.org",
-        "hollywoodlife.com",
-        "imdb.com",
-        "nbcnews.com",
-        "nme.com",
-        "northeasttimes.com",
-        "tvinsider.com"
-      ],
-      "recent_evidence_count": 7,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "mna",
-          "title": "‘Appalling’: Mark Ruffalo denies antisemitism charge from Paramount Skydance over merger criticism",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSFBtNjBRU05CZjBqWE5naVpTUlYxMmFOcTg5WEc3QlU2UVhMR2g2WG9kWVJBcHlibnppUnBTZGhLU2x3aXBTUzV4SHEybWZvQXpFNndlSnRFaVJndjlIcUR5aS1OdmtfcjM1VkpxWWl4MDRpbzhKSlhRZjRDbTE5V1BEQ01WamtnQlg5R2lkbFdpQ3B6ZlBNTFVhTnZXS2Z4THV2NEtnbw?oc=5",
-          "domain": "nbcnews.com",
-          "source_name": "NBC News",
-          "timestamp_utc": "2026-08-23T20:07:18+00:00",
-          "entity": "Paramount Group, Inc.",
-          "ticker": "PGRE",
-          "cik": "1605607",
-          "entity_type": "company"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "mna",
-          "title": "Ruffalo fights antisemitism accusation in Paramount merger battle",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNQ3pLVHcxU2pGR0d5U1JyeUdYMDZ3ZFo5R1VOdzBtbVpsSXR2dXN2dG90RXFQUUtyYlBuNnloWFJNYldxVlAxYnVMb2pfQjkwWTBJTFhwa29rS2tWRE01SU55V2RVTkswNlU1RVp4RkhFSUFibTc0aGJQUTdpN25pNUtUUjhxeTlYX1Q4NXlMUy1STXZiYkpzalNTcHlHSWQ2Q29WOF9Ndw?oc=5",
-          "domain": "northeasttimes.com",
-          "source_name": "Northeast Times",
-          "timestamp_utc": "2026-08-23T20:03:00+00:00",
-          "entity": "Paramount Group, Inc.",
-          "ticker": "PGRE",
-          "cik": "1605607",
-          "entity_type": "company"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "mna",
-          "title": "Mark Ruffalo Hits Back at Paramount’s Claim His Anti-Merger Criticism Was Antisemitic",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1tbGRzWkhYU0E4cGdKa19qUnc1OE1WOGNUR0lUcGtHMUFpY1pXR3VoQklGSlNmeWhrY09JY3JZNGNNaEdQeFUtcFktUXNWNVdGcjdzMDRoOXhlR1pSbFRodk5wamI2QQ?oc=5",
-          "domain": "imdb.com",
-          "source_name": "IMDb",
-          "timestamp_utc": "2026-08-23T15:24:09+00:00",
-          "entity": "Paramount Group, Inc.",
-          "ticker": "PGRE",
-          "cik": "1605607",
-          "entity_type": "company"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "mna",
-          "title": "Mark Ruffalo Reacts to Paramount Calling His Criticism Antisemitic",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPRWxMMDhsVHlHSC1DcC1lTWhsMjZiWGVGTV9FUVdqRHhmZTEyRnJuN21BZVlrMkZCNEk3bExsUHVCZTRJczNhNHIzZmljLTl0RXRVejM0UzFZbW5QbUVJc2ppQVlKbXFobjFNaVBwaHdlSERuQ2xlQVhqNEN6Zk1zelYxckh3Sjgza0RRVnFXdFdVSEtxQ2xSbE9CTXB6Q2J4bmRv?oc=5",
-          "domain": "tvinsider.com",
-          "source_name": "TV Insider",
-          "timestamp_utc": "2026-08-23T14:53:23+00:00",
-          "entity": "Paramount Group, Inc.",
-          "ticker": "PGRE",
-          "cik": "1605607",
-          "entity_type": "company"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "mna",
-          "title": "'Appalling and Fundamentally Dishonest': Ruffalo Rejects Antisemitism Charges by Paramount Amid Merger Warning",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1lMHlDWkRnai1seDlXSEM3X3JxWG5GRXNNcktQNm5POEdNNTRkRWowbnVMUnNZUnBPLWtkSDdneWV2S1hjZmhfUUxyS1BfNEZjb3podzZLQmFZVlZNZGdXdUpXRkFtLUl5MERXMF96eDdVcUdTQU1MRw?oc=5",
-          "domain": "commondreams.org",
-          "source_name": "Common Dreams",
-          "timestamp_utc": "2026-08-23T13:58:58+00:00",
-          "entity": "Paramount Group, Inc.",
-          "ticker": "PGRE",
-          "cik": "1605607",
-          "entity_type": "company"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "mna",
-          "title": "Why Is Mark Ruffalo Feuding With Paramount? The Merger Fight Explained",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNM3BVZ3N5ejJEbWRVb1dIdV9yYjJfX3VQN3FYNUhjbElQWXQ1OHo5ZGZUZHlzMlpDSU1fbGIxMHJxTEkyNUZxay1zQXVHY2E2RVRKZzZQVVNjRXlsX1gydWI1bmxJTTRXUnNHSjlHNGNveTFwUHlpUlI2V3JWTmkySzhiQWN2MEJSM3pXcTJn0gGTAUFVX3lxTFBIdjRFSjJBVTdfbnZkQlBXbjRFeV9FMF9OTGJwU1A4UzBIUDNHQXMyX3RiR05MVk9oNW15SEtZLUtKSm5BOC1PMlJ5eUZVQVJCMF9iWXA0SWNpSmxBQTFnanFvZ3JKd1UyQnZacmJSOG5ud0JLeEhqQ2RhZi1qaDFUVm9uMmFBSXhDYlQ4TGV0cnJFcw?oc=5",
-          "domain": "hollywoodlife.com",
-          "source_name": "Hollywood Life",
-          "timestamp_utc": "2026-08-23T12:53:00+00:00",
-          "entity": "Paramount Group, Inc.",
-          "ticker": "PGRE",
-          "cik": "1605607",
-          "entity_type": "company"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "contract_order",
-          "title": "Mark Ruffalo hits back after Paramount said his merger criticism was \"anti-Semitic\": \"Appalling and fundamentally dishonest\"",
-          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNOWpXY0xCZU5sSTB1Mi04dy02RDJHbTlUTjhqN1Vvd09ac1Y0M0dDNllaRG9wRHd5cC1QR01xd3Z0dUpQc1RlMGxzakpHeHVaWjAyUkNtNHFaQTZOb25aVFBoa3R0YUo4RHV0cTdTZTJsWTBjYnRvd1lUTVY2bmhHVmNUQXVldkc3dU1YTGEtTE9qc3ZjdHYyOWEtYWxNV3V3Zk9UYlFtaE90ai1SYjRDWVplbTF6UENVLTh1eE5JRFQ3SkV3ZDVYOHZBQzVaQVA2b1JNTU9qdDNtZE5KUy1QbkIwY0NKV1lCUGduUk5n?oc=5",
-          "domain": "nme.com",
-          "source_name": "NME",
-          "timestamp_utc": "2026-08-23T09:55:03+00:00",
-          "entity": "Paramount Group, Inc.",
-          "ticker": "PGRE",
-          "cik": "1605607",
-          "entity_type": "company"
-        }
-      ],
-      "entity_correction": "paramount_media_disambiguation"
-    },
-    {
       "entity": "Bitcoin / Crypto",
       "ticker": null,
       "cik": null,
@@ -534,91 +417,178 @@
       ]
     },
     {
-      "entity": "Tariffs / Trade",
+      "entity": "SK hynix",
       "ticker": null,
       "cik": null,
-      "entity_type": "macro",
-      "representative_title": "What Canadian Goods Are Getting Hit With New Tariffs?",
-      "latest_timestamp_utc": "2026-08-23T21:10:20+00:00",
+      "entity_type": "foreign_company",
+      "representative_title": "SK hynix IMPACT ON HBM",
+      "latest_timestamp_utc": "2026-08-23T20:48:19+00:00",
       "categories": [
-        "macro_rates"
+        "ai_semis"
       ],
       "sec_forms": [],
       "source_domains": [
-        "facebook.com",
-        "finance.yahoo.com",
-        "nbcchicago.com",
-        "nytimes.com",
-        "wkrn.com"
+        "kedglobal.com",
+        "servethehome.com",
+        "wccftech.com"
       ],
       "recent_evidence_count": 5,
       "evidence": [
         {
           "source_type": "news_rss",
-          "category": "macro_rates",
-          "title": "What Canadian Goods Are Getting Hit With New Tariffs?",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVG55djVDb2w0eVNTOXlwbjN0MDl0ZWhrNmZYckM4RHdVNUhNYUVlbGFaSUlhTkJwWWtSaUtMRTVoMDdHcE5ITWd6MkVfYUxqNVdpZGhfZ1FQVllheHhzZzNhQ0pPbGhnMG1waTFTSGJEWjJJd0Uwa1k2N1VJYjkwYXhSZGpaQWdsRkEwLWZuUHJHS0xTR21mLXdfdllxYXcx?oc=5",
-          "domain": "finance.yahoo.com",
-          "source_name": "Yahoo Finance",
-          "timestamp_utc": "2026-08-23T21:10:20+00:00",
-          "entity": "Tariffs / Trade",
+          "category": "ai_semis",
+          "title": "SK hynix IMPACT ON HBM",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1BSVBFYzh3QzZLb3hpWFJmTUNYa0tzX1Z6c0I3VFMzVWVGRGxHQjI4MmFIa096X1RBM0pZRW0ySTJXUHdOYTlSZlUyV3J0bVdRNjFDSF9UZ09FMWFSTjhmM1k1eE1jd0xGOXFVSS13?oc=5",
+          "domain": "servethehome.com",
+          "source_name": "ServeTheHome",
+          "timestamp_utc": "2026-08-23T20:48:19+00:00",
+          "entity": "SK hynix",
           "ticker": null,
           "cik": null,
-          "entity_type": "macro"
+          "entity_type": "foreign_company"
         },
         {
           "source_type": "news_rss",
-          "category": "macro_rates",
-          "title": "Talks between the U.S. and Canada failed late Friday to prevent new tariffs on Canadian goods, prompting Canada to promise “dollar for dollar” retaliation. Here is what to know about the tariffs and why the negotiations fell apart. https://nyti.ms/46hI4ID",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNQVJCRmswdFRHZ0VxMDdCRERYckFRMzRzYnpOTlRtVFZUR3JvOVNiaGhMUEZYZVBRcU9MRkYyOEpLNVpoc3ZYdVctUjBZemZIWkVCVGVpT1JocmtEU0p3Y19mYVlMT1RZN0k5WGNjcDdET3ZIdGI4Z21XWWJ6b2Q4V1dOdlNXZTN5b3luWVg1dURDbzE2WlVDZEo5OW05a1VtTmlQUng2d3NGcUY1LXdEYjJMX0NUcWpaWTk3T2U1d2VRanlDT1g3LU9ETHQ0a3UwcEQw?oc=5",
-          "domain": "facebook.com",
-          "source_name": "facebook.com",
-          "timestamp_utc": "2026-08-23T17:55:05+00:00",
-          "entity": "Tariffs / Trade",
+          "category": "ai_semis",
+          "title": "SK hynix HBM is a 3D-stacked structure, which has a base die and a stack of",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5SSGpTblRIU0hxMnY2ak5sUGN6RllEZmZrbDFGMzhwbFBNZi1oT2lQbDVNZnFpVlExTVRMNldrT2ZYem5OYjUzNFNORFVKckRTVWQzSDJPc2pLRVRJVTItZ2Z3RkI0N3NLdTlzZkpR?oc=5",
+          "domain": "servethehome.com",
+          "source_name": "ServeTheHome",
+          "timestamp_utc": "2026-08-23T20:48:08+00:00",
+          "entity": "SK hynix",
           "ticker": null,
           "cik": null,
-          "entity_type": "macro"
+          "entity_type": "foreign_company"
         },
         {
           "source_type": "news_rss",
-          "category": "macro_rates",
-          "title": "What to know about Trump's 50% tariffs on Canadian goods that just went into effect",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSmJucXJoR2xjSkdpMHctWjRvSVJDYVdSSHQzNk1uUk4teXlGbjFLWm01bDlfSHlWUzJYdjdGVlZNM0R2R0tQYzdOWFFXQkNPT1ZSLTg3TnpfaTdzSk0wQ3hGblphYVNTNnJEN093SDFLZHFuMGZEQ1JNVmRYOFRsNmZTM3JkZnNoa0oySUdFSjRKRDltYmwzMHNkczVNS2tkUU0yeGlwRVjSAbABQVVfeXFMT05LZXFKUHk4WlVsTGtEU2ZhNEtHMzdQNnUxMVV1b3Y3S0dWdE9Jcm1kcC1TQm56bzhqVlZyYS1DS2puRDFmNENhWW0yamhxSDE2SDhZcE0zVk1EelRxUUtRVGpZV3RQTC1hOEpLSWY4cVFmSWx3dUYxdDBqRFVSbHVvQUgwcEowM2NVMUUtQXhYMnZTd285YTVSV3VGSDdWbUpUaVptUU1UdkJZNmZpV1Y?oc=5",
-          "domain": "nbcchicago.com",
-          "source_name": "NBC 5 Chicago",
-          "timestamp_utc": "2026-08-23T17:10:21+00:00",
-          "entity": "Tariffs / Trade",
+          "category": "ai_semis",
+          "title": "SK hynix HBM Packaging at Hot Chips 2026",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAzVG1Ib00xNlY4cktzUWRCTmpSUTRrV1B6UjBKRjQyTTFsSWoydUlzd3REaHFFLTBscW9LUU52cUxfdjNKWC1XOFZGb2E0eUsxTWV3VU5lSWNnT3RoV3lRdE5nR2V3RXY2T1hCaGhTeldyRkhrVjNaUXB3?oc=5",
+          "domain": "servethehome.com",
+          "source_name": "ServeTheHome",
+          "timestamp_utc": "2026-08-23T20:40:15+00:00",
+          "entity": "SK hynix",
           "ticker": null,
           "cik": null,
-          "entity_type": "macro"
+          "entity_type": "foreign_company"
         },
         {
           "source_type": "news_rss",
-          "category": "macro_rates",
-          "title": "US places 50% tariffs on Canadian goods",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQTV9HSzI4clc4NVBlRTRtLW9rM3B1RjVJSE9HY1lrOHNXVEV3RFlxMGZJbHp0bDlrSkM4bTdvMExZNkJSSzdiMUgteXRkOHE0d3haWnFNRjhFbnlfOWZfMWhMU3N4dXNmUzVOSzRnbVdvWlZHSzFoNlZNUjdYTUpwZg?oc=5",
-          "domain": "wkrn.com",
-          "source_name": "WKRN News 2",
-          "timestamp_utc": "2026-08-23T12:44:26+00:00",
-          "entity": "Tariffs / Trade",
+          "category": "ai_semis",
+          "title": "SK Hynix Unpacks Advanced Packaging Technologies, Including Intel EMIB, For Its Next-Gen HBM Memory As It Eyes 3D Structures For The Future",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPb2NraE1nVDJleTFJUVZadndPMEdOSi1WTmxjQ1o0aFB0M1l2MGFEUlJ6YTJsTFN2U1NpaTdXZmpXblBRZ2Z2MF9LczBmZmh4MWhuMjFuSWp6QTgwTXEzdkdrZzJFakFsQzdWZEdMY1dQWG1MRjloWktUdzFiY1NOM2UyN2U0TVhma2pnT3BVNDROTmQtcFd5YtIBngFBVV95cUxQNjVJTDlBMzllTmFiTGgzMXJ2ZXQ0X0NWWWx0RTkxQ1dGSkQ2eFdpQmlhYjBFcWE3YU1TYS1Na2FUNVNGYTBESHV0eXlHeXBIOFBxNVd0YThqeGpUWTktclZCTFVBUGxoS3BDbGNLYnkzWEIzbFRuTWZNdUpaM0t4VXFFa1VoVUM5XzBuQzhJeHNfOFd4M01xV0V0NlZZZw?oc=5",
+          "domain": "wccftech.com",
+          "source_name": "Wccftech",
+          "timestamp_utc": "2026-08-23T20:30:00+00:00",
+          "entity": "SK hynix",
           "ticker": null,
           "cik": null,
-          "entity_type": "macro"
+          "entity_type": "foreign_company"
         },
         {
           "source_type": "news_rss",
-          "category": "macro_rates",
-          "title": "What Canadian Goods Will Take Trump’s 50% Tariffs? Some Pretty Strange Items.",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSWJiTC0zaE8wNVhVNERJVzhCWGlTWmY3RjZvRjFZMUxSRDVZc0VVOHlZSndWQjJCc0xheW1BbWhFS081R3VmMWViZ3FLN0szbGxuOTdMOWpmcnZrVUF3Z1VxZkdLdnJsWTB4VUh6ejBFenhRLTc1MXRGT1RFdXR4NnBiQS1qWmpFVnlncm1TckRNVDhxd2Jv?oc=5",
-          "domain": "nytimes.com",
-          "source_name": "The New York Times",
-          "timestamp_utc": "2026-08-23T09:44:58+00:00",
-          "entity": "Tariffs / Trade",
+          "category": "ai_semis",
+          "title": "SK Hynix considers building memory plant in Japan to bolster global HBM leadership",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBYRVBNUHdLcFJxMnJ3cjJ5TVlQNTJlVlNOUm1GLVVURGd4QkU5bWZPamQyTk5XOFp0MS1MVHB5LTFxX3oxMHJKY2FJQVBpSGFpOWthUlIzSHF2ZC0yaHMwY1hfb0VSZ1REb1FuSzByNW4yeUpBcndz?oc=5",
+          "domain": "kedglobal.com",
+          "source_name": "KED Global",
+          "timestamp_utc": "2026-08-23T17:40:16+00:00",
+          "entity": "SK hynix",
           "ticker": null,
           "cik": null,
-          "entity_type": "macro"
+          "entity_type": "foreign_company"
         }
       ]
+    },
+    {
+      "entity": "Paramount Skydance Corporation",
+      "ticker": "PSKY",
+      "cik": "2041610",
+      "entity_type": "company",
+      "representative_title": "‘Appalling’: Mark Ruffalo denies antisemitism charge from Paramount Skydance over merger criticism",
+      "latest_timestamp_utc": "2026-08-23T20:07:18+00:00",
+      "categories": [
+        "contract_order",
+        "mna"
+      ],
+      "sec_forms": [],
+      "source_domains": [
+        "commondreams.org",
+        "hollywoodlife.com",
+        "imdb.com",
+        "nbcnews.com",
+        "nme.com"
+      ],
+      "recent_evidence_count": 5,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "mna",
+          "title": "‘Appalling’: Mark Ruffalo denies antisemitism charge from Paramount Skydance over merger criticism",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSFBtNjBRU05CZjBqWE5naVpTUlYxMmFOcTg5WEc3QlU2UVhMR2g2WG9kWVJBcHlibnppUnBTZGhLU2x3aXBTUzV4SHEybWZvQXpFNndlSnRFaVJndjlIcUR5aS1OdmtfcjM1VkpxWWl4MDRpbzhKSlhRZjRDbTE5V1BEQ01WamtnQlg5R2lkbFdpQ3B6ZlBNTFVhTnZXS2Z4THV2NEtnbw?oc=5",
+          "domain": "nbcnews.com",
+          "source_name": "NBC News",
+          "timestamp_utc": "2026-08-23T20:07:18+00:00",
+          "entity": "Paramount Group, Inc.",
+          "ticker": "PGRE",
+          "cik": "1605607",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "mna",
+          "title": "Mark Ruffalo Hits Back at Paramount’s Claim His Anti-Merger Criticism Was Antisemitic",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1tbGRzWkhYU0E4cGdKa19qUnc1OE1WOGNUR0lUcGtHMUFpY1pXR3VoQklGSlNmeWhrY09JY3JZNGNNaEdQeFUtcFktUXNWNVdGcjdzMDRoOXhlR1pSbFRodk5wamI2QQ?oc=5",
+          "domain": "imdb.com",
+          "source_name": "IMDb",
+          "timestamp_utc": "2026-08-23T15:24:09+00:00",
+          "entity": "Paramount Group, Inc.",
+          "ticker": "PGRE",
+          "cik": "1605607",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "mna",
+          "title": "'Appalling and Fundamentally Dishonest': Ruffalo Rejects Antisemitism Charges by Paramount Amid Merger Warning",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1lMHlDWkRnai1seDlXSEM3X3JxWG5GRXNNcktQNm5POEdNNTRkRWowbnVMUnNZUnBPLWtkSDdneWV2S1hjZmhfUUxyS1BfNEZjb3podzZLQmFZVlZNZGdXdUpXRkFtLUl5MERXMF96eDdVcUdTQU1MRw?oc=5",
+          "domain": "commondreams.org",
+          "source_name": "Common Dreams",
+          "timestamp_utc": "2026-08-23T13:58:58+00:00",
+          "entity": "Paramount Group, Inc.",
+          "ticker": "PGRE",
+          "cik": "1605607",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "mna",
+          "title": "Why Is Mark Ruffalo Feuding With Paramount? The Merger Fight Explained",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNM3BVZ3N5ejJEbWRVb1dIdV9yYjJfX3VQN3FYNUhjbElQWXQ1OHo5ZGZUZHlzMlpDSU1fbGIxMHJxTEkyNUZxay1zQXVHY2E2RVRKZzZQVVNjRXlsX1gydWI1bmxJTTRXUnNHSjlHNGNveTFwUHlpUlI2V3JWTmkySzhiQWN2MEJSM3pXcTJn0gGTAUFVX3lxTFBIdjRFSjJBVTdfbnZkQlBXbjRFeV9FMF9OTGJwU1A4UzBIUDNHQXMyX3RiR05MVk9oNW15SEtZLUtKSm5BOC1PMlJ5eUZVQVJCMF9iWXA0SWNpSmxBQTFnanFvZ3JKd1UyQnZacmJSOG5ud0JLeEhqQ2RhZi1qaDFUVm9uMmFBSXhDYlQ4TGV0cnJFcw?oc=5",
+          "domain": "hollywoodlife.com",
+          "source_name": "Hollywood Life",
+          "timestamp_utc": "2026-08-23T12:53:00+00:00",
+          "entity": "Paramount Group, Inc.",
+          "ticker": "PGRE",
+          "cik": "1605607",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "contract_order",
+          "title": "Mark Ruffalo hits back after Paramount said his merger criticism was \"anti-Semitic\": \"Appalling and fundamentally dishonest\"",
+          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNOWpXY0xCZU5sSTB1Mi04dy02RDJHbTlUTjhqN1Vvd09ac1Y0M0dDNllaRG9wRHd5cC1QR01xd3Z0dUpQc1RlMGxzakpHeHVaWjAyUkNtNHFaQTZOb25aVFBoa3R0YUo4RHV0cTdTZTJsWTBjYnRvd1lUTVY2bmhHVmNUQXVldkc3dU1YTGEtTE9qc3ZjdHYyOWEtYWxNV3V3Zk9UYlFtaE90ai1SYjRDWVplbTF6UENVLTh1eE5JRFQ3SkV3ZDVYOHZBQzVaQVA2b1JNTU9qdDNtZE5KUy1QbkIwY0NKV1lCUGduUk5n?oc=5",
+          "domain": "nme.com",
+          "source_name": "NME",
+          "timestamp_utc": "2026-08-23T09:55:03+00:00",
+          "entity": "Paramount Group, Inc.",
+          "ticker": "PGRE",
+          "cik": "1605607",
+          "entity_type": "company"
+        }
+      ],
+      "entity_correction": "paramount_media_disambiguation"
     },
     {
       "entity": "Bitcoin / Crypto",
@@ -690,6 +660,79 @@
           "ticker": null,
           "cik": null,
           "entity_type": "crypto"
+        }
+      ]
+    },
+    {
+      "entity": "Tariffs / Trade",
+      "ticker": null,
+      "cik": null,
+      "entity_type": "macro",
+      "representative_title": "What Canadian Goods Are Getting Hit With New Tariffs?",
+      "latest_timestamp_utc": "2026-08-23T21:10:20+00:00",
+      "categories": [
+        "macro_rates"
+      ],
+      "sec_forms": [],
+      "source_domains": [
+        "facebook.com",
+        "finance.yahoo.com",
+        "nbcchicago.com",
+        "nytimes.com"
+      ],
+      "recent_evidence_count": 4,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "What Canadian Goods Are Getting Hit With New Tariffs?",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVG55djVDb2w0eVNTOXlwbjN0MDl0ZWhrNmZYckM4RHdVNUhNYUVlbGFaSUlhTkJwWWtSaUtMRTVoMDdHcE5ITWd6MkVfYUxqNVdpZGhfZ1FQVllheHhzZzNhQ0pPbGhnMG1waTFTSGJEWjJJd0Uwa1k2N1VJYjkwYXhSZGpaQWdsRkEwLWZuUHJHS0xTR21mLXdfdllxYXcx?oc=5",
+          "domain": "finance.yahoo.com",
+          "source_name": "Yahoo Finance",
+          "timestamp_utc": "2026-08-23T21:10:20+00:00",
+          "entity": "Tariffs / Trade",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "Talks between the U.S. and Canada failed late Friday to prevent new tariffs on Canadian goods, prompting Canada to promise “dollar for dollar” retaliation. Here is what to know about the tariffs and why the negotiations fell apart. https://nyti.ms/46hI4ID",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNQVJCRmswdFRHZ0VxMDdCRERYckFRMzRzYnpOTlRtVFZUR3JvOVNiaGhMUEZYZVBRcU9MRkYyOEpLNVpoc3ZYdVctUjBZemZIWkVCVGVpT1JocmtEU0p3Y19mYVlMT1RZN0k5WGNjcDdET3ZIdGI4Z21XWWJ6b2Q4V1dOdlNXZTN5b3luWVg1dURDbzE2WlVDZEo5OW05a1VtTmlQUng2d3NGcUY1LXdEYjJMX0NUcWpaWTk3T2U1d2VRanlDT1g3LU9ETHQ0a3UwcEQw?oc=5",
+          "domain": "facebook.com",
+          "source_name": "facebook.com",
+          "timestamp_utc": "2026-08-23T17:55:05+00:00",
+          "entity": "Tariffs / Trade",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "What to know about Trump's 50% tariffs on Canadian goods that just went into effect",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSmJucXJoR2xjSkdpMHctWjRvSVJDYVdSSHQzNk1uUk4teXlGbjFLWm01bDlfSHlWUzJYdjdGVlZNM0R2R0tQYzdOWFFXQkNPT1ZSLTg3TnpfaTdzSk0wQ3hGblphYVNTNnJEN093SDFLZHFuMGZEQ1JNVmRYOFRsNmZTM3JkZnNoa0oySUdFSjRKRDltYmwzMHNkczVNS2tkUU0yeGlwRVjSAbABQVVfeXFMT05LZXFKUHk4WlVsTGtEU2ZhNEtHMzdQNnUxMVV1b3Y3S0dWdE9Jcm1kcC1TQm56bzhqVlZyYS1DS2puRDFmNENhWW0yamhxSDE2SDhZcE0zVk1EelRxUUtRVGpZV3RQTC1hOEpLSWY4cVFmSWx3dUYxdDBqRFVSbHVvQUgwcEowM2NVMUUtQXhYMnZTd285YTVSV3VGSDdWbUpUaVptUU1UdkJZNmZpV1Y?oc=5",
+          "domain": "nbcchicago.com",
+          "source_name": "NBC 5 Chicago",
+          "timestamp_utc": "2026-08-23T17:10:21+00:00",
+          "entity": "Tariffs / Trade",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "What Canadian Goods Will Take Trump’s 50% Tariffs? Some Pretty Strange Items.",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSWJiTC0zaE8wNVhVNERJVzhCWGlTWmY3RjZvRjFZMUxSRDVZc0VVOHlZSndWQjJCc0xheW1BbWhFS081R3VmMWViZ3FLN0szbGxuOTdMOWpmcnZrVUF3Z1VxZkdLdnJsWTB4VUh6ejBFenhRLTc1MXRGT1RFdXR4NnBiQS1qWmpFVnlncm1TckRNVDhxd2Jv?oc=5",
+          "domain": "nytimes.com",
+          "source_name": "The New York Times",
+          "timestamp_utc": "2026-08-23T16:14:35+00:00",
+          "entity": "Tariffs / Trade",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
         }
       ]
     },
@@ -840,6 +883,126 @@
       ]
     },
     {
+      "entity": "Paramount Skydance Corporation",
+      "ticker": "PSKY",
+      "cik": "2041610",
+      "entity_type": "company",
+      "representative_title": "Paramount accuses Mark Ruffalo of 'antisemitic tropes' on the eve of mediation talks in antitrust battle",
+      "latest_timestamp_utc": "2026-08-23T21:55:44+00:00",
+      "categories": [
+        "mna",
+        "regulatory_legal"
+      ],
+      "sec_forms": [],
+      "source_domains": [
+        "latimes.com",
+        "northeasttimes.com",
+        "tvinsider.com"
+      ],
+      "recent_evidence_count": 3,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "regulatory_legal",
+          "title": "Paramount accuses Mark Ruffalo of 'antisemitic tropes' on the eve of mediation talks in antitrust battle",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQUmZGemJqaGRFWnFmU09QYlNRdTd3bEZ1bFhUZzB1YUw3SDZ3MTRtRzBKTzlMTnMwMVhMU0VNTVVhdFBlT2NNMmZqUTFFM3BFWGMtWGd2NGhuMGRIMXo4RENsTExRUEs3M1AwVmtzaGswRHVmeDhsbTl0WmNOOWZZLXY2MHE5R1M1NzYtYXJWNkhfemFlRGtFOHBxYWYyRXBmMUZVcklsdDIwbzBoUFN0aVZlSXlUN0laQlhEN3NReHBwdm9DTkhiMnhlRzR0eVZsOGd6ZUxaLWMzREJfX3podEFMa1FieWlPTW5R?oc=5",
+          "domain": "latimes.com",
+          "source_name": "Los Angeles Times",
+          "timestamp_utc": "2026-08-23T21:55:44+00:00",
+          "entity": "Paramount Group, Inc.",
+          "ticker": "PGRE",
+          "cik": "1605607",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "mna",
+          "title": "Ruffalo fights antisemitism accusation in Paramount merger battle",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNQ3pLVHcxU2pGR0d5U1JyeUdYMDZ3ZFo5R1VOdzBtbVpsSXR2dXN2dG90RXFQUUtyYlBuNnloWFJNYldxVlAxYnVMb2pfQjkwWTBJTFhwa29rS2tWRE01SU55V2RVTkswNlU1RVp4RkhFSUFibTc0aGJQUTdpN25pNUtUUjhxeTlYX1Q4NXlMUy1STXZiYkpzalNTcHlHSWQ2Q29WOF9Ndw?oc=5",
+          "domain": "northeasttimes.com",
+          "source_name": "Northeast Times",
+          "timestamp_utc": "2026-08-23T20:03:00+00:00",
+          "entity": "Paramount Group, Inc.",
+          "ticker": "PGRE",
+          "cik": "1605607",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "mna",
+          "title": "Mark Ruffalo Reacts to Paramount Calling His Criticism Antisemitic",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPRWxMMDhsVHlHSC1DcC1lTWhsMjZiWGVGTV9FUVdqRHhmZTEyRnJuN21BZVlrMkZCNEk3bExsUHVCZTRJczNhNHIzZmljLTl0RXRVejM0UzFZbW5QbUVJc2ppQVlKbXFobjFNaVBwaHdlSERuQ2xlQVhqNEN6Zk1zelYxckh3Sjgza0RRVnFXdFdVSEtxQ2xSbE9CTXB6Q2J4bmRv?oc=5",
+          "domain": "tvinsider.com",
+          "source_name": "TV Insider",
+          "timestamp_utc": "2026-08-23T14:53:23+00:00",
+          "entity": "Paramount Group, Inc.",
+          "ticker": "PGRE",
+          "cik": "1605607",
+          "entity_type": "company"
+        }
+      ],
+      "entity_correction": "paramount_media_disambiguation"
+    },
+    {
+      "entity": "SK hynix",
+      "ticker": null,
+      "cik": null,
+      "entity_type": "foreign_company",
+      "representative_title": "SK hynix REQUIREMENTS FOR MEMORY",
+      "latest_timestamp_utc": "2026-08-23T20:48:16+00:00",
+      "categories": [
+        "ai_semis",
+        "pricing_capacity"
+      ],
+      "sec_forms": [],
+      "source_domains": [
+        "en.bloomingbit.io",
+        "servethehome.com"
+      ],
+      "recent_evidence_count": 3,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "ai_semis",
+          "title": "SK hynix REQUIREMENTS FOR MEMORY",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1USW4zUGQ5WVU3NktRUXlUM0FwRUwwamVuVE9vR0kyUG8wakI5OWlpS2dYX3lsRXY1RnhvTE5SRnhkS3hmR3prMmx1YVFoRVZHZENLaUxYbEYtMHdxOW5zWU1VbjBJVUhLNkJseFBB?oc=5",
+          "domain": "servethehome.com",
+          "source_name": "ServeTheHome",
+          "timestamp_utc": "2026-08-23T20:48:16+00:00",
+          "entity": "SK hynix",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "foreign_company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "pricing_capacity",
+          "title": "SK hynix Memory Capacity Thermal Management",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5fSkFERkc5dXE1X0p1eElnY3c5emdXUk1GNXhMUVB1TlRoWTZCQ0dzendKdDUwRmEtanJfQW5ObWtWbmFSS2hqNnVoSWJNYWNWTHhEb3pVRFM1alA4cXgwRk5mSXdmcVA5WWdQMmNn?oc=5",
+          "domain": "servethehome.com",
+          "source_name": "ServeTheHome",
+          "timestamp_utc": "2026-08-23T20:48:15+00:00",
+          "entity": "SK hynix",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "foreign_company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "ai_semis",
+          "title": "Nvidia to Raise AI Chip Prices at Least 15% as Memory Surge Boosts Samsung, SK Hynix Leverage",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA1QnlHNHhoa1BZSUhndlVDTEo3SXlqcXBmSVNmTS03d1Y2Mm5Ib2dHTFN3Nmt6TFNVMVhCNTdoRGowRDNTNU5MTnJiSEVvZFplRS1YVw?oc=5",
+          "domain": "en.bloomingbit.io",
+          "source_name": "bloomingbit",
+          "timestamp_utc": "2026-08-23T09:31:05+00:00",
+          "entity": "SK hynix",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "foreign_company"
+        }
+      ]
+    },
+    {
       "entity": "Bitcoin / Crypto",
       "ticker": null,
       "cik": null,
@@ -948,9 +1111,68 @@
           "title": "Fed’s Kashkari Says Treasury Market Still Working ‘As It Should’",
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQT2JYbHlITkliXzVOWkpxNUg3SGM0THN0MFE4V2NmdmxQZVdqWnpvaHNRVVpjczNPQzVRdGtHXzJUYlgxME4xS0M2T1NYTEdSSUpUNDNkSVpxNUtIWTJUNzcyeGJnaWc5bWEtallnRHVESDNKZWJSQjI2VGtpNTE0LUtoalFGRXVuWGFabW1MX1FmSE55NEtXUWNlQkNYRnNJRzh3NHJETlNSQkYzazJGVDZLWQ?oc=5",
           "domain": "bloomberg.com",
-          "source_name": "Bloomberg",
+          "source_name": "Bloomberg.com",
           "timestamp_utc": "2026-08-23T15:23:22+00:00",
           "entity": "Federal Reserve / Rates",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        }
+      ]
+    },
+    {
+      "entity": "Tariffs / Trade",
+      "ticker": null,
+      "cik": null,
+      "entity_type": "macro",
+      "representative_title": "'Bad deal': Canada's Carney announces retaliation after US tariffs",
+      "latest_timestamp_utc": "2026-08-23T14:51:00+00:00",
+      "categories": [
+        "macro_rates"
+      ],
+      "sec_forms": [],
+      "source_domains": [
+        "gpb.org",
+        "newsnationnow.com",
+        "usatoday.com"
+      ],
+      "recent_evidence_count": 3,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "'Bad deal': Canada's Carney announces retaliation after US tariffs",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYnB2X2dteXdmaGNwS09QSWhoVWozSWVvUjMwV2lQenN1ZkZxV29RV2VxXzZhOEpVOU1OUzJKQy1UaE5jUDhVaGNFNGlNQXQyS2pfUGwwU2dGamw3UVNLT1E4VEtzRGJHekxZQ2gzS21zTnlBZmtrQlhiQUctRmp2OG1BWm1WWkFsV3U5UUswVEJ2M25DbEJrRm5fX3Q?oc=5",
+          "domain": "usatoday.com",
+          "source_name": "USA Today",
+          "timestamp_utc": "2026-08-23T14:51:00+00:00",
+          "entity": "Tariffs / Trade",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "As Canada readies retaliatory tariffs, Mark Carney says his nation is 'at war' with U.S.",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdTlKeVJkNWxmMEx2X2cwMFl5aG1xUUNMVlpEWEd5OGJ4aEtaUXQwSEpLWUF2UlBnekhCa0gzYlJXdHM2R1JSVExPeEhnV1VKVlBSeGpZeWJ0eHNSbVlQRHgzQjBYQTFITmVqQ3FvWmxMdERBT0lsV1dzRXExTk9oeWY5ZDhFVFNaMjljM1VfNmlfNjZfMzRwalNmcU5ha0FMVGNHbG5CT0dRYUZf?oc=5",
+          "domain": "gpb.org",
+          "source_name": "Georgia Public Broadcasting",
+          "timestamp_utc": "2026-08-23T14:12:13+00:00",
+          "entity": "Tariffs / Trade",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "Canada announces retaliatory tariffs to begin Sept. 8",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNYlJFZF9KQWhGM2dTZjFSY0ZmcmpQdTBxb0xpWGR6aU45VVp1ay1VemgyWmdyREhIS1V5aDZtY1RURHhaNUNSVHQtRkpodzE4S19zUThyNkNoZVFTaElTU0hNd1B1NFN2WW5VTXdmSkhSM041dTBZUG5aMTVYTkFCMnhPaUZPZ9IBiwFBVV95cUxNdWhHa0FrNUg3QWRicERnSTcyVmFUUFFBS3RjLTZqcGQ1Zk5ldlg0QTM1anhfRllXREJxM2hoMU9GTHVWbzZpbmoxX0JZQW5CQlA2bUhZUVRQdTdqTzdKS3pUcU9GRDdzZlRXQnd3RmRHdFhtejgtVEpPdS1vanNYM211bWFsYmlnQ25j?oc=5",
+          "domain": "newsnationnow.com",
+          "source_name": "NewsNation",
+          "timestamp_utc": "2026-08-23T12:55:25+00:00",
+          "entity": "Tariffs / Trade",
           "ticker": null,
           "cik": null,
           "entity_type": "macro"
@@ -1197,51 +1419,6 @@
       "entity_correction": "paramount_media_disambiguation"
     },
     {
-      "entity": "SK hynix",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "foreign_company",
-      "representative_title": "SK hynix HBM Packaging at Hot Chips 2026",
-      "latest_timestamp_utc": "2026-08-23T20:40:15+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "servethehome.com",
-        "wccftech.com"
-      ],
-      "recent_evidence_count": 2,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "SK hynix HBM Packaging at Hot Chips 2026",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAzVG1Ib00xNlY4cktzUWRCTmpSUTRrV1B6UjBKRjQyTTFsSWoydUlzd3REaHFFLTBscW9LUU52cUxfdjNKWC1XOFZGb2E0eUsxTWV3VU5lSWNnT3RoV3lRdE5nR2V3RXY2T1hCaGhTeldyRkhrVjNaUXB3?oc=5",
-          "domain": "servethehome.com",
-          "source_name": "ServeTheHome",
-          "timestamp_utc": "2026-08-23T20:40:15+00:00",
-          "entity": "SK hynix",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "foreign_company"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "SK Hynix Unpacks Advanced Packaging Technologies, Including Intel EMIB, For Its Next-Gen HBM Memory As It Eyes 3D Structures For The Future",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPb2NraE1nVDJleTFJUVZadndPMEdOSi1WTmxjQ1o0aFB0M1l2MGFEUlJ6YTJsTFN2U1NpaTdXZmpXblBRZ2Z2MF9LczBmZmh4MWhuMjFuSWp6QTgwTXEzdkdrZzJFakFsQzdWZEdMY1dQWG1MRjloWktUdzFiY1NOM2UyN2U0TVhma2pnT3BVNDROTmQtcFd5YtIBngFBVV95cUxQNjVJTDlBMzllTmFiTGgzMXJ2ZXQ0X0NWWWx0RTkxQ1dGSkQ2eFdpQmlhYjBFcWE3YU1TYS1Na2FUNVNGYTBESHV0eXlHeXBIOFBxNVd0YThqeGpUWTktclZCTFVBUGxoS3BDbGNLYnkzWEIzbFRuTWZNdUpaM0t4VXFFa1VoVUM5XzBuQzhJeHNfOFd4M01xV0V0NlZZZw?oc=5",
-          "domain": "wccftech.com",
-          "source_name": "Wccftech",
-          "timestamp_utc": "2026-08-23T20:30:00+00:00",
-          "entity": "SK hynix",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "foreign_company"
-        }
-      ]
-    },
-    {
       "entity": "Tariffs / Trade",
       "ticker": null,
       "cik": null,
@@ -1253,7 +1430,6 @@
       ],
       "sec_forms": [],
       "source_domains": [
-        "nwitimes.com",
         "tucson.com"
       ],
       "recent_evidence_count": 2,
@@ -1262,9 +1438,9 @@
           "source_type": "news_rss",
           "category": "macro_rates",
           "title": "Trump to lower beef tariffs despite objections (copy)",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5od1lCY0JCTHBWeFZmc1NQcVVCY1hqY2oxV24yUTBBTTRXR2pSRGZ0dnQ1SGh5M3BSS3BRaUhCZmtkVWd6SmY0bEsxcVZxR3Z4c1R4aWdBbFRLZENHdjMycHNndmhtM3lrNjROS05OOFI0R1FTNmhxc2V3?oc=5",
-          "domain": "nwitimes.com",
-          "source_name": "nwitimes.com",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8ybFJFU3FJQ2phdGJBbGVyNTF1anJfazh0V1BUblBLSXBFTU5XRzNObnI4OE5QQW8xMzRTaXhXLXBXQWhuWk05LTBsVWxoZTEya2k0SWVXS000LXJoZHpXRzZRMnlrdHNlenUxREZNX3AyR2pKZXVn?oc=5",
+          "domain": "tucson.com",
+          "source_name": "Arizona Daily Star",
           "timestamp_utc": "2026-08-23T20:30:00+00:00",
           "entity": "Tariffs / Trade",
           "ticker": null,
@@ -1508,51 +1684,6 @@
           "ticker": null,
           "cik": null,
           "entity_type": "macro"
-        }
-      ]
-    },
-    {
-      "entity": "AI Infrastructure",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "theme",
-      "representative_title": "Samsung Leverages Advanced Logic Processes To Advance HBM As It Works On Its Next-Gen zHBM DRAM That 3D Stacks Memory On Compute",
-      "latest_timestamp_utc": "2026-08-23T18:45:35+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "servethehome.com",
-        "wccftech.com"
-      ],
-      "recent_evidence_count": 2,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Samsung Leverages Advanced Logic Processes To Advance HBM As It Works On Its Next-Gen zHBM DRAM That 3D Stacks Memory On Compute",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcXRJUUxrMVA1WUxsd19uSXVvMUJtOHFNaFAzUHZvZ2VpQnE4VEM2UjFQaVZsSnpkUDhsc3BJTGh3emxpTW9OQ0V5Z2MzRm9SRVNuT2lOZmlUQVlDMTFhVFdKQnZnNlZtcmw5ZDI5d0paMU5aaHVRTEtGQ3d5dVNBX1VYRXc2OFRnY1VhVDVQZGU0aTZUb2JxRk1VeVdPbHZNeUw1dVh4MNIBrAFBVV95cUxNck1hdjJrdnN1RGZtc29palBjZzFRQjVzVXJMY2lmTjZDNHBDUWFfakVhS0RnSHhHTFYyQ1dMUERkVldXR1FhUS16Z0VxS2JYbVR4azBkcy1CSlo5ckRrVUw1MHRMMVZ6ek5TbGgtOV9qbEdWS0JweWVlN2ppeUo4NkkzNnByNm14LTZQX2NmZGdUX3BoZXQyUU1WODl2QllrQVZQRXM1WkE0ZXFB?oc=5",
-          "domain": "wccftech.com",
-          "source_name": "Wccftech",
-          "timestamp_utc": "2026-08-23T18:45:35+00:00",
-          "entity": "AI Infrastructure",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "theme"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Samsung HBM Development History",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9uSThiV1p4OUNBWUEyNURLNTlMeUNoUHJXelNRRHFnUWZJcFp5ZUVmZ013NEtuZzVVUGVST2NGeS01N1B5bDI2Si1wTzdkRGg3OEpyN2NhUXVROXdMaGszdGJjU3NiRzFONkV2aEZsYW1wT2JzM0s0?oc=5",
-          "domain": "servethehome.com",
-          "source_name": "ServeTheHome",
-          "timestamp_utc": "2026-08-23T18:30:18+00:00",
-          "entity": "AI Infrastructure",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "theme"
         }
       ]
     },
@@ -1873,47 +2004,46 @@
       ]
     },
     {
-      "entity": "Tariffs / Trade",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "macro",
-      "representative_title": "'Bad deal': Canada's Carney announces retaliation after US tariffs",
-      "latest_timestamp_utc": "2026-08-23T14:51:00+00:00",
+      "entity": "NVIDIA CORP",
+      "ticker": "NVDA",
+      "cik": "1045810",
+      "entity_type": "company",
+      "representative_title": "Citi expects Nvidia stock to trade higher post earnings",
+      "latest_timestamp_utc": "2026-08-23T11:47:07+00:00",
       "categories": [
-        "macro_rates"
+        "earnings_guidance"
       ],
       "sec_forms": [],
       "source_domains": [
-        "newsnationnow.com",
-        "usatoday.com"
+        "finance.yahoo.com"
       ],
       "recent_evidence_count": 2,
       "evidence": [
         {
           "source_type": "news_rss",
-          "category": "macro_rates",
-          "title": "'Bad deal': Canada's Carney announces retaliation after US tariffs",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYnB2X2dteXdmaGNwS09QSWhoVWozSWVvUjMwV2lQenN1ZkZxV29RV2VxXzZhOEpVOU1OUzJKQy1UaE5jUDhVaGNFNGlNQXQyS2pfUGwwU2dGamw3UVNLT1E4VEtzRGJHekxZQ2gzS21zTnlBZmtrQlhiQUctRmp2OG1BWm1WWkFsV3U5UUswVEJ2M25DbEJrRm5fX3Q?oc=5",
-          "domain": "usatoday.com",
-          "source_name": "USA Today",
-          "timestamp_utc": "2026-08-23T14:51:00+00:00",
-          "entity": "Tariffs / Trade",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "macro"
+          "category": "earnings_guidance",
+          "title": "Citi expects Nvidia stock to trade higher post earnings",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPTVZJUTJuOWtlQnc3aExvU3R1YkFFMEwtZFVmLU1JdUJsY0I5aGp2ZmRlVlNmRjZORjBYV1NidFVBVW9WVEgtOUk2bVJ5RHZYWlZGMTM2YWpscUo1c2FIQklZRnVrTWFvSjNwQTlnalpBM29ROVpOU20wYnQ4WnJVM1V1NE9iX1EtdFNjN0hZVWJfeHN3d0ZKcWZ2WkQ?oc=5",
+          "domain": "finance.yahoo.com",
+          "source_name": "Yahoo Finance",
+          "timestamp_utc": "2026-08-23T11:47:07+00:00",
+          "entity": "NVIDIA CORP",
+          "ticker": "NVDA",
+          "cik": "1045810",
+          "entity_type": "company"
         },
         {
           "source_type": "news_rss",
-          "category": "macro_rates",
-          "title": "Canada announces retaliatory tariffs to begin Sept. 8",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNYlJFZF9KQWhGM2dTZjFSY0ZmcmpQdTBxb0xpWGR6aU45VVp1ay1VemgyWmdyREhIS1V5aDZtY1RURHhaNUNSVHQtRkpodzE4S19zUThyNkNoZVFTaElTU0hNd1B1NFN2WW5VTXdmSkhSM041dTBZUG5aMTVYTkFCMnhPaUZPZ9IBiwFBVV95cUxNdWhHa0FrNUg3QWRicERnSTcyVmFUUFFBS3RjLTZqcGQ1Zk5ldlg0QTM1anhfRllXREJxM2hoMU9GTHVWbzZpbmoxX0JZQW5CQlA2bUhZUVRQdTdqTzdKS3pUcU9GRDdzZlRXQnd3RmRHdFhtejgtVEpPdS1vanNYM211bWFsYmlnQ25j?oc=5",
-          "domain": "newsnationnow.com",
-          "source_name": "NewsNation",
-          "timestamp_utc": "2026-08-23T12:55:25+00:00",
-          "entity": "Tariffs / Trade",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "macro"
+          "category": "earnings_guidance",
+          "title": "Nvidia's Q2 earnings to test resurgent AI trade",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPeG1sTG1ra3lPVXF0YVI1TlRmUEg2bGJ2cjlzNThjQWV2TFVERTZnQlVnWVVNT29JaDhhYUZ4bVRzVFpIemdvZmozOTZLS05pTW5Ob1BPS3phU2hNSUpoLTh2VkZUZ290Y2NIeEtQQ2IxNmZBRnhRQkpGelUzcldoS2ZHd19EX0gtQjFhT0g5QTdrTEdJc0Fj?oc=5",
+          "domain": "finance.yahoo.com",
+          "source_name": "Yahoo Finance",
+          "timestamp_utc": "2026-08-23T11:25:02+00:00",
+          "entity": "NVIDIA CORP",
+          "ticker": "NVDA",
+          "cik": "1045810",
+          "entity_type": "company"
         }
       ]
     },
@@ -2034,6 +2164,37 @@
           "entity": "Affirm Holdings, Inc.",
           "ticker": "AFRM",
           "cik": "1820953",
+          "entity_type": "company"
+        }
+      ]
+    },
+    {
+      "entity": "NVIDIA CORP",
+      "ticker": "NVDA",
+      "cik": "1045810",
+      "entity_type": "company",
+      "representative_title": "Dow Jones Futures Due With Market At Key Point; Nvidia, Tariffs, Warsh In Focus",
+      "latest_timestamp_utc": "2026-08-23T21:32:00+00:00",
+      "categories": [
+        "earnings_guidance"
+      ],
+      "sec_forms": [],
+      "source_domains": [
+        "investors.com"
+      ],
+      "recent_evidence_count": 1,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "earnings_guidance",
+          "title": "Dow Jones Futures Due With Market At Key Point; Nvidia, Tariffs, Warsh In Focus",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUkR0Mk1hdnJPQVZHWEJYWXQ2UENlazJ1OG1EWTVtNFVYLTdMVHpfbVRIQ09zMmtMRnlLT1dnd0VyVzh1cTQzVm1jMS1keHR1TUNXOXBPSXEwWE10bFNoTi1Sd1ptX1lDcHhzaG5OaTFwTzE0UlBvTzgzTHpGVkVQeUoyY2szcks3RkFENTdPbmRVUVFWMjZaWF93cFpXcnZEUEM3d21BTGpKcWZJblEtcEhJVjA?oc=5",
+          "domain": "investors.com",
+          "source_name": "Investor's Business Daily",
+          "timestamp_utc": "2026-08-23T21:32:00+00:00",
+          "entity": "NVIDIA CORP",
+          "ticker": "NVDA",
+          "cik": "1045810",
           "entity_type": "company"
         }
       ]
@@ -2205,7 +2366,7 @@
       ],
       "sec_forms": [],
       "source_domains": [
-        "uk.finance.yahoo.com"
+        "finance.yahoo.com"
       ],
       "recent_evidence_count": 1,
       "evidence": [
@@ -2213,9 +2374,9 @@
           "source_type": "news_rss",
           "category": "earnings_guidance",
           "title": "IDP Education (ASX:IEL) Earnings Slide Keeps The Undervalued Narrative In Focus",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOekwxMzRqOHhZT25XVHZpSmd4UG1ESWliYTNVblhKX05McXBOWjNQWlhGaklvRGlDQlhEWDl3NDhVcWlKSTRTSVh2OTZPaWFRdnVINFAzcjFDcnB1ZWpqbTlQdmh0Q1M4cmxJUjk5cHNmSkhLYklWQldlNVlpVUVOUXp1cmNkdw?oc=5",
-          "domain": "uk.finance.yahoo.com",
-          "source_name": "Yahoo Finance UK",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNblJIOFV2cFAxTVBNSU1oUjJRUmtkWHBjNkIzZGkwZWlvck9fTmtSNURlQWNJd01tWU9JN3NOVy0xT1kwTGlabHZkdVNKai1sbWFYcU50d3NWZE1KZ1ByN05jc0RldnJhMDJRTnl6MExiZDNWT3g3RU5VSWZ6Uk43ZFZIS1JrNWNMaFdoQWNwaWY2cEozLWNObGJUWQ?oc=5",
+          "domain": "finance.yahoo.com",
+          "source_name": "Yahoo Finance",
           "timestamp_utc": "2026-08-23T21:08:48+00:00",
           "entity": "ASE Technology Holding Co., Ltd.",
           "ticker": "ASX",
@@ -2380,68 +2541,6 @@
       ]
     },
     {
-      "entity": "SK hynix",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "foreign_company",
-      "representative_title": "SK hynix Memory Capacity Thermal Management",
-      "latest_timestamp_utc": "2026-08-23T20:48:15+00:00",
-      "categories": [
-        "pricing_capacity"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "servethehome.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "pricing_capacity",
-          "title": "SK hynix Memory Capacity Thermal Management",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5fSkFERkc5dXE1X0p1eElnY3c5emdXUk1GNXhMUVB1TlRoWTZCQ0dzendKdDUwRmEtanJfQW5ObWtWbmFSS2hqNnVoSWJNYWNWTHhEb3pVRFM1alA4cXgwRk5mSXdmcVA5WWdQMmNn?oc=5",
-          "domain": "servethehome.com",
-          "source_name": "ServeTheHome",
-          "timestamp_utc": "2026-08-23T20:48:15+00:00",
-          "entity": "SK hynix",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "foreign_company"
-        }
-      ]
-    },
-    {
-      "entity": "SK hynix",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "foreign_company",
-      "representative_title": "SK hynix The more HBM adoption is more save the space, power & operation cost",
-      "latest_timestamp_utc": "2026-08-23T20:48:09+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "servethehome.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "SK hynix The more HBM adoption is more save the space, power & operation cost",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE12U0ZodDJnVmdLSXlEWDVhQ281TDNSTVlUNmozQ2loRmh2d2pNeFVrRzQzYlYwNW10c1UwbHU4WHlaOGdTdmJ3ckFpUkstelFVT2pRT0w1RWgySEJfUDlnTEROLWszcUIxeGNCTm5R?oc=5",
-          "domain": "servethehome.com",
-          "source_name": "ServeTheHome",
-          "timestamp_utc": "2026-08-23T20:48:09+00:00",
-          "entity": "SK hynix",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "foreign_company"
-        }
-      ]
-    },
-    {
       "entity": "AI Infrastructure",
       "ticker": null,
       "cik": null,
@@ -2500,6 +2599,37 @@
           "ticker": null,
           "cik": null,
           "entity_type": "theme"
+        }
+      ]
+    },
+    {
+      "entity": "KULICKE & SOFFA INDUSTRIES INC",
+      "ticker": "KLIC",
+      "cik": "56978",
+      "entity_type": "company",
+      "representative_title": "Can Kulicke and Soffa (KLIC) Leverage New Leadership To Reframe Its Advanced Packaging Strategy?",
+      "latest_timestamp_utc": "2026-08-23T20:24:03+00:00",
+      "categories": [
+        "ai_semis"
+      ],
+      "sec_forms": [],
+      "source_domains": [
+        "simplywall.st"
+      ],
+      "recent_evidence_count": 1,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "ai_semis",
+          "title": "Can Kulicke and Soffa (KLIC) Leverage New Leadership To Reframe Its Advanced Packaging Strategy?",
+          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNcGVTeVhpbFRib2FXU29IdjNwVmdZd3dQRHBmTHVJcUpfdVFWQ1FRRTAzSFZjMVlQWWxVVHNHYm1LZUgzNklWTlJBN0o4WU9PTHF1LVEwald5WEZyUkp6NktoVFdWbkhBc2hUVVJmSEJrQXdvN2JlVUlHMm9pSnNBZ18yOTZvY25RNkZWVGdVa3RmUHZvTUNVRTZtQUFmYlN0OTRHNElDS3NVMF96THJLU2NHVjhoa1J1bHhDbWtxNlV0dUY1elI1TGZSeWExTHpmX2JManYxX2JVMWstMWZuUXdYTXpGNVp3WllzekZB0gHuAUFVX3lxTE1wZVN5WGlsVGJvYVdTb0h2M3BWZ1l3d1BEcGZMdUlxSl91UVZDUVFFMDNIVmMxWVBZbFVUc0dibUtlSDM2SVZOUkE3SjhZT09McXUtUTBqV3lYRnJSSno2S2hUV1ZuSEFzaFRVUmZIQmtBd283YmVVSUcyb2lKc0FnXzI5Nm9jblE2RlZUZ1VrdGZQdm9NQ1VFNm1BQWZiU3Q5NEc0SUNLc1UwX3pMcktTY0dWOGhrUnVseENta3E2VXR1RjV6UjVMZlJ5YTFMemZfYkxqdjFfYlUxay0xZm5Rd1hNekY1WndaWXN6RkE?oc=5",
+          "domain": "simplywall.st",
+          "source_name": "simplywall.st",
+          "timestamp_utc": "2026-08-23T20:24:03+00:00",
+          "entity": "KULICKE & SOFFA INDUSTRIES INC",
+          "ticker": "KLIC",
+          "cik": "56978",
+          "entity_type": "company"
         }
       ]
     },
@@ -2845,6 +2975,37 @@
       ]
     },
     {
+      "entity": "SOUTHERN CO",
+      "ticker": "SO",
+      "cik": "92122",
+      "entity_type": "company",
+      "representative_title": "Severe Shortage of Female Doctors in Southern Afghanistan; Many Government Hospitals Lack Even a Midwife",
+      "latest_timestamp_utc": "2026-08-23T19:27:46+00:00",
+      "categories": [
+        "pricing_capacity"
+      ],
+      "sec_forms": [],
+      "source_domains": [
+        "8am.media"
+      ],
+      "recent_evidence_count": 1,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "pricing_capacity",
+          "title": "Severe Shortage of Female Doctors in Southern Afghanistan; Many Government Hospitals Lack Even a Midwife",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBVbVBnQmViaHJLME1ERTJRVVlPVXFMc3AySmNNOURyU1JZc1BidmFHU1p2RmppVk5IMXhrTldQN2hNZXJOX3Nrc3RRMzNPODJWaFZTcDdsYWtCMzI3LWpkYXZwMGg4ME9OUFhpYXIzX0VkY2FCVkE?oc=5",
+          "domain": "8am.media",
+          "source_name": "8AM Media",
+          "timestamp_utc": "2026-08-23T19:27:46+00:00",
+          "entity": "SOUTHERN CO",
+          "ticker": "SO",
+          "cik": "92122",
+          "entity_type": "company"
+        }
+      ]
+    },
+    {
       "entity": "GOLDMAN SACHS GROUP INC",
       "ticker": "GS",
       "cik": "886982",
@@ -3000,43 +3161,12 @@
       ]
     },
     {
-      "entity": "MICROSOFT CORP",
-      "ticker": "MSFT",
-      "cik": "789019",
+      "entity": "PEGASYSTEMS INC",
+      "ticker": "PEGA",
+      "cik": "1013857",
       "entity_type": "company",
-      "representative_title": "Mapping Microsoft’s Potential Healthcare AI and Technology Acquisition Horizons Across North America, Europe and the Commonwealth",
-      "latest_timestamp_utc": "2026-08-23T18:53:29+00:00",
-      "categories": [
-        "mna"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "healthcare.digital"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "mna",
-          "title": "Mapping Microsoft’s Potential Healthcare AI and Technology Acquisition Horizons Across North America, Europe and the Commonwealth",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNN1dnTDFGcVoxakRkVFJWUVQwTGhFdU9xM2FxZXY3c2VyWF9mbnFvZmdVVDE3M2dSeUk2emgtLTZNS3ZxTVU3YS1kMVZ1MURkNFJKR1N0U21OUk1xWERzTVJCYjk2TnZvOVRzU2tWQU9hb3EtbHhIekROdUxLSTlTRm9rSkcwZ2c0UlppY0ZNeU5xZWU5VXFPM0drQzFkQUZjbDJ5UnVRTnNHb1F6MjNINWF2alJPZlFtcnpZZ3ViOWdKYS1uYVZzaG43OTlfU3hQb3VCdTNZVy1rWUk?oc=5",
-          "domain": "healthcare.digital",
-          "source_name": "healthcare.digital",
-          "timestamp_utc": "2026-08-23T18:53:29+00:00",
-          "entity": "MICROSOFT CORP",
-          "ticker": "MSFT",
-          "cik": "789019",
-          "entity_type": "company"
-        }
-      ]
-    },
-    {
-      "entity": "LEE ENTERPRISES, Inc",
-      "ticker": "LEE",
-      "cik": "58361",
-      "entity_type": "company",
-      "representative_title": "LEE Investors Have Opportunity to Join Lee Enterprises, Incorporated Fraud Investigation with SBS Law",
-      "latest_timestamp_utc": "2026-08-23T18:46:00+00:00",
+      "representative_title": "PEGA Investors Have Opportunity to Join Pegasystems Inc. Fraud Investigation with SBS Law",
+      "latest_timestamp_utc": "2026-08-23T19:00:00+00:00",
       "categories": [
         "regulatory_legal"
       ],
@@ -3049,15 +3179,46 @@
         {
           "source_type": "news_rss",
           "category": "regulatory_legal",
-          "title": "LEE Investors Have Opportunity to Join Lee Enterprises, Incorporated Fraud Investigation with SBS Law",
-          "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxNUjMwSWZBX2VTN1FGTzU3WVRsLXZjNm14TUZ3Y0NqbFk4NzY1Rnc1RGJ0cGctZGQ0Y01vMHFWOXF1N1V6RUdWV0tHdVB3TDBTZHY1dF9kTjV3Y0pEV1Y2NktwNE9sWkdNX1phZXR4NzI5ZmhoZTRORXRtWTloUjZYaVdOa1UtWkVzZUUyRGhHaWd5b3dxQk1CZUFWSzF2dnhvMUVkWXdMbGpEdzBRUzRoUFhhMXR4RnhZTkJPLV91eW5wRFdLbDczbUhidzMtT0pMQnVfZGtvaG5iVFRXRGJRZHNsQVRDU2JEbnFER0dnSmhud2ZPdkhlUjBOa1hiNWhXQ1BRUHU3Sll0bUN2a1g5TTdQTFNNNEhYMGZhUkhGRGc5V1F0Wk9fN0FqN1lUQ3M1eGJMaDdR?oc=5",
+          "title": "PEGA Investors Have Opportunity to Join Pegasystems Inc. Fraud Investigation with SBS Law",
+          "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxPYzFGZHowUjFJTDJYVjRST3hEWWF4XzZqSXAxazlpMW5uQlBhX1VleEFLQVFIU2NfVFItN2VQeUJJWmtVOVJhQ1JfN1kwMlVaNUg2NGFEaExLQ2tGaTZQQ3VsZXQtVmxELVQ0X2tweDVxc1FGVWRnb3JRSEVQNHNzQkV4UXdGU3hmbDJZempPQVVfWHItMlV1d3NfQUdJZUVMcS1WVU94RGtfelNhRmVGQnE0OGJhX0RLZF9OcTZ2ZEdwamxyZE81TG9STUQwcXpvVlNRMk43S3Z6M1RlQ21SV2p1bGNabGhvTkVQSDliRlNWbHpSU3oxNHc5SERiaTZEMlRtRVZQeGZiaVVGa0tPT0REd09STExzQzZXdlhsd2dtS3hDR3c?oc=5",
           "domain": "daily-tribune.com",
           "source_name": "The Daily Tribune News",
-          "timestamp_utc": "2026-08-23T18:46:00+00:00",
-          "entity": "LEE ENTERPRISES, Inc",
-          "ticker": "LEE",
-          "cik": "58361",
+          "timestamp_utc": "2026-08-23T19:00:00+00:00",
+          "entity": "PEGASYSTEMS INC",
+          "ticker": "PEGA",
+          "cik": "1013857",
           "entity_type": "company"
+        }
+      ]
+    },
+    {
+      "entity": "AI Infrastructure",
+      "ticker": null,
+      "cik": null,
+      "entity_type": "theme",
+      "representative_title": "Samsung Leverages Advanced Logic Processes To Advance HBM As It Works On Its Next-Gen zHBM DRAM That 3D Stacks Memory On Compute",
+      "latest_timestamp_utc": "2026-08-23T18:45:35+00:00",
+      "categories": [
+        "ai_semis"
+      ],
+      "sec_forms": [],
+      "source_domains": [
+        "wccftech.com"
+      ],
+      "recent_evidence_count": 1,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "ai_semis",
+          "title": "Samsung Leverages Advanced Logic Processes To Advance HBM As It Works On Its Next-Gen zHBM DRAM That 3D Stacks Memory On Compute",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcXRJUUxrMVA1WUxsd19uSXVvMUJtOHFNaFAzUHZvZ2VpQnE4VEM2UjFQaVZsSnpkUDhsc3BJTGh3emxpTW9OQ0V5Z2MzRm9SRVNuT2lOZmlUQVlDMTFhVFdKQnZnNlZtcmw5ZDI5d0paMU5aaHVRTEtGQ3d5dVNBX1VYRXc2OFRnY1VhVDVQZGU0aTZUb2JxRk1VeVdPbHZNeUw1dVh4MNIBrAFBVV95cUxNck1hdjJrdnN1RGZtc29palBjZzFRQjVzVXJMY2lmTjZDNHBDUWFfakVhS0RnSHhHTFYyQ1dMUERkVldXR1FhUS16Z0VxS2JYbVR4azBkcy1CSlo5ckRrVUw1MHRMMVZ6ek5TbGgtOV9qbEdWS0JweWVlN2ppeUo4NkkzNnByNm14LTZQX2NmZGdUX3BoZXQyUU1WODl2QllrQVZQRXM1WkE0ZXFB?oc=5",
+          "domain": "wccftech.com",
+          "source_name": "Wccftech",
+          "timestamp_utc": "2026-08-23T18:45:35+00:00",
+          "entity": "AI Infrastructure",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "theme"
         }
       ]
     },
@@ -3120,37 +3281,6 @@
           "ticker": null,
           "cik": null,
           "entity_type": "macro"
-        }
-      ]
-    },
-    {
-      "entity": "NVIDIA CORP",
-      "ticker": "NVDA",
-      "cik": "1045810",
-      "entity_type": "company",
-      "representative_title": "Dow Jones Futures Due With Market At Key Point; Nvidia, Tariffs, Warsh In Focus",
-      "latest_timestamp_utc": "2026-08-23T18:36:00+00:00",
-      "categories": [
-        "earnings_guidance"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "investors.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "earnings_guidance",
-          "title": "Dow Jones Futures Due With Market At Key Point; Nvidia, Tariffs, Warsh In Focus",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUkR0Mk1hdnJPQVZHWEJYWXQ2UENlazJ1OG1EWTVtNFVYLTdMVHpfbVRIQ09zMmtMRnlLT1dnd0VyVzh1cTQzVm1jMS1keHR1TUNXOXBPSXEwWE10bFNoTi1Sd1ptX1lDcHhzaG5OaTFwTzE0UlBvTzgzTHpGVkVQeUoyY2szcks3RkFENTdPbmRVUVFWMjZaWF93cFpXcnZEUEM3d21BTGpKcWZJblEtcEhJVjA?oc=5",
-          "domain": "investors.com",
-          "source_name": "Investor's Business Daily",
-          "timestamp_utc": "2026-08-23T18:36:00+00:00",
-          "entity": "NVIDIA CORP",
-          "ticker": "NVDA",
-          "cik": "1045810",
-          "entity_type": "company"
         }
       ]
     },
@@ -3775,6 +3905,37 @@
       ]
     },
     {
+      "entity": "AI Infrastructure",
+      "ticker": null,
+      "cik": null,
+      "entity_type": "theme",
+      "representative_title": "3 AI Chip Stocks Down 15% or More to Buy Right Now",
+      "latest_timestamp_utc": "2026-08-23T17:59:38+00:00",
+      "categories": [
+        "ai_semis"
+      ],
+      "sec_forms": [],
+      "source_domains": [
+        "aol.com"
+      ],
+      "recent_evidence_count": 1,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "ai_semis",
+          "title": "3 AI Chip Stocks Down 15% or More to Buy Right Now",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE54YVFyTVhQd3Z5R3ZwbmJpQVRzeFFRSDZBa3VOMGtjUGtzYVRBdE9tMDJFSjVPZkd6ZHlfbkFSR0xRSDRBeTNmOVRTeWZ5QVZ1V1dBZ2NxRjk3bm1QRzBHenkxbm91SXFXV3RRX2tWN0MyMHM?oc=5",
+          "domain": "aol.com",
+          "source_name": "AOL.com",
+          "timestamp_utc": "2026-08-23T17:59:38+00:00",
+          "entity": "AI Infrastructure",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "theme"
+        }
+      ]
+    },
+    {
       "entity": "MICRON TECHNOLOGY INC",
       "ticker": "MU",
       "cik": "723125",
@@ -3895,37 +4056,6 @@
           "ticker": null,
           "cik": null,
           "entity_type": "macro"
-        }
-      ]
-    },
-    {
-      "entity": "SK hynix",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "foreign_company",
-      "representative_title": "SK Hynix considers building memory plant in Japan to bolster global HBM leadership",
-      "latest_timestamp_utc": "2026-08-23T17:40:16+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "kedglobal.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "SK Hynix considers building memory plant in Japan to bolster global HBM leadership",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBYRVBNUHdLcFJxMnJ3cjJ5TVlQNTJlVlNOUm1GLVVURGd4QkU5bWZPamQyTk5XOFp0MS1MVHB5LTFxX3oxMHJKY2FJQVBpSGFpOWthUlIzSHF2ZC0yaHMwY1hfb0VSZ1REb1FuSzByNW4yeUpBcndz?oc=5",
-          "domain": "kedglobal.com",
-          "source_name": "KED Global",
-          "timestamp_utc": "2026-08-23T17:40:16+00:00",
-          "entity": "SK hynix",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "foreign_company"
         }
       ]
     },
@@ -4519,37 +4649,6 @@
       ]
     },
     {
-      "entity": "Intercontinental Exchange, Inc.",
-      "ticker": "ICE",
-      "cik": "1571949",
-      "entity_type": "company",
-      "representative_title": "TAKE ACTION: Demand a Full Transparent Investigation into Biddeford ICE Shooting",
-      "latest_timestamp_utc": "2026-08-23T16:37:57+00:00",
-      "categories": [
-        "regulatory_legal"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "actionnetwork.org"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "regulatory_legal",
-          "title": "TAKE ACTION: Demand a Full Transparent Investigation into Biddeford ICE Shooting",
-          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPTXdEVzJpX0FYem1LLVItczk2Rm1IMDgza0w4NUFINXBhQlRTazVTdVQ3T1hrbXpnb3QxanJ4cEJmbXBiNmc0X1NFQlE3QldJRlBTWWJwYllQVlBjcndFNzEyVjF5MlhvaERrd3pwVGxQZVNuaGNGMUpZZWZELVVRQW5TU2lFODI5dEJCTG51N2VudHdwVl9oSk43Y2YyeUg0cThxOE12M2lSOC1RVXdubHJXRkN0N2wxSFhUZ2x1RFFTWjAtZ2JSbVpFUDJoMmJLME9SY2JNeHRMc3pLVEtMQ21udUVVSDdLdUE5M28xcks?oc=5",
-          "domain": "actionnetwork.org",
-          "source_name": "actionnetwork.org",
-          "timestamp_utc": "2026-08-23T16:37:57+00:00",
-          "entity": "Intercontinental Exchange, Inc.",
-          "ticker": "ICE",
-          "cik": "1571949",
-          "entity_type": "company"
-        }
-      ]
-    },
-    {
       "entity": "Liquidia Corp",
       "ticker": "LQDA",
       "cik": "1819576",
@@ -4799,37 +4898,6 @@
       ]
     },
     {
-      "entity": "AI Infrastructure",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "theme",
-      "representative_title": "Ubtech Robotics: A Semiconductor Alliance Meets a Hard Question About Cash",
-      "latest_timestamp_utc": "2026-08-23T15:41:39+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "ad-hoc-news.de"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Ubtech Robotics: A Semiconductor Alliance Meets a Hard Question About Cash",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxONHgteXU5R3I1THo0TG53cHJBVnRCTy1mWm1SeWJtWkxfdzRHRXA4V1JSOFhoWURSLTlacDg2Ml9tT1RMYlczLXNRZndBcC1XR1hlMzNRQmVxeTJSWU9sX0ZKdDVnVHRUN1c5dmJxeTNPTzhPMlBkTVU1V1B0blVzMncxVm85TUYwTlNLY3hvblplOHpQallacS1zV1JGazAyTWpPMmZQbDltbUNLSjFrZEJOaTJyQ1dlSHFUVEtHcVF1RXQzY0VDRWk0Tjd6bEhuSnpPU2JNdS12VWJGUkE?oc=5",
-          "domain": "ad-hoc-news.de",
-          "source_name": "Ad-hoc-news.de",
-          "timestamp_utc": "2026-08-23T15:41:39+00:00",
-          "entity": "AI Infrastructure",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "theme"
-        }
-      ]
-    },
-    {
       "entity": "Bitcoin / Crypto",
       "ticker": null,
       "cik": null,
@@ -4919,68 +4987,6 @@
           "ticker": "SKM",
           "cik": "1015650",
           "entity_type": "company"
-        }
-      ]
-    },
-    {
-      "entity": "ORANGE",
-      "ticker": "ORAN",
-      "cik": "1038143",
-      "entity_type": "company",
-      "representative_title": "Shots fired on Orange Street in Waterbury under investigation, police say",
-      "latest_timestamp_utc": "2026-08-23T15:20:00+00:00",
-      "categories": [
-        "regulatory_legal"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "wfsb.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "regulatory_legal",
-          "title": "Shots fired on Orange Street in Waterbury under investigation, police say",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVXpOa3VGTENtS1ZIbjFZZDFPTVg0SnVEU09kTW9yOVdpdHdJQmh3UG9kZ2hLem5tb3h5RGlBelRISVR2Ry1XWkx1NkVWLVJnd3FDTnlsY2ZtZDdEOElmZE01VWJia3VlbzFYRlhkZlM0cWw4NVk1WU5STERvRDB6d2w5TW1tNXJhbnliNWV0QmFFaDRYYk9UeUxleGphZEc4c1ZsYmFMMWFoT0JxOFo1bkI5eXLSAbQBQVVfeXFMTlV6Tmt1RkxDbUtWSG4xWWQxT01YNEp1RFNPZE1vcjlXaXR3SUJod1BvZGdoS3pubW94eURpQXpUSElUdkctV1pMdTZFVi1SZ3dxQ055bGNmbWQ3RDhJZmRNNVViYmt1ZW8xWEZYZGZTNHFsODVZNVlOUkxEb0QwendsOU1tbTVyYW55YjVldEJhRWg0WGJPVHlMZXhqYWRHOHNWbGJhTDFhaE9CcThaNW5COXly?oc=5",
-          "domain": "wfsb.com",
-          "source_name": "WFSB",
-          "timestamp_utc": "2026-08-23T15:20:00+00:00",
-          "entity": "ORANGE",
-          "ticker": "ORAN",
-          "cik": "1038143",
-          "entity_type": "company"
-        }
-      ]
-    },
-    {
-      "entity": "AI Infrastructure",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "theme",
-      "representative_title": "BoC officer earns international recognition for semiconductor supply research",
-      "latest_timestamp_utc": "2026-08-23T15:17:53+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "tribune.net.ph"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "BoC officer earns international recognition for semiconductor supply research",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQWDMweHh6MktJOHhveGlsR1lrQktMM1JYSzNwaF9oc1BNcldxQTA0VURsVGlJb0hZdTc3akdhX2FqaXZEYm9hLVhxbUppanJSZGNSRVNyanNtVklkY2JocFg2UlFjaFZEcnQ3YXNJTERhVXpOZXdzQmdCbUxRZnV0d0pZdW9uRDFPN3NIUkxZZU1aa09idDBxTC1IbV92b2l4NmRNZkNNbmRKNk1helNvMQ?oc=5",
-          "domain": "tribune.net.ph",
-          "source_name": "Daily Tribune",
-          "timestamp_utc": "2026-08-23T15:17:53+00:00",
-          "entity": "AI Infrastructure",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "theme"
         }
       ]
     },
@@ -5233,37 +5239,6 @@
       ]
     },
     {
-      "entity": "Tariffs / Trade",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "macro",
-      "representative_title": "Hours after U.S. imposes tariffs, Canada says it'll strike back starting Sept. 8",
-      "latest_timestamp_utc": "2026-08-23T13:54:00+00:00",
-      "categories": [
-        "macro_rates"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "ijpr.org"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "macro_rates",
-          "title": "Hours after U.S. imposes tariffs, Canada says it'll strike back starting Sept. 8",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQOVFLbHhDSXhpbDJMN0J6NERqMk9yWUVNZDhUWUlUVDF1V2J2RjA5eVI1eTZPT2d2ZW5HMndGdUpBREFueU9Jdmo2ZHVVckNGSHVERzVJTTB2Uy0wUFlySlVoTE9EYnpfWG1uMzlvOWJ1OHJrdkNNY2w2S3NlN2lERmpTUVdBaXRYVUdRN1hWYm90ZHRWczQ2TGRVeW1FM3RwSUl0UEtIR2JyRDhFNlRyY09FXzd1VE1NMURodXN0Zy1ua2s?oc=5",
-          "domain": "ijpr.org",
-          "source_name": "Jefferson Public Radio",
-          "timestamp_utc": "2026-08-23T13:54:00+00:00",
-          "entity": "Tariffs / Trade",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "macro"
-        }
-      ]
-    },
-    {
       "entity": "Bitcoin / Crypto",
       "ticker": null,
       "cik": null,
@@ -5443,6 +5418,37 @@
           "source_name": "The Economist",
           "timestamp_utc": "2026-08-23T13:38:58+00:00",
           "entity": "Federal Reserve / Rates",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        }
+      ]
+    },
+    {
+      "entity": "Tariffs / Trade",
+      "ticker": null,
+      "cik": null,
+      "entity_type": "macro",
+      "representative_title": "Canadian PM Mark Carney claims country ‘at war’ with Trump on trade after tariffs: ‘We got attacked’",
+      "latest_timestamp_utc": "2026-08-23T13:22:00+00:00",
+      "categories": [
+        "macro_rates"
+      ],
+      "sec_forms": [],
+      "source_domains": [
+        "nypost.com"
+      ],
+      "recent_evidence_count": 1,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "Canadian PM Mark Carney claims country ‘at war’ with Trump on trade after tariffs: ‘We got attacked’",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMTVwY2hOV21CbjJINWNMU1VGTzVmN3FwdmdoOXlYUUdHRnpyMjdnZzkwbXlvbEQ0Wm1LcUhPdWk3ejBQN1E2YU5QWmRjd09ndkprRlRWWmxFMUpXSXctaE1kdUdhdEFNLVUyUGhFTE9zT3NjV09pVk1iYUhNbUthbEl0eXl1b2l1RzA3ZHcydWZZNE1BblJOR3hNWnlkN1RwcnNUV3pwZ1djYXhvSl81XzFSTlg5MGtoNENjUWVvR3AwUkk1ZG9v?oc=5",
+          "domain": "nypost.com",
+          "source_name": "New York Post",
+          "timestamp_utc": "2026-08-23T13:22:00+00:00",
+          "entity": "Tariffs / Trade",
           "ticker": null,
           "cik": null,
           "entity_type": "macro"
@@ -6012,37 +6018,6 @@
       "ticker": "NVDA",
       "cik": "1045810",
       "entity_type": "company",
-      "representative_title": "Nvidia's Q2 earnings to test resurgent AI trade",
-      "latest_timestamp_utc": "2026-08-23T11:25:02+00:00",
-      "categories": [
-        "earnings_guidance"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "finance.yahoo.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "earnings_guidance",
-          "title": "Nvidia's Q2 earnings to test resurgent AI trade",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPeG1sTG1ra3lPVXF0YVI1TlRmUEg2bGJ2cjlzNThjQWV2TFVERTZnQlVnWVVNT29JaDhhYUZ4bVRzVFpIemdvZmozOTZLS05pTW5Ob1BPS3phU2hNSUpoLTh2VkZUZ290Y2NIeEtQQ2IxNmZBRnhRQkpGelUzcldoS2ZHd19EX0gtQjFhT0g5QTdrTEdJc0Fj?oc=5",
-          "domain": "finance.yahoo.com",
-          "source_name": "Yahoo Finance",
-          "timestamp_utc": "2026-08-23T11:25:02+00:00",
-          "entity": "NVIDIA CORP",
-          "ticker": "NVDA",
-          "cik": "1045810",
-          "entity_type": "company"
-        }
-      ]
-    },
-    {
-      "entity": "NVIDIA CORP",
-      "ticker": "NVDA",
-      "cik": "1045810",
-      "entity_type": "company",
       "representative_title": "Nvidia Stock May Plunge After Earnings, Even If It Beats (NASDAQ:NVDA)",
       "latest_timestamp_utc": "2026-08-23T11:25:00+00:00",
       "categories": [
@@ -6260,37 +6235,6 @@
       "ticker": null,
       "cik": null,
       "entity_type": "theme",
-      "representative_title": "Japanese Government to Invest Additional ¥150 Billion in Semiconductor Maker Rapidus",
-      "latest_timestamp_utc": "2026-08-23T11:00:00+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "japannews.yomiuri.co.jp"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Japanese Government to Invest Additional ¥150 Billion in Semiconductor Maker Rapidus",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9UN0FKNEZWeDhRMm5KbVNoak04Y05HUkRMbTg1N1ViQ3I3UVNXNl9aeTg5cnViMmhZenF2NGo3a0RoUmU0Y1dXdGh1V2RPamY4ODB4Z2x5YkdWTzZOQTEtZnd5RGgwQnZBMThaNGJqUnNUeEU?oc=5",
-          "domain": "japannews.yomiuri.co.jp",
-          "source_name": "The Japan News",
-          "timestamp_utc": "2026-08-23T11:00:00+00:00",
-          "entity": "AI Infrastructure",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "theme"
-        }
-      ]
-    },
-    {
-      "entity": "AI Infrastructure",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "theme",
       "representative_title": "Meet FreeToken: An Edge-Native MoE Serving Engine that Runs 753B GLM-5.2 on a Single Workstation GPU",
       "latest_timestamp_utc": "2026-08-23T10:44:59+00:00",
       "categories": [
@@ -6442,37 +6386,6 @@
       ]
     },
     {
-      "entity": "NVIDIA CORP",
-      "ticker": "NVDA",
-      "cik": "1045810",
-      "entity_type": "company",
-      "representative_title": "What to Expect in Markets This Week: Nvidia Earnings; Software Firms, Discount Stores Also Report",
-      "latest_timestamp_utc": "2026-08-23T10:00:00+00:00",
-      "categories": [
-        "earnings_guidance"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "investopedia.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "earnings_guidance",
-          "title": "What to Expect in Markets This Week: Nvidia Earnings; Software Firms, Discount Stores Also Report",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNazdaUFJSQzJ5ZVFlX0FKeXBiNms0UnppWEpVYW5nSk5vSEMweUdmVTNMTElTOUhSclQyYVhHQUZRdHVyYXdnWDhWS1V1SHN4MW1LOGx2TDFJbkdocVUwT29NSDYzei1RLVRwNERxTTNIRUlodXRHLVlyWmhwSzlKUjdOdi1FeWtFVmQxNkxRQ2tLMHR1b3RHejNEMGNjS1ZBcURmMFI2NC0ycVpZVzI4R0J0bVZERGt2V2IzYjlfazN0WFhySXNhOUZB?oc=5",
-          "domain": "investopedia.com",
-          "source_name": "Investopedia",
-          "timestamp_utc": "2026-08-23T10:00:00+00:00",
-          "entity": "NVIDIA CORP",
-          "ticker": "NVDA",
-          "cik": "1045810",
-          "entity_type": "company"
-        }
-      ]
-    },
-    {
       "entity": "UNIVERSAL DISPLAY CORP PA",
       "ticker": "OLED",
       "cik": "1005284",
@@ -6531,37 +6444,6 @@
           "ticker": null,
           "cik": null,
           "entity_type": "crypto"
-        }
-      ]
-    },
-    {
-      "entity": "SK hynix",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "foreign_company",
-      "representative_title": "Nvidia to Raise AI Chip Prices at Least 15% as Memory Surge Boosts Samsung, SK Hynix Leverage",
-      "latest_timestamp_utc": "2026-08-23T09:31:05+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "en.bloomingbit.io"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Nvidia to Raise AI Chip Prices at Least 15% as Memory Surge Boosts Samsung, SK Hynix Leverage",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA1QnlHNHhoa1BZSUhndlVDTEo3SXlqcXBmSVNmTS03d1Y2Mm5Ib2dHTFN3Nmt6TFNVMVhCNTdoRGowRDNTNU5MTnJiSEVvZFplRS1YVw?oc=5",
-          "domain": "en.bloomingbit.io",
-          "source_name": "bloomingbit",
-          "timestamp_utc": "2026-08-23T09:31:05+00:00",
-          "entity": "SK hynix",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "foreign_company"
         }
       ]
     },
@@ -6721,37 +6603,6 @@
       ]
     },
     {
-      "entity": "MICROSOFT CORP",
-      "ticker": "MSFT",
-      "cik": "789019",
-      "entity_type": "company",
-      "representative_title": "Nvidia Delivers First 'Vera Rubin' Systems to Microsoft, Notifies Customers of 15% AI Server Price Hike",
-      "latest_timestamp_utc": "2026-08-23T09:00:43+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "finance.biggo.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Nvidia Delivers First 'Vera Rubin' Systems to Microsoft, Notifies Customers of 15% AI Server Price Hike",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5zLWhoeGRCdF9ROHlyX0VmVkRGVF9xSUdwZnNNcVFXY3F3WUF5djdpMGJJUzYtR3VQbzIxSGdEc3B3eUpMS1Zkc1BvMnRZUVB1ZHJiSDBBbm1fVnFjQ2NMRTcwaEVlR0lhaWFmUmRndVhQQ1dTSEE?oc=5",
-          "domain": "finance.biggo.com",
-          "source_name": "finance.biggo.com",
-          "timestamp_utc": "2026-08-23T09:00:43+00:00",
-          "entity": "MICROSOFT CORP",
-          "ticker": "MSFT",
-          "cik": "789019",
-          "entity_type": "company"
-        }
-      ]
-    },
-    {
       "entity": "Philip Morris International Inc.",
       "ticker": "PM",
       "cik": "1413329",
@@ -6845,33 +6696,33 @@
       ]
     },
     {
-      "entity": "AI Infrastructure",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "theme",
-      "representative_title": "US$ Weakness: Ranking the Winners and Losers in Semiconductor Memory",
-      "latest_timestamp_utc": "2026-08-23T08:05:28+00:00",
+      "entity": "ADVANCED MICRO DEVICES INC",
+      "ticker": "AMD",
+      "cik": "2488",
+      "entity_type": "company",
+      "representative_title": "Anthropic, OpenAI Build Chips as NVIDIA, AMD Develop AI Models",
+      "latest_timestamp_utc": "2026-08-23T08:13:02+00:00",
       "categories": [
         "ai_semis"
       ],
       "sec_forms": [],
       "source_domains": [
-        "smartkarma.com"
+        "chosun.com"
       ],
       "recent_evidence_count": 1,
       "evidence": [
         {
           "source_type": "news_rss",
           "category": "ai_semis",
-          "title": "US$ Weakness: Ranking the Winners and Losers in Semiconductor Memory",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPQ3kyXy0yWDNCb0t2ZVRvNVJjQnNNaU9wQnEwSHAxc1dkdThOVFdYOUdtQVRsa2lMNDktMTBaWkdPWWdvOFVCQnk1RFFUNHYwaFpZbFdMTk9PVnFoRTZ0LWE1M1I3bGQxZU5YTFQ2LXE3T2l1WWszR2Jpa0txTWxJWWN2V1pNVXNYcjI1SHQ0YnBuREJ0NF9LMXZaMlo1Mkw5VU9GOE1sakFlYlNEYjhWVnA0VWdiSk9MY2pxNUJ4SjBPNWxObW9lcmVZNmlSdw?oc=5",
-          "domain": "smartkarma.com",
-          "source_name": "Smartkarma",
-          "timestamp_utc": "2026-08-23T08:05:28+00:00",
-          "entity": "AI Infrastructure",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "theme"
+          "title": "Anthropic, OpenAI Build Chips as NVIDIA, AMD Develop AI Models",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZC1Ja1dicnplRVVXV240ZUZUSjd4cjBESHhJLWI3ejI5UFVlWHl5S2FnM04ycXBYdjk3NUxvZm9QZFoxa2ZhM19FdFlWUHZyUmpMNl9aNFhyQzhhbmN1azBWVDdGZWotTkhMcXRIRTlHNzZ2cEFuOFc5WTIyZ21IUjRNc2pzWXk0?oc=5",
+          "domain": "chosun.com",
+          "source_name": "조선일보",
+          "timestamp_utc": "2026-08-23T08:13:02+00:00",
+          "entity": "ADVANCED MICRO DEVICES INC",
+          "ticker": "AMD",
+          "cik": "2488",
+          "entity_type": "company"
         }
       ]
     },
@@ -6996,6 +6847,37 @@
           "ticker": null,
           "cik": null,
           "entity_type": "crypto"
+        }
+      ]
+    },
+    {
+      "entity": "QUALCOMM INC/DE",
+      "ticker": "QCOM",
+      "cik": "804328",
+      "entity_type": "company",
+      "representative_title": "QCOM Stock Jumps Over 4% — Qualcomm Reportedly Eyes Tenstorrent Acquisition To Power AI Chip Ambitions",
+      "latest_timestamp_utc": "2026-08-23T07:24:04+00:00",
+      "categories": [
+        "ai_semis"
+      ],
+      "sec_forms": [],
+      "source_domains": [
+        "stocktwits.com"
+      ],
+      "recent_evidence_count": 1,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "ai_semis",
+          "title": "QCOM Stock Jumps Over 4% — Qualcomm Reportedly Eyes Tenstorrent Acquisition To Power AI Chip Ambitions",
+          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPUHN4a2VZUDlnNkJ2VkEtUVpoOXVsWGlMcG9Zamd5clVSV3hMeXppVC1JcWllTmxCQjhWN2trQ2huUUZjWV9QSzlhT1ZvMWZnVGRPUm1RRmtiX1ZFc3pYZlI2NE9SQk4zRnZmc29vTFdubHhpU1hDRzQ0cjJELVQtNk1MYUpTaklHcVctXzl3SWlGTW5uaVdKVkdmdmlTVTZKVWNUUlBhUkxFUGxRODMwWkZCWFFwdnlsSkxUajFiTksxSlVjNTl0MWtkcV9FY0V5czJyTUtIMENneDJkSVAySUVjMVpidVVOdDRVSWJhaWdRS3BrUVMweURORkhSR2pE?oc=5",
+          "domain": "stocktwits.com",
+          "source_name": "Stocktwits",
+          "timestamp_utc": "2026-08-23T07:24:04+00:00",
+          "entity": "QUALCOMM INC/DE",
+          "ticker": "QCOM",
+          "cik": "804328",
+          "entity_type": "company"
         }
       ]
     },
@@ -7279,37 +7161,6 @@
       ]
     },
     {
-      "entity": "POET TECHNOLOGIES INC.",
-      "ticker": "POET",
-      "cik": "1437424",
-      "entity_type": "company",
-      "representative_title": "POET Stock On Track To Record Biggest Single-Day Fall After Disclosing Order Cancellation From Celestial AI – Here’s What Happened",
-      "latest_timestamp_utc": "2026-08-23T05:06:32+00:00",
-      "categories": [
-        "contract_order"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "stocktwits.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "contract_order",
-          "title": "POET Stock On Track To Record Biggest Single-Day Fall After Disclosing Order Cancellation From Celestial AI – Here’s What Happened",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOREw2THRpTUJIbm5zNmlvY01URm9xNVBPZ1hBbVNoUEw2dHBwUjJ5RDBxOVZqcTNSVTNPMm40Qlc1WkVwMmdNZ1RJOGw5SDU1LTVlX0hpelRrWXVDbnd6SnQ4VDlSNVNqclRzM1ZGSE9vZkNON3RqSGZWVEl0N0oya3JlVkdmQXdPMVhRUE9qQmUxSEx4N1psOFVTckprbXRNOFNBZ1FDVldrYU1pVlpLUTY1WVpTSURaalJYcg?oc=5",
-          "domain": "stocktwits.com",
-          "source_name": "Stocktwits",
-          "timestamp_utc": "2026-08-23T05:06:32+00:00",
-          "entity": "POET TECHNOLOGIES INC.",
-          "ticker": "POET",
-          "cik": "1437424",
-          "entity_type": "company"
-        }
-      ]
-    },
-    {
       "entity": "MICRON TECHNOLOGY INC",
       "ticker": "MU",
       "cik": "723125",
@@ -7496,6 +7347,68 @@
       ]
     },
     {
+      "entity": "AI Infrastructure",
+      "ticker": null,
+      "cik": null,
+      "entity_type": "theme",
+      "representative_title": "4 Famous Billionaire Investors Just Bought This Little Known Semiconductor Stock",
+      "latest_timestamp_utc": "2026-08-23T03:35:28+00:00",
+      "categories": [
+        "ai_semis"
+      ],
+      "sec_forms": [],
+      "source_domains": [
+        "aol.com"
+      ],
+      "recent_evidence_count": 1,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "ai_semis",
+          "title": "4 Famous Billionaire Investors Just Bought This Little Known Semiconductor Stock",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNVlN0SC02S1duYUF0LVIwRXBKMjFDbE9PNTQ2Ni1ZT3JUOTYtdWlZVkk0ZC1VdUMzeUdPRXlWeGd6WjZxcU1DWXFRWnBJQ3pJa1BKOVVkNVdUcFk0eVFUcmV4bEdnOFVaNlVQOFYwQ25UQ09kXzF4RkJJX1dteU5UaTF5dTFaZw?oc=5",
+          "domain": "aol.com",
+          "source_name": "AOL.com",
+          "timestamp_utc": "2026-08-23T03:35:28+00:00",
+          "entity": "AI Infrastructure",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "theme"
+        }
+      ]
+    },
+    {
+      "entity": "Alphabet Inc.",
+      "ticker": "GOOGL",
+      "cik": "1652044",
+      "entity_type": "company",
+      "representative_title": "GOOGL Stock Dips Premarket After Breakout Week: Analyst Says Google Developing Next-Gen AI Chip With MediaTek",
+      "latest_timestamp_utc": "2026-08-23T02:58:36+00:00",
+      "categories": [
+        "ai_semis"
+      ],
+      "sec_forms": [],
+      "source_domains": [
+        "stocktwits.com"
+      ],
+      "recent_evidence_count": 1,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "ai_semis",
+          "title": "GOOGL Stock Dips Premarket After Breakout Week: Analyst Says Google Developing Next-Gen AI Chip With MediaTek",
+          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPVW9xZ1RSVnlmM1R6bFVma0lBZzd2bmNObFVsWnhmQnVaNHdEN1FBM2ZZX0JtakFtWEpHazhuUU5UX0FienlVRi1acHVYd2l6U05UQlVkV3ZDZ3NhOG1aekxGTnkxdkxINlJJaEExb1FvMjVKTjZlYnFxdUhyWTIzQWtxSHowYkloYXlESnpEY2hYZEtWMENoVXFVVFpZWlZTaWRudDI0V0pDQURRWFlUcW9OcTNVdE1hYVJGbDh0U3hqUFl0ZlNMbWhqb2RLOGc4QkJsazZsYjV5QmdlM2ZMU3ZVVFF0VTloMDhndHNLMkRpVWV4U2dONDY3eXV1S1dUbnpZ?oc=5",
+          "domain": "stocktwits.com",
+          "source_name": "Stocktwits",
+          "timestamp_utc": "2026-08-23T02:58:36+00:00",
+          "entity": "Alphabet Inc.",
+          "ticker": "GOOGL",
+          "cik": "1652044",
+          "entity_type": "company"
+        }
+      ]
+    },
+    {
       "entity": "BOEING CO",
       "ticker": "BA",
       "cik": "12927",
@@ -7584,6 +7497,37 @@
           "entity": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
           "ticker": "TSM",
           "cik": "1046179",
+          "entity_type": "company"
+        }
+      ]
+    },
+    {
+      "entity": "MICRON TECHNOLOGY INC",
+      "ticker": "MU",
+      "cik": "723125",
+      "entity_type": "company",
+      "representative_title": "Soros Capital Loads Up On MU, AMAT, AMD And TSM In Massive Semiconductor Pivot",
+      "latest_timestamp_utc": "2026-08-23T02:05:43+00:00",
+      "categories": [
+        "ai_semis"
+      ],
+      "sec_forms": [],
+      "source_domains": [
+        "stocktwits.com"
+      ],
+      "recent_evidence_count": 1,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "ai_semis",
+          "title": "Soros Capital Loads Up On MU, AMAT, AMD And TSM In Massive Semiconductor Pivot",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZGFaVmR0LUVCQVVMZjZnNXdOSGZWcHhTZVR3WlE4XzA3YTFUNEFPaW1YQWQxRnRWZjBwNEd3RTMwZVBsM2xBU2tOcjExWm84V0dTR1dLS1FWdUlRRXQ0RHlOTlBQcjJ0c1BvWWhJcVNNTjVPZXZTZmxCWUtxcmlmZWdHNDBobnhBdnJYQmNEeVViOVhCdFRtMDlZZnc1NE9iQmFVTHJUelFidEtoakFINFRkUTJiMm5Lc1Bodnc1b3Nmc3UwZl9kMEQ0SkFyTGRNWnZZaVNqaw?oc=5",
+          "domain": "stocktwits.com",
+          "source_name": "Stocktwits",
+          "timestamp_utc": "2026-08-23T02:05:43+00:00",
+          "entity": "MICRON TECHNOLOGY INC",
+          "ticker": "MU",
+          "cik": "723125",
           "entity_type": "company"
         }
       ]
@@ -7930,37 +7874,6 @@
       ]
     },
     {
-      "entity": "Eventbrite, Inc.",
-      "ticker": "EB",
-      "cik": "1475115",
-      "entity_type": "company",
-      "representative_title": "I Bought A $2000 GPU For Just $8 On EBay?! D (hS6WoX4R9I)",
-      "latest_timestamp_utc": "2026-08-22T23:51:06+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "mshale.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "I Bought A $2000 GPU For Just $8 On EBay?! D (hS6WoX4R9I)",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9iRnJab2lUTkdzanZnbFFxQlkwY1NtYmdmMWRBdS1ZUldSelBVcElieUFXcldJT0pKQk1aRDhQV3Blc1duUE9hZTBDc0c2RTZZLW5tRHBWblhPdVE?oc=5",
-          "domain": "mshale.com",
-          "source_name": "Mshale",
-          "timestamp_utc": "2026-08-22T23:51:06+00:00",
-          "entity": "Eventbrite, Inc.",
-          "ticker": "EB",
-          "cik": "1475115",
-          "entity_type": "company"
-        }
-      ]
-    },
-    {
       "entity": "Bitcoin / Crypto",
       "ticker": null,
       "cik": null,
@@ -8023,10 +7936,10 @@
       ]
     }
   ],
-  "pre_clean_event_cluster_count": 247,
-  "cleaning_dropped_count": 22,
+  "pre_clean_event_cluster_count": 244,
+  "cleaning_dropped_count": 24,
   "cleaning_drop_reasons": {
-    "seo_or_metric_title": 16,
-    "blocked_low_value_source": 6
+    "seo_or_metric_title": 17,
+    "blocked_low_value_source": 7
   }
 }
