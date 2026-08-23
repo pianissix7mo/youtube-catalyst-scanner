@@ -1,6 +1,6 @@
 {
   "scanner": "B",
-  "generated_at_utc": "2026-08-23T21:57:01.581128+00:00",
+  "generated_at_utc": "2026-08-23T22:02:46.316444+00:00",
   "judge_version": "B_V1",
   "candidate_count": 30,
   "youtube_search_budget_per_run": 20,
@@ -35,8 +35,8 @@
         "article_count": 100,
         "feed_capped": true,
         "current_3h": 0,
-        "baseline_3h_median": 1.0,
-        "short_ratio": 0.5,
+        "baseline_3h_median": 2.0,
+        "short_ratio": 0.333,
         "current_day": 16,
         "baseline_day_median": 1.0,
         "long_ratio": 8.5,
@@ -53,19 +53,20 @@
         "cbsnews.com",
         "cpapracticeadvisor.com",
         "dtnpf.com",
-        "kptv.com",
+        "indiatribune.com",
         "kpvi.com",
-        "kurdistan24.net",
         "law360.com",
         "lemonde.fr",
+        "newscord.org",
         "nytimes.com",
         "theguardian.com",
         "thehill.com",
         "washingtonpost.com",
         "washingtontimes.com",
+        "wdam.com",
         "wfla.com"
       ],
-      "recent_evidence_count": 19,
+      "recent_evidence_count": 20,
       "evidence": [
         {
           "source_type": "news_rss",
@@ -101,6 +102,19 @@
           "domain": "washingtontimes.com",
           "source_name": "Washington Times",
           "timestamp_utc": "2026-08-23T20:17:25+00:00",
+          "entity": "Tariffs / Trade",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "US lawmakers criticise Trump tariffs after Canada trade talks collapse",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeVpKQWpCdGYyY1dNaHQ4b2stNUp5cjNEdXVidVNGN1c0X0wybFlyN04ySk5BV1ZpMDZEXzdRQ25tcXEwSWE0SExPcXNic2RuY2VtUGswQjhkYzRlSzBxMkk3S2dqSExBUEljNm5PSGRJdGNHeXdVbnljc0g3LWJVSnphakJEYnloaS1qaHdvTzRXNl94bmZsVUtLOTJVb2NOOTVvTl9lbWdldw?oc=5",
+          "domain": "indiatribune.com",
+          "source_name": "India Tribune - Chicago",
+          "timestamp_utc": "2026-08-23T20:01:38+00:00",
           "entity": "Tariffs / Trade",
           "ticker": null,
           "cik": null,
@@ -148,11 +162,11 @@
         {
           "source_type": "news_rss",
           "category": "macro_rates",
-          "title": "Canada Hits Back at US With Retaliatory Tariffs After Carney Rejects ‘Unfair’ Trade Deal",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBnSHJyVHNUSlVJS1VqVzRKTDhNNURHUjdDM0tTMmN6QXFKZzIyRk1CM2JWRzhndlh5Sm1CekVJd2ZWZDVQZEZKSFdvTzBpUl9VWWNnaHl3?oc=5",
-          "domain": "kurdistan24.net",
-          "source_name": "Kurdistan24",
-          "timestamp_utc": "2026-08-23T18:33:41+00:00",
+          "title": "Negotiations between US and Canada collapse, causing tariffs | What to know",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQWlNWQnhBMVRJUEFfbERsUTFOX1MwRnRvLS14aTA5aXZKSmpRUFdxVEZhRVBoVWRoNE1UdE9mYXpUcUY5NEhtR0g5TXpOYkFxM0FINXNRWk42RTRSdVp4NDlHdGdlZDFpcVNVeVNMRktHSDhWQ0FnUXRpOXk0WnVjVkYwRmhPQVYtblNPeE1vZ2k3TE1CWmdJWnhHempRdUhMb0VBbHhtNGE1d2FxMVd4QzVnQkRwdDQzeUpsZ1QzbmF1emlfOW9PVXBpWTJ3U2gwaU5lMnkxVTZwQlJLLWo0?oc=5",
+          "domain": "13wmaz.com",
+          "source_name": "13WMAZ",
+          "timestamp_utc": "2026-08-23T18:04:00+00:00",
           "entity": "Tariffs / Trade",
           "ticker": null,
           "cik": null,
@@ -161,11 +175,11 @@
         {
           "source_type": "news_rss",
           "category": "macro_rates",
-          "title": "Negotiations between US and Canada collapse, causing tariffs | What to know",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQWlNWQnhBMVRJUEFfbERsUTFOX1MwRnRvLS14aTA5aXZKSmpRUFdxVEZhRVBoVWRoNE1UdE9mYXpUcUY5NEhtR0g5TXpOYkFxM0FINXNRWk42RTRSdVp4NDlHdGdlZDFpcVNVeVNMRktHSDhWQ0FnUXRpOXk0WnVjVkYwRmhPQVYtblNPeE1vZ2k3TE1CWmdJWnhHempRdUhMb0VBbHhtNGE1d2FxMVd4QzVnQkRwdDQzeUpsZ1QzbmF1emlfOW9PVXBpWTJ3U2gwaU5lMnkxVTZwQlJLLWo0?oc=5",
-          "domain": "13wmaz.com",
-          "source_name": "13WMAZ",
-          "timestamp_utc": "2026-08-23T18:04:00+00:00",
+          "title": "Donald Trump Escalates U.S.-Canada Trade War With 50% Tariffs, Mark Carney Says Canada Is At War",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNcjBIQnZBQlRaVFRNQkdxN0NwM2xBWUx5YmNNejhHU2VoUWM4UUJ6UHpvNGZMa3JQWm5RSEdQaGJCblg0U1ptdTBTTkVsSUZUc1RsSThGVDdiUzVqLWRiQnFnWVJhcDljbTFzUFNPMlRUQW5HSkxOekZPRnpMYzlKVlRPTjJYc0pJVXFkUFl4YWdoSF9VNml2RjJIZ1dta09pVGM1ZnNpTzhsTmNmX09ZVnRiVk1pUkRFWUdLRHlCaXkyOXE4alZNOTFxcEM2aDZvQUpCUDREVU5QYXdGTzhzb1pva0JQWmpuLVE?oc=5",
+          "domain": "newscord.org",
+          "source_name": "NewsCord",
+          "timestamp_utc": "2026-08-23T17:07:24+00:00",
           "entity": "Tariffs / Trade",
           "ticker": null,
           "cik": null,
@@ -253,9 +267,9 @@
           "source_type": "news_rss",
           "category": "macro_rates",
           "title": "US tariffs prompt retaliation from Canada",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPS09zMzYxcndiZTBNZnR6THpWR1JkWkQxQUxVekdNX1p3YW5MWjBfZ2NBd05jd3RGSnJNNXd0U3VrX3JmV2ZzeWxYR1JIdFdlVWJvRUM5Y0lQQXdHc1NEbW91Yy1NSVNtTzVPamZGbHBBSFJfU0gwdk1ROHZpdS12QQ?oc=5",
-          "domain": "kptv.com",
-          "source_name": "KPTV",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOOVB3LWh3S01FUUNsYjhRejZfekRBWjZCT2pnMTE4SG1KQ0FyY3VBMW93MDROc2JKLTllRHIydUNOdHhpcmFISFJzRG1hMk1uZEFwLXphMWpzM1FWUzUySEFVdjc3Z0RfVWIySTUzTmE2aDB0NzhDcEdHMTZySVhmRw?oc=5",
+          "domain": "wdam.com",
+          "source_name": "WDAM-TV",
           "timestamp_utc": "2026-08-23T09:24:00+00:00",
           "entity": "Tariffs / Trade",
           "ticker": null,
@@ -309,6 +323,121 @@
           "domain": "washingtonpost.com",
           "source_name": "The Washington Post",
           "timestamp_utc": "2026-08-22T23:09:00+00:00",
+          "entity": "Tariffs / Trade",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        }
+      ]
+    },
+    {
+      "event_id": "7dbfb2c4ae9967ab",
+      "scanner": "B",
+      "entity": "Tariffs / Trade",
+      "ticker": null,
+      "entity_type": "macro",
+      "event_title": "What Canadian Goods Are Getting Hit With New Tariffs?",
+      "event_timestamp_utc": "2026-08-23T21:10:20+00:00",
+      "categories": [
+        "macro_rates"
+      ],
+      "sec_forms": [],
+      "discovery_score": 59.7,
+      "news_burst_score": 21.6,
+      "source_diversity_score": 72.0,
+      "catalyst_quality_score": 85.0,
+      "freshness_score": 100.0,
+      "evidence_quality_score": 57,
+      "youtube_query": "Tariffs / Trade What Canadian Goods",
+      "youtube_event_terms": [
+        "What",
+        "Canadian",
+        "Goods"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "tariffs OR \"trade war\" OR \"export controls\"",
+        "article_count": 100,
+        "feed_capped": true,
+        "current_3h": 0,
+        "baseline_3h_median": 2.0,
+        "short_ratio": 0.333,
+        "current_day": 16,
+        "baseline_day_median": 1.0,
+        "long_ratio": 8.5,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 28,
+        "news_burst_score": 21.6
+      },
+      "source_domains": [
+        "facebook.com",
+        "finance.yahoo.com",
+        "nbcchicago.com",
+        "nytimes.com",
+        "wkrn.com"
+      ],
+      "recent_evidence_count": 5,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "What Canadian Goods Are Getting Hit With New Tariffs?",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVG55djVDb2w0eVNTOXlwbjN0MDl0ZWhrNmZYckM4RHdVNUhNYUVlbGFaSUlhTkJwWWtSaUtMRTVoMDdHcE5ITWd6MkVfYUxqNVdpZGhfZ1FQVllheHhzZzNhQ0pPbGhnMG1waTFTSGJEWjJJd0Uwa1k2N1VJYjkwYXhSZGpaQWdsRkEwLWZuUHJHS0xTR21mLXdfdllxYXcx?oc=5",
+          "domain": "finance.yahoo.com",
+          "source_name": "Yahoo Finance",
+          "timestamp_utc": "2026-08-23T21:10:20+00:00",
+          "entity": "Tariffs / Trade",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "Talks between the U.S. and Canada failed late Friday to prevent new tariffs on Canadian goods, prompting Canada to promise “dollar for dollar” retaliation. Here is what to know about the tariffs and why the negotiations fell apart. https://nyti.ms/46hI4ID",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNQVJCRmswdFRHZ0VxMDdCRERYckFRMzRzYnpOTlRtVFZUR3JvOVNiaGhMUEZYZVBRcU9MRkYyOEpLNVpoc3ZYdVctUjBZemZIWkVCVGVpT1JocmtEU0p3Y19mYVlMT1RZN0k5WGNjcDdET3ZIdGI4Z21XWWJ6b2Q4V1dOdlNXZTN5b3luWVg1dURDbzE2WlVDZEo5OW05a1VtTmlQUng2d3NGcUY1LXdEYjJMX0NUcWpaWTk3T2U1d2VRanlDT1g3LU9ETHQ0a3UwcEQw?oc=5",
+          "domain": "facebook.com",
+          "source_name": "facebook.com",
+          "timestamp_utc": "2026-08-23T17:55:05+00:00",
+          "entity": "Tariffs / Trade",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "What to know about Trump's 50% tariffs on Canadian goods that just went into effect",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSmJucXJoR2xjSkdpMHctWjRvSVJDYVdSSHQzNk1uUk4teXlGbjFLWm01bDlfSHlWUzJYdjdGVlZNM0R2R0tQYzdOWFFXQkNPT1ZSLTg3TnpfaTdzSk0wQ3hGblphYVNTNnJEN093SDFLZHFuMGZEQ1JNVmRYOFRsNmZTM3JkZnNoa0oySUdFSjRKRDltYmwzMHNkczVNS2tkUU0yeGlwRVjSAbABQVVfeXFMT05LZXFKUHk4WlVsTGtEU2ZhNEtHMzdQNnUxMVV1b3Y3S0dWdE9Jcm1kcC1TQm56bzhqVlZyYS1DS2puRDFmNENhWW0yamhxSDE2SDhZcE0zVk1EelRxUUtRVGpZV3RQTC1hOEpLSWY4cVFmSWx3dUYxdDBqRFVSbHVvQUgwcEowM2NVMUUtQXhYMnZTd285YTVSV3VGSDdWbUpUaVptUU1UdkJZNmZpV1Y?oc=5",
+          "domain": "nbcchicago.com",
+          "source_name": "NBC 5 Chicago",
+          "timestamp_utc": "2026-08-23T17:10:21+00:00",
+          "entity": "Tariffs / Trade",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "What Canadian Goods Will Take Trump’s 50% Tariffs? Some Pretty Strange Items.",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSWJiTC0zaE8wNVhVNERJVzhCWGlTWmY3RjZvRjFZMUxSRDVZc0VVOHlZSndWQjJCc0xheW1BbWhFS081R3VmMWViZ3FLN0szbGxuOTdMOWpmcnZrVUF3Z1VxZkdLdnJsWTB4VUh6ejBFenhRLTc1MXRGT1RFdXR4NnBiQS1qWmpFVnlncm1TckRNVDhxd2Jv?oc=5",
+          "domain": "nytimes.com",
+          "source_name": "The New York Times",
+          "timestamp_utc": "2026-08-23T16:14:35+00:00",
+          "entity": "Tariffs / Trade",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "US places 50% tariffs on Canadian goods",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQTV9HSzI4clc4NVBlRTRtLW9rM3B1RjVJSE9HY1lrOHNXVEV3RFlxMGZJbHp0bDlrSkM4bTdvMExZNkJSSzdiMUgteXRkOHE0d3haWnFNRjhFbnlfOWZfMWhMU3N4dXNmUzVOSzRnbVdvWlZHSzFoNlZNUjdYTUpwZg?oc=5",
+          "domain": "wkrn.com",
+          "source_name": "WKRN News 2",
+          "timestamp_utc": "2026-08-23T12:44:26+00:00",
           "entity": "Tariffs / Trade",
           "ticker": null,
           "cik": null,
@@ -433,107 +562,6 @@
       ]
     },
     {
-      "event_id": "7dbfb2c4ae9967ab",
-      "scanner": "B",
-      "entity": "Tariffs / Trade",
-      "ticker": null,
-      "entity_type": "macro",
-      "event_title": "What Canadian Goods Are Getting Hit With New Tariffs?",
-      "event_timestamp_utc": "2026-08-23T21:10:20+00:00",
-      "categories": [
-        "macro_rates"
-      ],
-      "sec_forms": [],
-      "discovery_score": 56.0,
-      "news_burst_score": 21.6,
-      "source_diversity_score": 55.0,
-      "catalyst_quality_score": 85.0,
-      "freshness_score": 100.0,
-      "evidence_quality_score": 54,
-      "youtube_query": "Tariffs / Trade What Canadian Goods",
-      "youtube_event_terms": [
-        "What",
-        "Canadian",
-        "Goods"
-      ],
-      "baseline": {
-        "source": "google_news_rss",
-        "query": "tariffs OR \"trade war\" OR \"export controls\"",
-        "article_count": 100,
-        "feed_capped": true,
-        "current_3h": 0,
-        "baseline_3h_median": 1.0,
-        "short_ratio": 0.5,
-        "current_day": 16,
-        "baseline_day_median": 1.0,
-        "long_ratio": 8.5,
-        "short_history_buckets": 23,
-        "daily_history_buckets": 28,
-        "news_burst_score": 21.6
-      },
-      "source_domains": [
-        "facebook.com",
-        "finance.yahoo.com",
-        "nbcchicago.com",
-        "nytimes.com"
-      ],
-      "recent_evidence_count": 4,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "macro_rates",
-          "title": "What Canadian Goods Are Getting Hit With New Tariffs?",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVG55djVDb2w0eVNTOXlwbjN0MDl0ZWhrNmZYckM4RHdVNUhNYUVlbGFaSUlhTkJwWWtSaUtMRTVoMDdHcE5ITWd6MkVfYUxqNVdpZGhfZ1FQVllheHhzZzNhQ0pPbGhnMG1waTFTSGJEWjJJd0Uwa1k2N1VJYjkwYXhSZGpaQWdsRkEwLWZuUHJHS0xTR21mLXdfdllxYXcx?oc=5",
-          "domain": "finance.yahoo.com",
-          "source_name": "Yahoo Finance",
-          "timestamp_utc": "2026-08-23T21:10:20+00:00",
-          "entity": "Tariffs / Trade",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "macro"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "macro_rates",
-          "title": "Talks between the U.S. and Canada failed late Friday to prevent new tariffs on Canadian goods, prompting Canada to promise “dollar for dollar” retaliation. Here is what to know about the tariffs and why the negotiations fell apart. https://nyti.ms/46hI4ID",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNQVJCRmswdFRHZ0VxMDdCRERYckFRMzRzYnpOTlRtVFZUR3JvOVNiaGhMUEZYZVBRcU9MRkYyOEpLNVpoc3ZYdVctUjBZemZIWkVCVGVpT1JocmtEU0p3Y19mYVlMT1RZN0k5WGNjcDdET3ZIdGI4Z21XWWJ6b2Q4V1dOdlNXZTN5b3luWVg1dURDbzE2WlVDZEo5OW05a1VtTmlQUng2d3NGcUY1LXdEYjJMX0NUcWpaWTk3T2U1d2VRanlDT1g3LU9ETHQ0a3UwcEQw?oc=5",
-          "domain": "facebook.com",
-          "source_name": "facebook.com",
-          "timestamp_utc": "2026-08-23T17:55:05+00:00",
-          "entity": "Tariffs / Trade",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "macro"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "macro_rates",
-          "title": "What to know about Trump's 50% tariffs on Canadian goods that just went into effect",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSmJucXJoR2xjSkdpMHctWjRvSVJDYVdSSHQzNk1uUk4teXlGbjFLWm01bDlfSHlWUzJYdjdGVlZNM0R2R0tQYzdOWFFXQkNPT1ZSLTg3TnpfaTdzSk0wQ3hGblphYVNTNnJEN093SDFLZHFuMGZEQ1JNVmRYOFRsNmZTM3JkZnNoa0oySUdFSjRKRDltYmwzMHNkczVNS2tkUU0yeGlwRVjSAbABQVVfeXFMT05LZXFKUHk4WlVsTGtEU2ZhNEtHMzdQNnUxMVV1b3Y3S0dWdE9Jcm1kcC1TQm56bzhqVlZyYS1DS2puRDFmNENhWW0yamhxSDE2SDhZcE0zVk1EelRxUUtRVGpZV3RQTC1hOEpLSWY4cVFmSWx3dUYxdDBqRFVSbHVvQUgwcEowM2NVMUUtQXhYMnZTd285YTVSV3VGSDdWbUpUaVptUU1UdkJZNmZpV1Y?oc=5",
-          "domain": "nbcchicago.com",
-          "source_name": "NBC 5 Chicago",
-          "timestamp_utc": "2026-08-23T17:10:21+00:00",
-          "entity": "Tariffs / Trade",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "macro"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "macro_rates",
-          "title": "What Canadian Goods Will Take Trump’s 50% Tariffs? Some Pretty Strange Items.",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSWJiTC0zaE8wNVhVNERJVzhCWGlTWmY3RjZvRjFZMUxSRDVZc0VVOHlZSndWQjJCc0xheW1BbWhFS081R3VmMWViZ3FLN0szbGxuOTdMOWpmcnZrVUF3Z1VxZkdLdnJsWTB4VUh6ejBFenhRLTc1MXRGT1RFdXR4NnBiQS1qWmpFVnlncm1TckRNVDhxd2Jv?oc=5",
-          "domain": "nytimes.com",
-          "source_name": "The New York Times",
-          "timestamp_utc": "2026-08-23T16:14:35+00:00",
-          "entity": "Tariffs / Trade",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "macro"
-        }
-      ]
-    },
-    {
       "event_id": "97579af1bcb50b26",
       "scanner": "B",
       "entity": "Paramount Skydance Corporation",
@@ -651,8 +679,8 @@
         "article_count": 100,
         "feed_capped": true,
         "current_3h": 0,
-        "baseline_3h_median": 1.0,
-        "short_ratio": 0.5,
+        "baseline_3h_median": 2.0,
+        "short_ratio": 0.333,
         "current_day": 16,
         "baseline_day_median": 1.0,
         "long_ratio": 8.5,
@@ -723,399 +751,6 @@
       ]
     },
     {
-      "event_id": "43ac577812633314",
-      "scanner": "B",
-      "entity": "Paramount Skydance Corporation",
-      "ticker": "PSKY",
-      "entity_type": "company",
-      "event_title": "Judge blocks Paramount's $110B Warner Bros. mer...",
-      "event_timestamp_utc": "2026-08-23T13:37:24+00:00",
-      "categories": [
-        "mna"
-      ],
-      "sec_forms": [],
-      "discovery_score": 50.2,
-      "news_burst_score": 18.0,
-      "source_diversity_score": 55.0,
-      "catalyst_quality_score": 94.0,
-      "freshness_score": 68.0,
-      "evidence_quality_score": 39,
-      "youtube_query": "PSKY Judge blocks 110B",
-      "youtube_event_terms": [
-        "Judge",
-        "blocks",
-        "110B"
-      ],
-      "baseline": {
-        "source": "google_news_rss",
-        "query": "\"paramount skydance\" OR \"PSKY\"",
-        "article_count": 94,
-        "feed_capped": false,
-        "current_3h": 1,
-        "baseline_3h_median": 0.0,
-        "short_ratio": 2.0,
-        "current_day": 1,
-        "baseline_day_median": 2.0,
-        "long_ratio": 0.667,
-        "short_history_buckets": 23,
-        "daily_history_buckets": 29,
-        "news_burst_score": 18.0
-      },
-      "source_domains": [
-        "i24news.tv",
-        "kxly.com",
-        "pluang.com"
-      ],
-      "recent_evidence_count": 3,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "mna",
-          "title": "Judge blocks Paramount's $110B Warner Bros. mer...",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdVFHalNqNkhsQ3dOODdnakZLYmE4OEhyNnZPYXpKZXhQaVJVZlJENThBaXM0N3JNSGo0bDd5dGpid094NjhHU2ZmZXh5cWRPM2lXTS1LSURqSzlPV2dPOWVheVdYVVppU19wblhHVmkyZEMxU2ozVGdxR0VNOWRqVHkwbURvSWYxR3dYSGtrRk12eHI4U0R3aHBjaWJJTUplU2dlMi12WnBqeHRVQXdnSw?oc=5",
-          "domain": "pluang.com",
-          "source_name": "Pluang",
-          "timestamp_utc": "2026-08-23T13:37:24+00:00",
-          "entity": "Paramount Group, Inc.",
-          "ticker": "PGRE",
-          "cik": "1605607",
-          "entity_type": "company"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "mna",
-          "title": "Warner Bros. / Paramount Merger Lawsuit",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSXlYNVNxUEFxV0cyM3RtMmlHTFNadTBCYXZxQjJUNGNMWHBnRnFHNENPNnVrZkZscmhpSHk4YnRhZmYyd1NzbkdFT2ZJeU9tTEM3Q3h4eThaVVNSRjRzQzJkWVpZRF9CZEpDSm9XbEp5U05pTVhLRzV2cWhmY0d5UkJDbk9Cd1liZk1MVVYyV25OeG16ekpRVWt3ZWJFYkgxVDBvX1FIWEV6S3owLTVNMQ?oc=5",
-          "domain": "kxly.com",
-          "source_name": "KXLY.com",
-          "timestamp_utc": "2026-08-23T01:14:00+00:00",
-          "entity": "Paramount Group, Inc.",
-          "ticker": "PGRE",
-          "cik": "1605607",
-          "entity_type": "company"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "mna",
-          "title": "‘A Bridge Too Far’: Paramount Brands Ruffalo’s Attack On Warner Bros. Merger ‘antisemitic’",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQTnEwSnR1Rm1hazdlblZDLWl1Q20zQkQ0TzFBamJOYUdUQmN2dUx4R09tc0ljNl9qZUtWYUtfR3lwUzRzZ29oOHJsSXpxOVJmNG9sdmtEU3FfR015aUZUR2FMeVBfRlFHSzZYdi1ySWtLUlRrMUZXYjY5LWpaNEZZVHdIRkRvbGNsN3RMSWtDaTNnR2N2S3JuamdXZExRbTR6SUpUVEpYZG1wX2RWWk1IRTJiVnN5S2lqZW0wWF9KbHliVmNXbzk0Ulg4ZGF5ZXFHR1hocDZUZ2xNQQ?oc=5",
-          "domain": "i24news.tv",
-          "source_name": "i24NEWS",
-          "timestamp_utc": "2026-08-22T21:58:43+00:00",
-          "entity": "Paramount Group, Inc.",
-          "ticker": "PGRE",
-          "cik": "1605607",
-          "entity_type": "company"
-        }
-      ]
-    },
-    {
-      "event_id": "157c4c2038be3ffe",
-      "scanner": "B",
-      "entity": "Tariffs / Trade",
-      "ticker": null,
-      "entity_type": "macro",
-      "event_title": "'Bad deal': Canada's Carney announces retaliation after US tariffs",
-      "event_timestamp_utc": "2026-08-23T14:51:00+00:00",
-      "categories": [
-        "macro_rates"
-      ],
-      "sec_forms": [],
-      "discovery_score": 49.7,
-      "news_burst_score": 21.6,
-      "source_diversity_score": 55.0,
-      "catalyst_quality_score": 85.0,
-      "freshness_score": 68.0,
-      "evidence_quality_score": 39,
-      "youtube_query": "Tariffs / Trade deal Canada Carney",
-      "youtube_event_terms": [
-        "deal",
-        "Canada",
-        "Carney"
-      ],
-      "baseline": {
-        "source": "google_news_rss",
-        "query": "tariffs OR \"trade war\" OR \"export controls\"",
-        "article_count": 100,
-        "feed_capped": true,
-        "current_3h": 0,
-        "baseline_3h_median": 1.0,
-        "short_ratio": 0.5,
-        "current_day": 16,
-        "baseline_day_median": 1.0,
-        "long_ratio": 8.5,
-        "short_history_buckets": 23,
-        "daily_history_buckets": 28,
-        "news_burst_score": 21.6
-      },
-      "source_domains": [
-        "gpb.org",
-        "newsnationnow.com",
-        "usatoday.com"
-      ],
-      "recent_evidence_count": 3,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "macro_rates",
-          "title": "'Bad deal': Canada's Carney announces retaliation after US tariffs",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYnB2X2dteXdmaGNwS09QSWhoVWozSWVvUjMwV2lQenN1ZkZxV29RV2VxXzZhOEpVOU1OUzJKQy1UaE5jUDhVaGNFNGlNQXQyS2pfUGwwU2dGamw3UVNLT1E4VEtzRGJHekxZQ2gzS21zTnlBZmtrQlhiQUctRmp2OG1BWm1WWkFsV3U5UUswVEJ2M25DbEJrRm5fX3Q?oc=5",
-          "domain": "usatoday.com",
-          "source_name": "USA Today",
-          "timestamp_utc": "2026-08-23T14:51:00+00:00",
-          "entity": "Tariffs / Trade",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "macro"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "macro_rates",
-          "title": "As Canada readies retaliatory tariffs, Mark Carney says his nation is 'at war' with U.S.",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdTlKeVJkNWxmMEx2X2cwMFl5aG1xUUNMVlpEWEd5OGJ4aEtaUXQwSEpLWUF2UlBnekhCa0gzYlJXdHM2R1JSVExPeEhnV1VKVlBSeGpZeWJ0eHNSbVlQRHgzQjBYQTFITmVqQ3FvWmxMdERBT0lsV1dzRXExTk9oeWY5ZDhFVFNaMjljM1VfNmlfNjZfMzRwalNmcU5ha0FMVGNHbG5CT0dRYUZf?oc=5",
-          "domain": "gpb.org",
-          "source_name": "Georgia Public Broadcasting",
-          "timestamp_utc": "2026-08-23T14:12:13+00:00",
-          "entity": "Tariffs / Trade",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "macro"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "macro_rates",
-          "title": "Canada announces retaliatory tariffs to begin Sept. 8",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNYlJFZF9KQWhGM2dTZjFSY0ZmcmpQdTBxb0xpWGR6aU45VVp1ay1VemgyWmdyREhIS1V5aDZtY1RURHhaNUNSVHQtRkpodzE4S19zUThyNkNoZVFTaElTU0hNd1B1NFN2WW5VTXdmSkhSM041dTBZUG5aMTVYTkFCMnhPaUZPZ9IBiwFBVV95cUxNdWhHa0FrNUg3QWRicERnSTcyVmFUUFFBS3RjLTZqcGQ1Zk5ldlg0QTM1anhfRllXREJxM2hoMU9GTHVWbzZpbmoxX0JZQW5CQlA2bUhZUVRQdTdqTzdKS3pUcU9GRDdzZlRXQnd3RmRHdFhtejgtVEpPdS1vanNYM211bWFsYmlnQ25j?oc=5",
-          "domain": "newsnationnow.com",
-          "source_name": "NewsNation",
-          "timestamp_utc": "2026-08-23T12:55:25+00:00",
-          "entity": "Tariffs / Trade",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "macro"
-        }
-      ]
-    },
-    {
-      "event_id": "23bc76ed647e43dc",
-      "scanner": "B",
-      "entity": "Tariffs / Trade",
-      "ticker": null,
-      "entity_type": "macro",
-      "event_title": "New U.S. Tariffs Put Digital Supplier in Focus for Canadian Businesses",
-      "event_timestamp_utc": "2026-08-23T20:21:17+00:00",
-      "categories": [
-        "macro_rates"
-      ],
-      "sec_forms": [],
-      "discovery_score": 49.6,
-      "news_burst_score": 21.6,
-      "source_diversity_score": 38.0,
-      "catalyst_quality_score": 85.0,
-      "freshness_score": 92.0,
-      "evidence_quality_score": 36,
-      "youtube_query": "Tariffs / Trade Digital Supplier Focus",
-      "youtube_event_terms": [
-        "Digital",
-        "Supplier",
-        "Focus"
-      ],
-      "baseline": {
-        "source": "google_news_rss",
-        "query": "tariffs OR \"trade war\" OR \"export controls\"",
-        "article_count": 100,
-        "feed_capped": true,
-        "current_3h": 0,
-        "baseline_3h_median": 1.0,
-        "short_ratio": 0.5,
-        "current_day": 16,
-        "baseline_day_median": 1.0,
-        "long_ratio": 8.5,
-        "short_history_buckets": 23,
-        "daily_history_buckets": 28,
-        "news_burst_score": 21.6
-      },
-      "source_domains": [
-        "globalnews.ca",
-        "natlawreview.com"
-      ],
-      "recent_evidence_count": 2,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "macro_rates",
-          "title": "New U.S. Tariffs Put Digital Supplier in Focus for Canadian Businesses",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOd1J5dE9BLTJ2UkNFLTcyTlFuRktoTWRJVk9ZNkpHeHFsTld6TG80cmJvR3dHbzFtVHJsSUg4REpCVEtxYjBDdVZYcThPbF9JMFcwcWlqY3JhemllcXhiOTVBSGdqT09GdU84Rm9nZ1d1Z2xTX0JaZ3RQQ25EdUE2Z1QxazlnR19CcnU1S1I2Um9LU1JPLUFHbkRNWEhqaDRGOVVN?oc=5",
-          "domain": "natlawreview.com",
-          "source_name": "The National Law Review",
-          "timestamp_utc": "2026-08-23T20:21:17+00:00",
-          "entity": "Tariffs / Trade",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "macro"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "macro_rates",
-          "title": "‘We can’t run our businesses’: Canadian companies react to U.S. tariffs",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNT0daRGxZeC1lVVl6RmpUYnJWQmFQb0tPS09qSVE2SzF3aDRsbUdDMVhwcHNYUElTUFdFQXlHZkpXSHBlMWpvZWZRQjdyOEljZm5YQWQ5dlNQT3Y5aHJ6dDd6MWxMVUxCRkRjbVgybHoydXdPX1JsWXFLVVBjdzJBNg?oc=5",
-          "domain": "globalnews.ca",
-          "source_name": "Global News",
-          "timestamp_utc": "2026-08-23T18:57:53+00:00",
-          "entity": "Tariffs / Trade",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "macro"
-        }
-      ]
-    },
-    {
-      "event_id": "686849f047e989fe",
-      "scanner": "B",
-      "entity": "Tariffs / Trade",
-      "ticker": null,
-      "entity_type": "macro",
-      "event_title": "With new tariffs, Washington braces for another cold shoulder from Canada",
-      "event_timestamp_utc": "2026-08-23T19:05:19+00:00",
-      "categories": [
-        "macro_rates"
-      ],
-      "sec_forms": [],
-      "discovery_score": 49.6,
-      "news_burst_score": 21.6,
-      "source_diversity_score": 38.0,
-      "catalyst_quality_score": 85.0,
-      "freshness_score": 92.0,
-      "evidence_quality_score": 36,
-      "youtube_query": "Tariffs / Trade Washington braces another",
-      "youtube_event_terms": [
-        "Washington",
-        "braces",
-        "another"
-      ],
-      "baseline": {
-        "source": "google_news_rss",
-        "query": "tariffs OR \"trade war\" OR \"export controls\"",
-        "article_count": 100,
-        "feed_capped": true,
-        "current_3h": 0,
-        "baseline_3h_median": 1.0,
-        "short_ratio": 0.5,
-        "current_day": 16,
-        "baseline_day_median": 1.0,
-        "long_ratio": 8.5,
-        "short_history_buckets": 23,
-        "daily_history_buckets": 28,
-        "news_burst_score": 21.6
-      },
-      "source_domains": [
-        "fox13seattle.com",
-        "yakimaherald.com"
-      ],
-      "recent_evidence_count": 2,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "macro_rates",
-          "title": "With new tariffs, Washington braces for another cold shoulder from Canada",
-          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQSEhOZk5uVEJQX0YzODVWSDhpeDFlZF9LM1Q2WUg1VTFTV0xfN0VOZDl1d1phLWw1Y1d4T3lpOU1rNnBrYXlpS2R6eVY3SUdidl9kQjJVUFZxWmRxa1NfTnZGcVhGSU56NmFqcUQtY2FOdUVLTlQxVmpjeEl1V0gzWG5za2RZWndoY010dWFJaUFyR0ZHXzBOaHFiRVZhN0FfQ2R0SmF1bzM0NldhSEFzZUJNWk1Iam1CRjJVY1hhMm1Tb0c4eXN2cWRodTZIQ0NIbWdRU1RrV1lJejRVdHJHc0YwYWQzOXkwR2xRSTNYN0p1VTBhWXlTcXVB0gH_AUFVX3lxTE5ZVG9ueF9sVW5zWnN3N2FHd2I1bVlLZWxBV0lPOFFuaU1scm1uZTR0YTNuM19VYUVIbEVIUzh5eEJWRExpUTRDRDBRVldPaXRtSEpjNjgtblVabGVtemRWVjEzbTI0dFdYNG54RmdDWFlOQUNYc0g5UU9pSTF5LUtfWlNnaUpRSVA2b2tQTlRXMDNPYm1xd2p4SXlMVEVvMXZ1LUJqc3dLYlFFaEhjakJhVWdqeGdTSkIxZG51Qk9fZzJMZkpnaGdZZnJ5bmxnRXBVcGF4d3UydnVIRXdaS2kzbjgydmhlLVIySUxJbTBEblFRdEx6ZXktX1kyazFydw?oc=5",
-          "domain": "yakimaherald.com",
-          "source_name": "Yakima Herald-Republic",
-          "timestamp_utc": "2026-08-23T19:05:19+00:00",
-          "entity": "Tariffs / Trade",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "macro"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "macro_rates",
-          "title": "Washington lawmakers hit back at Canada tariffs",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE02RDNpV3g5LURFbEFNd3RSemExVHFJa20wQU1rX05pWkMzczNXRzIzS19ITXVuOTFYQnc3cnp6RDdWQkxlMk1hVDdKN0Zlamh4c3hKbVRlY09FOGk0Mms0OUdqVVJ4Y1hpeXNR0gFrQVVfeXFMTTZEM2lXeDktREVsQU13dFJ6YTFUcUlrbTBBTWtfTmlaQzNzM1dHMjNLX0hNdW45MVhCdzdyenpEN1ZCTGUyTWFUN0o3RmVqaHhzeEptVGVjT0U4aTQyazQ5R2pVUnhjWGl5c1E?oc=5",
-          "domain": "fox13seattle.com",
-          "source_name": "FOX 13 Seattle",
-          "timestamp_utc": "2026-08-23T18:32:12+00:00",
-          "entity": "Tariffs / Trade",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "macro"
-        }
-      ]
-    },
-    {
-      "event_id": "119aa1d46f88ae39",
-      "scanner": "B",
-      "entity": "Tariffs / Trade",
-      "ticker": null,
-      "entity_type": "macro",
-      "event_title": "Canada could lose tens of thousands of jobs due to Trump’s 50% tariffs",
-      "event_timestamp_utc": "2026-08-23T18:57:00+00:00",
-      "categories": [
-        "macro_rates"
-      ],
-      "sec_forms": [],
-      "discovery_score": 49.6,
-      "news_burst_score": 21.6,
-      "source_diversity_score": 38.0,
-      "catalyst_quality_score": 85.0,
-      "freshness_score": 92.0,
-      "evidence_quality_score": 36,
-      "youtube_query": "Tariffs / Trade Canada could lose",
-      "youtube_event_terms": [
-        "Canada",
-        "could",
-        "lose"
-      ],
-      "baseline": {
-        "source": "google_news_rss",
-        "query": "tariffs OR \"trade war\" OR \"export controls\"",
-        "article_count": 100,
-        "feed_capped": true,
-        "current_3h": 0,
-        "baseline_3h_median": 1.0,
-        "short_ratio": 0.5,
-        "current_day": 16,
-        "baseline_day_median": 1.0,
-        "long_ratio": 8.5,
-        "short_history_buckets": 23,
-        "daily_history_buckets": 28,
-        "news_burst_score": 21.6
-      },
-      "source_domains": [
-        "dw.com",
-        "helenair.com"
-      ],
-      "recent_evidence_count": 2,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "macro_rates",
-          "title": "Canada could lose tens of thousands of jobs due to Trump’s 50% tariffs",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVUFTMHhKeFZIOXZQNlV2Vk1BY2NVVmtsSzRpRHRmcl9yVldGZXM4UjZDWkhoZVh5d3RaNUNucXdhVDYwcWdTVm42WWxOcDJwMnB3LWVZVl8xVGoyQ05Ga1pWUTE4TV84WWNUSnV4RTRON3Y4UFMtODhmdkxYQi15cjdWWWU4ZktYU3hIcUs0VnVfd1k0cTBqX3c4cG5PZw?oc=5",
-          "domain": "helenair.com",
-          "source_name": "The Independent Record",
-          "timestamp_utc": "2026-08-23T18:57:00+00:00",
-          "entity": "Tariffs / Trade",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "macro"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "macro_rates",
-          "title": "Trump hits out at Canada over retaliatory tariffs",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPdF8xdHp0UVJqZjU5SmZpcFJ2YTNlN0NKT2pzTnFmMjdybzROUURsVFVKX0hSMGFURW1Ja2tPbEhwRExFeHhITnF4dmlmWjBnTXRxeDNZWGNZcFlBX3JLY2NackFtTlNNc0E3a01oSmNwQjVHNkZVejl2SHhNV0JsMGFIbmx4QTZ5X1HSAYoBQVVfeXFMTTF1TW41cXBFSFUxMC1FM3dVcHcwY0ZvOFdkQk9tMWNOTkhxZGtHRHJNeVBFUHV0YV8tTmxOa19ROTBWZVcxd0dROXRfMXhFX3lXNU9zWTRYUGZ6VVV3cUFyeWhla2R3M0FBSE9uWnltS1hPUlFIUVNuMF96X0V3WlJVRjZKRUt0Tkp3?oc=5",
-          "domain": "dw.com",
-          "source_name": "DW.com",
-          "timestamp_utc": "2026-08-23T07:32:58+00:00",
-          "entity": "Tariffs / Trade",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "macro"
-        }
-      ]
-    },
-    {
       "event_id": "a650803c81eac876",
       "scanner": "B",
       "entity": "Bitcoin / Crypto",
@@ -1127,8 +762,8 @@
         "crypto"
       ],
       "sec_forms": [],
-      "discovery_score": 49.0,
-      "news_burst_score": 2.3,
+      "discovery_score": 52.1,
+      "news_burst_score": 11.1,
       "source_diversity_score": 72.0,
       "catalyst_quality_score": 70.0,
       "freshness_score": 92.0,
@@ -1142,17 +777,17 @@
       "baseline": {
         "source": "google_news_rss",
         "query": "Bitcoin OR Ethereum OR crypto",
-        "article_count": 99,
+        "article_count": 100,
         "feed_capped": true,
         "current_3h": 0,
         "baseline_3h_median": 1.0,
         "short_ratio": 0.5,
-        "current_day": 4,
-        "baseline_day_median": 3.0,
-        "long_ratio": 1.25,
+        "current_day": 8,
+        "baseline_day_median": 2.0,
+        "long_ratio": 3.0,
         "short_history_buckets": 23,
         "daily_history_buckets": 26,
-        "news_burst_score": 2.3
+        "news_burst_score": 11.1
       },
       "source_domains": [
         "cointribune.com",
@@ -1259,6 +894,239 @@
       ]
     },
     {
+      "event_id": "157c4c2038be3ffe",
+      "scanner": "B",
+      "entity": "Tariffs / Trade",
+      "ticker": null,
+      "entity_type": "macro",
+      "event_title": "'Bad deal': Canada's Carney announces retaliation after US tariffs",
+      "event_timestamp_utc": "2026-08-23T14:51:00+00:00",
+      "categories": [
+        "macro_rates"
+      ],
+      "sec_forms": [],
+      "discovery_score": 49.7,
+      "news_burst_score": 21.6,
+      "source_diversity_score": 55.0,
+      "catalyst_quality_score": 85.0,
+      "freshness_score": 68.0,
+      "evidence_quality_score": 39,
+      "youtube_query": "Tariffs / Trade deal Canada Carney",
+      "youtube_event_terms": [
+        "deal",
+        "Canada",
+        "Carney"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "tariffs OR \"trade war\" OR \"export controls\"",
+        "article_count": 100,
+        "feed_capped": true,
+        "current_3h": 0,
+        "baseline_3h_median": 2.0,
+        "short_ratio": 0.333,
+        "current_day": 16,
+        "baseline_day_median": 1.0,
+        "long_ratio": 8.5,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 28,
+        "news_burst_score": 21.6
+      },
+      "source_domains": [
+        "gpb.org",
+        "newsnationnow.com",
+        "usatoday.com"
+      ],
+      "recent_evidence_count": 3,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "'Bad deal': Canada's Carney announces retaliation after US tariffs",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYnB2X2dteXdmaGNwS09QSWhoVWozSWVvUjMwV2lQenN1ZkZxV29RV2VxXzZhOEpVOU1OUzJKQy1UaE5jUDhVaGNFNGlNQXQyS2pfUGwwU2dGamw3UVNLT1E4VEtzRGJHekxZQ2gzS21zTnlBZmtrQlhiQUctRmp2OG1BWm1WWkFsV3U5UUswVEJ2M25DbEJrRm5fX3Q?oc=5",
+          "domain": "usatoday.com",
+          "source_name": "USA Today",
+          "timestamp_utc": "2026-08-23T14:51:00+00:00",
+          "entity": "Tariffs / Trade",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "As Canada readies retaliatory tariffs, Mark Carney says his nation is 'at war' with U.S.",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdTlKeVJkNWxmMEx2X2cwMFl5aG1xUUNMVlpEWEd5OGJ4aEtaUXQwSEpLWUF2UlBnekhCa0gzYlJXdHM2R1JSVExPeEhnV1VKVlBSeGpZeWJ0eHNSbVlQRHgzQjBYQTFITmVqQ3FvWmxMdERBT0lsV1dzRXExTk9oeWY5ZDhFVFNaMjljM1VfNmlfNjZfMzRwalNmcU5ha0FMVGNHbG5CT0dRYUZf?oc=5",
+          "domain": "gpb.org",
+          "source_name": "Georgia Public Broadcasting",
+          "timestamp_utc": "2026-08-23T14:12:13+00:00",
+          "entity": "Tariffs / Trade",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "Canada announces retaliatory tariffs to begin Sept. 8",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNYlJFZF9KQWhGM2dTZjFSY0ZmcmpQdTBxb0xpWGR6aU45VVp1ay1VemgyWmdyREhIS1V5aDZtY1RURHhaNUNSVHQtRkpodzE4S19zUThyNkNoZVFTaElTU0hNd1B1NFN2WW5VTXdmSkhSM041dTBZUG5aMTVYTkFCMnhPaUZPZ9IBiwFBVV95cUxNdWhHa0FrNUg3QWRicERnSTcyVmFUUFFBS3RjLTZqcGQ1Zk5ldlg0QTM1anhfRllXREJxM2hoMU9GTHVWbzZpbmoxX0JZQW5CQlA2bUhZUVRQdTdqTzdKS3pUcU9GRDdzZlRXQnd3RmRHdFhtejgtVEpPdS1vanNYM211bWFsYmlnQ25j?oc=5",
+          "domain": "newsnationnow.com",
+          "source_name": "NewsNation",
+          "timestamp_utc": "2026-08-23T12:55:25+00:00",
+          "entity": "Tariffs / Trade",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        }
+      ]
+    },
+    {
+      "event_id": "23bc76ed647e43dc",
+      "scanner": "B",
+      "entity": "Tariffs / Trade",
+      "ticker": null,
+      "entity_type": "macro",
+      "event_title": "New U.S. Tariffs Put Digital Supplier in Focus for Canadian Businesses",
+      "event_timestamp_utc": "2026-08-23T20:21:17+00:00",
+      "categories": [
+        "macro_rates"
+      ],
+      "sec_forms": [],
+      "discovery_score": 49.6,
+      "news_burst_score": 21.6,
+      "source_diversity_score": 38.0,
+      "catalyst_quality_score": 85.0,
+      "freshness_score": 92.0,
+      "evidence_quality_score": 36,
+      "youtube_query": "Tariffs / Trade Digital Supplier Focus",
+      "youtube_event_terms": [
+        "Digital",
+        "Supplier",
+        "Focus"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "tariffs OR \"trade war\" OR \"export controls\"",
+        "article_count": 100,
+        "feed_capped": true,
+        "current_3h": 0,
+        "baseline_3h_median": 2.0,
+        "short_ratio": 0.333,
+        "current_day": 16,
+        "baseline_day_median": 1.0,
+        "long_ratio": 8.5,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 28,
+        "news_burst_score": 21.6
+      },
+      "source_domains": [
+        "globalnews.ca",
+        "natlawreview.com"
+      ],
+      "recent_evidence_count": 2,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "New U.S. Tariffs Put Digital Supplier in Focus for Canadian Businesses",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOd1J5dE9BLTJ2UkNFLTcyTlFuRktoTWRJVk9ZNkpHeHFsTld6TG80cmJvR3dHbzFtVHJsSUg4REpCVEtxYjBDdVZYcThPbF9JMFcwcWlqY3JhemllcXhiOTVBSGdqT09GdU84Rm9nZ1d1Z2xTX0JaZ3RQQ25EdUE2Z1QxazlnR19CcnU1S1I2Um9LU1JPLUFHbkRNWEhqaDRGOVVN?oc=5",
+          "domain": "natlawreview.com",
+          "source_name": "The National Law Review",
+          "timestamp_utc": "2026-08-23T20:21:17+00:00",
+          "entity": "Tariffs / Trade",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "‘We can’t run our businesses’: Canadian companies react to U.S. tariffs",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNT0daRGxZeC1lVVl6RmpUYnJWQmFQb0tPS09qSVE2SzF3aDRsbUdDMVhwcHNYUElTUFdFQXlHZkpXSHBlMWpvZWZRQjdyOEljZm5YQWQ5dlNQT3Y5aHJ6dDd6MWxMVUxCRkRjbVgybHoydXdPX1JsWXFLVVBjdzJBNg?oc=5",
+          "domain": "globalnews.ca",
+          "source_name": "Global News",
+          "timestamp_utc": "2026-08-23T18:57:53+00:00",
+          "entity": "Tariffs / Trade",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        }
+      ]
+    },
+    {
+      "event_id": "686849f047e989fe",
+      "scanner": "B",
+      "entity": "Tariffs / Trade",
+      "ticker": null,
+      "entity_type": "macro",
+      "event_title": "With new tariffs, Washington braces for another cold shoulder from Canada",
+      "event_timestamp_utc": "2026-08-23T19:05:19+00:00",
+      "categories": [
+        "macro_rates"
+      ],
+      "sec_forms": [],
+      "discovery_score": 49.6,
+      "news_burst_score": 21.6,
+      "source_diversity_score": 38.0,
+      "catalyst_quality_score": 85.0,
+      "freshness_score": 92.0,
+      "evidence_quality_score": 36,
+      "youtube_query": "Tariffs / Trade Washington braces another",
+      "youtube_event_terms": [
+        "Washington",
+        "braces",
+        "another"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "tariffs OR \"trade war\" OR \"export controls\"",
+        "article_count": 100,
+        "feed_capped": true,
+        "current_3h": 0,
+        "baseline_3h_median": 2.0,
+        "short_ratio": 0.333,
+        "current_day": 16,
+        "baseline_day_median": 1.0,
+        "long_ratio": 8.5,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 28,
+        "news_burst_score": 21.6
+      },
+      "source_domains": [
+        "fox13seattle.com",
+        "yakimaherald.com"
+      ],
+      "recent_evidence_count": 2,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "With new tariffs, Washington braces for another cold shoulder from Canada",
+          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQSEhOZk5uVEJQX0YzODVWSDhpeDFlZF9LM1Q2WUg1VTFTV0xfN0VOZDl1d1phLWw1Y1d4T3lpOU1rNnBrYXlpS2R6eVY3SUdidl9kQjJVUFZxWmRxa1NfTnZGcVhGSU56NmFqcUQtY2FOdUVLTlQxVmpjeEl1V0gzWG5za2RZWndoY010dWFJaUFyR0ZHXzBOaHFiRVZhN0FfQ2R0SmF1bzM0NldhSEFzZUJNWk1Iam1CRjJVY1hhMm1Tb0c4eXN2cWRodTZIQ0NIbWdRU1RrV1lJejRVdHJHc0YwYWQzOXkwR2xRSTNYN0p1VTBhWXlTcXVB0gH_AUFVX3lxTE5ZVG9ueF9sVW5zWnN3N2FHd2I1bVlLZWxBV0lPOFFuaU1scm1uZTR0YTNuM19VYUVIbEVIUzh5eEJWRExpUTRDRDBRVldPaXRtSEpjNjgtblVabGVtemRWVjEzbTI0dFdYNG54RmdDWFlOQUNYc0g5UU9pSTF5LUtfWlNnaUpRSVA2b2tQTlRXMDNPYm1xd2p4SXlMVEVvMXZ1LUJqc3dLYlFFaEhjakJhVWdqeGdTSkIxZG51Qk9fZzJMZkpnaGdZZnJ5bmxnRXBVcGF4d3UydnVIRXdaS2kzbjgydmhlLVIySUxJbTBEblFRdEx6ZXktX1kyazFydw?oc=5",
+          "domain": "yakimaherald.com",
+          "source_name": "Yakima Herald-Republic",
+          "timestamp_utc": "2026-08-23T19:05:19+00:00",
+          "entity": "Tariffs / Trade",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "Washington lawmakers hit back at Canada tariffs",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE02RDNpV3g5LURFbEFNd3RSemExVHFJa20wQU1rX05pWkMzczNXRzIzS19ITXVuOTFYQnc3cnp6RDdWQkxlMk1hVDdKN0Zlamh4c3hKbVRlY09FOGk0Mms0OUdqVVJ4Y1hpeXNR0gFrQVVfeXFMTTZEM2lXeDktREVsQU13dFJ6YTFUcUlrbTBBTWtfTmlaQzNzM1dHMjNLX0hNdW45MVhCdzdyenpEN1ZCTGUyTWFUN0o3RmVqaHhzeEptVGVjT0U4aTQyazQ5R2pVUnhjWGl5c1E?oc=5",
+          "domain": "fox13seattle.com",
+          "source_name": "FOX 13 Seattle",
+          "timestamp_utc": "2026-08-23T18:32:12+00:00",
+          "entity": "Tariffs / Trade",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        }
+      ]
+    },
+    {
       "event_id": "46f9845b63162ef8",
       "scanner": "B",
       "entity": "SK hynix",
@@ -1318,11 +1186,11 @@
         {
           "source_type": "news_rss",
           "category": "ai_semis",
-          "title": "SK hynix HBM is a 3D-stacked structure, which has a base die and a stack of",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5SSGpTblRIU0hxMnY2ak5sUGN6RllEZmZrbDFGMzhwbFBNZi1oT2lQbDVNZnFpVlExTVRMNldrT2ZYem5OYjUzNFNORFVKckRTVWQzSDJPc2pLRVRJVTItZ2Z3RkI0N3NLdTlzZkpR?oc=5",
+          "title": "SK hynix The more HBM adoption is more save the space, power & operation cost",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE12U0ZodDJnVmdLSXlEWDVhQ281TDNSTVlUNmozQ2loRmh2d2pNeFVrRzQzYlYwNW10c1UwbHU4WHlaOGdTdmJ3ckFpUkstelFVT2pRT0w1RWgySEJfUDlnTEROLWszcUIxeGNCTm5R?oc=5",
           "domain": "servethehome.com",
           "source_name": "ServeTheHome",
-          "timestamp_utc": "2026-08-23T20:48:08+00:00",
+          "timestamp_utc": "2026-08-23T20:48:09+00:00",
           "entity": "SK hynix",
           "ticker": null,
           "cik": null,
@@ -1444,6 +1312,180 @@
       ]
     },
     {
+      "event_id": "60463636d120689d",
+      "scanner": "B",
+      "entity": "Bitcoin / Crypto",
+      "ticker": null,
+      "entity_type": "crypto",
+      "event_title": "Ethereum Price Prediction: Golden Cross Forms as ETF and Staking Inflows Jump",
+      "event_timestamp_utc": "2026-08-23T21:11:08+00:00",
+      "categories": [
+        "crypto"
+      ],
+      "sec_forms": [],
+      "discovery_score": 48.1,
+      "news_burst_score": 11.1,
+      "source_diversity_score": 55.0,
+      "catalyst_quality_score": 70.0,
+      "freshness_score": 100.0,
+      "evidence_quality_score": 42,
+      "youtube_query": "Bitcoin / Crypto Ethereum Price Prediction",
+      "youtube_event_terms": [
+        "Ethereum",
+        "Price",
+        "Prediction"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "Bitcoin OR Ethereum OR crypto",
+        "article_count": 100,
+        "feed_capped": true,
+        "current_3h": 0,
+        "baseline_3h_median": 1.0,
+        "short_ratio": 0.5,
+        "current_day": 8,
+        "baseline_day_median": 2.0,
+        "long_ratio": 3.0,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 26,
+        "news_burst_score": 11.1
+      },
+      "source_domains": [
+        "benzinga.com",
+        "dmarketforces.com",
+        "exchangerates.org.uk",
+        "openpr.com"
+      ],
+      "recent_evidence_count": 4,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "crypto",
+          "title": "Ethereum Price Prediction: Golden Cross Forms as ETF and Staking Inflows Jump",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPa2dFcTRCOWFmeWV2WV9ybHdxTzFtZFdYQ3NSTXQ3b250WFItYnVtNUczekhvVG5kSjJDWEpJdlFBZG1URjlMWkNURDJONWYzMWQ3ZUdvLWxNeWhFSE1tMC1qWmRBRkQ4TmFtVTUyeTRUaDNxSmg0MERJMGVjVXltdFlydnZ5UUV5LXM2ZFk2M3Jjd3NmYmVjelhtUl9JOGt1N0RKMkhvSDFLS2pvZU9tdVFYbEdrRkxPZGJNSklJcUo?oc=5",
+          "domain": "benzinga.com",
+          "source_name": "Benzinga",
+          "timestamp_utc": "2026-08-23T21:11:08+00:00",
+          "entity": "Bitcoin / Crypto",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "crypto"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "crypto",
+          "title": "Ethereum Price Climbs To $2,450 On Spot ETF Inflow",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQVjhfTWNLQ25paUx5SXZJRkE1b182aXNBRlRoNlVZVC1pOVltXzBBTk9jb1Q0T01PSHg2NkxzTDJPLVZuemo4RG5Oa0lEa3p0Tlk0b2JEYzZsdUhHZEdhVE1aTDNKUEJHNFVaekJualZoeVg1TnR4MVlsRjFuZVluYQ?oc=5",
+          "domain": "dmarketforces.com",
+          "source_name": "MarketForces Africa",
+          "timestamp_utc": "2026-08-23T18:21:55+00:00",
+          "entity": "Bitcoin / Crypto",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "crypto"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "crypto",
+          "title": "Ethereum Price Prediction: ETH Rallies on ETF Momentum",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZkc4TlQ4MWpuMVlvTERKVTcxbEhLNy1XeTQzUDYwRGtyeDBhQk51N3JNSm5JOC0wX2RHNWNDemFhNTMtMmt2WXBhVlhvMVQ3NzhtTmFuVUdYdVhSVC1FNllVX19JUmQwVk13UFFYNVBOZGk4RzJJRU1LSXlQM3AzdjBQYW1vZFhVWG15cS1vTnFJenM?oc=5",
+          "domain": "openpr.com",
+          "source_name": "openPR.com",
+          "timestamp_utc": "2026-08-23T12:33:27+00:00",
+          "entity": "Bitcoin / Crypto",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "crypto"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "crypto",
+          "title": "Ethereum Price Forecast: ETF Inflows Revive $4,000-$5,000 Price Targets",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbGJnUWpWOHJpeTJwTU1BSHZmQ0REaVF5WDl0a19aM2tiUzZwMlB1emMtNTdfODVpZEc5Z2oxaHpsSEhNQ3ZSazk5WGdnX245X0I4b2E1aU5fYzFZVFdGNWRfMVhVYkR3ejdoakkxYlN6ajN3aVFVRmpjRnBkRVlTZElDdHJkLWVRcnlXeHlyTnQ0Ml9MS1ZNcFpoeVFEaEVyN2ZsMkc1YlQ5MFo5TXEwZ3NRV0lmUWNhdDd3dVljdUxHQmMyRUF3?oc=5",
+          "domain": "exchangerates.org.uk",
+          "source_name": "Exchange Rates UK",
+          "timestamp_utc": "2026-08-23T06:45:00+00:00",
+          "entity": "Bitcoin / Crypto",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "crypto"
+        }
+      ]
+    },
+    {
+      "event_id": "119aa1d46f88ae39",
+      "scanner": "B",
+      "entity": "Tariffs / Trade",
+      "ticker": null,
+      "entity_type": "macro",
+      "event_title": "Canada could lose tens of thousands of jobs due to Trump’s 50% tariffs",
+      "event_timestamp_utc": "2026-08-23T18:57:00+00:00",
+      "categories": [
+        "macro_rates"
+      ],
+      "sec_forms": [],
+      "discovery_score": 48.1,
+      "news_burst_score": 21.6,
+      "source_diversity_score": 38.0,
+      "catalyst_quality_score": 85.0,
+      "freshness_score": 82.0,
+      "evidence_quality_score": 36,
+      "youtube_query": "Tariffs / Trade Canada could lose",
+      "youtube_event_terms": [
+        "Canada",
+        "could",
+        "lose"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "tariffs OR \"trade war\" OR \"export controls\"",
+        "article_count": 100,
+        "feed_capped": true,
+        "current_3h": 0,
+        "baseline_3h_median": 2.0,
+        "short_ratio": 0.333,
+        "current_day": 16,
+        "baseline_day_median": 1.0,
+        "long_ratio": 8.5,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 28,
+        "news_burst_score": 21.6
+      },
+      "source_domains": [
+        "dw.com",
+        "helenair.com"
+      ],
+      "recent_evidence_count": 2,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "Canada could lose tens of thousands of jobs due to Trump’s 50% tariffs",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVUFTMHhKeFZIOXZQNlV2Vk1BY2NVVmtsSzRpRHRmcl9yVldGZXM4UjZDWkhoZVh5d3RaNUNucXdhVDYwcWdTVm42WWxOcDJwMnB3LWVZVl8xVGoyQ05Ga1pWUTE4TV84WWNUSnV4RTRON3Y4UFMtODhmdkxYQi15cjdWWWU4ZktYU3hIcUs0VnVfd1k0cTBqX3c4cG5PZw?oc=5",
+          "domain": "helenair.com",
+          "source_name": "The Independent Record",
+          "timestamp_utc": "2026-08-23T18:57:00+00:00",
+          "entity": "Tariffs / Trade",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "Trump hits out at Canada over retaliatory tariffs",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPdF8xdHp0UVJqZjU5SmZpcFJ2YTNlN0NKT2pzTnFmMjdybzROUURsVFVKX0hSMGFURW1Ja2tPbEhwRExFeHhITnF4dmlmWjBnTXRxeDNZWGNZcFlBX3JLY2NackFtTlNNc0E3a01oSmNwQjVHNkZVejl2SHhNV0JsMGFIbmx4QTZ5X1HSAYoBQVVfeXFMTTF1TW41cXBFSFUxMC1FM3dVcHcwY0ZvOFdkQk9tMWNOTkhxZGtHRHJNeVBFUHV0YV8tTmxOa19ROTBWZVcxd0dROXRfMXhFX3lXNU9zWTRYUGZ6VVV3cUFyeWhla2R3M0FBSE9uWnltS1hPUlFIUVNuMF96X0V3WlJVRjZKRUt0Tkp3?oc=5",
+          "domain": "dw.com",
+          "source_name": "DW.com",
+          "timestamp_utc": "2026-08-23T07:32:58+00:00",
+          "entity": "Tariffs / Trade",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        }
+      ]
+    },
+    {
       "event_id": "c27eb8e17cb04376",
       "scanner": "B",
       "entity": "Paramount Skydance Corporation",
@@ -1532,92 +1574,6 @@
       ]
     },
     {
-      "event_id": "9fc915261da03f71",
-      "scanner": "B",
-      "entity": "SK hynix",
-      "ticker": null,
-      "entity_type": "foreign_company",
-      "event_title": "SK hynix REQUIREMENTS FOR MEMORY",
-      "event_timestamp_utc": "2026-08-23T20:48:16+00:00",
-      "categories": [
-        "ai_semis",
-        "pricing_capacity"
-      ],
-      "sec_forms": [],
-      "discovery_score": 46.7,
-      "news_burst_score": 18.0,
-      "source_diversity_score": 38.0,
-      "catalyst_quality_score": 77.0,
-      "freshness_score": 92.0,
-      "evidence_quality_score": 36,
-      "youtube_query": "SK hynix REQUIREMENTS MEMORY",
-      "youtube_event_terms": [
-        "REQUIREMENTS",
-        "MEMORY"
-      ],
-      "baseline": {
-        "source": "google_news_rss",
-        "query": "\"sk hynix\"",
-        "article_count": 97,
-        "feed_capped": true,
-        "current_3h": 1,
-        "baseline_3h_median": 0.0,
-        "short_ratio": 2.0,
-        "current_day": 2,
-        "baseline_day_median": 2.0,
-        "long_ratio": 1.0,
-        "short_history_buckets": 23,
-        "daily_history_buckets": 28,
-        "news_burst_score": 18.0
-      },
-      "source_domains": [
-        "en.bloomingbit.io",
-        "servethehome.com"
-      ],
-      "recent_evidence_count": 3,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "SK hynix REQUIREMENTS FOR MEMORY",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1USW4zUGQ5WVU3NktRUXlUM0FwRUwwamVuVE9vR0kyUG8wakI5OWlpS2dYX3lsRXY1RnhvTE5SRnhkS3hmR3prMmx1YVFoRVZHZENLaUxYbEYtMHdxOW5zWU1VbjBJVUhLNkJseFBB?oc=5",
-          "domain": "servethehome.com",
-          "source_name": "ServeTheHome",
-          "timestamp_utc": "2026-08-23T20:48:16+00:00",
-          "entity": "SK hynix",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "foreign_company"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "pricing_capacity",
-          "title": "SK hynix Memory Capacity Thermal Management",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5fSkFERkc5dXE1X0p1eElnY3c5emdXUk1GNXhMUVB1TlRoWTZCQ0dzendKdDUwRmEtanJfQW5ObWtWbmFSS2hqNnVoSWJNYWNWTHhEb3pVRFM1alA4cXgwRk5mSXdmcVA5WWdQMmNn?oc=5",
-          "domain": "servethehome.com",
-          "source_name": "ServeTheHome",
-          "timestamp_utc": "2026-08-23T20:48:15+00:00",
-          "entity": "SK hynix",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "foreign_company"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Nvidia to Raise AI Chip Prices at Least 15% as Memory Surge Boosts Samsung, SK Hynix Leverage",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA1QnlHNHhoa1BZSUhndlVDTEo3SXlqcXBmSVNmTS03d1Y2Mm5Ib2dHTFN3Nmt6TFNVMVhCNTdoRGowRDNTNU5MTnJiSEVvZFplRS1YVw?oc=5",
-          "domain": "en.bloomingbit.io",
-          "source_name": "bloomingbit",
-          "timestamp_utc": "2026-08-23T09:31:05+00:00",
-          "entity": "SK hynix",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "foreign_company"
-        }
-      ]
-    },
-    {
       "event_id": "aa17307720bbeb6e",
       "scanner": "B",
       "entity": "Federal Reserve / Rates",
@@ -1650,8 +1606,8 @@
         "baseline_3h_median": 0.0,
         "short_ratio": 1.0,
         "current_day": 0,
-        "baseline_day_median": 3.0,
-        "long_ratio": 0.25,
+        "baseline_day_median": 2.5,
+        "long_ratio": 0.286,
         "short_history_buckets": 23,
         "daily_history_buckets": 28,
         "news_burst_score": 0.0
@@ -1705,60 +1661,132 @@
       ]
     },
     {
-      "event_id": "60463636d120689d",
+      "event_id": "43ac577812633314",
+      "scanner": "B",
+      "entity": "Paramount Skydance Corporation",
+      "ticker": "PSKY",
+      "entity_type": "company",
+      "event_title": "Judge blocks Paramount's $110B Warner Bros. mer...",
+      "event_timestamp_utc": "2026-08-23T13:37:24+00:00",
+      "categories": [
+        "mna"
+      ],
+      "sec_forms": [],
+      "discovery_score": 46.5,
+      "news_burst_score": 18.0,
+      "source_diversity_score": 38.0,
+      "catalyst_quality_score": 94.0,
+      "freshness_score": 68.0,
+      "evidence_quality_score": 36,
+      "youtube_query": "PSKY Judge blocks 110B",
+      "youtube_event_terms": [
+        "Judge",
+        "blocks",
+        "110B"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "\"paramount skydance\" OR \"PSKY\"",
+        "article_count": 94,
+        "feed_capped": false,
+        "current_3h": 1,
+        "baseline_3h_median": 0.0,
+        "short_ratio": 2.0,
+        "current_day": 1,
+        "baseline_day_median": 2.0,
+        "long_ratio": 0.667,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 29,
+        "news_burst_score": 18.0
+      },
+      "source_domains": [
+        "kxly.com",
+        "pluang.com"
+      ],
+      "recent_evidence_count": 2,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "mna",
+          "title": "Judge blocks Paramount's $110B Warner Bros. mer...",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdVFHalNqNkhsQ3dOODdnakZLYmE4OEhyNnZPYXpKZXhQaVJVZlJENThBaXM0N3JNSGo0bDd5dGpid094NjhHU2ZmZXh5cWRPM2lXTS1LSURqSzlPV2dPOWVheVdYVVppU19wblhHVmkyZEMxU2ozVGdxR0VNOWRqVHkwbURvSWYxR3dYSGtrRk12eHI4U0R3aHBjaWJJTUplU2dlMi12WnBqeHRVQXdnSw?oc=5",
+          "domain": "pluang.com",
+          "source_name": "Pluang",
+          "timestamp_utc": "2026-08-23T13:37:24+00:00",
+          "entity": "Paramount Group, Inc.",
+          "ticker": "PGRE",
+          "cik": "1605607",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "mna",
+          "title": "Warner Bros. / Paramount Merger Lawsuit",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSXlYNVNxUEFxV0cyM3RtMmlHTFNadTBCYXZxQjJUNGNMWHBnRnFHNENPNnVrZkZscmhpSHk4YnRhZmYyd1NzbkdFT2ZJeU9tTEM3Q3h4eThaVVNSRjRzQzJkWVpZRF9CZEpDSm9XbEp5U05pTVhLRzV2cWhmY0d5UkJDbk9Cd1liZk1MVVYyV25OeG16ekpRVWt3ZWJFYkgxVDBvX1FIWEV6S3owLTVNMQ?oc=5",
+          "domain": "kxly.com",
+          "source_name": "KXLY.com",
+          "timestamp_utc": "2026-08-23T01:14:00+00:00",
+          "entity": "Paramount Group, Inc.",
+          "ticker": "PGRE",
+          "cik": "1605607",
+          "entity_type": "company"
+        }
+      ]
+    },
+    {
+      "event_id": "5dfaad7b851a1042",
       "scanner": "B",
       "entity": "Bitcoin / Crypto",
       "ticker": null,
       "entity_type": "crypto",
-      "event_title": "Ethereum Price Prediction: Golden Cross Forms as ETF and Staking Inflows Jump",
-      "event_timestamp_utc": "2026-08-23T21:11:08+00:00",
+      "event_title": "Bitcoin Price Eyes $90K as NUPL Flips Bullish After 317 Days",
+      "event_timestamp_utc": "2026-08-23T18:49:24+00:00",
       "categories": [
         "crypto"
       ],
       "sec_forms": [],
-      "discovery_score": 45.0,
-      "news_burst_score": 2.3,
+      "discovery_score": 45.1,
+      "news_burst_score": 11.1,
       "source_diversity_score": 55.0,
       "catalyst_quality_score": 70.0,
-      "freshness_score": 100.0,
-      "evidence_quality_score": 42,
-      "youtube_query": "Bitcoin / Crypto Ethereum Price Prediction",
+      "freshness_score": 82.0,
+      "evidence_quality_score": 39,
+      "youtube_query": "Bitcoin / Crypto Price Eyes NUPL",
       "youtube_event_terms": [
-        "Ethereum",
         "Price",
-        "Prediction"
+        "Eyes",
+        "NUPL"
       ],
       "baseline": {
         "source": "google_news_rss",
         "query": "Bitcoin OR Ethereum OR crypto",
-        "article_count": 99,
+        "article_count": 100,
         "feed_capped": true,
         "current_3h": 0,
         "baseline_3h_median": 1.0,
         "short_ratio": 0.5,
-        "current_day": 4,
-        "baseline_day_median": 3.0,
-        "long_ratio": 1.25,
+        "current_day": 8,
+        "baseline_day_median": 2.0,
+        "long_ratio": 3.0,
         "short_history_buckets": 23,
         "daily_history_buckets": 26,
-        "news_burst_score": 2.3
+        "news_burst_score": 11.1
       },
       "source_domains": [
-        "benzinga.com",
-        "dmarketforces.com",
-        "exchangerates.org.uk",
-        "openpr.com"
+        "coinpaper.com",
+        "cryptorank.io",
+        "themarketperiodical.com"
       ],
-      "recent_evidence_count": 4,
+      "recent_evidence_count": 3,
       "evidence": [
         {
           "source_type": "news_rss",
           "category": "crypto",
-          "title": "Ethereum Price Prediction: Golden Cross Forms as ETF and Staking Inflows Jump",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPa2dFcTRCOWFmeWV2WV9ybHdxTzFtZFdYQ3NSTXQ3b250WFItYnVtNUczekhvVG5kSjJDWEpJdlFBZG1URjlMWkNURDJONWYzMWQ3ZUdvLWxNeWhFSE1tMC1qWmRBRkQ4TmFtVTUyeTRUaDNxSmg0MERJMGVjVXltdFlydnZ5UUV5LXM2ZFk2M3Jjd3NmYmVjelhtUl9JOGt1N0RKMkhvSDFLS2pvZU9tdVFYbEdrRkxPZGJNSklJcUo?oc=5",
-          "domain": "benzinga.com",
-          "source_name": "Benzinga",
-          "timestamp_utc": "2026-08-23T21:11:08+00:00",
+          "title": "Bitcoin Price Eyes $90K as NUPL Flips Bullish After 317 Days",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOM0FZOVBSaW9Fa19OYTBOZ2lnMm14WHNOSlJRQXBFRjNjUWFLVGVLc2k3OXFQRlNlOUxGUFZ0ZE9mM3pMcjBydE9rVkpRV1lGZnUtdGg4ZlRsdVRjTFBfaE83VTV5NlVNVDRia0xwTDNoMllwc2tDWXNUMk1wdi1manBkRXhSR3pJSGJaTnM0RVRodENCSUdZcE56UkduQQ?oc=5",
+          "domain": "cryptorank.io",
+          "source_name": "CryptoRank",
+          "timestamp_utc": "2026-08-23T18:49:24+00:00",
           "entity": "Bitcoin / Crypto",
           "ticker": null,
           "cik": null,
@@ -1767,11 +1795,11 @@
         {
           "source_type": "news_rss",
           "category": "crypto",
-          "title": "Ethereum Price Climbs To $2,450 On Spot ETF Inflow",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQVjhfTWNLQ25paUx5SXZJRkE1b182aXNBRlRoNlVZVC1pOVltXzBBTk9jb1Q0T01PSHg2NkxzTDJPLVZuemo4RG5Oa0lEa3p0Tlk0b2JEYzZsdUhHZEdhVE1aTDNKUEJHNFVaekJualZoeVg1TnR4MVlsRjFuZVluYQ?oc=5",
-          "domain": "dmarketforces.com",
-          "source_name": "MarketForces Africa",
-          "timestamp_utc": "2026-08-23T18:21:55+00:00",
+          "title": "Bitcoin Price Surges 27% as Peter Brandt Flips Bullish After $58K Call",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOWU44S09pQnJZY1M1VHNPeUFOeW13N2hXYWlObWVkMFdOU0pudVh3Q3dnb2xBN2dQTC1Ya3BTV2V6MVNHcW5uZVJyUlBfT0Y5bUZaYTVwb2J2X1ppOG9yMUlLaHZrak5zUFNkWFhzbkxhc2ZvLWxfWGtoWjNEQ2FCSFBCb21tT0pHYUExRzRDQ0xvZ3R3QUxOY1lQVnc?oc=5",
+          "domain": "coinpaper.com",
+          "source_name": "Coinpaper",
+          "timestamp_utc": "2026-08-23T18:28:31+00:00",
           "entity": "Bitcoin / Crypto",
           "ticker": null,
           "cik": null,
@@ -1780,11 +1808,144 @@
         {
           "source_type": "news_rss",
           "category": "crypto",
-          "title": "Ethereum Price Prediction: ETH Rallies on ETF Momentum",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZkc4TlQ4MWpuMVlvTERKVTcxbEhLNy1XeTQzUDYwRGtyeDBhQk51N3JNSm5JOC0wX2RHNWNDemFhNTMtMmt2WXBhVlhvMVQ3NzhtTmFuVUdYdVhSVC1FNllVX19JUmQwVk13UFFYNVBOZGk4RzJJRU1LSXlQM3AzdjBQYW1vZFhVWG15cS1vTnFJenM?oc=5",
-          "domain": "openpr.com",
-          "source_name": "openPR.com",
-          "timestamp_utc": "2026-08-23T12:33:27+00:00",
+          "title": "Bitcoin ETFs See $1 Billion in Three Days, BTC Price Eyes $80K Breakout",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZG9mN2xkdDF0MG0yQWtkYS1WNS1QZVM4MmpCbTlYMVVndlprLUI1Tm9BQWxISnBCd3BZMUQwTkNhc0ZiY01JblpMX0FuUkRPOFhMNHZURUktbTNPWTlhQWVPR1N1MUxCNUNXUGFtYlNuVjYycG8xaTBubVE4U1pUZWx6YTVWLTVqSTUxRmtEUVJEd0gwUG05UTkwdm9CVnFMTHZ3WVkxOEFhbUtNQUtyaWlR?oc=5",
+          "domain": "themarketperiodical.com",
+          "source_name": "The Market Periodical",
+          "timestamp_utc": "2026-08-23T09:34:00+00:00",
+          "entity": "Bitcoin / Crypto",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "crypto"
+        }
+      ]
+    },
+    {
+      "event_id": "9fc915261da03f71",
+      "scanner": "B",
+      "entity": "SK hynix",
+      "ticker": null,
+      "entity_type": "foreign_company",
+      "event_title": "SK hynix REQUIREMENTS FOR MEMORY",
+      "event_timestamp_utc": "2026-08-23T20:48:16+00:00",
+      "categories": [
+        "ai_semis"
+      ],
+      "sec_forms": [],
+      "discovery_score": 44.9,
+      "news_burst_score": 18.0,
+      "source_diversity_score": 38.0,
+      "catalyst_quality_score": 68.0,
+      "freshness_score": 92.0,
+      "evidence_quality_score": 36,
+      "youtube_query": "SK hynix REQUIREMENTS MEMORY",
+      "youtube_event_terms": [
+        "REQUIREMENTS",
+        "MEMORY"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "\"sk hynix\"",
+        "article_count": 97,
+        "feed_capped": true,
+        "current_3h": 1,
+        "baseline_3h_median": 0.0,
+        "short_ratio": 2.0,
+        "current_day": 2,
+        "baseline_day_median": 2.0,
+        "long_ratio": 1.0,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 28,
+        "news_burst_score": 18.0
+      },
+      "source_domains": [
+        "en.bloomingbit.io",
+        "servethehome.com"
+      ],
+      "recent_evidence_count": 2,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "ai_semis",
+          "title": "SK hynix REQUIREMENTS FOR MEMORY",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1USW4zUGQ5WVU3NktRUXlUM0FwRUwwamVuVE9vR0kyUG8wakI5OWlpS2dYX3lsRXY1RnhvTE5SRnhkS3hmR3prMmx1YVFoRVZHZENLaUxYbEYtMHdxOW5zWU1VbjBJVUhLNkJseFBB?oc=5",
+          "domain": "servethehome.com",
+          "source_name": "ServeTheHome",
+          "timestamp_utc": "2026-08-23T20:48:16+00:00",
+          "entity": "SK hynix",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "foreign_company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "ai_semis",
+          "title": "Nvidia to Raise AI Chip Prices at Least 15% as Memory Surge Boosts Samsung, SK Hynix Leverage",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA1QnlHNHhoa1BZSUhndlVDTEo3SXlqcXBmSVNmTS03d1Y2Mm5Ib2dHTFN3Nmt6TFNVMVhCNTdoRGowRDNTNU5MTnJiSEVvZFplRS1YVw?oc=5",
+          "domain": "en.bloomingbit.io",
+          "source_name": "bloomingbit",
+          "timestamp_utc": "2026-08-23T09:31:05+00:00",
+          "entity": "SK hynix",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "foreign_company"
+        }
+      ]
+    },
+    {
+      "event_id": "7c14de7d1cbfb3bd",
+      "scanner": "B",
+      "entity": "Bitcoin / Crypto",
+      "ticker": null,
+      "entity_type": "crypto",
+      "event_title": "Ethereum Surges Nearly 30% in One Week — Spot ETF Inflows Return, Shorts Squeezed",
+      "event_timestamp_utc": "2026-08-23T13:42:58+00:00",
+      "categories": [
+        "crypto"
+      ],
+      "sec_forms": [],
+      "discovery_score": 43.0,
+      "news_burst_score": 11.1,
+      "source_diversity_score": 55.0,
+      "catalyst_quality_score": 70.0,
+      "freshness_score": 68.0,
+      "evidence_quality_score": 39,
+      "youtube_query": "Bitcoin / Crypto Ethereum Surges Nearly",
+      "youtube_event_terms": [
+        "Ethereum",
+        "Surges",
+        "Nearly"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "Bitcoin OR Ethereum OR crypto",
+        "article_count": 100,
+        "feed_capped": true,
+        "current_3h": 0,
+        "baseline_3h_median": 1.0,
+        "short_ratio": 0.5,
+        "current_day": 8,
+        "baseline_day_median": 2.0,
+        "long_ratio": 3.0,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 26,
+        "news_burst_score": 11.1
+      },
+      "source_domains": [
+        "bitget.com",
+        "pluang.com",
+        "thecurrencyanalytics.com"
+      ],
+      "recent_evidence_count": 3,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "crypto",
+          "title": "Ethereum Surges Nearly 30% in One Week — Spot ETF Inflows Return, Shorts Squeezed",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE00eS1LeUV6OXg0Z0Z1Nk1EYjJXU1JDSjIzUjlRVUhQMjZmanVqc3ptY24xUlRmMXZzWVMtZFMwQjZSd0RRX0tsZkpsR1hmZWNtRjZQRzRGZFlEbHhnc1ZkbnlGZ9IBY0FVX3lxTE00eS1LeUV6OXg0Z0Z1Nk1EYjJXU1JDSjIzUjlRVUhQMjZmanVqc3ptY24xUlRmMXZzWVMtZFMwQjZSd0RRX0tsZkpsR1hmZWNtRjZQRzRGZFlEbHhnc1ZkbnlGZw?oc=5",
+          "domain": "bitget.com",
+          "source_name": "Bitget",
+          "timestamp_utc": "2026-08-23T13:42:58+00:00",
           "entity": "Bitcoin / Crypto",
           "ticker": null,
           "cik": null,
@@ -1793,11 +1954,184 @@
         {
           "source_type": "news_rss",
           "category": "crypto",
-          "title": "Ethereum Price Forecast: ETF Inflows Revive $4,000-$5,000 Price Targets",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbGJnUWpWOHJpeTJwTU1BSHZmQ0REaVF5WDl0a19aM2tiUzZwMlB1emMtNTdfODVpZEc5Z2oxaHpsSEhNQ3ZSazk5WGdnX245X0I4b2E1aU5fYzFZVFdGNWRfMVhVYkR3ejdoakkxYlN6ajN3aVFVRmpjRnBkRVlTZElDdHJkLWVRcnlXeHlyTnQ0Ml9MS1ZNcFpoeVFEaEVyN2ZsMkc1YlQ5MFo5TXEwZ3NRV0lmUWNhdDd3dVljdUxHQmMyRUF3?oc=5",
-          "domain": "exchangerates.org.uk",
-          "source_name": "Exchange Rates UK",
-          "timestamp_utc": "2026-08-23T06:45:00+00:00",
+          "title": "Ethereum jumps nearly 30% in a week driven by $697M ETF inflows and shrinking exchange supply.",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNEQzRVNUZXhLRmZEUlJXbFRPYUVSRldpZ21EUHBCTU9FM2RDZEh5MTAxaEl4aEZ6bk5mZjdsdTdIWnZlV25UUGN6djlaOUt0VWVWa3BhT0ZuUW5TRUY5QmhINWNDTlpGMEdablRpT3RaMlVza3QxUG9nQjJNdFhVYXJWTHdVc3czWDVqTUxUVVNZT0s5N2NZa2hNbw?oc=5",
+          "domain": "pluang.com",
+          "source_name": "Pluang",
+          "timestamp_utc": "2026-08-23T03:24:48+00:00",
+          "entity": "Bitcoin / Crypto",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "crypto"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "crypto",
+          "title": "Ethereum Jumps 29.8% in a Week as ETF Inflows Hit $697 Million",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZHZjdGtUMHhvcTBZLWpLWmpLOVNGcExxSWR2bDZ3RjkxLTZ1WGRfdkUzZEVyTWlYa0lCUTZ3a0pqM1lTbnN2YmlhU3ltV2hsdlBVTTZHYXVrSW1QSlJxcEtzQk9pVldGQ2tJSHJ3MVJIaFZOSHBsQl9KU0NzOHdNYXd4d1c0MHRKNF85OGxVUzVnalM1clpaelRzUWJmXy1SMDdvWEpnMnZkLXVsSHc?oc=5",
+          "domain": "thecurrencyanalytics.com",
+          "source_name": "The Currency analytics",
+          "timestamp_utc": "2026-08-23T02:57:45+00:00",
+          "entity": "Bitcoin / Crypto",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "crypto"
+        }
+      ]
+    },
+    {
+      "event_id": "d0d5343ae29160d5",
+      "scanner": "B",
+      "entity": "Bitcoin / Crypto",
+      "ticker": null,
+      "entity_type": "crypto",
+      "event_title": "Bitcoin ETFs Record $1.67 Billion in Inflows Over Five Consecutive Trading Days",
+      "event_timestamp_utc": "2026-08-23T13:20:00+00:00",
+      "categories": [
+        "crypto"
+      ],
+      "sec_forms": [],
+      "discovery_score": 43.0,
+      "news_burst_score": 11.1,
+      "source_diversity_score": 55.0,
+      "catalyst_quality_score": 70.0,
+      "freshness_score": 68.0,
+      "evidence_quality_score": 39,
+      "youtube_query": "Bitcoin / Crypto ETFs Record Billion",
+      "youtube_event_terms": [
+        "ETFs",
+        "Record",
+        "Billion"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "Bitcoin OR Ethereum OR crypto",
+        "article_count": 100,
+        "feed_capped": true,
+        "current_3h": 0,
+        "baseline_3h_median": 1.0,
+        "short_ratio": 0.5,
+        "current_day": 8,
+        "baseline_day_median": 2.0,
+        "long_ratio": 3.0,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 26,
+        "news_burst_score": 11.1
+      },
+      "source_domains": [
+        "cryptonews.net",
+        "cryptorank.io",
+        "hokanews.com"
+      ],
+      "recent_evidence_count": 3,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "crypto",
+          "title": "Bitcoin ETFs Record $1.67 Billion in Inflows Over Five Consecutive Trading Days",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9JNHIySzR0ZjVuQzZnN2ZwUGxnZHFSajdKbC0tM3kySEVIbGlJX3JURV8xSzJ0Mlkyd2ljVjk0aENhdTZjTUQyTFYtRlUySDd0VThFOEZ3UTBtS0k0QTFienVlQk5KMjBFdENiZlgtOW9EVmdqYUsyMlNYaDM?oc=5",
+          "domain": "hokanews.com",
+          "source_name": "HOKANEWS.COM",
+          "timestamp_utc": "2026-08-23T13:20:00+00:00",
+          "entity": "Bitcoin / Crypto",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "crypto"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "crypto",
+          "title": "Bitcoin and Ethereum ETFs Add $492 Million as Inflow Streak Reaches Five Days",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxObV81QjloeWVDSDRUMmhycjVSWlhwMlAwemFmVEJlN1c3cl94T09jam05WEZxZjFzdTRyTUUwZ0RBTk9zZ1pNZkNMcDJwLVZMQW5GVkFFTjd0cmdWa1gzN0dpUjM5aVNpQ1lualBJR0d1aFVQT0ZBWlA3QjFFaUloRFFSdlh1TFJfYV9VZFB6WnpfY1hKeEc3WVVIRkJadmo5eGlHWVFuaEdTZFFNN3hteTN1MmIyLUt0?oc=5",
+          "domain": "cryptorank.io",
+          "source_name": "CryptoRank",
+          "timestamp_utc": "2026-08-23T00:01:51+00:00",
+          "entity": "Bitcoin / Crypto",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "crypto"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "crypto",
+          "title": "Bitcoin ETFs Add $1.92 Billion in 5 Days as Wall Street Buying Surges",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE03bXVlVFMtY2R6ZEdBWm1NSm1Rbnk1aWdMUUstcXI5dUQ3ZTcyM0lFVmR1WjNROVJOMmFWUmtRa2VtOHdiSVNjcUtQb1lFeE96SzBNRklUTDE?oc=5",
+          "domain": "cryptonews.net",
+          "source_name": "Cryptonews.net",
+          "timestamp_utc": "2026-08-22T22:42:21+00:00",
+          "entity": "Bitcoin / Crypto",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "crypto"
+        }
+      ]
+    },
+    {
+      "event_id": "547ad60c2a2e0919",
+      "scanner": "B",
+      "entity": "Bitcoin / Crypto",
+      "ticker": null,
+      "entity_type": "crypto",
+      "event_title": "Bitcoin Price Prediction: BlackRock ETF Wave Eyes $80,000",
+      "event_timestamp_utc": "2026-08-23T19:14:00+00:00",
+      "categories": [
+        "crypto"
+      ],
+      "sec_forms": [],
+      "discovery_score": 42.9,
+      "news_burst_score": 11.1,
+      "source_diversity_score": 38.0,
+      "catalyst_quality_score": 70.0,
+      "freshness_score": 92.0,
+      "evidence_quality_score": 36,
+      "youtube_query": "Bitcoin / Crypto Price Prediction BlackRock",
+      "youtube_event_terms": [
+        "Price",
+        "Prediction",
+        "BlackRock"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "Bitcoin OR Ethereum OR crypto",
+        "article_count": 100,
+        "feed_capped": true,
+        "current_3h": 0,
+        "baseline_3h_median": 1.0,
+        "short_ratio": 0.5,
+        "current_day": 8,
+        "baseline_day_median": 2.0,
+        "long_ratio": 3.0,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 26,
+        "news_burst_score": 11.1
+      },
+      "source_domains": [
+        "forbes.com",
+        "onesafe.io"
+      ],
+      "recent_evidence_count": 2,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "crypto",
+          "title": "Bitcoin Price Prediction: BlackRock ETF Wave Eyes $80,000",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPYnpqbFRvcTkzcFNDT213ZTRsQmhUTkVrVTFfT1RoTFBFQzNPSXNRWXB4RVJmN3N6ek5mQ2ljcEYtZUstWjlLREQ2ZGFPTExZYy00Z2dCS0ZBeF9ubzlYdTFQOEIzSHF6RnRMcU8zSk0wUl9qenBadm5GcUVkenVPZjFSTzQyMEhnTHNoenIySHFzRG5YdC1TNlBjSS12ZGgtMExUNUJaM0Q0S09iTHB4amt0Zw?oc=5",
+          "domain": "forbes.com",
+          "source_name": "Forbes",
+          "timestamp_utc": "2026-08-23T19:14:00+00:00",
+          "entity": "Bitcoin / Crypto",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "crypto"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "crypto",
+          "title": "Bitcoin Approaches the $80,000 Frontier",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1yM05HcDI1X0RscVZISlQ3NUFuTFZxNS0xaGRuWURTZTY3UUZiejZlQ0dWV1dxUXYteEZuRjdDMGQxU0FEZU1JbmdlYkczNWhSVGNlOUVUbWRRWWtORjVKaXZYYVNBMldZQ2pOX014cw?oc=5",
+          "domain": "onesafe.io",
+          "source_name": "OneSafe",
+          "timestamp_utc": "2026-08-23T05:37:02+00:00",
           "entity": "Bitcoin / Crypto",
           "ticker": null,
           "cik": null,
@@ -1832,7 +2166,7 @@
       "baseline": {
         "source": "google_news_rss",
         "query": "\"personalis\" OR \"PSNL\"",
-        "article_count": 56,
+        "article_count": 57,
         "feed_capped": false,
         "current_3h": 0,
         "baseline_3h_median": 0.0,
@@ -1879,59 +2213,58 @@
       ]
     },
     {
-      "event_id": "5dfaad7b851a1042",
+      "event_id": "32889ace4c49e06d",
       "scanner": "B",
       "entity": "Bitcoin / Crypto",
       "ticker": null,
       "entity_type": "crypto",
-      "event_title": "Bitcoin Price Eyes $90K as NUPL Flips Bullish After 317 Days",
-      "event_timestamp_utc": "2026-08-23T18:49:24+00:00",
+      "event_title": "Bitcoin's 20% Weekly Rally Puts Institutional Crypto Demand Back in Focus",
+      "event_timestamp_utc": "2026-08-23T17:14:00+00:00",
       "categories": [
         "crypto"
       ],
       "sec_forms": [],
-      "discovery_score": 42.0,
-      "news_burst_score": 2.3,
-      "source_diversity_score": 55.0,
+      "discovery_score": 41.4,
+      "news_burst_score": 11.1,
+      "source_diversity_score": 38.0,
       "catalyst_quality_score": 70.0,
       "freshness_score": 82.0,
-      "evidence_quality_score": 39,
-      "youtube_query": "Bitcoin / Crypto Price Eyes NUPL",
+      "evidence_quality_score": 36,
+      "youtube_query": "Bitcoin / Crypto Weekly Rally Puts",
       "youtube_event_terms": [
-        "Price",
-        "Eyes",
-        "NUPL"
+        "Weekly",
+        "Rally",
+        "Puts"
       ],
       "baseline": {
         "source": "google_news_rss",
         "query": "Bitcoin OR Ethereum OR crypto",
-        "article_count": 99,
+        "article_count": 100,
         "feed_capped": true,
         "current_3h": 0,
         "baseline_3h_median": 1.0,
         "short_ratio": 0.5,
-        "current_day": 4,
-        "baseline_day_median": 3.0,
-        "long_ratio": 1.25,
+        "current_day": 8,
+        "baseline_day_median": 2.0,
+        "long_ratio": 3.0,
         "short_history_buckets": 23,
         "daily_history_buckets": 26,
-        "news_burst_score": 2.3
+        "news_burst_score": 11.1
       },
       "source_domains": [
-        "coinpaper.com",
-        "cryptorank.io",
-        "themarketperiodical.com"
+        "cryptopotato.com",
+        "mibolsillo.co"
       ],
-      "recent_evidence_count": 3,
+      "recent_evidence_count": 2,
       "evidence": [
         {
           "source_type": "news_rss",
           "category": "crypto",
-          "title": "Bitcoin Price Eyes $90K as NUPL Flips Bullish After 317 Days",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOM0FZOVBSaW9Fa19OYTBOZ2lnMm14WHNOSlJRQXBFRjNjUWFLVGVLc2k3OXFQRlNlOUxGUFZ0ZE9mM3pMcjBydE9rVkpRV1lGZnUtdGg4ZlRsdVRjTFBfaE83VTV5NlVNVDRia0xwTDNoMllwc2tDWXNUMk1wdi1manBkRXhSR3pJSGJaTnM0RVRodENCSUdZcE56UkduQQ?oc=5",
-          "domain": "cryptorank.io",
-          "source_name": "CryptoRank",
-          "timestamp_utc": "2026-08-23T18:49:24+00:00",
+          "title": "Bitcoin's 20% Weekly Rally Puts Institutional Crypto Demand Back in Focus",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZGpSbllnaTdEY2hucjQydUc2V3lUeFFITkc1VmtTWjc1WktKZWhzdHVXb0dJZXZrU21jZUN4aWZuUEFnLXVURVNhbmdOYll1OExLczlNaUZWZl8zTXBmenZiUmZ4ZlpwemFfOTVCaTcwRDgzTVBCTzlXeTdVT2dHd19RYmVIUHdwd2MzbHNDRUNuMnFqOFlxUmZMcG5kdjJFdXhrLXg4d0hsWTVTc3JWSGVBbU5xOUEwZFBWeWNR?oc=5",
+          "domain": "mibolsillo.co",
+          "source_name": "mibolsillo.co",
+          "timestamp_utc": "2026-08-23T17:14:00+00:00",
           "entity": "Bitcoin / Crypto",
           "ticker": null,
           "cik": null,
@@ -1940,24 +2273,11 @@
         {
           "source_type": "news_rss",
           "category": "crypto",
-          "title": "Bitcoin Price Surges 27% as Peter Brandt Flips Bullish After $58K Call",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOWU44S09pQnJZY1M1VHNPeUFOeW13N2hXYWlObWVkMFdOU0pudVh3Q3dnb2xBN2dQTC1Ya3BTV2V6MVNHcW5uZVJyUlBfT0Y5bUZaYTVwb2J2X1ppOG9yMUlLaHZrak5zUFNkWFhzbkxhc2ZvLWxfWGtoWjNEQ2FCSFBCb21tT0pHYUExRzRDQ0xvZ3R3QUxOY1lQVnc?oc=5",
-          "domain": "coinpaper.com",
-          "source_name": "Coinpaper",
-          "timestamp_utc": "2026-08-23T18:28:31+00:00",
-          "entity": "Bitcoin / Crypto",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "crypto"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "crypto",
-          "title": "Bitcoin ETFs See $1 Billion in Three Days, BTC Price Eyes $80K Breakout",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZG9mN2xkdDF0MG0yQWtkYS1WNS1QZVM4MmpCbTlYMVVndlprLUI1Tm9BQWxISnBCd3BZMUQwTkNhc0ZiY01JblpMX0FuUkRPOFhMNHZURUktbTNPWTlhQWVPR1N1MUxCNUNXUGFtYlNuVjYycG8xaTBubVE4U1pUZWx6YTVWLTVqSTUxRmtEUVJEd0gwUG05UTkwdm9CVnFMTHZ3WVkxOEFhbUtNQUtyaWlR?oc=5",
-          "domain": "themarketperiodical.com",
-          "source_name": "The Market Periodical",
-          "timestamp_utc": "2026-08-23T09:34:00+00:00",
+          "title": "Institutional Demand Is Back: Bitcoin and Ethereum ETF Inflows Reached 10-Month High",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRkhpc2p0cUIxTWVWUWdlclhVelI3eVdEVDJ5X3VYeGZrZm9GMmYyRXltSmRXRXZxVVI1M2Mxa25nZzh0akNkMEdTQkZnMmc3cS1TbnRJeHhwY05Db1BrVFlJbERROVpfS1pyQXRsa3pUWWxBSmhYRUxPV0w4VndzRnZLdV9OcDMwblRYLWs3ZVJYTDFLa1MyNEFkQnVBSXJrdDZBUm1rRldUUkRsaVE?oc=5",
+          "domain": "cryptopotato.com",
+          "source_name": "CryptoPotato",
+          "timestamp_utc": "2026-08-23T11:02:00+00:00",
           "entity": "Bitcoin / Crypto",
           "ticker": null,
           "cik": null,
@@ -2066,7 +2386,7 @@
       "baseline": {
         "source": "google_news_rss",
         "query": "\"nvidia\" OR \"NVDA\"",
-        "article_count": 99,
+        "article_count": 98,
         "feed_capped": true,
         "current_3h": 0,
         "baseline_3h_median": 0.0,
@@ -2087,7 +2407,7 @@
       "evidence": [
         {
           "source_type": "news_rss",
-          "category": "pricing_capacity",
+          "category": "ai_semis",
           "title": "NVIDIA Raises AI Server Prices 15% Amid Memory Cost Surge",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZDJGLWZxMTJZZ0Frcno5Q0NwNG9hSUM5b3pBOVZTRVBRSExoRXZaWUxfRENfejhSeUZNbHVUSDExbnEwcFFrRjlhanF0bEpxdktfUHR2Q0c5anQxZWZlbGVmSm9vT1dzRnVFcnF1cV9hV0NOY2xpVFM5ZnRpNjd0MTRhTjIzNmJp?oc=5",
           "domain": "chosun.com",
@@ -2100,7 +2420,7 @@
         },
         {
           "source_type": "news_rss",
-          "category": "pricing_capacity",
+          "category": "ai_semis",
           "title": "NVIDIA Raises AI Server Prices 15% Amid Memory Shortage",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNTB6VXNURWRMZFJTaE9pSUVrREo3SlFQa3I0dHFsckh1bDZWQjZWU1MzR1VTUEpoZlk2NDE3N3BZSVZEdmdzSXUtQ21mUUpwRkJJX0d3eFcxMmN0Mkk1eUdta0hlSHU2ZWoyWEZCNkJETUJ1T3dBZ0RrZXF3TzdjVlpqR2ltOTRT?oc=5",
           "domain": "chosun.com",
@@ -2140,232 +2460,58 @@
       ]
     },
     {
-      "event_id": "7c14de7d1cbfb3bd",
+      "event_id": "7599d43473159103",
       "scanner": "B",
       "entity": "Bitcoin / Crypto",
       "ticker": null,
       "entity_type": "crypto",
-      "event_title": "Ethereum Surges Nearly 30% in One Week — Spot ETF Inflows Return, Shorts Squeezed",
-      "event_timestamp_utc": "2026-08-23T13:42:58+00:00",
+      "event_title": "Bitcoin Bear Market Maybe Nearing Its End, CryptoQuant CEO Suggests",
+      "event_timestamp_utc": "2026-08-23T15:17:02+00:00",
       "categories": [
         "crypto"
       ],
       "sec_forms": [],
-      "discovery_score": 39.9,
-      "news_burst_score": 2.3,
-      "source_diversity_score": 55.0,
-      "catalyst_quality_score": 70.0,
-      "freshness_score": 68.0,
-      "evidence_quality_score": 39,
-      "youtube_query": "Bitcoin / Crypto Ethereum Surges Nearly",
-      "youtube_event_terms": [
-        "Ethereum",
-        "Surges",
-        "Nearly"
-      ],
-      "baseline": {
-        "source": "google_news_rss",
-        "query": "Bitcoin OR Ethereum OR crypto",
-        "article_count": 99,
-        "feed_capped": true,
-        "current_3h": 0,
-        "baseline_3h_median": 1.0,
-        "short_ratio": 0.5,
-        "current_day": 4,
-        "baseline_day_median": 3.0,
-        "long_ratio": 1.25,
-        "short_history_buckets": 23,
-        "daily_history_buckets": 26,
-        "news_burst_score": 2.3
-      },
-      "source_domains": [
-        "bitget.com",
-        "pluang.com",
-        "thecurrencyanalytics.com"
-      ],
-      "recent_evidence_count": 3,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "crypto",
-          "title": "Ethereum Surges Nearly 30% in One Week — Spot ETF Inflows Return, Shorts Squeezed",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE00eS1LeUV6OXg0Z0Z1Nk1EYjJXU1JDSjIzUjlRVUhQMjZmanVqc3ptY24xUlRmMXZzWVMtZFMwQjZSd0RRX0tsZkpsR1hmZWNtRjZQRzRGZFlEbHhnc1ZkbnlGZ9IBY0FVX3lxTE00eS1LeUV6OXg0Z0Z1Nk1EYjJXU1JDSjIzUjlRVUhQMjZmanVqc3ptY24xUlRmMXZzWVMtZFMwQjZSd0RRX0tsZkpsR1hmZWNtRjZQRzRGZFlEbHhnc1ZkbnlGZw?oc=5",
-          "domain": "bitget.com",
-          "source_name": "Bitget",
-          "timestamp_utc": "2026-08-23T13:42:58+00:00",
-          "entity": "Bitcoin / Crypto",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "crypto"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "crypto",
-          "title": "Ethereum jumps nearly 30% in a week driven by $697M ETF inflows and shrinking exchange supply.",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNEQzRVNUZXhLRmZEUlJXbFRPYUVSRldpZ21EUHBCTU9FM2RDZEh5MTAxaEl4aEZ6bk5mZjdsdTdIWnZlV25UUGN6djlaOUt0VWVWa3BhT0ZuUW5TRUY5QmhINWNDTlpGMEdablRpT3RaMlVza3QxUG9nQjJNdFhVYXJWTHdVc3czWDVqTUxUVVNZT0s5N2NZa2hNbw?oc=5",
-          "domain": "pluang.com",
-          "source_name": "Pluang",
-          "timestamp_utc": "2026-08-23T03:24:48+00:00",
-          "entity": "Bitcoin / Crypto",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "crypto"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "crypto",
-          "title": "Ethereum Jumps 29.8% in a Week as ETF Inflows Hit $697 Million",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZHZjdGtUMHhvcTBZLWpLWmpLOVNGcExxSWR2bDZ3RjkxLTZ1WGRfdkUzZEVyTWlYa0lCUTZ3a0pqM1lTbnN2YmlhU3ltV2hsdlBVTTZHYXVrSW1QSlJxcEtzQk9pVldGQ2tJSHJ3MVJIaFZOSHBsQl9KU0NzOHdNYXd4d1c0MHRKNF85OGxVUzVnalM1clpaelRzUWJmXy1SMDdvWEpnMnZkLXVsSHc?oc=5",
-          "domain": "thecurrencyanalytics.com",
-          "source_name": "The Currency analytics",
-          "timestamp_utc": "2026-08-23T02:57:45+00:00",
-          "entity": "Bitcoin / Crypto",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "crypto"
-        }
-      ]
-    },
-    {
-      "event_id": "d0d5343ae29160d5",
-      "scanner": "B",
-      "entity": "Bitcoin / Crypto",
-      "ticker": null,
-      "entity_type": "crypto",
-      "event_title": "Bitcoin ETFs Record $1.67 Billion in Inflows Over Five Consecutive Trading Days",
-      "event_timestamp_utc": "2026-08-23T13:20:00+00:00",
-      "categories": [
-        "crypto"
-      ],
-      "sec_forms": [],
-      "discovery_score": 39.9,
-      "news_burst_score": 2.3,
-      "source_diversity_score": 55.0,
-      "catalyst_quality_score": 70.0,
-      "freshness_score": 68.0,
-      "evidence_quality_score": 39,
-      "youtube_query": "Bitcoin / Crypto ETFs Record Billion",
-      "youtube_event_terms": [
-        "ETFs",
-        "Record",
-        "Billion"
-      ],
-      "baseline": {
-        "source": "google_news_rss",
-        "query": "Bitcoin OR Ethereum OR crypto",
-        "article_count": 99,
-        "feed_capped": true,
-        "current_3h": 0,
-        "baseline_3h_median": 1.0,
-        "short_ratio": 0.5,
-        "current_day": 4,
-        "baseline_day_median": 3.0,
-        "long_ratio": 1.25,
-        "short_history_buckets": 23,
-        "daily_history_buckets": 26,
-        "news_burst_score": 2.3
-      },
-      "source_domains": [
-        "cryptonews.net",
-        "cryptorank.io",
-        "hokanews.com"
-      ],
-      "recent_evidence_count": 3,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "crypto",
-          "title": "Bitcoin ETFs Record $1.67 Billion in Inflows Over Five Consecutive Trading Days",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9JNHIySzR0ZjVuQzZnN2ZwUGxnZHFSajdKbC0tM3kySEVIbGlJX3JURV8xSzJ0Mlkyd2ljVjk0aENhdTZjTUQyTFYtRlUySDd0VThFOEZ3UTBtS0k0QTFienVlQk5KMjBFdENiZlgtOW9EVmdqYUsyMlNYaDM?oc=5",
-          "domain": "hokanews.com",
-          "source_name": "HOKANEWS.COM",
-          "timestamp_utc": "2026-08-23T13:20:00+00:00",
-          "entity": "Bitcoin / Crypto",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "crypto"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "crypto",
-          "title": "Bitcoin and Ethereum ETFs Add $492 Million as Inflow Streak Reaches Five Days",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxObV81QjloeWVDSDRUMmhycjVSWlhwMlAwemFmVEJlN1c3cl94T09jam05WEZxZjFzdTRyTUUwZ0RBTk9zZ1pNZkNMcDJwLVZMQW5GVkFFTjd0cmdWa1gzN0dpUjM5aVNpQ1lualBJR0d1aFVQT0ZBWlA3QjFFaUloRFFSdlh1TFJfYV9VZFB6WnpfY1hKeEc3WVVIRkJadmo5eGlHWVFuaEdTZFFNN3hteTN1MmIyLUt0?oc=5",
-          "domain": "cryptorank.io",
-          "source_name": "CryptoRank",
-          "timestamp_utc": "2026-08-23T00:01:51+00:00",
-          "entity": "Bitcoin / Crypto",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "crypto"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "crypto",
-          "title": "Bitcoin ETFs Add $1.92 Billion in 5 Days as Wall Street Buying Surges",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE03bXVlVFMtY2R6ZEdBWm1NSm1Rbnk1aWdMUUstcXI5dUQ3ZTcyM0lFVmR1WjNROVJOMmFWUmtRa2VtOHdiSVNjcUtQb1lFeE96SzBNRklUTDE?oc=5",
-          "domain": "cryptonews.net",
-          "source_name": "Cryptonews.net",
-          "timestamp_utc": "2026-08-22T22:42:21+00:00",
-          "entity": "Bitcoin / Crypto",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "crypto"
-        }
-      ]
-    },
-    {
-      "event_id": "547ad60c2a2e0919",
-      "scanner": "B",
-      "entity": "Bitcoin / Crypto",
-      "ticker": null,
-      "entity_type": "crypto",
-      "event_title": "Bitcoin Price Prediction: BlackRock ETF Wave Eyes $80,000",
-      "event_timestamp_utc": "2026-08-23T19:14:00+00:00",
-      "categories": [
-        "crypto"
-      ],
-      "sec_forms": [],
-      "discovery_score": 39.8,
-      "news_burst_score": 2.3,
+      "discovery_score": 39.3,
+      "news_burst_score": 11.1,
       "source_diversity_score": 38.0,
       "catalyst_quality_score": 70.0,
-      "freshness_score": 92.0,
+      "freshness_score": 68.0,
       "evidence_quality_score": 36,
-      "youtube_query": "Bitcoin / Crypto Price Prediction BlackRock",
+      "youtube_query": "Bitcoin / Crypto Bear Market Maybe",
       "youtube_event_terms": [
-        "Price",
-        "Prediction",
-        "BlackRock"
+        "Bear",
+        "Market",
+        "Maybe"
       ],
       "baseline": {
         "source": "google_news_rss",
         "query": "Bitcoin OR Ethereum OR crypto",
-        "article_count": 99,
+        "article_count": 100,
         "feed_capped": true,
         "current_3h": 0,
         "baseline_3h_median": 1.0,
         "short_ratio": 0.5,
-        "current_day": 4,
-        "baseline_day_median": 3.0,
-        "long_ratio": 1.25,
+        "current_day": 8,
+        "baseline_day_median": 2.0,
+        "long_ratio": 3.0,
         "short_history_buckets": 23,
         "daily_history_buckets": 26,
-        "news_burst_score": 2.3
+        "news_burst_score": 11.1
       },
       "source_domains": [
-        "forbes.com",
-        "onesafe.io"
+        "blockonomi.com",
+        "cryptoquant.com"
       ],
       "recent_evidence_count": 2,
       "evidence": [
         {
           "source_type": "news_rss",
           "category": "crypto",
-          "title": "Bitcoin Price Prediction: BlackRock ETF Wave Eyes $80,000",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPYnpqbFRvcTkzcFNDT213ZTRsQmhUTkVrVTFfT1RoTFBFQzNPSXNRWXB4RVJmN3N6ek5mQ2ljcEYtZUstWjlLREQ2ZGFPTExZYy00Z2dCS0ZBeF9ubzlYdTFQOEIzSHF6RnRMcU8zSk0wUl9qenBadm5GcUVkenVPZjFSTzQyMEhnTHNoenIySHFzRG5YdC1TNlBjSS12ZGgtMExUNUJaM0Q0S09iTHB4amt0Zw?oc=5",
-          "domain": "forbes.com",
-          "source_name": "Forbes",
-          "timestamp_utc": "2026-08-23T19:14:00+00:00",
+          "title": "Bitcoin Bear Market Maybe Nearing Its End, CryptoQuant CEO Suggests",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxORjZtZG50OW4yMS1XNy1mczRMbDByOGlwR3hYSWRkVWdlczhLZzQ3SGh5TEw4Q1hHZGFUOVM1RFNVTktUcl80akMxUzhERUlidkJIcW1SWDEzekRGY0lwcFRWcDJoQVFhSVRDZEd0NGN6NjdUQW45cmhlc1B4aS1YbGlNS09meW9mX0kxS2w5ZnUwQjlz?oc=5",
+          "domain": "blockonomi.com",
+          "source_name": "Blockonomi",
+          "timestamp_utc": "2026-08-23T15:17:02+00:00",
           "entity": "Bitcoin / Crypto",
           "ticker": null,
           "cik": null,
@@ -2374,11 +2520,11 @@
         {
           "source_type": "news_rss",
           "category": "crypto",
-          "title": "Bitcoin Approaches the $80,000 Frontier",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1yM05HcDI1X0RscVZISlQ3NUFuTFZxNS0xaGRuWURTZTY3UUZiejZlQ0dWV1dxUXYteEZuRjdDMGQxU0FEZU1JbmdlYkczNWhSVGNlOUVUbWRRWWtORjVKaXZYYVNBMldZQ2pOX014cw?oc=5",
-          "domain": "onesafe.io",
-          "source_name": "OneSafe",
-          "timestamp_utc": "2026-08-23T05:37:02+00:00",
+          "title": "Is Bitcoin’s Bear Market Almost Over? Testing Ki Young Ju’s Call",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNcjNScktxQkhsQ1Zhb3hyV3BTSjlxdzEybG9fN0dfY3dtQ2hTUHhoRzlXUkdneWtBam9SN2dva19ZTkpYWU8xYS0ydjZYQnlxQTc5TFY5TDhrVHpqMHFNR2xQY0FfV1V6U1NjYXZoZk5zRU1PWVJ1YURwN3FjVXVpRjBaRXY3U0piaUdPX1BPYkVJYnVMZFQyVUtKb0RDbExValV6SXJlRzdod2x0R0txeG9CdlFjcnhrbUlVNXV5UU1CbDVBMllETA?oc=5",
+          "domain": "cryptoquant.com",
+          "source_name": "CryptoQuant",
+          "timestamp_utc": "2026-08-23T13:18:02+00:00",
           "entity": "Bitcoin / Crypto",
           "ticker": null,
           "cik": null,
@@ -2460,79 +2606,6 @@
       ]
     },
     {
-      "event_id": "32889ace4c49e06d",
-      "scanner": "B",
-      "entity": "Bitcoin / Crypto",
-      "ticker": null,
-      "entity_type": "crypto",
-      "event_title": "Bitcoin's 20% Weekly Rally Puts Institutional Crypto Demand Back in Focus",
-      "event_timestamp_utc": "2026-08-23T17:14:00+00:00",
-      "categories": [
-        "crypto"
-      ],
-      "sec_forms": [],
-      "discovery_score": 38.3,
-      "news_burst_score": 2.3,
-      "source_diversity_score": 38.0,
-      "catalyst_quality_score": 70.0,
-      "freshness_score": 82.0,
-      "evidence_quality_score": 36,
-      "youtube_query": "Bitcoin / Crypto Weekly Rally Puts",
-      "youtube_event_terms": [
-        "Weekly",
-        "Rally",
-        "Puts"
-      ],
-      "baseline": {
-        "source": "google_news_rss",
-        "query": "Bitcoin OR Ethereum OR crypto",
-        "article_count": 99,
-        "feed_capped": true,
-        "current_3h": 0,
-        "baseline_3h_median": 1.0,
-        "short_ratio": 0.5,
-        "current_day": 4,
-        "baseline_day_median": 3.0,
-        "long_ratio": 1.25,
-        "short_history_buckets": 23,
-        "daily_history_buckets": 26,
-        "news_burst_score": 2.3
-      },
-      "source_domains": [
-        "cryptopotato.com",
-        "mibolsillo.co"
-      ],
-      "recent_evidence_count": 2,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "crypto",
-          "title": "Bitcoin's 20% Weekly Rally Puts Institutional Crypto Demand Back in Focus",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZGpSbllnaTdEY2hucjQydUc2V3lUeFFITkc1VmtTWjc1WktKZWhzdHVXb0dJZXZrU21jZUN4aWZuUEFnLXVURVNhbmdOYll1OExLczlNaUZWZl8zTXBmenZiUmZ4ZlpwemFfOTVCaTcwRDgzTVBCTzlXeTdVT2dHd19RYmVIUHdwd2MzbHNDRUNuMnFqOFlxUmZMcG5kdjJFdXhrLXg4d0hsWTVTc3JWSGVBbU5xOUEwZFBWeWNR?oc=5",
-          "domain": "mibolsillo.co",
-          "source_name": "mibolsillo.co",
-          "timestamp_utc": "2026-08-23T17:14:00+00:00",
-          "entity": "Bitcoin / Crypto",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "crypto"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "crypto",
-          "title": "Institutional Demand Is Back: Bitcoin and Ethereum ETF Inflows Reached 10-Month High",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRkhpc2p0cUIxTWVWUWdlclhVelI3eVdEVDJ5X3VYeGZrZm9GMmYyRXltSmRXRXZxVVI1M2Mxa25nZzh0akNkMEdTQkZnMmc3cS1TbnRJeHhwY05Db1BrVFlJbERROVpfS1pyQXRsa3pUWWxBSmhYRUxPV0w4VndzRnZLdV9OcDMwblRYLWs3ZVJYTDFLa1MyNEFkQnVBSXJrdDZBUm1rRldUUkRsaVE?oc=5",
-          "domain": "cryptopotato.com",
-          "source_name": "CryptoPotato",
-          "timestamp_utc": "2026-08-23T11:02:00+00:00",
-          "entity": "Bitcoin / Crypto",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "crypto"
-        }
-      ]
-    },
-    {
       "event_id": "5c6d5abd39364cb7",
       "scanner": "B",
       "entity": "MICRON TECHNOLOGY INC",
@@ -2604,79 +2677,6 @@
       ]
     },
     {
-      "event_id": "7599d43473159103",
-      "scanner": "B",
-      "entity": "Bitcoin / Crypto",
-      "ticker": null,
-      "entity_type": "crypto",
-      "event_title": "Bitcoin Bear Market Maybe Nearing Its End, CryptoQuant CEO Suggests",
-      "event_timestamp_utc": "2026-08-23T15:17:02+00:00",
-      "categories": [
-        "crypto"
-      ],
-      "sec_forms": [],
-      "discovery_score": 36.2,
-      "news_burst_score": 2.3,
-      "source_diversity_score": 38.0,
-      "catalyst_quality_score": 70.0,
-      "freshness_score": 68.0,
-      "evidence_quality_score": 36,
-      "youtube_query": "Bitcoin / Crypto Bear Market Maybe",
-      "youtube_event_terms": [
-        "Bear",
-        "Market",
-        "Maybe"
-      ],
-      "baseline": {
-        "source": "google_news_rss",
-        "query": "Bitcoin OR Ethereum OR crypto",
-        "article_count": 99,
-        "feed_capped": true,
-        "current_3h": 0,
-        "baseline_3h_median": 1.0,
-        "short_ratio": 0.5,
-        "current_day": 4,
-        "baseline_day_median": 3.0,
-        "long_ratio": 1.25,
-        "short_history_buckets": 23,
-        "daily_history_buckets": 26,
-        "news_burst_score": 2.3
-      },
-      "source_domains": [
-        "blockonomi.com",
-        "cryptoquant.com"
-      ],
-      "recent_evidence_count": 2,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "crypto",
-          "title": "Bitcoin Bear Market Maybe Nearing Its End, CryptoQuant CEO Suggests",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxORjZtZG50OW4yMS1XNy1mczRMbDByOGlwR3hYSWRkVWdlczhLZzQ3SGh5TEw4Q1hHZGFUOVM1RFNVTktUcl80akMxUzhERUlidkJIcW1SWDEzekRGY0lwcFRWcDJoQVFhSVRDZEd0NGN6NjdUQW45cmhlc1B4aS1YbGlNS09meW9mX0kxS2w5ZnUwQjlz?oc=5",
-          "domain": "blockonomi.com",
-          "source_name": "Blockonomi",
-          "timestamp_utc": "2026-08-23T15:17:02+00:00",
-          "entity": "Bitcoin / Crypto",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "crypto"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "crypto",
-          "title": "Is Bitcoin’s Bear Market Almost Over? Testing Ki Young Ju’s Call",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNcjNScktxQkhsQ1Zhb3hyV3BTSjlxdzEybG9fN0dfY3dtQ2hTUHhoRzlXUkdneWtBam9SN2dva19ZTkpYWU8xYS0ydjZYQnlxQTc5TFY5TDhrVHpqMHFNR2xQY0FfV1V6U1NjYXZoZk5zRU1PWVJ1YURwN3FjVXVpRjBaRXY3U0piaUdPX1BPYkVJYnVMZFQyVUtKb0RDbExValV6SXJlRzdod2x0R0txeG9CdlFjcnhrbUlVNXV5UU1CbDVBMllETA?oc=5",
-          "domain": "cryptoquant.com",
-          "source_name": "CryptoQuant",
-          "timestamp_utc": "2026-08-23T13:18:02+00:00",
-          "entity": "Bitcoin / Crypto",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "crypto"
-        }
-      ]
-    },
-    {
       "event_id": "43ee83363e511cd2",
       "scanner": "B",
       "entity": "Bitcoin / Crypto",
@@ -2688,8 +2688,8 @@
         "crypto"
       ],
       "sec_forms": [],
-      "discovery_score": 33.8,
-      "news_burst_score": 2.3,
+      "discovery_score": 36.9,
+      "news_burst_score": 11.1,
       "source_diversity_score": 38.0,
       "catalyst_quality_score": 70.0,
       "freshness_score": 52.0,
@@ -2703,17 +2703,17 @@
       "baseline": {
         "source": "google_news_rss",
         "query": "Bitcoin OR Ethereum OR crypto",
-        "article_count": 99,
+        "article_count": 100,
         "feed_capped": true,
         "current_3h": 0,
         "baseline_3h_median": 1.0,
         "short_ratio": 0.5,
-        "current_day": 4,
-        "baseline_day_median": 3.0,
-        "long_ratio": 1.25,
+        "current_day": 8,
+        "baseline_day_median": 2.0,
+        "long_ratio": 3.0,
         "short_history_buckets": 23,
         "daily_history_buckets": 26,
-        "news_burst_score": 2.3
+        "news_burst_score": 11.1
       },
       "source_domains": [
         "exchangerates.org.uk",

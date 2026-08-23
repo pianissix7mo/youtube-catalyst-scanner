@@ -1,20 +1,20 @@
 {
   "scanner": "B",
-  "generated_at_utc": "2026-08-23T21:56:54.204712+00:00",
+  "generated_at_utc": "2026-08-23T22:02:38.982123+00:00",
   "lookback_hours": 24,
   "primary_news_source": "google_news_rss",
-  "raw_evidence_count": 359,
-  "news_evidence_count": 359,
+  "raw_evidence_count": 367,
+  "news_evidence_count": 367,
   "sec_evidence_count": 0,
-  "event_cluster_count": 220,
+  "event_cluster_count": 228,
   "category_mapped_counts": {
     "earnings_guidance": 31,
-    "mna": 56,
-    "contract_order": 15,
-    "regulatory_legal": 15,
+    "mna": 55,
+    "contract_order": 18,
+    "regulatory_legal": 17,
     "pricing_capacity": 27,
-    "ai_semis": 83,
-    "macro_rates": 63,
+    "ai_semis": 85,
+    "macro_rates": 65,
     "crypto": 69
   },
   "events": [
@@ -38,19 +38,20 @@
         "cbsnews.com",
         "cpapracticeadvisor.com",
         "dtnpf.com",
-        "kptv.com",
+        "indiatribune.com",
         "kpvi.com",
-        "kurdistan24.net",
         "law360.com",
         "lemonde.fr",
+        "newscord.org",
         "nytimes.com",
         "theguardian.com",
         "thehill.com",
         "washingtonpost.com",
         "washingtontimes.com",
+        "wdam.com",
         "wfla.com"
       ],
-      "recent_evidence_count": 19,
+      "recent_evidence_count": 20,
       "evidence": [
         {
           "source_type": "news_rss",
@@ -86,6 +87,19 @@
           "domain": "washingtontimes.com",
           "source_name": "Washington Times",
           "timestamp_utc": "2026-08-23T20:17:25+00:00",
+          "entity": "Tariffs / Trade",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "US lawmakers criticise Trump tariffs after Canada trade talks collapse",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeVpKQWpCdGYyY1dNaHQ4b2stNUp5cjNEdXVidVNGN1c0X0wybFlyN04ySk5BV1ZpMDZEXzdRQ25tcXEwSWE0SExPcXNic2RuY2VtUGswQjhkYzRlSzBxMkk3S2dqSExBUEljNm5PSGRJdGNHeXdVbnljc0g3LWJVSnphakJEYnloaS1qaHdvTzRXNl94bmZsVUtLOTJVb2NOOTVvTl9lbWdldw?oc=5",
+          "domain": "indiatribune.com",
+          "source_name": "India Tribune - Chicago",
+          "timestamp_utc": "2026-08-23T20:01:38+00:00",
           "entity": "Tariffs / Trade",
           "ticker": null,
           "cik": null,
@@ -133,11 +147,11 @@
         {
           "source_type": "news_rss",
           "category": "macro_rates",
-          "title": "Canada Hits Back at US With Retaliatory Tariffs After Carney Rejects ‘Unfair’ Trade Deal",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBnSHJyVHNUSlVJS1VqVzRKTDhNNURHUjdDM0tTMmN6QXFKZzIyRk1CM2JWRzhndlh5Sm1CekVJd2ZWZDVQZEZKSFdvTzBpUl9VWWNnaHl3?oc=5",
-          "domain": "kurdistan24.net",
-          "source_name": "Kurdistan24",
-          "timestamp_utc": "2026-08-23T18:33:41+00:00",
+          "title": "Negotiations between US and Canada collapse, causing tariffs | What to know",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQWlNWQnhBMVRJUEFfbERsUTFOX1MwRnRvLS14aTA5aXZKSmpRUFdxVEZhRVBoVWRoNE1UdE9mYXpUcUY5NEhtR0g5TXpOYkFxM0FINXNRWk42RTRSdVp4NDlHdGdlZDFpcVNVeVNMRktHSDhWQ0FnUXRpOXk0WnVjVkYwRmhPQVYtblNPeE1vZ2k3TE1CWmdJWnhHempRdUhMb0VBbHhtNGE1d2FxMVd4QzVnQkRwdDQzeUpsZ1QzbmF1emlfOW9PVXBpWTJ3U2gwaU5lMnkxVTZwQlJLLWo0?oc=5",
+          "domain": "13wmaz.com",
+          "source_name": "13WMAZ",
+          "timestamp_utc": "2026-08-23T18:04:00+00:00",
           "entity": "Tariffs / Trade",
           "ticker": null,
           "cik": null,
@@ -146,11 +160,11 @@
         {
           "source_type": "news_rss",
           "category": "macro_rates",
-          "title": "Negotiations between US and Canada collapse, causing tariffs | What to know",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQWlNWQnhBMVRJUEFfbERsUTFOX1MwRnRvLS14aTA5aXZKSmpRUFdxVEZhRVBoVWRoNE1UdE9mYXpUcUY5NEhtR0g5TXpOYkFxM0FINXNRWk42RTRSdVp4NDlHdGdlZDFpcVNVeVNMRktHSDhWQ0FnUXRpOXk0WnVjVkYwRmhPQVYtblNPeE1vZ2k3TE1CWmdJWnhHempRdUhMb0VBbHhtNGE1d2FxMVd4QzVnQkRwdDQzeUpsZ1QzbmF1emlfOW9PVXBpWTJ3U2gwaU5lMnkxVTZwQlJLLWo0?oc=5",
-          "domain": "13wmaz.com",
-          "source_name": "13WMAZ",
-          "timestamp_utc": "2026-08-23T18:04:00+00:00",
+          "title": "Donald Trump Escalates U.S.-Canada Trade War With 50% Tariffs, Mark Carney Says Canada Is At War",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNcjBIQnZBQlRaVFRNQkdxN0NwM2xBWUx5YmNNejhHU2VoUWM4UUJ6UHpvNGZMa3JQWm5RSEdQaGJCblg0U1ptdTBTTkVsSUZUc1RsSThGVDdiUzVqLWRiQnFnWVJhcDljbTFzUFNPMlRUQW5HSkxOekZPRnpMYzlKVlRPTjJYc0pJVXFkUFl4YWdoSF9VNml2RjJIZ1dta09pVGM1ZnNpTzhsTmNmX09ZVnRiVk1pUkRFWUdLRHlCaXkyOXE4alZNOTFxcEM2aDZvQUpCUDREVU5QYXdGTzhzb1pva0JQWmpuLVE?oc=5",
+          "domain": "newscord.org",
+          "source_name": "NewsCord",
+          "timestamp_utc": "2026-08-23T17:07:24+00:00",
           "entity": "Tariffs / Trade",
           "ticker": null,
           "cik": null,
@@ -238,9 +252,9 @@
           "source_type": "news_rss",
           "category": "macro_rates",
           "title": "US tariffs prompt retaliation from Canada",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPS09zMzYxcndiZTBNZnR6THpWR1JkWkQxQUxVekdNX1p3YW5MWjBfZ2NBd05jd3RGSnJNNXd0U3VrX3JmV2ZzeWxYR1JIdFdlVWJvRUM5Y0lQQXdHc1NEbW91Yy1NSVNtTzVPamZGbHBBSFJfU0gwdk1ROHZpdS12QQ?oc=5",
-          "domain": "kptv.com",
-          "source_name": "KPTV",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOOVB3LWh3S01FUUNsYjhRejZfekRBWjZCT2pnMTE4SG1KQ0FyY3VBMW93MDROc2JKLTllRHIydUNOdHhpcmFISFJzRG1hMk1uZEFwLXphMWpzM1FWUzUySEFVdjc3Z0RfVWIySTUzTmE2aDB0NzhDcEdHMTZySVhmRw?oc=5",
+          "domain": "wdam.com",
+          "source_name": "WDAM-TV",
           "timestamp_utc": "2026-08-23T09:24:00+00:00",
           "entity": "Tariffs / Trade",
           "ticker": null,
@@ -417,6 +431,93 @@
       ]
     },
     {
+      "entity": "Tariffs / Trade",
+      "ticker": null,
+      "cik": null,
+      "entity_type": "macro",
+      "representative_title": "What Canadian Goods Are Getting Hit With New Tariffs?",
+      "latest_timestamp_utc": "2026-08-23T21:10:20+00:00",
+      "categories": [
+        "macro_rates"
+      ],
+      "sec_forms": [],
+      "source_domains": [
+        "facebook.com",
+        "finance.yahoo.com",
+        "nbcchicago.com",
+        "nytimes.com",
+        "wkrn.com"
+      ],
+      "recent_evidence_count": 5,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "What Canadian Goods Are Getting Hit With New Tariffs?",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVG55djVDb2w0eVNTOXlwbjN0MDl0ZWhrNmZYckM4RHdVNUhNYUVlbGFaSUlhTkJwWWtSaUtMRTVoMDdHcE5ITWd6MkVfYUxqNVdpZGhfZ1FQVllheHhzZzNhQ0pPbGhnMG1waTFTSGJEWjJJd0Uwa1k2N1VJYjkwYXhSZGpaQWdsRkEwLWZuUHJHS0xTR21mLXdfdllxYXcx?oc=5",
+          "domain": "finance.yahoo.com",
+          "source_name": "Yahoo Finance",
+          "timestamp_utc": "2026-08-23T21:10:20+00:00",
+          "entity": "Tariffs / Trade",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "Talks between the U.S. and Canada failed late Friday to prevent new tariffs on Canadian goods, prompting Canada to promise “dollar for dollar” retaliation. Here is what to know about the tariffs and why the negotiations fell apart. https://nyti.ms/46hI4ID",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNQVJCRmswdFRHZ0VxMDdCRERYckFRMzRzYnpOTlRtVFZUR3JvOVNiaGhMUEZYZVBRcU9MRkYyOEpLNVpoc3ZYdVctUjBZemZIWkVCVGVpT1JocmtEU0p3Y19mYVlMT1RZN0k5WGNjcDdET3ZIdGI4Z21XWWJ6b2Q4V1dOdlNXZTN5b3luWVg1dURDbzE2WlVDZEo5OW05a1VtTmlQUng2d3NGcUY1LXdEYjJMX0NUcWpaWTk3T2U1d2VRanlDT1g3LU9ETHQ0a3UwcEQw?oc=5",
+          "domain": "facebook.com",
+          "source_name": "facebook.com",
+          "timestamp_utc": "2026-08-23T17:55:05+00:00",
+          "entity": "Tariffs / Trade",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "What to know about Trump's 50% tariffs on Canadian goods that just went into effect",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSmJucXJoR2xjSkdpMHctWjRvSVJDYVdSSHQzNk1uUk4teXlGbjFLWm01bDlfSHlWUzJYdjdGVlZNM0R2R0tQYzdOWFFXQkNPT1ZSLTg3TnpfaTdzSk0wQ3hGblphYVNTNnJEN093SDFLZHFuMGZEQ1JNVmRYOFRsNmZTM3JkZnNoa0oySUdFSjRKRDltYmwzMHNkczVNS2tkUU0yeGlwRVjSAbABQVVfeXFMT05LZXFKUHk4WlVsTGtEU2ZhNEtHMzdQNnUxMVV1b3Y3S0dWdE9Jcm1kcC1TQm56bzhqVlZyYS1DS2puRDFmNENhWW0yamhxSDE2SDhZcE0zVk1EelRxUUtRVGpZV3RQTC1hOEpLSWY4cVFmSWx3dUYxdDBqRFVSbHVvQUgwcEowM2NVMUUtQXhYMnZTd285YTVSV3VGSDdWbUpUaVptUU1UdkJZNmZpV1Y?oc=5",
+          "domain": "nbcchicago.com",
+          "source_name": "NBC 5 Chicago",
+          "timestamp_utc": "2026-08-23T17:10:21+00:00",
+          "entity": "Tariffs / Trade",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "What Canadian Goods Will Take Trump’s 50% Tariffs? Some Pretty Strange Items.",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSWJiTC0zaE8wNVhVNERJVzhCWGlTWmY3RjZvRjFZMUxSRDVZc0VVOHlZSndWQjJCc0xheW1BbWhFS081R3VmMWViZ3FLN0szbGxuOTdMOWpmcnZrVUF3Z1VxZkdLdnJsWTB4VUh6ejBFenhRLTc1MXRGT1RFdXR4NnBiQS1qWmpFVnlncm1TckRNVDhxd2Jv?oc=5",
+          "domain": "nytimes.com",
+          "source_name": "The New York Times",
+          "timestamp_utc": "2026-08-23T16:14:35+00:00",
+          "entity": "Tariffs / Trade",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "US places 50% tariffs on Canadian goods",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQTV9HSzI4clc4NVBlRTRtLW9rM3B1RjVJSE9HY1lrOHNXVEV3RFlxMGZJbHp0bDlrSkM4bTdvMExZNkJSSzdiMUgteXRkOHE0d3haWnFNRjhFbnlfOWZfMWhMU3N4dXNmUzVOSzRnbVdvWlZHSzFoNlZNUjdYTUpwZg?oc=5",
+          "domain": "wkrn.com",
+          "source_name": "WKRN News 2",
+          "timestamp_utc": "2026-08-23T12:44:26+00:00",
+          "entity": "Tariffs / Trade",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        }
+      ]
+    },
+    {
       "entity": "SK hynix",
       "ticker": null,
       "cik": null,
@@ -450,11 +551,11 @@
         {
           "source_type": "news_rss",
           "category": "ai_semis",
-          "title": "SK hynix HBM is a 3D-stacked structure, which has a base die and a stack of",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5SSGpTblRIU0hxMnY2ak5sUGN6RllEZmZrbDFGMzhwbFBNZi1oT2lQbDVNZnFpVlExTVRMNldrT2ZYem5OYjUzNFNORFVKckRTVWQzSDJPc2pLRVRJVTItZ2Z3RkI0N3NLdTlzZkpR?oc=5",
+          "title": "SK hynix The more HBM adoption is more save the space, power & operation cost",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE12U0ZodDJnVmdLSXlEWDVhQ281TDNSTVlUNmozQ2loRmh2d2pNeFVrRzQzYlYwNW10c1UwbHU4WHlaOGdTdmJ3ckFpUkstelFVT2pRT0w1RWgySEJfUDlnTEROLWszcUIxeGNCTm5R?oc=5",
           "domain": "servethehome.com",
           "source_name": "ServeTheHome",
-          "timestamp_utc": "2026-08-23T20:48:08+00:00",
+          "timestamp_utc": "2026-08-23T20:48:09+00:00",
           "entity": "SK hynix",
           "ticker": null,
           "cik": null,
@@ -668,79 +769,6 @@
       "ticker": null,
       "cik": null,
       "entity_type": "macro",
-      "representative_title": "What Canadian Goods Are Getting Hit With New Tariffs?",
-      "latest_timestamp_utc": "2026-08-23T21:10:20+00:00",
-      "categories": [
-        "macro_rates"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "facebook.com",
-        "finance.yahoo.com",
-        "nbcchicago.com",
-        "nytimes.com"
-      ],
-      "recent_evidence_count": 4,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "macro_rates",
-          "title": "What Canadian Goods Are Getting Hit With New Tariffs?",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVG55djVDb2w0eVNTOXlwbjN0MDl0ZWhrNmZYckM4RHdVNUhNYUVlbGFaSUlhTkJwWWtSaUtMRTVoMDdHcE5ITWd6MkVfYUxqNVdpZGhfZ1FQVllheHhzZzNhQ0pPbGhnMG1waTFTSGJEWjJJd0Uwa1k2N1VJYjkwYXhSZGpaQWdsRkEwLWZuUHJHS0xTR21mLXdfdllxYXcx?oc=5",
-          "domain": "finance.yahoo.com",
-          "source_name": "Yahoo Finance",
-          "timestamp_utc": "2026-08-23T21:10:20+00:00",
-          "entity": "Tariffs / Trade",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "macro"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "macro_rates",
-          "title": "Talks between the U.S. and Canada failed late Friday to prevent new tariffs on Canadian goods, prompting Canada to promise “dollar for dollar” retaliation. Here is what to know about the tariffs and why the negotiations fell apart. https://nyti.ms/46hI4ID",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNQVJCRmswdFRHZ0VxMDdCRERYckFRMzRzYnpOTlRtVFZUR3JvOVNiaGhMUEZYZVBRcU9MRkYyOEpLNVpoc3ZYdVctUjBZemZIWkVCVGVpT1JocmtEU0p3Y19mYVlMT1RZN0k5WGNjcDdET3ZIdGI4Z21XWWJ6b2Q4V1dOdlNXZTN5b3luWVg1dURDbzE2WlVDZEo5OW05a1VtTmlQUng2d3NGcUY1LXdEYjJMX0NUcWpaWTk3T2U1d2VRanlDT1g3LU9ETHQ0a3UwcEQw?oc=5",
-          "domain": "facebook.com",
-          "source_name": "facebook.com",
-          "timestamp_utc": "2026-08-23T17:55:05+00:00",
-          "entity": "Tariffs / Trade",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "macro"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "macro_rates",
-          "title": "What to know about Trump's 50% tariffs on Canadian goods that just went into effect",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSmJucXJoR2xjSkdpMHctWjRvSVJDYVdSSHQzNk1uUk4teXlGbjFLWm01bDlfSHlWUzJYdjdGVlZNM0R2R0tQYzdOWFFXQkNPT1ZSLTg3TnpfaTdzSk0wQ3hGblphYVNTNnJEN093SDFLZHFuMGZEQ1JNVmRYOFRsNmZTM3JkZnNoa0oySUdFSjRKRDltYmwzMHNkczVNS2tkUU0yeGlwRVjSAbABQVVfeXFMT05LZXFKUHk4WlVsTGtEU2ZhNEtHMzdQNnUxMVV1b3Y3S0dWdE9Jcm1kcC1TQm56bzhqVlZyYS1DS2puRDFmNENhWW0yamhxSDE2SDhZcE0zVk1EelRxUUtRVGpZV3RQTC1hOEpLSWY4cVFmSWx3dUYxdDBqRFVSbHVvQUgwcEowM2NVMUUtQXhYMnZTd285YTVSV3VGSDdWbUpUaVptUU1UdkJZNmZpV1Y?oc=5",
-          "domain": "nbcchicago.com",
-          "source_name": "NBC 5 Chicago",
-          "timestamp_utc": "2026-08-23T17:10:21+00:00",
-          "entity": "Tariffs / Trade",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "macro"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "macro_rates",
-          "title": "What Canadian Goods Will Take Trump’s 50% Tariffs? Some Pretty Strange Items.",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSWJiTC0zaE8wNVhVNERJVzhCWGlTWmY3RjZvRjFZMUxSRDVZc0VVOHlZSndWQjJCc0xheW1BbWhFS081R3VmMWViZ3FLN0szbGxuOTdMOWpmcnZrVUF3Z1VxZkdLdnJsWTB4VUh6ejBFenhRLTc1MXRGT1RFdXR4NnBiQS1qWmpFVnlncm1TckRNVDhxd2Jv?oc=5",
-          "domain": "nytimes.com",
-          "source_name": "The New York Times",
-          "timestamp_utc": "2026-08-23T16:14:35+00:00",
-          "entity": "Tariffs / Trade",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "macro"
-        }
-      ]
-    },
-    {
-      "entity": "Tariffs / Trade",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "macro",
       "representative_title": "Trump accused of risking more pain for Americans with Canada trade war",
       "latest_timestamp_utc": "2026-08-23T17:28:11+00:00",
       "categories": [
@@ -830,7 +858,7 @@
       "evidence": [
         {
           "source_type": "news_rss",
-          "category": "pricing_capacity",
+          "category": "ai_semis",
           "title": "NVIDIA Raises AI Server Prices 15% Amid Memory Cost Surge",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZDJGLWZxMTJZZ0Frcno5Q0NwNG9hSUM5b3pBOVZTRVBRSExoRXZaWUxfRENfejhSeUZNbHVUSDExbnEwcFFrRjlhanF0bEpxdktfUHR2Q0c5anQxZWZlbGVmSm9vT1dzRnVFcnF1cV9hV0NOY2xpVFM5ZnRpNjd0MTRhTjIzNmJp?oc=5",
           "domain": "chosun.com",
@@ -843,7 +871,7 @@
         },
         {
           "source_type": "news_rss",
-          "category": "pricing_capacity",
+          "category": "ai_semis",
           "title": "NVIDIA Raises AI Server Prices 15% Amid Memory Shortage",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNTB6VXNURWRMZFJTaE9pSUVrREo3SlFQa3I0dHFsckh1bDZWQjZWU1MzR1VTUEpoZlk2NDE3N3BZSVZEdmdzSXUtQ21mUUpwRkJJX0d3eFcxMmN0Mkk1eUdta0hlSHU2ZWoyWEZCNkJETUJ1T3dBZ0RrZXF3TzdjVlpqR2ltOTRT?oc=5",
           "domain": "chosun.com",
@@ -942,65 +970,6 @@
         }
       ],
       "entity_correction": "paramount_media_disambiguation"
-    },
-    {
-      "entity": "SK hynix",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "foreign_company",
-      "representative_title": "SK hynix REQUIREMENTS FOR MEMORY",
-      "latest_timestamp_utc": "2026-08-23T20:48:16+00:00",
-      "categories": [
-        "ai_semis",
-        "pricing_capacity"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "en.bloomingbit.io",
-        "servethehome.com"
-      ],
-      "recent_evidence_count": 3,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "SK hynix REQUIREMENTS FOR MEMORY",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1USW4zUGQ5WVU3NktRUXlUM0FwRUwwamVuVE9vR0kyUG8wakI5OWlpS2dYX3lsRXY1RnhvTE5SRnhkS3hmR3prMmx1YVFoRVZHZENLaUxYbEYtMHdxOW5zWU1VbjBJVUhLNkJseFBB?oc=5",
-          "domain": "servethehome.com",
-          "source_name": "ServeTheHome",
-          "timestamp_utc": "2026-08-23T20:48:16+00:00",
-          "entity": "SK hynix",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "foreign_company"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "pricing_capacity",
-          "title": "SK hynix Memory Capacity Thermal Management",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5fSkFERkc5dXE1X0p1eElnY3c5emdXUk1GNXhMUVB1TlRoWTZCQ0dzendKdDUwRmEtanJfQW5ObWtWbmFSS2hqNnVoSWJNYWNWTHhEb3pVRFM1alA4cXgwRk5mSXdmcVA5WWdQMmNn?oc=5",
-          "domain": "servethehome.com",
-          "source_name": "ServeTheHome",
-          "timestamp_utc": "2026-08-23T20:48:15+00:00",
-          "entity": "SK hynix",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "foreign_company"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Nvidia to Raise AI Chip Prices at Least 15% as Memory Surge Boosts Samsung, SK Hynix Leverage",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA1QnlHNHhoa1BZSUhndlVDTEo3SXlqcXBmSVNmTS03d1Y2Mm5Ib2dHTFN3Nmt6TFNVMVhCNTdoRGowRDNTNU5MTnJiSEVvZFplRS1YVw?oc=5",
-          "domain": "en.bloomingbit.io",
-          "source_name": "bloomingbit",
-          "timestamp_utc": "2026-08-23T09:31:05+00:00",
-          "entity": "SK hynix",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "foreign_company"
-        }
-      ]
     },
     {
       "entity": "Bitcoin / Crypto",
@@ -1239,66 +1208,6 @@
       ]
     },
     {
-      "entity": "Paramount Skydance Corporation",
-      "ticker": "PSKY",
-      "cik": "2041610",
-      "entity_type": "company",
-      "representative_title": "Judge blocks Paramount's $110B Warner Bros. mer...",
-      "latest_timestamp_utc": "2026-08-23T13:37:24+00:00",
-      "categories": [
-        "mna"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "i24news.tv",
-        "kxly.com",
-        "pluang.com"
-      ],
-      "recent_evidence_count": 3,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "mna",
-          "title": "Judge blocks Paramount's $110B Warner Bros. mer...",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdVFHalNqNkhsQ3dOODdnakZLYmE4OEhyNnZPYXpKZXhQaVJVZlJENThBaXM0N3JNSGo0bDd5dGpid094NjhHU2ZmZXh5cWRPM2lXTS1LSURqSzlPV2dPOWVheVdYVVppU19wblhHVmkyZEMxU2ozVGdxR0VNOWRqVHkwbURvSWYxR3dYSGtrRk12eHI4U0R3aHBjaWJJTUplU2dlMi12WnBqeHRVQXdnSw?oc=5",
-          "domain": "pluang.com",
-          "source_name": "Pluang",
-          "timestamp_utc": "2026-08-23T13:37:24+00:00",
-          "entity": "Paramount Group, Inc.",
-          "ticker": "PGRE",
-          "cik": "1605607",
-          "entity_type": "company"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "mna",
-          "title": "Warner Bros. / Paramount Merger Lawsuit",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSXlYNVNxUEFxV0cyM3RtMmlHTFNadTBCYXZxQjJUNGNMWHBnRnFHNENPNnVrZkZscmhpSHk4YnRhZmYyd1NzbkdFT2ZJeU9tTEM3Q3h4eThaVVNSRjRzQzJkWVpZRF9CZEpDSm9XbEp5U05pTVhLRzV2cWhmY0d5UkJDbk9Cd1liZk1MVVYyV25OeG16ekpRVWt3ZWJFYkgxVDBvX1FIWEV6S3owLTVNMQ?oc=5",
-          "domain": "kxly.com",
-          "source_name": "KXLY.com",
-          "timestamp_utc": "2026-08-23T01:14:00+00:00",
-          "entity": "Paramount Group, Inc.",
-          "ticker": "PGRE",
-          "cik": "1605607",
-          "entity_type": "company"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "mna",
-          "title": "‘A Bridge Too Far’: Paramount Brands Ruffalo’s Attack On Warner Bros. Merger ‘antisemitic’",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQTnEwSnR1Rm1hazdlblZDLWl1Q20zQkQ0TzFBamJOYUdUQmN2dUx4R09tc0ljNl9qZUtWYUtfR3lwUzRzZ29oOHJsSXpxOVJmNG9sdmtEU3FfR015aUZUR2FMeVBfRlFHSzZYdi1ySWtLUlRrMUZXYjY5LWpaNEZZVHdIRkRvbGNsN3RMSWtDaTNnR2N2S3JuamdXZExRbTR6SUpUVEpYZG1wX2RWWk1IRTJiVnN5S2lqZW0wWF9KbHliVmNXbzk0Ulg4ZGF5ZXFHR1hocDZUZ2xNQQ?oc=5",
-          "domain": "i24news.tv",
-          "source_name": "i24NEWS",
-          "timestamp_utc": "2026-08-22T21:58:43+00:00",
-          "entity": "Paramount Group, Inc.",
-          "ticker": "PGRE",
-          "cik": "1605607",
-          "entity_type": "company"
-        }
-      ],
-      "entity_correction": "paramount_media_disambiguation"
-    },
-    {
       "entity": "Bitcoin / Crypto",
       "ticker": null,
       "cik": null,
@@ -1417,6 +1326,51 @@
         }
       ],
       "entity_correction": "paramount_media_disambiguation"
+    },
+    {
+      "entity": "SK hynix",
+      "ticker": null,
+      "cik": null,
+      "entity_type": "foreign_company",
+      "representative_title": "SK hynix REQUIREMENTS FOR MEMORY",
+      "latest_timestamp_utc": "2026-08-23T20:48:16+00:00",
+      "categories": [
+        "ai_semis"
+      ],
+      "sec_forms": [],
+      "source_domains": [
+        "en.bloomingbit.io",
+        "servethehome.com"
+      ],
+      "recent_evidence_count": 2,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "ai_semis",
+          "title": "SK hynix REQUIREMENTS FOR MEMORY",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1USW4zUGQ5WVU3NktRUXlUM0FwRUwwamVuVE9vR0kyUG8wakI5OWlpS2dYX3lsRXY1RnhvTE5SRnhkS3hmR3prMmx1YVFoRVZHZENLaUxYbEYtMHdxOW5zWU1VbjBJVUhLNkJseFBB?oc=5",
+          "domain": "servethehome.com",
+          "source_name": "ServeTheHome",
+          "timestamp_utc": "2026-08-23T20:48:16+00:00",
+          "entity": "SK hynix",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "foreign_company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "ai_semis",
+          "title": "Nvidia to Raise AI Chip Prices at Least 15% as Memory Surge Boosts Samsung, SK Hynix Leverage",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA1QnlHNHhoa1BZSUhndlVDTEo3SXlqcXBmSVNmTS03d1Y2Mm5Ib2dHTFN3Nmt6TFNVMVhCNTdoRGowRDNTNU5MTnJiSEVvZFplRS1YVw?oc=5",
+          "domain": "en.bloomingbit.io",
+          "source_name": "bloomingbit",
+          "timestamp_utc": "2026-08-23T09:31:05+00:00",
+          "entity": "SK hynix",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "foreign_company"
+        }
+      ]
     },
     {
       "entity": "Tariffs / Trade",
@@ -2004,6 +1958,52 @@
       ]
     },
     {
+      "entity": "Paramount Skydance Corporation",
+      "ticker": "PSKY",
+      "cik": "2041610",
+      "entity_type": "company",
+      "representative_title": "Judge blocks Paramount's $110B Warner Bros. mer...",
+      "latest_timestamp_utc": "2026-08-23T13:37:24+00:00",
+      "categories": [
+        "mna"
+      ],
+      "sec_forms": [],
+      "source_domains": [
+        "kxly.com",
+        "pluang.com"
+      ],
+      "recent_evidence_count": 2,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "mna",
+          "title": "Judge blocks Paramount's $110B Warner Bros. mer...",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdVFHalNqNkhsQ3dOODdnakZLYmE4OEhyNnZPYXpKZXhQaVJVZlJENThBaXM0N3JNSGo0bDd5dGpid094NjhHU2ZmZXh5cWRPM2lXTS1LSURqSzlPV2dPOWVheVdYVVppU19wblhHVmkyZEMxU2ozVGdxR0VNOWRqVHkwbURvSWYxR3dYSGtrRk12eHI4U0R3aHBjaWJJTUplU2dlMi12WnBqeHRVQXdnSw?oc=5",
+          "domain": "pluang.com",
+          "source_name": "Pluang",
+          "timestamp_utc": "2026-08-23T13:37:24+00:00",
+          "entity": "Paramount Group, Inc.",
+          "ticker": "PGRE",
+          "cik": "1605607",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "mna",
+          "title": "Warner Bros. / Paramount Merger Lawsuit",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSXlYNVNxUEFxV0cyM3RtMmlHTFNadTBCYXZxQjJUNGNMWHBnRnFHNENPNnVrZkZscmhpSHk4YnRhZmYyd1NzbkdFT2ZJeU9tTEM3Q3h4eThaVVNSRjRzQzJkWVpZRF9CZEpDSm9XbEp5U05pTVhLRzV2cWhmY0d5UkJDbk9Cd1liZk1MVVYyV25OeG16ekpRVWt3ZWJFYkgxVDBvX1FIWEV6S3owLTVNMQ?oc=5",
+          "domain": "kxly.com",
+          "source_name": "KXLY.com",
+          "timestamp_utc": "2026-08-23T01:14:00+00:00",
+          "entity": "Paramount Group, Inc.",
+          "ticker": "PGRE",
+          "cik": "1605607",
+          "entity_type": "company"
+        }
+      ],
+      "entity_correction": "paramount_media_disambiguation"
+    },
+    {
       "entity": "NVIDIA CORP",
       "ticker": "NVDA",
       "cik": "1045810",
@@ -2475,6 +2475,37 @@
           "ticker": null,
           "cik": null,
           "entity_type": "macro"
+        }
+      ]
+    },
+    {
+      "entity": "Samsung Electronics",
+      "ticker": null,
+      "cik": null,
+      "entity_type": "foreign_company",
+      "representative_title": "Samsung Electronics prioritizes yield over DRAM expansion as SK hynix gains - CHOSUNBIZ",
+      "latest_timestamp_utc": "2026-08-23T21:01:00+00:00",
+      "categories": [
+        "pricing_capacity"
+      ],
+      "sec_forms": [],
+      "source_domains": [
+        "biz.chosun.com"
+      ],
+      "recent_evidence_count": 1,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "pricing_capacity",
+          "title": "Samsung Electronics prioritizes yield over DRAM expansion as SK hynix gains - CHOSUNBIZ",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5QSFFtdkFLRmQ5cVlEaFJDWVNCMzU0VjZkb2RFNnAxU1p2VFROZ01QOHBxaXFKWUczZUFWZ05kZUI1TGtmWEdpd3NqY09iM09ucXNPZXQ1NWVpRERJVEhYMmFrZzlfMFc3VElqa1J5XzZIX1RYWkFLYnVn0gGOAUFVX3lxTFBjdG5iS3NkRnB6cGNFYVh0R2duZzl2OTBxeVBWTlY0S0VyUC00dFZzWmVRWHZQQnoxYURNWVJ4eXJmaDFEYUkzUjhfZE11NnBPLXdSbTF3RXdfQS1kMzJqYm5SbTBaYzBPaFMxeVhZR3VmMTlaZFJsMUdCRkNNdlAzQWc1SmdMYXVQMng4a0E?oc=5",
+          "domain": "biz.chosun.com",
+          "source_name": "Chosunbiz",
+          "timestamp_utc": "2026-08-23T21:01:00+00:00",
+          "entity": "Samsung Electronics",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "foreign_company"
         }
       ]
     },
@@ -2975,37 +3006,6 @@
       ]
     },
     {
-      "entity": "SOUTHERN CO",
-      "ticker": "SO",
-      "cik": "92122",
-      "entity_type": "company",
-      "representative_title": "Severe Shortage of Female Doctors in Southern Afghanistan; Many Government Hospitals Lack Even a Midwife",
-      "latest_timestamp_utc": "2026-08-23T19:27:46+00:00",
-      "categories": [
-        "pricing_capacity"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "8am.media"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "pricing_capacity",
-          "title": "Severe Shortage of Female Doctors in Southern Afghanistan; Many Government Hospitals Lack Even a Midwife",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBVbVBnQmViaHJLME1ERTJRVVlPVXFMc3AySmNNOURyU1JZc1BidmFHU1p2RmppVk5IMXhrTldQN2hNZXJOX3Nrc3RRMzNPODJWaFZTcDdsYWtCMzI3LWpkYXZwMGg4ME9OUFhpYXIzX0VkY2FCVkE?oc=5",
-          "domain": "8am.media",
-          "source_name": "8AM Media",
-          "timestamp_utc": "2026-08-23T19:27:46+00:00",
-          "entity": "SOUTHERN CO",
-          "ticker": "SO",
-          "cik": "92122",
-          "entity_type": "company"
-        }
-      ]
-    },
-    {
       "entity": "GOLDMAN SACHS GROUP INC",
       "ticker": "GS",
       "cik": "886982",
@@ -3187,6 +3187,37 @@
           "entity": "PEGASYSTEMS INC",
           "ticker": "PEGA",
           "cik": "1013857",
+          "entity_type": "company"
+        }
+      ]
+    },
+    {
+      "entity": "LEE ENTERPRISES, Inc",
+      "ticker": "LEE",
+      "cik": "58361",
+      "entity_type": "company",
+      "representative_title": "LEE Investors Have Opportunity to Join Lee Enterprises, Incorporated Fraud Investigation with SBS Law",
+      "latest_timestamp_utc": "2026-08-23T18:46:00+00:00",
+      "categories": [
+        "regulatory_legal"
+      ],
+      "sec_forms": [],
+      "source_domains": [
+        "daily-tribune.com"
+      ],
+      "recent_evidence_count": 1,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "regulatory_legal",
+          "title": "LEE Investors Have Opportunity to Join Lee Enterprises, Incorporated Fraud Investigation with SBS Law",
+          "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxNUjMwSWZBX2VTN1FGTzU3WVRsLXZjNm14TUZ3Y0NqbFk4NzY1Rnc1RGJ0cGctZGQ0Y01vMHFWOXF1N1V6RUdWV0tHdVB3TDBTZHY1dF9kTjV3Y0pEV1Y2NktwNE9sWkdNX1phZXR4NzI5ZmhoZTRORXRtWTloUjZYaVdOa1UtWkVzZUUyRGhHaWd5b3dxQk1CZUFWSzF2dnhvMUVkWXdMbGpEdzBRUzRoUFhhMXR4RnhZTkJPLV91eW5wRFdLbDczbUhidzMtT0pMQnVfZGtvaG5iVFRXRGJRZHNsQVRDU2JEbnFER0dnSmhud2ZPdkhlUjBOa1hiNWhXQ1BRUHU3Sll0bUN2a1g5TTdQTFNNNEhYMGZhUkhGRGc5V1F0Wk9fN0FqN1lUQ3M1eGJMaDdR?oc=5",
+          "domain": "daily-tribune.com",
+          "source_name": "The Daily Tribune News",
+          "timestamp_utc": "2026-08-23T18:46:00+00:00",
+          "entity": "LEE ENTERPRISES, Inc",
+          "ticker": "LEE",
+          "cik": "58361",
           "entity_type": "company"
         }
       ]
@@ -3936,6 +3967,37 @@
       ]
     },
     {
+      "entity": "BlackRock Enhanced Global Dividend Trust",
+      "ticker": "BOE",
+      "cik": "1320375",
+      "entity_type": "company",
+      "representative_title": "Eaton BOE reviews financial forecast",
+      "latest_timestamp_utc": "2026-08-23T17:56:00+00:00",
+      "categories": [
+        "earnings_guidance"
+      ],
+      "sec_forms": [],
+      "source_domains": [
+        "registerherald.com"
+      ],
+      "recent_evidence_count": 1,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "earnings_guidance",
+          "title": "Eaton BOE reviews financial forecast",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQLUdQZGZxTXMycHpIOGlvZE92NVhtd3JfUmgzZUpPdUE5a0V1amNQT0o1bXdJTXZta3RqMVNKTEJJWXdjSTJZd2c5VXJhM24yWjg2N09xbnNsSk1MMk5jLUFDeGh3VDAzUEMxOXFiZmhEV1FjWjdDSi1jM1NTeVVvcWxMYUZVdw?oc=5",
+          "domain": "registerherald.com",
+          "source_name": "registerherald.com",
+          "timestamp_utc": "2026-08-23T17:56:00+00:00",
+          "entity": "BlackRock Enhanced Global Dividend Trust",
+          "ticker": "BOE",
+          "cik": "1320375",
+          "entity_type": "company"
+        }
+      ]
+    },
+    {
       "entity": "MICRON TECHNOLOGY INC",
       "ticker": "MU",
       "cik": "723125",
@@ -4241,37 +4303,6 @@
           "entity": "Wheels Up Experience Inc.",
           "ticker": "UP",
           "cik": "1819516",
-          "entity_type": "company"
-        }
-      ]
-    },
-    {
-      "entity": "MIDDLEBY Corp",
-      "ticker": "MIDD",
-      "cik": "769520",
-      "entity_type": "company",
-      "representative_title": "Is Middleby (MIDD) Undervalued As Earnings Showed Higher Sales But Lower Net Income?",
-      "latest_timestamp_utc": "2026-08-23T17:26:07+00:00",
-      "categories": [
-        "earnings_guidance"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "simplywall.st"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "earnings_guidance",
-          "title": "Is Middleby (MIDD) Undervalued As Earnings Showed Higher Sales But Lower Net Income?",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQNzVzYl9pWEEzZXMzU01heG90RDZnYnhPMDJ4Sy1BZlF1alBncWVpbThUcTZWdlEweFBVYTRha0FUY255QzRheFAyVkRzYUN0dEkxTmIwNGVWS0pQRVJwdEg4TmpSZUFMcllvaVRsSElrcHZ6cXhhTll6cEt4RTVCYmgtLVJuODFhVWtra2ZGaTIyazl4YWo2MWZyTTB3S0VELWppVmlqbk5xQi1INFhJdDFpTkFFRFJrdGJOVi0xbVR2eVdXXzVGUEpPS0XSAdIBQVVfeXFMUEZHTnZhY3FxVnBwM1NiQ3FEZjNuUjJYNHJJM3FwLTBRTjVlejVWODlxbF84NmRuS0hUSkNtX0p0aW9nTElrUTdnZXZ3OV9pcWcwdk5UOThoLU9NZDJ6azdHWXdBWW9VX1pORld1WU9MeWVoT1ZnQ1Z6cHNxNktfTlhrdG8xLWNtOFpNdmtBdzVlRHE4bmRnY3pIQmJpME1zUmFBQ1k0dURGMXFZRm8tX2RBaVREU0xLNzRFSEFYMU5NM0dYUlhQa1VKNTlVXzBCd2hn?oc=5",
-          "domain": "simplywall.st",
-          "source_name": "simplywall.st",
-          "timestamp_utc": "2026-08-23T17:26:07+00:00",
-          "entity": "MIDDLEBY Corp",
-          "ticker": "MIDD",
-          "cik": "769520",
           "entity_type": "company"
         }
       ]
@@ -4644,6 +4675,68 @@
           "entity": "DROPBOX, INC.",
           "ticker": "DBX",
           "cik": "1467623",
+          "entity_type": "company"
+        }
+      ]
+    },
+    {
+      "entity": "Intercontinental Exchange, Inc.",
+      "ticker": "ICE",
+      "cik": "1571949",
+      "entity_type": "company",
+      "representative_title": "TAKE ACTION: Demand a Full Transparent Investigation into Biddeford ICE Shooting",
+      "latest_timestamp_utc": "2026-08-23T16:37:57+00:00",
+      "categories": [
+        "regulatory_legal"
+      ],
+      "sec_forms": [],
+      "source_domains": [
+        "actionnetwork.org"
+      ],
+      "recent_evidence_count": 1,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "regulatory_legal",
+          "title": "TAKE ACTION: Demand a Full Transparent Investigation into Biddeford ICE Shooting",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPTXdEVzJpX0FYem1LLVItczk2Rm1IMDgza0w4NUFINXBhQlRTazVTdVQ3T1hrbXpnb3QxanJ4cEJmbXBiNmc0X1NFQlE3QldJRlBTWWJwYllQVlBjcndFNzEyVjF5MlhvaERrd3pwVGxQZVNuaGNGMUpZZWZELVVRQW5TU2lFODI5dEJCTG51N2VudHdwVl9oSk43Y2YyeUg0cThxOE12M2lSOC1RVXdubHJXRkN0N2wxSFhUZ2x1RFFTWjAtZ2JSbVpFUDJoMmJLME9SY2JNeHRMc3pLVEtMQ21udUVVSDdLdUE5M28xcks?oc=5",
+          "domain": "actionnetwork.org",
+          "source_name": "actionnetwork.org",
+          "timestamp_utc": "2026-08-23T16:37:57+00:00",
+          "entity": "Intercontinental Exchange, Inc.",
+          "ticker": "ICE",
+          "cik": "1571949",
+          "entity_type": "company"
+        }
+      ]
+    },
+    {
+      "entity": "Cheniere Energy, Inc.",
+      "ticker": "LNG",
+      "cik": "3570",
+      "entity_type": "company",
+      "representative_title": "Iran Attack Wipes Out 17% of Qatar’s LNG Capacity for Up to Five Years, QatarEnergy CEO Says",
+      "latest_timestamp_utc": "2026-08-23T16:36:08+00:00",
+      "categories": [
+        "pricing_capacity"
+      ],
+      "sec_forms": [],
+      "source_domains": [
+        "energynow.com"
+      ],
+      "recent_evidence_count": 1,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "pricing_capacity",
+          "title": "Iran Attack Wipes Out 17% of Qatar’s LNG Capacity for Up to Five Years, QatarEnergy CEO Says",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOYWxNbGs0bmxYTUl5R3NrZXljOHkyT09nYVFJRVBVUjdjVk9YOTlORWJFTzZZTmVOMnhXTzVzZW92Skx0VllWVXBJUGZza2UtMGhfdGVKSXRmSnBSZk44SzhQSC05Y0l4Sy1Nb0h3TUZIYkZxREhBaXZIS0hqTENvMlVpVUpvOWNmb0s0VUxLeTVxOUpRWG9MZXo4UGg5MjVLNWFlak1rWndXc05hZ0gwSVlEQkVaRHlVZFc2OA?oc=5",
+          "domain": "energynow.com",
+          "source_name": "EnergyNow.com",
+          "timestamp_utc": "2026-08-23T16:36:08+00:00",
+          "entity": "Cheniere Energy, Inc.",
+          "ticker": "LNG",
+          "cik": "3570",
           "entity_type": "company"
         }
       ]
@@ -5084,6 +5177,37 @@
       ]
     },
     {
+      "entity": "APPLE INC.",
+      "ticker": "AAPL",
+      "cik": "320193",
+      "entity_type": "company",
+      "representative_title": "'Ultra-Premium Device': What early users think of Apple’s foldable iPhone as price hike looms",
+      "latest_timestamp_utc": "2026-08-23T14:49:53+00:00",
+      "categories": [
+        "pricing_capacity"
+      ],
+      "sec_forms": [],
+      "source_domains": [
+        "firstpost.com"
+      ],
+      "recent_evidence_count": 1,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "pricing_capacity",
+          "title": "'Ultra-Premium Device': What early users think of Apple’s foldable iPhone as price hike looms",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNYnZXSW5jaXc5WWJfUEw5Zm40ekFrTEdnT0hMMHY4bHFxellXczUzUUdLeDhpaWd4bFY3OHd5LWUweGl0dHMtLXlqZEJaWGl3cmt4SnpsdXliWDlWQktucVBvMDB6M2FCaG81MGx4dTlVNE5JdElEMFVXWGl1YmpyU1hzTUpxd1FCcDU0TVQ1ZVp4UHM0bUQzQnBXYU5IWWJsaUpLamRhQ3lJQ0poLVd6SjJjOGJ0ejRtSFJMOE1Qb0JkTnBob09XMWxpT0FHMXPSAdQBQVVfeXFMUDhBa2pTMlFRUHpGRERXLVlHZjNxN1BmSmFXS0NQRG5hYnpPc3dCZE5qMlFrQUxPanUzMmw2dVJ5a09zY2J5UDJrMlNreFJ2eGt1cmNzeVltcVVQZ2hnaGJ5YWtkb3o3Y1NYX29ob2UxQlA2YjBrd3RTeWtsTGZpb0VzTGhGNU9qMktKZ3FXY29aQ2RxeGc4S2FFTGU1eXJMVlRnbE5xNXhrWnhXWXQxV01wXzlyc3Q0VlFqRnpmWmIxaVd4RW5NOTQxVWFyMV9acWR1M04?oc=5",
+          "domain": "firstpost.com",
+          "source_name": "Firstpost",
+          "timestamp_utc": "2026-08-23T14:49:53+00:00",
+          "entity": "APPLE INC.",
+          "ticker": "AAPL",
+          "cik": "320193",
+          "entity_type": "company"
+        }
+      ]
+    },
+    {
       "entity": "NVIDIA CORP",
       "ticker": "NVDA",
       "cik": "1045810",
@@ -5157,7 +5281,7 @@
       ],
       "sec_forms": [],
       "source_domains": [
-        "eastbaytimes.com"
+        "mercurynews.com"
       ],
       "recent_evidence_count": 1,
       "evidence": [
@@ -5165,9 +5289,9 @@
           "source_type": "news_rss",
           "category": "pricing_capacity",
           "title": "Opera San José opens 43rd season with reimagined ‘Don Giovanni’",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPRFVNUFpfajU5ZUpaM0QzdzI0OEJ6cHFTbmhnMGwzY1V3TEdLaGIyaTRVa3BYejFrQXlscXpiN0NfVi1YV1ZTMjVNb25RVTZueVM3Vmtwd3RlRG1wMFRhNmpvMWZ1cmVIWFh1UHA2ZFI1dkJlbUxTd2ppWTdfQkVuWFE5MzBUTTZ6MVh5QVYteWdSRDJPRXV6WGF6eF9DaEQxcUt2MNIBqgFBVV95cUxNOW5iajMycEx5dzV0QmV3eGdubENfYnZwUVNFVXkzSXdJOEZIV0hIYkFlQ3A0T284S2t4LVBMTERUMjdTaTQ5dzhqRnFVY3R4Q21oQTJMM2tlSjBuQVJuRW1hd183NUs2Wm5KeTh5SGRlV3ROcXZXaWs5bElyUG9kYlU2VlBtRlEyRmtXS0UtZnozcjlJQ3hRUVdzelF1Rll2eFQtNms5Ylp2UQ?oc=5",
-          "domain": "eastbaytimes.com",
-          "source_name": "East Bay Times",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSW9nRjBQQVRuNjAzY01kMmJTd05RWWFYUEEtcm94ZnBnYWVkbHkxSEtnUnNlSEpkTmVOS2FCN0xOeDVzQVdVaU1KU05rWVBGZ3BBemU1b0hPUF8tYU9YcVRTUjN5UFdWSHJ3UENKczFNOUlFcEpfU2F4VXJoUC1KSjN4TF91Y0YteldaektIRXVSNGkzUFh5U19VbUMwRUk2SFYw0gGoAUFVX3lxTE1ra2dNellsVVpMU1Uta3ZvMlloenRiV2dPY0FYaF9VYlBtLXRwSDE2Rmo4TVdJS0g3QzZmZ2gzRWNWU1VQbkxzTUwzWEtwbXV6ZHpPX3ZSQmk4NEhodHUwZWhyckNncTg2U2Ffd3lRbjhMZUlBMGk1cndUUmVPOGlaWGE5OWlyV1U3cy1OdUVzZGV5RmRsYXU1ZmlBLW9uOHgxMk9yS1FqcQ?oc=5",
+          "domain": "mercurynews.com",
+          "source_name": "The Mercury News",
           "timestamp_utc": "2026-08-23T14:18:06+00:00",
           "entity": "Opera Ltd",
           "ticker": "OPRA",
@@ -6634,6 +6758,37 @@
       ]
     },
     {
+      "entity": "Tesla, Inc.",
+      "ticker": "TSLA",
+      "cik": "1318605",
+      "entity_type": "company",
+      "representative_title": "The Shanghai factory accounts for over 54% of production—why does Tesla still place such high importance on China?",
+      "latest_timestamp_utc": "2026-08-23T08:29:09+00:00",
+      "categories": [
+        "pricing_capacity"
+      ],
+      "sec_forms": [],
+      "source_domains": [
+        "moomoo.com"
+      ],
+      "recent_evidence_count": 1,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "pricing_capacity",
+          "title": "The Shanghai factory accounts for over 54% of production—why does Tesla still place such high importance on China?",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZ2tBcF9naDJXcDNNSXJtNWJQSlpBOXlOMmQzWGl4eWt4bGF2b2E2bkYzUTJFVWl6MXl6bi0wUHlYWllzREZGT2NyUFFObmFFemo0SFhFRTdqalM2d2h6THZLOE9rSG9SNVctWE1GN3l1U1pmMUdEVFhrV3o1Z1YwdjJNeUwyNThqRGhwWThlRjdlSURRY04zdFptX1lUZjNXM0RR?oc=5",
+          "domain": "moomoo.com",
+          "source_name": "Moomoo",
+          "timestamp_utc": "2026-08-23T08:29:09+00:00",
+          "entity": "Tesla, Inc.",
+          "ticker": "TSLA",
+          "cik": "1318605",
+          "entity_type": "company"
+        }
+      ]
+    },
+    {
       "entity": "Osiris Acquisition Corp.",
       "ticker": "OSI",
       "cik": "1832136",
@@ -6722,6 +6877,37 @@
           "entity": "ADVANCED MICRO DEVICES INC",
           "ticker": "AMD",
           "cik": "2488",
+          "entity_type": "company"
+        }
+      ]
+    },
+    {
+      "entity": "EATON VANCE MUNICIPAL BOND FUND",
+      "ticker": "EIM",
+      "cik": "1176984",
+      "entity_type": "company",
+      "representative_title": "EIM signs 500 MWh battery pack deal with CATL",
+      "latest_timestamp_utc": "2026-08-23T08:02:09+00:00",
+      "categories": [
+        "contract_order"
+      ],
+      "sec_forms": [],
+      "source_domains": [
+        "scanx.trade"
+      ],
+      "recent_evidence_count": 1,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "contract_order",
+          "title": "EIM signs 500 MWh battery pack deal with CATL",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOY01UbDExNVpNYnpBX0syUDZNUUVQbUFQMWJjWGxrYmEwTTNycW9NWGVRUDBBSE9mSkpySmhmOGFJMWNkMkpnQWFOVElvQTRMYU1vMjUwZFFkZ19CQzMxUW1uU1ZzRWtWYW42cnBNWDFmSmJWOUZsT1JaSS1lUTVIRDVQQktKT1lfTDZBQ1Vab0tHU21McGdUX2EwOWpFLVp1Z3ZlaA?oc=5",
+          "domain": "scanx.trade",
+          "source_name": "scanx.trade",
+          "timestamp_utc": "2026-08-23T08:02:09+00:00",
+          "entity": "EATON VANCE MUNICIPAL BOND FUND",
+          "ticker": "EIM",
+          "cik": "1176984",
           "entity_type": "company"
         }
       ]
@@ -7156,6 +7342,37 @@
           "entity": "NVIDIA CORP",
           "ticker": "NVDA",
           "cik": "1045810",
+          "entity_type": "company"
+        }
+      ]
+    },
+    {
+      "entity": "POET TECHNOLOGIES INC.",
+      "ticker": "POET",
+      "cik": "1437424",
+      "entity_type": "company",
+      "representative_title": "POET Stock On Track To Record Biggest Single-Day Fall After Disclosing Order Cancellation From Celestial AI – Here’s What Happened",
+      "latest_timestamp_utc": "2026-08-23T05:06:32+00:00",
+      "categories": [
+        "contract_order"
+      ],
+      "sec_forms": [],
+      "source_domains": [
+        "stocktwits.com"
+      ],
+      "recent_evidence_count": 1,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "contract_order",
+          "title": "POET Stock On Track To Record Biggest Single-Day Fall After Disclosing Order Cancellation From Celestial AI – Here’s What Happened",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOREw2THRpTUJIbm5zNmlvY01URm9xNVBPZ1hBbVNoUEw2dHBwUjJ5RDBxOVZqcTNSVTNPMm40Qlc1WkVwMmdNZ1RJOGw5SDU1LTVlX0hpelRrWXVDbnd6SnQ4VDlSNVNqclRzM1ZGSE9vZkNON3RqSGZWVEl0N0oya3JlVkdmQXdPMVhRUE9qQmUxSEx4N1psOFVTckprbXRNOFNBZ1FDVldrYU1pVlpLUTY1WVpTSURaalJYcg?oc=5",
+          "domain": "stocktwits.com",
+          "source_name": "Stocktwits",
+          "timestamp_utc": "2026-08-23T05:06:32+00:00",
+          "entity": "POET TECHNOLOGIES INC.",
+          "ticker": "POET",
+          "cik": "1437424",
           "entity_type": "company"
         }
       ]
@@ -7750,6 +7967,37 @@
       ]
     },
     {
+      "entity": "Honest Company, Inc.",
+      "ticker": "HNST",
+      "cik": "1530979",
+      "entity_type": "company",
+      "representative_title": "Austin Reaves honest reaction after signing Lakers max contract revealed",
+      "latest_timestamp_utc": "2026-08-23T00:41:13+00:00",
+      "categories": [
+        "contract_order"
+      ],
+      "sec_forms": [],
+      "source_domains": [
+        "basketnews.com"
+      ],
+      "recent_evidence_count": 1,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "contract_order",
+          "title": "Austin Reaves honest reaction after signing Lakers max contract revealed",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVmFnZUFlOEEyUGpyR0V3aDNmZ2hDcGdpMUxxbW5OYko5azBsdTMwUVZ3ZmU5UzFKZmc5NDlCeURYYWRrRzd3NzJoU0U5VmpST2o0X2RnTzBMZW1xY2lEZFdrWEdUeU4weEo1Zmc2RWlpb3M4ZThDZnZVMUhSS2ZRelZ5YnMzdzFUQ09HMjNzblRiM3UtMTdscWMxQ3lwdlRGOFVIRWUxNmJxSlhCQXd0czlTNVlyQQ?oc=5",
+          "domain": "basketnews.com",
+          "source_name": "BasketNews.com",
+          "timestamp_utc": "2026-08-23T00:41:13+00:00",
+          "entity": "Honest Company, Inc.",
+          "ticker": "HNST",
+          "cik": "1530979",
+          "entity_type": "company"
+        }
+      ]
+    },
+    {
       "entity": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
       "ticker": "TSM",
       "cik": "1046179",
@@ -7936,7 +8184,7 @@
       ]
     }
   ],
-  "pre_clean_event_cluster_count": 244,
+  "pre_clean_event_cluster_count": 252,
   "cleaning_dropped_count": 24,
   "cleaning_drop_reasons": {
     "seo_or_metric_title": 17,
