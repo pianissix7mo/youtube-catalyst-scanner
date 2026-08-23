@@ -1,0 +1,2456 @@
+{
+  "scanner": "B",
+  "generated_at_utc": "2026-08-23T21:43:17.391932+00:00",
+  "youtube_search_budget_per_run": 20,
+  "youtube_search_calls_used": 0,
+  "events": [
+    {
+      "event_id": "523bbe8d5e5ba9a5",
+      "scanner": "B",
+      "entity": "Tariffs / Trade",
+      "ticker": null,
+      "entity_type": "macro",
+      "event_title": "Trump to lower beef tariffs despite objections (copy)",
+      "event_timestamp_utc": "2026-08-23T20:30:00+00:00",
+      "categories": [
+        "macro_rates"
+      ],
+      "sec_forms": [],
+      "discovery_score": 60.8,
+      "news_burst_score": 21.6,
+      "source_diversity_score": 88.0,
+      "catalyst_quality_score": 85.0,
+      "freshness_score": 92.0,
+      "evidence_quality_score": 48,
+      "youtube_query": "Tariffs / Trade Trump lower beef",
+      "youtube_event_terms": [
+        "Trump",
+        "lower",
+        "beef"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "tariffs OR \"trade war\" OR \"export controls\"",
+        "article_count": 100,
+        "feed_capped": true,
+        "current_3h": 0,
+        "baseline_3h_median": 1.0,
+        "short_ratio": 0.5,
+        "current_day": 16,
+        "baseline_day_median": 1.0,
+        "long_ratio": 8.5,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 28,
+        "news_burst_score": 21.6
+      },
+      "source_domains": [
+        "auburnpub.com",
+        "dailyprogress.com",
+        "journalstar.com",
+        "magicvalley.com",
+        "missoulian.com",
+        "qconline.com",
+        "roanoke.com",
+        "tucson.com"
+      ],
+      "recent_evidence_count": 9,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "Trump to lower beef tariffs despite objections (copy)",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8ybFJFU3FJQ2phdGJBbGVyNTF1anJfazh0V1BUblBLSXBFTU5XRzNObnI4OE5QQW8xMzRTaXhXLXBXQWhuWk05LTBsVWxoZTEya2k0SWVXS000LXJoZHpXRzZRMnlrdHNlenUxREZNX3AyR2pKZXVn?oc=5",
+          "domain": "tucson.com",
+          "source_name": "Arizona Daily Star",
+          "timestamp_utc": "2026-08-23T20:30:00+00:00",
+          "entity": "Tariffs / Trade",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "Trump to lower beef tariffs despite objections (copy)",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1IUFdsTkVaS05jdmFpOTRLLXlaMXBqakNEamN4Q2lMQlBoY3RaT2Naa3A1UkJaMHloVDZZOFUyUGk4VlBjVU9IYjdsY2tTNGFZaUFVdm9tUFVUNDd1bklMbVVoT19jVkdram1VQzdWTHM3ZTRBNmtSWGlvRU4?oc=5",
+          "domain": "missoulian.com",
+          "source_name": "The Missoulian",
+          "timestamp_utc": "2026-08-23T20:30:00+00:00",
+          "entity": "Tariffs / Trade",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "Trump to lower beef tariffs despite objections (copy)",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBRWFZoa0w0bnRyNjB3UGlOZFZsaUZMV0RmWlFrMnlBWEZuTEg1OEQ1a2JnaHQxNVVHWEppeVU1dkJjVnNMVlFXT2JNeGtiLVdCUWVzYmdOSElKd2JycWdrSFo2S0kyTzI1bXl4ZTcwSTRNMDFqYmEtZ0RDU3NDUQ?oc=5",
+          "domain": "journalstar.com",
+          "source_name": "Lincoln Journal Star",
+          "timestamp_utc": "2026-08-23T20:30:00+00:00",
+          "entity": "Tariffs / Trade",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "Trump to lower beef tariffs despite objections (copy)",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE94STZjMDBPMmxsV3hzNDN4VUlIM2plVk9Wb1hrMGxYTHFzdjBFVk56eUdCNUNWSVhMMnRNdHJiSGl5N2VPUEZwd3BzeVBuRERZcUF4Y0RTV1JEaVVxUzZ1TWhRMEpheE1fdzducHo0aFJvZ0JPcHB5NTN3?oc=5",
+          "domain": "qconline.com",
+          "source_name": "Dispatch Argus",
+          "timestamp_utc": "2026-08-23T20:30:00+00:00",
+          "entity": "Tariffs / Trade",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "Trump to lower beef tariffs despite objections (copy)",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPcWY2REU0Ni1xQmtadFRod0EzaUV6aGhNdUdiYi0yamFmRFJOUmxnQWt1MUZPQTZUM1p4Zi1qRGVYSzhhZllQMmJUZjlXaVUyNEpBZExWN2NMX2R1MHJRYWJQc2tPanE1WEt3QXpHaXc3UEhMNnR2bWVzcVVEaldYbg?oc=5",
+          "domain": "dailyprogress.com",
+          "source_name": "The Daily Progress",
+          "timestamp_utc": "2026-08-23T20:30:00+00:00",
+          "entity": "Tariffs / Trade",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "Trump to lower beef tariffs despite objections (copy)",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE53T0swMTYzZHY3X1JURGhsNU13SkgwSE9RdlRwOGJldnBibVB3QTlMZ3RFYXBBYWVoMnRmSmVuQWpqWWRfbTlSb015dXp6NFZBdDZ2OGxQbGtTWERJUFpFTThGQnllR21LQU5QSEhQV0YyMFlNcm1KMWE2amk1UQ?oc=5",
+          "domain": "magicvalley.com",
+          "source_name": "magicvalley.com",
+          "timestamp_utc": "2026-08-23T20:30:00+00:00",
+          "entity": "Tariffs / Trade",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "USA-TRUMP/TARIFFS-CANADA",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5EM3pFbWtqcHc0cUFRTFV5NERueXdNeE01b0NLTlEyYUNOUDFJdzctOTdmd0ZhcXhXbmU3eFQwd0luVUdZcDRyU18tbUdiS3RrWHk3ZUNsZ0RwOWJoeHc0MEFfaksybWlZTGtfZjF1bUlFRm1YR0FkQg?oc=5",
+          "domain": "auburnpub.com",
+          "source_name": "auburnpub.com",
+          "timestamp_utc": "2026-08-23T16:54:34+00:00",
+          "entity": "Tariffs / Trade",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "USA-TRUMP/TARIFFS-CANADA",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1QeXl6SVJjd0E4UFRGME04Z2JhUzM0VWQzblV6eGtFb3JxNUh5UDVXZm9uNDU5MF9sVnBPVXhEbGtKUUdic0FTMWw4OW4tY3dTSF9lZzR3d3hFYWRBdldqVEhDVVczWjY2YVdaN2hSdkEydWhp?oc=5",
+          "domain": "tucson.com",
+          "source_name": "Arizona Daily Star",
+          "timestamp_utc": "2026-08-23T16:24:51+00:00",
+          "entity": "Tariffs / Trade",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "USA-TRUMP/TARIFFS-CANADA",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBNaWF4YWNWLXB0UVFfZ0lmZjJYa25tWmRpODVwZy1iSnFLc2lyZGx6QWxTOW5nQWVteERMRU5FcHgyRnJrbzhVV0RELUQzUHl4NlZMWmUybi1BV1dzcmdSMjgzTTZHbHYtaU1lZnJ1YUQwMzA2RWc?oc=5",
+          "domain": "roanoke.com",
+          "source_name": "Roanoke Times",
+          "timestamp_utc": "2026-08-23T16:15:31+00:00",
+          "entity": "Tariffs / Trade",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        }
+      ],
+      "youtube_metrics": {
+        "status": "skipped_no_api_key",
+        "youtube_supply_gap_score": null,
+        "query": "Tariffs / Trade Trump lower beef"
+      },
+      "scanner_b_score": 60.8
+    },
+    {
+      "event_id": "1ad53c4a28a75754",
+      "scanner": "B",
+      "entity": "ON SEMICONDUCTOR CORP",
+      "ticker": "ON",
+      "entity_type": "company",
+      "event_title": "Pressure Relief Cartridges for Fluids Market to Reach 170 Index by 2035 on Semiconductor Fab Buildout",
+      "event_timestamp_utc": "2026-08-23T20:41:19+00:00",
+      "categories": [
+        "ai_semis"
+      ],
+      "sec_forms": [],
+      "discovery_score": 58.8,
+      "news_burst_score": 68.8,
+      "source_diversity_score": 20.0,
+      "catalyst_quality_score": 68.0,
+      "freshness_score": 92.0,
+      "evidence_quality_score": 33,
+      "youtube_query": "ON Pressure Relief Cartridges",
+      "youtube_event_terms": [
+        "Pressure",
+        "Relief",
+        "Cartridges"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "\"on semiconductor\" OR \"ON\"",
+        "article_count": 100,
+        "feed_capped": true,
+        "current_3h": 7,
+        "baseline_3h_median": 0.0,
+        "short_ratio": 8.0,
+        "current_day": 12,
+        "baseline_day_median": 2.0,
+        "long_ratio": 4.333,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 28,
+        "news_burst_score": 68.8
+      },
+      "source_domains": [
+        "indexbox.io"
+      ],
+      "recent_evidence_count": 11,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "ai_semis",
+          "title": "Pressure Relief Cartridges for Fluids Market to Reach 170 Index by 2035 on Semiconductor Fab Buildout",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPOEJ5bjRMRWVCSnE4RkRnMS1scXZxcHVBWnJ3T3RORDdvUkpzdlV6NnlySzBFYzdIVWZHcURFZHBsRnYwT1Q5V1pQal9uZGRVeW5feXh0MDZpaWNCMzJzYkhCWjJTQlBsM3o4aW14Tkd5YVp5N0RlNnJCWmowZGREOXR3RS1RNzdnUVVtWUs4WU9KaUJLRkh3d0p5aDNiekRESlVTbm10aHNGZlZ5T3ktTzFCLVFqQVg5Zi1OdXdxSmxKNFNUT0tsM0Jncw?oc=5",
+          "domain": "indexbox.io",
+          "source_name": "IndexBox",
+          "timestamp_utc": "2026-08-23T20:41:19+00:00",
+          "entity": "ON SEMICONDUCTOR CORP",
+          "ticker": "ON",
+          "cik": "1097864",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "ai_semis",
+          "title": "Proportional Dosing Controller Market to Reach 193 Index by 2035 on Semiconductor Fab Expansion",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNQjBLTkx0dGN3bHB1ZFYteTRnaG1wNVBkbncxczNqaEZiel9QaU9NNTVSb2NRdjhPNHRaZ3dJZEtLTWdLZ1RTaExtQ1U5cGdpc0wxVkx5a2t4Z21nVHVzN1Y3ck9ITlNnTjhKeFM1VVJKVVpxd2hXOC13anZhdkRjSWxNOFV0eTJZQ3dPdVBDeUdrLWN5bHRvVTJDcGhnSE9aem9IS293V3g2eG9MN0FjUXRBMlVLMG9YUW5Ca1dDWUJfX00?oc=5",
+          "domain": "indexbox.io",
+          "source_name": "IndexBox",
+          "timestamp_utc": "2026-08-23T20:06:18+00:00",
+          "entity": "ON SEMICONDUCTOR CORP",
+          "ticker": "ON",
+          "cik": "1097864",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "ai_semis",
+          "title": "Panel-Mounted Flow Indicator Displays Market to Reach 170 Index by 2035 on Semiconductor Fab Build-Out",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMjg4WW8xbzg2Y1E4Ty1CVm5BeXFKeW55T21mV3Q5R1FRaFZRZGwwYlpETGlJb0pTa1JtclBpbEhOYWZncnVCbVdFOFhuV3lyVWpyVFhVb05EZFQwNkJzLVRhUjRYMDFoWGNDUUl0OWotWGktc2FjSVBlYTc3dmhyMEpwNHpYd3lfXzFSUEdEdk9TaEhnN0ZZTUI5N3h0dHp3YWlodmtWR3pCUHhGdUFEU1VtTGZ1LW94LXAteUgxUVdQUlpRNF9HWEpIMHc?oc=5",
+          "domain": "indexbox.io",
+          "source_name": "IndexBox",
+          "timestamp_utc": "2026-08-23T19:36:12+00:00",
+          "entity": "ON SEMICONDUCTOR CORP",
+          "ticker": "ON",
+          "cik": "1097864",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "ai_semis",
+          "title": "Chain and Sprocket Assemblies Market to Reach Index 160 by 2035 on Semiconductor and Battery Capex",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVFY2VlVGNWdNYy1DVVR2aTZ6ZjZzZ2lVczlLWDM0MmRVVkE1d0Z6c2JlVk10YXhQMEkxQ2pzSmNjZEZRT284cmE0M1NLbnJSR1VtYjFKTWJab2VYU0FzUnZ2WFVuWTJId1JDd2kyeFZWaWN2NE02RWFYSnRJLWkzQlExOGlPdExsQ0RCdzVyY3FQalVHa2FTUVZFakd0cWpsaHVPX0U4WEhfY2FhRy0wX0Z6cU1hUVlYZlRZNnpFMThpeW9aSUFZ?oc=5",
+          "domain": "indexbox.io",
+          "source_name": "IndexBox",
+          "timestamp_utc": "2026-08-23T15:11:17+00:00",
+          "entity": "ON SEMICONDUCTOR CORP",
+          "ticker": "ON",
+          "cik": "1097864",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "ai_semis",
+          "title": "Optical Particle Analyzers Market to Reach Index 170 by 2035 on Semiconductor Slurry Demand",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNOVdhR3M2a29hc2RFcFN6UTkwNXdvUDV6X1V0Y0Mwc3FHemhqOFJZUUgyVjd2MGhxTThTellqZjh5bWs4YWJwaTJ2T0lhWnhObU9VTjVqSVZHVUJaSDdvb0VkdG5KY3QtQWtIZ0kzZWhibjlhTHF3TTkyc25TN3dydVJ6M2JobFdneEx3RG9qU3ZQdVhpU3BnWEVDbXBhd2Qzcm56SGpTR2hPLWI0RHBuZ3VYaG11LW5ZM3JRWDhn?oc=5",
+          "domain": "indexbox.io",
+          "source_name": "IndexBox",
+          "timestamp_utc": "2026-08-23T14:01:18+00:00",
+          "entity": "ON SEMICONDUCTOR CORP",
+          "ticker": "ON",
+          "cik": "1097864",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "ai_semis",
+          "title": "UV-Stabilized Insect Netting Market to Reach Index 185 by 2035 on Semiconductor Cleanroom Demand",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOc3psWWc3c1FTakpId1d6Vm9yWG1LNXVkVTRSQUVKV096dC1LMUpyWXJpQncwYS01ZDh5V3VSYlNYS0UycDltejVzMkhxVE1YOUFyVmJKRno4QndvX3oyZXB4anRuWG45SXJkLW5RNDdKeVg0bTNISFkxNWJtc2hjd1VjRXgtMXZDTFlSQWtyVEdLTF9KTDc2dHV3d0l1eEdZVlo3WDlkQmZmcE1WQlplN0ZBRTN2Z05YOVItOGxsMHJLNnVm?oc=5",
+          "domain": "indexbox.io",
+          "source_name": "IndexBox",
+          "timestamp_utc": "2026-08-23T11:46:27+00:00",
+          "entity": "ON SEMICONDUCTOR CORP",
+          "ticker": "ON",
+          "cik": "1097864",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "ai_semis",
+          "title": "Heavy-Duty Detergent Surfactant Blends Market to Reach 170 Index by 2035 on Semiconductor Fab Expansion",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPR0lybXlNTFFOT3RJTExTdVNoNXFqTUhheGJFeVZnSEYzUzA5ZV9pV0VvMkY1MHNpUDZZRGtxUHNWQWs4YVlXWnFjenIzMG1jeVJ5bHlfcEctQ2RaYm9nSXdlVEN2dkNZcmVnNTV4ZUpwN2VLRWQxenVYcl9DcFp4akdWQWpDSEZlRkVCRkNCVDRvRW1JMXd2dHQzS3NsbVUwTHFneGFiSUFRbTBsTmhfUHQtLThlNFNuU0I3ODBYLUl2R0w2RW8tRUN2WFJ2dw?oc=5",
+          "domain": "indexbox.io",
+          "source_name": "IndexBox",
+          "timestamp_utc": "2026-08-23T11:41:16+00:00",
+          "entity": "ON SEMICONDUCTOR CORP",
+          "ticker": "ON",
+          "cik": "1097864",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "ai_semis",
+          "title": "Wire-Braid Hydraulic Hose Market to Reach 155 Index by 2035 on Semiconductor Fab Buildout",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdnhId1dibkV6VElmakROUGQtNGVQQkk1TVA3V1lVNXE0YXo3YW5zMzdwSklfc2JEZWFWOVktT2V2SV9NQTlSLTFnRVYwWGhXLUlqNjNKbllLN2ZFUm95eE1IWjQ4WTVkR0s1TklsQTZjQ21JY1luVmhmNzlNbkVyc3lleG5mUUNGTmJsWWEzTUpEa25aNURxRUdJZTY0UWI5ZVY4cWh1Ykh0ZXhIVF8xMmFHWlRFYk5wUzBn?oc=5",
+          "domain": "indexbox.io",
+          "source_name": "IndexBox",
+          "timestamp_utc": "2026-08-23T04:56:20+00:00",
+          "entity": "ON SEMICONDUCTOR CORP",
+          "ticker": "ON",
+          "cik": "1097864",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "ai_semis",
+          "title": "Liquid Nitrogen Cylinder Valves Market to Reach 170 Index by 2035 on Semiconductor Fab Expansion",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPR1FJWlFyS00zTXVjRFM4bGlCU0xab2E0ZDV2bzBPVGZYMFVrclBWMjJXQ3NhMW9rNi1zZ0FjU2dNTzNxMWlybm5IYzdLVkprVzBSRWNVcWs4MnNQMDRmNWdSTWFvWHBmMEl6U3dQRjNJWS1SR2RyTXdjLXhRQ1N1ekI3UkpvNWZ4dVc5VjZSTy1NLXdVMlFzMUktZS13cEZ6WlJaZGZCT29MQVJ5dHNCWmlWWjJEMHpNMVJvU1ZrU0dkZUZY?oc=5",
+          "domain": "indexbox.io",
+          "source_name": "IndexBox",
+          "timestamp_utc": "2026-08-23T04:36:20+00:00",
+          "entity": "ON SEMICONDUCTOR CORP",
+          "ticker": "ON",
+          "cik": "1097864",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "ai_semis",
+          "title": "Aramid Thermal Protection Laminates Market to Reach 193 Index by 2035 on Semiconductor Demand",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdlFXaHdFaGJrOFZfZEE1cjZSamhBYUxHNVZyXzhiVlF2Nm9NOGF2bkp2cjREcUktZDRrbnhMUVRJUUgzYzd3V29naUYzSHlTaW1DMFpza3pSUnFRb2pWMkh2UFllUEZOMjliMFBMd28zMExIU2dzMGNxYUhvc0dPY0xuMFNBbkFrdWJGWEhwTTB5aVJxS1lEQWVqdk1nZzFyblI1TzROWE5nOWNqZzVUVDA0MU9ZTGlDYmtvLVZzVVg?oc=5",
+          "domain": "indexbox.io",
+          "source_name": "IndexBox",
+          "timestamp_utc": "2026-08-23T00:21:23+00:00",
+          "entity": "ON SEMICONDUCTOR CORP",
+          "ticker": "ON",
+          "cik": "1097864",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "ai_semis",
+          "title": "Manifold Block Connectors Market To Reach 177 Index by 2035 on Semiconductor Fab Expansion - News and Statistics",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdnVLd2s1aHZwUDdQRGpUdXRVbm9TLXJGVGgwY0NzZ21ybWs3NGtDbEFGQngwSVEwM1FqQUY0X2NSM3lyTWtQZjI4UGlUeGRqdW94ek9tSFQyRndhaTI1Y2Q1OUJBdGp0V2ZzY1NGU0JjU1V5Qk9IbUo0RGZzUk5YTFNhUEdWUnA4ODVta09DZG9ocDFQYks0STVCZHRoNFhBN2FEM3lsV1g1UjdTc0dxeGZtVGVTR183cmc?oc=5",
+          "domain": "indexbox.io",
+          "source_name": "IndexBox",
+          "timestamp_utc": "2026-08-22T23:56:28+00:00",
+          "entity": "ON SEMICONDUCTOR CORP",
+          "ticker": "ON",
+          "cik": "1097864",
+          "entity_type": "company"
+        }
+      ],
+      "youtube_metrics": {
+        "status": "skipped_no_api_key",
+        "youtube_supply_gap_score": null,
+        "query": "ON Pressure Relief Cartridges"
+      },
+      "scanner_b_score": 58.8
+    },
+    {
+      "event_id": "bc4febbb9cd61e16",
+      "scanner": "B",
+      "entity": "Paramount Group, Inc.",
+      "ticker": "PGRE",
+      "entity_type": "company",
+      "event_title": "‘Appalling’: Mark Ruffalo denies antisemitism charge from Paramount Skydance over merger criticism",
+      "event_timestamp_utc": "2026-08-23T20:07:18+00:00",
+      "categories": [
+        "contract_order",
+        "mna"
+      ],
+      "sec_forms": [],
+      "discovery_score": 58.1,
+      "news_burst_score": 18.0,
+      "source_diversity_score": 72.0,
+      "catalyst_quality_score": 94.0,
+      "freshness_score": 92.0,
+      "evidence_quality_score": 48,
+      "youtube_query": "PGRE Appalling Mark Ruffalo",
+      "youtube_event_terms": [
+        "Appalling",
+        "Mark",
+        "Ruffalo"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "\"paramount\" OR \"PGRE\"",
+        "article_count": 100,
+        "feed_capped": true,
+        "current_3h": 1,
+        "baseline_3h_median": 0.0,
+        "short_ratio": 2.0,
+        "current_day": 2,
+        "baseline_day_median": 3.0,
+        "long_ratio": 0.75,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 28,
+        "news_burst_score": 18.0
+      },
+      "source_domains": [
+        "commondreams.org",
+        "hollywoodlife.com",
+        "imdb.com",
+        "nbcnews.com",
+        "nme.com",
+        "northeasttimes.com",
+        "tvinsider.com"
+      ],
+      "recent_evidence_count": 7,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "mna",
+          "title": "‘Appalling’: Mark Ruffalo denies antisemitism charge from Paramount Skydance over merger criticism",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSFBtNjBRU05CZjBqWE5naVpTUlYxMmFOcTg5WEc3QlU2UVhMR2g2WG9kWVJBcHlibnppUnBTZGhLU2x3aXBTUzV4SHEybWZvQXpFNndlSnRFaVJndjlIcUR5aS1OdmtfcjM1VkpxWWl4MDRpbzhKSlhRZjRDbTE5V1BEQ01WamtnQlg5R2lkbFdpQ3B6ZlBNTFVhTnZXS2Z4THV2NEtnbw?oc=5",
+          "domain": "nbcnews.com",
+          "source_name": "NBC News",
+          "timestamp_utc": "2026-08-23T20:07:18+00:00",
+          "entity": "Paramount Group, Inc.",
+          "ticker": "PGRE",
+          "cik": "1605607",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "mna",
+          "title": "Ruffalo fights antisemitism accusation in Paramount merger battle",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNQ3pLVHcxU2pGR0d5U1JyeUdYMDZ3ZFo5R1VOdzBtbVpsSXR2dXN2dG90RXFQUUtyYlBuNnloWFJNYldxVlAxYnVMb2pfQjkwWTBJTFhwa29rS2tWRE01SU55V2RVTkswNlU1RVp4RkhFSUFibTc0aGJQUTdpN25pNUtUUjhxeTlYX1Q4NXlMUy1STXZiYkpzalNTcHlHSWQ2Q29WOF9Ndw?oc=5",
+          "domain": "northeasttimes.com",
+          "source_name": "Northeast Times",
+          "timestamp_utc": "2026-08-23T20:03:00+00:00",
+          "entity": "Paramount Group, Inc.",
+          "ticker": "PGRE",
+          "cik": "1605607",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "mna",
+          "title": "Mark Ruffalo Hits Back at Paramount’s Claim His Anti-Merger Criticism Was Antisemitic",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1tbGRzWkhYU0E4cGdKa19qUnc1OE1WOGNUR0lUcGtHMUFpY1pXR3VoQklGSlNmeWhrY09JY3JZNGNNaEdQeFUtcFktUXNWNVdGcjdzMDRoOXhlR1pSbFRodk5wamI2QQ?oc=5",
+          "domain": "imdb.com",
+          "source_name": "IMDb",
+          "timestamp_utc": "2026-08-23T15:24:09+00:00",
+          "entity": "Paramount Group, Inc.",
+          "ticker": "PGRE",
+          "cik": "1605607",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "mna",
+          "title": "Mark Ruffalo Reacts to Paramount Calling His Criticism Antisemitic",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPRWxMMDhsVHlHSC1DcC1lTWhsMjZiWGVGTV9FUVdqRHhmZTEyRnJuN21BZVlrMkZCNEk3bExsUHVCZTRJczNhNHIzZmljLTl0RXRVejM0UzFZbW5QbUVJc2ppQVlKbXFobjFNaVBwaHdlSERuQ2xlQVhqNEN6Zk1zelYxckh3Sjgza0RRVnFXdFdVSEtxQ2xSbE9CTXB6Q2J4bmRv?oc=5",
+          "domain": "tvinsider.com",
+          "source_name": "TV Insider",
+          "timestamp_utc": "2026-08-23T14:53:23+00:00",
+          "entity": "Paramount Group, Inc.",
+          "ticker": "PGRE",
+          "cik": "1605607",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "mna",
+          "title": "'Appalling and Fundamentally Dishonest': Ruffalo Rejects Antisemitism Charges by Paramount Amid Merger Warning",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1lMHlDWkRnai1seDlXSEM3X3JxWG5GRXNNcktQNm5POEdNNTRkRWowbnVMUnNZUnBPLWtkSDdneWV2S1hjZmhfUUxyS1BfNEZjb3podzZLQmFZVlZNZGdXdUpXRkFtLUl5MERXMF96eDdVcUdTQU1MRw?oc=5",
+          "domain": "commondreams.org",
+          "source_name": "Common Dreams",
+          "timestamp_utc": "2026-08-23T13:58:58+00:00",
+          "entity": "Paramount Group, Inc.",
+          "ticker": "PGRE",
+          "cik": "1605607",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "mna",
+          "title": "Why Is Mark Ruffalo Feuding With Paramount? The Merger Fight Explained",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNM3BVZ3N5ejJEbWRVb1dIdV9yYjJfX3VQN3FYNUhjbElQWXQ1OHo5ZGZUZHlzMlpDSU1fbGIxMHJxTEkyNUZxay1zQXVHY2E2RVRKZzZQVVNjRXlsX1gydWI1bmxJTTRXUnNHSjlHNGNveTFwUHlpUlI2V3JWTmkySzhiQWN2MEJSM3pXcTJn0gGTAUFVX3lxTFBIdjRFSjJBVTdfbnZkQlBXbjRFeV9FMF9OTGJwU1A4UzBIUDNHQXMyX3RiR05MVk9oNW15SEtZLUtKSm5BOC1PMlJ5eUZVQVJCMF9iWXA0SWNpSmxBQTFnanFvZ3JKd1UyQnZacmJSOG5ud0JLeEhqQ2RhZi1qaDFUVm9uMmFBSXhDYlQ4TGV0cnJFcw?oc=5",
+          "domain": "hollywoodlife.com",
+          "source_name": "Hollywood Life",
+          "timestamp_utc": "2026-08-23T12:53:00+00:00",
+          "entity": "Paramount Group, Inc.",
+          "ticker": "PGRE",
+          "cik": "1605607",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "contract_order",
+          "title": "Mark Ruffalo hits back after Paramount said his merger criticism was \"anti-Semitic\": \"Appalling and fundamentally dishonest\"",
+          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNOWpXY0xCZU5sSTB1Mi04dy02RDJHbTlUTjhqN1Vvd09ac1Y0M0dDNllaRG9wRHd5cC1QR01xd3Z0dUpQc1RlMGxzakpHeHVaWjAyUkNtNHFaQTZOb25aVFBoa3R0YUo4RHV0cTdTZTJsWTBjYnRvd1lUTVY2bmhHVmNUQXVldkc3dU1YTGEtTE9qc3ZjdHYyOWEtYWxNV3V3Zk9UYlFtaE90ai1SYjRDWVplbTF6UENVLTh1eE5JRFQ3SkV3ZDVYOHZBQzVaQVA2b1JNTU9qdDNtZE5KUy1QbkIwY0NKV1lCUGduUk5n?oc=5",
+          "domain": "nme.com",
+          "source_name": "NME",
+          "timestamp_utc": "2026-08-23T09:55:03+00:00",
+          "entity": "Paramount Group, Inc.",
+          "ticker": "PGRE",
+          "cik": "1605607",
+          "entity_type": "company"
+        }
+      ],
+      "youtube_metrics": {
+        "status": "skipped_no_api_key",
+        "youtube_supply_gap_score": null,
+        "query": "PGRE Appalling Mark Ruffalo"
+      },
+      "scanner_b_score": 58.1
+    },
+    {
+      "event_id": "646832ba05b7bf28",
+      "scanner": "B",
+      "entity": "ON SEMICONDUCTOR CORP",
+      "ticker": "ON",
+      "entity_type": "company",
+      "event_title": "PVPP Clarification Powder Market to Reach 165 Index by 2035 on Semiconductor Ultrapure Water Demand",
+      "event_timestamp_utc": "2026-08-23T16:11:18+00:00",
+      "categories": [
+        "ai_semis"
+      ],
+      "sec_forms": [],
+      "discovery_score": 57.3,
+      "news_burst_score": 68.8,
+      "source_diversity_score": 20.0,
+      "catalyst_quality_score": 68.0,
+      "freshness_score": 82.0,
+      "evidence_quality_score": 33,
+      "youtube_query": "ON PVPP Clarification Powder",
+      "youtube_event_terms": [
+        "PVPP",
+        "Clarification",
+        "Powder"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "\"on semiconductor\" OR \"ON\"",
+        "article_count": 100,
+        "feed_capped": true,
+        "current_3h": 7,
+        "baseline_3h_median": 0.0,
+        "short_ratio": 8.0,
+        "current_day": 12,
+        "baseline_day_median": 2.0,
+        "long_ratio": 4.333,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 28,
+        "news_burst_score": 68.8
+      },
+      "source_domains": [
+        "indexbox.io"
+      ],
+      "recent_evidence_count": 4,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "ai_semis",
+          "title": "PVPP Clarification Powder Market to Reach 165 Index by 2035 on Semiconductor Ultrapure Water Demand",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNQVhNVml5NzR1V011NTRCbEV6N3NYbkllY3dsWWNySTZOLXJlcEh5M0xNNE5yeklaT0pfel9ZdzZkWGFieUdPUG5BVmFJX1Z5cDQxR3ZlWTE1ZF9tUnNIbE9LQ0hySG1fMkZHTXkzZ0c0bnZsVGtCaGMxS1RnV09kcVRESE5RcU11TmJXSUNrLU4tUmtmak92RzB3N3BKcmVfdEhtcWd6WG93UWdvTWotbzhFTlVtQlVrNDhLekYyZFVSak9wRjNpeA?oc=5",
+          "domain": "indexbox.io",
+          "source_name": "IndexBox",
+          "timestamp_utc": "2026-08-23T16:11:18+00:00",
+          "entity": "ON SEMICONDUCTOR CORP",
+          "ticker": "ON",
+          "cik": "1097864",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "ai_semis",
+          "title": "Ammonium Hydroxide Leaching Reagents Market to Reach 160 Index by 2035 on Semiconductor Purity Demand",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPQkFQLW10UW9TWjZQbjJVS1NRRU9CWk9IbzdGTzY2UjdWc21Db01xQ0QxUDd5RjFpR2xMeU5RSjdoRkFBQmY3S25ITGVBbGFtXzNTN2RjZk1CQlFubnpaTmVzaF84aU1XUnB5Y1JwRzNjNk50NTYybWpWbFRZN0tGeGtXMU9XRjRZNTRoWjBzOWhOTW5zZUdETEhPanBndGxGN2dfVnlFR3FnV2czdW5jWmhsVWg1aWgxUkhhS0h1MDdaclNVYk9ZdUFaaw?oc=5",
+          "domain": "indexbox.io",
+          "source_name": "IndexBox",
+          "timestamp_utc": "2026-08-23T13:51:21+00:00",
+          "entity": "ON SEMICONDUCTOR CORP",
+          "ticker": "ON",
+          "cik": "1097864",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "ai_semis",
+          "title": "Methyl Ester Sulfonate Surfactants Market to Reach 185 Index by 2035 on Semiconductor Cleaning Demand",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNOVVIaXdkWlc5Y2JCSjJVQzRQNjYtZlpvbU1MZFc2alV6N25xYTJwOHNRa050LVJIOEcwZ0ttWlF5Qmpta1ZEZUg2SHhmMVcwaHJRa0JhM0VvaHFnS29PWmNZeU1KMUo0MnRpYW1nbjVybC05bUhBNWFSeE52WmtnX0xLZXVmQ3daY0c3ZTV1NFl1ZlI2NDlYb09QNlRLdnJ4a3g5bW9jSXh1M2NqV3BRQkk0QTJUdnN1eXFzU0QyLXpzNUlKbkVYU2g3OA?oc=5",
+          "domain": "indexbox.io",
+          "source_name": "IndexBox",
+          "timestamp_utc": "2026-08-23T05:01:17+00:00",
+          "entity": "ON SEMICONDUCTOR CORP",
+          "ticker": "ON",
+          "cik": "1097864",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "ai_semis",
+          "title": "Weighing Data Acquisition Modules Market to Reach 172 Index by 2035 on Semiconductor Precision Demand",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNdXhLY2ItVC1XOHJlekVSZU5Ud0tTdTNHY19hTk1PZVRXbVpwM0RUVHl6ekxMZEQ0dWkxajNFM0d5M0g2TmtWRzNrczBxM1hjN0xteFlabk5XOVNkX19ibGZhdVpWTTJwYlB0NnFkOEYzWFpiZGQwUU1aM3pEU3YydTM5cF9vOG4xVzdJZEYycWtaOEtRdHZRRU5xcnNrRC1qWFYzMnVQc1JhMGhwMlkwc2E5aXlldlJpUjF1RW56NFRneV9oc3M5b0VVRQ?oc=5",
+          "domain": "indexbox.io",
+          "source_name": "IndexBox",
+          "timestamp_utc": "2026-08-23T04:01:13+00:00",
+          "entity": "ON SEMICONDUCTOR CORP",
+          "ticker": "ON",
+          "cik": "1097864",
+          "entity_type": "company"
+        }
+      ],
+      "youtube_metrics": {
+        "status": "skipped_no_api_key",
+        "youtube_supply_gap_score": null,
+        "query": "ON PVPP Clarification Powder"
+      },
+      "scanner_b_score": 57.3
+    },
+    {
+      "event_id": "d75a211155b75c8d",
+      "scanner": "B",
+      "entity": "Hudbay Minerals Inc.",
+      "ticker": "HBM",
+      "entity_type": "company",
+      "event_title": "SK hynix HBM Packaging at Hot Chips 2026",
+      "event_timestamp_utc": "2026-08-23T20:40:15+00:00",
+      "categories": [
+        "ai_semis"
+      ],
+      "sec_forms": [],
+      "discovery_score": 55.9,
+      "news_burst_score": 49.3,
+      "source_diversity_score": 38.0,
+      "catalyst_quality_score": 68.0,
+      "freshness_score": 92.0,
+      "evidence_quality_score": 36,
+      "youtube_query": "HBM hynix Packaging Chips",
+      "youtube_event_terms": [
+        "hynix",
+        "Packaging",
+        "Chips"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "\"hudbay minerals\" OR \"HBM\"",
+        "article_count": 100,
+        "feed_capped": true,
+        "current_3h": 3,
+        "baseline_3h_median": 0.0,
+        "short_ratio": 4.0,
+        "current_day": 14,
+        "baseline_day_median": 3.0,
+        "long_ratio": 3.75,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 25,
+        "news_burst_score": 49.3
+      },
+      "source_domains": [
+        "servethehome.com",
+        "wccftech.com"
+      ],
+      "recent_evidence_count": 3,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "ai_semis",
+          "title": "SK hynix HBM Packaging at Hot Chips 2026",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAzVG1Ib00xNlY4cktzUWRCTmpSUTRrV1B6UjBKRjQyTTFsSWoydUlzd3REaHFFLTBscW9LUU52cUxfdjNKWC1XOFZGb2E0eUsxTWV3VU5lSWNnT3RoV3lRdE5nR2V3RXY2T1hCaGhTeldyRkhrVjNaUXB3?oc=5",
+          "domain": "servethehome.com",
+          "source_name": "ServeTheHome",
+          "timestamp_utc": "2026-08-23T20:40:15+00:00",
+          "entity": "Hudbay Minerals Inc.",
+          "ticker": "HBM",
+          "cik": "1322422",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "ai_semis",
+          "title": "SK Hynix Unpacks Advanced Packaging Technologies, Including Intel EMIB, For Its Next-Gen HBM Memory As It Eyes 3D Structures For The Future",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPb2NraE1nVDJleTFJUVZadndPMEdOSi1WTmxjQ1o0aFB0M1l2MGFEUlJ6YTJsTFN2U1NpaTdXZmpXblBRZ2Z2MF9LczBmZmh4MWhuMjFuSWp6QTgwTXEzdkdrZzJFakFsQzdWZEdMY1dQWG1MRjloWktUdzFiY1NOM2UyN2U0TVhma2pnT3BVNDROTmQtcFd5YtIBngFBVV95cUxQNjVJTDlBMzllTmFiTGgzMXJ2ZXQ0X0NWWWx0RTkxQ1dGSkQ2eFdpQmlhYjBFcWE3YU1TYS1Na2FUNVNGYTBESHV0eXlHeXBIOFBxNVd0YThqeGpUWTktclZCTFVBUGxoS3BDbGNLYnkzWEIzbFRuTWZNdUpaM0t4VXFFa1VoVUM5XzBuQzhJeHNfOFd4M01xV0V0NlZZZw?oc=5",
+          "domain": "wccftech.com",
+          "source_name": "Wccftech",
+          "timestamp_utc": "2026-08-23T20:30:00+00:00",
+          "entity": "Hudbay Minerals Inc.",
+          "ticker": "HBM",
+          "cik": "1322422",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "ai_semis",
+          "title": "Samsung Evolving HBM Base Die at Hot Chips 2026",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObXVHcUJ1dWFpQXI3WEVxMjRucWYtblM2SGVjQjdBU1N4ZGwtQTNNYXdqMk1JU0lmTlVFWlBqbmdBamhUTENXTXdYLUdLc1RicXNtZkowU25tNjcxTUhsUDZ5Y0hLOXVQLWRIV1NJZHRoN3JQSWFmSlhpZnMtX25BLWxYTQ?oc=5",
+          "domain": "servethehome.com",
+          "source_name": "ServeTheHome",
+          "timestamp_utc": "2026-08-23T18:00:34+00:00",
+          "entity": "Hudbay Minerals Inc.",
+          "ticker": "HBM",
+          "cik": "1322422",
+          "entity_type": "company"
+        }
+      ],
+      "youtube_metrics": {
+        "status": "skipped_no_api_key",
+        "youtube_supply_gap_score": null,
+        "query": "HBM hynix Packaging Chips"
+      },
+      "scanner_b_score": 55.9
+    },
+    {
+      "event_id": "a75317309ca61349",
+      "scanner": "B",
+      "entity": "Canada Goose Holdings Inc.",
+      "ticker": "GOOS",
+      "entity_type": "company",
+      "event_title": "Canada to Add Equal Tariffs on U.S. Goods as Trade War Heats Back Up",
+      "event_timestamp_utc": "2026-08-23T20:19:16+00:00",
+      "categories": [
+        "macro_rates"
+      ],
+      "sec_forms": [],
+      "discovery_score": 54.4,
+      "news_burst_score": 0.0,
+      "source_diversity_score": 88.0,
+      "catalyst_quality_score": 85.0,
+      "freshness_score": 92.0,
+      "evidence_quality_score": 60,
+      "youtube_query": "GOOS Equal Tariffs Goods",
+      "youtube_event_terms": [
+        "Equal",
+        "Tariffs",
+        "Goods"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "\"canada goose\" OR \"GOOS\"",
+        "article_count": 81,
+        "feed_capped": false,
+        "current_3h": 0,
+        "baseline_3h_median": 0.0,
+        "short_ratio": 1.0,
+        "current_day": 1,
+        "baseline_day_median": 2.0,
+        "long_ratio": 0.667,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 29,
+        "news_burst_score": 0.0
+      },
+      "source_domains": [
+        "alaskasnewssource.com",
+        "aljazeera.com",
+        "azfamily.com",
+        "butlereagle.com",
+        "cpapracticeadvisor.com",
+        "foxcarolina.com",
+        "kptv.com",
+        "lemonde.fr",
+        "wdam.com",
+        "wsj.com",
+        "wsmv.com"
+      ],
+      "recent_evidence_count": 11,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "Canada to Add Equal Tariffs on U.S. Goods as Trade War Heats Back Up",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNN3J2eGh0Vl9uVzhMekh0VFVUWlFWRUNRQXF0MEg1NTNVN2tCcnNSS2UtZFR5SWFObnUzRUFOQlBHLWxxUnM5amc0Z3UxWDd3dmI3bUZQN0ZLREF1anZjenFLbnMxWkR5U3NjQUk3TnJmS0pyY3Zka1JtUVU2MmRuTTg3MUtDWmlFeVFIaTFxMjhhdkNwS01kT1FPWWJOMkRuV2pubFNNSXZGRUM3UlUxTXh2MmpiNFh0b1ptNHlB?oc=5",
+          "domain": "cpapracticeadvisor.com",
+          "source_name": "CPA Practice Advisor",
+          "timestamp_utc": "2026-08-23T20:19:16+00:00",
+          "entity": "Canada Goose Holdings Inc.",
+          "ticker": "GOOS",
+          "cik": "1690511",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "US and Canada fall deeper into a trade war with new tariffs as talks collapse and blame is spread",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOVHNOejc4cFFDbTBNdUcwUEIzRTQ4ZjJIMjMzS1JCNkE5ME1KQzNDcl9zQjNPS1ZvbEN3TWVBSDBMWnN1RXM1Z2k5SXBKNHVYNUJ6TUY2UnF6NzJrNXEwRHJLYWhYWDY2VlJGbkQwRjluSlRucHZ2anVmcFNnVWtMYmY0VExGcktUU3ZXNVNRVm4wRHBWOTJleTI0bW0zUVNXRUZxT1IyTW54ZzRKWW8ydVdmN3hfSW1uX0JwaERwb1BZUnY5eWt1d3V5b0pHV3lI?oc=5",
+          "domain": "butlereagle.com",
+          "source_name": "Butler Eagle",
+          "timestamp_utc": "2026-08-23T18:55:55+00:00",
+          "entity": "Canada Goose Holdings Inc.",
+          "ticker": "GOOS",
+          "cik": "1690511",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "U.S., Canada Spiral Toward Trade War",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxObTktLTlvRm9hWEVTZ25TX2VGQVNsSWM5UVRhOWJQMVB4Smg2MkNLUHdkVnluNGp2X1BYVkdwV3RBZ3hTNGR0ZUg0SFNIQkZrVzZXWVppS0xMOGYwRFh6Wm9WR2RnWGo2WUpQSWpVcndjT2ZlVVNzM05jTnJTb3dnMnBWZDFDQVNRcnRyTF8yWQ?oc=5",
+          "domain": "wsj.com",
+          "source_name": "WSJ",
+          "timestamp_utc": "2026-08-23T12:25:00+00:00",
+          "entity": "Canada Goose Holdings Inc.",
+          "ticker": "GOOS",
+          "cik": "1690511",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "US tariffs prompt retaliation from Canada",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPS09zMzYxcndiZTBNZnR6THpWR1JkWkQxQUxVekdNX1p3YW5MWjBfZ2NBd05jd3RGSnJNNXd0U3VrX3JmV2ZzeWxYR1JIdFdlVWJvRUM5Y0lQQXdHc1NEbW91Yy1NSVNtTzVPamZGbHBBSFJfU0gwdk1ROHZpdS12QQ?oc=5",
+          "domain": "kptv.com",
+          "source_name": "KPTV",
+          "timestamp_utc": "2026-08-23T09:24:00+00:00",
+          "entity": "Canada Goose Holdings Inc.",
+          "ticker": "GOOS",
+          "cik": "1690511",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "US tariffs prompt retaliation from Canada",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNaURnZzR5V0s3OE5NVU1ZMXNQaFl1QWV2V0xrT1Uxa1k2TU5KeHgtTXpFcWxfWDlIejVEdW5pWUVUZ3pMZUlfN0tIc2tlNGJLdjZVOU9lWWh4MmlNNzV6QjN1ZnF3UDdHU3NuaVRITDNocjhCU0NtSTNWWmdWTlZ1c3VDamppdw?oc=5",
+          "domain": "azfamily.com",
+          "source_name": "AZ Family",
+          "timestamp_utc": "2026-08-23T09:24:00+00:00",
+          "entity": "Canada Goose Holdings Inc.",
+          "ticker": "GOOS",
+          "cik": "1690511",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "US tariffs prompt retaliation from Canada",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPV2FYWmt6d0VuYWpubHl3OGY0VkJWeTB5LWdXbHR0alk3MUltczBURDdVQmh4cVUtYXdBSEszVzFwZG1uSHVKU1ZMWjlZeHNrVUJXamhOZ3hSRVdlQWF6bWNtV19zYTZ5SC1SQjhncndzRjBTTjdaU1k2ZmdJUmFpS0xOX1F6cHdyRU9uSVVqSmEwQQ?oc=5",
+          "domain": "alaskasnewssource.com",
+          "source_name": "Alaska's News Source",
+          "timestamp_utc": "2026-08-23T09:24:00+00:00",
+          "entity": "Canada Goose Holdings Inc.",
+          "ticker": "GOOS",
+          "cik": "1690511",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "US tariffs prompt retaliation from Canada",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNR3pyc3R5SkV4MktjWWFwYi0tMkJwWk1sd3IzdFpoV2FjcUt2SjNsWm5uMUlDdWo0R1EyNjE2NE9NSGNRbm83R3lUeTdMOFhqZUZUT3BwZ1FhazZ0NUl3NjgtaWpWYmdKVEpQYUM4ZThaTjYxVzZJSmwxMVduMFNwag?oc=5",
+          "domain": "wsmv.com",
+          "source_name": "WSMV",
+          "timestamp_utc": "2026-08-23T09:24:00+00:00",
+          "entity": "Canada Goose Holdings Inc.",
+          "ticker": "GOOS",
+          "cik": "1690511",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "US tariffs prompt retaliation from Canada",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPVnFrakdwMFBLVjNHMUxtY0dYeUhpcUROdTc2VmlCbzYyWVFGc0JkNVNKN1IwYndvMks0eDNJamlrTWFzS3ZDQjVaVE1xMEFPSmw4dDJTbDZ5V1JrdnpRckpZZlNxWXdCaDRDaWc1MVVqWEM0aFVZM245WTBKNE1BMzZfQkhJSDg2WEE?oc=5",
+          "domain": "foxcarolina.com",
+          "source_name": "FOX Carolina News",
+          "timestamp_utc": "2026-08-23T09:24:00+00:00",
+          "entity": "Canada Goose Holdings Inc.",
+          "ticker": "GOOS",
+          "cik": "1690511",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "US tariffs prompt retaliation from Canada",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOOVB3LWh3S01FUUNsYjhRejZfekRBWjZCT2pnMTE4SG1KQ0FyY3VBMW93MDROc2JKLTllRHIydUNOdHhpcmFISFJzRG1hMk1uZEFwLXphMWpzM1FWUzUySEFVdjc3Z0RfVWIySTUzTmE2aDB0NzhDcEdHMTZySVhmRw?oc=5",
+          "domain": "wdam.com",
+          "source_name": "WDAM-TV",
+          "timestamp_utc": "2026-08-23T09:24:00+00:00",
+          "entity": "Canada Goose Holdings Inc.",
+          "ticker": "GOOS",
+          "cik": "1690511",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "Canada to hit US with retaliatory tariffs as trade war escalates",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdUttUHYtVERQN3NfQU56RGhkLTBqMGRnZ3czM1JPQzVqOFNnODl3UzI3Uy0tdTJaQ2VDbGVJYkxMOWxyOGRiSWREU01IT2U5YXQzakktUGVrX1drVUViQ3lUXzAzYnA1NVhNZ2Q5ZnB4TkFrdnliNG5UenEtTVJQc2FJUldtMzF4Ry0xRW54U2M4a1lCRU5HNjBRcEI0UUtuUW1iMUtVRVLSAa4BQVVfeXFMTkNOd0hDU1IxTVNCZ1RZc2R0ejFjbXg3aUY1UGhJajQweUhIOVBFN2xYcFJyRGJ4MzE2LUZIb09EYnVWV1FsWUVTY3JNS0M1UWxEN1pIVldiZGhFUTlEOFd1NVNaakY1NjBSYmFWa3U2Ul9Tb3c2Ymc2LWVCNlFRVnZ5SXNOT1hmOFpjMUVoMXdyWVBGTW85YzdPYUVENGR6M0V1OG1nVGhIOGFsajhR?oc=5",
+          "domain": "aljazeera.com",
+          "source_name": "Al Jazeera",
+          "timestamp_utc": "2026-08-23T05:44:03+00:00",
+          "entity": "Canada Goose Holdings Inc.",
+          "ticker": "GOOS",
+          "cik": "1690511",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "Canada hits back with new tariffs after failed trade talks with US",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQM3oyaVhHVzhFWGVKZWtJOTJqa1RuZjE3ckh4TWItbEx2TExoVl80d1lYX2F3VWFjYW5tdlBDZEo3cHMxRFNDWVNPaTh6TUtJUVg3bms0S1Q5REZHbHhnanNJeXZHdk5fVXlnemFGYlJjdm44NWVaQlFFMHB6UjJZdGNMX3A4R2w5QzhBM0hHLTdvTGRZeDBWLTBudGN2YkdHd0x1S2tjT2hWSHRET3JJMkNUeWhUUzR6S3lFYVY5b3BxM2lidHlzVmJydG5kN1FMQkNXM3luaw?oc=5",
+          "domain": "lemonde.fr",
+          "source_name": "Le Monde.fr",
+          "timestamp_utc": "2026-08-23T03:24:37+00:00",
+          "entity": "Canada Goose Holdings Inc.",
+          "ticker": "GOOS",
+          "cik": "1690511",
+          "entity_type": "company"
+        }
+      ],
+      "youtube_metrics": {
+        "status": "skipped_no_api_key",
+        "youtube_supply_gap_score": null,
+        "query": "GOOS Equal Tariffs Goods"
+      },
+      "scanner_b_score": 54.4
+    },
+    {
+      "event_id": "38e6aa8777688b15",
+      "scanner": "B",
+      "entity": "Under Armour, Inc.",
+      "ticker": "UAA",
+      "entity_type": "company",
+      "event_title": "Leesburg shooting under investigation",
+      "event_timestamp_utc": "2026-08-23T20:54:00+00:00",
+      "categories": [
+        "regulatory_legal"
+      ],
+      "sec_forms": [],
+      "discovery_score": 54.3,
+      "news_burst_score": 12.7,
+      "source_diversity_score": 72.0,
+      "catalyst_quality_score": 80.0,
+      "freshness_score": 100.0,
+      "evidence_quality_score": 45,
+      "youtube_query": "UAA Leesburg shooting investigation",
+      "youtube_event_terms": [
+        "Leesburg",
+        "shooting",
+        "investigation"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "\"under armour\" OR \"UAA\"",
+        "article_count": 78,
+        "feed_capped": false,
+        "current_3h": 0,
+        "baseline_3h_median": 0.0,
+        "short_ratio": 1.0,
+        "current_day": 6,
+        "baseline_day_median": 1.0,
+        "long_ratio": 3.5,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 29,
+        "news_burst_score": 12.7
+      },
+      "source_domains": [
+        "fox29.com",
+        "kyma.com",
+        "loudountimes.com",
+        "nbcphiladelphia.com",
+        "wcnc.com"
+      ],
+      "recent_evidence_count": 5,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "regulatory_legal",
+          "title": "Leesburg shooting under investigation",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPdnpHaUI3Z3cwVTdzSXFfWDU1Ums4cDZaWVFiamw2dFpKUThER1owcnVmLXM5NjFLaXVOcGRXbjlRNmNUNWJZdlNlX1djcHNiVGJjekJ5V1poRk5PbVlZS0NoVlk5ak5lRzdDR2Q5VFZsOGFUcjFYdE81NWRGT0xQU1E5V0FqdUhzMVlERUFaa044dkpQTjlNNGtwbXlYLUJxTVQyVmNRc0xwSl9sNTY0NC1LN04waFk2MF81NW5uLUdhZVIyd29HYlRKOXI5Y3ExR2hnX3l2SmRFRFVQaWJCNEc1WURPUjg?oc=5",
+          "domain": "loudountimes.com",
+          "source_name": "Loudoun Times-Mirror",
+          "timestamp_utc": "2026-08-23T20:54:00+00:00",
+          "entity": "Under Armour, Inc.",
+          "ticker": "UAA",
+          "cik": "1336917",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "regulatory_legal",
+          "title": "Shooting under investigation at strip mall in Indiana",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZ0I1SVJPN2VHLUIyOVRPbmx4WUtna1BIZVFFcXZUT3hWcHZzNEpOZ2Yyc3lLdmpLdmlKQUFsc0Z4LXlsVDNrUFBoM0k3Si1JenRkcGViYlJ0SF9SOGg5dS1KWWs5SjVQdE5XbmU3Qi1paHllZ0ZmcGNLNWVlLTI3QndIeWlxbmhvM0tIRlZYb1VwTWxOSVFTOEZPQnROU1JW?oc=5",
+          "domain": "kyma.com",
+          "source_name": "kyma.com",
+          "timestamp_utc": "2026-08-23T20:01:44+00:00",
+          "entity": "Under Armour, Inc.",
+          "ticker": "UAA",
+          "cik": "1336917",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "regulatory_legal",
+          "title": "Deadly campground shooting under investigation",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOZHZZLUFFNUhIb2pjNTM2ejYzYWotS2cwRy01Q3BfRDVxemNXTjFSYW9TYUc5TXJ5U0U5Mnh6NHUzLW9INkU4M3Z5R1FJdU9ZX2JFLUlVWmFCcmIwLUlSS2VuaV9fZUdJZk1najVBYnJYRHJkTnc3empCVmVpMy11VFg1X3hGam5DUll5SE5ucUw4RjdOTUdUckpNVHowWE1jWEFjUXZYOG9wQUxoemExTkk3bXFqZHdaOWk2c3Z4NjhwSVZLeVE?oc=5",
+          "domain": "wcnc.com",
+          "source_name": "WCNC",
+          "timestamp_utc": "2026-08-23T16:45:00+00:00",
+          "entity": "Under Armour, Inc.",
+          "ticker": "UAA",
+          "cik": "1336917",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "regulatory_legal",
+          "title": "Fatal officer-involved shooting under investigation after attempted break-in call in Montco",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbFdQQ1NNd3czTVhvaGozakZVQmVvakJZeWpYS1UwT1E0WEdOMlYzYkR4MEVTcTFWUXA0TW5XQl94b05zcVRJUnNKNnltOEQ0ZFU3cVdrVEpkcmhTRy11QlNiWm50Sk1KX0l5OU84aVJLbzRFdmRkVURfNllsbmltcDdLQ1NxMEoyWUg0ZXU0M2tvSk9uSXlBLU5HcWxrazlPeDQ2dk1rNjZCaU00MjVHVDlRZHB1Zw?oc=5",
+          "domain": "fox29.com",
+          "source_name": "FOX 29 Philadelphia",
+          "timestamp_utc": "2026-08-23T15:51:47+00:00",
+          "entity": "Under Armour, Inc.",
+          "ticker": "UAA",
+          "cik": "1336917",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "regulatory_legal",
+          "title": "Deadly officer-involved shooting under investigation in Montgomery County",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPbTl2RTBLQzhYbVYzMnY5UXEtbkNsRHp1M3U1YVJuTU10b0NVUGp6aFcxUnJRcm8xZGxXVU9TRnJxNTZMa2FRWUgtdkhzcFRmOTJvVVBlV0NwRHZnZ19oczR3d3RmSXVwSjVjeXpEOTdHa2RLYWdHd2J0N1pPbXRITnQwekFqTmFUNWhTeGFELVdiNWEybjNuU3pzQ1ZjdWQya0NQQXlETUVDajV2UlgzSjBsSmwtM0pWNDZwanpxLTE3VGPSAcsBQVVfeXFMTlNmMzd2YXhSSEFJeVR0QnZTUmVaZnpRU3MzLWI2QlphdUZFSG1TbXgxMEljVV9mT1Jmc3hVcy13QkdDQXZ5RG5Eay1uUThWVGlXTTZ1Q1lsT2pscXlZcnNSclR2YTktMk5WVzhjX0NaVXJaS2xwb29oTngxM0ZweklvdDdFWlZ5VmFaRlRFOUZQNGVVU3J3ODdwbG91RTRuTnkycURpNktsN0dSamYxbUY1UkVVX1g4T3RGRThzQlQ1b3ZaSER5ZGM4WUk?oc=5",
+          "domain": "nbcphiladelphia.com",
+          "source_name": "NBC10 Philadelphia",
+          "timestamp_utc": "2026-08-23T15:37:14+00:00",
+          "entity": "Under Armour, Inc.",
+          "ticker": "UAA",
+          "cik": "1336917",
+          "entity_type": "company"
+        }
+      ],
+      "youtube_metrics": {
+        "status": "skipped_no_api_key",
+        "youtube_supply_gap_score": null,
+        "query": "UAA Leesburg shooting investigation"
+      },
+      "scanner_b_score": 54.3
+    },
+    {
+      "event_id": "1f7e2d9af54c4847",
+      "scanner": "B",
+      "entity": "CANADIAN NATIONAL RAILWAY CO",
+      "ticker": "CNI",
+      "entity_type": "company",
+      "event_title": "What Canadian Goods Are Getting Hit With New Tariffs?",
+      "event_timestamp_utc": "2026-08-23T21:10:20+00:00",
+      "categories": [
+        "macro_rates"
+      ],
+      "sec_forms": [],
+      "discovery_score": 52.4,
+      "news_burst_score": 0.0,
+      "source_diversity_score": 72.0,
+      "catalyst_quality_score": 85.0,
+      "freshness_score": 100.0,
+      "evidence_quality_score": 60,
+      "youtube_query": "CNI What Goods Getting",
+      "youtube_event_terms": [
+        "What",
+        "Goods",
+        "Getting"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "\"canadian national railway\" OR \"CNI\"",
+        "article_count": 100,
+        "feed_capped": true,
+        "current_3h": 0,
+        "baseline_3h_median": 0.0,
+        "short_ratio": 1.0,
+        "current_day": 3,
+        "baseline_day_median": 3.0,
+        "long_ratio": 1.0,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 28,
+        "news_burst_score": 0.0
+      },
+      "source_domains": [
+        "al.com",
+        "facebook.com",
+        "finance.yahoo.com",
+        "nbcchicago.com",
+        "nytimes.com",
+        "wkrn.com"
+      ],
+      "recent_evidence_count": 6,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "What Canadian Goods Are Getting Hit With New Tariffs?",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVG55djVDb2w0eVNTOXlwbjN0MDl0ZWhrNmZYckM4RHdVNUhNYUVlbGFaSUlhTkJwWWtSaUtMRTVoMDdHcE5ITWd6MkVfYUxqNVdpZGhfZ1FQVllheHhzZzNhQ0pPbGhnMG1waTFTSGJEWjJJd0Uwa1k2N1VJYjkwYXhSZGpaQWdsRkEwLWZuUHJHS0xTR21mLXdfdllxYXcx?oc=5",
+          "domain": "finance.yahoo.com",
+          "source_name": "Yahoo Finance",
+          "timestamp_utc": "2026-08-23T21:10:20+00:00",
+          "entity": "CANADIAN NATIONAL RAILWAY CO",
+          "ticker": "CNI",
+          "cik": "16868",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "Talks between the U.S. and Canada failed late Friday to prevent new tariffs on Canadian goods, prompting Canada to promise “dollar for dollar” retaliation. Here is what to know about the tariffs and why the negotiations fell apart. https://nyti.ms/46hI4ID",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNQVJCRmswdFRHZ0VxMDdCRERYckFRMzRzYnpOTlRtVFZUR3JvOVNiaGhMUEZYZVBRcU9MRkYyOEpLNVpoc3ZYdVctUjBZemZIWkVCVGVpT1JocmtEU0p3Y19mYVlMT1RZN0k5WGNjcDdET3ZIdGI4Z21XWWJ6b2Q4V1dOdlNXZTN5b3luWVg1dURDbzE2WlVDZEo5OW05a1VtTmlQUng2d3NGcUY1LXdEYjJMX0NUcWpaWTk3T2U1d2VRanlDT1g3LU9ETHQ0a3UwcEQw?oc=5",
+          "domain": "facebook.com",
+          "source_name": "facebook.com",
+          "timestamp_utc": "2026-08-23T17:55:05+00:00",
+          "entity": "CANADIAN NATIONAL RAILWAY CO",
+          "ticker": "CNI",
+          "cik": "16868",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "What to know about Trump's 50% tariffs on Canadian goods that just went into effect",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSmJucXJoR2xjSkdpMHctWjRvSVJDYVdSSHQzNk1uUk4teXlGbjFLWm01bDlfSHlWUzJYdjdGVlZNM0R2R0tQYzdOWFFXQkNPT1ZSLTg3TnpfaTdzSk0wQ3hGblphYVNTNnJEN093SDFLZHFuMGZEQ1JNVmRYOFRsNmZTM3JkZnNoa0oySUdFSjRKRDltYmwzMHNkczVNS2tkUU0yeGlwRVjSAbABQVVfeXFMT05LZXFKUHk4WlVsTGtEU2ZhNEtHMzdQNnUxMVV1b3Y3S0dWdE9Jcm1kcC1TQm56bzhqVlZyYS1DS2puRDFmNENhWW0yamhxSDE2SDhZcE0zVk1EelRxUUtRVGpZV3RQTC1hOEpLSWY4cVFmSWx3dUYxdDBqRFVSbHVvQUgwcEowM2NVMUUtQXhYMnZTd285YTVSV3VGSDdWbUpUaVptUU1UdkJZNmZpV1Y?oc=5",
+          "domain": "nbcchicago.com",
+          "source_name": "NBC 5 Chicago",
+          "timestamp_utc": "2026-08-23T17:10:21+00:00",
+          "entity": "CANADIAN NATIONAL RAILWAY CO",
+          "ticker": "CNI",
+          "cik": "16868",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "What to know about Trump’s 50% tariffs on Canadian goods that just went into effect",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNFFTWVZuZ2lPaWwzc0Z0NlljYkNjZkJITk5YRWoxTXFzdFlHU2w2U0tEaXBVTjdCMGIxd3h0elZqR003ZmtFd2FuVGZBcFhzZG1BM3NOQ2dfZWNCOUg2OE44aGtyMWpBR2NiakxzM2pTdUJGSFJvaUNXLTVIMnVZaEpUS2M2cmNEV2VGd19VM2U3dmlDZlFlZlhvaTR4NzBXZmctcTAtWl9pbVRzWGRHcVRpTUdZTHU2cXfSAc4BQVVfeXFMTUFnMEwxNFJqSUtNaThqajN3MkM2MWliR0lSOUZ0amdfcUduLXV2ejMzUm9qTHFQbVcxQ3RLamgwX2VHUUs2bVVkWFNlSTdQQ1dQT2hBNmt0SzRrLXF1UGp5dWZHSUpBMHNtTUV6Y2JETXZwNXY2S0xjRVFlYTRNODFUWFhwZkdBZl9xRThWemk3eUFXaGY1T0w2dTdraS1RNHEtUVIyZVhoNkFTRXF5aFg2aEt0OEU3MFp6VjNwUnNGbU5NcS03a3k0NUFPdFE?oc=5",
+          "domain": "al.com",
+          "source_name": "AL.com",
+          "timestamp_utc": "2026-08-23T13:18:00+00:00",
+          "entity": "CANADIAN NATIONAL RAILWAY CO",
+          "ticker": "CNI",
+          "cik": "16868",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "US places 50% tariffs on Canadian goods",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQTV9HSzI4clc4NVBlRTRtLW9rM3B1RjVJSE9HY1lrOHNXVEV3RFlxMGZJbHp0bDlrSkM4bTdvMExZNkJSSzdiMUgteXRkOHE0d3haWnFNRjhFbnlfOWZfMWhMU3N4dXNmUzVOSzRnbVdvWlZHSzFoNlZNUjdYTUpwZg?oc=5",
+          "domain": "wkrn.com",
+          "source_name": "WKRN News 2",
+          "timestamp_utc": "2026-08-23T12:44:26+00:00",
+          "entity": "CANADIAN NATIONAL RAILWAY CO",
+          "ticker": "CNI",
+          "cik": "16868",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "What Canadian Goods Will Take Trump’s 50% Tariffs? Some Pretty Strange Items.",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSWJiTC0zaE8wNVhVNERJVzhCWGlTWmY3RjZvRjFZMUxSRDVZc0VVOHlZSndWQjJCc0xheW1BbWhFS081R3VmMWViZ3FLN0szbGxuOTdMOWpmcnZrVUF3Z1VxZkdLdnJsWTB4VUh6ejBFenhRLTc1MXRGT1RFdXR4NnBiQS1qWmpFVnlncm1TckRNVDhxd2Jv?oc=5",
+          "domain": "nytimes.com",
+          "source_name": "The New York Times",
+          "timestamp_utc": "2026-08-23T09:44:58+00:00",
+          "entity": "CANADIAN NATIONAL RAILWAY CO",
+          "ticker": "CNI",
+          "cik": "16868",
+          "entity_type": "company"
+        }
+      ],
+      "youtube_metrics": {
+        "status": "skipped_no_api_key",
+        "youtube_supply_gap_score": null,
+        "query": "CNI What Goods Getting"
+      },
+      "scanner_b_score": 52.4
+    },
+    {
+      "event_id": "32e89a1a9376374b",
+      "scanner": "B",
+      "entity": "Paramount Group, Inc.",
+      "ticker": "PGRE",
+      "entity_type": "company",
+      "event_title": "Judge blocks Paramount's $110B Warner Bros. mer...",
+      "event_timestamp_utc": "2026-08-23T13:37:24+00:00",
+      "categories": [
+        "mna"
+      ],
+      "sec_forms": [],
+      "discovery_score": 50.2,
+      "news_burst_score": 18.0,
+      "source_diversity_score": 55.0,
+      "catalyst_quality_score": 94.0,
+      "freshness_score": 68.0,
+      "evidence_quality_score": 39,
+      "youtube_query": "PGRE Judge blocks 110B",
+      "youtube_event_terms": [
+        "Judge",
+        "blocks",
+        "110B"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "\"paramount\" OR \"PGRE\"",
+        "article_count": 100,
+        "feed_capped": true,
+        "current_3h": 1,
+        "baseline_3h_median": 0.0,
+        "short_ratio": 2.0,
+        "current_day": 2,
+        "baseline_day_median": 3.0,
+        "long_ratio": 0.75,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 28,
+        "news_burst_score": 18.0
+      },
+      "source_domains": [
+        "i24news.tv",
+        "kxly.com",
+        "pluang.com"
+      ],
+      "recent_evidence_count": 3,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "mna",
+          "title": "Judge blocks Paramount's $110B Warner Bros. mer...",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdVFHalNqNkhsQ3dOODdnakZLYmE4OEhyNnZPYXpKZXhQaVJVZlJENThBaXM0N3JNSGo0bDd5dGpid094NjhHU2ZmZXh5cWRPM2lXTS1LSURqSzlPV2dPOWVheVdYVVppU19wblhHVmkyZEMxU2ozVGdxR0VNOWRqVHkwbURvSWYxR3dYSGtrRk12eHI4U0R3aHBjaWJJTUplU2dlMi12WnBqeHRVQXdnSw?oc=5",
+          "domain": "pluang.com",
+          "source_name": "Pluang",
+          "timestamp_utc": "2026-08-23T13:37:24+00:00",
+          "entity": "Paramount Group, Inc.",
+          "ticker": "PGRE",
+          "cik": "1605607",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "mna",
+          "title": "Warner Bros. / Paramount Merger Lawsuit",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSXlYNVNxUEFxV0cyM3RtMmlHTFNadTBCYXZxQjJUNGNMWHBnRnFHNENPNnVrZkZscmhpSHk4YnRhZmYyd1NzbkdFT2ZJeU9tTEM3Q3h4eThaVVNSRjRzQzJkWVpZRF9CZEpDSm9XbEp5U05pTVhLRzV2cWhmY0d5UkJDbk9Cd1liZk1MVVYyV25OeG16ekpRVWt3ZWJFYkgxVDBvX1FIWEV6S3owLTVNMQ?oc=5",
+          "domain": "kxly.com",
+          "source_name": "KXLY.com",
+          "timestamp_utc": "2026-08-23T01:14:00+00:00",
+          "entity": "Paramount Group, Inc.",
+          "ticker": "PGRE",
+          "cik": "1605607",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "mna",
+          "title": "‘A Bridge Too Far’: Paramount Brands Ruffalo’s Attack On Warner Bros. Merger ‘antisemitic’",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQTnEwSnR1Rm1hazdlblZDLWl1Q20zQkQ0TzFBamJOYUdUQmN2dUx4R09tc0ljNl9qZUtWYUtfR3lwUzRzZ29oOHJsSXpxOVJmNG9sdmtEU3FfR015aUZUR2FMeVBfRlFHSzZYdi1ySWtLUlRrMUZXYjY5LWpaNEZZVHdIRkRvbGNsN3RMSWtDaTNnR2N2S3JuamdXZExRbTR6SUpUVEpYZG1wX2RWWk1IRTJiVnN5S2lqZW0wWF9KbHliVmNXbzk0Ulg4ZGF5ZXFHR1hocDZUZ2xNQQ?oc=5",
+          "domain": "i24news.tv",
+          "source_name": "i24NEWS",
+          "timestamp_utc": "2026-08-22T21:58:43+00:00",
+          "entity": "Paramount Group, Inc.",
+          "ticker": "PGRE",
+          "cik": "1605607",
+          "entity_type": "company"
+        }
+      ],
+      "youtube_metrics": {
+        "status": "skipped_no_api_key",
+        "youtube_supply_gap_score": null,
+        "query": "PGRE Judge blocks 110B"
+      },
+      "scanner_b_score": 50.2
+    },
+    {
+      "event_id": "6d9bcb274411d1da",
+      "scanner": "B",
+      "entity": "Carney Technology Acquisition Corp. II",
+      "ticker": "CTAQ",
+      "entity_type": "company",
+      "event_title": "Carney says US ‘attacked’ Canada with tariffs",
+      "event_timestamp_utc": "2026-08-23T19:39:00+00:00",
+      "categories": [
+        "contract_order",
+        "macro_rates"
+      ],
+      "sec_forms": [],
+      "discovery_score": 50.0,
+      "news_burst_score": 0.0,
+      "source_diversity_score": 72.0,
+      "catalyst_quality_score": 85.0,
+      "freshness_score": 92.0,
+      "evidence_quality_score": 48,
+      "youtube_query": "CTAQ attacked Canada tariffs",
+      "youtube_event_terms": [
+        "attacked",
+        "Canada",
+        "tariffs"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "\"carney technology acquisition corp. ii\" OR \"CTAQ\"",
+        "article_count": 0,
+        "feed_capped": false,
+        "current_3h": 0,
+        "baseline_3h_median": 0.0,
+        "short_ratio": 1.0,
+        "current_day": 0,
+        "baseline_day_median": 0.0,
+        "long_ratio": 1.0,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 29,
+        "news_burst_score": 0.0
+      },
+      "source_domains": [
+        "americanrhetoric.com",
+        "gpb.org",
+        "kurdistan24.net",
+        "nytimes.com",
+        "thehill.com",
+        "usatoday.com",
+        "wfla.com"
+      ],
+      "recent_evidence_count": 8,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "Carney says US ‘attacked’ Canada with tariffs",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOVkJUUnhTOC1yanotUnpmTXFEUGJMWUUwWHNldnk2S0s2amNLQWJYOHpYbHNiamZZdThOakRuU3drZ0xHaDVFaTJyU3E0OFVoaGdCalNGN0RhUFRDRVp6TTZtc0V0eGpEcGVZQVVFNmJoeFc5UEtraUFpbllTd2pmTEZUWdIBiAFBVV95cUxONUpja2NmbzRBSFc0M1dJd2hkSFJLak5KNnRNbWtwdThPZ3pRY1k0aUVoYzA2MlNnd183SUdWNEoyVFJHaklyTmdZZzVxNTNxYm9jNkUyZTJPWUZzd3h6R3ROYjBjUjU1Nm03YkpRYnFSYjFwWU9XNk0ySzBzQkl4bEhRUjlrOERN?oc=5",
+          "domain": "thehill.com",
+          "source_name": "The Hill",
+          "timestamp_utc": "2026-08-23T19:39:00+00:00",
+          "entity": "Carney Technology Acquisition Corp. II",
+          "ticker": "CTAQ",
+          "cik": "1823634",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "Duffy: Carney will ‘come to the table’ because tariffs will be ‘devastating’",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZWVBZkNfVmw0Z3hnV29GclA4cWRCaFByc2FhanJ3QzdBZ2ZEWV9FM0pOSlJ1UnI4WG9QLW1VTlBUeXNGcU1RcnpWd1FPeERoQm1DN09MRE9kcjZzVk45MnZEOW5obXpnblFZTjVZM3BUcGhPWWVlb2t2Z1VRNDdfaERpdUTSAYoBQVVfeXFMTUFzeEN1OFozcldzTm50M2Z0cUtiTjZtNzZYaDkzS2MwdWRFNzlDekpzRC1tQ2VBS2R2OTJXOHNTTFh3bXd4N1VOTF9FSzNDNVRJRE9HOGgxNUx6dHFQT29wSlJSTjhoWkZuS2VxMEVLWUxSbG41RHRoOWJhWk9CTUJhOF9jNGd5QUFB?oc=5",
+          "domain": "thehill.com",
+          "source_name": "The Hill",
+          "timestamp_utc": "2026-08-23T18:36:00+00:00",
+          "entity": "Carney Technology Acquisition Corp. II",
+          "ticker": "CTAQ",
+          "cik": "1823634",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "Canada Hits Back at US With Retaliatory Tariffs After Carney Rejects ‘Unfair’ Trade Deal",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBnSHJyVHNUSlVJS1VqVzRKTDhNNURHUjdDM0tTMmN6QXFKZzIyRk1CM2JWRzhndlh5Sm1CekVJd2ZWZDVQZEZKSFdvTzBpUl9VWWNnaHl3?oc=5",
+          "domain": "kurdistan24.net",
+          "source_name": "Kurdistan24",
+          "timestamp_utc": "2026-08-23T18:33:41+00:00",
+          "entity": "Carney Technology Acquisition Corp. II",
+          "ticker": "CTAQ",
+          "cik": "1823634",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "'Bad deal': Canada's Carney announces retaliation after US tariffs",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYnB2X2dteXdmaGNwS09QSWhoVWozSWVvUjMwV2lQenN1ZkZxV29RV2VxXzZhOEpVOU1OUzJKQy1UaE5jUDhVaGNFNGlNQXQyS2pfUGwwU2dGamw3UVNLT1E4VEtzRGJHekxZQ2gzS21zTnlBZmtrQlhiQUctRmp2OG1BWm1WWkFsV3U5UUswVEJ2M25DbEJrRm5fX3Q?oc=5",
+          "domain": "usatoday.com",
+          "source_name": "USA Today",
+          "timestamp_utc": "2026-08-23T14:51:00+00:00",
+          "entity": "Carney Technology Acquisition Corp. II",
+          "ticker": "CTAQ",
+          "cik": "1823634",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "As Canada readies retaliatory tariffs, Mark Carney says his nation is 'at war' with U.S.",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdTlKeVJkNWxmMEx2X2cwMFl5aG1xUUNMVlpEWEd5OGJ4aEtaUXQwSEpLWUF2UlBnekhCa0gzYlJXdHM2R1JSVExPeEhnV1VKVlBSeGpZeWJ0eHNSbVlQRHgzQjBYQTFITmVqQ3FvWmxMdERBT0lsV1dzRXExTk9oeWY5ZDhFVFNaMjljM1VfNmlfNjZfMzRwalNmcU5ha0FMVGNHbG5CT0dRYUZf?oc=5",
+          "domain": "gpb.org",
+          "source_name": "Georgia Public Broadcasting",
+          "timestamp_utc": "2026-08-23T14:12:13+00:00",
+          "entity": "Carney Technology Acquisition Corp. II",
+          "ticker": "CTAQ",
+          "cik": "1823634",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "Carney says Canada will match US tariffs ‘dollar for dollar’ after breaking off trade talks",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPY3V6MXF2YnlVMElkSDJkbnFWZWwzTEFGRm53TVFQWUVGd1ZTa2hqbHdSOXBPSmMtd2lyNzRLNkhTRlJVQzBzVjRETGs4S3hMV1RvTHBYX1c2cjNlckhkbU1LOVl4RVh1RFBqX2tfY3hra2s1cXdOV0VLWlctRUNVTG9XTDM2czdaUkVaemQ5dlFKbEdWSHNfTVRWT0toaXRpb3RaWHNlaHFReFBiSWtLM1NibER1WlFmeVpMaUlsaTVXS3dL?oc=5",
+          "domain": "wfla.com",
+          "source_name": "WFLA",
+          "timestamp_utc": "2026-08-23T13:59:00+00:00",
+          "entity": "Carney Technology Acquisition Corp. II",
+          "ticker": "CTAQ",
+          "cik": "1823634",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "Carney Stands Up to Trump in U.S.-Canada Trade War",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOUFdpWWZwaWJNWkh3ZHBZdVVRa3BGRnpUWXZrMFhTX2xQbUtkeGVpVldQR0hrNHVTZmRfSXkzV2tuRjRDTC1obm84RmtUUmd3S21SR2N5STVVTDYxVWgteXZDY1dKUUxWN2l4VEg3cE5DY2FJUzFLYjlIczk2TlRkZjFRbWkyV2M?oc=5",
+          "domain": "nytimes.com",
+          "source_name": "The New York Times",
+          "timestamp_utc": "2026-08-23T07:15:00+00:00",
+          "entity": "Carney Technology Acquisition Corp. II",
+          "ticker": "CTAQ",
+          "cik": "1823634",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "contract_order",
+          "title": "Mark Carney - Statement and Q&A on Failed Canada-U.S. Trade Negotiations",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxObDZWSTNwV2ZBUGttaHhLcHh3ckV1Q0VUdkRWOW9aR2RBR2xLbllVZkYtZWNGUlp1dkdUcUh4cl9ZaDNMcUp3TUEzYkMwQ19vQnI4ZGNubldSQ09keHFwX2NrbVgxUnRIa0hoc3AzSWw3cllzM0o0MjNOYjRxaFpRXzFMcDd0Z0dTNUM3eQ?oc=5",
+          "domain": "americanrhetoric.com",
+          "source_name": "American Rhetoric",
+          "timestamp_utc": "2026-08-23T05:11:21+00:00",
+          "entity": "Carney Technology Acquisition Corp. II",
+          "ticker": "CTAQ",
+          "cik": "1823634",
+          "entity_type": "company"
+        }
+      ],
+      "youtube_metrics": {
+        "status": "skipped_no_api_key",
+        "youtube_supply_gap_score": null,
+        "query": "CTAQ attacked Canada tariffs"
+      },
+      "scanner_b_score": 50.0
+    },
+    {
+      "event_id": "e78b1407c377481d",
+      "scanner": "B",
+      "entity": "Trade Desk, Inc.",
+      "ticker": "TTD",
+      "entity_type": "company",
+      "event_title": "U.S.-Canada trade talks collapse, new tariffs take effect",
+      "event_timestamp_utc": "2026-08-23T20:27:00+00:00",
+      "categories": [
+        "macro_rates"
+      ],
+      "sec_forms": [],
+      "discovery_score": 50.0,
+      "news_burst_score": 0.0,
+      "source_diversity_score": 72.0,
+      "catalyst_quality_score": 85.0,
+      "freshness_score": 92.0,
+      "evidence_quality_score": 48,
+      "youtube_query": "TTD Canada talks collapse",
+      "youtube_event_terms": [
+        "Canada",
+        "talks",
+        "collapse"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "\"trade desk\" OR \"TTD\"",
+        "article_count": 100,
+        "feed_capped": true,
+        "current_3h": 0,
+        "baseline_3h_median": 0.0,
+        "short_ratio": 1.0,
+        "current_day": 1,
+        "baseline_day_median": 4.5,
+        "long_ratio": 0.364,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 16,
+        "news_burst_score": 0.0
+      },
+      "source_domains": [
+        "axios.com",
+        "cbs19.tv",
+        "law360.com",
+        "nytimes.com",
+        "theguardian.com",
+        "washingtontimes.com"
+      ],
+      "recent_evidence_count": 6,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "U.S.-Canada trade talks collapse, new tariffs take effect",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNVnZTRUdub0dNQlhfTTgzT3k1Yl9oaW51bmRhbm0wX25ZMUNvQWUybU5xXzZRc3NhQzJycjk0ZWlqblFTZ1JHY2NISzV4T3lfcjB5R1hOU2RVSFFCOEh2TDZPRURQX0tVUTBiREpQMUZaZEtSRktaOVhIVG5EMFVXVVRuX0xteGFhSnFUUkppQ0dYc3JkTm01c0pKaDA1WXRYQkt3OERIejM4Q0U3YWpUYzBvSGxzZ1R2anNWWUJDY0h5THlWcFFpcVNmVm9Vdw?oc=5",
+          "domain": "cbs19.tv",
+          "source_name": "cbs19.tv",
+          "timestamp_utc": "2026-08-23T20:27:00+00:00",
+          "entity": "Trade Desk, Inc.",
+          "ticker": "TTD",
+          "cik": "1671933",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "Trade war escalates after U.S.-Canada negotiations collapse",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPY3V2R2RTc0lBeWpCa3pnNFJhQUp5eDY0blBIQWRuNkdJb2JLZEFVNHEtR3dXc3FtZk80bEdRX3JjVDQxYmpvYUFnS19RV2lrZW14LXZya1ZxeVNMb1ZadjczRGZxY2k3NktZSHdYOWQ3YXA0M2dUVU41RlpLcTZMQldpeWpKdWd4RjFnd0haR0N3X1luYVZuZl8wZ2VNTVhOU0k0?oc=5",
+          "domain": "washingtontimes.com",
+          "source_name": "Washington Times",
+          "timestamp_utc": "2026-08-23T20:17:25+00:00",
+          "entity": "Trade Desk, Inc.",
+          "ticker": "TTD",
+          "cik": "1671933",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "US-Canada Trade Talks Crater Ahead Of 50% Tariffs",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUkxMbGZkSWZnMG5KQ05xSk1uR3lpWGM1ZF9mVGJvMm5JUF8xb2wyS20zX3N3bFQ1aDRTR3prRkV4bElpNFpjYzRNZTVfRWZHSm9iSVpMRndvbkxNV0pMbzU5ejM4X29ZbmRmd1VFZE42TXk2ZC1wUy00ZTdwYm5wOVRhVjVNbWYyZ2s0S1dsNF8yUdIBVkFVX3lxTE4xUy0tVF9rUlVfSEZkYjUyVGpLaTR6YmZ3VmxVa25Eb0IwTHV6dzh0VFl6N2dCY0NaalJqY0ZwVUlManVaNkt2MzZSOXhzRW5wV1lPYThR?oc=5",
+          "domain": "law360.com",
+          "source_name": "Law360",
+          "timestamp_utc": "2026-08-23T18:36:00+00:00",
+          "entity": "Trade Desk, Inc.",
+          "ticker": "TTD",
+          "cik": "1671933",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "U.S.-Canada trade talks collapse, massive tariffs to take effect",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE83dC01N3QxR0MtazY3UjJEMUlZdjVNV3NqR3NsSGxLczhqSEdhQzJkZXdzcUdUdUxMUXdWU001QXg0ZGdjWFdGXzF0Uk1zSEFMbWttVnFGN0h1U1FLWnZLdkEzYW9aNlg0UWt1NG5PZ2JoZWdNNFRLcQ?oc=5",
+          "domain": "axios.com",
+          "source_name": "Axios",
+          "timestamp_utc": "2026-08-23T12:21:59+00:00",
+          "entity": "Trade Desk, Inc.",
+          "ticker": "TTD",
+          "cik": "1671933",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "‘No more!!!’: Trump lashes out after US-Canada talks devolve into trade war",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZzBpSF8weUI2bUNJSmhSS0lHMUlHVFpDQWRGYkpLLW1HVDVRWnNVY2kxSHlsQTdlVUx4MGJ6VnFHVlpIbnZiajNTQndfNlJGS2N1RVRSVWhGQXNDYlRqUlJDak44VkVPUFZnS19QdEZMYXd6cTM4RTRoZEVtQXRPQjl3S0szczZxT1FQOWFNU1BYLTBPbG5oRGpjNjRaUnhVQ3RyWm11U001eTBVaE1Jajh3ZEF1b00?oc=5",
+          "domain": "theguardian.com",
+          "source_name": "The Guardian",
+          "timestamp_utc": "2026-08-23T11:00:00+00:00",
+          "entity": "Trade Desk, Inc.",
+          "ticker": "TTD",
+          "cik": "1671933",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "U.S.-Canada Trade War: What to Know About Tariffs and the Negotiations",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNcS1YRVlycXJKMEdBQldWcGp3QzV6WEEzZGJZU1BRMjVGY0xOY01QLXdodFRGNWxaZ2szSG5TR0lsNGpsZDYtRFMtSEtBM0hDcnNfWVZVOVFtOFQyNk5SdERPNDk5MzdQbV8xYk5FcFBoakhCX0NHWFpfZ2VYY0o5TU1ZcW9TUTdnRllfdkd3?oc=5",
+          "domain": "nytimes.com",
+          "source_name": "The New York Times",
+          "timestamp_utc": "2026-08-23T09:47:28+00:00",
+          "entity": "Trade Desk, Inc.",
+          "ticker": "TTD",
+          "cik": "1671933",
+          "entity_type": "company"
+        }
+      ],
+      "youtube_metrics": {
+        "status": "skipped_no_api_key",
+        "youtube_supply_gap_score": null,
+        "query": "TTD Canada talks collapse"
+      },
+      "scanner_b_score": 50.0
+    },
+    {
+      "event_id": "4f0df2863eb112b1",
+      "scanner": "B",
+      "entity": "Canada Goose Holdings Inc.",
+      "ticker": "GOOS",
+      "entity_type": "company",
+      "event_title": "US lawmakers criticise Trump tariffs after Canada trade talks collapse",
+      "event_timestamp_utc": "2026-08-23T20:01:38+00:00",
+      "categories": [
+        "contract_order",
+        "macro_rates"
+      ],
+      "sec_forms": [],
+      "discovery_score": 49.7,
+      "news_burst_score": 0.0,
+      "source_diversity_score": 72.0,
+      "catalyst_quality_score": 85.0,
+      "freshness_score": 92.0,
+      "evidence_quality_score": 45,
+      "youtube_query": "GOOS lawmakers criticise Trump",
+      "youtube_event_terms": [
+        "lawmakers",
+        "criticise",
+        "Trump"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "\"canada goose\" OR \"GOOS\"",
+        "article_count": 81,
+        "feed_capped": false,
+        "current_3h": 0,
+        "baseline_3h_median": 0.0,
+        "short_ratio": 1.0,
+        "current_day": 1,
+        "baseline_day_median": 2.0,
+        "long_ratio": 0.667,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 29,
+        "news_burst_score": 0.0
+      },
+      "source_domains": [
+        "bbc.com",
+        "detroitnews.com",
+        "dw.com",
+        "indiatribune.com",
+        "washingtonpost.com"
+      ],
+      "recent_evidence_count": 5,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "US lawmakers criticise Trump tariffs after Canada trade talks collapse",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeVpKQWpCdGYyY1dNaHQ4b2stNUp5cjNEdXVidVNGN1c0X0wybFlyN04ySk5BV1ZpMDZEXzdRQ25tcXEwSWE0SExPcXNic2RuY2VtUGswQjhkYzRlSzBxMkk3S2dqSExBUEljNm5PSGRJdGNHeXdVbnljc0g3LWJVSnphakJEYnloaS1qaHdvTzRXNl94bmZsVUtLOTJVb2NOOTVvTl9lbWdldw?oc=5",
+          "domain": "indiatribune.com",
+          "source_name": "India Tribune - Chicago",
+          "timestamp_utc": "2026-08-23T20:01:38+00:00",
+          "entity": "Canada Goose Holdings Inc.",
+          "ticker": "GOOS",
+          "cik": "1690511",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "Trump hits out at Canada over retaliatory tariffs",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPdF8xdHp0UVJqZjU5SmZpcFJ2YTNlN0NKT2pzTnFmMjdybzROUURsVFVKX0hSMGFURW1Ja2tPbEhwRExFeHhITnF4dmlmWjBnTXRxeDNZWGNZcFlBX3JLY2NackFtTlNNc0E3a01oSmNwQjVHNkZVejl2SHhNV0JsMGFIbmx4QTZ5X1HSAYoBQVVfeXFMTTF1TW41cXBFSFUxMC1FM3dVcHcwY0ZvOFdkQk9tMWNOTkhxZGtHRHJNeVBFUHV0YV8tTmxOa19ROTBWZVcxd0dROXRfMXhFX3lXNU9zWTRYUGZ6VVV3cUFyeWhla2R3M0FBSE9uWnltS1hPUlFIUVNuMF96X0V3WlJVRjZKRUt0Tkp3?oc=5",
+          "domain": "dw.com",
+          "source_name": "DW",
+          "timestamp_utc": "2026-08-23T07:32:58+00:00",
+          "entity": "Canada Goose Holdings Inc.",
+          "ticker": "GOOS",
+          "cik": "1690511",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "Trump says Canada wants 'benefits' of being US state after trade talks collapse",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9OZHM4OFo4OEhvRE5iUmpOSi15U2NqaEQ0OGFWazktZkRIVXVHVkMwbnE4eHBJYXIxNlk2bjlmYkZvaDRzM3R3TnQ1VlBBaF82RUVWSWxOTVUtUQ?oc=5",
+          "domain": "bbc.com",
+          "source_name": "BBC",
+          "timestamp_utc": "2026-08-23T05:46:43+00:00",
+          "entity": "Canada Goose Holdings Inc.",
+          "ticker": "GOOS",
+          "cik": "1690511",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "contract_order",
+          "title": "Canada to retaliate for US tariffs, worsening ties after talks fail",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdHgwUzR0aXlkUm05UFhxYTJ6d3BFRC01YUpBM3dXUzFWMGFMSXdPZGdNaXlDOFlnRzYtRF9fVXZVT0g5SGhBNnp0YWU1c3FocFhUY1lHRDlBR1VxMUF6STVnV1FxR1VxWDJWYWJvZUxXZnZkd2dBOHhoQXNDX0dpbWVoTXhUX3R0Y0JKME9POGRiMGVXZ3ZkVERLNE9mTmlMYXJ2ZFdVM3JWdXRGb2J0RWFUaVNfek9heVE?oc=5",
+          "domain": "detroitnews.com",
+          "source_name": "The Detroit News",
+          "timestamp_utc": "2026-08-23T02:30:00+00:00",
+          "entity": "Canada Goose Holdings Inc.",
+          "ticker": "GOOS",
+          "cik": "1690511",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "Canada sets retaliatory tariffs in response to 50% U.S. levies as trade talks fail",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNUUpHSzVFU2ZTNXZoRGw0MVZQVnRLR2lDdU9UeUdveVBZTzhzSm04UHdBUGZ1SUJsczZ6UGlESGpsZW1lZ1ZUV0ktWDU0RHkzVVBfOHk0dnJTV2lXeGpEQlFKYzZIdVBaeFlocm16NDdtaEdxd05ROGtlM2RCOV92U0NyUGUzVFZ2MFp0b0J3ZkRNM3VEMlRCRWdFV0dRck1IREFsa1dRMXYxdUFIU1NMM2F3NTg3MjdZdEVELXUydm1hRS1xbDZ6Rg?oc=5",
+          "domain": "washingtonpost.com",
+          "source_name": "The Washington Post",
+          "timestamp_utc": "2026-08-22T23:09:00+00:00",
+          "entity": "Canada Goose Holdings Inc.",
+          "ticker": "GOOS",
+          "cik": "1690511",
+          "entity_type": "company"
+        }
+      ],
+      "youtube_metrics": {
+        "status": "skipped_no_api_key",
+        "youtube_supply_gap_score": null,
+        "query": "GOOS lawmakers criticise Trump"
+      },
+      "scanner_b_score": 49.7
+    },
+    {
+      "event_id": "1b1090781ce4a93e",
+      "scanner": "B",
+      "entity": "GERMAN AMERICAN BANCORP, INC.",
+      "ticker": "GABC",
+      "entity_type": "company",
+      "event_title": "Commerzbank chair calls for review of German takeover rules",
+      "event_timestamp_utc": "2026-08-23T16:24:33+00:00",
+      "categories": [
+        "mna"
+      ],
+      "sec_forms": [],
+      "discovery_score": 48.4,
+      "news_burst_score": 0.0,
+      "source_diversity_score": 55.0,
+      "catalyst_quality_score": 94.0,
+      "freshness_score": 82.0,
+      "evidence_quality_score": 63,
+      "youtube_query": "GABC Commerzbank chair calls",
+      "youtube_event_terms": [
+        "Commerzbank",
+        "chair",
+        "calls"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "\"german american bancorp\" OR \"GABC\"",
+        "article_count": 55,
+        "feed_capped": false,
+        "current_3h": 0,
+        "baseline_3h_median": 0.0,
+        "short_ratio": 1.0,
+        "current_day": 0,
+        "baseline_day_median": 1.0,
+        "long_ratio": 0.5,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 29,
+        "news_burst_score": 0.0
+      },
+      "source_domains": [
+        "investing.com",
+        "marketscreener.com",
+        "reuters.com"
+      ],
+      "recent_evidence_count": 3,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "mna",
+          "title": "Commerzbank chair calls for review of German takeover rules",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQY2x1OC1MLUZ1ME1qdVZaZGpMa011STlsNjNpSXc0QTQzWG45M2QwQktxS1FvWGhJaXZ6bFU2VW4wTm1IS3Vxb3JUY1AxVi1qcnl4SXgxYXFqRGlDTmM1NFlDOEt6Zm85VlZQamhjZ1gzUDR0akoyQ1lwWEgwSEZrVmRHTllIWDZ5aGNNOXkzaEEzZjYtMDBoQTg4ZmNwZy1SNndycUR6aXg3T2g4ZFJnQzZ5WjRVYzI1enVWaHVn?oc=5",
+          "domain": "investing.com",
+          "source_name": "Investing.com",
+          "timestamp_utc": "2026-08-23T16:24:33+00:00",
+          "entity": "GERMAN AMERICAN BANCORP, INC.",
+          "ticker": "GABC",
+          "cik": "714395",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "mna",
+          "title": "Commerzbank chair calls for review of German takeover rules after UniCredit bid",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPWFRZdFVsY2drTW1oQzZCdHpvaVBtQ2Z5VzAycTVwU29USC1aU2kxUkZrMjVjVDdlejNsQWVEOXBsbDFiRk5YV20yVHVPSmRkR016UU9rZ2tJTlNOOUtFOUFRS1AzQmt4UmN2N3dWbHN6cFh4SjRNRmMzUXJNRk9nOWItUTJkeE5MdE5FeVlrcU1ZeHRtdk9ONmh1ZlJod005bENWVnBGRDk3OU9vbGhzano1blRVdkNnenVNUnhxVkp5ckZKdVdB?oc=5",
+          "domain": "reuters.com",
+          "source_name": "Reuters",
+          "timestamp_utc": "2026-08-23T15:54:46+00:00",
+          "entity": "GERMAN AMERICAN BANCORP, INC.",
+          "ticker": "GABC",
+          "cik": "714395",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "mna",
+          "title": "Commerzbank chair calls for review of German takeover rules after UniCredit bid",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxORG8wVi0yVXN1cHVmQkN2TkYzWWprd1RGWXprWlFwcXk5YXVEWGc3SElMOUtXS1lHM1kwU3Z0MURqRTQwVWxFaGNoQUwzVlp1blVSQk5NVElKdjhQOEJLNGhpejcwZEJxM0ZidDhzYmgxZ05URTF5OFlmbnZIRXBwUG1sZ2E4UlNJWFJ1TElUQWcycDNPWFFOR0VTMld3bkFRcWdrR2VZT1k3Vkx5QmJhczJfc0pKVUo5T2dGeXE1MUs3QXM3clB2VzlQTk0?oc=5",
+          "domain": "marketscreener.com",
+          "source_name": "marketscreener.com",
+          "timestamp_utc": "2026-08-23T15:51:16+00:00",
+          "entity": "GERMAN AMERICAN BANCORP, INC.",
+          "ticker": "GABC",
+          "cik": "714395",
+          "entity_type": "company"
+        }
+      ],
+      "youtube_metrics": {
+        "status": "skipped_no_api_key",
+        "youtube_supply_gap_score": null,
+        "query": "GABC Commerzbank chair calls"
+      },
+      "scanner_b_score": 48.4
+    },
+    {
+      "event_id": "aa17307720bbeb6e",
+      "scanner": "B",
+      "entity": "Federal Reserve / Rates",
+      "ticker": null,
+      "entity_type": "macro",
+      "event_title": "Fed’s Kashkari says rising Treasury yields not a concern",
+      "event_timestamp_utc": "2026-08-23T16:53:53+00:00",
+      "categories": [
+        "macro_rates"
+      ],
+      "sec_forms": [],
+      "discovery_score": 46.6,
+      "news_burst_score": 0.0,
+      "source_diversity_score": 55.0,
+      "catalyst_quality_score": 85.0,
+      "freshness_score": 82.0,
+      "evidence_quality_score": 63,
+      "youtube_query": "Federal Reserve / Rates Kashkari rising Treasury",
+      "youtube_event_terms": [
+        "Kashkari",
+        "rising",
+        "Treasury"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "\"Federal Reserve\" OR \"interest rates\" OR \"Treasury yields\"",
+        "article_count": 100,
+        "feed_capped": true,
+        "current_3h": 0,
+        "baseline_3h_median": 0.0,
+        "short_ratio": 1.0,
+        "current_day": 0,
+        "baseline_day_median": 3.0,
+        "long_ratio": 0.25,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 28,
+        "news_burst_score": 0.0
+      },
+      "source_domains": [
+        "bloomberg.com",
+        "investing.com",
+        "seekingalpha.com"
+      ],
+      "recent_evidence_count": 4,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "Fed’s Kashkari says rising Treasury yields not a concern",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxObDJLTllVdHdtdVQxeUU3LWtjS2RKTkdRVjl6SzdGSGROenBBdXZleXcta0lRYm52SHdFZVhEdEpNUlRJUk9aVmEtU2lMaElIdS1idEYtRm1ZTVF6bG5maXhlbE1ka3dyd0Jsdlc4OGlaZXRsUk1LWGg0Q1ZIb1M0MlFfdXRJLWxIbUk0MTNIUHlfVFVnd2taZ3JlWC1DMXRHX0ZOSXg1cUszLTQ?oc=5",
+          "domain": "investing.com",
+          "source_name": "Investing.com",
+          "timestamp_utc": "2026-08-23T16:53:53+00:00",
+          "entity": "Federal Reserve / Rates",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "Fed's Kashkari not worried about rising US Treasury yields (US30Y:)",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQak1wYkdCOWlzdjV6SDllXzZSdHRiWDJZQUpiaEdqWC0tbnV0aEpvVnhnaG1CUHJiZTFweDQxUTZhSm1fUmhnMkxKdUpFMG11OWM5RU03dTlUZW1GMnZrMi1pMHBoVnRZYS1yY19NbkxPWmM3dGx2Z2ctb3pmRy1yNm1INGVoOWEzRUtaSDRVbHZ6QTlXdXVFQklEQQ?oc=5",
+          "domain": "seekingalpha.com",
+          "source_name": "Seeking Alpha",
+          "timestamp_utc": "2026-08-23T16:41:47+00:00",
+          "entity": "Federal Reserve / Rates",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "Fed’s Kashkari Says Treasury Market Still Working ‘As It Should’",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQT2JYbHlITkliXzVOWkpxNUg3SGM0THN0MFE4V2NmdmxQZVdqWnpvaHNRVVpjczNPQzVRdGtHXzJUYlgxME4xS0M2T1NYTEdSSUpUNDNkSVpxNUtIWTJUNzcyeGJnaWc5bWEtallnRHVESDNKZWJSQjI2VGtpNTE0LUtoalFGRXVuWGFabW1MX1FmSE55NEtXUWNlQkNYRnNJRzh3NHJETlNSQkYzazJGVDZLWQ?oc=5",
+          "domain": "bloomberg.com",
+          "source_name": "Bloomberg.com",
+          "timestamp_utc": "2026-08-23T15:23:22+00:00",
+          "entity": "Federal Reserve / Rates",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "Fed’s Kashkari Says Treasury Market Still Working ‘As It Should’",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNYk9nWnlnbHFubDM3UUlWdW5XVkNmVFBNUHZqWXpOUWRCZVZpSVNTN2Z4RnFmSHcyWHEyeUdSd0JpLXM3eW90X3NxV084MjZnNkk2bGp4YV9KTkVWUEFvTmptelM5RVJRSHRZdmlCajhtbzVBMFJUclRxZkFhdkphLTF6NXRxTHBtYTN5clRrTU1PR1c1cTdzY0hScnNPVzZWQmtGRDVCaWhrajdGTTdHNTluMDFxbUdqSzA0eWJQOWZIMVgybE9wM2FiT1h0SmZh?oc=5",
+          "domain": "bloomberg.com",
+          "source_name": "Bloomberg.com",
+          "timestamp_utc": "2026-08-23T15:23:22+00:00",
+          "entity": "Federal Reserve / Rates",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        }
+      ],
+      "youtube_metrics": {
+        "status": "skipped_no_api_key",
+        "youtube_supply_gap_score": null,
+        "query": "Federal Reserve / Rates Kashkari rising Treasury"
+      },
+      "scanner_b_score": 46.6
+    },
+    {
+      "event_id": "79e405993467b965",
+      "scanner": "B",
+      "entity": "Crypto Co",
+      "ticker": "CRCW",
+      "entity_type": "company",
+      "event_title": "Bitcoin and Ethereum ETFs just had their biggest week of 2026 as crypto exploded higher",
+      "event_timestamp_utc": "2026-08-23T20:05:10+00:00",
+      "categories": [
+        "crypto"
+      ],
+      "sec_forms": [],
+      "discovery_score": 43.9,
+      "news_burst_score": 0.0,
+      "source_diversity_score": 55.0,
+      "catalyst_quality_score": 70.0,
+      "freshness_score": 92.0,
+      "evidence_quality_score": 51,
+      "youtube_query": "CRCW Bitcoin Ethereum ETFs",
+      "youtube_event_terms": [
+        "Bitcoin",
+        "Ethereum",
+        "ETFs"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "\"crypto\" OR \"CRCW\"",
+        "article_count": 100,
+        "feed_capped": true,
+        "current_3h": 0,
+        "baseline_3h_median": 0.0,
+        "short_ratio": 1.0,
+        "current_day": 1,
+        "baseline_day_median": 3.0,
+        "long_ratio": 0.5,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 28,
+        "news_burst_score": 0.0
+      },
+      "source_domains": [
+        "beincrypto.com",
+        "cryptoslate.com",
+        "finance.yahoo.com"
+      ],
+      "recent_evidence_count": 3,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "crypto",
+          "title": "Bitcoin and Ethereum ETFs just had their biggest week of 2026 as crypto exploded higher",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdERlVGp6Y1E0QXJyVXJ3RElDMmpQcVVNR0FZM2twSFBRVXpQMkhqNnVhLXhRcmxzbGJfQ2NKc3l0ZmotQXRzSHZUSkJTUHBYTi1LZ0RsZEx3NGswZjBRTHJEY0ZLUWJqZXY4YUo1c21ReFBweVRTQXRxTGtNTmI1cVZoMTc4cTFiS09CQnJwMlUza2hCV0Z3MEdfc0NEb2JzWnVIZlpvby05V1d6YTdVeVBn?oc=5",
+          "domain": "cryptoslate.com",
+          "source_name": "CryptoSlate",
+          "timestamp_utc": "2026-08-23T20:05:10+00:00",
+          "entity": "Crypto Co",
+          "ticker": "CRCW",
+          "cik": "1688126",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "crypto",
+          "title": "Crypto Skeptic Rashida Tlaib Holds Bitcoin and Ethereum ETFs",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVFZ4cGc0dld6Tzc2QzB1WFRQZzZQdEEwaG9YSWJGb1pPNmNuWGFfcVlJUGxmMnc5bUQwNERJOUdjZVhyQmZvemZ6cnV0bGg5U2phbzMxWl9KX1lyS1puRWQ4OXQzMnlzOTNmZWVIbzNldER6QTA1Z1VLT19sTnBMXzdiVm8wV1lDN05WdWU1SjZlbDBfcm9CWkFiX3IxYS1Q?oc=5",
+          "domain": "finance.yahoo.com",
+          "source_name": "Yahoo Finance",
+          "timestamp_utc": "2026-08-23T12:00:00+00:00",
+          "entity": "Crypto Co",
+          "ticker": "CRCW",
+          "cik": "1688126",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "crypto",
+          "title": "Crypto Skeptic Rashida Tlaib Holds Bitcoin and Ethereum ETFs",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5aTWthOFBWUkUzU0Y4MFlkSmlVQ3Yycmp0dG9mMVA4X2hGNXh4QzNUTTVsQ245b19ZZHJZTzBIUVlnSjVpS29OTWdyeWNPQlc4OWw5Z3U2RlQzRi01LXQ5M3dNWURDN0l0ekhTa0JCVFFsWlhrdkIwTQ?oc=5",
+          "domain": "beincrypto.com",
+          "source_name": "BeInCrypto",
+          "timestamp_utc": "2026-08-23T12:00:00+00:00",
+          "entity": "Crypto Co",
+          "ticker": "CRCW",
+          "cik": "1688126",
+          "entity_type": "company"
+        }
+      ],
+      "youtube_metrics": {
+        "status": "skipped_no_api_key",
+        "youtube_supply_gap_score": null,
+        "query": "CRCW Bitcoin Ethereum ETFs"
+      },
+      "scanner_b_score": 43.9
+    },
+    {
+      "event_id": "77e7b8d98f93307c",
+      "scanner": "B",
+      "entity": "COMMANDER RESOURCES LTD",
+      "ticker": "CMDRF",
+      "entity_type": "company",
+      "event_title": "IDF kills Hamas commander, strikes weapons production site near Gaza aid center",
+      "event_timestamp_utc": "2026-08-23T16:22:20+00:00",
+      "categories": [
+        "pricing_capacity"
+      ],
+      "sec_forms": [],
+      "discovery_score": 42.6,
+      "news_burst_score": 0.0,
+      "source_diversity_score": 55.0,
+      "catalyst_quality_score": 77.0,
+      "freshness_score": 82.0,
+      "evidence_quality_score": 39,
+      "youtube_query": "CMDRF kills Hamas strikes",
+      "youtube_event_terms": [
+        "kills",
+        "Hamas",
+        "strikes"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "\"commander resources\" OR \"CMDRF\"",
+        "article_count": 3,
+        "feed_capped": false,
+        "current_3h": 0,
+        "baseline_3h_median": 0.0,
+        "short_ratio": 1.0,
+        "current_day": 0,
+        "baseline_day_median": 0.0,
+        "long_ratio": 1.0,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 29,
+        "news_burst_score": 0.0
+      },
+      "source_domains": [
+        "israelnationalnews.com",
+        "jpost.com",
+        "timesofisrael.com"
+      ],
+      "recent_evidence_count": 3,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "pricing_capacity",
+          "title": "IDF kills Hamas commander, strikes weapons production site near Gaza aid center",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1UeWNpZzdJU3cwREVCNjlDenZRa21wUXA1U09JNDJUVUxLekZUNlhNd2EzSzdfTjBiNXZndmFMYlNBZlEtd1ZTN3NQTi1ZTnVkTXJ2eDBwVjVPdGJIcV94Q0l5YXVYS1QtdXNSS1dB?oc=5",
+          "domain": "jpost.com",
+          "source_name": "The Jerusalem Post",
+          "timestamp_utc": "2026-08-23T16:22:20+00:00",
+          "entity": "COMMANDER RESOURCES LTD",
+          "ticker": "CMDRF",
+          "cik": "858043",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "pricing_capacity",
+          "title": "Commander of Hamas weapons production site killed",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5XNkR2dWppVDBxR2VHWDl4MndOelBGRGZMOEsxS09NZDljNFBHSFlXNGs4V0dLcDFJWEhzNzFHT1pIXzJOSFBTbmFIOWgwRU1sVUpHUjR1RDcwZw?oc=5",
+          "domain": "israelnationalnews.com",
+          "source_name": "Israel National News",
+          "timestamp_utc": "2026-08-23T15:28:40+00:00",
+          "entity": "COMMANDER RESOURCES LTD",
+          "ticker": "CMDRF",
+          "cik": "858043",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "pricing_capacity",
+          "title": "IDF says its Gaza strikes today killed Hamas commander, hit arms production site near aid facility",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxObDQtLXhHOFl0QW1ZdWk5ZU5iVXNoYmQ5aU0xNlQ0N1M5bVNSTjZUUmZBNmZoODFKVnNyZmw4QWtEMHBUd2sxNlEzcXQ4NzM5TDlEOTFSX3NUOXR2dW9leUp2ZXpUc0FCRHFDS3RwcDlkaFZBODRqcGx5bnphaHdLSXgxNTdQWHpVaC1BTVUtX0hyalRBaHhxWjlJRkpiUXprMVF0VG13Vmx0cXRGNTh1MERZSEdmZVBmNXMxZkNjWUV1NG5Ia2pmbzI0QmNsYzBZSk5MOFdJRXBfWXc?oc=5",
+          "domain": "timesofisrael.com",
+          "source_name": "The Times of Israel",
+          "timestamp_utc": "2026-08-23T15:27:42+00:00",
+          "entity": "COMMANDER RESOURCES LTD",
+          "ticker": "CMDRF",
+          "cik": "858043",
+          "entity_type": "company"
+        }
+      ],
+      "youtube_metrics": {
+        "status": "skipped_no_api_key",
+        "youtube_supply_gap_score": null,
+        "query": "CMDRF kills Hamas strikes"
+      },
+      "scanner_b_score": 42.6
+    },
+    {
+      "event_id": "f6df75e99b953c4e",
+      "scanner": "B",
+      "entity": "Emeren Group Ltd",
+      "ticker": "SOL",
+      "entity_type": "company",
+      "event_title": "Wall Street just poured nearly $90 million into altcoins as XRP, SOL and HYPE rip higher",
+      "event_timestamp_utc": "2026-08-23T21:22:07+00:00",
+      "categories": [
+        "crypto"
+      ],
+      "sec_forms": [],
+      "discovery_score": 41.2,
+      "news_burst_score": 2.9,
+      "source_diversity_score": 38.0,
+      "catalyst_quality_score": 70.0,
+      "freshness_score": 100.0,
+      "evidence_quality_score": 36,
+      "youtube_query": "SOL Wall Street just",
+      "youtube_event_terms": [
+        "Wall",
+        "Street",
+        "just"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "\"emeren\" OR \"SOL\"",
+        "article_count": 100,
+        "feed_capped": true,
+        "current_3h": 0,
+        "baseline_3h_median": 1.0,
+        "short_ratio": 0.5,
+        "current_day": 3,
+        "baseline_day_median": 2.0,
+        "long_ratio": 1.333,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 27,
+        "news_burst_score": 2.9
+      },
+      "source_domains": [
+        "cryptorank.io",
+        "cryptoslate.com"
+      ],
+      "recent_evidence_count": 2,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "crypto",
+          "title": "Wall Street just poured nearly $90 million into altcoins as XRP, SOL and HYPE rip higher",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQW40Y1lfMHNZMHFsVEpQWllNUlFGdDZ5ajFIaVkzRWZ6ZHZSbEFvZ25kLXctYTAzOXhYNllvSFFuSGxsd1QyaXZpUXB1MWx5VUVkZGY3NWFCVk1wck1Ydlg0Q25aeHpIZTA2QVpBdV9GbVlpQllUM0ptWHdReDFRb2N5a0pIbTlMMFoxaTQ3RVROZjA5VVZacnNPWU9uMFdQUW5JdW40elo0eTFncE4wT2ZNZzA5QW9hdDE2NHlKNUFxUQ?oc=5",
+          "domain": "cryptorank.io",
+          "source_name": "CryptoRank",
+          "timestamp_utc": "2026-08-23T21:22:07+00:00",
+          "entity": "Emeren Group Ltd",
+          "ticker": "SOL",
+          "cik": "1417892",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "crypto",
+          "title": "Wall Street just poured nearly $90 million into altcoins as XRP, SOL and HYPE rip higher",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSkhTLXBDUVNqOUVTeXlsZTJ5X2hwTHhLQUtLa1VHY1NJZTYwSGIxLVNqUHV6SWVteU5jakJyY00wX19udFgySV9xa2djclNkcFpYVW9aM3dUNFBKUUxfellveUV5eXBSQ2FJUmZnWUloMU5oZm1HYjc3TmV0YlRJZWtaYWZtcHJOWV9fMnhiNk1YRWd1dUxyakR5TC0wbFU2LXl3b2x4S1dXd2h0Z0VXUw?oc=5",
+          "domain": "cryptoslate.com",
+          "source_name": "CryptoSlate",
+          "timestamp_utc": "2026-08-23T21:10:58+00:00",
+          "entity": "Emeren Group Ltd",
+          "ticker": "SOL",
+          "cik": "1417892",
+          "entity_type": "company"
+        }
+      ],
+      "youtube_metrics": {
+        "status": "skipped_no_api_key",
+        "youtube_supply_gap_score": null,
+        "query": "SOL Wall Street just"
+      },
+      "scanner_b_score": 41.2
+    },
+    {
+      "event_id": "c16cb64bc10cb486",
+      "scanner": "B",
+      "entity": "Forest Road Acquisition Corp. II",
+      "ticker": "FRXB",
+      "entity_type": "company",
+      "event_title": "Authorities slated to speak on Forest Grove death investigation: What to know",
+      "event_timestamp_utc": "2026-08-23T20:36:53+00:00",
+      "categories": [
+        "regulatory_legal"
+      ],
+      "sec_forms": [],
+      "discovery_score": 41.0,
+      "news_burst_score": 0.0,
+      "source_diversity_score": 38.0,
+      "catalyst_quality_score": 80.0,
+      "freshness_score": 92.0,
+      "evidence_quality_score": 36,
+      "youtube_query": "FRXB Authorities slated speak",
+      "youtube_event_terms": [
+        "Authorities",
+        "slated",
+        "speak"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "\"forest road acquisition corp. ii\" OR \"FRXB\"",
+        "article_count": 0,
+        "feed_capped": false,
+        "current_3h": 0,
+        "baseline_3h_median": 0.0,
+        "short_ratio": 1.0,
+        "current_day": 0,
+        "baseline_day_median": 0.0,
+        "long_ratio": 1.0,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 29,
+        "news_burst_score": 0.0
+      },
+      "source_domains": [
+        "koin.com",
+        "opb.org"
+      ],
+      "recent_evidence_count": 2,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "regulatory_legal",
+          "title": "Authorities slated to speak on Forest Grove death investigation: What to know",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbS1fTWlEaFFCZmEzQ295V3l3TElpZHJnbjhRYjEzNE83Z1pPZXJYQXBzclpLZDEzZXk3TEtteDI2NHl4cmFxNG92VWp5VW1vNGxGekd6eTZEUkdFT3JjdVI1bkxrOWxQMXpvMjdpcU83SGtWRnJheGhpR0t6ZWdoeFFIVFI3OHQ4blg4UFNGZTN3d2UybWF1em1Mcy1aLXFfN1FfdjU4VdIBrAFBVV95cUxPd0dudlFmNHRzYmZHZXJZWnVnamQxXzRuRERDWHFEOFZGY18xSWVhTy1zemkxZDhGTWRfUGhKbWJYbXEwTXVhdGFqMzVvbzhSTFhHYTZ2NFNMUnMxdHJIaEMxV3lnam50eWVfMDNDNDRsVFc2OXVLUHZyc1k5LXFwQldRNHY5T3RWRUlqWWtVTVlfaHRIcy1NblVBWldHcDhXc2g1MHRrUmhsTTFk?oc=5",
+          "domain": "koin.com",
+          "source_name": "KOIN.com",
+          "timestamp_utc": "2026-08-23T20:36:53+00:00",
+          "entity": "Forest Road Acquisition Corp. II",
+          "ticker": "FRXB",
+          "cik": "1840161",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "regulatory_legal",
+          "title": "Press conference to be held for suspicious death investigation in Forest Grove",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPd0dScnZDY0YzR3FoRGk2bDBJaUNJS1A5ZjBob0FGNHZZWXVZd1loQjJiTTlMSEhUUThHSENPUlJYTUt5ck9fRWZucVRLOUk0TEFRcHRJcHVPMGlzT2Fqbk0ydkpYVWFORXEwZWYwUzVreVFPT1pDUEF0MnIzemFpRGRlVTJUa1RPQnZjeVdOZU1aRWJEY1hKUzdTaThLbFBDRjNhYllqZkhFblFVMkZGdjctNmFIQQ?oc=5",
+          "domain": "opb.org",
+          "source_name": "Oregon Public Broadcasting - OPB",
+          "timestamp_utc": "2026-08-23T19:17:54+00:00",
+          "entity": "Forest Road Acquisition Corp. II",
+          "ticker": "FRXB",
+          "cik": "1840161",
+          "entity_type": "company"
+        }
+      ],
+      "youtube_metrics": {
+        "status": "skipped_no_api_key",
+        "youtube_supply_gap_score": null,
+        "query": "FRXB Authorities slated speak"
+      },
+      "scanner_b_score": 41.0
+    },
+    {
+      "event_id": "c40ea23dcf38986e",
+      "scanner": "B",
+      "entity": "NVIDIA CORP",
+      "ticker": "NVDA",
+      "entity_type": "company",
+      "event_title": "NVIDIA Raises AI Server Prices 15% Amid Memory Cost Surge",
+      "event_timestamp_utc": "2026-08-23T15:41:42+00:00",
+      "categories": [
+        "ai_semis",
+        "pricing_capacity"
+      ],
+      "sec_forms": [],
+      "discovery_score": 40.5,
+      "news_burst_score": 0.0,
+      "source_diversity_score": 55.0,
+      "catalyst_quality_score": 77.0,
+      "freshness_score": 68.0,
+      "evidence_quality_score": 39,
+      "youtube_query": "NVDA Raises Server Prices",
+      "youtube_event_terms": [
+        "Raises",
+        "Server",
+        "Prices"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "\"nvidia\" OR \"NVDA\"",
+        "article_count": 100,
+        "feed_capped": true,
+        "current_3h": 0,
+        "baseline_3h_median": 0.0,
+        "short_ratio": 1.0,
+        "current_day": 2,
+        "baseline_day_median": 2.5,
+        "long_ratio": 0.857,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 28,
+        "news_burst_score": 0.0
+      },
+      "source_domains": [
+        "chosun.com",
+        "en.bloomingbit.io",
+        "the-decoder.com"
+      ],
+      "recent_evidence_count": 4,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "pricing_capacity",
+          "title": "NVIDIA Raises AI Server Prices 15% Amid Memory Cost Surge",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZDJGLWZxMTJZZ0Frcno5Q0NwNG9hSUM5b3pBOVZTRVBRSExoRXZaWUxfRENfejhSeUZNbHVUSDExbnEwcFFrRjlhanF0bEpxdktfUHR2Q0c5anQxZWZlbGVmSm9vT1dzRnVFcnF1cV9hV0NOY2xpVFM5ZnRpNjd0MTRhTjIzNmJp?oc=5",
+          "domain": "chosun.com",
+          "source_name": "조선일보",
+          "timestamp_utc": "2026-08-23T15:41:42+00:00",
+          "entity": "NVIDIA CORP",
+          "ticker": "NVDA",
+          "cik": "1045810",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "ai_semis",
+          "title": "Nvidia to Raise AI Chip Prices at Least 15% as Memory Surge Boosts Samsung, SK Hynix Leverage",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA1QnlHNHhoa1BZSUhndlVDTEo3SXlqcXBmSVNmTS03d1Y2Mm5Ib2dHTFN3Nmt6TFNVMVhCNTdoRGowRDNTNU5MTnJiSEVvZFplRS1YVw?oc=5",
+          "domain": "en.bloomingbit.io",
+          "source_name": "bloomingbit",
+          "timestamp_utc": "2026-08-23T09:31:05+00:00",
+          "entity": "NVIDIA CORP",
+          "ticker": "NVDA",
+          "cik": "1045810",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "pricing_capacity",
+          "title": "NVIDIA Raises AI Server Prices 15% Amid Memory Shortage",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNTB6VXNURWRMZFJTaE9pSUVrREo3SlFQa3I0dHFsckh1bDZWQjZWU1MzR1VTUEpoZlk2NDE3N3BZSVZEdmdzSXUtQ21mUUpwRkJJX0d3eFcxMmN0Mkk1eUdta0hlSHU2ZWoyWEZCNkJETUJ1T3dBZ0RrZXF3TzdjVlpqR2ltOTRT?oc=5",
+          "domain": "chosun.com",
+          "source_name": "조선일보",
+          "timestamp_utc": "2026-08-23T08:34:22+00:00",
+          "entity": "NVIDIA CORP",
+          "ticker": "NVDA",
+          "cik": "1045810",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "pricing_capacity",
+          "title": "Memory shortage reportedly drives Nvidia AI server prices up about 15 percent",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdnM3c3ZyX0ZrZ3B1OGVjNEZXTTM5ZjlITFZwMjU0dWxhclI4ZVp6Ynk3RW1MTWFUeklvMnRZdDhuRHZXaGN0TFM2X3ltc1RmUDRZeER4R1BQUDF3Mkp6eFVudm4wRV9WQkQwQlJtVFVZdkowSWwwSnhIRE5obDJtTmg1OHA3QjBvaDRxTkJLcFQzN1ViaFVGYnN6STlwRnhjT191Vw?oc=5",
+          "domain": "the-decoder.com",
+          "source_name": "the-decoder.com",
+          "timestamp_utc": "2026-08-23T08:19:46+00:00",
+          "entity": "NVIDIA CORP",
+          "ticker": "NVDA",
+          "cik": "1045810",
+          "entity_type": "company"
+        }
+      ],
+      "youtube_metrics": {
+        "status": "skipped_no_api_key",
+        "youtube_supply_gap_score": null,
+        "query": "NVDA Raises Server Prices"
+      },
+      "scanner_b_score": 40.5
+    },
+    {
+      "event_id": "d0d5343ae29160d5",
+      "scanner": "B",
+      "entity": "Bitcoin / Crypto",
+      "ticker": null,
+      "entity_type": "crypto",
+      "event_title": "Bitcoin ETFs Record $1.67 Billion in Inflows Over Five Consecutive Trading Days",
+      "event_timestamp_utc": "2026-08-23T13:20:00+00:00",
+      "categories": [
+        "crypto"
+      ],
+      "sec_forms": [],
+      "discovery_score": 40.2,
+      "news_burst_score": 2.3,
+      "source_diversity_score": 55.0,
+      "catalyst_quality_score": 70.0,
+      "freshness_score": 68.0,
+      "evidence_quality_score": 42,
+      "youtube_query": "Bitcoin / Crypto ETFs Record Billion",
+      "youtube_event_terms": [
+        "ETFs",
+        "Record",
+        "Billion"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "Bitcoin OR Ethereum OR crypto",
+        "article_count": 100,
+        "feed_capped": true,
+        "current_3h": 0,
+        "baseline_3h_median": 1.0,
+        "short_ratio": 0.5,
+        "current_day": 4,
+        "baseline_day_median": 3.0,
+        "long_ratio": 1.25,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 26,
+        "news_burst_score": 2.3
+      },
+      "source_domains": [
+        "blockchainreporter.net",
+        "cryptonews.net",
+        "hokanews.com",
+        "pluang.com"
+      ],
+      "recent_evidence_count": 4,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "crypto",
+          "title": "Bitcoin ETFs Record $1.67 Billion in Inflows Over Five Consecutive Trading Days",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9JNHIySzR0ZjVuQzZnN2ZwUGxnZHFSajdKbC0tM3kySEVIbGlJX3JURV8xSzJ0Mlkyd2ljVjk0aENhdTZjTUQyTFYtRlUySDd0VThFOEZ3UTBtS0k0QTFienVlQk5KMjBFdENiZlgtOW9EVmdqYUsyMlNYaDM?oc=5",
+          "domain": "hokanews.com",
+          "source_name": "HOKANEWS.COM",
+          "timestamp_utc": "2026-08-23T13:20:00+00:00",
+          "entity": "Bitcoin / Crypto",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "crypto"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "crypto",
+          "title": "Bitcoin and Ethereum ETFs see $2.6B inflows, bi...",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQNkprUTcxQzhXMHhQaXBBTFdlSUQxQXBFZHlOb19uMmxOUnU1aWh2UkJkZmdITUx5NE9aX2JFbmpDM3J0VV9UYUhmNVY4SXo2bU50RzRyUlp1WU85UTJQeXp3QUpTSHlRY3hqekE2TlBmeHBMRkhodnprM2lueVViOXo5SzY4a3F3aXF4cGJMR0NYa3g0MG96ei0xNWgtSm9TTUt1aVVNb2lKQmM?oc=5",
+          "domain": "pluang.com",
+          "source_name": "Pluang",
+          "timestamp_utc": "2026-08-23T00:58:08+00:00",
+          "entity": "Bitcoin / Crypto",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "crypto"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "crypto",
+          "title": "Bitcoin ETFs Add $1.92 Billion in 5 Days as Wall Street Buying Surges",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE03bXVlVFMtY2R6ZEdBWm1NSm1Rbnk1aWdMUUstcXI5dUQ3ZTcyM0lFVmR1WjNROVJOMmFWUmtRa2VtOHdiSVNjcUtQb1lFeE96SzBNRklUTDE?oc=5",
+          "domain": "cryptonews.net",
+          "source_name": "Cryptonews.net",
+          "timestamp_utc": "2026-08-22T22:42:21+00:00",
+          "entity": "Bitcoin / Crypto",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "crypto"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "crypto",
+          "title": "Bitcoin And Ethereum ETFs Add $492 Million As Inflow Streak Reaches Five Days",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRFI0VXlhbEQ4MW9PcXZ5SHc4SmFTdXVMeU9IcmFpS1FZcmRrZENubm5FMTJ3bEVmS3VlVnNIcUU2dnJENXFSQWNkSkJfZ0FYSUpKRk83ZWo5bTBRMEwxelVncllYM3M2SE5MZDYtMjZ1S1A5SkN5RFVYZVZkQzMtNjVVaVlfb0tGMkh1Y25SU0lLQ0hqTHVyRXlGM2RsUVNacFdDMC1VSjZPU2Ny?oc=5",
+          "domain": "blockchainreporter.net",
+          "source_name": "blockchainreporter",
+          "timestamp_utc": "2026-08-22T22:04:13+00:00",
+          "entity": "Bitcoin / Crypto",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "crypto"
+        }
+      ],
+      "youtube_metrics": {
+        "status": "skipped_no_api_key",
+        "youtube_supply_gap_score": null,
+        "query": "Bitcoin / Crypto ETFs Record Billion"
+      },
+      "scanner_b_score": 40.2
+    }
+  ]
+}
