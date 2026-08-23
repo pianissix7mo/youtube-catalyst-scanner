@@ -1,0 +1,102 @@
+name: Scanner B - Catalyst Scan
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "*.py"
+      - "config.json"
+      - "requirements.txt"
+      - ".github/workflows/scanner_b.yml"
+  schedule:
+    # Toronto 05:10. Two UTC entries + local-hour guard make this DST-safe.
+    - cron: "10 9 * * *"
+    - cron: "10 10 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scanner-b
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Toronto schedule guard
+        id: guard
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" != "schedule" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          LOCAL_HOUR=$(TZ=America/Toronto date +%H)
+          if [ "$LOCAL_HOUR" = "05" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Checkout
+        if: steps.guard.outputs.run == 'true'
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        if: steps.guard.outputs.run == 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        if: steps.guard.outputs.run == 'true'
+        run: pip install -r requirements.txt
+
+      - name: Syntax check
+        if: steps.guard.outputs.run == 'true'
+        run: python -m py_compile scanner_common.py collect_external.py rank_candidates.py youtube_enrich.py
+
+      - name: Collect external catalysts
+        if: steps.guard.outputs.run == 'true'
+        env:
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+        run: python collect_external.py
+
+      - name: Build baseline and select Top 20
+        if: steps.guard.outputs.run == 'true'
+        run: python rank_candidates.py
+
+      - name: YouTube supply-gap enrichment
+        if: steps.guard.outputs.run == 'true'
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: python youtube_enrich.py
+
+      - name: Upload scan artifact
+        if: steps.guard.outputs.run == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: scanner-b-latest
+          path: |
+            data/raw_events.json
+            data/selected_events.json
+            output/latest.json
+            output/latest.md
+          retention-days: 14
+
+      - name: Commit latest state
+        if: steps.guard.outputs.run == 'true'
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data output
+          if git diff --cached --quiet; then
+            echo "No generated changes to commit"
+            exit 0
+          fi
+          git commit -m "Update Scanner B results"
+          git push
