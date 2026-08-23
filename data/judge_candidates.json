@@ -1,15 +1,15 @@
 {
   "scanner": "B",
-  "generated_at_utc": "2026-08-23T22:14:54.124513+00:00",
+  "generated_at_utc": "2026-08-23T22:16:58.590671+00:00",
   "judge_version": "B_V1",
-  "raw_event_count": 224,
+  "raw_event_count": 225,
   "judge_candidate_cap": 200,
   "judge_pool_max_events_per_entity": 6,
   "judge_live_baseline_entity_cap": 80,
   "live_baseline_entity_count": 80,
-  "live_baseline_event_count": 135,
+  "live_baseline_event_count": 134,
   "local_fallback_event_count": 19,
-  "candidate_count": 154,
+  "candidate_count": 153,
   "youtube_search_budget_per_run": 20,
   "events": [
     {
@@ -24,8 +24,8 @@
         "macro_rates"
       ],
       "sec_forms": [],
-      "discovery_score": 62.7,
-      "news_burst_score": 20.3,
+      "discovery_score": 62.2,
+      "news_burst_score": 18.9,
       "source_diversity_score": 100.0,
       "catalyst_quality_score": 85.0,
       "freshness_score": 92.0,
@@ -42,14 +42,14 @@
         "article_count": 100,
         "feed_capped": true,
         "current_3h": 0,
-        "baseline_3h_median": 2.0,
-        "short_ratio": 0.333,
-        "current_day": 14,
+        "baseline_3h_median": 1.0,
+        "short_ratio": 0.5,
+        "current_day": 12,
         "baseline_day_median": 1.0,
-        "long_ratio": 7.5,
+        "long_ratio": 6.5,
         "short_history_buckets": 23,
         "daily_history_buckets": 28,
-        "news_burst_score": 20.3
+        "news_burst_score": 18.9
       },
       "source_domains": [
         "13wmaz.com",
@@ -440,61 +440,117 @@
       ]
     },
     {
-      "event_id": "ad36d01abb5fcbfb",
+      "event_id": "7dbfb2c4ae9967ab",
       "scanner": "B",
-      "entity": "Excelerate Energy, Inc.",
-      "ticker": "EE",
-      "entity_type": "company",
-      "event_title": "Excelerate Energy (EE) Stock May Be Fully Priced Despite Raised EBITDA Guidance",
-      "event_timestamp_utc": "2026-08-23T21:08:35+00:00",
+      "entity": "Tariffs / Trade",
+      "ticker": null,
+      "entity_type": "macro",
+      "event_title": "What Canadian Goods Are Getting Hit With New Tariffs?",
+      "event_timestamp_utc": "2026-08-23T21:10:20+00:00",
       "categories": [
-        "earnings_guidance"
+        "macro_rates"
       ],
       "sec_forms": [],
-      "discovery_score": 55.2,
-      "news_burst_score": 42.5,
-      "source_diversity_score": 20.0,
-      "catalyst_quality_score": 90.0,
+      "discovery_score": 57.5,
+      "news_burst_score": 18.9,
+      "source_diversity_score": 72.0,
+      "catalyst_quality_score": 85.0,
       "freshness_score": 92.0,
-      "evidence_quality_score": 45,
-      "youtube_query": "EE Stock Fully Priced",
+      "evidence_quality_score": 57,
+      "youtube_query": "Tariffs / Trade What Canadian Goods",
       "youtube_event_terms": [
-        "Stock",
-        "Fully",
-        "Priced"
+        "What",
+        "Canadian",
+        "Goods"
       ],
       "baseline": {
         "source": "google_news_rss",
-        "query": "\"excelerate energy\" OR \"EE\"",
-        "article_count": 94,
-        "feed_capped": false,
-        "current_3h": 2,
-        "baseline_3h_median": 0.0,
-        "short_ratio": 3.0,
-        "current_day": 7,
+        "query": "tariffs OR \"trade war\" OR \"export controls\"",
+        "article_count": 100,
+        "feed_capped": true,
+        "current_3h": 0,
+        "baseline_3h_median": 1.0,
+        "short_ratio": 0.5,
+        "current_day": 12,
         "baseline_day_median": 1.0,
-        "long_ratio": 4.0,
+        "long_ratio": 6.5,
         "short_history_buckets": 23,
-        "daily_history_buckets": 29,
-        "news_burst_score": 42.5
+        "daily_history_buckets": 28,
+        "news_burst_score": 18.9
       },
       "source_domains": [
-        "finance.yahoo.com"
+        "facebook.com",
+        "finance.yahoo.com",
+        "nbcwashington.com",
+        "nytimes.com",
+        "wkrn.com"
       ],
-      "recent_evidence_count": 1,
+      "recent_evidence_count": 5,
       "evidence": [
         {
           "source_type": "news_rss",
-          "category": "earnings_guidance",
-          "title": "Excelerate Energy (EE) Stock May Be Fully Priced Despite Raised EBITDA Guidance",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSjZnQUNfclZXN2s2amstV2xoN2JOMHV5MjBNSlpqYndPTFlQZDlyLTNEaXVsczFrbkFfT3F3cUNrbDVRcG1takZCMWRJdEQyMkxlTnFzYzFWZlJHeTlUaGZvRXhram1IQzloQ1VJWExoQ0FFWGoyRUN4OHI3ZXhqWk5HUGJiWUtQZzc0eWoyLUkxTE9jTkRybEwyVQ?oc=5",
+          "category": "macro_rates",
+          "title": "What Canadian Goods Are Getting Hit With New Tariffs?",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVG55djVDb2w0eVNTOXlwbjN0MDl0ZWhrNmZYckM4RHdVNUhNYUVlbGFaSUlhTkJwWWtSaUtMRTVoMDdHcE5ITWd6MkVfYUxqNVdpZGhfZ1FQVllheHhzZzNhQ0pPbGhnMG1waTFTSGJEWjJJd0Uwa1k2N1VJYjkwYXhSZGpaQWdsRkEwLWZuUHJHS0xTR21mLXdfdllxYXcx?oc=5",
           "domain": "finance.yahoo.com",
           "source_name": "Yahoo Finance",
-          "timestamp_utc": "2026-08-23T21:08:35+00:00",
-          "entity": "Excelerate Energy, Inc.",
-          "ticker": "EE",
-          "cik": "1888447",
-          "entity_type": "company"
+          "timestamp_utc": "2026-08-23T21:10:20+00:00",
+          "entity": "Tariffs / Trade",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "Talks between the U.S. and Canada failed late Friday to prevent new tariffs on Canadian goods, prompting Canada to promise “dollar for dollar” retaliation. Here is what to know about the tariffs and why the negotiations fell apart. https://nyti.ms/46hI4ID",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNQVJCRmswdFRHZ0VxMDdCRERYckFRMzRzYnpOTlRtVFZUR3JvOVNiaGhMUEZYZVBRcU9MRkYyOEpLNVpoc3ZYdVctUjBZemZIWkVCVGVpT1JocmtEU0p3Y19mYVlMT1RZN0k5WGNjcDdET3ZIdGI4Z21XWWJ6b2Q4V1dOdlNXZTN5b3luWVg1dURDbzE2WlVDZEo5OW05a1VtTmlQUng2d3NGcUY1LXdEYjJMX0NUcWpaWTk3T2U1d2VRanlDT1g3LU9ETHQ0a3UwcEQw?oc=5",
+          "domain": "facebook.com",
+          "source_name": "facebook.com",
+          "timestamp_utc": "2026-08-23T17:55:05+00:00",
+          "entity": "Tariffs / Trade",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "What to know about Trump's 50% tariffs on Canadian goods that just went into effect",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSUFydzZ5WW9rTmx0NkFlOXdSVTl5aE1DUEJKN2JUSEtyUHViRTMxZGRPeUpkQi1OZFYyVXpObVFqQlptY2w0V3JVaVRWdGhwNGNDSDZUbXR5RnpXTlRsU3FKSTBiWDRpcm8yRzJPb3ZZbXVtcmpBN3NyUXNTTlFjS3JtLWVUOFBJemdhWTNrZFlVSEMxNEJrSUFRMWdSaTlsMmtnNVJOS3k2Ykx00gG0AUFVX3lxTE9RM3UxUXg1SEF6LTI5a2kzekJ5MWlqTEhiSGFTb2dJdzhCZEFyeDBFQ2FsSHJCdkpRUndIOFQ4ekJoQlY2RUdrbUVJUU1WU2Q3LWQxa3RZVTM1QmNGVElnc2VMR0hJOWhYOVcxeDNSREppSGs4dUw1dEZsektSbTNUeDVhRTZhU0dFc3dmUEl0WmVzWXFRWERjb1pLTVM0RVJReXE3cWxUbkdRaWxNcjFzLWt3WQ?oc=5",
+          "domain": "nbcwashington.com",
+          "source_name": "NBC4 Washington",
+          "timestamp_utc": "2026-08-23T17:10:21+00:00",
+          "entity": "Tariffs / Trade",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "What Canadian Goods Will Take Trump’s 50% Tariffs? Some Pretty Strange Items.",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSWJiTC0zaE8wNVhVNERJVzhCWGlTWmY3RjZvRjFZMUxSRDVZc0VVOHlZSndWQjJCc0xheW1BbWhFS081R3VmMWViZ3FLN0szbGxuOTdMOWpmcnZrVUF3Z1VxZkdLdnJsWTB4VUh6ejBFenhRLTc1MXRGT1RFdXR4NnBiQS1qWmpFVnlncm1TckRNVDhxd2Jv?oc=5",
+          "domain": "nytimes.com",
+          "source_name": "The New York Times",
+          "timestamp_utc": "2026-08-23T16:14:35+00:00",
+          "entity": "Tariffs / Trade",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "US places 50% tariffs on Canadian goods",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQTV9HSzI4clc4NVBlRTRtLW9rM3B1RjVJSE9HY1lrOHNXVEV3RFlxMGZJbHp0bDlrSkM4bTdvMExZNkJSSzdiMUgteXRkOHE0d3haWnFNRjhFbnlfOWZfMWhMU3N4dXNmUzVOSzRnbVdvWlZHSzFoNlZNUjdYTUpwZg?oc=5",
+          "domain": "wkrn.com",
+          "source_name": "WKRN News 2",
+          "timestamp_utc": "2026-08-23T12:44:26+00:00",
+          "entity": "Tariffs / Trade",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
         }
       ]
     },
@@ -587,107 +643,6 @@
       ]
     },
     {
-      "event_id": "7dbfb2c4ae9967ab",
-      "scanner": "B",
-      "entity": "Tariffs / Trade",
-      "ticker": null,
-      "entity_type": "macro",
-      "event_title": "What Canadian Goods Are Getting Hit With New Tariffs?",
-      "event_timestamp_utc": "2026-08-23T21:10:20+00:00",
-      "categories": [
-        "macro_rates"
-      ],
-      "sec_forms": [],
-      "discovery_score": 54.3,
-      "news_burst_score": 20.3,
-      "source_diversity_score": 55.0,
-      "catalyst_quality_score": 85.0,
-      "freshness_score": 92.0,
-      "evidence_quality_score": 54,
-      "youtube_query": "Tariffs / Trade What Canadian Goods",
-      "youtube_event_terms": [
-        "What",
-        "Canadian",
-        "Goods"
-      ],
-      "baseline": {
-        "source": "google_news_rss",
-        "query": "tariffs OR \"trade war\" OR \"export controls\"",
-        "article_count": 100,
-        "feed_capped": true,
-        "current_3h": 0,
-        "baseline_3h_median": 2.0,
-        "short_ratio": 0.333,
-        "current_day": 14,
-        "baseline_day_median": 1.0,
-        "long_ratio": 7.5,
-        "short_history_buckets": 23,
-        "daily_history_buckets": 28,
-        "news_burst_score": 20.3
-      },
-      "source_domains": [
-        "facebook.com",
-        "finance.yahoo.com",
-        "nbcwashington.com",
-        "nytimes.com"
-      ],
-      "recent_evidence_count": 4,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "macro_rates",
-          "title": "What Canadian Goods Are Getting Hit With New Tariffs?",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVG55djVDb2w0eVNTOXlwbjN0MDl0ZWhrNmZYckM4RHdVNUhNYUVlbGFaSUlhTkJwWWtSaUtMRTVoMDdHcE5ITWd6MkVfYUxqNVdpZGhfZ1FQVllheHhzZzNhQ0pPbGhnMG1waTFTSGJEWjJJd0Uwa1k2N1VJYjkwYXhSZGpaQWdsRkEwLWZuUHJHS0xTR21mLXdfdllxYXcx?oc=5",
-          "domain": "finance.yahoo.com",
-          "source_name": "Yahoo Finance",
-          "timestamp_utc": "2026-08-23T21:10:20+00:00",
-          "entity": "Tariffs / Trade",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "macro"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "macro_rates",
-          "title": "Talks between the U.S. and Canada failed late Friday to prevent new tariffs on Canadian goods, prompting Canada to promise “dollar for dollar” retaliation. Here is what to know about the tariffs and why the negotiations fell apart. https://nyti.ms/46hI4ID",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNQVJCRmswdFRHZ0VxMDdCRERYckFRMzRzYnpOTlRtVFZUR3JvOVNiaGhMUEZYZVBRcU9MRkYyOEpLNVpoc3ZYdVctUjBZemZIWkVCVGVpT1JocmtEU0p3Y19mYVlMT1RZN0k5WGNjcDdET3ZIdGI4Z21XWWJ6b2Q4V1dOdlNXZTN5b3luWVg1dURDbzE2WlVDZEo5OW05a1VtTmlQUng2d3NGcUY1LXdEYjJMX0NUcWpaWTk3T2U1d2VRanlDT1g3LU9ETHQ0a3UwcEQw?oc=5",
-          "domain": "facebook.com",
-          "source_name": "facebook.com",
-          "timestamp_utc": "2026-08-23T17:55:05+00:00",
-          "entity": "Tariffs / Trade",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "macro"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "macro_rates",
-          "title": "What to know about Trump's 50% tariffs on Canadian goods that just went into effect",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSUFydzZ5WW9rTmx0NkFlOXdSVTl5aE1DUEJKN2JUSEtyUHViRTMxZGRPeUpkQi1OZFYyVXpObVFqQlptY2w0V3JVaVRWdGhwNGNDSDZUbXR5RnpXTlRsU3FKSTBiWDRpcm8yRzJPb3ZZbXVtcmpBN3NyUXNTTlFjS3JtLWVUOFBJemdhWTNrZFlVSEMxNEJrSUFRMWdSaTlsMmtnNVJOS3k2Ykx00gG0AUFVX3lxTE9RM3UxUXg1SEF6LTI5a2kzekJ5MWlqTEhiSGFTb2dJdzhCZEFyeDBFQ2FsSHJCdkpRUndIOFQ4ekJoQlY2RUdrbUVJUU1WU2Q3LWQxa3RZVTM1QmNGVElnc2VMR0hJOWhYOVcxeDNSREppSGs4dUw1dEZsektSbTNUeDVhRTZhU0dFc3dmUEl0WmVzWXFRWERjb1pLTVM0RVJReXE3cWxUbkdRaWxNcjFzLWt3WQ?oc=5",
-          "domain": "nbcwashington.com",
-          "source_name": "NBC4 Washington",
-          "timestamp_utc": "2026-08-23T17:10:21+00:00",
-          "entity": "Tariffs / Trade",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "macro"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "macro_rates",
-          "title": "What Canadian Goods Will Take Trump’s 50% Tariffs? Some Pretty Strange Items.",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSWJiTC0zaE8wNVhVNERJVzhCWGlTWmY3RjZvRjFZMUxSRDVZc0VVOHlZSndWQjJCc0xheW1BbWhFS081R3VmMWViZ3FLN0szbGxuOTdMOWpmcnZrVUF3Z1VxZkdLdnJsWTB4VUh6ejBFenhRLTc1MXRGT1RFdXR4NnBiQS1qWmpFVnlncm1TckRNVDhxd2Jv?oc=5",
-          "domain": "nytimes.com",
-          "source_name": "The New York Times",
-          "timestamp_utc": "2026-08-23T16:14:35+00:00",
-          "entity": "Tariffs / Trade",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "macro"
-        }
-      ]
-    },
-    {
       "event_id": "a918b746fbc195ea",
       "scanner": "B",
       "entity": "Tariffs / Trade",
@@ -699,8 +654,8 @@
         "macro_rates"
       ],
       "sec_forms": [],
-      "discovery_score": 54.0,
-      "news_burst_score": 20.3,
+      "discovery_score": 53.5,
+      "news_burst_score": 18.9,
       "source_diversity_score": 55.0,
       "catalyst_quality_score": 85.0,
       "freshness_score": 82.0,
@@ -717,14 +672,14 @@
         "article_count": 100,
         "feed_capped": true,
         "current_3h": 0,
-        "baseline_3h_median": 2.0,
-        "short_ratio": 0.333,
-        "current_day": 14,
+        "baseline_3h_median": 1.0,
+        "short_ratio": 0.5,
+        "current_day": 12,
         "baseline_day_median": 1.0,
-        "long_ratio": 7.5,
+        "long_ratio": 6.5,
         "short_history_buckets": 23,
         "daily_history_buckets": 28,
-        "news_burst_score": 20.3
+        "news_burst_score": 18.9
       },
       "source_domains": [
         "ft.com",
@@ -789,6 +744,65 @@
       ]
     },
     {
+      "event_id": "ad36d01abb5fcbfb",
+      "scanner": "B",
+      "entity": "Excelerate Energy, Inc.",
+      "ticker": "EE",
+      "entity_type": "company",
+      "event_title": "Excelerate Energy (EE) Stock May Be Fully Priced Despite Raised EBITDA Guidance",
+      "event_timestamp_utc": "2026-08-23T21:08:35+00:00",
+      "categories": [
+        "earnings_guidance"
+      ],
+      "sec_forms": [],
+      "discovery_score": 51.0,
+      "news_burst_score": 30.7,
+      "source_diversity_score": 20.0,
+      "catalyst_quality_score": 90.0,
+      "freshness_score": 92.0,
+      "evidence_quality_score": 45,
+      "youtube_query": "EE Stock Fully Priced",
+      "youtube_event_terms": [
+        "Stock",
+        "Fully",
+        "Priced"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "\"excelerate energy\" OR \"EE\"",
+        "article_count": 94,
+        "feed_capped": false,
+        "current_3h": 1,
+        "baseline_3h_median": 0.0,
+        "short_ratio": 2.0,
+        "current_day": 6,
+        "baseline_day_median": 1.0,
+        "long_ratio": 3.5,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 29,
+        "news_burst_score": 30.7
+      },
+      "source_domains": [
+        "finance.yahoo.com"
+      ],
+      "recent_evidence_count": 1,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "earnings_guidance",
+          "title": "Excelerate Energy (EE) Stock May Be Fully Priced Despite Raised EBITDA Guidance",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSjZnQUNfclZXN2s2amstV2xoN2JOMHV5MjBNSlpqYndPTFlQZDlyLTNEaXVsczFrbkFfT3F3cUNrbDVRcG1takZCMWRJdEQyMkxlTnFzYzFWZlJHeTlUaGZvRXhram1IQzloQ1VJWExoQ0FFWGoyRUN4OHI3ZXhqWk5HUGJiWUtQZzc0eWoyLUkxTE9jTkRybEwyVQ?oc=5",
+          "domain": "finance.yahoo.com",
+          "source_name": "Yahoo Finance",
+          "timestamp_utc": "2026-08-23T21:08:35+00:00",
+          "entity": "Excelerate Energy, Inc.",
+          "ticker": "EE",
+          "cik": "1888447",
+          "entity_type": "company"
+        }
+      ]
+    },
+    {
       "event_id": "70e7995276a4e650",
       "scanner": "B",
       "entity": "Tariffs / Trade",
@@ -800,8 +814,8 @@
         "macro_rates"
       ],
       "sec_forms": [],
-      "discovery_score": 50.3,
-      "news_burst_score": 20.3,
+      "discovery_score": 49.8,
+      "news_burst_score": 18.9,
       "source_diversity_score": 38.0,
       "catalyst_quality_score": 85.0,
       "freshness_score": 100.0,
@@ -818,14 +832,14 @@
         "article_count": 100,
         "feed_capped": true,
         "current_3h": 0,
-        "baseline_3h_median": 2.0,
-        "short_ratio": 0.333,
-        "current_day": 14,
+        "baseline_3h_median": 1.0,
+        "short_ratio": 0.5,
+        "current_day": 12,
         "baseline_day_median": 1.0,
-        "long_ratio": 7.5,
+        "long_ratio": 6.5,
         "short_history_buckets": 23,
         "daily_history_buckets": 28,
-        "news_burst_score": 20.3
+        "news_burst_score": 18.9
       },
       "source_domains": [
         "eastasiaforum.org",
@@ -854,166 +868,6 @@
           "domain": "tucson.com",
           "source_name": "Arizona Daily Star",
           "timestamp_utc": "2026-08-23T16:24:51+00:00",
-          "entity": "Tariffs / Trade",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "macro"
-        }
-      ]
-    },
-    {
-      "event_id": "157c4c2038be3ffe",
-      "scanner": "B",
-      "entity": "Tariffs / Trade",
-      "ticker": null,
-      "entity_type": "macro",
-      "event_title": "'Bad deal': Canada's Carney announces retaliation after US tariffs",
-      "event_timestamp_utc": "2026-08-23T14:51:00+00:00",
-      "categories": [
-        "macro_rates"
-      ],
-      "sec_forms": [],
-      "discovery_score": 49.2,
-      "news_burst_score": 20.3,
-      "source_diversity_score": 55.0,
-      "catalyst_quality_score": 85.0,
-      "freshness_score": 68.0,
-      "evidence_quality_score": 39,
-      "youtube_query": "Tariffs / Trade deal Canada Carney",
-      "youtube_event_terms": [
-        "deal",
-        "Canada",
-        "Carney"
-      ],
-      "baseline": {
-        "source": "google_news_rss",
-        "query": "tariffs OR \"trade war\" OR \"export controls\"",
-        "article_count": 100,
-        "feed_capped": true,
-        "current_3h": 0,
-        "baseline_3h_median": 2.0,
-        "short_ratio": 0.333,
-        "current_day": 14,
-        "baseline_day_median": 1.0,
-        "long_ratio": 7.5,
-        "short_history_buckets": 23,
-        "daily_history_buckets": 28,
-        "news_burst_score": 20.3
-      },
-      "source_domains": [
-        "gpb.org",
-        "newsnationnow.com",
-        "usatoday.com"
-      ],
-      "recent_evidence_count": 3,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "macro_rates",
-          "title": "'Bad deal': Canada's Carney announces retaliation after US tariffs",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYnB2X2dteXdmaGNwS09QSWhoVWozSWVvUjMwV2lQenN1ZkZxV29RV2VxXzZhOEpVOU1OUzJKQy1UaE5jUDhVaGNFNGlNQXQyS2pfUGwwU2dGamw3UVNLT1E4VEtzRGJHekxZQ2gzS21zTnlBZmtrQlhiQUctRmp2OG1BWm1WWkFsV3U5UUswVEJ2M25DbEJrRm5fX3Q?oc=5",
-          "domain": "usatoday.com",
-          "source_name": "USA Today",
-          "timestamp_utc": "2026-08-23T14:51:00+00:00",
-          "entity": "Tariffs / Trade",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "macro"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "macro_rates",
-          "title": "As Canada readies retaliatory tariffs, Mark Carney says his nation is 'at war' with U.S.",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdTlKeVJkNWxmMEx2X2cwMFl5aG1xUUNMVlpEWEd5OGJ4aEtaUXQwSEpLWUF2UlBnekhCa0gzYlJXdHM2R1JSVExPeEhnV1VKVlBSeGpZeWJ0eHNSbVlQRHgzQjBYQTFITmVqQ3FvWmxMdERBT0lsV1dzRXExTk9oeWY5ZDhFVFNaMjljM1VfNmlfNjZfMzRwalNmcU5ha0FMVGNHbG5CT0dRYUZf?oc=5",
-          "domain": "gpb.org",
-          "source_name": "Georgia Public Broadcasting",
-          "timestamp_utc": "2026-08-23T14:12:13+00:00",
-          "entity": "Tariffs / Trade",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "macro"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "macro_rates",
-          "title": "Canada announces retaliatory tariffs to begin Sept. 8",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNYlJFZF9KQWhGM2dTZjFSY0ZmcmpQdTBxb0xpWGR6aU45VVp1ay1VemgyWmdyREhIS1V5aDZtY1RURHhaNUNSVHQtRkpodzE4S19zUThyNkNoZVFTaElTU0hNd1B1NFN2WW5VTXdmSkhSM041dTBZUG5aMTVYTkFCMnhPaUZPZ9IBiwFBVV95cUxNdWhHa0FrNUg3QWRicERnSTcyVmFUUFFBS3RjLTZqcGQ1Zk5ldlg0QTM1anhfRllXREJxM2hoMU9GTHVWbzZpbmoxX0JZQW5CQlA2bUhZUVRQdTdqTzdKS3pUcU9GRDdzZlRXQnd3RmRHdFhtejgtVEpPdS1vanNYM211bWFsYmlnQ25j?oc=5",
-          "domain": "newsnationnow.com",
-          "source_name": "NewsNation",
-          "timestamp_utc": "2026-08-23T12:55:25+00:00",
-          "entity": "Tariffs / Trade",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "macro"
-        }
-      ]
-    },
-    {
-      "event_id": "23bc76ed647e43dc",
-      "scanner": "B",
-      "entity": "Tariffs / Trade",
-      "ticker": null,
-      "entity_type": "macro",
-      "event_title": "New U.S. Tariffs Put Digital Supplier in Focus for Canadian Businesses",
-      "event_timestamp_utc": "2026-08-23T20:21:17+00:00",
-      "categories": [
-        "macro_rates"
-      ],
-      "sec_forms": [],
-      "discovery_score": 49.1,
-      "news_burst_score": 20.3,
-      "source_diversity_score": 38.0,
-      "catalyst_quality_score": 85.0,
-      "freshness_score": 92.0,
-      "evidence_quality_score": 36,
-      "youtube_query": "Tariffs / Trade Digital Supplier Focus",
-      "youtube_event_terms": [
-        "Digital",
-        "Supplier",
-        "Focus"
-      ],
-      "baseline": {
-        "source": "google_news_rss",
-        "query": "tariffs OR \"trade war\" OR \"export controls\"",
-        "article_count": 100,
-        "feed_capped": true,
-        "current_3h": 0,
-        "baseline_3h_median": 2.0,
-        "short_ratio": 0.333,
-        "current_day": 14,
-        "baseline_day_median": 1.0,
-        "long_ratio": 7.5,
-        "short_history_buckets": 23,
-        "daily_history_buckets": 28,
-        "news_burst_score": 20.3
-      },
-      "source_domains": [
-        "globalnews.ca",
-        "natlawreview.com"
-      ],
-      "recent_evidence_count": 2,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "macro_rates",
-          "title": "New U.S. Tariffs Put Digital Supplier in Focus for Canadian Businesses",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOd1J5dE9BLTJ2UkNFLTcyTlFuRktoTWRJVk9ZNkpHeHFsTld6TG80cmJvR3dHbzFtVHJsSUg4REpCVEtxYjBDdVZYcThPbF9JMFcwcWlqY3JhemllcXhiOTVBSGdqT09GdU84Rm9nZ1d1Z2xTX0JaZ3RQQ25EdUE2Z1QxazlnR19CcnU1S1I2Um9LU1JPLUFHbkRNWEhqaDRGOVVN?oc=5",
-          "domain": "natlawreview.com",
-          "source_name": "The National Law Review",
-          "timestamp_utc": "2026-08-23T20:21:17+00:00",
-          "entity": "Tariffs / Trade",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "macro"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "macro_rates",
-          "title": "‘We can’t run our businesses’: Canadian companies react to U.S. tariffs",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNT0daRGxZeC1lVVl6RmpUYnJWQmFQb0tPS09qSVE2SzF3aDRsbUdDMVhwcHNYUElTUFdFQXlHZkpXSHBlMWpvZWZRQjdyOEljZm5YQWQ5dlNQT3Y5aHJ6dDd6MWxMVUxCRkRjbVgybHoydXdPX1JsWXFLVVBjdzJBNg?oc=5",
-          "domain": "globalnews.ca",
-          "source_name": "Global News",
-          "timestamp_utc": "2026-08-23T18:57:53+00:00",
           "entity": "Tariffs / Trade",
           "ticker": null,
           "cik": null,
@@ -1051,8 +905,8 @@
         "article_count": 99,
         "feed_capped": true,
         "current_3h": 0,
-        "baseline_3h_median": 1.0,
-        "short_ratio": 0.5,
+        "baseline_3h_median": 0.0,
+        "short_ratio": 1.0,
         "current_day": 4,
         "baseline_day_median": 3.0,
         "long_ratio": 1.25,
@@ -1161,6 +1015,93 @@
           "ticker": null,
           "cik": null,
           "entity_type": "crypto"
+        }
+      ]
+    },
+    {
+      "event_id": "157c4c2038be3ffe",
+      "scanner": "B",
+      "entity": "Tariffs / Trade",
+      "ticker": null,
+      "entity_type": "macro",
+      "event_title": "'Bad deal': Canada's Carney announces retaliation after US tariffs",
+      "event_timestamp_utc": "2026-08-23T14:51:00+00:00",
+      "categories": [
+        "macro_rates"
+      ],
+      "sec_forms": [],
+      "discovery_score": 48.7,
+      "news_burst_score": 18.9,
+      "source_diversity_score": 55.0,
+      "catalyst_quality_score": 85.0,
+      "freshness_score": 68.0,
+      "evidence_quality_score": 39,
+      "youtube_query": "Tariffs / Trade deal Canada Carney",
+      "youtube_event_terms": [
+        "deal",
+        "Canada",
+        "Carney"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "tariffs OR \"trade war\" OR \"export controls\"",
+        "article_count": 100,
+        "feed_capped": true,
+        "current_3h": 0,
+        "baseline_3h_median": 1.0,
+        "short_ratio": 0.5,
+        "current_day": 12,
+        "baseline_day_median": 1.0,
+        "long_ratio": 6.5,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 28,
+        "news_burst_score": 18.9
+      },
+      "source_domains": [
+        "gpb.org",
+        "newsnationnow.com",
+        "usatoday.com"
+      ],
+      "recent_evidence_count": 3,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "'Bad deal': Canada's Carney announces retaliation after US tariffs",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYnB2X2dteXdmaGNwS09QSWhoVWozSWVvUjMwV2lQenN1ZkZxV29RV2VxXzZhOEpVOU1OUzJKQy1UaE5jUDhVaGNFNGlNQXQyS2pfUGwwU2dGamw3UVNLT1E4VEtzRGJHekxZQ2gzS21zTnlBZmtrQlhiQUctRmp2OG1BWm1WWkFsV3U5UUswVEJ2M25DbEJrRm5fX3Q?oc=5",
+          "domain": "usatoday.com",
+          "source_name": "USA Today",
+          "timestamp_utc": "2026-08-23T14:51:00+00:00",
+          "entity": "Tariffs / Trade",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "As Canada readies retaliatory tariffs, Mark Carney says his nation is 'at war' with U.S.",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdTlKeVJkNWxmMEx2X2cwMFl5aG1xUUNMVlpEWEd5OGJ4aEtaUXQwSEpLWUF2UlBnekhCa0gzYlJXdHM2R1JSVExPeEhnV1VKVlBSeGpZeWJ0eHNSbVlQRHgzQjBYQTFITmVqQ3FvWmxMdERBT0lsV1dzRXExTk9oeWY5ZDhFVFNaMjljM1VfNmlfNjZfMzRwalNmcU5ha0FMVGNHbG5CT0dRYUZf?oc=5",
+          "domain": "gpb.org",
+          "source_name": "Georgia Public Broadcasting",
+          "timestamp_utc": "2026-08-23T14:12:13+00:00",
+          "entity": "Tariffs / Trade",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "Canada announces retaliatory tariffs to begin Sept. 8",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNYlJFZF9KQWhGM2dTZjFSY0ZmcmpQdTBxb0xpWGR6aU45VVp1ay1VemgyWmdyREhIS1V5aDZtY1RURHhaNUNSVHQtRkpodzE4S19zUThyNkNoZVFTaElTU0hNd1B1NFN2WW5VTXdmSkhSM041dTBZUG5aMTVYTkFCMnhPaUZPZ9IBiwFBVV95cUxNdWhHa0FrNUg3QWRicERnSTcyVmFUUFFBS3RjLTZqcGQ1Zk5ldlg0QTM1anhfRllXREJxM2hoMU9GTHVWbzZpbmoxX0JZQW5CQlA2bUhZUVRQdTdqTzdKS3pUcU9GRDdzZlRXQnd3RmRHdFhtejgtVEpPdS1vanNYM211bWFsYmlnQ25j?oc=5",
+          "domain": "newsnationnow.com",
+          "source_name": "NewsNation",
+          "timestamp_utc": "2026-08-23T12:55:25+00:00",
+          "entity": "Tariffs / Trade",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
         }
       ]
     },
@@ -1350,6 +1291,79 @@
       ]
     },
     {
+      "event_id": "23bc76ed647e43dc",
+      "scanner": "B",
+      "entity": "Tariffs / Trade",
+      "ticker": null,
+      "entity_type": "macro",
+      "event_title": "New U.S. Tariffs Put Digital Supplier in Focus for Canadian Businesses",
+      "event_timestamp_utc": "2026-08-23T20:21:17+00:00",
+      "categories": [
+        "macro_rates"
+      ],
+      "sec_forms": [],
+      "discovery_score": 48.6,
+      "news_burst_score": 18.9,
+      "source_diversity_score": 38.0,
+      "catalyst_quality_score": 85.0,
+      "freshness_score": 92.0,
+      "evidence_quality_score": 36,
+      "youtube_query": "Tariffs / Trade Digital Supplier Focus",
+      "youtube_event_terms": [
+        "Digital",
+        "Supplier",
+        "Focus"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "tariffs OR \"trade war\" OR \"export controls\"",
+        "article_count": 100,
+        "feed_capped": true,
+        "current_3h": 0,
+        "baseline_3h_median": 1.0,
+        "short_ratio": 0.5,
+        "current_day": 12,
+        "baseline_day_median": 1.0,
+        "long_ratio": 6.5,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 28,
+        "news_burst_score": 18.9
+      },
+      "source_domains": [
+        "globalnews.ca",
+        "natlawreview.com"
+      ],
+      "recent_evidence_count": 2,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "New U.S. Tariffs Put Digital Supplier in Focus for Canadian Businesses",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOd1J5dE9BLTJ2UkNFLTcyTlFuRktoTWRJVk9ZNkpHeHFsTld6TG80cmJvR3dHbzFtVHJsSUg4REpCVEtxYjBDdVZYcThPbF9JMFcwcWlqY3JhemllcXhiOTVBSGdqT09GdU84Rm9nZ1d1Z2xTX0JaZ3RQQ25EdUE2Z1QxazlnR19CcnU1S1I2Um9LU1JPLUFHbkRNWEhqaDRGOVVN?oc=5",
+          "domain": "natlawreview.com",
+          "source_name": "The National Law Review",
+          "timestamp_utc": "2026-08-23T20:21:17+00:00",
+          "entity": "Tariffs / Trade",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "‘We can’t run our businesses’: Canadian companies react to U.S. tariffs",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNT0daRGxZeC1lVVl6RmpUYnJWQmFQb0tPS09qSVE2SzF3aDRsbUdDMVhwcHNYUElTUFdFQXlHZkpXSHBlMWpvZWZRQjdyOEljZm5YQWQ5dlNQT3Y5aHJ6dDd6MWxMVUxCRkRjbVgybHoydXdPX1JsWXFLVVBjdzJBNg?oc=5",
+          "domain": "globalnews.ca",
+          "source_name": "Global News",
+          "timestamp_utc": "2026-08-23T18:57:53+00:00",
+          "entity": "Tariffs / Trade",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        }
+      ]
+    },
+    {
       "event_id": "8a7885b3c8d1b3a0",
       "scanner": "B",
       "entity": "Werewolf Therapeutics, Inc.",
@@ -1523,7 +1537,7 @@
       "baseline": {
         "source": "google_news_rss",
         "query": "\"biohaven\" OR \"BHVN\"",
-        "article_count": 38,
+        "article_count": 39,
         "feed_capped": false,
         "current_3h": 1,
         "baseline_3h_median": 0.0,
@@ -1552,92 +1566,6 @@
           "ticker": "BHVN",
           "cik": "1935979",
           "entity_type": "company"
-        }
-      ]
-    },
-    {
-      "event_id": "9fc915261da03f71",
-      "scanner": "B",
-      "entity": "SK hynix",
-      "ticker": null,
-      "entity_type": "foreign_company",
-      "event_title": "SK hynix REQUIREMENTS FOR MEMORY",
-      "event_timestamp_utc": "2026-08-23T20:48:16+00:00",
-      "categories": [
-        "ai_semis",
-        "pricing_capacity"
-      ],
-      "sec_forms": [],
-      "discovery_score": 46.7,
-      "news_burst_score": 18.0,
-      "source_diversity_score": 38.0,
-      "catalyst_quality_score": 77.0,
-      "freshness_score": 92.0,
-      "evidence_quality_score": 36,
-      "youtube_query": "SK hynix REQUIREMENTS MEMORY",
-      "youtube_event_terms": [
-        "REQUIREMENTS",
-        "MEMORY"
-      ],
-      "baseline": {
-        "source": "google_news_rss",
-        "query": "\"sk hynix\"",
-        "article_count": 97,
-        "feed_capped": true,
-        "current_3h": 1,
-        "baseline_3h_median": 0.0,
-        "short_ratio": 2.0,
-        "current_day": 2,
-        "baseline_day_median": 2.0,
-        "long_ratio": 1.0,
-        "short_history_buckets": 23,
-        "daily_history_buckets": 28,
-        "news_burst_score": 18.0
-      },
-      "source_domains": [
-        "en.bloomingbit.io",
-        "servethehome.com"
-      ],
-      "recent_evidence_count": 3,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "SK hynix REQUIREMENTS FOR MEMORY",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1USW4zUGQ5WVU3NktRUXlUM0FwRUwwamVuVE9vR0kyUG8wakI5OWlpS2dYX3lsRXY1RnhvTE5SRnhkS3hmR3prMmx1YVFoRVZHZENLaUxYbEYtMHdxOW5zWU1VbjBJVUhLNkJseFBB?oc=5",
-          "domain": "servethehome.com",
-          "source_name": "ServeTheHome",
-          "timestamp_utc": "2026-08-23T20:48:16+00:00",
-          "entity": "SK hynix",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "foreign_company"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "pricing_capacity",
-          "title": "SK hynix Memory Capacity Thermal Management",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5fSkFERkc5dXE1X0p1eElnY3c5emdXUk1GNXhMUVB1TlRoWTZCQ0dzendKdDUwRmEtanJfQW5ObWtWbmFSS2hqNnVoSWJNYWNWTHhEb3pVRFM1alA4cXgwRk5mSXdmcVA5WWdQMmNn?oc=5",
-          "domain": "servethehome.com",
-          "source_name": "ServeTheHome",
-          "timestamp_utc": "2026-08-23T20:48:15+00:00",
-          "entity": "SK hynix",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "foreign_company"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Nvidia to Raise AI Chip Prices at Least 15% as Memory Surge Boosts Samsung, SK Hynix Leverage",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA1QnlHNHhoa1BZSUhndlVDTEo3SXlqcXBmSVNmTS03d1Y2Mm5Ib2dHTFN3Nmt6TFNVMVhCNTdoRGowRDNTNU5MTnJiSEVvZFplRS1YVw?oc=5",
-          "domain": "en.bloomingbit.io",
-          "source_name": "bloomingbit",
-          "timestamp_utc": "2026-08-23T09:31:05+00:00",
-          "entity": "SK hynix",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "foreign_company"
         }
       ]
     },
@@ -1938,8 +1866,8 @@
         "baseline_3h_median": 0.0,
         "short_ratio": 2.0,
         "current_day": 3,
-        "baseline_day_median": 5.0,
-        "long_ratio": 0.667,
+        "baseline_day_median": 5.5,
+        "long_ratio": 0.615,
         "short_history_buckets": 23,
         "daily_history_buckets": 18,
         "news_burst_score": 18.0
@@ -2187,11 +2115,11 @@
         "current_3h": 1,
         "baseline_3h_median": 0.0,
         "short_ratio": 2.0,
-        "current_day": 3,
-        "baseline_day_median": 1.0,
+        "current_day": 4,
+        "baseline_day_median": 1.5,
         "long_ratio": 2.0,
         "short_history_buckets": 23,
-        "daily_history_buckets": 25,
+        "daily_history_buckets": 24,
         "news_burst_score": 25.0
       },
       "source_domains": [
@@ -2274,60 +2202,132 @@
       ]
     },
     {
-      "event_id": "41103c7152678fed",
+      "event_id": "9fc915261da03f71",
       "scanner": "B",
-      "entity": "Paramount Skydance Corporation",
-      "ticker": "PSKY",
-      "entity_type": "company",
-      "event_title": "3 Leading Jewish Groups Rebuke Mark Ruffalo for Tying Paramount Merger to Israel’s Gaza War, Demand Response",
-      "event_timestamp_utc": "2026-08-23T16:26:39+00:00",
+      "entity": "SK hynix",
+      "ticker": null,
+      "entity_type": "foreign_company",
+      "event_title": "SK hynix REQUIREMENTS FOR MEMORY",
+      "event_timestamp_utc": "2026-08-23T20:48:16+00:00",
       "categories": [
-        "mna"
+        "ai_semis"
       ],
       "sec_forms": [],
-      "discovery_score": 44.7,
+      "discovery_score": 44.9,
       "news_burst_score": 18.0,
-      "source_diversity_score": 20.0,
-      "catalyst_quality_score": 94.0,
-      "freshness_score": 82.0,
-      "evidence_quality_score": 33,
-      "youtube_query": "PSKY Leading Jewish Groups",
+      "source_diversity_score": 38.0,
+      "catalyst_quality_score": 68.0,
+      "freshness_score": 92.0,
+      "evidence_quality_score": 36,
+      "youtube_query": "SK hynix REQUIREMENTS MEMORY",
       "youtube_event_terms": [
-        "Leading",
-        "Jewish",
-        "Groups"
+        "REQUIREMENTS",
+        "MEMORY"
       ],
       "baseline": {
         "source": "google_news_rss",
-        "query": "\"paramount skydance\" OR \"PSKY\"",
-        "article_count": 94,
-        "feed_capped": false,
+        "query": "\"sk hynix\"",
+        "article_count": 97,
+        "feed_capped": true,
         "current_3h": 1,
         "baseline_3h_median": 0.0,
         "short_ratio": 2.0,
-        "current_day": 1,
+        "current_day": 2,
         "baseline_day_median": 2.0,
-        "long_ratio": 0.667,
+        "long_ratio": 1.0,
         "short_history_buckets": 23,
-        "daily_history_buckets": 29,
+        "daily_history_buckets": 28,
         "news_burst_score": 18.0
       },
       "source_domains": [
-        "thewrap.com"
+        "en.bloomingbit.io",
+        "servethehome.com"
+      ],
+      "recent_evidence_count": 2,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "ai_semis",
+          "title": "SK hynix REQUIREMENTS FOR MEMORY",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1USW4zUGQ5WVU3NktRUXlUM0FwRUwwamVuVE9vR0kyUG8wakI5OWlpS2dYX3lsRXY1RnhvTE5SRnhkS3hmR3prMmx1YVFoRVZHZENLaUxYbEYtMHdxOW5zWU1VbjBJVUhLNkJseFBB?oc=5",
+          "domain": "servethehome.com",
+          "source_name": "ServeTheHome",
+          "timestamp_utc": "2026-08-23T20:48:16+00:00",
+          "entity": "SK hynix",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "foreign_company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "ai_semis",
+          "title": "Nvidia to Raise AI Chip Prices at Least 15% as Memory Surge Boosts Samsung, SK Hynix Leverage",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA1QnlHNHhoa1BZSUhndlVDTEo3SXlqcXBmSVNmTS03d1Y2Mm5Ib2dHTFN3Nmt6TFNVMVhCNTdoRGowRDNTNU5MTnJiSEVvZFplRS1YVw?oc=5",
+          "domain": "en.bloomingbit.io",
+          "source_name": "bloomingbit",
+          "timestamp_utc": "2026-08-23T09:31:05+00:00",
+          "entity": "SK hynix",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "foreign_company"
+        }
+      ]
+    },
+    {
+      "event_id": "1f62e2c963fcfd6c",
+      "scanner": "B",
+      "entity": "Shutterstock, Inc.",
+      "ticker": "SSTK",
+      "entity_type": "company",
+      "event_title": "SSTK Investors Have Opportunity to Join Shutterstock, Inc. Fraud Investigation with SBS Law",
+      "event_timestamp_utc": "2026-08-23T16:59:00+00:00",
+      "categories": [
+        "regulatory_legal"
+      ],
+      "sec_forms": [],
+      "discovery_score": 44.4,
+      "news_burst_score": 25.1,
+      "source_diversity_score": 20.0,
+      "catalyst_quality_score": 80.0,
+      "freshness_score": 82.0,
+      "evidence_quality_score": 33,
+      "youtube_query": "SSTK SSTK Investors Opportunity",
+      "youtube_event_terms": [
+        "SSTK",
+        "Investors",
+        "Opportunity"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "\"shutterstock\" OR \"SSTK\"",
+        "article_count": 80,
+        "feed_capped": false,
+        "current_3h": 0,
+        "baseline_3h_median": 1.0,
+        "short_ratio": 0.5,
+        "current_day": 11,
+        "baseline_day_median": 0.0,
+        "long_ratio": 12.0,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 29,
+        "news_burst_score": 25.1
+      },
+      "source_domains": [
+        "daily-tribune.com"
       ],
       "recent_evidence_count": 1,
       "evidence": [
         {
           "source_type": "news_rss",
-          "category": "mna",
-          "title": "3 Leading Jewish Groups Rebuke Mark Ruffalo for Tying Paramount Merger to Israel’s Gaza War, Demand Response",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPejV4ZG1Yb0Q1WFhFWk9XMmFCUE5kbGtXWTRCbGlJd0RYdVRmX2oyYTlqRU0tRk9zb0VzZVhnYkxqQm40Vkt0VzB6dW16bjlTSTNSSXliWjZpRDRINktPUjRNWXBNejZkcHZqVDNSY0FocTM4cXhhd2hhMHZRcHlwamNpOXhqcG9WMEtKWXdKcVNla1JMRU1fcTE5QXVwWTQ?oc=5",
-          "domain": "thewrap.com",
-          "source_name": "TheWrap",
-          "timestamp_utc": "2026-08-23T16:26:39+00:00",
-          "entity": "Paramount Group, Inc.",
-          "ticker": "PGRE",
-          "cik": "1605607",
+          "category": "regulatory_legal",
+          "title": "SSTK Investors Have Opportunity to Join Shutterstock, Inc. Fraud Investigation with SBS Law",
+          "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxQMU9ObFozS1JOYUJyVVZoUUZxcWIyWmNFcWYycFd3d0x2SkJYNHl1cERYdU1zM2hwQUh2YjFNSmdMb0V0WnpTUHp6UjJ1WDBXVUVxOVJMWHVmakZVRmNySGl6aC0zWEdlTjBVR2FBQUtIUXJESVhvUWw1OHFqekRTVFNiUXRockhUeEl6MUFpaEQxc181cW1mUk9kQ2RNVW04VEtFdFphTFBzbkVIV2ZrZzAtcW5HVEJ1a0FteXU2RUQxSHZOdVFWeHpVQk9iTmZ6NUJVWjRqZFNSaFBfUmNyNUJQWUVYY2tEd3VmeXBMN1BsTEs2LUhNNTgtVHh0ZVN2U25DOUk0SkFxbDQtc2wzN3J6LXhHQWp1Vl9yQkJkaUp5QmRyODZz?oc=5",
+          "domain": "daily-tribune.com",
+          "source_name": "The Daily Tribune News",
+          "timestamp_utc": "2026-08-23T16:59:00+00:00",
+          "entity": "Shutterstock, Inc.",
+          "ticker": "SSTK",
+          "cik": "1549346",
           "entity_type": "company"
         }
       ]
@@ -2344,8 +2344,8 @@
         "contract_order"
       ],
       "sec_forms": [],
-      "discovery_score": 43.9,
-      "news_burst_score": 28.6,
+      "discovery_score": 44.2,
+      "news_burst_score": 29.4,
       "source_diversity_score": 20.0,
       "catalyst_quality_score": 82.0,
       "freshness_score": 68.0,
@@ -2364,12 +2364,12 @@
         "current_3h": 2,
         "baseline_3h_median": 1.0,
         "short_ratio": 1.5,
-        "current_day": 11,
+        "current_day": 12,
         "baseline_day_median": 1.0,
-        "long_ratio": 6.0,
+        "long_ratio": 6.5,
         "short_history_buckets": 23,
         "daily_history_buckets": 27,
-        "news_burst_score": 28.6
+        "news_burst_score": 29.4
       },
       "source_domains": [
         "straitstimes.com"
@@ -2421,8 +2421,8 @@
         "article_count": 99,
         "feed_capped": true,
         "current_3h": 0,
-        "baseline_3h_median": 1.0,
-        "short_ratio": 0.5,
+        "baseline_3h_median": 0.0,
+        "short_ratio": 1.0,
         "current_day": 4,
         "baseline_day_median": 3.0,
         "long_ratio": 1.25,
@@ -2552,6 +2552,65 @@
       ]
     },
     {
+      "event_id": "6438e9b8ba675345",
+      "scanner": "B",
+      "entity": "Philip Morris International Inc.",
+      "ticker": "PM",
+      "entity_type": "company",
+      "event_title": "PM Modi inaugurates Micron Technology’s Semiconductor plant at Sanand in Gujarat",
+      "event_timestamp_utc": "2026-08-23T18:34:11+00:00",
+      "categories": [
+        "ai_semis"
+      ],
+      "sec_forms": [],
+      "discovery_score": 43.5,
+      "news_burst_score": 29.4,
+      "source_diversity_score": 20.0,
+      "catalyst_quality_score": 68.0,
+      "freshness_score": 82.0,
+      "evidence_quality_score": 33,
+      "youtube_query": "PM Modi inaugurates Micron",
+      "youtube_event_terms": [
+        "Modi",
+        "inaugurates",
+        "Micron"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "\"philip morris international\" OR \"PM\"",
+        "article_count": 98,
+        "feed_capped": true,
+        "current_3h": 2,
+        "baseline_3h_median": 1.0,
+        "short_ratio": 1.5,
+        "current_day": 12,
+        "baseline_day_median": 1.0,
+        "long_ratio": 6.5,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 27,
+        "news_burst_score": 29.4
+      },
+      "source_domains": [
+        "newsonair.gov.in"
+      ],
+      "recent_evidence_count": 1,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "ai_semis",
+          "title": "PM Modi inaugurates Micron Technology’s Semiconductor plant at Sanand in Gujarat",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUWVjSlFkVko4c2Ytd0V1cXZtN0kzbWxXNktTYTZEV2RTTUpNWmtiMXVNT3lwUVcyWGZaaUk5M001SjdMOU1aV185VWl6TVQtOWdsaWdXNngxcmg1TkppV2JIQ3lDOHJBWHJYZ3J4MWZWTTR2OWo1aHZ3ZEd2dVR4c2pYSkgwbVZJNUd3ejB4bkpHYzktYVNBT0Z0NldfZmxFUkQ1dmpUOTBUb083V2h3Q0NKeFhnT2RlZUpLREdzQQ?oc=5",
+          "domain": "newsonair.gov.in",
+          "source_name": "News On AIR",
+          "timestamp_utc": "2026-08-23T18:34:11+00:00",
+          "entity": "Philip Morris International Inc.",
+          "ticker": "PM",
+          "cik": "1413329",
+          "entity_type": "company"
+        }
+      ]
+    },
+    {
       "event_id": "516c658f1e38f3d8",
       "scanner": "B",
       "entity": "SYNAPTICS Inc",
@@ -2606,65 +2665,6 @@
           "entity": "SYNAPTICS Inc",
           "ticker": "SYNA",
           "cik": "817720",
-          "entity_type": "company"
-        }
-      ]
-    },
-    {
-      "event_id": "6438e9b8ba675345",
-      "scanner": "B",
-      "entity": "Philip Morris International Inc.",
-      "ticker": "PM",
-      "entity_type": "company",
-      "event_title": "PM Modi inaugurates Micron Technology’s Semiconductor plant at Sanand in Gujarat",
-      "event_timestamp_utc": "2026-08-23T18:34:11+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "discovery_score": 43.2,
-      "news_burst_score": 28.6,
-      "source_diversity_score": 20.0,
-      "catalyst_quality_score": 68.0,
-      "freshness_score": 82.0,
-      "evidence_quality_score": 33,
-      "youtube_query": "PM Modi inaugurates Micron",
-      "youtube_event_terms": [
-        "Modi",
-        "inaugurates",
-        "Micron"
-      ],
-      "baseline": {
-        "source": "google_news_rss",
-        "query": "\"philip morris international\" OR \"PM\"",
-        "article_count": 98,
-        "feed_capped": true,
-        "current_3h": 2,
-        "baseline_3h_median": 1.0,
-        "short_ratio": 1.5,
-        "current_day": 11,
-        "baseline_day_median": 1.0,
-        "long_ratio": 6.0,
-        "short_history_buckets": 23,
-        "daily_history_buckets": 27,
-        "news_burst_score": 28.6
-      },
-      "source_domains": [
-        "newsonair.gov.in"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "PM Modi inaugurates Micron Technology’s Semiconductor plant at Sanand in Gujarat",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUWVjSlFkVko4c2Ytd0V1cXZtN0kzbWxXNktTYTZEV2RTTUpNWmtiMXVNT3lwUVcyWGZaaUk5M001SjdMOU1aV185VWl6TVQtOWdsaWdXNngxcmg1TkppV2JIQ3lDOHJBWHJYZ3J4MWZWTTR2OWo1aHZ3ZEd2dVR4c2pYSkgwbVZJNUd3ejB4bkpHYzktYVNBT0Z0NldfZmxFUkQ1dmpUOTBUb083V2h3Q0NKeFhnT2RlZUpLREdzQQ?oc=5",
-          "domain": "newsonair.gov.in",
-          "source_name": "News On AIR",
-          "timestamp_utc": "2026-08-23T18:34:11+00:00",
-          "entity": "Philip Morris International Inc.",
-          "ticker": "PM",
-          "cik": "1413329",
           "entity_type": "company"
         }
       ]
@@ -2814,7 +2814,7 @@
       "baseline": {
         "source": "google_news_rss",
         "query": "\"personalis\" OR \"PSNL\"",
-        "article_count": 57,
+        "article_count": 56,
         "feed_capped": false,
         "current_3h": 0,
         "baseline_3h_median": 0.0,
@@ -3008,8 +3008,8 @@
         "article_count": 99,
         "feed_capped": true,
         "current_3h": 0,
-        "baseline_3h_median": 1.0,
-        "short_ratio": 0.5,
+        "baseline_3h_median": 0.0,
+        "short_ratio": 1.0,
         "current_day": 4,
         "baseline_day_median": 3.0,
         "long_ratio": 1.25,
@@ -3077,8 +3077,8 @@
         "pricing_capacity"
       ],
       "sec_forms": [],
-      "discovery_score": 41.7,
-      "news_burst_score": 28.6,
+      "discovery_score": 42.0,
+      "news_burst_score": 29.4,
       "source_diversity_score": 20.0,
       "catalyst_quality_score": 77.0,
       "freshness_score": 52.0,
@@ -3097,12 +3097,12 @@
         "current_3h": 2,
         "baseline_3h_median": 1.0,
         "short_ratio": 1.5,
-        "current_day": 11,
+        "current_day": 12,
         "baseline_day_median": 1.0,
-        "long_ratio": 6.0,
+        "long_ratio": 6.5,
         "short_history_buckets": 23,
         "daily_history_buckets": 27,
-        "news_burst_score": 28.6
+        "news_burst_score": 29.4
       },
       "source_domains": [
         "reuters.com"
@@ -3136,8 +3136,8 @@
         "contract_order"
       ],
       "sec_forms": [],
-      "discovery_score": 41.5,
-      "news_burst_score": 28.6,
+      "discovery_score": 41.8,
+      "news_burst_score": 29.4,
       "source_diversity_score": 20.0,
       "catalyst_quality_score": 82.0,
       "freshness_score": 52.0,
@@ -3156,12 +3156,12 @@
         "current_3h": 2,
         "baseline_3h_median": 1.0,
         "short_ratio": 1.5,
-        "current_day": 11,
+        "current_day": 12,
         "baseline_day_median": 1.0,
-        "long_ratio": 6.0,
+        "long_ratio": 6.5,
         "short_history_buckets": 23,
         "daily_history_buckets": 27,
-        "news_burst_score": 28.6
+        "news_burst_score": 29.4
       },
       "source_domains": [
         "bhaskarenglish.in"
@@ -3176,6 +3176,65 @@
           "domain": "bhaskarenglish.in",
           "source_name": "Bhaskar English",
           "timestamp_utc": "2026-08-23T00:57:56+00:00",
+          "entity": "Philip Morris International Inc.",
+          "ticker": "PM",
+          "cik": "1413329",
+          "entity_type": "company"
+        }
+      ]
+    },
+    {
+      "event_id": "8d2b19589e517c5a",
+      "scanner": "B",
+      "entity": "Philip Morris International Inc.",
+      "ticker": "PM",
+      "entity_type": "company",
+      "event_title": "PM Modi lays foundation stone of a semiconductor manufacturing unit in Uttar Pradesh",
+      "event_timestamp_utc": "2026-08-23T15:12:58+00:00",
+      "categories": [
+        "ai_semis"
+      ],
+      "sec_forms": [],
+      "discovery_score": 41.4,
+      "news_burst_score": 29.4,
+      "source_diversity_score": 20.0,
+      "catalyst_quality_score": 68.0,
+      "freshness_score": 68.0,
+      "evidence_quality_score": 33,
+      "youtube_query": "PM Modi lays foundation",
+      "youtube_event_terms": [
+        "Modi",
+        "lays",
+        "foundation"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "\"philip morris international\" OR \"PM\"",
+        "article_count": 98,
+        "feed_capped": true,
+        "current_3h": 2,
+        "baseline_3h_median": 1.0,
+        "short_ratio": 1.5,
+        "current_day": 12,
+        "baseline_day_median": 1.0,
+        "long_ratio": 6.5,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 27,
+        "news_burst_score": 29.4
+      },
+      "source_domains": [
+        "newsonair.gov.in"
+      ],
+      "recent_evidence_count": 1,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "ai_semis",
+          "title": "PM Modi lays foundation stone of a semiconductor manufacturing unit in Uttar Pradesh",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTjNTNHFoMWEyam8tbEdqQmlSY3pkUEMta1JZMUNjRTAtVTVhSUZMNnBjdWJFd0txakFBRDJqZk01UUxIbVhHd3B5V1JpYThDNUJxS29PQjBxXzhVREV6Z3I2XzNCNWRuOHNRR0liRldIbUJnekI5UFdfRkNEanRJTzNjXzZ5dGpRbnZNVXZSdEI4Nk43eC1OSlc4VEtjR0l6c1NJRFZOQU5sMGNCLWFMMlpNdWpxV1ItUXR3eV9n?oc=5",
+          "domain": "newsonair.gov.in",
+          "source_name": "News On AIR",
+          "timestamp_utc": "2026-08-23T15:12:58+00:00",
           "entity": "Philip Morris International Inc.",
           "ticker": "PM",
           "cik": "1413329",
@@ -3243,65 +3302,6 @@
       ]
     },
     {
-      "event_id": "8d2b19589e517c5a",
-      "scanner": "B",
-      "entity": "Philip Morris International Inc.",
-      "ticker": "PM",
-      "entity_type": "company",
-      "event_title": "PM Modi lays foundation stone of a semiconductor manufacturing unit in Uttar Pradesh",
-      "event_timestamp_utc": "2026-08-23T15:12:58+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "discovery_score": 41.1,
-      "news_burst_score": 28.6,
-      "source_diversity_score": 20.0,
-      "catalyst_quality_score": 68.0,
-      "freshness_score": 68.0,
-      "evidence_quality_score": 33,
-      "youtube_query": "PM Modi lays foundation",
-      "youtube_event_terms": [
-        "Modi",
-        "lays",
-        "foundation"
-      ],
-      "baseline": {
-        "source": "google_news_rss",
-        "query": "\"philip morris international\" OR \"PM\"",
-        "article_count": 98,
-        "feed_capped": true,
-        "current_3h": 2,
-        "baseline_3h_median": 1.0,
-        "short_ratio": 1.5,
-        "current_day": 11,
-        "baseline_day_median": 1.0,
-        "long_ratio": 6.0,
-        "short_history_buckets": 23,
-        "daily_history_buckets": 27,
-        "news_burst_score": 28.6
-      },
-      "source_domains": [
-        "newsonair.gov.in"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "PM Modi lays foundation stone of a semiconductor manufacturing unit in Uttar Pradesh",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTjNTNHFoMWEyam8tbEdqQmlSY3pkUEMta1JZMUNjRTAtVTVhSUZMNnBjdWJFd0txakFBRDJqZk01UUxIbVhHd3B5V1JpYThDNUJxS29PQjBxXzhVREV6Z3I2XzNCNWRuOHNRR0liRldIbUJnekI5UFdfRkNEanRJTzNjXzZ5dGpRbnZNVXZSdEI4Nk43eC1OSlc4VEtjR0l6c1NJRFZOQU5sMGNCLWFMMlpNdWpxV1ItUXR3eV9n?oc=5",
-          "domain": "newsonair.gov.in",
-          "source_name": "News On AIR",
-          "timestamp_utc": "2026-08-23T15:12:58+00:00",
-          "entity": "Philip Morris International Inc.",
-          "ticker": "PM",
-          "cik": "1413329",
-          "entity_type": "company"
-        }
-      ]
-    },
-    {
       "event_id": "6551850f505dafd5",
       "scanner": "B",
       "entity": "Bitcoin / Crypto",
@@ -3331,8 +3331,8 @@
         "article_count": 99,
         "feed_capped": true,
         "current_3h": 0,
-        "baseline_3h_median": 1.0,
-        "short_ratio": 0.5,
+        "baseline_3h_median": 0.0,
+        "short_ratio": 1.0,
         "current_day": 4,
         "baseline_day_median": 3.0,
         "long_ratio": 1.25,
@@ -3546,7 +3546,7 @@
       "baseline": {
         "source": "google_news_rss",
         "query": "\"track\" OR \"TRCK\"",
-        "article_count": 99,
+        "article_count": 98,
         "feed_capped": true,
         "current_3h": 1,
         "baseline_3h_median": 1.0,
@@ -3755,65 +3755,6 @@
       ]
     },
     {
-      "event_id": "6e7cb02bb23caad2",
-      "scanner": "B",
-      "entity": "KIRBY CORP",
-      "ticker": "KEX",
-      "entity_type": "company",
-      "event_title": "After 10 years at United, CEO Scott Kirby is thinking big about the future of his airline from JFK to AI",
-      "event_timestamp_utc": "2026-08-23T12:00:01+00:00",
-      "categories": [
-        "mna"
-      ],
-      "sec_forms": [],
-      "discovery_score": 40.8,
-      "news_burst_score": 9.3,
-      "source_diversity_score": 20.0,
-      "catalyst_quality_score": 94.0,
-      "freshness_score": 68.0,
-      "evidence_quality_score": 45,
-      "youtube_query": "KEX years United Scott",
-      "youtube_event_terms": [
-        "years",
-        "United",
-        "Scott"
-      ],
-      "baseline": {
-        "source": "google_news_rss",
-        "query": "\"kirby\" OR \"KEX\"",
-        "article_count": 92,
-        "feed_capped": false,
-        "current_3h": 0,
-        "baseline_3h_median": 1.0,
-        "short_ratio": 0.5,
-        "current_day": 4,
-        "baseline_day_median": 1.0,
-        "long_ratio": 2.5,
-        "short_history_buckets": 23,
-        "daily_history_buckets": 29,
-        "news_burst_score": 9.3
-      },
-      "source_domains": [
-        "cnbc.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "mna",
-          "title": "After 10 years at United, CEO Scott Kirby is thinking big about the future of his airline from JFK to AI",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1QNEJTWmp2TUxZN0FZT1l2bnFzV0Fva1drcU1aUzFfSnhmNmpCNFV4NGFfelp4b09xeXJZQi1HR2VlcktTcS1FUlBtYWZfRXliSEhGbVpCUUJKUXUyUVlGdG05NC1IeExVdWNkQ2FVdGxRYXZhRWVv0gF8QVVfeXFMUEtrM2xoMUhWVzBrc0FlZ0xjek9SNGY2VkdYQ0VTRm1fZFZueFVlSkgzTjdOSXdreE5mUlpPUS1XNGJuUGxSNE01czZPdmNobzEzNUVGSEx1bW5mbE9jYkdHd0sxZFZLR2xiUmhFTDVtcGVNOUdaaURQWmktXw?oc=5",
-          "domain": "cnbc.com",
-          "source_name": "CNBC",
-          "timestamp_utc": "2026-08-23T12:00:01+00:00",
-          "entity": "KIRBY CORP",
-          "ticker": "KEX",
-          "cik": "56047",
-          "entity_type": "company"
-        }
-      ]
-    },
-    {
       "event_id": "c40ea23dcf38986e",
       "scanner": "B",
       "entity": "NVIDIA CORP",
@@ -3915,65 +3856,6 @@
       ]
     },
     {
-      "event_id": "24800bc82d49c77d",
-      "scanner": "B",
-      "entity": "Salesforce, Inc.",
-      "ticker": "CRM",
-      "entity_type": "company",
-      "event_title": "Salesforce Earnings Preview: Will the Stock Rally Continue?",
-      "event_timestamp_utc": "2026-08-23T20:57:11+00:00",
-      "categories": [
-        "earnings_guidance"
-      ],
-      "sec_forms": [],
-      "discovery_score": 40.5,
-      "news_burst_score": 4.1,
-      "source_diversity_score": 20.0,
-      "catalyst_quality_score": 90.0,
-      "freshness_score": 92.0,
-      "evidence_quality_score": 33,
-      "youtube_query": "CRM Earnings Preview Stock",
-      "youtube_event_terms": [
-        "Earnings",
-        "Preview",
-        "Stock"
-      ],
-      "baseline": {
-        "source": "google_news_rss",
-        "query": "\"salesforce\" OR \"CRM\"",
-        "article_count": 94,
-        "feed_capped": false,
-        "current_3h": 0,
-        "baseline_3h_median": 1.0,
-        "short_ratio": 0.5,
-        "current_day": 2,
-        "baseline_day_median": 1.0,
-        "long_ratio": 1.5,
-        "short_history_buckets": 23,
-        "daily_history_buckets": 29,
-        "news_burst_score": 4.1
-      },
-      "source_domains": [
-        "benzinga.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "earnings_guidance",
-          "title": "Salesforce Earnings Preview: Will the Stock Rally Continue?",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPdUt5NTRhV3UzWFdwZHJwZFNQMDNCUUd0U1kyYzg0VWdpVmhCSFBSUTEzaE9zQzhKbWQ1UjF4NUYtaENlcHNRelNOS1dXS1VEdjgzOTBONGFnZHpQX3NsblpobS1fcC1kdXRQWXhhVXJjZnlEa0x6a205TXFLUjNscTZPOVJGLUtDUlJ3V1NaSy0wWWxxVVBXVlBxUFQxMDFWc3dXY1pKN1QyOFFPNEVIMWxJV2o?oc=5",
-          "domain": "benzinga.com",
-          "source_name": "Benzinga",
-          "timestamp_utc": "2026-08-23T20:57:11+00:00",
-          "entity": "Salesforce, Inc.",
-          "ticker": "CRM",
-          "cik": "1108524",
-          "entity_type": "company"
-        }
-      ]
-    },
-    {
       "event_id": "3cfd76d290a97335",
       "scanner": "B",
       "entity": "NVIDIA CORP",
@@ -4028,65 +3910,6 @@
           "entity": "NVIDIA CORP",
           "ticker": "NVDA",
           "cik": "1045810",
-          "entity_type": "company"
-        }
-      ]
-    },
-    {
-      "event_id": "4f7f0ceeb9eed0ee",
-      "scanner": "B",
-      "entity": "HighPeak Energy, Inc.",
-      "ticker": "HPK",
-      "entity_type": "company",
-      "event_title": "HighPeak Energy (HPK) Is Up 12.0% After Q2 Profit Jump Narrows First-Half Loss - What's Changed",
-      "event_timestamp_utc": "2026-08-23T18:25:27+00:00",
-      "categories": [
-        "earnings_guidance"
-      ],
-      "sec_forms": [],
-      "discovery_score": 40.0,
-      "news_burst_score": 7.0,
-      "source_diversity_score": 20.0,
-      "catalyst_quality_score": 90.0,
-      "freshness_score": 82.0,
-      "evidence_quality_score": 33,
-      "youtube_query": "HPK Profit Jump Narrows",
-      "youtube_event_terms": [
-        "Profit",
-        "Jump",
-        "Narrows"
-      ],
-      "baseline": {
-        "source": "google_news_rss",
-        "query": "\"highpeak energy\" OR \"HPK\"",
-        "article_count": 58,
-        "feed_capped": false,
-        "current_3h": 0,
-        "baseline_3h_median": 0.0,
-        "short_ratio": 1.0,
-        "current_day": 3,
-        "baseline_day_median": 1.0,
-        "long_ratio": 2.0,
-        "short_history_buckets": 23,
-        "daily_history_buckets": 29,
-        "news_burst_score": 7.0
-      },
-      "source_domains": [
-        "simplywall.st"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "earnings_guidance",
-          "title": "HighPeak Energy (HPK) Is Up 12.0% After Q2 Profit Jump Narrows First-Half Loss - What's Changed",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNU5PczZOUE9sd2JKcVg5cjVCOFFFTjRKS1BaUkQwZTg0djBoODl4YjVEMjRtOGJHVUY2VDdoS256RmxGYnZoLXk0WGEySjFOZlI0VGdxbjFSY0lDVF9TQV9fOXA4bHgyaHdvUEo5QWZOOHdmUXMxTnEzM0JMa0x3dnQtLTVYWGRWR00xZ3FaYUo4di1CRnFIYTFoMUR6ME5adjAxYnZKdlU0c19yMlZINzBZNkFiakhQWDhybGZZVEpfc2g4WXgtUFR2NNIB0AFBVV95cUxNTjVNRUYzRVFCdlR2bzEtQjFsVHFmUHVuNW5qb0pxMU9hU3ZmRWhGQ2pkYjdrZ2VyZ1JFN1VIWU5xNWNMb3UzNjR4bHBGODVPQUtJRGFGN0RGVzh2T0R3WGZ4aExwdHFsWmVod3FZTzNBY0hiSll3QV8ycjlweXVuZGlvLTRlN1Fneml6RG41UWI4SlM4d2U1RFU3aEUyUkQwbGlvc2NLcG5HU2pjbE02THowS2Q5MWdEMUFTR1I3eUlwdnlRRGxrYW9nazRzSm9m?oc=5",
-          "domain": "simplywall.st",
-          "source_name": "simplywall.st",
-          "timestamp_utc": "2026-08-23T18:25:27+00:00",
-          "entity": "HighPeak Energy, Inc.",
-          "ticker": "HPK",
-          "cik": "1792849",
           "entity_type": "company"
         }
       ]
@@ -4151,6 +3974,65 @@
       ]
     },
     {
+      "event_id": "6e7cb02bb23caad2",
+      "scanner": "B",
+      "entity": "KIRBY CORP",
+      "ticker": "KEX",
+      "entity_type": "company",
+      "event_title": "After 10 years at United, CEO Scott Kirby is thinking big about the future of his airline from JFK to AI",
+      "event_timestamp_utc": "2026-08-23T12:00:01+00:00",
+      "categories": [
+        "mna"
+      ],
+      "sec_forms": [],
+      "discovery_score": 40.0,
+      "news_burst_score": 7.0,
+      "source_diversity_score": 20.0,
+      "catalyst_quality_score": 94.0,
+      "freshness_score": 68.0,
+      "evidence_quality_score": 45,
+      "youtube_query": "KEX years United Scott",
+      "youtube_event_terms": [
+        "years",
+        "United",
+        "Scott"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "\"kirby\" OR \"KEX\"",
+        "article_count": 92,
+        "feed_capped": false,
+        "current_3h": 0,
+        "baseline_3h_median": 1.0,
+        "short_ratio": 0.5,
+        "current_day": 3,
+        "baseline_day_median": 1.0,
+        "long_ratio": 2.0,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 29,
+        "news_burst_score": 7.0
+      },
+      "source_domains": [
+        "cnbc.com"
+      ],
+      "recent_evidence_count": 1,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "mna",
+          "title": "After 10 years at United, CEO Scott Kirby is thinking big about the future of his airline from JFK to AI",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1QNEJTWmp2TUxZN0FZT1l2bnFzV0Fva1drcU1aUzFfSnhmNmpCNFV4NGFfelp4b09xeXJZQi1HR2VlcktTcS1FUlBtYWZfRXliSEhGbVpCUUJKUXUyUVlGdG05NC1IeExVdWNkQ2FVdGxRYXZhRWVv0gF8QVVfeXFMUEtrM2xoMUhWVzBrc0FlZ0xjek9SNGY2VkdYQ0VTRm1fZFZueFVlSkgzTjdOSXdreE5mUlpPUS1XNGJuUGxSNE01czZPdmNobzEzNUVGSEx1bW5mbE9jYkdHd0sxZFZLR2xiUmhFTDVtcGVNOUdaaURQWmktXw?oc=5",
+          "domain": "cnbc.com",
+          "source_name": "CNBC",
+          "timestamp_utc": "2026-08-23T12:00:01+00:00",
+          "entity": "KIRBY CORP",
+          "ticker": "KEX",
+          "cik": "56047",
+          "entity_type": "company"
+        }
+      ]
+    },
+    {
       "event_id": "7c14de7d1cbfb3bd",
       "scanner": "B",
       "entity": "Bitcoin / Crypto",
@@ -4180,8 +4062,8 @@
         "article_count": 99,
         "feed_capped": true,
         "current_3h": 0,
-        "baseline_3h_median": 1.0,
-        "short_ratio": 0.5,
+        "baseline_3h_median": 0.0,
+        "short_ratio": 1.0,
         "current_day": 4,
         "baseline_day_median": 3.0,
         "long_ratio": 1.25,
@@ -4411,6 +4293,65 @@
           "ticker": null,
           "cik": null,
           "entity_type": "macro"
+        }
+      ]
+    },
+    {
+      "event_id": "24800bc82d49c77d",
+      "scanner": "B",
+      "entity": "Salesforce, Inc.",
+      "ticker": "CRM",
+      "entity_type": "company",
+      "event_title": "Salesforce Earnings Preview: Will the Stock Rally Continue?",
+      "event_timestamp_utc": "2026-08-23T20:57:11+00:00",
+      "categories": [
+        "earnings_guidance"
+      ],
+      "sec_forms": [],
+      "discovery_score": 39.1,
+      "news_burst_score": 0.0,
+      "source_diversity_score": 20.0,
+      "catalyst_quality_score": 90.0,
+      "freshness_score": 92.0,
+      "evidence_quality_score": 33,
+      "youtube_query": "CRM Earnings Preview Stock",
+      "youtube_event_terms": [
+        "Earnings",
+        "Preview",
+        "Stock"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "\"salesforce\" OR \"CRM\"",
+        "article_count": 94,
+        "feed_capped": false,
+        "current_3h": 0,
+        "baseline_3h_median": 1.0,
+        "short_ratio": 0.5,
+        "current_day": 1,
+        "baseline_day_median": 1.0,
+        "long_ratio": 1.0,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 29,
+        "news_burst_score": 0.0
+      },
+      "source_domains": [
+        "benzinga.com"
+      ],
+      "recent_evidence_count": 1,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "earnings_guidance",
+          "title": "Salesforce Earnings Preview: Will the Stock Rally Continue?",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPdUt5NTRhV3UzWFdwZHJwZFNQMDNCUUd0U1kyYzg0VWdpVmhCSFBSUTEzaE9zQzhKbWQ1UjF4NUYtaENlcHNRelNOS1dXS1VEdjgzOTBONGFnZHpQX3NsblpobS1fcC1kdXRQWXhhVXJjZnlEa0x6a205TXFLUjNscTZPOVJGLUtDUlJ3V1NaSy0wWWxxVVBXVlBxUFQxMDFWc3dXY1pKN1QyOFFPNEVIMWxJV2o?oc=5",
+          "domain": "benzinga.com",
+          "source_name": "Benzinga",
+          "timestamp_utc": "2026-08-23T20:57:11+00:00",
+          "entity": "Salesforce, Inc.",
+          "ticker": "CRM",
+          "cik": "1108524",
+          "entity_type": "company"
         }
       ]
     },
@@ -4842,6 +4783,65 @@
       ]
     },
     {
+      "event_id": "476343afc089dfc0",
+      "scanner": "B",
+      "entity": "MICROSOFT CORP",
+      "ticker": "MSFT",
+      "entity_type": "company",
+      "event_title": "Mapping Microsoft’s Potential Healthcare AI and Technology Acquisition Horizons Across North America, Europe and the Commonwealth",
+      "event_timestamp_utc": "2026-08-23T18:53:29+00:00",
+      "categories": [
+        "mna"
+      ],
+      "sec_forms": [],
+      "discovery_score": 38.4,
+      "news_burst_score": 0.0,
+      "source_diversity_score": 20.0,
+      "catalyst_quality_score": 94.0,
+      "freshness_score": 82.0,
+      "evidence_quality_score": 33,
+      "youtube_query": "MSFT Mapping Potential Healthcare",
+      "youtube_event_terms": [
+        "Mapping",
+        "Potential",
+        "Healthcare"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "\"microsoft\" OR \"MSFT\"",
+        "article_count": 97,
+        "feed_capped": true,
+        "current_3h": 0,
+        "baseline_3h_median": 0.0,
+        "short_ratio": 1.0,
+        "current_day": 0,
+        "baseline_day_median": 3.0,
+        "long_ratio": 0.25,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 26,
+        "news_burst_score": 0.0
+      },
+      "source_domains": [
+        "healthcare.digital"
+      ],
+      "recent_evidence_count": 1,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "mna",
+          "title": "Mapping Microsoft’s Potential Healthcare AI and Technology Acquisition Horizons Across North America, Europe and the Commonwealth",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNN1dnTDFGcVoxakRkVFJWUVQwTGhFdU9xM2FxZXY3c2VyWF9mbnFvZmdVVDE3M2dSeUk2emgtLTZNS3ZxTVU3YS1kMVZ1MURkNFJKR1N0U21OUk1xWERzTVJCYjk2TnZvOVRzU2tWQU9hb3EtbHhIekROdUxLSTlTRm9rSkcwZ2c0UlppY0ZNeU5xZWU5VXFPM0drQzFkQUZjbDJ5UnVRTnNHb1F6MjNINWF2alJPZlFtcnpZZ3ViOWdKYS1uYVZzaG43OTlfU3hQb3VCdTNZVy1rWUk?oc=5",
+          "domain": "healthcare.digital",
+          "source_name": "healthcare.digital",
+          "timestamp_utc": "2026-08-23T18:53:29+00:00",
+          "entity": "MICROSOFT CORP",
+          "ticker": "MSFT",
+          "cik": "789019",
+          "entity_type": "company"
+        }
+      ]
+    },
+    {
       "event_id": "42256b33098e8f93",
       "scanner": "B",
       "entity": "Lithium Corp",
@@ -4868,7 +4868,7 @@
       "baseline": {
         "source": "google_news_rss",
         "query": "\"lithium\" OR \"LTUM\"",
-        "article_count": 90,
+        "article_count": 89,
         "feed_capped": false,
         "current_3h": 0,
         "baseline_3h_median": 0.0,
@@ -4933,8 +4933,8 @@
         "baseline_3h_median": 0.0,
         "short_ratio": 1.0,
         "current_day": 2,
-        "baseline_day_median": 3.5,
-        "long_ratio": 0.667,
+        "baseline_day_median": 3.0,
+        "long_ratio": 0.75,
         "short_history_buckets": 23,
         "daily_history_buckets": 26,
         "news_burst_score": 0.0
@@ -5196,65 +5196,6 @@
       ]
     },
     {
-      "event_id": "1f62e2c963fcfd6c",
-      "scanner": "B",
-      "entity": "Shutterstock, Inc.",
-      "ticker": "SSTK",
-      "entity_type": "company",
-      "event_title": "SSTK Investors Have Opportunity to Join Shutterstock, Inc. Fraud Investigation with SBS Law",
-      "event_timestamp_utc": "2026-08-23T16:59:00+00:00",
-      "categories": [
-        "regulatory_legal"
-      ],
-      "sec_forms": [],
-      "discovery_score": 38.0,
-      "news_burst_score": 7.0,
-      "source_diversity_score": 20.0,
-      "catalyst_quality_score": 80.0,
-      "freshness_score": 82.0,
-      "evidence_quality_score": 33,
-      "youtube_query": "SSTK SSTK Investors Opportunity",
-      "youtube_event_terms": [
-        "SSTK",
-        "Investors",
-        "Opportunity"
-      ],
-      "baseline": {
-        "source": "google_news_rss",
-        "query": "\"shutterstock\" OR \"SSTK\"",
-        "article_count": 100,
-        "feed_capped": true,
-        "current_3h": 0,
-        "baseline_3h_median": 1.0,
-        "short_ratio": 0.5,
-        "current_day": 5,
-        "baseline_day_median": 2.0,
-        "long_ratio": 2.0,
-        "short_history_buckets": 23,
-        "daily_history_buckets": 25,
-        "news_burst_score": 7.0
-      },
-      "source_domains": [
-        "daily-tribune.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "regulatory_legal",
-          "title": "SSTK Investors Have Opportunity to Join Shutterstock, Inc. Fraud Investigation with SBS Law",
-          "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxQMU9ObFozS1JOYUJyVVZoUUZxcWIyWmNFcWYycFd3d0x2SkJYNHl1cERYdU1zM2hwQUh2YjFNSmdMb0V0WnpTUHp6UjJ1WDBXVUVxOVJMWHVmakZVRmNySGl6aC0zWEdlTjBVR2FBQUtIUXJESVhvUWw1OHFqekRTVFNiUXRockhUeEl6MUFpaEQxc181cW1mUk9kQ2RNVW04VEtFdFphTFBzbkVIV2ZrZzAtcW5HVEJ1a0FteXU2RUQxSHZOdVFWeHpVQk9iTmZ6NUJVWjRqZFNSaFBfUmNyNUJQWUVYY2tEd3VmeXBMN1BsTEs2LUhNNTgtVHh0ZVN2U25DOUk0SkFxbDQtc2wzN3J6LXhHQWp1Vl9yQkJkaUp5QmRyODZz?oc=5",
-          "domain": "daily-tribune.com",
-          "source_name": "The Daily Tribune News",
-          "timestamp_utc": "2026-08-23T16:59:00+00:00",
-          "entity": "Shutterstock, Inc.",
-          "ticker": "SSTK",
-          "cik": "1549346",
-          "entity_type": "company"
-        }
-      ]
-    },
-    {
       "event_id": "0963ce4f153181f7",
       "scanner": "B",
       "entity": "Federal Reserve / Rates",
@@ -5458,7 +5399,7 @@
       "baseline": {
         "source": "google_news_rss",
         "query": "\"innodata\" OR \"INOD\"",
-        "article_count": 78,
+        "article_count": 80,
         "feed_capped": false,
         "current_3h": 0,
         "baseline_3h_median": 0.0,
@@ -5609,13 +5550,13 @@
       ]
     },
     {
-      "event_id": "8d465c37828eea7f",
+      "event_id": "5b312f577581485b",
       "scanner": "B",
-      "entity": "MIDDLEBY Corp",
-      "ticker": "MIDD",
+      "entity": "NVIDIA CORP",
+      "ticker": "NVDA",
       "entity_type": "company",
-      "event_title": "Is Middleby (MIDD) Undervalued As Earnings Showed Higher Sales But Lower Net Income?",
-      "event_timestamp_utc": "2026-08-23T17:26:07+00:00",
+      "event_title": "Nvidia Earnings, Jackson Hole and Other Key Things to Watch this Week",
+      "event_timestamp_utc": "2026-08-23T17:00:02+00:00",
       "categories": [
         "earnings_guidance"
       ],
@@ -5626,43 +5567,43 @@
       "catalyst_quality_score": 90.0,
       "freshness_score": 82.0,
       "evidence_quality_score": 33,
-      "youtube_query": "MIDD MIDD Undervalued Earnings",
+      "youtube_query": "NVDA Earnings Jackson Hole",
       "youtube_event_terms": [
-        "MIDD",
-        "Undervalued",
-        "Earnings"
+        "Earnings",
+        "Jackson",
+        "Hole"
       ],
       "baseline": {
         "source": "google_news_rss",
-        "query": "\"middleby\" OR \"MIDD\"",
-        "article_count": 61,
-        "feed_capped": false,
+        "query": "\"nvidia\" OR \"NVDA\"",
+        "article_count": 98,
+        "feed_capped": true,
         "current_3h": 0,
         "baseline_3h_median": 0.0,
         "short_ratio": 1.0,
-        "current_day": 1,
-        "baseline_day_median": 1.0,
-        "long_ratio": 1.0,
+        "current_day": 2,
+        "baseline_day_median": 2.5,
+        "long_ratio": 0.857,
         "short_history_buckets": 23,
-        "daily_history_buckets": 29,
+        "daily_history_buckets": 28,
         "news_burst_score": 0.0
       },
       "source_domains": [
-        "simplywall.st"
+        "barchart.com"
       ],
       "recent_evidence_count": 1,
       "evidence": [
         {
           "source_type": "news_rss",
           "category": "earnings_guidance",
-          "title": "Is Middleby (MIDD) Undervalued As Earnings Showed Higher Sales But Lower Net Income?",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQNzVzYl9pWEEzZXMzU01heG90RDZnYnhPMDJ4Sy1BZlF1alBncWVpbThUcTZWdlEweFBVYTRha0FUY255QzRheFAyVkRzYUN0dEkxTmIwNGVWS0pQRVJwdEg4TmpSZUFMcllvaVRsSElrcHZ6cXhhTll6cEt4RTVCYmgtLVJuODFhVWtra2ZGaTIyazl4YWo2MWZyTTB3S0VELWppVmlqbk5xQi1INFhJdDFpTkFFRFJrdGJOVi0xbVR2eVdXXzVGUEpPS0XSAdIBQVVfeXFMUEZHTnZhY3FxVnBwM1NiQ3FEZjNuUjJYNHJJM3FwLTBRTjVlejVWODlxbF84NmRuS0hUSkNtX0p0aW9nTElrUTdnZXZ3OV9pcWcwdk5UOThoLU9NZDJ6azdHWXdBWW9VX1pORld1WU9MeWVoT1ZnQ1Z6cHNxNktfTlhrdG8xLWNtOFpNdmtBdzVlRHE4bmRnY3pIQmJpME1zUmFBQ1k0dURGMXFZRm8tX2RBaVREU0xLNzRFSEFYMU5NM0dYUlhQa1VKNTlVXzBCd2hn?oc=5",
-          "domain": "simplywall.st",
-          "source_name": "simplywall.st",
-          "timestamp_utc": "2026-08-23T17:26:07+00:00",
-          "entity": "MIDDLEBY Corp",
-          "ticker": "MIDD",
-          "cik": "769520",
+          "title": "Nvidia Earnings, Jackson Hole and Other Key Things to Watch this Week",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVGV1ZU51T0w1ZVFfWEM3M05IWDZDVXlibWlqY01VcWRKWDRiWWVJdFZjWHJpbXgzVnVtN01FdEhvdDM3eUpUdHp4eFJDZWNpMzItdmRxM1VWOUVqazFGTlB1X0Z4RUxWZ2t2cXdNRGpYa1ZobUdNaFJMQ2EzOTVvSG8yclVreGJoYjR6QXg3MVFzeUJtUzVkQ2lkbFRuV084Qy1WLXo5QktDTEI1WGZYVWZ3?oc=5",
+          "domain": "barchart.com",
+          "source_name": "Barchart.com",
+          "timestamp_utc": "2026-08-23T17:00:02+00:00",
+          "entity": "NVIDIA CORP",
+          "ticker": "NVDA",
+          "cik": "1045810",
           "entity_type": "company"
         }
       ]
@@ -5792,7 +5733,7 @@
       "ticker": "OPRA",
       "entity_type": "company",
       "event_title": "Opera San José opens 43rd season with reimagined ‘Don Giovanni’",
-      "event_timestamp_utc": "2026-08-23T14:18:06+00:00",
+      "event_timestamp_utc": "2026-08-23T14:35:20+00:00",
       "categories": [
         "pricing_capacity"
       ],
@@ -5825,7 +5766,7 @@
         "news_burst_score": 12.7
       },
       "source_domains": [
-        "eastbaytimes.com"
+        "mercurynews.com"
       ],
       "recent_evidence_count": 1,
       "evidence": [
@@ -5833,10 +5774,10 @@
           "source_type": "news_rss",
           "category": "pricing_capacity",
           "title": "Opera San José opens 43rd season with reimagined ‘Don Giovanni’",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPRFVNUFpfajU5ZUpaM0QzdzI0OEJ6cHFTbmhnMGwzY1V3TEdLaGIyaTRVa3BYejFrQXlscXpiN0NfVi1YV1ZTMjVNb25RVTZueVM3Vmtwd3RlRG1wMFRhNmpvMWZ1cmVIWFh1UHA2ZFI1dkJlbUxTd2ppWTdfQkVuWFE5MzBUTTZ6MVh5QVYteWdSRDJPRXV6WGF6eF9DaEQxcUt2MNIBqgFBVV95cUxNOW5iajMycEx5dzV0QmV3eGdubENfYnZwUVNFVXkzSXdJOEZIV0hIYkFlQ3A0T284S2t4LVBMTERUMjdTaTQ5dzhqRnFVY3R4Q21oQTJMM2tlSjBuQVJuRW1hd183NUs2Wm5KeTh5SGRlV3ROcXZXaWs5bElyUG9kYlU2VlBtRlEyRmtXS0UtZnozcjlJQ3hRUVdzelF1Rll2eFQtNms5Ylp2UQ?oc=5",
-          "domain": "eastbaytimes.com",
-          "source_name": "East Bay Times",
-          "timestamp_utc": "2026-08-23T14:18:06+00:00",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNa2tnTXpZbFVaTFNVLWt2bzJZaHp0YldnT2NBWGhfVWJQbS10cEgxNkZqOE1XSUtIN0M2ZmdoM0VjVlNVUG5Mc01MM1hLcG11emR6T192UkJpODRIaHR1MGVocnJDZ3E4NlNhX3d5UW44TGVJQTBpNXJ3VFJlTzhpWlhhOTlpcldVN3MtTnVFc2RleUZkbGF1NWZpQS1vbjh4MTJPcktRanHSAagBQVVfeXFMTWtrZ016WWxVWkxTVS1rdm8yWWh6dGJXZ09jQVhoX1ViUG0tdHBIMTZGajhNV0lLSDdDNmZnaDNFY1ZTVVBuTHNNTDNYS3BtdXpkek9fdlJCaTg0SGh0dTBlaHJyQ2dxODZTYV93eVFuOExlSUEwaTVyd1RSZU84aVpYYTk5aXJXVTdzLU51RXNkZXlGZGxhdTVmaUEtb244eDEyT3JLUWpx?oc=5",
+          "domain": "mercurynews.com",
+          "source_name": "The Mercury News",
+          "timestamp_utc": "2026-08-23T14:35:20+00:00",
           "entity": "Opera Ltd",
           "ticker": "OPRA",
           "cik": "1737450",
@@ -5916,6 +5857,65 @@
       ]
     },
     {
+      "event_id": "404a9ba082eefd90",
+      "scanner": "B",
+      "entity": "Microvast Holdings, Inc.",
+      "ticker": "MVST",
+      "entity_type": "company",
+      "event_title": "Microvast Deadline: MVST Investors Have Opportunity to Lead Microvast Holdings, Inc. Securities Fraud Lawsuit",
+      "event_timestamp_utc": "2026-08-23T20:20:53+00:00",
+      "categories": [
+        "regulatory_legal"
+      ],
+      "sec_forms": [],
+      "discovery_score": 37.1,
+      "news_burst_score": 0.0,
+      "source_diversity_score": 20.0,
+      "catalyst_quality_score": 80.0,
+      "freshness_score": 92.0,
+      "evidence_quality_score": 33,
+      "youtube_query": "MVST Deadline MVST Investors",
+      "youtube_event_terms": [
+        "Deadline",
+        "MVST",
+        "Investors"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "\"microvast\" OR \"MVST\"",
+        "article_count": 79,
+        "feed_capped": false,
+        "current_3h": 0,
+        "baseline_3h_median": 0.0,
+        "short_ratio": 1.0,
+        "current_day": 0,
+        "baseline_day_median": 3.0,
+        "long_ratio": 0.25,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 29,
+        "news_burst_score": 0.0
+      },
+      "source_domains": [
+        "morningstar.com"
+      ],
+      "recent_evidence_count": 1,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "regulatory_legal",
+          "title": "Microvast Deadline: MVST Investors Have Opportunity to Lead Microvast Holdings, Inc. Securities Fraud Lawsuit",
+          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQNzNDSWFCRXY4b1plY2VnNlRyT3ozcVlJUzlnZHVDVUVjeklnVnNMc0R0U2pITEhCeDJLc25MVEtEVW4zXzNGZFlIbVE0XzlZcE8wOWU2THJxdFpSbEhhQkxaM2NNdGduNDJLaWJkS3F1Tm0wZjNZVGFpaU9KUHJjSVl0eWtOMFhkVVQ1NVYyNWFqc0x2UVpSX05DX3pEenVWMEVTcjdsenBWZjJBYWFKaDh0eTlkU0tmaU1pTy16LUFETlA0OS1DVGpMWDMxbTdzdkZuek9Jd1FHdkZPdGtHMnBkMEEyWjYyYVdLQmRWUGNOUF9UdHFxX3dGSQ?oc=5",
+          "domain": "morningstar.com",
+          "source_name": "Morningstar",
+          "timestamp_utc": "2026-08-23T20:20:53+00:00",
+          "entity": "Microvast Holdings, Inc.",
+          "ticker": "MVST",
+          "cik": "1760689",
+          "entity_type": "company"
+        }
+      ]
+    },
+    {
       "event_id": "73cd5034e605f446",
       "scanner": "B",
       "entity": "Alphabet Inc.",
@@ -5970,78 +5970,6 @@
           "entity": "Alphabet Inc.",
           "ticker": "GOOGL",
           "cik": "1652044",
-          "entity_type": "company"
-        }
-      ]
-    },
-    {
-      "event_id": "213327dd073365e3",
-      "scanner": "B",
-      "entity": "NVIDIA CORP",
-      "ticker": "NVDA",
-      "entity_type": "company",
-      "event_title": "Citi expects Nvidia stock to trade higher post earnings",
-      "event_timestamp_utc": "2026-08-23T11:47:07+00:00",
-      "categories": [
-        "earnings_guidance"
-      ],
-      "sec_forms": [],
-      "discovery_score": 36.7,
-      "news_burst_score": 0.0,
-      "source_diversity_score": 20.0,
-      "catalyst_quality_score": 90.0,
-      "freshness_score": 68.0,
-      "evidence_quality_score": 45,
-      "youtube_query": "NVDA Citi expects stock",
-      "youtube_event_terms": [
-        "Citi",
-        "expects",
-        "stock"
-      ],
-      "baseline": {
-        "source": "google_news_rss",
-        "query": "\"nvidia\" OR \"NVDA\"",
-        "article_count": 98,
-        "feed_capped": true,
-        "current_3h": 0,
-        "baseline_3h_median": 0.0,
-        "short_ratio": 1.0,
-        "current_day": 2,
-        "baseline_day_median": 2.5,
-        "long_ratio": 0.857,
-        "short_history_buckets": 23,
-        "daily_history_buckets": 28,
-        "news_burst_score": 0.0
-      },
-      "source_domains": [
-        "finance.yahoo.com"
-      ],
-      "recent_evidence_count": 2,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "earnings_guidance",
-          "title": "Citi expects Nvidia stock to trade higher post earnings",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPTVZJUTJuOWtlQnc3aExvU3R1YkFFMEwtZFVmLU1JdUJsY0I5aGp2ZmRlVlNmRjZORjBYV1NidFVBVW9WVEgtOUk2bVJ5RHZYWlZGMTM2YWpscUo1c2FIQklZRnVrTWFvSjNwQTlnalpBM29ROVpOU20wYnQ4WnJVM1V1NE9iX1EtdFNjN0hZVWJfeHN3d0ZKcWZ2WkQ?oc=5",
-          "domain": "finance.yahoo.com",
-          "source_name": "Yahoo Finance",
-          "timestamp_utc": "2026-08-23T11:47:07+00:00",
-          "entity": "NVIDIA CORP",
-          "ticker": "NVDA",
-          "cik": "1045810",
-          "entity_type": "company"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "earnings_guidance",
-          "title": "Nvidia's Q2 earnings to test resurgent AI trade",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPeG1sTG1ra3lPVXF0YVI1TlRmUEg2bGJ2cjlzNThjQWV2TFVERTZnQlVnWVVNT29JaDhhYUZ4bVRzVFpIemdvZmozOTZLS05pTW5Ob1BPS3phU2hNSUpoLTh2VkZUZ290Y2NIeEtQQ2IxNmZBRnhRQkpGelUzcldoS2ZHd19EX0gtQjFhT0g5QTdrTEdJc0Fj?oc=5",
-          "domain": "finance.yahoo.com",
-          "source_name": "Yahoo Finance",
-          "timestamp_utc": "2026-08-23T11:25:02+00:00",
-          "entity": "NVIDIA CORP",
-          "ticker": "NVDA",
-          "cik": "1045810",
           "entity_type": "company"
         }
       ]
@@ -6852,8 +6780,8 @@
         "article_count": 99,
         "feed_capped": true,
         "current_3h": 0,
-        "baseline_3h_median": 1.0,
-        "short_ratio": 0.5,
+        "baseline_3h_median": 0.0,
+        "short_ratio": 1.0,
         "current_day": 4,
         "baseline_day_median": 3.0,
         "long_ratio": 1.25,
@@ -7023,65 +6951,6 @@
           "ticker": null,
           "cik": null,
           "entity_type": "macro"
-        }
-      ]
-    },
-    {
-      "event_id": "404a9ba082eefd90",
-      "scanner": "B",
-      "entity": "Microvast Holdings, Inc.",
-      "ticker": "MVST",
-      "entity_type": "company",
-      "event_title": "Microvast Deadline: MVST Investors Have Opportunity to Lead Microvast Holdings, Inc. Securities Fraud Lawsuit",
-      "event_timestamp_utc": "2026-08-23T18:18:00+00:00",
-      "categories": [
-        "regulatory_legal"
-      ],
-      "sec_forms": [],
-      "discovery_score": 35.6,
-      "news_burst_score": 0.0,
-      "source_diversity_score": 20.0,
-      "catalyst_quality_score": 80.0,
-      "freshness_score": 82.0,
-      "evidence_quality_score": 33,
-      "youtube_query": "MVST Deadline MVST Investors",
-      "youtube_event_terms": [
-        "Deadline",
-        "MVST",
-        "Investors"
-      ],
-      "baseline": {
-        "source": "google_news_rss",
-        "query": "\"microvast\" OR \"MVST\"",
-        "article_count": 78,
-        "feed_capped": false,
-        "current_3h": 0,
-        "baseline_3h_median": 0.0,
-        "short_ratio": 1.0,
-        "current_day": 0,
-        "baseline_day_median": 3.0,
-        "long_ratio": 0.25,
-        "short_history_buckets": 23,
-        "daily_history_buckets": 29,
-        "news_burst_score": 0.0
-      },
-      "source_domains": [
-        "morningstar.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "regulatory_legal",
-          "title": "Microvast Deadline: MVST Investors Have Opportunity to Lead Microvast Holdings, Inc. Securities Fraud Lawsuit",
-          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQNzNDSWFCRXY4b1plY2VnNlRyT3ozcVlJUzlnZHVDVUVjeklnVnNMc0R0U2pITEhCeDJLc25MVEtEVW4zXzNGZFlIbVE0XzlZcE8wOWU2THJxdFpSbEhhQkxaM2NNdGduNDJLaWJkS3F1Tm0wZjNZVGFpaU9KUHJjSVl0eWtOMFhkVVQ1NVYyNWFqc0x2UVpSX05DX3pEenVWMEVTcjdsenBWZjJBYWFKaDh0eTlkU0tmaU1pTy16LUFETlA0OS1DVGpMWDMxbTdzdkZuek9Jd1FHdkZPdGtHMnBkMEEyWjYyYVdLQmRWUGNOUF9UdHFxX3dGSQ?oc=5",
-          "domain": "morningstar.com",
-          "source_name": "Morningstar",
-          "timestamp_utc": "2026-08-23T18:18:00+00:00",
-          "entity": "Microvast Holdings, Inc.",
-          "ticker": "MVST",
-          "cik": "1760689",
-          "entity_type": "company"
         }
       ]
     },
@@ -7258,6 +7127,65 @@
           "entity": "Intercontinental Exchange, Inc.",
           "ticker": "ICE",
           "cik": "1571949",
+          "entity_type": "company"
+        }
+      ]
+    },
+    {
+      "event_id": "3729118e516b20d3",
+      "scanner": "B",
+      "entity": "New York City REIT, Inc.",
+      "ticker": "NYC",
+      "entity_type": "company",
+      "event_title": "NYC weather: AM shower, PM thunderstorm Sunday| AccuWeather forecast",
+      "event_timestamp_utc": "2026-08-23T13:47:49+00:00",
+      "categories": [
+        "earnings_guidance"
+      ],
+      "sec_forms": [],
+      "discovery_score": 35.5,
+      "news_burst_score": 0.0,
+      "source_diversity_score": 20.0,
+      "catalyst_quality_score": 90.0,
+      "freshness_score": 68.0,
+      "evidence_quality_score": 33,
+      "youtube_query": "NYC weather shower thunderstorm",
+      "youtube_event_terms": [
+        "weather",
+        "shower",
+        "thunderstorm"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "\"new york city reit\" OR \"NYC\"",
+        "article_count": 99,
+        "feed_capped": true,
+        "current_3h": 0,
+        "baseline_3h_median": 1.0,
+        "short_ratio": 0.5,
+        "current_day": 3,
+        "baseline_day_median": 3.0,
+        "long_ratio": 1.0,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 26,
+        "news_burst_score": 0.0
+      },
+      "source_domains": [
+        "abc7ny.com"
+      ],
+      "recent_evidence_count": 1,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "earnings_guidance",
+          "title": "NYC weather: AM shower, PM thunderstorm Sunday| AccuWeather forecast",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5WWG9pb3dLZDJkOGx3YTBvbUdjV3JHa2RGTTFHdm9oVXhGRUVERXBXVjJ1LU1WR2tVTW5GeEJQNlEzSnBNWURoZ2JsR252RlNkS1BLZ3p6WmwyT3JJSGZyZXY5ekN3YUtDSmFCT0hoblZ3NFNNOG5aX3p30gF_QVVfeXFMTzMxRmdCTkVpSFd2cFpVWGFUTF84bDJRT05oUS03UjVLWW9PUEgwempDTGUydHZPZ2FySG11bWNSalhxeVRpVXBoUFoza0JybVBLYTljQm1BWGtCWER1c19IVnA0YzFvTHI2N042U2VZbFhGY1ZHdm5aZG1veFdUMA?oc=5",
+          "domain": "abc7ny.com",
+          "source_name": "ABC7 New York",
+          "timestamp_utc": "2026-08-23T13:47:49+00:00",
+          "entity": "New York City REIT, Inc.",
+          "ticker": "NYC",
+          "cik": "1595527",
           "entity_type": "company"
         }
       ]
@@ -7943,9 +7871,9 @@
         "current_3h": 0,
         "baseline_3h_median": 0.0,
         "short_ratio": 1.0,
-        "current_day": 3,
+        "current_day": 2,
         "baseline_day_median": 3.0,
-        "long_ratio": 1.0,
+        "long_ratio": 0.75,
         "short_history_buckets": 23,
         "daily_history_buckets": 25,
         "news_burst_score": 0.0
@@ -9663,9 +9591,9 @@
         "current_3h": 0,
         "baseline_3h_median": 0.0,
         "short_ratio": 1.0,
-        "current_day": 3,
+        "current_day": 2,
         "baseline_day_median": 3.0,
-        "long_ratio": 1.0,
+        "long_ratio": 0.75,
         "short_history_buckets": 23,
         "daily_history_buckets": 25,
         "news_burst_score": 0.0
@@ -9836,9 +9764,9 @@
         "current_3h": 0,
         "baseline_3h_median": 0.0,
         "short_ratio": 1.0,
-        "current_day": 3,
+        "current_day": 2,
         "baseline_day_median": 3.0,
-        "long_ratio": 1.0,
+        "long_ratio": 0.75,
         "short_history_buckets": 23,
         "daily_history_buckets": 25,
         "news_burst_score": 0.0
@@ -10009,9 +9937,9 @@
         "current_3h": 0,
         "baseline_3h_median": 0.0,
         "short_ratio": 1.0,
-        "current_day": 3,
+        "current_day": 2,
         "baseline_day_median": 3.0,
-        "long_ratio": 1.0,
+        "long_ratio": 0.75,
         "short_history_buckets": 23,
         "daily_history_buckets": 25,
         "news_burst_score": 0.0
