@@ -62,7 +62,7 @@ jobs:
       - name: Collect external catalysts
         if: steps.guard.outputs.run == 'true'
         env:
-          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT || 'youtube-catalyst-scanner/1.0 contact:https://github.com/pianissix7mo/youtube-catalyst-scanner' }}
         run: python collect_external.py
 
       - name: Build baseline and select Top 20
