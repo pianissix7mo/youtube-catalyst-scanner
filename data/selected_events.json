@@ -1,9 +1,9 @@
 {
   "scanner": "B",
-  "generated_at_utc": "2026-08-23T21:47:56.658875+00:00",
+  "generated_at_utc": "2026-08-23T21:49:17.714374+00:00",
   "baseline_source": "google_news_rss+rolling_local",
   "youtube_search_budget_per_run": 20,
-  "candidate_count_before_youtube": 16,
+  "candidate_count_before_youtube": 15,
   "events": [
     {
       "event_id": "79cc14b41ed3f245",
@@ -46,17 +46,13 @@
       },
       "source_domains": [
         "13wmaz.com",
-        "alaskasnewssource.com",
         "aljazeera.com",
         "axios.com",
-        "azfamily.com",
         "butlereagle.com",
         "cbs19.tv",
         "cbsnews.com",
         "cpapracticeadvisor.com",
         "dtnpf.com",
-        "foxcarolina.com",
-        "indiatribune.com",
         "kptv.com",
         "kpvi.com",
         "kurdistan24.net",
@@ -67,12 +63,9 @@
         "thehill.com",
         "washingtonpost.com",
         "washingtontimes.com",
-        "wbay.com",
-        "wdam.com",
-        "wfla.com",
-        "wsmv.com"
+        "wfla.com"
       ],
-      "recent_evidence_count": 26,
+      "recent_evidence_count": 19,
       "evidence": [
         {
           "source_type": "news_rss",
@@ -108,19 +101,6 @@
           "domain": "washingtontimes.com",
           "source_name": "Washington Times",
           "timestamp_utc": "2026-08-23T20:17:25+00:00",
-          "entity": "Tariffs / Trade",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "macro"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "macro_rates",
-          "title": "US lawmakers criticise Trump tariffs after Canada trade talks collapse",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeVpKQWpCdGYyY1dNaHQ4b2stNUp5cjNEdXVidVNGN1c0X0wybFlyN04ySk5BV1ZpMDZEXzdRQ25tcXEwSWE0SExPcXNic2RuY2VtUGswQjhkYzRlSzBxMkk3S2dqSExBUEljNm5PSGRJdGNHeXdVbnljc0g3LWJVSnphakJEYnloaS1qaHdvTzRXNl94bmZsVUtLOTJVb2NOOTVvTl9lbWdldw?oc=5",
-          "domain": "indiatribune.com",
-          "source_name": "India Tribune - Chicago",
-          "timestamp_utc": "2026-08-23T20:01:38+00:00",
           "entity": "Tariffs / Trade",
           "ticker": null,
           "cik": null,
@@ -198,7 +178,7 @@
           "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPLW82cENaMFFiS0hlaWh2UHZXWkJHeUJiU1d2QXA3RS04SllJakJqSXZuS1ZmVFl3RnJEeExUeG50U2MydXpoZVdQUGxaNFdpY21Ma09QX0ZMaUNvOW1SeTdYbG9xQnA0OVFZRVJ2dUloWDNQS2lfUF8wQUNrbzNRd3ZtMUV0UlVTOTNPOWVPTExmSnhxWjhzTi16NTFGdVU3bVExSGcyend2MHB3dXBEbUhCeVlidjkwdWdDNTg5NFk5emdJTVhFdE9sZ1A3ZWk3SERFVDZfTTllMVU?oc=5",
           "domain": "kpvi.com",
           "source_name": "KPVI",
-          "timestamp_utc": "2026-08-23T15:30:47+00:00",
+          "timestamp_utc": "2026-08-23T15:45:48+00:00",
           "entity": "Tariffs / Trade",
           "ticker": null,
           "cik": null,
@@ -285,11 +265,11 @@
         {
           "source_type": "news_rss",
           "category": "macro_rates",
-          "title": "US tariffs prompt retaliation from Canada",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNaURnZzR5V0s3OE5NVU1ZMXNQaFl1QWV2V0xrT1Uxa1k2TU5KeHgtTXpFcWxfWDlIejVEdW5pWUVUZ3pMZUlfN0tIc2tlNGJLdjZVOU9lWWh4MmlNNzV6QjN1ZnF3UDdHU3NuaVRITDNocjhCU0NtSTNWWmdWTlZ1c3VDamppdw?oc=5",
-          "domain": "azfamily.com",
-          "source_name": "AZ Family",
-          "timestamp_utc": "2026-08-23T09:24:00+00:00",
+          "title": "U.S. set to impose 50% tariffs on Canada after failed talks; Canada to match them \"dollar for dollar\"",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWVp1OXJCTUlOWC16bG1TeFdCVHVsRDgxenJhcGVuLVFSY3lvNm84VnZmd000WG5EMW52VTBPdE1PSnpUM1BpM3NTWl9sSnJsYUtrVVRLZXpfaHlDeHFfRDIwVGtJNWQ4NzI5QUtqREZIWk9tOFdHOW92enFsbjRYZ1JLbGxwQVBBYzk5VW5CcG9Dc1g5ZE0wWE4wcw?oc=5",
+          "domain": "cbsnews.com",
+          "source_name": "CBS News",
+          "timestamp_utc": "2026-08-23T06:14:20+00:00",
           "entity": "Tariffs / Trade",
           "ticker": null,
           "cik": null,
@@ -298,11 +278,11 @@
         {
           "source_type": "news_rss",
           "category": "macro_rates",
-          "title": "US tariffs prompt retaliation from Canada",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPV2FYWmt6d0VuYWpubHl3OGY0VkJWeTB5LWdXbHR0alk3MUltczBURDdVQmh4cVUtYXdBSEszVzFwZG1uSHVKU1ZMWjlZeHNrVUJXamhOZ3hSRVdlQWF6bWNtV19zYTZ5SC1SQjhncndzRjBTTjdaU1k2ZmdJUmFpS0xOX1F6cHdyRU9uSVVqSmEwQQ?oc=5",
-          "domain": "alaskasnewssource.com",
-          "source_name": "Alaska's News Source",
-          "timestamp_utc": "2026-08-23T09:24:00+00:00",
+          "title": "Canada to hit US with retaliatory tariffs as trade war escalates",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdUttUHYtVERQN3NfQU56RGhkLTBqMGRnZ3czM1JPQzVqOFNnODl3UzI3Uy0tdTJaQ2VDbGVJYkxMOWxyOGRiSWREU01IT2U5YXQzakktUGVrX1drVUViQ3lUXzAzYnA1NVhNZ2Q5ZnB4TkFrdnliNG5UenEtTVJQc2FJUldtMzF4Ry0xRW54U2M4a1lCRU5HNjBRcEI0UUtuUW1iMUtVRVLSAa4BQVVfeXFMTkNOd0hDU1IxTVNCZ1RZc2R0ejFjbXg3aUY1UGhJajQweUhIOVBFN2xYcFJyRGJ4MzE2LUZIb09EYnVWV1FsWUVTY3JNS0M1UWxEN1pIVldiZGhFUTlEOFd1NVNaakY1NjBSYmFWa3U2Ul9Tb3c2Ymc2LWVCNlFRVnZ5SXNOT1hmOFpjMUVoMXdyWVBGTW85YzdPYUVENGR6M0V1OG1nVGhIOGFsajhR?oc=5",
+          "domain": "aljazeera.com",
+          "source_name": "Al Jazeera",
+          "timestamp_utc": "2026-08-23T05:44:03+00:00",
           "entity": "Tariffs / Trade",
           "ticker": null,
           "cik": null,
@@ -311,11 +291,11 @@
         {
           "source_type": "news_rss",
           "category": "macro_rates",
-          "title": "US tariffs prompt retaliation from Canada",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNR3pyc3R5SkV4MktjWWFwYi0tMkJwWk1sd3IzdFpoV2FjcUt2SjNsWm5uMUlDdWo0R1EyNjE2NE9NSGNRbm83R3lUeTdMOFhqZUZUT3BwZ1FhazZ0NUl3NjgtaWpWYmdKVEpQYUM4ZThaTjYxVzZJSmwxMVduMFNwag?oc=5",
-          "domain": "wsmv.com",
-          "source_name": "WSMV",
-          "timestamp_utc": "2026-08-23T09:24:00+00:00",
+          "title": "Canada hits back with new tariffs after failed trade talks with US",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQM3oyaVhHVzhFWGVKZWtJOTJqa1RuZjE3ckh4TWItbEx2TExoVl80d1lYX2F3VWFjYW5tdlBDZEo3cHMxRFNDWVNPaTh6TUtJUVg3bms0S1Q5REZHbHhnanNJeXZHdk5fVXlnemFGYlJjdm44NWVaQlFFMHB6UjJZdGNMX3A4R2w5QzhBM0hHLTdvTGRZeDBWLTBudGN2YkdHd0x1S2tjT2hWSHRET3JJMkNUeWhUUzR6S3lFYVY5b3BxM2lidHlzVmJydG5kN1FMQkNXM3luaw?oc=5",
+          "domain": "lemonde.fr",
+          "source_name": "Le Monde.fr",
+          "timestamp_utc": "2026-08-23T03:24:37+00:00",
           "entity": "Tariffs / Trade",
           "ticker": null,
           "cik": null,
@@ -324,11 +304,11 @@
         {
           "source_type": "news_rss",
           "category": "macro_rates",
-          "title": "US tariffs prompt retaliation from Canada",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPVnFrakdwMFBLVjNHMUxtY0dYeUhpcUROdTc2VmlCbzYyWVFGc0JkNVNKN1IwYndvMks0eDNJamlrTWFzS3ZDQjVaVE1xMEFPSmw4dDJTbDZ5V1JrdnpRckpZZlNxWXdCaDRDaWc1MVVqWEM0aFVZM245WTBKNE1BMzZfQkhJSDg2WEE?oc=5",
-          "domain": "foxcarolina.com",
-          "source_name": "FOX Carolina News",
-          "timestamp_utc": "2026-08-23T09:24:00+00:00",
+          "title": "Canada sets retaliatory tariffs in response to 50% U.S. levies as trade talks fail",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNUUpHSzVFU2ZTNXZoRGw0MVZQVnRLR2lDdU9UeUdveVBZTzhzSm04UHdBUGZ1SUJsczZ6UGlESGpsZW1lZ1ZUV0ktWDU0RHkzVVBfOHk0dnJTV2lXeGpEQlFKYzZIdVBaeFlocm16NDdtaEdxd05ROGtlM2RCOV92U0NyUGUzVFZ2MFp0b0J3ZkRNM3VEMlRCRWdFV0dRck1IREFsa1dRMXYxdUFIU1NMM2F3NTg3MjdZdEVELXUydm1hRS1xbDZ6Rg?oc=5",
+          "domain": "washingtonpost.com",
+          "source_name": "The Washington Post",
+          "timestamp_utc": "2026-08-22T23:09:00+00:00",
           "entity": "Tariffs / Trade",
           "ticker": null,
           "cik": null,
@@ -337,28 +317,28 @@
       ]
     },
     {
-      "event_id": "523bbe8d5e5ba9a5",
+      "event_id": "7dbfb2c4ae9967ab",
       "scanner": "B",
       "entity": "Tariffs / Trade",
       "ticker": null,
       "entity_type": "macro",
-      "event_title": "Trump to lower beef tariffs despite objections (copy)",
-      "event_timestamp_utc": "2026-08-23T20:30:00+00:00",
+      "event_title": "What Canadian Goods Are Getting Hit With New Tariffs?",
+      "event_timestamp_utc": "2026-08-23T21:10:20+00:00",
       "categories": [
         "macro_rates"
       ],
       "sec_forms": [],
-      "discovery_score": 60.8,
+      "discovery_score": 59.7,
       "news_burst_score": 21.6,
-      "source_diversity_score": 88.0,
+      "source_diversity_score": 72.0,
       "catalyst_quality_score": 85.0,
-      "freshness_score": 92.0,
-      "evidence_quality_score": 48,
-      "youtube_query": "Tariffs / Trade Trump lower beef",
+      "freshness_score": 100.0,
+      "evidence_quality_score": 57,
+      "youtube_query": "Tariffs / Trade What Canadian Goods",
       "youtube_event_terms": [
-        "Trump",
-        "lower",
-        "beef"
+        "What",
+        "Canadian",
+        "Goods"
       ],
       "baseline": {
         "source": "google_news_rss",
@@ -376,26 +356,22 @@
         "news_burst_score": 21.6
       },
       "source_domains": [
-        "auburnpub.com",
-        "dailyprogress.com",
-        "journalstar.com",
-        "magicvalley.com",
-        "missoulian.com",
-        "nwitimes.com",
-        "qconline.com",
-        "roanoke.com",
-        "tucson.com"
+        "facebook.com",
+        "finance.yahoo.com",
+        "nbcchicago.com",
+        "nytimes.com",
+        "wkrn.com"
       ],
-      "recent_evidence_count": 9,
+      "recent_evidence_count": 5,
       "evidence": [
         {
           "source_type": "news_rss",
           "category": "macro_rates",
-          "title": "Trump to lower beef tariffs despite objections (copy)",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5od1lCY0JCTHBWeFZmc1NQcVVCY1hqY2oxV24yUTBBTTRXR2pSRGZ0dnQ1SGh5M3BSS3BRaUhCZmtkVWd6SmY0bEsxcVZxR3Z4c1R4aWdBbFRLZENHdjMycHNndmhtM3lrNjROS05OOFI0R1FTNmhxc2V3?oc=5",
-          "domain": "nwitimes.com",
-          "source_name": "nwitimes.com",
-          "timestamp_utc": "2026-08-23T20:30:00+00:00",
+          "title": "What Canadian Goods Are Getting Hit With New Tariffs?",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVG55djVDb2w0eVNTOXlwbjN0MDl0ZWhrNmZYckM4RHdVNUhNYUVlbGFaSUlhTkJwWWtSaUtMRTVoMDdHcE5ITWd6MkVfYUxqNVdpZGhfZ1FQVllheHhzZzNhQ0pPbGhnMG1waTFTSGJEWjJJd0Uwa1k2N1VJYjkwYXhSZGpaQWdsRkEwLWZuUHJHS0xTR21mLXdfdllxYXcx?oc=5",
+          "domain": "finance.yahoo.com",
+          "source_name": "Yahoo Finance",
+          "timestamp_utc": "2026-08-23T21:10:20+00:00",
           "entity": "Tariffs / Trade",
           "ticker": null,
           "cik": null,
@@ -404,11 +380,11 @@
         {
           "source_type": "news_rss",
           "category": "macro_rates",
-          "title": "Trump to lower beef tariffs despite objections (copy)",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1IUFdsTkVaS05jdmFpOTRLLXlaMXBqakNEamN4Q2lMQlBoY3RaT2Naa3A1UkJaMHloVDZZOFUyUGk4VlBjVU9IYjdsY2tTNGFZaUFVdm9tUFVUNDd1bklMbVVoT19jVkdram1VQzdWTHM3ZTRBNmtSWGlvRU4?oc=5",
-          "domain": "missoulian.com",
-          "source_name": "The Missoulian",
-          "timestamp_utc": "2026-08-23T20:30:00+00:00",
+          "title": "Talks between the U.S. and Canada failed late Friday to prevent new tariffs on Canadian goods, prompting Canada to promise “dollar for dollar” retaliation. Here is what to know about the tariffs and why the negotiations fell apart. https://nyti.ms/46hI4ID",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNQVJCRmswdFRHZ0VxMDdCRERYckFRMzRzYnpOTlRtVFZUR3JvOVNiaGhMUEZYZVBRcU9MRkYyOEpLNVpoc3ZYdVctUjBZemZIWkVCVGVpT1JocmtEU0p3Y19mYVlMT1RZN0k5WGNjcDdET3ZIdGI4Z21XWWJ6b2Q4V1dOdlNXZTN5b3luWVg1dURDbzE2WlVDZEo5OW05a1VtTmlQUng2d3NGcUY1LXdEYjJMX0NUcWpaWTk3T2U1d2VRanlDT1g3LU9ETHQ0a3UwcEQw?oc=5",
+          "domain": "facebook.com",
+          "source_name": "facebook.com",
+          "timestamp_utc": "2026-08-23T17:55:05+00:00",
           "entity": "Tariffs / Trade",
           "ticker": null,
           "cik": null,
@@ -417,11 +393,11 @@
         {
           "source_type": "news_rss",
           "category": "macro_rates",
-          "title": "Trump to lower beef tariffs despite objections (copy)",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBRWFZoa0w0bnRyNjB3UGlOZFZsaUZMV0RmWlFrMnlBWEZuTEg1OEQ1a2JnaHQxNVVHWEppeVU1dkJjVnNMVlFXT2JNeGtiLVdCUWVzYmdOSElKd2JycWdrSFo2S0kyTzI1bXl4ZTcwSTRNMDFqYmEtZ0RDU3NDUQ?oc=5",
-          "domain": "journalstar.com",
-          "source_name": "Lincoln Journal Star",
-          "timestamp_utc": "2026-08-23T20:30:00+00:00",
+          "title": "What to know about Trump's 50% tariffs on Canadian goods that just went into effect",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSmJucXJoR2xjSkdpMHctWjRvSVJDYVdSSHQzNk1uUk4teXlGbjFLWm01bDlfSHlWUzJYdjdGVlZNM0R2R0tQYzdOWFFXQkNPT1ZSLTg3TnpfaTdzSk0wQ3hGblphYVNTNnJEN093SDFLZHFuMGZEQ1JNVmRYOFRsNmZTM3JkZnNoa0oySUdFSjRKRDltYmwzMHNkczVNS2tkUU0yeGlwRVjSAbABQVVfeXFMT05LZXFKUHk4WlVsTGtEU2ZhNEtHMzdQNnUxMVV1b3Y3S0dWdE9Jcm1kcC1TQm56bzhqVlZyYS1DS2puRDFmNENhWW0yamhxSDE2SDhZcE0zVk1EelRxUUtRVGpZV3RQTC1hOEpLSWY4cVFmSWx3dUYxdDBqRFVSbHVvQUgwcEowM2NVMUUtQXhYMnZTd285YTVSV3VGSDdWbUpUaVptUU1UdkJZNmZpV1Y?oc=5",
+          "domain": "nbcchicago.com",
+          "source_name": "NBC 5 Chicago",
+          "timestamp_utc": "2026-08-23T17:10:21+00:00",
           "entity": "Tariffs / Trade",
           "ticker": null,
           "cik": null,
@@ -430,11 +406,11 @@
         {
           "source_type": "news_rss",
           "category": "macro_rates",
-          "title": "Trump to lower beef tariffs despite objections (copy)",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE94STZjMDBPMmxsV3hzNDN4VUlIM2plVk9Wb1hrMGxYTHFzdjBFVk56eUdCNUNWSVhMMnRNdHJiSGl5N2VPUEZwd3BzeVBuRERZcUF4Y0RTV1JEaVVxUzZ1TWhRMEpheE1fdzducHo0aFJvZ0JPcHB5NTN3?oc=5",
-          "domain": "qconline.com",
-          "source_name": "Dispatch Argus",
-          "timestamp_utc": "2026-08-23T20:30:00+00:00",
+          "title": "US places 50% tariffs on Canadian goods",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQTV9HSzI4clc4NVBlRTRtLW9rM3B1RjVJSE9HY1lrOHNXVEV3RFlxMGZJbHp0bDlrSkM4bTdvMExZNkJSSzdiMUgteXRkOHE0d3haWnFNRjhFbnlfOWZfMWhMU3N4dXNmUzVOSzRnbVdvWlZHSzFoNlZNUjdYTUpwZg?oc=5",
+          "domain": "wkrn.com",
+          "source_name": "WKRN News 2",
+          "timestamp_utc": "2026-08-23T12:44:26+00:00",
           "entity": "Tariffs / Trade",
           "ticker": null,
           "cik": null,
@@ -443,63 +419,11 @@
         {
           "source_type": "news_rss",
           "category": "macro_rates",
-          "title": "Trump to lower beef tariffs despite objections (copy)",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPcWY2REU0Ni1xQmtadFRod0EzaUV6aGhNdUdiYi0yamFmRFJOUmxnQWt1MUZPQTZUM1p4Zi1qRGVYSzhhZllQMmJUZjlXaVUyNEpBZExWN2NMX2R1MHJRYWJQc2tPanE1WEt3QXpHaXc3UEhMNnR2bWVzcVVEaldYbg?oc=5",
-          "domain": "dailyprogress.com",
-          "source_name": "The Daily Progress",
-          "timestamp_utc": "2026-08-23T20:30:00+00:00",
-          "entity": "Tariffs / Trade",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "macro"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "macro_rates",
-          "title": "Trump to lower beef tariffs despite objections (copy)",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE53T0swMTYzZHY3X1JURGhsNU13SkgwSE9RdlRwOGJldnBibVB3QTlMZ3RFYXBBYWVoMnRmSmVuQWpqWWRfbTlSb015dXp6NFZBdDZ2OGxQbGtTWERJUFpFTThGQnllR21LQU5QSEhQV0YyMFlNcm1KMWE2amk1UQ?oc=5",
-          "domain": "magicvalley.com",
-          "source_name": "magicvalley.com",
-          "timestamp_utc": "2026-08-23T20:30:00+00:00",
-          "entity": "Tariffs / Trade",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "macro"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "macro_rates",
-          "title": "USA-TRUMP/TARIFFS-CANADA",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5EM3pFbWtqcHc0cUFRTFV5NERueXdNeE01b0NLTlEyYUNOUDFJdzctOTdmd0ZhcXhXbmU3eFQwd0luVUdZcDRyU18tbUdiS3RrWHk3ZUNsZ0RwOWJoeHc0MEFfaksybWlZTGtfZjF1bUlFRm1YR0FkQg?oc=5",
-          "domain": "auburnpub.com",
-          "source_name": "auburnpub.com",
-          "timestamp_utc": "2026-08-23T16:54:34+00:00",
-          "entity": "Tariffs / Trade",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "macro"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "macro_rates",
-          "title": "USA-TRUMP/TARIFFS-CANADA",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1QeXl6SVJjd0E4UFRGME04Z2JhUzM0VWQzblV6eGtFb3JxNUh5UDVXZm9uNDU5MF9sVnBPVXhEbGtKUUdic0FTMWw4OW4tY3dTSF9lZzR3d3hFYWRBdldqVEhDVVczWjY2YVdaN2hSdkEydWhp?oc=5",
-          "domain": "tucson.com",
-          "source_name": "Arizona Daily Star",
-          "timestamp_utc": "2026-08-23T16:24:51+00:00",
-          "entity": "Tariffs / Trade",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "macro"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "macro_rates",
-          "title": "USA-TRUMP/TARIFFS-CANADA",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBNaWF4YWNWLXB0UVFfZ0lmZjJYa25tWmRpODVwZy1iSnFLc2lyZGx6QWxTOW5nQWVteERMRU5FcHgyRnJrbzhVV0RELUQzUHl4NlZMWmUybi1BV1dzcmdSMjgzTTZHbHYtaU1lZnJ1YUQwMzA2RWc?oc=5",
-          "domain": "roanoke.com",
-          "source_name": "Roanoke Times",
-          "timestamp_utc": "2026-08-23T16:15:31+00:00",
+          "title": "What Canadian Goods Will Take Trump’s 50% Tariffs? Some Pretty Strange Items.",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSWJiTC0zaE8wNVhVNERJVzhCWGlTWmY3RjZvRjFZMUxSRDVZc0VVOHlZSndWQjJCc0xheW1BbWhFS081R3VmMWViZ3FLN0szbGxuOTdMOWpmcnZrVUF3Z1VxZkdLdnJsWTB4VUh6ejBFenhRLTc1MXRGT1RFdXR4NnBiQS1qWmpFVnlncm1TckRNVDhxd2Jv?oc=5",
+          "domain": "nytimes.com",
+          "source_name": "The New York Times",
+          "timestamp_utc": "2026-08-23T09:44:58+00:00",
           "entity": "Tariffs / Trade",
           "ticker": null,
           "cik": null,
@@ -535,16 +459,16 @@
       "baseline": {
         "source": "google_news_rss",
         "query": "\"paramount skydance\" OR \"PSKY\"",
-        "article_count": 100,
-        "feed_capped": true,
+        "article_count": 94,
+        "feed_capped": false,
         "current_3h": 1,
         "baseline_3h_median": 0.0,
         "short_ratio": 2.0,
-        "current_day": 2,
-        "baseline_day_median": 4.0,
-        "long_ratio": 0.6,
+        "current_day": 1,
+        "baseline_day_median": 2.0,
+        "long_ratio": 0.667,
         "short_history_buckets": 23,
-        "daily_history_buckets": 20,
+        "daily_history_buckets": 29,
         "news_burst_score": 18.0
       },
       "source_domains": [
@@ -652,6 +576,93 @@
       ]
     },
     {
+      "event_id": "43ac577812633314",
+      "scanner": "B",
+      "entity": "Paramount Skydance Corporation",
+      "ticker": "PSKY",
+      "entity_type": "company",
+      "event_title": "Judge blocks Paramount's $110B Warner Bros. mer...",
+      "event_timestamp_utc": "2026-08-23T13:37:24+00:00",
+      "categories": [
+        "mna"
+      ],
+      "sec_forms": [],
+      "discovery_score": 50.2,
+      "news_burst_score": 18.0,
+      "source_diversity_score": 55.0,
+      "catalyst_quality_score": 94.0,
+      "freshness_score": 68.0,
+      "evidence_quality_score": 39,
+      "youtube_query": "PSKY Judge blocks 110B",
+      "youtube_event_terms": [
+        "Judge",
+        "blocks",
+        "110B"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "\"paramount skydance\" OR \"PSKY\"",
+        "article_count": 94,
+        "feed_capped": false,
+        "current_3h": 1,
+        "baseline_3h_median": 0.0,
+        "short_ratio": 2.0,
+        "current_day": 1,
+        "baseline_day_median": 2.0,
+        "long_ratio": 0.667,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 29,
+        "news_burst_score": 18.0
+      },
+      "source_domains": [
+        "i24news.tv",
+        "kxly.com",
+        "pluang.com"
+      ],
+      "recent_evidence_count": 3,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "mna",
+          "title": "Judge blocks Paramount's $110B Warner Bros. mer...",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdVFHalNqNkhsQ3dOODdnakZLYmE4OEhyNnZPYXpKZXhQaVJVZlJENThBaXM0N3JNSGo0bDd5dGpid094NjhHU2ZmZXh5cWRPM2lXTS1LSURqSzlPV2dPOWVheVdYVVppU19wblhHVmkyZEMxU2ozVGdxR0VNOWRqVHkwbURvSWYxR3dYSGtrRk12eHI4U0R3aHBjaWJJTUplU2dlMi12WnBqeHRVQXdnSw?oc=5",
+          "domain": "pluang.com",
+          "source_name": "Pluang",
+          "timestamp_utc": "2026-08-23T13:37:24+00:00",
+          "entity": "Paramount Group, Inc.",
+          "ticker": "PGRE",
+          "cik": "1605607",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "mna",
+          "title": "Warner Bros. / Paramount Merger Lawsuit",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSXlYNVNxUEFxV0cyM3RtMmlHTFNadTBCYXZxQjJUNGNMWHBnRnFHNENPNnVrZkZscmhpSHk4YnRhZmYyd1NzbkdFT2ZJeU9tTEM3Q3h4eThaVVNSRjRzQzJkWVpZRF9CZEpDSm9XbEp5U05pTVhLRzV2cWhmY0d5UkJDbk9Cd1liZk1MVVYyV25OeG16ekpRVWt3ZWJFYkgxVDBvX1FIWEV6S3owLTVNMQ?oc=5",
+          "domain": "kxly.com",
+          "source_name": "KXLY.com",
+          "timestamp_utc": "2026-08-23T01:14:00+00:00",
+          "entity": "Paramount Group, Inc.",
+          "ticker": "PGRE",
+          "cik": "1605607",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "mna",
+          "title": "‘A Bridge Too Far’: Paramount Brands Ruffalo’s Attack On Warner Bros. Merger ‘antisemitic’",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQTnEwSnR1Rm1hazdlblZDLWl1Q20zQkQ0TzFBamJOYUdUQmN2dUx4R09tc0ljNl9qZUtWYUtfR3lwUzRzZ29oOHJsSXpxOVJmNG9sdmtEU3FfR015aUZUR2FMeVBfRlFHSzZYdi1ySWtLUlRrMUZXYjY5LWpaNEZZVHdIRkRvbGNsN3RMSWtDaTNnR2N2S3JuamdXZExRbTR6SUpUVEpYZG1wX2RWWk1IRTJiVnN5S2lqZW0wWF9KbHliVmNXbzk0Ulg4ZGF5ZXFHR1hocDZUZ2xNQQ?oc=5",
+          "domain": "i24news.tv",
+          "source_name": "i24NEWS",
+          "timestamp_utc": "2026-08-22T21:58:43+00:00",
+          "entity": "Paramount Group, Inc.",
+          "ticker": "PGRE",
+          "cik": "1605607",
+          "entity_type": "company"
+        }
+      ]
+    },
+    {
       "event_id": "a650803c81eac876",
       "scanner": "B",
       "entity": "Bitcoin / Crypto",
@@ -663,9 +674,9 @@
         "crypto"
       ],
       "sec_forms": [],
-      "discovery_score": 52.2,
+      "discovery_score": 49.0,
       "news_burst_score": 2.3,
-      "source_diversity_score": 88.0,
+      "source_diversity_score": 72.0,
       "catalyst_quality_score": 70.0,
       "freshness_score": 92.0,
       "evidence_quality_score": 60,
@@ -678,7 +689,7 @@
       "baseline": {
         "source": "google_news_rss",
         "query": "Bitcoin OR Ethereum OR crypto",
-        "article_count": 100,
+        "article_count": 99,
         "feed_capped": true,
         "current_3h": 0,
         "baseline_3h_median": 1.0,
@@ -691,7 +702,6 @@
         "news_burst_score": 2.3
       },
       "source_domains": [
-        "beincrypto.com",
         "cointribune.com",
         "cryptoslate.com",
         "finance.yahoo.com",
@@ -700,7 +710,7 @@
         "koinbulteni.com",
         "pluang.com"
       ],
-      "recent_evidence_count": 8,
+      "recent_evidence_count": 7,
       "evidence": [
         {
           "source_type": "news_rss",
@@ -722,19 +732,6 @@
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVFZ4cGc0dld6Tzc2QzB1WFRQZzZQdEEwaG9YSWJGb1pPNmNuWGFfcVlJUGxmMnc5bUQwNERJOUdjZVhyQmZvemZ6cnV0bGg5U2phbzMxWl9KX1lyS1puRWQ4OXQzMnlzOTNmZWVIbzNldER6QTA1Z1VLT19sTnBMXzdiVm8wV1lDN05WdWU1SjZlbDBfcm9CWkFiX3IxYS1Q?oc=5",
           "domain": "finance.yahoo.com",
           "source_name": "Yahoo Finance",
-          "timestamp_utc": "2026-08-23T12:00:00+00:00",
-          "entity": "Bitcoin / Crypto",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "crypto"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "crypto",
-          "title": "Crypto Skeptic Rashida Tlaib Holds Bitcoin and Ethereum ETFs",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5aTWthOFBWUkUzU0Y4MFlkSmlVQ3Yycmp0dG9mMVA4X2hGNXh4QzNUTTVsQ245b19ZZHJZTzBIUVlnSjVpS29OTWdyeWNPQlc4OWw5Z3U2RlQzRi01LXQ5M3dNWURDN0l0ekhTa0JCVFFsWlhrdkIwTQ?oc=5",
-          "domain": "beincrypto.com",
-          "source_name": "BeInCrypto",
           "timestamp_utc": "2026-08-23T12:00:00+00:00",
           "entity": "Bitcoin / Crypto",
           "ticker": null,
@@ -809,93 +806,6 @@
       ]
     },
     {
-      "event_id": "43ac577812633314",
-      "scanner": "B",
-      "entity": "Paramount Skydance Corporation",
-      "ticker": "PSKY",
-      "entity_type": "company",
-      "event_title": "Judge blocks Paramount's $110B Warner Bros. mer...",
-      "event_timestamp_utc": "2026-08-23T13:37:24+00:00",
-      "categories": [
-        "mna"
-      ],
-      "sec_forms": [],
-      "discovery_score": 50.2,
-      "news_burst_score": 18.0,
-      "source_diversity_score": 55.0,
-      "catalyst_quality_score": 94.0,
-      "freshness_score": 68.0,
-      "evidence_quality_score": 39,
-      "youtube_query": "PSKY Judge blocks 110B",
-      "youtube_event_terms": [
-        "Judge",
-        "blocks",
-        "110B"
-      ],
-      "baseline": {
-        "source": "google_news_rss",
-        "query": "\"paramount skydance\" OR \"PSKY\"",
-        "article_count": 100,
-        "feed_capped": true,
-        "current_3h": 1,
-        "baseline_3h_median": 0.0,
-        "short_ratio": 2.0,
-        "current_day": 2,
-        "baseline_day_median": 4.0,
-        "long_ratio": 0.6,
-        "short_history_buckets": 23,
-        "daily_history_buckets": 20,
-        "news_burst_score": 18.0
-      },
-      "source_domains": [
-        "i24news.tv",
-        "kxly.com",
-        "pluang.com"
-      ],
-      "recent_evidence_count": 3,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "mna",
-          "title": "Judge blocks Paramount's $110B Warner Bros. mer...",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdVFHalNqNkhsQ3dOODdnakZLYmE4OEhyNnZPYXpKZXhQaVJVZlJENThBaXM0N3JNSGo0bDd5dGpid094NjhHU2ZmZXh5cWRPM2lXTS1LSURqSzlPV2dPOWVheVdYVVppU19wblhHVmkyZEMxU2ozVGdxR0VNOWRqVHkwbURvSWYxR3dYSGtrRk12eHI4U0R3aHBjaWJJTUplU2dlMi12WnBqeHRVQXdnSw?oc=5",
-          "domain": "pluang.com",
-          "source_name": "Pluang",
-          "timestamp_utc": "2026-08-23T13:37:24+00:00",
-          "entity": "Paramount Group, Inc.",
-          "ticker": "PGRE",
-          "cik": "1605607",
-          "entity_type": "company"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "mna",
-          "title": "Warner Bros. / Paramount Merger Lawsuit",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSXlYNVNxUEFxV0cyM3RtMmlHTFNadTBCYXZxQjJUNGNMWHBnRnFHNENPNnVrZkZscmhpSHk4YnRhZmYyd1NzbkdFT2ZJeU9tTEM3Q3h4eThaVVNSRjRzQzJkWVpZRF9CZEpDSm9XbEp5U05pTVhLRzV2cWhmY0d5UkJDbk9Cd1liZk1MVVYyV25OeG16ekpRVWt3ZWJFYkgxVDBvX1FIWEV6S3owLTVNMQ?oc=5",
-          "domain": "kxly.com",
-          "source_name": "KXLY.com",
-          "timestamp_utc": "2026-08-23T01:14:00+00:00",
-          "entity": "Paramount Group, Inc.",
-          "ticker": "PGRE",
-          "cik": "1605607",
-          "entity_type": "company"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "mna",
-          "title": "‘A Bridge Too Far’: Paramount Brands Ruffalo’s Attack On Warner Bros. Merger ‘antisemitic’",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQTnEwSnR1Rm1hazdlblZDLWl1Q20zQkQ0TzFBamJOYUdUQmN2dUx4R09tc0ljNl9qZUtWYUtfR3lwUzRzZ29oOHJsSXpxOVJmNG9sdmtEU3FfR015aUZUR2FMeVBfRlFHSzZYdi1ySWtLUlRrMUZXYjY5LWpaNEZZVHdIRkRvbGNsN3RMSWtDaTNnR2N2S3JuamdXZExRbTR6SUpUVEpYZG1wX2RWWk1IRTJiVnN5S2lqZW0wWF9KbHliVmNXbzk0Ulg4ZGF5ZXFHR1hocDZUZ2xNQQ?oc=5",
-          "domain": "i24news.tv",
-          "source_name": "i24NEWS",
-          "timestamp_utc": "2026-08-22T21:58:43+00:00",
-          "entity": "Paramount Group, Inc.",
-          "ticker": "PGRE",
-          "cik": "1605607",
-          "entity_type": "company"
-        }
-      ]
-    },
-    {
       "event_id": "aa17307720bbeb6e",
       "scanner": "B",
       "entity": "Federal Reserve / Rates",
@@ -922,7 +832,7 @@
       "baseline": {
         "source": "google_news_rss",
         "query": "\"Federal Reserve\" OR \"interest rates\" OR \"Treasury yields\"",
-        "article_count": 100,
+        "article_count": 99,
         "feed_capped": true,
         "current_3h": 0,
         "baseline_3h_median": 0.0,
@@ -939,7 +849,7 @@
         "investing.com",
         "seekingalpha.com"
       ],
-      "recent_evidence_count": 4,
+      "recent_evidence_count": 3,
       "evidence": [
         {
           "source_type": "news_rss",
@@ -973,98 +883,12 @@
           "title": "Fed’s Kashkari Says Treasury Market Still Working ‘As It Should’",
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQT2JYbHlITkliXzVOWkpxNUg3SGM0THN0MFE4V2NmdmxQZVdqWnpvaHNRVVpjczNPQzVRdGtHXzJUYlgxME4xS0M2T1NYTEdSSUpUNDNkSVpxNUtIWTJUNzcyeGJnaWc5bWEtallnRHVESDNKZWJSQjI2VGtpNTE0LUtoalFGRXVuWGFabW1MX1FmSE55NEtXUWNlQkNYRnNJRzh3NHJETlNSQkYzazJGVDZLWQ?oc=5",
           "domain": "bloomberg.com",
-          "source_name": "Bloomberg.com",
+          "source_name": "Bloomberg",
           "timestamp_utc": "2026-08-23T15:23:22+00:00",
           "entity": "Federal Reserve / Rates",
           "ticker": null,
           "cik": null,
           "entity_type": "macro"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "macro_rates",
-          "title": "Fed’s Kashkari Says Treasury Market Still Working ‘As It Should’",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNYk9nWnlnbHFubDM3UUlWdW5XVkNmVFBNUHZqWXpOUWRCZVZpSVNTN2Z4RnFmSHcyWHEyeUdSd0JpLXM3eW90X3NxV084MjZnNkk2bGp4YV9KTkVWUEFvTmptelM5RVJRSHRZdmlCajhtbzVBMFJUclRxZkFhdkphLTF6NXRxTHBtYTN5clRrTU1PR1c1cTdzY0hScnNPVzZWQmtGRDVCaWhrajdGTTdHNTluMDFxbUdqSzA0eWJQOWZIMVgybE9wM2FiT1h0SmZh?oc=5",
-          "domain": "bloomberg.com",
-          "source_name": "Bloomberg.com",
-          "timestamp_utc": "2026-08-23T15:23:22+00:00",
-          "entity": "Federal Reserve / Rates",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "macro"
-        }
-      ]
-    },
-    {
-      "event_id": "0072885898cbda90",
-      "scanner": "B",
-      "entity": "SentinelOne, Inc.",
-      "ticker": "S",
-      "entity_type": "company",
-      "event_title": "SentinelOne Is Up 42% This Year and Reports Earnings on August 27. Should You Buy Before the Earnings Release?",
-      "event_timestamp_utc": "2026-08-23T17:41:58+00:00",
-      "categories": [
-        "earnings_guidance"
-      ],
-      "sec_forms": [],
-      "discovery_score": 46.6,
-      "news_burst_score": 11.1,
-      "source_diversity_score": 38.0,
-      "catalyst_quality_score": 90.0,
-      "freshness_score": 82.0,
-      "evidence_quality_score": 48,
-      "youtube_query": "SentinelOne, Inc. This Year Reports",
-      "youtube_event_terms": [
-        "This",
-        "Year",
-        "Reports"
-      ],
-      "baseline": {
-        "source": "google_news_rss",
-        "query": "\"sentinelone\" OR \"S\"",
-        "article_count": 100,
-        "feed_capped": true,
-        "current_3h": 1,
-        "baseline_3h_median": 1.0,
-        "short_ratio": 1.0,
-        "current_day": 8,
-        "baseline_day_median": 2.0,
-        "long_ratio": 3.0,
-        "short_history_buckets": 23,
-        "daily_history_buckets": 25,
-        "news_burst_score": 11.1
-      },
-      "source_domains": [
-        "finance.yahoo.com",
-        "fool.com"
-      ],
-      "recent_evidence_count": 2,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "earnings_guidance",
-          "title": "SentinelOne Is Up 42% This Year and Reports Earnings on August 27. Should You Buy Before the Earnings Release?",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOa2o2WEZEV25yblVRaktvS0ppM0lSVWt4YzRHY29qUFJkQjhobENLNW5xM25XWE93OF9STEhBVl9SQll2WTgzVFF3dndzUUN6aWVEZVd2b2V3OU5BYWtnLXg2TThHTUxkSUdPLUdKWF8zTkhhWnFBYVFxck02NFFRVGozUnBOZzllM3I0eGp6OFBEWlRWUE41Qw?oc=5",
-          "domain": "fool.com",
-          "source_name": "The Motley Fool",
-          "timestamp_utc": "2026-08-23T17:41:58+00:00",
-          "entity": "SentinelOne, Inc.",
-          "ticker": "S",
-          "cik": "1583708",
-          "entity_type": "company"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "earnings_guidance",
-          "title": "SentinelOne Is Up 42% This Year and Reports Earnings on August 27. Should You Buy Before the Earnings Release?",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNlpmWnRUb1ExcUwwaEFNdGk1V29CTUUwQjRleEh5LS1LT2FMZFAtYTVIbkFPVDR6TlFvcUoyMTM3SnpNLXhiMTBLRmcyQUJfTzh3bWNNZDRFb29zVk96dDdkTGh6ME1Na0M5UkFaOU1zZkZ2N2xRRmd5cU05UXhzbE1LQ3pIRFc4NFRMSWlTeFQydGhVQmFNMzFsVXBsaTRZOUxCMV9R?oc=5",
-          "domain": "finance.yahoo.com",
-          "source_name": "Yahoo Finance",
-          "timestamp_utc": "2026-08-23T17:40:00+00:00",
-          "entity": "SentinelOne, Inc.",
-          "ticker": "S",
-          "cik": "1583708",
-          "entity_type": "company"
         }
       ]
     },
@@ -1095,7 +919,7 @@
       "baseline": {
         "source": "google_news_rss",
         "query": "Bitcoin OR Ethereum OR crypto",
-        "article_count": 100,
+        "article_count": 99,
         "feed_capped": true,
         "current_3h": 0,
         "baseline_3h_median": 1.0,
@@ -1170,152 +994,6 @@
       ]
     },
     {
-      "event_id": "36ed33a31e6501ff",
-      "scanner": "B",
-      "entity": "SK hynix",
-      "ticker": null,
-      "entity_type": "foreign_company",
-      "event_title": "SK hynix HBM Packaging at Hot Chips 2026",
-      "event_timestamp_utc": "2026-08-23T20:40:15+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "discovery_score": 44.9,
-      "news_burst_score": 18.0,
-      "source_diversity_score": 38.0,
-      "catalyst_quality_score": 68.0,
-      "freshness_score": 92.0,
-      "evidence_quality_score": 36,
-      "youtube_query": "SK hynix Packaging Chips 2026",
-      "youtube_event_terms": [
-        "Packaging",
-        "Chips",
-        "2026"
-      ],
-      "baseline": {
-        "source": "google_news_rss",
-        "query": "\"sk hynix\"",
-        "article_count": 100,
-        "feed_capped": true,
-        "current_3h": 1,
-        "baseline_3h_median": 0.0,
-        "short_ratio": 2.0,
-        "current_day": 2,
-        "baseline_day_median": 2.0,
-        "long_ratio": 1.0,
-        "short_history_buckets": 23,
-        "daily_history_buckets": 28,
-        "news_burst_score": 18.0
-      },
-      "source_domains": [
-        "servethehome.com",
-        "wccftech.com"
-      ],
-      "recent_evidence_count": 2,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "SK hynix HBM Packaging at Hot Chips 2026",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAzVG1Ib00xNlY4cktzUWRCTmpSUTRrV1B6UjBKRjQyTTFsSWoydUlzd3REaHFFLTBscW9LUU52cUxfdjNKWC1XOFZGb2E0eUsxTWV3VU5lSWNnT3RoV3lRdE5nR2V3RXY2T1hCaGhTeldyRkhrVjNaUXB3?oc=5",
-          "domain": "servethehome.com",
-          "source_name": "ServeTheHome",
-          "timestamp_utc": "2026-08-23T20:40:15+00:00",
-          "entity": "SK hynix",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "foreign_company"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "SK Hynix Unpacks Advanced Packaging Technologies, Including Intel EMIB, For Its Next-Gen HBM Memory As It Eyes 3D Structures For The Future",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPb2NraE1nVDJleTFJUVZadndPMEdOSi1WTmxjQ1o0aFB0M1l2MGFEUlJ6YTJsTFN2U1NpaTdXZmpXblBRZ2Z2MF9LczBmZmh4MWhuMjFuSWp6QTgwTXEzdkdrZzJFakFsQzdWZEdMY1dQWG1MRjloWktUdzFiY1NOM2UyN2U0TVhma2pnT3BVNDROTmQtcFd5YtIBngFBVV95cUxQNjVJTDlBMzllTmFiTGgzMXJ2ZXQ0X0NWWWx0RTkxQ1dGSkQ2eFdpQmlhYjBFcWE3YU1TYS1Na2FUNVNGYTBESHV0eXlHeXBIOFBxNVd0YThqeGpUWTktclZCTFVBUGxoS3BDbGNLYnkzWEIzbFRuTWZNdUpaM0t4VXFFa1VoVUM5XzBuQzhJeHNfOFd4M01xV0V0NlZZZw?oc=5",
-          "domain": "wccftech.com",
-          "source_name": "Wccftech",
-          "timestamp_utc": "2026-08-23T20:30:00+00:00",
-          "entity": "SK hynix",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "foreign_company"
-        }
-      ]
-    },
-    {
-      "event_id": "bd34cd6a58599a83",
-      "scanner": "B",
-      "entity": "Philip Morris International Inc.",
-      "ticker": "PM",
-      "entity_type": "company",
-      "event_title": "Hungary Paks nuclear plant could operate at full capacity by Wednesday, PM Magyar says",
-      "event_timestamp_utc": "2026-08-23T14:50:29+00:00",
-      "categories": [
-        "pricing_capacity"
-      ],
-      "sec_forms": [],
-      "discovery_score": 44.9,
-      "news_burst_score": 19.7,
-      "source_diversity_score": 38.0,
-      "catalyst_quality_score": 77.0,
-      "freshness_score": 68.0,
-      "evidence_quality_score": 48,
-      "youtube_query": "PM Hungary Paks nuclear",
-      "youtube_event_terms": [
-        "Hungary",
-        "Paks",
-        "nuclear"
-      ],
-      "baseline": {
-        "source": "google_news_rss",
-        "query": "\"philip morris international\" OR \"PM\"",
-        "article_count": 100,
-        "feed_capped": true,
-        "current_3h": 0,
-        "baseline_3h_median": 2.0,
-        "short_ratio": 0.333,
-        "current_day": 13,
-        "baseline_day_median": 1.0,
-        "long_ratio": 7.0,
-        "short_history_buckets": 23,
-        "daily_history_buckets": 27,
-        "news_burst_score": 19.7
-      },
-      "source_domains": [
-        "reuters.com",
-        "wimz.com"
-      ],
-      "recent_evidence_count": 2,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "pricing_capacity",
-          "title": "Hungary Paks nuclear plant could operate at full capacity by Wednesday, PM Magyar says",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOaVM0U3pTOWdqR1lKZDNWSV9kNFEza2JuUU5VSUpwODNIQkVmWEhtRXU4c1pLdlJoSmFSaDJaQ0tzbW9WT1F5TUR5REllU0VrLVdycHZQa3VHLVh3Tk1fUkFFYlVGYVZTWEw0eWpHWGQ3VGl2TVhjY1ZXbTFtT3NsN3NGQThmZWZvTWNGNmEtQVczaENOeUdyT1JZOFhzV09PUUhYa1dFa1NWMFVBRGtQTzdsVFY?oc=5",
-          "domain": "wimz.com",
-          "source_name": "Classic Rock 103.5 WIMZ",
-          "timestamp_utc": "2026-08-23T14:50:29+00:00",
-          "entity": "Philip Morris International Inc.",
-          "ticker": "PM",
-          "cik": "1413329",
-          "entity_type": "company"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "pricing_capacity",
-          "title": "Hungary Paks nuclear plant could operate at full capacity by Wednesday, PM Magyar says",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNZEJfVzdZd1FzS096TGhjb19XSF9hYnJfazRCOF8zeF9qMkJMOW5Bbm1ZSEwycjJiT1hXci05RFViS1haSDRObmdTb2dvdDVzZjY3SlNnQV80bjhrNEcyOVI5azhybnFpVlVrUmpDQTB4UHNrWURkdXQ3dklqZ2Vucm5ob3RiVTNSRGpqTVRxX0Z1R0gtTTJVb1BYYk8yajNBMFZ2N2FWOHdhYXYycFlsSHpuZzdnOEpPOVN3ckU1SWljVEp1bXdHSQ?oc=5",
-          "domain": "reuters.com",
-          "source_name": "Reuters",
-          "timestamp_utc": "2026-08-23T08:55:43+00:00",
-          "entity": "Philip Morris International Inc.",
-          "ticker": "PM",
-          "cik": "1413329",
-          "entity_type": "company"
-        }
-      ]
-    },
-    {
       "event_id": "f0f50af97fd02351",
       "scanner": "B",
       "entity": "Personalis, Inc.",
@@ -1342,7 +1020,7 @@
       "baseline": {
         "source": "google_news_rss",
         "query": "\"personalis\" OR \"PSNL\"",
-        "article_count": 56,
+        "article_count": 58,
         "feed_capped": false,
         "current_3h": 0,
         "baseline_3h_median": 0.0,
@@ -1489,7 +1167,7 @@
       "baseline": {
         "source": "google_news_rss",
         "query": "\"nvidia\" OR \"NVDA\"",
-        "article_count": 100,
+        "article_count": 98,
         "feed_capped": true,
         "current_3h": 0,
         "baseline_3h_median": 0.0,
@@ -1589,7 +1267,7 @@
       "baseline": {
         "source": "google_news_rss",
         "query": "\"joint\" OR \"JYNT\"",
-        "article_count": 100,
+        "article_count": 99,
         "feed_capped": true,
         "current_3h": 0,
         "baseline_3h_median": 0.0,
@@ -1636,41 +1314,43 @@
       ]
     },
     {
-      "event_id": "5c6d5abd39364cb7",
+      "event_id": "36ed33a31e6501ff",
       "scanner": "B",
-      "entity": "MICRON TECHNOLOGY INC",
-      "ticker": "MU",
-      "entity_type": "company",
-      "event_title": "Micron What is HBM?",
-      "event_timestamp_utc": "2026-08-23T18:02:10+00:00",
+      "entity": "SK hynix",
+      "ticker": null,
+      "entity_type": "foreign_company",
+      "event_title": "SK hynix HBM Packaging at Hot Chips 2026",
+      "event_timestamp_utc": "2026-08-23T20:40:15+00:00",
       "categories": [
         "ai_semis"
       ],
       "sec_forms": [],
-      "discovery_score": 37.6,
-      "news_burst_score": 1.3,
+      "discovery_score": 38.6,
+      "news_burst_score": 0.0,
       "source_diversity_score": 38.0,
       "catalyst_quality_score": 68.0,
-      "freshness_score": 82.0,
+      "freshness_score": 92.0,
       "evidence_quality_score": 36,
-      "youtube_query": "MU What",
+      "youtube_query": "SK hynix Packaging Chips 2026",
       "youtube_event_terms": [
-        "What"
+        "Packaging",
+        "Chips",
+        "2026"
       ],
       "baseline": {
         "source": "google_news_rss",
-        "query": "\"micron technology\" OR \"MU\"",
-        "article_count": 100,
+        "query": "\"sk hynix\"",
+        "article_count": 97,
         "feed_capped": true,
         "current_3h": 0,
         "baseline_3h_median": 0.0,
         "short_ratio": 1.0,
-        "current_day": 3,
-        "baseline_day_median": 2.5,
-        "long_ratio": 1.143,
+        "current_day": 1,
+        "baseline_day_median": 2.0,
+        "long_ratio": 0.667,
         "short_history_buckets": 23,
-        "daily_history_buckets": 26,
-        "news_burst_score": 1.3
+        "daily_history_buckets": 28,
+        "news_burst_score": 0.0
       },
       "source_domains": [
         "servethehome.com",
@@ -1681,28 +1361,28 @@
         {
           "source_type": "news_rss",
           "category": "ai_semis",
-          "title": "Micron What is HBM?",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPMjNNRGVzalR5NWNOdVIxYjQ0SEtnZy1VWHRSU2FncUxLcjFCNlpxQ2NSVnNBdVk5TEZUV1k1bnJIZjhvNXB4bVVIV3N0RF9UVGhRMGR2a0xXZlZENnM1WnZ1S29SNGJZY3VBYm1uN1U1LVAzWXd3Nm5nUHN0SUZScFVDQTBKSHRYZ1E?oc=5",
+          "title": "SK hynix HBM Packaging at Hot Chips 2026",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAzVG1Ib00xNlY4cktzUWRCTmpSUTRrV1B6UjBKRjQyTTFsSWoydUlzd3REaHFFLTBscW9LUU52cUxfdjNKWC1XOFZGb2E0eUsxTWV3VU5lSWNnT3RoV3lRdE5nR2V3RXY2T1hCaGhTeldyRkhrVjNaUXB3?oc=5",
           "domain": "servethehome.com",
           "source_name": "ServeTheHome",
-          "timestamp_utc": "2026-08-23T18:02:10+00:00",
-          "entity": "MICRON TECHNOLOGY INC",
-          "ticker": "MU",
-          "cik": "723125",
-          "entity_type": "company"
+          "timestamp_utc": "2026-08-23T20:40:15+00:00",
+          "entity": "SK hynix",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "foreign_company"
         },
         {
           "source_type": "news_rss",
           "category": "ai_semis",
-          "title": "Micron Says AI’s Memory Wall is Worsening as Compute outruns HBM Bandwidth by 3x every Two Years, Advanced Packaging & Process To Tackle Rising Thermal Constraints",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQM19aazNFbU5SYTIzMHhvOHNnQVBRRUlJVHhYamt4bDJxZ20yd0VFVVp2NVp3RFdVajFpZ0lyb0RreUlveXNneXc2ZWRwTUtZd21rbVVrRURya3M4UE9iSlVXZXhBSUx2SF9DX08zcVdmZ3ZXN1JUdG5tb1dISEo0NHZ3eko4VGRnYTE4dVh0VGliY2FrU2tkYXNzYldIeDZfT1hibUFLc3plajFmWkU40gG0AUFVX3lxTE1lT0oxZUthOHFtSGJfSlRlaWdwdWJOTl95VEs5a0F4ZE02MXkwZDVoQThpUUhSbzhMMklrdjlHN21tbkVYNTNGQ2Z6NGFRSU1zVUhCMzFVSFVpejlnVUR3S0NoYm1xZHZWcW1EMFZzaHE2UTB0VmxkVy1iVmpWNkN3N21iT1BaZFdVSWVoQkxaZF9XZXl4eEMwV2NpaC1PU21vemhYTEJVcEtwMDFBSUJ3NThkQg?oc=5",
+          "title": "SK Hynix Unpacks Advanced Packaging Technologies, Including Intel EMIB, For Its Next-Gen HBM Memory As It Eyes 3D Structures For The Future",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPb2NraE1nVDJleTFJUVZadndPMEdOSi1WTmxjQ1o0aFB0M1l2MGFEUlJ6YTJsTFN2U1NpaTdXZmpXblBRZ2Z2MF9LczBmZmh4MWhuMjFuSWp6QTgwTXEzdkdrZzJFakFsQzdWZEdMY1dQWG1MRjloWktUdzFiY1NOM2UyN2U0TVhma2pnT3BVNDROTmQtcFd5YtIBngFBVV95cUxQNjVJTDlBMzllTmFiTGgzMXJ2ZXQ0X0NWWWx0RTkxQ1dGSkQ2eFdpQmlhYjBFcWE3YU1TYS1Na2FUNVNGYTBESHV0eXlHeXBIOFBxNVd0YThqeGpUWTktclZCTFVBUGxoS3BDbGNLYnkzWEIzbFRuTWZNdUpaM0t4VXFFa1VoVUM5XzBuQzhJeHNfOFd4M01xV0V0NlZZZw?oc=5",
           "domain": "wccftech.com",
           "source_name": "Wccftech",
-          "timestamp_utc": "2026-08-23T17:35:42+00:00",
-          "entity": "MICRON TECHNOLOGY INC",
-          "ticker": "MU",
-          "cik": "723125",
-          "entity_type": "company"
+          "timestamp_utc": "2026-08-23T20:30:00+00:00",
+          "entity": "SK hynix",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "foreign_company"
         }
       ]
     },
@@ -1772,6 +1452,150 @@
           "domain": "servethehome.com",
           "source_name": "ServeTheHome",
           "timestamp_utc": "2026-08-23T18:30:18+00:00",
+          "entity": "AI Infrastructure",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "theme"
+        }
+      ]
+    },
+    {
+      "event_id": "5c6d5abd39364cb7",
+      "scanner": "B",
+      "entity": "MICRON TECHNOLOGY INC",
+      "ticker": "MU",
+      "entity_type": "company",
+      "event_title": "Micron What is HBM?",
+      "event_timestamp_utc": "2026-08-23T18:02:10+00:00",
+      "categories": [
+        "ai_semis"
+      ],
+      "sec_forms": [],
+      "discovery_score": 37.1,
+      "news_burst_score": 0.0,
+      "source_diversity_score": 38.0,
+      "catalyst_quality_score": 68.0,
+      "freshness_score": 82.0,
+      "evidence_quality_score": 36,
+      "youtube_query": "MU What",
+      "youtube_event_terms": [
+        "What"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "\"micron technology\" OR \"MU\"",
+        "article_count": 92,
+        "feed_capped": false,
+        "current_3h": 0,
+        "baseline_3h_median": 0.0,
+        "short_ratio": 1.0,
+        "current_day": 2,
+        "baseline_day_median": 2.0,
+        "long_ratio": 1.0,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 29,
+        "news_burst_score": 0.0
+      },
+      "source_domains": [
+        "servethehome.com",
+        "wccftech.com"
+      ],
+      "recent_evidence_count": 2,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "ai_semis",
+          "title": "Micron What is HBM?",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPMjNNRGVzalR5NWNOdVIxYjQ0SEtnZy1VWHRSU2FncUxLcjFCNlpxQ2NSVnNBdVk5TEZUV1k1bnJIZjhvNXB4bVVIV3N0RF9UVGhRMGR2a0xXZlZENnM1WnZ1S29SNGJZY3VBYm1uN1U1LVAzWXd3Nm5nUHN0SUZScFVDQTBKSHRYZ1E?oc=5",
+          "domain": "servethehome.com",
+          "source_name": "ServeTheHome",
+          "timestamp_utc": "2026-08-23T18:02:10+00:00",
+          "entity": "MICRON TECHNOLOGY INC",
+          "ticker": "MU",
+          "cik": "723125",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "ai_semis",
+          "title": "Micron Says AI’s Memory Wall is Worsening as Compute outruns HBM Bandwidth by 3x every Two Years, Advanced Packaging & Process To Tackle Rising Thermal Constraints",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQM19aazNFbU5SYTIzMHhvOHNnQVBRRUlJVHhYamt4bDJxZ20yd0VFVVp2NVp3RFdVajFpZ0lyb0RreUlveXNneXc2ZWRwTUtZd21rbVVrRURya3M4UE9iSlVXZXhBSUx2SF9DX08zcVdmZ3ZXN1JUdG5tb1dISEo0NHZ3eko4VGRnYTE4dVh0VGliY2FrU2tkYXNzYldIeDZfT1hibUFLc3plajFmWkU40gG0AUFVX3lxTE1lT0oxZUthOHFtSGJfSlRlaWdwdWJOTl95VEs5a0F4ZE02MXkwZDVoQThpUUhSbzhMMklrdjlHN21tbkVYNTNGQ2Z6NGFRSU1zVUhCMzFVSFVpejlnVUR3S0NoYm1xZHZWcW1EMFZzaHE2UTB0VmxkVy1iVmpWNkN3N21iT1BaZFdVSWVoQkxaZF9XZXl4eEMwV2NpaC1PU21vemhYTEJVcEtwMDFBSUJ3NThkQg?oc=5",
+          "domain": "wccftech.com",
+          "source_name": "Wccftech",
+          "timestamp_utc": "2026-08-23T17:35:42+00:00",
+          "entity": "MICRON TECHNOLOGY INC",
+          "ticker": "MU",
+          "cik": "723125",
+          "entity_type": "company"
+        }
+      ]
+    },
+    {
+      "event_id": "d80e8eb343c0ebdf",
+      "scanner": "B",
+      "entity": "AI Infrastructure",
+      "ticker": null,
+      "entity_type": "theme",
+      "event_title": "$Direxion Daily Semiconductor Bear 3x Shares ETF (SOXS.US)$",
+      "event_timestamp_utc": "2026-08-23T04:36:33+00:00",
+      "categories": [
+        "ai_semis"
+      ],
+      "sec_forms": [],
+      "discovery_score": 32.6,
+      "news_burst_score": 0.0,
+      "source_diversity_score": 38.0,
+      "catalyst_quality_score": 68.0,
+      "freshness_score": 52.0,
+      "evidence_quality_score": 36,
+      "youtube_query": "AI Infrastructure Direxion Daily Semiconductor",
+      "youtube_event_terms": [
+        "Direxion",
+        "Daily",
+        "Semiconductor"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "\"AI infrastructure\" OR datacenter OR GPU OR HBM OR semiconductor",
+        "article_count": 100,
+        "feed_capped": true,
+        "current_3h": 0,
+        "baseline_3h_median": 0.0,
+        "short_ratio": 1.0,
+        "current_day": 2,
+        "baseline_day_median": 3.0,
+        "long_ratio": 0.75,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 28,
+        "news_burst_score": 0.0
+      },
+      "source_domains": [
+        "moomoo.com",
+        "okx.com"
+      ],
+      "recent_evidence_count": 2,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "ai_semis",
+          "title": "$Direxion Daily Semiconductor Bear 3x Shares ETF (SOXS.US)$",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPLWswNDRWWENzMnVxTGxOeWRTUDA5QlZObXNlcFpFdUd3SURqZFQyczYwOGtocEZpaGV0Z3QwMVphQ0hiOEdqNjV2R01VNGhCRVZuY2EwWXNyaEZWZlRGNHZYUjR5cEJiSUk1QTFRbXhzWWNMTkV4UTREd0RCVUFQV1pwODROYmx5dVZycURRd1A0bmEwTWpUV2RuRWJ4T3hJOUZPdGFMU3M1LV8ycVE?oc=5",
+          "domain": "moomoo.com",
+          "source_name": "Moomoo",
+          "timestamp_utc": "2026-08-23T04:36:33+00:00",
+          "entity": "AI Infrastructure",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "theme"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "ai_semis",
+          "title": "Direxion Daily Semiconductor Bear 3X ETF Price Today | SOXS Live Price, Chart & Market Cap",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNMnlIUW1Tc19FdG9TajhIQmlGSDA5ZmlnV0VRR28zd3ZUSW9ldmxtcFJLWnNQZm8zY2dQaER3ZlJDSmhmd0JJaTVkUS16a3dvLTdPaGdrdDFYSUV4WGw5N2FDdU1WZnY5RGdLbnZBTHNteVRxVTlUcXJVZmdWZkw1cnJ2QQ?oc=5",
+          "domain": "okx.com",
+          "source_name": "OKX",
+          "timestamp_utc": "2026-08-23T04:29:38+00:00",
           "entity": "AI Infrastructure",
           "ticker": null,
           "cik": null,
