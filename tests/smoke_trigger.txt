@@ -1,1 +1,2 @@
 Trigger Scanner B pull-request smoke test.
+Retry after SEC User-Agent fix.
