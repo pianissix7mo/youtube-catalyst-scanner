@@ -13,6 +13,7 @@ Judge B is a **pre-YouTube gate**. It does not replace external discovery and it
 - Do not pad to 20. Select fewer when fewer deserve YouTube checks.
 - Maximum selected events: **20**.
 - One event may consume at most one YouTube `search.list` call after selection.
+- One underlying real-world event should occupy only **one** selected slot. Merge/reject duplicate angles about the same underlying catalyst and keep the strongest representative.
 - The rubric and thresholds below must stay stable until a new version of this file is committed.
 
 ## Hard gate: Entity Accuracy
@@ -99,7 +100,21 @@ Then apply:
 
 Among eligible events, rank primarily by `judge_score`, then use external `discovery_score`, `news_burst_score`, freshness, and evidence as tie-breakers.
 
+Before final selection, deduplicate semantically equivalent candidates describing the same underlying event. Keep the strongest/clearest representative so repeated angles do not waste YouTube quota.
+
 Select at most 20.
+
+## YouTube query refinement
+
+Judge B may refine `youtube_query` and `youtube_event_terms` when the automatically generated values are vague, noisy, or likely to waste the single YouTube search call.
+
+Rules:
+
+- Keep the query concise and specific to the approved event.
+- Prefer an unambiguous ticker/company/asset identifier plus 1–3 event terms.
+- Do not include filler words from headlines such as `what`, `just`, `impact`, `says`, `could`, or generic prose unless they are genuinely discriminative.
+- For a foreign/private company without a ticker, use the canonical company name plus the event concept.
+- `youtube_event_terms` should contain a small set of meaningful event terms used to filter returned titles; do not make them so strict that clearly relevant videos are rejected.
 
 ## Required output fields
 
@@ -118,12 +133,15 @@ For every selected event, preserve the original Scanner B fields needed by YouTu
 - `catalyst_quality_score`
 - `freshness_score`
 - `evidence_quality_score`
-- `youtube_query`
-- `youtube_event_terms`
 - `baseline`
 - `source_domains`
 - `recent_evidence_count`
 - `evidence`
+
+Preserve or refine:
+
+- `youtube_query`
+- `youtube_event_terms`
 
 Add:
 
