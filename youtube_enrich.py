@@ -174,16 +174,16 @@ def write_markdown(payload: dict[str, Any]) -> None:
         "",
         f"YouTube search calls used: **{payload['youtube_search_calls_used']} / {payload['youtube_search_budget_per_run']}**",
         "",
-        "| # | Event | Ticker | Discovery | Burst | Sources | Catalyst | YT gap | B final |",
+        "| # | Event | Ticker | Judge | Discovery | Burst | Sources | YT gap | B final |",
         "|---:|---|---|---:|---:|---:|---:|---:|---:|",
     ]
     for i, row in enumerate(payload.get("events") or [], 1):
         yt = row.get("youtube_metrics") or {}
         lines.append(
             f"| {i} | {row.get('event_title','')} | {row.get('ticker') or '—'} | "
-            f"{row.get('discovery_score','—')} | {row.get('news_burst_score','—')} | "
-            f"{row.get('source_diversity_score','—')} | {row.get('catalyst_quality_score','—')} | "
-            f"{yt.get('youtube_supply_gap_score','—')} | {row.get('scanner_b_score','—')} |"
+            f"{row.get('judge_score','—')} | {row.get('discovery_score','—')} | {row.get('news_burst_score','—')} | "
+            f"{row.get('source_diversity_score','—')} | {yt.get('youtube_supply_gap_score','—')} | "
+            f"{row.get('scanner_b_score','—')} |"
         )
     (OUT / "latest.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
@@ -215,19 +215,31 @@ def main() -> None:
                 yt = {"status": "skipped_budget_exhausted", "youtube_supply_gap_score": None}
             else:
                 yt = enrich_event(session, row, api_key, config)
-                search_calls += 1  # exactly one search.list call inside enrich_event
+                search_calls += 1
         row["youtube_metrics"] = yt
         gap = yt.get("youtube_supply_gap_score")
         discovery = float(row.get("discovery_score") or 0.0)
-        row["scanner_b_score"] = round(
-            discovery if gap is None else clamp(0.80 * discovery + 0.20 * float(gap)),
-            1,
-        )
+        judge = row.get("judge_score")
+        judge_value = float(judge) if judge is not None else None
+        if judge_value is not None:
+            row["scanner_b_score"] = round(
+                clamp(0.65 * judge_value + 0.35 * discovery)
+                if gap is None
+                else clamp(0.50 * judge_value + 0.30 * discovery + 0.20 * float(gap)),
+                1,
+            )
+        else:
+            row["scanner_b_score"] = round(
+                discovery if gap is None else clamp(0.80 * discovery + 0.20 * float(gap)),
+                1,
+            )
         enriched.append(row)
 
     enriched.sort(key=lambda x: float(x.get("scanner_b_score") or 0), reverse=True)
     payload = {
         "scanner": "B",
+        "judge_version": selected.get("judge_version"),
+        "source_candidates_generated_at_utc": selected.get("source_candidates_generated_at_utc"),
         "generated_at_utc": datetime.now(timezone.utc).isoformat(),
         "youtube_search_budget_per_run": budget,
         "youtube_search_calls_used": search_calls,
