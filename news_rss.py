@@ -33,6 +33,21 @@ def clean_headline(title: str, source_name: str) -> str:
     return title
 
 
+def story_key(title: str) -> str:
+    """Normalize a headline so syndicated copies count as one story.
+
+    Google News often returns the same wire/local-copy headline from many
+    domains.  Those are useful evidence that a story is spreading, but they are
+    not independent information events and should not inflate burst/source
+    diversity.  Keep the first copy and collapse obvious title duplicates.
+    """
+    value = str(title or "").lower().strip()
+    value = re.sub(r"\(\s*copy\s*\)$", "", value, flags=re.I)
+    value = re.sub(r"\bcopy\b$", "", value, flags=re.I)
+    value = re.sub(r"[^a-z0-9]+", " ", value)
+    return " ".join(value.split())
+
+
 def fetch_google_news(
     session: requests.Session,
     query: str,
@@ -57,6 +72,7 @@ def fetch_google_news(
     root = ET.fromstring(r.content)
 
     output: list[dict[str, Any]] = []
+    seen_story_keys: set[str] = set()
     for item in root.findall("./channel/item"):
         source_el = item.find("source")
         source_name = (source_el.text or "").strip() if source_el is not None else ""
@@ -68,6 +84,13 @@ def fetch_google_news(
         domain = urlparse(source_url).netloc.lower().removeprefix("www.") if source_url else ""
         if not title:
             continue
+
+        key = story_key(title)
+        if key and key in seen_story_keys:
+            continue
+        if key:
+            seen_story_keys.add(key)
+
         output.append(
             {
                 "title": title,
