@@ -1,4 +1,4 @@
-name: Scanner B - Catalyst Scan
+name: Scanner B - Discovery
 
 on:
   workflow_dispatch:
@@ -19,7 +19,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: scanner-b-${{ github.event_name }}-${{ github.ref }}
+  group: scanner-b-discovery-${{ github.event_name }}-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
@@ -58,7 +58,7 @@ jobs:
 
       - name: Syntax check
         if: steps.guard.outputs.run == 'true'
-        run: python -m py_compile scanner_common.py collect_external.py collect_external_safe.py news_rss.py collect_rss.py clean_events.py rank_candidates.py rank_rss.py youtube_enrich.py
+        run: python -m py_compile scanner_common.py collect_external.py collect_external_safe.py news_rss.py collect_rss.py clean_events.py rank_candidates.py rank_rss.py rank_for_judge.py make_judge_review.py youtube_enrich.py
 
       - name: Collect external catalysts
         if: steps.guard.outputs.run == 'true'
@@ -70,39 +70,36 @@ jobs:
         if: steps.guard.outputs.run == 'true'
         run: python clean_events.py
 
-      - name: Build news baseline and select Top 20
+      - name: Build baseline and prepare Judge B candidates
         if: steps.guard.outputs.run == 'true'
-        run: python rank_rss.py
+        run: python rank_for_judge.py
 
-      - name: YouTube supply-gap enrichment
+      - name: Build compact Judge B review file
         if: steps.guard.outputs.run == 'true'
-        env:
-          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-        run: python youtube_enrich.py
+        run: python make_judge_review.py
 
-      - name: Upload scan artifact
+      - name: Upload discovery artifact
         if: steps.guard.outputs.run == 'true'
         uses: actions/upload-artifact@v4
         with:
-          name: scanner-b-latest
+          name: scanner-b-discovery-latest
           path: |
             data/raw_events.json
-            data/selected_events.json
+            data/judge_candidates.json
+            data/judge_review.jsonl
             data/baseline_history.json
-            output/latest.json
-            output/latest.md
           retention-days: 14
 
-      - name: Commit latest state
+      - name: Commit discovery state
         if: steps.guard.outputs.run == 'true' && github.event_name != 'pull_request'
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data output
+          git add data/raw_events.json data/judge_candidates.json data/judge_review.jsonl data/baseline_history.json
           if git diff --cached --quiet; then
-            echo "No generated changes to commit"
+            echo "No generated discovery changes to commit"
             exit 0
           fi
-          git commit -m "Update Scanner B results"
+          git commit -m "Update Scanner B discovery candidates"
           git push
