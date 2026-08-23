@@ -36,10 +36,13 @@ def clean_headline(title: str, source_name: str) -> str:
 def fetch_google_news(
     session: requests.Session,
     query: str,
-    when: str = "24h",
+    when: str = "1d",
     timeout: int = 20,
 ) -> list[dict[str, Any]]:
-    q = f"({query}) when:{when}".strip()
+    # Google News RSS accepts normal News-search syntax but is less predictable
+    # with database-style nested parentheses. Keep the query broad here and let
+    # our own entity matching / event clustering do the precision work later.
+    q = f"{query} when:{when}".strip()
     r = session.get(
         GOOGLE_NEWS_RSS,
         params={
