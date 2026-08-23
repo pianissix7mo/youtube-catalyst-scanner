@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import json
+import re
 import time
 from datetime import datetime, timezone
 
@@ -10,10 +11,17 @@ import requests
 import collect_external as legacy
 from collect_external_safe import ResilientSession, TICKER_MIRROR
 from news_rss import fetch_google_news
-from scanner_common import DATA, ensure_dirs, write_json
+from scanner_common import (
+    DATA,
+    TICKER_DENYLIST,
+    clean_company_name,
+    ensure_dirs,
+    normalize_text,
+    write_json,
+)
 
 # Keep discovery queries intentionally broad. Google News RSS is the raw news
-# tape; company/theme matching and event clustering provide the precision later.
+# tape; strict entity matching and event clustering provide precision later.
 CATALYST_RSS_QUERIES: dict[str, str] = {
     "earnings_guidance": "earnings OR guidance OR outlook OR forecast OR revenue OR profit",
     "mna": "acquisition OR merger OR takeover OR buyout",
@@ -25,18 +33,52 @@ CATALYST_RSS_QUERIES: dict[str, str] = {
     "crypto": "Bitcoin OR Ethereum OR crypto ETF",
 }
 
+# Brand names that differ materially from SEC conformed names.
 BRAND_ALIASES: dict[str, str] = {
     "google": "GOOGL",
     "youtube": "GOOGL",
-    "tsmc": "TSM",
-    "taiwan semiconductor": "TSM",
+    "meta": "META",
     "facebook": "META",
     "instagram": "META",
+    "amazon": "AMZN",
     "aws": "AMZN",
     "amazon web services": "AMZN",
+    "tsmc": "TSM",
+    "taiwan semiconductor": "TSM",
+    "micron": "MU",
+    "broadcom": "AVGO",
+    "marvell": "MRVL",
+    "palantir": "PLTR",
+    "coinbase": "COIN",
+    "robinhood": "HOOD",
     "supermicro": "SMCI",
     "super micro": "SMCI",
+    "sandisk": "SNDK",
+    "western digital": "WDC",
+    "seagate": "STX",
+    "coreweave": "CRWV",
+    "cloudflare": "NET",
+    "datadog": "DDOG",
 }
+
+# Relevant non-U.S.-listed/private entities should still be discoverable when
+# they can affect U.S. stocks and AI/semiconductor supply chains.
+CUSTOM_ENTITIES: dict[str, dict] = {
+    "sk hynix": {"name": "SK hynix", "ticker": None, "cik": None, "entity_type": "foreign_company"},
+    "samsung electronics": {"name": "Samsung Electronics", "ticker": None, "cik": None, "entity_type": "foreign_company"},
+    "foxconn": {"name": "Foxconn / Hon Hai", "ticker": None, "cik": None, "entity_type": "foreign_company"},
+    "hon hai": {"name": "Foxconn / Hon Hai", "ticker": None, "cik": None, "entity_type": "foreign_company"},
+    "openai": {"name": "OpenAI", "ticker": None, "cik": None, "entity_type": "private_company"},
+    "anthropic": {"name": "Anthropic", "ticker": None, "cik": None, "entity_type": "private_company"},
+    "deepseek": {"name": "DeepSeek", "ticker": None, "cik": None, "entity_type": "private_company"},
+}
+
+# Real tickers that are also common English/industry/crypto tokens. They are
+# allowed through explicit company/brand names, but never by ticker token alone.
+AMBIGUOUS_TICKERS = {
+    "ON", "HBM", "SOL", "ARM", "AI", "ALL", "BIG", "NOW", "OPEN", "LOVE",
+    "RUN", "APP", "CAR", "YOU", "SO", "AM", "BE", "IT", "ARE", "CAN",
+} | TICKER_DENYLIST
 
 
 class MirrorFirstSession(ResilientSession):
@@ -56,14 +98,86 @@ def build_session() -> requests.Session:
     return s
 
 
-def match_alias(title: str, by_ticker: dict[str, dict]) -> dict | None:
-    lower = f" {title.lower()} "
-    for alias, ticker in BRAND_ALIASES.items():
-        if f" {alias} " in lower or alias in lower:
+def phrase_in_title(title: str, phrase: str) -> bool:
+    hay = f" {normalize_text(title)} "
+    needle = normalize_text(phrase)
+    return bool(needle and f" {needle} " in hay)
+
+
+def match_brand_or_custom(title: str, by_ticker: dict[str, dict]) -> dict | None:
+    # Longer aliases first so "amazon web services" wins before "amazon".
+    for alias, ticker in sorted(BRAND_ALIASES.items(), key=lambda x: len(x[0]), reverse=True):
+        if phrase_in_title(title, alias):
             item = by_ticker.get(ticker)
             if item:
                 return item
+    for alias, item in sorted(CUSTOM_ENTITIES.items(), key=lambda x: len(x[0]), reverse=True):
+        if phrase_in_title(title, alias):
+            return dict(item)
     return None
+
+
+def strict_match_company(
+    title: str,
+    by_ticker: dict[str, dict],
+    first_word_index: dict[str, list[dict]],
+) -> dict | None:
+    # 1) Explicit, non-ambiguous ticker tokens are high precision.
+    for token in re.findall(r"(?<![A-Z0-9])\$?([A-Z]{2,5})(?![A-Z0-9])", title):
+        if token in AMBIGUOUS_TICKERS:
+            continue
+        item = by_ticker.get(token)
+        if item:
+            return item
+
+    # 2) Curated brands/private/foreign entities.
+    explicit = match_brand_or_custom(title, by_ticker)
+    if explicit:
+        return explicit
+
+    # 3) Full SEC company alias only. Never accept the old single-first-word
+    # shortcut (e.g. "Trade" -> Trade Desk, "German" -> German American Bank).
+    normalized = f" {normalize_text(title)} "
+    words = set(re.findall(r"[a-z0-9]+", normalized))
+    best: tuple[int, dict] | None = None
+    for word in words:
+        for item in first_word_index.get(word, []):
+            full_alias = clean_company_name(str(item.get("name") or ""))
+            indexed_alias = normalize_text(str(item.get("alias") or ""))
+            if not full_alias or indexed_alias != full_alias:
+                continue
+            if len(full_alias) < 4 or f" {full_alias} " not in normalized:
+                continue
+            if best is None or len(full_alias) > best[0]:
+                clean_item = dict(item)
+                clean_item.pop("alias", None)
+                best = (len(full_alias), clean_item)
+    return best[1] if best else None
+
+
+def match_theme(title: str, category: str) -> dict | None:
+    for entity, entity_type, rule in legacy.THEME_RULES:
+        if not rule.search(title):
+            continue
+        if category == "macro_rates" and entity_type == "macro":
+            return {"name": entity, "ticker": None, "cik": None, "entity_type": entity_type}
+        if category == "crypto" and entity_type == "crypto":
+            return {"name": entity, "ticker": None, "cik": None, "entity_type": entity_type}
+        if category == "ai_semis" and entity == "AI Infrastructure":
+            return {"name": entity, "ticker": None, "cik": None, "entity_type": entity_type}
+    return None
+
+
+def append_evidence(evidence: list[dict], base: dict, entity: dict) -> None:
+    evidence.append(
+        {
+            **base,
+            "entity": entity["name"],
+            "ticker": entity.get("ticker"),
+            "cik": entity.get("cik"),
+            "entity_type": entity.get("entity_type", "company"),
+        }
+    )
 
 
 def main() -> None:
@@ -95,7 +209,6 @@ def main() -> None:
                 continue
             seen.add(dedupe_key)
             title = str(article.get("title") or "")
-            company = legacy.match_company(title, by_ticker, first_word_index) or match_alias(title, by_ticker)
             base = {
                 "source_type": "news_rss",
                 "category": category,
@@ -105,32 +218,20 @@ def main() -> None:
                 "source_name": article.get("source_name"),
                 "timestamp_utc": article.get("published_at_utc"),
             }
-            if company:
-                evidence.append(
-                    {
-                        **base,
-                        "entity": company["name"],
-                        "ticker": company["ticker"],
-                        "cik": company.get("cik"),
-                        "entity_type": "company",
-                    }
-                )
-                accepted += 1
+
+            # Macro/crypto searches should become macro/crypto events first;
+            # otherwise words such as Trade/SOL can steal them as stock symbols.
+            entity = match_theme(title, category) if category in {"macro_rates", "crypto"} else None
+            if entity is None:
+                entity = strict_match_company(title, by_ticker, first_word_index)
+            if entity is None:
+                entity = match_theme(title, category)
+            if entity is None:
                 continue
 
-            for entity, entity_type, rule in legacy.THEME_RULES:
-                if rule.search(title):
-                    evidence.append(
-                        {
-                            **base,
-                            "entity": entity,
-                            "ticker": None,
-                            "cik": None,
-                            "entity_type": entity_type,
-                        }
-                    )
-                    accepted += 1
-                    break
+            append_evidence(evidence, base, entity)
+            accepted += 1
+
         per_category[category] = accepted
         print(f"RSS [{category}]: {len(articles)} articles, {accepted} mapped evidence rows")
         time.sleep(0.25)
