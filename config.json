@@ -1,0 +1,24 @@
+{
+  "scanner": "B",
+  "youtube_search_budget_per_run": 20,
+  "candidate_limit_before_youtube": 20,
+  "news_lookback_hours": 24,
+  "baseline_lookback_days": 30,
+  "baseline_bucket_hours": 3,
+  "youtube_lookback_days": 3,
+  "youtube_sample_size": 50,
+  "small_channel_max_subscribers": 50000,
+  "small_channel_hit_views_per_day": 1000,
+  "official_catalyst_forms": [
+    "8-K",
+    "10-Q",
+    "10-K",
+    "6-K",
+    "20-F",
+    "S-1",
+    "S-3",
+    "424B2",
+    "SC 13D",
+    "SC 13G"
+  ]
+}
