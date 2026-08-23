@@ -6,7 +6,7 @@ Scanner B is intentionally independent from `youtube-trends-scanner` (Scanner A)
 
 ## Core idea
 
-**External catalyst discovery first; YouTube only as a capped supply-gap check.**
+**External catalyst discovery first; fixed semantic quality gate second; YouTube only after the gate.**
 
 Scanner B asks:
 
@@ -18,18 +18,17 @@ It does **not** take Scanner A candidates as its discovery input. The future Ens
 
 - Scanner A stays unchanged.
 - Scanner B discovers events independently.
-- Scanner B may scan broad external data, but only the final **Top 20** may call YouTube `search.list`.
-- One formal Scanner B run is hard-capped at **20 YouTube search calls**.
+- Scanner B may scan broad external data, but only events approved by **Judge B V1** may call YouTube `search.list`.
+- Judge B selects at most **20** events and may select fewer.
+- One formal Scanner B enrichment run is hard-capped at **20 YouTube search calls**.
 - The future Ensemble layer must not spend extra YouTube search calls.
 - A normal A+B day is therefore designed around **20 + 20 = 40** YouTube searches, leaving room for a full retry and safety margin under the 100-search daily operating budget.
 
 ## Data sources
 
-### GDELT DOC API
+### News discovery
 
-Used for broad recent-news discovery and historical news-volume baselines.
-
-V1 searches several catalyst families:
+The active V1 discovery path uses resilient Google News RSS queries across catalyst families such as:
 
 - earnings / guidance / outlook
 - M&A
@@ -40,30 +39,24 @@ V1 searches several catalyst families:
 - rates / inflation / tariffs
 - crypto / ETF themes
 
+The repository also contains GDELT-based code as a fallback/reference path.
+
 ### SEC EDGAR
 
-Used as an official-source catalyst stream. V1 scans recent high-signal forms including:
-
-- 8-K
-- 10-Q
-- 10-K
-- 6-K
-- 20-F
-
-SEC ticker/CIK mappings are loaded from the SEC's published ticker file at runtime.
+SEC ticker/CIK mappings are used for company identity. Optional live official filing support is retained for high-signal forms such as 8-K, 10-Q, 10-K, 6-K, and 20-F.
 
 ### YouTube Data API
 
-Used **after** external discovery and ranking. Each selected event receives at most one `search.list` query, followed by low-cost video/channel detail calls.
+Used **only after Judge B approval**. Each selected event receives at most one `search.list` query, followed by low-cost video/channel detail calls.
 
 ## Baseline logic
 
-Scanner B uses two external-news baselines:
+Scanner B uses external-news baselines before any YouTube call:
 
-1. **7-day hourly baseline** — recent 3-hour burst versus historical 3-hour buckets.
-2. **30-day daily baseline** — current daily coverage versus the prior daily median.
+1. recent 3-hour burst versus historical 3-hour buckets
+2. current daily coverage versus the prior daily median
 
-Burst scoring is robust and ratio-based:
+Burst scoring is ratio-based:
 
 - 1x normal -> 0 burst points
 - 2x -> 25
@@ -71,24 +64,42 @@ Burst scoring is robust and ratio-based:
 - 8x -> 75
 - 16x -> 100
 
-The repository also stores `data/baseline_history.json` after each run as a rolling proprietary fallback/history layer.
+The repository also stores `data/baseline_history.json` as a rolling proprietary fallback/history layer.
 
-## Event scoring before YouTube
+## Python discovery score
 
-`discovery_score` is computed before any YouTube call:
+`discovery_score` is computed before any YouTube call from:
 
-- 35% news burst
-- 20% source diversity
-- 20% catalyst quality
-- 15% freshness
-- 10% evidence quality
-- official SEC catalysts receive a small additional boost
+- news burst
+- source diversity
+- catalyst type
+- freshness
+- evidence quality
 
-This keeps Scanner B's actual discovery signal independent from YouTube.
+This is a quantitative discovery signal, **not permission to spend YouTube quota**.
+
+## Judge B V1 — semantic pre-YouTube gate
+
+The fixed rubric is versioned in `docs/JUDGE_B_V1.md`.
+
+Judge B reviews every candidate and scores:
+
+- Entity Accuracy — hard pass/fail
+- Catalyst Reality — 25
+- Investor Materiality — 25
+- Novelty — 15
+- Evidence Quality — 15
+- Content Potential — 20
+
+Hard rejection applies to entity mismatches, non-catalysts/evergreen noise, very low investor materiality, very weak evidence, or total `judge_score < 58`.
+
+The rules must not drift day to day. Any change requires a new committed judge version.
+
+Judge B runs as a ChatGPT scheduled task after the discovery files are committed. It writes `data/selected_events.json`. It does not call YouTube and it does not send email.
 
 ## YouTube supply gap
 
-Only the final Top 20 external events are enriched on YouTube.
+Only Judge-approved events are enriched on YouTube.
 
 The scanner measures:
 
@@ -98,32 +109,41 @@ The scanner measures:
 - channel subscriber size
 - content supply gap
 
-`scanner_b_score` currently uses:
+`scanner_b_score` now gives Judge B the largest role:
 
-- 80% external `discovery_score`
+- 50% Judge B score
+- 30% external discovery score
 - 20% YouTube supply-gap score
 
-Both scores remain separately available so the future Ensemble can choose whether to use the pure external signal or the content-opportunity version.
+If YouTube data is unavailable, the fallback blend is:
+
+- 65% Judge B score
+- 35% external discovery score
+
+This prevents `no videos found` from rescuing a low-quality event.
 
 ## Pipeline
 
 ```text
-GDELT news + SEC filings
+external news / filings
           |
           v
-company/theme identification
+entity identification + clustering
           |
           v
-event clustering
+Python cleanup / dedupe
           |
           v
-7d hourly + 30d daily baseline
+baseline + discovery scoring
           |
           v
-external discovery scoring
+data/judge_candidates.json
           |
           v
-HARD GATE: Top 20
+Judge B V1 (fixed rubric)
+          |
+          v
+data/selected_events.json  <= max 20
           |
           v
 YouTube supply-gap enrichment
@@ -132,43 +152,64 @@ YouTube supply-gap enrichment
 output/latest.json + latest.md
 ```
 
+## Daily timing
+
+- **05:10 America/Toronto** — GitHub discovery workflow builds fresh candidates.
+- **05:55 America/Toronto** — ChatGPT Judge B V1 reviews candidates and writes the approved list.
+- Writing `data/selected_events.json` automatically triggers YouTube enrichment.
+
+The discovery workflow uses two UTC cron entries plus a Toronto local-hour guard so DST does not shift the intended local run hour.
+
 ## Files
 
-- `collect_external.py` — GDELT + SEC discovery, entity matching, event clustering
-- `rank_candidates.py` — historical baseline, scoring, Top-20 pre-YouTube gate
+Active discovery / gating:
+
+- `collect_rss.py` — broad current catalyst discovery
+- `clean_events.py` — cheap deterministic cleanup/disambiguation
+- `rank_for_judge.py` — baseline + discovery scoring for the Judge candidate pool
+- `make_judge_review.py` — compact JSONL review file for ChatGPT
+- `docs/JUDGE_B_V1.md` — fixed semantic Judge contract
+- `.github/workflows/scanner_b.yml` — discovery workflow
+
+Post-Judge:
+
+- `data/selected_events.json` — only Judge-approved events
 - `youtube_enrich.py` — quota-capped YouTube supply-gap measurement
-- `scanner_common.py` — normalization and scoring utilities
-- `config.json` — hard limits and thresholds
-- `docs/DESIGN_V1.md` — design contract
-- `.github/workflows/scanner_b.yml` — automated run
+- `.github/workflows/enrich.yml` — automatically triggered enrichment workflow
+
+Shared / legacy / fallback:
+
+- `scanner_common.py`
+- `rank_candidates.py`
+- `rank_rss.py`
+- `collect_external.py`
+- `collect_external_safe.py`
+- `news_rss.py`
+- `config.json`
 
 Generated state:
 
 - `data/raw_events.json`
-- `data/selected_events.json`
+- `data/judge_candidates.json`
+- `data/judge_review.jsonl`
 - `data/baseline_history.json`
+- `data/selected_events.json`
 - `output/latest.json`
 - `output/latest.md`
-
-## GitHub Actions schedule
-
-The workflow runs daily at approximately **05:10 America/Toronto** using two UTC cron entries plus a Toronto local-hour guard, so daylight-saving changes do not shift the intended local run hour.
-
-Code/config changes also trigger a test run automatically.
 
 ## Repository secrets
 
 ### `YOUTUBE_API_KEY`
 
-Recommended. If it is absent, Scanner B still completes external discovery/baseline/ranking and writes output; YouTube enrichment is marked as skipped rather than failing the workflow.
+Required for the post-Judge enrichment workflow.
 
 ### `SEC_USER_AGENT`
 
-Optional. A safe repository-identifying default is supplied by the workflow. A custom SEC-compliant contact string can be added later if desired.
+Optional. A safe repository-identifying default is supplied by the discovery workflow.
 
 ## Standardized event output
 
-Each selected event exposes fields intended for later A+B merging:
+Each approved event keeps the quantitative Scanner B fields plus fixed Judge fields including:
 
 - `event_id`
 - `scanner = B`
@@ -181,7 +222,16 @@ Each selected event exposes fields intended for later A+B merging:
 - `source_diversity_score`
 - `catalyst_quality_score`
 - `freshness_score`
-- `evidence_quality_score`
+- `judge_version`
+- `entity_accuracy`
+- `catalyst_reality_score`
+- `investor_materiality_score`
+- `novelty_score`
+- `judge_evidence_quality_score`
+- `content_potential_score`
+- `judge_score`
+- `judge_reason`
+- `verification_note`
 - `youtube_metrics`
 - `scanner_b_score`
 - `evidence[]`
@@ -193,9 +243,9 @@ Once Scanner B is stable, build the Ensemble layer:
 ```text
 Scanner A independent output
             \
-             -> normalize / merge / cross-check -> fixed Semantic Judge -> one email
+             -> normalize / merge / cross-check -> fixed Ensemble Judge -> one email
             /
 Scanner B independent output
 ```
 
-The Semantic Judge will be versioned and rule-based rather than changing criteria day to day.
+The Ensemble Judge will be separately versioned; Judge B remains only Scanner B's internal quality gate.
