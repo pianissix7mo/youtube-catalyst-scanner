@@ -3,3 +3,4 @@ Retry after SEC User-Agent fix.
 Retry with resilient ticker-map fallback.
 Retry after concurrency cleanup.
 Retry with RSS-first discovery and baseline.
+Retry with simplified RSS query syntax.
