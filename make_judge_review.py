@@ -2,7 +2,6 @@
 from __future__ import annotations
 
 import json
-from pathlib import Path
 
 from scanner_common import DATA
 
@@ -11,7 +10,7 @@ OUT = DATA / "judge_review.jsonl"
 
 def compact_evidence(evidence: list[dict]) -> list[dict]:
     rows: list[dict] = []
-    for item in evidence[:8]:
+    for item in evidence[:4]:
         rows.append({
             "title": item.get("title"),
             "domain": item.get("domain"),
@@ -22,6 +21,21 @@ def compact_evidence(evidence: list[dict]) -> list[dict]:
             "sec_form": item.get("sec_form"),
         })
     return rows
+
+
+def compact_baseline(baseline: dict) -> dict:
+    keys = (
+        "source",
+        "current_3h",
+        "baseline_3h_median",
+        "short_ratio",
+        "current_day",
+        "baseline_day_median",
+        "long_ratio",
+        "news_burst_score",
+        "feed_capped",
+    )
+    return {key: baseline.get(key) for key in keys if key in baseline}
 
 
 def main() -> None:
@@ -42,8 +56,9 @@ def main() -> None:
             "source_diversity_score": event.get("source_diversity_score"),
             "catalyst_quality_score": event.get("catalyst_quality_score"),
             "freshness_score": event.get("freshness_score"),
-            "baseline": event.get("baseline"),
-            "source_domains": event.get("source_domains"),
+            "evidence_quality_score": event.get("evidence_quality_score"),
+            "baseline": compact_baseline(dict(event.get("baseline") or {})),
+            "source_domains": list(event.get("source_domains") or [])[:6],
             "recent_evidence_count": event.get("recent_evidence_count"),
             "youtube_query": event.get("youtube_query"),
             "youtube_event_terms": event.get("youtube_event_terms"),
@@ -51,7 +66,7 @@ def main() -> None:
         }
         lines.append(json.dumps(row, ensure_ascii=False, separators=(",", ":")))
     OUT.write_text("\n".join(lines) + ("\n" if lines else ""), encoding="utf-8")
-    print(f"Wrote {len(lines)} Judge B review rows to {OUT}")
+    print(f"Wrote {len(lines)} compact Judge B review rows to {OUT}")
 
 
 if __name__ == "__main__":
