@@ -1,14 +1,14 @@
 {
   "scanner": "B",
-  "generated_at_utc": "2026-08-23T21:45:06.116047+00:00",
+  "generated_at_utc": "2026-08-23T21:47:47.860942+00:00",
   "lookback_hours": 24,
   "primary_news_source": "google_news_rss",
-  "raw_evidence_count": 388,
-  "news_evidence_count": 388,
+  "raw_evidence_count": 386,
+  "news_evidence_count": 386,
   "sec_evidence_count": 0,
-  "event_cluster_count": 253,
+  "event_cluster_count": 229,
   "category_mapped_counts": {
-    "earnings_guidance": 34,
+    "earnings_guidance": 32,
     "mna": 57,
     "contract_order": 19,
     "regulatory_legal": 15,
@@ -40,7 +40,6 @@
         "cbsnews.com",
         "cpapracticeadvisor.com",
         "dtnpf.com",
-        "fox10tv.com",
         "foxcarolina.com",
         "indiatribune.com",
         "kptv.com",
@@ -53,6 +52,7 @@
         "thehill.com",
         "washingtonpost.com",
         "washingtontimes.com",
+        "wbay.com",
         "wdam.com",
         "wfla.com",
         "wsmv.com"
@@ -310,175 +310,14 @@
           "source_type": "news_rss",
           "category": "macro_rates",
           "title": "US tariffs prompt retaliation from Canada",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNS3RtQm1Rc0c2Tk1yM1YwY3V6eWJ0LVkxbU4yZEpQbFgyLW5UaHdGRzhUa1JMUmRILU5FeTlEU3VTdEhsckFXaWgxTDJYM1RrWnNSb25jcHhMMjFuZW9SZU5tTURTZ21lVF9YOHpiaklSUHhxZ1M5UzdCdVhsVlRFaUF4cnI?oc=5",
-          "domain": "fox10tv.com",
-          "source_name": "fox10tv.com",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPVnFrakdwMFBLVjNHMUxtY0dYeUhpcUROdTc2VmlCbzYyWVFGc0JkNVNKN1IwYndvMks0eDNJamlrTWFzS3ZDQjVaVE1xMEFPSmw4dDJTbDZ5V1JrdnpRckpZZlNxWXdCaDRDaWc1MVVqWEM0aFVZM245WTBKNE1BMzZfQkhJSDg2WEE?oc=5",
+          "domain": "foxcarolina.com",
+          "source_name": "FOX Carolina News",
           "timestamp_utc": "2026-08-23T09:24:00+00:00",
           "entity": "Tariffs / Trade",
           "ticker": null,
           "cik": null,
           "entity_type": "macro"
-        }
-      ]
-    },
-    {
-      "entity": "ON SEMICONDUCTOR CORP",
-      "ticker": "ON",
-      "cik": "1097864",
-      "entity_type": "company",
-      "representative_title": "Pressure Relief Cartridges for Fluids Market to Reach 170 Index by 2035 on Semiconductor Fab Buildout",
-      "latest_timestamp_utc": "2026-08-23T20:41:19+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "indexbox.io"
-      ],
-      "recent_evidence_count": 11,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Pressure Relief Cartridges for Fluids Market to Reach 170 Index by 2035 on Semiconductor Fab Buildout",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPOEJ5bjRMRWVCSnE4RkRnMS1scXZxcHVBWnJ3T3RORDdvUkpzdlV6NnlySzBFYzdIVWZHcURFZHBsRnYwT1Q5V1pQal9uZGRVeW5feXh0MDZpaWNCMzJzYkhCWjJTQlBsM3o4aW14Tkd5YVp5N0RlNnJCWmowZGREOXR3RS1RNzdnUVVtWUs4WU9KaUJLRkh3d0p5aDNiekRESlVTbm10aHNGZlZ5T3ktTzFCLVFqQVg5Zi1OdXdxSmxKNFNUT0tsM0Jncw?oc=5",
-          "domain": "indexbox.io",
-          "source_name": "IndexBox",
-          "timestamp_utc": "2026-08-23T20:41:19+00:00",
-          "entity": "ON SEMICONDUCTOR CORP",
-          "ticker": "ON",
-          "cik": "1097864",
-          "entity_type": "company"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Proportional Dosing Controller Market to Reach 193 Index by 2035 on Semiconductor Fab Expansion",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNQjBLTkx0dGN3bHB1ZFYteTRnaG1wNVBkbncxczNqaEZiel9QaU9NNTVSb2NRdjhPNHRaZ3dJZEtLTWdLZ1RTaExtQ1U5cGdpc0wxVkx5a2t4Z21nVHVzN1Y3ck9ITlNnTjhKeFM1VVJKVVpxd2hXOC13anZhdkRjSWxNOFV0eTJZQ3dPdVBDeUdrLWN5bHRvVTJDcGhnSE9aem9IS293V3g2eG9MN0FjUXRBMlVLMG9YUW5Ca1dDWUJfX00?oc=5",
-          "domain": "indexbox.io",
-          "source_name": "IndexBox",
-          "timestamp_utc": "2026-08-23T20:06:18+00:00",
-          "entity": "ON SEMICONDUCTOR CORP",
-          "ticker": "ON",
-          "cik": "1097864",
-          "entity_type": "company"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Panel-Mounted Flow Indicator Displays Market to Reach 170 Index by 2035 on Semiconductor Fab Build-Out",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMjg4WW8xbzg2Y1E4Ty1CVm5BeXFKeW55T21mV3Q5R1FRaFZRZGwwYlpETGlJb0pTa1JtclBpbEhOYWZncnVCbVdFOFhuV3lyVWpyVFhVb05EZFQwNkJzLVRhUjRYMDFoWGNDUUl0OWotWGktc2FjSVBlYTc3dmhyMEpwNHpYd3lfXzFSUEdEdk9TaEhnN0ZZTUI5N3h0dHp3YWlodmtWR3pCUHhGdUFEU1VtTGZ1LW94LXAteUgxUVdQUlpRNF9HWEpIMHc?oc=5",
-          "domain": "indexbox.io",
-          "source_name": "IndexBox",
-          "timestamp_utc": "2026-08-23T19:36:12+00:00",
-          "entity": "ON SEMICONDUCTOR CORP",
-          "ticker": "ON",
-          "cik": "1097864",
-          "entity_type": "company"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Chain and Sprocket Assemblies Market to Reach Index 160 by 2035 on Semiconductor and Battery Capex",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVFY2VlVGNWdNYy1DVVR2aTZ6ZjZzZ2lVczlLWDM0MmRVVkE1d0Z6c2JlVk10YXhQMEkxQ2pzSmNjZEZRT284cmE0M1NLbnJSR1VtYjFKTWJab2VYU0FzUnZ2WFVuWTJId1JDd2kyeFZWaWN2NE02RWFYSnRJLWkzQlExOGlPdExsQ0RCdzVyY3FQalVHa2FTUVZFakd0cWpsaHVPX0U4WEhfY2FhRy0wX0Z6cU1hUVlYZlRZNnpFMThpeW9aSUFZ?oc=5",
-          "domain": "indexbox.io",
-          "source_name": "IndexBox",
-          "timestamp_utc": "2026-08-23T15:11:17+00:00",
-          "entity": "ON SEMICONDUCTOR CORP",
-          "ticker": "ON",
-          "cik": "1097864",
-          "entity_type": "company"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Optical Particle Analyzers Market to Reach Index 170 by 2035 on Semiconductor Slurry Demand",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNOVdhR3M2a29hc2RFcFN6UTkwNXdvUDV6X1V0Y0Mwc3FHemhqOFJZUUgyVjd2MGhxTThTellqZjh5bWs4YWJwaTJ2T0lhWnhObU9VTjVqSVZHVUJaSDdvb0VkdG5KY3QtQWtIZ0kzZWhibjlhTHF3TTkyc25TN3dydVJ6M2JobFdneEx3RG9qU3ZQdVhpU3BnWEVDbXBhd2Qzcm56SGpTR2hPLWI0RHBuZ3VYaG11LW5ZM3JRWDhn?oc=5",
-          "domain": "indexbox.io",
-          "source_name": "IndexBox",
-          "timestamp_utc": "2026-08-23T14:01:18+00:00",
-          "entity": "ON SEMICONDUCTOR CORP",
-          "ticker": "ON",
-          "cik": "1097864",
-          "entity_type": "company"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "UV-Stabilized Insect Netting Market to Reach Index 185 by 2035 on Semiconductor Cleanroom Demand",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOc3psWWc3c1FTakpId1d6Vm9yWG1LNXVkVTRSQUVKV096dC1LMUpyWXJpQncwYS01ZDh5V3VSYlNYS0UycDltejVzMkhxVE1YOUFyVmJKRno4QndvX3oyZXB4anRuWG45SXJkLW5RNDdKeVg0bTNISFkxNWJtc2hjd1VjRXgtMXZDTFlSQWtyVEdLTF9KTDc2dHV3d0l1eEdZVlo3WDlkQmZmcE1WQlplN0ZBRTN2Z05YOVItOGxsMHJLNnVm?oc=5",
-          "domain": "indexbox.io",
-          "source_name": "IndexBox",
-          "timestamp_utc": "2026-08-23T11:46:27+00:00",
-          "entity": "ON SEMICONDUCTOR CORP",
-          "ticker": "ON",
-          "cik": "1097864",
-          "entity_type": "company"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Heavy-Duty Detergent Surfactant Blends Market to Reach 170 Index by 2035 on Semiconductor Fab Expansion",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPR0lybXlNTFFOT3RJTExTdVNoNXFqTUhheGJFeVZnSEYzUzA5ZV9pV0VvMkY1MHNpUDZZRGtxUHNWQWs4YVlXWnFjenIzMG1jeVJ5bHlfcEctQ2RaYm9nSXdlVEN2dkNZcmVnNTV4ZUpwN2VLRWQxenVYcl9DcFp4akdWQWpDSEZlRkVCRkNCVDRvRW1JMXd2dHQzS3NsbVUwTHFneGFiSUFRbTBsTmhfUHQtLThlNFNuU0I3ODBYLUl2R0w2RW8tRUN2WFJ2dw?oc=5",
-          "domain": "indexbox.io",
-          "source_name": "IndexBox",
-          "timestamp_utc": "2026-08-23T11:41:16+00:00",
-          "entity": "ON SEMICONDUCTOR CORP",
-          "ticker": "ON",
-          "cik": "1097864",
-          "entity_type": "company"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Wire-Braid Hydraulic Hose Market to Reach 155 Index by 2035 on Semiconductor Fab Buildout",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdnhId1dibkV6VElmakROUGQtNGVQQkk1TVA3V1lVNXE0YXo3YW5zMzdwSklfc2JEZWFWOVktT2V2SV9NQTlSLTFnRVYwWGhXLUlqNjNKbllLN2ZFUm95eE1IWjQ4WTVkR0s1TklsQTZjQ21JY1luVmhmNzlNbkVyc3lleG5mUUNGTmJsWWEzTUpEa25aNURxRUdJZTY0UWI5ZVY4cWh1Ykh0ZXhIVF8xMmFHWlRFYk5wUzBn?oc=5",
-          "domain": "indexbox.io",
-          "source_name": "IndexBox",
-          "timestamp_utc": "2026-08-23T04:56:20+00:00",
-          "entity": "ON SEMICONDUCTOR CORP",
-          "ticker": "ON",
-          "cik": "1097864",
-          "entity_type": "company"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Liquid Nitrogen Cylinder Valves Market to Reach 170 Index by 2035 on Semiconductor Fab Expansion",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPR1FJWlFyS00zTXVjRFM4bGlCU0xab2E0ZDV2bzBPVGZYMFVrclBWMjJXQ3NhMW9rNi1zZ0FjU2dNTzNxMWlybm5IYzdLVkprVzBSRWNVcWs4MnNQMDRmNWdSTWFvWHBmMEl6U3dQRjNJWS1SR2RyTXdjLXhRQ1N1ekI3UkpvNWZ4dVc5VjZSTy1NLXdVMlFzMUktZS13cEZ6WlJaZGZCT29MQVJ5dHNCWmlWWjJEMHpNMVJvU1ZrU0dkZUZY?oc=5",
-          "domain": "indexbox.io",
-          "source_name": "IndexBox",
-          "timestamp_utc": "2026-08-23T04:36:20+00:00",
-          "entity": "ON SEMICONDUCTOR CORP",
-          "ticker": "ON",
-          "cik": "1097864",
-          "entity_type": "company"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Aramid Thermal Protection Laminates Market to Reach 193 Index by 2035 on Semiconductor Demand",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdlFXaHdFaGJrOFZfZEE1cjZSamhBYUxHNVZyXzhiVlF2Nm9NOGF2bkp2cjREcUktZDRrbnhMUVRJUUgzYzd3V29naUYzSHlTaW1DMFpza3pSUnFRb2pWMkh2UFllUEZOMjliMFBMd28zMExIU2dzMGNxYUhvc0dPY0xuMFNBbkFrdWJGWEhwTTB5aVJxS1lEQWVqdk1nZzFyblI1TzROWE5nOWNqZzVUVDA0MU9ZTGlDYmtvLVZzVVg?oc=5",
-          "domain": "indexbox.io",
-          "source_name": "IndexBox",
-          "timestamp_utc": "2026-08-23T00:21:23+00:00",
-          "entity": "ON SEMICONDUCTOR CORP",
-          "ticker": "ON",
-          "cik": "1097864",
-          "entity_type": "company"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Manifold Block Connectors Market To Reach 177 Index by 2035 on Semiconductor Fab Expansion - News and Statistics",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdnVLd2s1aHZwUDdQRGpUdXRVbm9TLXJGVGgwY0NzZ21ybWs3NGtDbEFGQngwSVEwM1FqQUY0X2NSM3lyTWtQZjI4UGlUeGRqdW94ek9tSFQyRndhaTI1Y2Q1OUJBdGp0V2ZzY1NGU0JjU1V5Qk9IbUo0RGZzUk5YTFNhUEdWUnA4ODVta09DZG9ocDFQYks0STVCZHRoNFhBN2FEM3lsV1g1UjdTc0dxeGZtVGVTR183cmc?oc=5",
-          "domain": "indexbox.io",
-          "source_name": "IndexBox",
-          "timestamp_utc": "2026-08-22T23:56:28+00:00",
-          "entity": "ON SEMICONDUCTOR CORP",
-          "ticker": "ON",
-          "cik": "1097864",
-          "entity_type": "company"
         }
       ]
     },
@@ -499,6 +338,7 @@
         "journalstar.com",
         "magicvalley.com",
         "missoulian.com",
+        "nwitimes.com",
         "qconline.com",
         "roanoke.com",
         "tucson.com"
@@ -509,9 +349,9 @@
           "source_type": "news_rss",
           "category": "macro_rates",
           "title": "Trump to lower beef tariffs despite objections (copy)",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8ybFJFU3FJQ2phdGJBbGVyNTF1anJfazh0V1BUblBLSXBFTU5XRzNObnI4OE5QQW8xMzRTaXhXLXBXQWhuWk05LTBsVWxoZTEya2k0SWVXS000LXJoZHpXRzZRMnlrdHNlenUxREZNX3AyR2pKZXVn?oc=5",
-          "domain": "tucson.com",
-          "source_name": "Arizona Daily Star",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5od1lCY0JCTHBWeFZmc1NQcVVCY1hqY2oxV24yUTBBTTRXR2pSRGZ0dnQ1SGh5M3BSS3BRaUhCZmtkVWd6SmY0bEsxcVZxR3Z4c1R4aWdBbFRLZENHdjMycHNndmhtM3lrNjROS05OOFI0R1FTNmhxc2V3?oc=5",
+          "domain": "nwitimes.com",
+          "source_name": "nwitimes.com",
           "timestamp_utc": "2026-08-23T20:30:00+00:00",
           "entity": "Tariffs / Trade",
           "ticker": null,
@@ -754,131 +594,9 @@
       ]
     },
     {
-      "entity": "AI Infrastructure",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "theme",
-      "representative_title": "Pneumatic Compressor Units Market Driven by Semiconductor Fab Buildout Through 2035",
-      "latest_timestamp_utc": "2026-08-23T19:06:21+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "indexbox.io"
-      ],
-      "recent_evidence_count": 8,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Pneumatic Compressor Units Market Driven by Semiconductor Fab Buildout Through 2035",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSWxPZHpnNUFwWjI4ekNfY1hBdWtBYUt4RWoxeUdwS2RJdTJKMVZGT0R1U0hYTnZDcDE3cnlEd0tvV3drUDBiZXNlWEJJQ2NzYkl4aHEyekk5LS1sZ2U5elVySGFTcU9iOHVZN1ZVY2dKN05oTnUzU1oxQkJ3WmFJb0hYS1l4SERjalA5Vk1xLUsxMnphVUFVd05icWw4c2xveWtlWHRMaFloTl9QUHBhNW11TQ?oc=5",
-          "domain": "indexbox.io",
-          "source_name": "IndexBox",
-          "timestamp_utc": "2026-08-23T19:06:21+00:00",
-          "entity": "AI Infrastructure",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "theme"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Nitrogen-Filled Barrier Packets Market Growth Driven by Semiconductor Miniaturization Through 2035",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOd3Yxb0lIbWg3M0pFN01iZ01ldEc5eGdnck1vYkQ3OVQ5M2d2SUNVZ3REbFJBcnFjQW5tcG93VzRoWVpNRW44UGdUcmczaEl1TlFOWDdORzFOaDZIZjZ4UXFQYVVtSFpmRkRFbEtrLW10ZU12S3ozT2lWUTE0UGhTbXpKandLS1pib29FRUstVDRzVTU2UDc4d2dibjVZOVBxZGNBSk5sOUdZNHp2MDRhWUR3UktTU2p5SnJRcllPb3lPSF9DT2Fz?oc=5",
-          "domain": "indexbox.io",
-          "source_name": "IndexBox",
-          "timestamp_utc": "2026-08-23T19:01:19+00:00",
-          "entity": "AI Infrastructure",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "theme"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Porcelain Glaze Base Market Growth Driven by Semiconductor Packaging Demand Through 2035 - News and Statistics",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRkh0MTR1ZXE5R1pHeU9zZGRiRWpKOTJnZ3k5Q0xqLUFBSUVkcFJ5WFN6alJXUFBJVklvbFRWSGpOZjBEQ0tPVXNxMmVId2htVUlDWW5vZnpZUGdGbm9UVHFVSkhXWEZScDRLOHg4RHhyTXNsMG9BWHVMem9QTjVZaE96S3d1R2VldHlDN2plWVVTVTBMQlF5NXc1Y1BZWHFZTVM3VXVNRFRXTlJMd19GLThHMzlUNGxmT0E?oc=5",
-          "domain": "indexbox.io",
-          "source_name": "IndexBox",
-          "timestamp_utc": "2026-08-23T18:36:18+00:00",
-          "entity": "AI Infrastructure",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "theme"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Disk Filter Cartridges Market Growth Driven by Semiconductor Ultrapure Water Needs Through 2035 - News and Statistics",
-          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQNHphUlVuMUkta1ZpUGlZTTRsb3FDUE9qMy1xSmtWRXNvR1hKbkJVZEdrcVlDcE5MblF6STRyZzduS0NIdUxVRTBFZVlCZVFkRjR6V0N4Z3pSaGp1akdLaTNxSjZHQkxaU0xNY200V1dwWi1QMzRpSjdJcW9BOUJneDhjV2JjRndRQjJNZ0k1eWktUy1GdVRiRGh2YXpHZTN6Rzl1anBjZ3RTdEJUenBYaEhuazZobGFSSHZUVnFWbWYzaVRPcmVVcWRyeHVtTkJ4M1MwekJlRzRPdlg0bll5Q1l5QXE?oc=5",
-          "domain": "indexbox.io",
-          "source_name": "IndexBox",
-          "timestamp_utc": "2026-08-23T18:26:23+00:00",
-          "entity": "AI Infrastructure",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "theme"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "PTFE Lined Protective Tubing Market Growth Driven by Semiconductor Fabrication Through 2035 - News and Statistics",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObGtacVFGcnp5UUQ2WWhWUEpQb1FhQTM5eFFSMUFvTkhkWUlNd3JpemgyU1N2ekYxcXNFdWx1bUZPVXZObXY1Z0VNSUIyN3BOb1VIOXk2eXVDN0lxcTNPcTVBVzlxZDF6NDR6OFNGZURlempuc3JUSUZjX19UNVN1V3hEb2FYbjY4SzBLbElYNFR3M1pZd2NuQUc2aGlvNnhXT1ZoMFJZNWV2bkJJVGVsRGxwN0U2WE0?oc=5",
-          "domain": "indexbox.io",
-          "source_name": "IndexBox",
-          "timestamp_utc": "2026-08-23T16:31:14+00:00",
-          "entity": "AI Infrastructure",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "theme"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Integrated Cylinder Valve Cartridges Market to Reach 185 Index by 2035, Driven by Semiconductor Fab Expansion in Asia-Pacific",
-          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOOHpLMldlRTlvSFI4M2NmTENNNkpJSVl4NUdMd3JZVFNvemNtN21WeXhqUWg0bDg5SUNRZUllb2ZlMkRLdXhoSFVDaHpVdG9TV3NqalBtT3oybDU2d0g0TXpIZ0xoZUMzVi1RTVVaem55ZmFsNjJaVUlIOEhzRVlxSFVfQU95M1M5WklYOXVTcUtsalRoXzRDWjFQcGFab1RDRl9xWXgwVlFOSndYSk4zQ0pwM3lEdnNmS21jMnpZbEF0bDZfRDNZa0dJdjlFTmZDZ2VuRkVzNjVKN2JBWXEtWl9ycVYtdWxCRHc?oc=5",
-          "domain": "indexbox.io",
-          "source_name": "IndexBox",
-          "timestamp_utc": "2026-08-23T16:06:19+00:00",
-          "entity": "AI Infrastructure",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "theme"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Alkaline Degreasing Compounds Market Driven by Semiconductor Demand Through 2035 - News and Statistics",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTXVhMmZNRmxNNmdSS2pqSjVUMTA4RjRuRGFENFdIWUlCWTFTYlphcFphbGpCVkdkWUNaWm1lSEc5b3RJcndHYzJGQlB5VnZ6MTNWRnlRenJOYnlxd2RNNkZ2SVF3UDVFMWVZR3RUYkRrS0VZaHIwOHI3S0x4Rmc5WGhsNWs0aC1XYTY4eS1nblhDRDIyeG5CWWZBNjNvb0pab0ppTGR6ZGpHS0QycmJ5WWpxS0hJazg0QlBnVDE2NTcyQQ?oc=5",
-          "domain": "indexbox.io",
-          "source_name": "IndexBox",
-          "timestamp_utc": "2026-08-23T15:26:21+00:00",
-          "entity": "AI Infrastructure",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "theme"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Threaded End Ball Valves Market Growth Driven by Semiconductor Fab Expansion Through 2035 - News and Statistics",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNURpcUFCVGR4bXNBZmF0N3ZmWXd0cl83ZngwczRZRWVqREVERTlxUFpOcWVYT0huT2ZjdVVLZ29tcjlBZDJJc3dMT19zWlNZV2Z5NGY5NWNYQW00b0VQZXBTRXB1YkxXSGJPbkpuRGM5ZGdyUm9zZTQyUG1HRHdwQTZIUmllaXpXMkF2d1lCZ1JBZFgtU2xyMnlSYVd3U1Q5WVhrZlJWWklUb2p4YXExbGJzMTI0a1NEeWlB?oc=5",
-          "domain": "indexbox.io",
-          "source_name": "IndexBox",
-          "timestamp_utc": "2026-08-23T12:51:21+00:00",
-          "entity": "AI Infrastructure",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "theme"
-        }
-      ]
-    },
-    {
-      "entity": "Paramount Group, Inc.",
-      "ticker": "PGRE",
-      "cik": "1605607",
+      "entity": "Paramount Skydance Corporation",
+      "ticker": "PSKY",
+      "cik": "2041610",
       "entity_type": "company",
       "representative_title": "‘Appalling’: Mark Ruffalo denies antisemitism charge from Paramount Skydance over merger criticism",
       "latest_timestamp_utc": "2026-08-23T20:07:18+00:00",
@@ -989,7 +707,8 @@
           "cik": "1605607",
           "entity_type": "company"
         }
-      ]
+      ],
+      "entity_correction": "paramount_media_disambiguation"
     },
     {
       "entity": "Tariffs / Trade",
@@ -1166,76 +885,6 @@
       ]
     },
     {
-      "entity": "AI Infrastructure",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "theme",
-      "representative_title": "Non-Chloride Accelerators Market Semiconductor Fab Demand Drives 5.8% CAGR to 2035 - News and Statistics",
-      "latest_timestamp_utc": "2026-08-23T18:06:17+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "indexbox.io"
-      ],
-      "recent_evidence_count": 4,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Non-Chloride Accelerators Market Semiconductor Fab Demand Drives 5.8% CAGR to 2035 - News and Statistics",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNMzdYUTlEVWlfel9wd0IyY2pOajJCVXcxcGh0R1M4WnVpRklNMkF6WElBM2dTQ01PQVZVS3FqVlJnN0swbENBR0VLUVlKSnBPU1JhbFhnQ3NYdjgtQVU2dHhzTy0tODctSF9GSU1BdXhXQVRqWU03R1Azd0c4RTk1Ui1QN0hYQnlnVDZ6d0c3MTR5Ny1WeG9PaWdxekdsQVliYkRyZ0k2bkZXOXZWbEUxc2pZZDdfNjN5WGJF?oc=5",
-          "domain": "indexbox.io",
-          "source_name": "IndexBox",
-          "timestamp_utc": "2026-08-23T18:06:17+00:00",
-          "entity": "AI Infrastructure",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "theme"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Diaphragm Pump Heads Market Semiconductor Fab Expansion Drives 6.8% CAGR to 2035",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOY3ZrRkRCUzlaTkQ5MHB2NndKT2pNcEwxdG52MG5IdVNGeXByZ2dFUWhaNzFJMmlBTkhPZGtQOEJ4aWtUemxIRXVRZC1aSUhCeV9jM0dTRnBJMHJ4UlRDczFuYXpBMm45UlJoeTJHaE9iS0xxUXhTdnRlRjluaXdFZ3A5LU1SLTR4ai1uanlRdlRTWDV1RGVab1BZNEpMUlMyS3NoNXl5TWZ1VWN4X1E?oc=5",
-          "domain": "indexbox.io",
-          "source_name": "IndexBox",
-          "timestamp_utc": "2026-08-23T15:31:17+00:00",
-          "entity": "AI Infrastructure",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "theme"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Raku Kiln Glazes Market Semiconductor Ceramic Substrate Demand Drives 4-6% CAGR to 2035",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdjY2WW1LdE5rQVk1VkhSY3p1bUxlNVA5NUNoSUphb3VtX0FJYWJWQ3VCUnFtM1o1YnRQYXZtTGtZSEJkNkg1Rjc2aElBQ0JpX0NfU1JMTDctREJOU3NlOTVobXpXZXVkck56ZlI0OW53TFpwNnpDaWxoZGdxUTE0cm9ZXzFiT3h5RHppVHp4SmpOZGlZRGNlMTlKaHNmSTJHYkZNY0ZGalVPT1c0REdBX09lRTVBb0k?oc=5",
-          "domain": "indexbox.io",
-          "source_name": "IndexBox",
-          "timestamp_utc": "2026-08-23T14:56:17+00:00",
-          "entity": "AI Infrastructure",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "theme"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Kraft-Polyethylene Laminate Papers Market Semiconductor Packaging Demand Drives 3.5-5.5% CAGR Through 2035",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPdmJYWWMzZTRCQ2g0RFBsOFJUbEtQX1FYS2FHNXhSQmlpVU9URGdZZ2NWVHJLMU9jZWdvUGJURmYwZElBN24zVFhfZFUzakFmOUtqN1JmX1EweFM2dTdwQWNCaWo5WDVBWkxpSW5VTHNBVUZJWjdwUk5hYjh3Qkc1YW1BUlNjbW1DTVhDaHBaNHZoWjdmMFZiWTkzQ0FURjc5TExPT1JHODlfdnlaQ1hickVNS2xXLUVuQ0poZ3NtaUVFVjk2X3l5cWlEQmZ0Sy1Q?oc=5",
-          "domain": "indexbox.io",
-          "source_name": "IndexBox",
-          "timestamp_utc": "2026-08-23T11:16:18+00:00",
-          "entity": "AI Infrastructure",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "theme"
-        }
-      ]
-    },
-    {
       "entity": "Tariffs / Trade",
       "ticker": null,
       "cik": null,
@@ -1381,76 +1030,6 @@
       ]
     },
     {
-      "entity": "ON SEMICONDUCTOR CORP",
-      "ticker": "ON",
-      "cik": "1097864",
-      "entity_type": "company",
-      "representative_title": "PVPP Clarification Powder Market to Reach 165 Index by 2035 on Semiconductor Ultrapure Water Demand",
-      "latest_timestamp_utc": "2026-08-23T16:11:18+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "indexbox.io"
-      ],
-      "recent_evidence_count": 4,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "PVPP Clarification Powder Market to Reach 165 Index by 2035 on Semiconductor Ultrapure Water Demand",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNQVhNVml5NzR1V011NTRCbEV6N3NYbkllY3dsWWNySTZOLXJlcEh5M0xNNE5yeklaT0pfel9ZdzZkWGFieUdPUG5BVmFJX1Z5cDQxR3ZlWTE1ZF9tUnNIbE9LQ0hySG1fMkZHTXkzZ0c0bnZsVGtCaGMxS1RnV09kcVRESE5RcU11TmJXSUNrLU4tUmtmak92RzB3N3BKcmVfdEhtcWd6WG93UWdvTWotbzhFTlVtQlVrNDhLekYyZFVSak9wRjNpeA?oc=5",
-          "domain": "indexbox.io",
-          "source_name": "IndexBox",
-          "timestamp_utc": "2026-08-23T16:11:18+00:00",
-          "entity": "ON SEMICONDUCTOR CORP",
-          "ticker": "ON",
-          "cik": "1097864",
-          "entity_type": "company"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Ammonium Hydroxide Leaching Reagents Market to Reach 160 Index by 2035 on Semiconductor Purity Demand",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPQkFQLW10UW9TWjZQbjJVS1NRRU9CWk9IbzdGTzY2UjdWc21Db01xQ0QxUDd5RjFpR2xMeU5RSjdoRkFBQmY3S25ITGVBbGFtXzNTN2RjZk1CQlFubnpaTmVzaF84aU1XUnB5Y1JwRzNjNk50NTYybWpWbFRZN0tGeGtXMU9XRjRZNTRoWjBzOWhOTW5zZUdETEhPanBndGxGN2dfVnlFR3FnV2czdW5jWmhsVWg1aWgxUkhhS0h1MDdaclNVYk9ZdUFaaw?oc=5",
-          "domain": "indexbox.io",
-          "source_name": "IndexBox",
-          "timestamp_utc": "2026-08-23T13:51:21+00:00",
-          "entity": "ON SEMICONDUCTOR CORP",
-          "ticker": "ON",
-          "cik": "1097864",
-          "entity_type": "company"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Methyl Ester Sulfonate Surfactants Market to Reach 185 Index by 2035 on Semiconductor Cleaning Demand",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNOVVIaXdkWlc5Y2JCSjJVQzRQNjYtZlpvbU1MZFc2alV6N25xYTJwOHNRa050LVJIOEcwZ0ttWlF5Qmpta1ZEZUg2SHhmMVcwaHJRa0JhM0VvaHFnS29PWmNZeU1KMUo0MnRpYW1nbjVybC05bUhBNWFSeE52WmtnX0xLZXVmQ3daY0c3ZTV1NFl1ZlI2NDlYb09QNlRLdnJ4a3g5bW9jSXh1M2NqV3BRQkk0QTJUdnN1eXFzU0QyLXpzNUlKbkVYU2g3OA?oc=5",
-          "domain": "indexbox.io",
-          "source_name": "IndexBox",
-          "timestamp_utc": "2026-08-23T05:01:17+00:00",
-          "entity": "ON SEMICONDUCTOR CORP",
-          "ticker": "ON",
-          "cik": "1097864",
-          "entity_type": "company"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Weighing Data Acquisition Modules Market to Reach 172 Index by 2035 on Semiconductor Precision Demand",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNdXhLY2ItVC1XOHJlekVSZU5Ud0tTdTNHY19hTk1PZVRXbVpwM0RUVHl6ekxMZEQ0dWkxajNFM0d5M0g2TmtWRzNrczBxM1hjN0xteFlabk5XOVNkX19ibGZhdVpWTTJwYlB0NnFkOEYzWFpiZGQwUU1aM3pEU3YydTM5cF9vOG4xVzdJZEYycWtaOEtRdHZRRU5xcnNrRC1qWFYzMnVQc1JhMGhwMlkwc2E5aXlldlJpUjF1RW56NFRneV9oc3M5b0VVRQ?oc=5",
-          "domain": "indexbox.io",
-          "source_name": "IndexBox",
-          "timestamp_utc": "2026-08-23T04:01:13+00:00",
-          "entity": "ON SEMICONDUCTOR CORP",
-          "ticker": "ON",
-          "cik": "1097864",
-          "entity_type": "company"
-        }
-      ]
-    },
-    {
       "entity": "NVIDIA CORP",
       "ticker": "NVDA",
       "cik": "1045810",
@@ -1519,146 +1098,6 @@
           "entity": "NVIDIA CORP",
           "ticker": "NVDA",
           "cik": "1045810",
-          "entity_type": "company"
-        }
-      ]
-    },
-    {
-      "entity": "7GC & Co. Holdings Inc.",
-      "ticker": "VII",
-      "cik": "1826011",
-      "entity_type": "company",
-      "representative_title": "Diluted shares outstanding of Viking Acquisition Corp. II – BOATS:VII.U",
-      "latest_timestamp_utc": "2026-08-23T12:38:37+00:00",
-      "categories": [
-        "mna"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "tradingview.com"
-      ],
-      "recent_evidence_count": 4,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "mna",
-          "title": "Diluted shares outstanding of Viking Acquisition Corp. II – BOATS:VII.U",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPa1RwdF9DQ2JNdzBHaVNhdUFUVmFEaDVVOGlSekNWVXhxMkhBZV8tS0h2cnJBQ211TEtPZUZVUDZnQlBVemowLU5kWjRON0ktVTA1VC1INzU1eWxXcGZvSTV4LWdfNXRzVUZRSkUyampHUi1oVFFnMEJMb2t1VXBBd3NQRzRVeWtQdTRudF9oR29GMGNSUkdZMUNoekZtREgxWnJ4Q2ZB?oc=5",
-          "domain": "tradingview.com",
-          "source_name": "TradingView",
-          "timestamp_utc": "2026-08-23T12:38:37+00:00",
-          "entity": "7GC & Co. Holdings Inc.",
-          "ticker": "VII",
-          "cik": "1826011",
-          "entity_type": "company"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "mna",
-          "title": "Equity in earnings of Viking Acquisition Corp. II – BOATS:VII.U",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNmJGWEQ4TXJ2Q3NVWGlrenBKcFd2SlJfUFNlOWt1QXNZbUpWa2ZhVE1Ub3BwbEdMT0wtQi1mcU90TE1XRFA5VFpGWWtrZkxIMjVTaU55NEJwZUZXcWdoVnRaSUc0aE1YREdEaFpjR1BlZUFYTTlocEoxNVhocG9qRDRLdHNOWUk5VXZuck9xWjBjOEN3OTdhdV9hdw?oc=5",
-          "domain": "tradingview.com",
-          "source_name": "TradingView",
-          "timestamp_utc": "2026-08-23T11:51:06+00:00",
-          "entity": "7GC & Co. Holdings Inc.",
-          "ticker": "VII",
-          "cik": "1826011",
-          "entity_type": "company"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "mna",
-          "title": "Return on assets % of Viking Acquisition Corp. II – BOATS:VII.U",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOd3ZtcVo4VkN2VVI4OUl5ZDNndUxxNTVVVGU2aXR2N1h2Zjc5WmJJZ1hrbmZMS2N0dG8tU0VJTHUwMW82TE9USklQUGhzelNES2dLWjJvQ2RrN2MyX2FZZDJsb3VPWnFjbEh6bmdBQTN4WHlRZ3JOQnZJMDdXME52Z1dyTTdCRWhSdWd5SldtTHJ4MXAzSm1IeEczNExMUVk?oc=5",
-          "domain": "tradingview.com",
-          "source_name": "TradingView",
-          "timestamp_utc": "2026-08-23T09:33:13+00:00",
-          "entity": "7GC & Co. Holdings Inc.",
-          "ticker": "VII",
-          "cik": "1826011",
-          "entity_type": "company"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "mna",
-          "title": "Price to sales ratio of Viking Acquisition Corp. II – BOATS:VII.U",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQd1BEaVVyNDNhV1ZRS2lzeE1FbDhVYzNPNngxajl3TXFVT2JrLVNndEZGQkJfdWE4ZzZKQlhNUWY0eS1uMXhoWFlpTnBYY0Y2WGs5TEtIQzIzbDBXZTczY0gtTFl6Vm1WVHlpSWZLeUJJSWdKV3VVU1dUQm54NVpKOEVrbVV0dVpwQWRVajNuZnp6UXF3THhFUg?oc=5",
-          "domain": "tradingview.com",
-          "source_name": "TradingView",
-          "timestamp_utc": "2026-08-23T08:43:03+00:00",
-          "entity": "7GC & Co. Holdings Inc.",
-          "ticker": "VII",
-          "cik": "1826011",
-          "entity_type": "company"
-        }
-      ]
-    },
-    {
-      "entity": "NASDAQ, INC.",
-      "ticker": "NDAQ",
-      "cik": "1120193",
-      "entity_type": "company",
-      "representative_title": "Enterprise value to EBIT forward of Wintergreen Acquisition Corp. – NASDAQ:WTGUR",
-      "latest_timestamp_utc": "2026-08-23T12:24:16+00:00",
-      "categories": [
-        "mna"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "tradingview.com"
-      ],
-      "recent_evidence_count": 4,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "mna",
-          "title": "Enterprise value to EBIT forward of Wintergreen Acquisition Corp. – NASDAQ:WTGUR",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWGhxVlR3Z1Z1T3lWcnR2UUdvUTZ4Xy0tQlpfa2l1NFFSeE1WYjkxdjE1MW9oME9XZmxpd0FVY2RNRzM4NXhRZnFXYlJxSEZBY1ZKellNYy1GR25fcjg0MWhsbWR0TzBGZk9iMXVFX2NmYW9YcEtqeDJSOUZDWkpiS24xbVp1MmQ0OEtkcEtwMXlXMXZaVWYwYU1nXzUxVjNnU2dpVjhZMk9iQjZG?oc=5",
-          "domain": "tradingview.com",
-          "source_name": "TradingView",
-          "timestamp_utc": "2026-08-23T12:24:16+00:00",
-          "entity": "NASDAQ, INC.",
-          "ticker": "NDAQ",
-          "cik": "1120193",
-          "entity_type": "company"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "mna",
-          "title": "Enterprise value to EBITDA forward of Wintergreen Acquisition Corp. – NASDAQ:WTGUR",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMXBkdkhIQjY0Ui1GN200S3p4clZPVUdIR05sdVFxVTdCdHdxU19obDhVQ1FBY0tnWTQ4YnFpNTNHbUc4c242dnRqNklITmpHME41WlZ4anhfZHVqRVZDaDZtYkVwcGxBd3k5bFFCN0xhS1ZwcXVCTlBkSi1USnp3bVFUQUg1U19aZks5QlcyRFhJSGQ1M2lzRGhaUThMNGE5Uk4wOGVJZFNodm9JYjJZ?oc=5",
-          "domain": "tradingview.com",
-          "source_name": "TradingView",
-          "timestamp_utc": "2026-08-23T12:01:51+00:00",
-          "entity": "NASDAQ, INC.",
-          "ticker": "NDAQ",
-          "cik": "1120193",
-          "entity_type": "company"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "mna",
-          "title": "Enterprise value to EBITDA forward of K2 Capital Acquisition Corporation – NASDAQ:KTWOR",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOaEFvTV9iSElua2Zwb3VnaWFrQ3M2MGJUVkVhcW42Z0FTS1pqZTVGUFZKdExSSGJtRnIwdlgxQ0FZUmQ1SjVQM2h6eGRtMGxwcFBNWFZ1RTQ3VERHdG5mYTFJWjhBMW15Mkc2XzhrRDVrS2xoekNpNUlwN0szXzJObVl1bVhRT0VyM01YRFBjSU5JT3FtUUpUcFN6RllZek9NLXozV1YxWDZCeFctemk4?oc=5",
-          "domain": "tradingview.com",
-          "source_name": "TradingView",
-          "timestamp_utc": "2026-08-23T11:49:11+00:00",
-          "entity": "NASDAQ, INC.",
-          "ticker": "NDAQ",
-          "cik": "1120193",
-          "entity_type": "company"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "mna",
-          "title": "ClearThink 1 Acquisition Corp. News — NASDAQ:CTAA",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBnNGVmck1ONW12amE5UlhiUkltV1VzS1U1c05KcTRxNWlXWWhmdHRHWHZQSDJZZ1hVak9UZ3lXYjJJaWd2THJ4M3FHR3NvQVFkZUZmdzRvTE41VjlJR01xYlhOaw?oc=5",
-          "domain": "tradingview.com",
-          "source_name": "TradingView",
-          "timestamp_utc": "2026-08-23T05:20:32+00:00",
-          "entity": "NASDAQ, INC.",
-          "ticker": "NDAQ",
-          "cik": "1120193",
           "entity_type": "company"
         }
       ]
@@ -1841,65 +1280,6 @@
       ]
     },
     {
-      "entity": "Tariffs / Trade",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "macro",
-      "representative_title": "'Bad deal': Canada's Carney announces retaliation after US tariffs",
-      "latest_timestamp_utc": "2026-08-23T14:51:00+00:00",
-      "categories": [
-        "macro_rates"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "gpb.org",
-        "newsnationnow.com",
-        "usatoday.com"
-      ],
-      "recent_evidence_count": 3,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "macro_rates",
-          "title": "'Bad deal': Canada's Carney announces retaliation after US tariffs",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYnB2X2dteXdmaGNwS09QSWhoVWozSWVvUjMwV2lQenN1ZkZxV29RV2VxXzZhOEpVOU1OUzJKQy1UaE5jUDhVaGNFNGlNQXQyS2pfUGwwU2dGamw3UVNLT1E4VEtzRGJHekxZQ2gzS21zTnlBZmtrQlhiQUctRmp2OG1BWm1WWkFsV3U5UUswVEJ2M25DbEJrRm5fX3Q?oc=5",
-          "domain": "usatoday.com",
-          "source_name": "USA Today",
-          "timestamp_utc": "2026-08-23T14:51:00+00:00",
-          "entity": "Tariffs / Trade",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "macro"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "macro_rates",
-          "title": "As Canada readies retaliatory tariffs, Mark Carney says his nation is 'at war' with U.S.",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdTlKeVJkNWxmMEx2X2cwMFl5aG1xUUNMVlpEWEd5OGJ4aEtaUXQwSEpLWUF2UlBnekhCa0gzYlJXdHM2R1JSVExPeEhnV1VKVlBSeGpZeWJ0eHNSbVlQRHgzQjBYQTFITmVqQ3FvWmxMdERBT0lsV1dzRXExTk9oeWY5ZDhFVFNaMjljM1VfNmlfNjZfMzRwalNmcU5ha0FMVGNHbG5CT0dRYUZf?oc=5",
-          "domain": "gpb.org",
-          "source_name": "Georgia Public Broadcasting",
-          "timestamp_utc": "2026-08-23T14:12:13+00:00",
-          "entity": "Tariffs / Trade",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "macro"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "macro_rates",
-          "title": "Canada announces retaliatory tariffs to begin Sept. 8",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNYlJFZF9KQWhGM2dTZjFSY0ZmcmpQdTBxb0xpWGR6aU45VVp1ay1VemgyWmdyREhIS1V5aDZtY1RURHhaNUNSVHQtRkpodzE4S19zUThyNkNoZVFTaElTU0hNd1B1NFN2WW5VTXdmSkhSM041dTBZUG5aMTVYTkFCMnhPaUZPZ9IBiwFBVV95cUxNdWhHa0FrNUg3QWRicERnSTcyVmFUUFFBS3RjLTZqcGQ1Zk5ldlg0QTM1anhfRllXREJxM2hoMU9GTHVWbzZpbmoxX0JZQW5CQlA2bUhZUVRQdTdqTzdKS3pUcU9GRDdzZlRXQnd3RmRHdFhtejgtVEpPdS1vanNYM211bWFsYmlnQ25j?oc=5",
-          "domain": "newsnationnow.com",
-          "source_name": "NewsNation",
-          "timestamp_utc": "2026-08-23T12:55:25+00:00",
-          "entity": "Tariffs / Trade",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "macro"
-        }
-      ]
-    },
-    {
       "entity": "Bitcoin / Crypto",
       "ticker": null,
       "cik": null,
@@ -1959,9 +1339,9 @@
       ]
     },
     {
-      "entity": "Paramount Group, Inc.",
-      "ticker": "PGRE",
-      "cik": "1605607",
+      "entity": "Paramount Skydance Corporation",
+      "ticker": "PSKY",
+      "cik": "2041610",
       "entity_type": "company",
       "representative_title": "Judge blocks Paramount's $110B Warner Bros. mer...",
       "latest_timestamp_utc": "2026-08-23T13:37:24+00:00",
@@ -2015,7 +1395,8 @@
           "cik": "1605607",
           "entity_type": "company"
         }
-      ]
+      ],
+      "entity_correction": "paramount_media_disambiguation"
     },
     {
       "entity": "Bitcoin / Crypto",
@@ -2077,123 +1458,9 @@
       ]
     },
     {
-      "entity": "WATTS WATER TECHNOLOGIES INC",
-      "ticker": "WTS",
-      "cik": "795403",
-      "entity_type": "company",
-      "representative_title": "Price to sales forward of SPREE ACQUISITION CORP 1 LIMITED C/WTS 22/12/2028 (TO PUR COM) – OTC:SACWF",
-      "latest_timestamp_utc": "2026-08-23T10:10:33+00:00",
-      "categories": [
-        "mna"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "tradingview.com"
-      ],
-      "recent_evidence_count": 3,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "mna",
-          "title": "Price to sales forward of SPREE ACQUISITION CORP 1 LIMITED C/WTS 22/12/2028 (TO PUR COM) – OTC:SACWF",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPV0N0OGxiTVVmdHJNUGRjRXlEUGRWX0FqaE11aFZRWmU0bThxXzNuR0FXYzJkd1VURUdQc1EyNWtEWDlMajZTSXVid3JUZ3pmMmF4TGRvOTFaU2E5R2tWcDliQlIyaUE3U2pnWnhpSm5WdWVRYzB0TERtby1UNXBteWR6QVpkTWxnU2s4UU83UFpVQ1pYOG9YYmxqZw?oc=5",
-          "domain": "tradingview.com",
-          "source_name": "TradingView",
-          "timestamp_utc": "2026-08-23T10:10:33+00:00",
-          "entity": "WATTS WATER TECHNOLOGIES INC",
-          "ticker": "WTS",
-          "cik": "795403",
-          "entity_type": "company"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "mna",
-          "title": "Price to earnings forward of SPREE ACQUISITION CORP 1 LIMITED C/WTS 22/12/2028 (TO PUR COM) – OTC:SACWF",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdzNHcTZCV3J2Z29aU191cHhUdGVjYklNVlJueHFXWnZqZnVqQnFPb3dHWERTNmJuRGxyWVJaLWhaakJjdHY0R09jdzlMRnlNWk1Ta1hSemthUDVuV21raWZ4bS1TNDBzb3AxcG52THlMc2dYU1htWG1HN3o2STZZbVZXc3ltRF9pbFpRQ211MEZuMVFDNGJVc053bnFiZWc?oc=5",
-          "domain": "tradingview.com",
-          "source_name": "TradingView",
-          "timestamp_utc": "2026-08-23T10:04:56+00:00",
-          "entity": "WATTS WATER TECHNOLOGIES INC",
-          "ticker": "WTS",
-          "cik": "795403",
-          "entity_type": "company"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "mna",
-          "title": "SPREE ACQUISITION CORP 1 LIMITED C/WTS 22/12/2028 (TO PUR COM)",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdnZpcFhRclR4d3h1YzZjQWx1TlRnMVN0djVaT2hsMFNCeVd1TkpOZHB5QWVuc1NPNS13SnQ4OWEyS1RHTGJxeDcyN0VtTE92RmJnbUVZRVEycmdibFdYQzZsbllDRG12WHhUWlFIbXVObzU5TEVkY0lKeWZSd1FqejlSS1BoNWR4Z1NBc190Tjl1N2NuUXhFMGtmZ05QbU5XTGxQNUM5T05UUQ?oc=5",
-          "domain": "tradingview.com",
-          "source_name": "TradingView",
-          "timestamp_utc": "2026-08-23T07:21:40+00:00",
-          "entity": "WATTS WATER TECHNOLOGIES INC",
-          "ticker": "WTS",
-          "cik": "795403",
-          "entity_type": "company"
-        }
-      ]
-    },
-    {
-      "entity": "Andretti Acquisition Corp.",
-      "ticker": "WNNR",
-      "cik": "1843714",
-      "entity_type": "company",
-      "representative_title": "Price to book forward of Andretti Acquisition Corp. II – NASDAQ:POLE",
-      "latest_timestamp_utc": "2026-08-23T08:37:46+00:00",
-      "categories": [
-        "mna"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "tradingview.com"
-      ],
-      "recent_evidence_count": 3,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "mna",
-          "title": "Price to book forward of Andretti Acquisition Corp. II – NASDAQ:POLE",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPXzEyZm5IWjJlbEtqRnliR2FUejVCc0t2TjNxazNLMU9QU3hCdURLR3I3YndBQUcxSDFuWHlERVlpaEwxRDk4Uk42eDBtXy1wa1pDanZfdUtPYkVaUXdHdk9mZFRjLTUtVmlSR3dramlZbkpIZWJiVHV5aWhEeG5tQm92WGhXZWhERnlHN1NzWFl5YkQ3STN2SkNaZlg?oc=5",
-          "domain": "tradingview.com",
-          "source_name": "TradingView",
-          "timestamp_utc": "2026-08-23T08:37:46+00:00",
-          "entity": "Andretti Acquisition Corp.",
-          "ticker": "WNNR",
-          "cik": "1843714",
-          "entity_type": "company"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "mna",
-          "title": "Enterprise value to EBIT forward of Andretti Acquisition Corp. II – NASDAQ:POLE",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcGxlRlppcHVuOHQyVjRBakpTdUpqN1o1VmJFQ0RpUUMteWEyQTJkazZhNHBDQUYyWHh0T090bUN6UXdkTDBRQzN1a0JFOHFTN3RNUDZnZDBhYjlJZnNqNHV1ZC10OVgwWG5ldTRCZFpCbFczMmZ0NFpjNzRpdGRrNi12aldvaWo5QzRScHdhVEs0dHdvU2RYamFfOGlmOVhHT1pWZFZISXl2LU0?oc=5",
-          "domain": "tradingview.com",
-          "source_name": "TradingView",
-          "timestamp_utc": "2026-08-23T08:10:48+00:00",
-          "entity": "Andretti Acquisition Corp.",
-          "ticker": "WNNR",
-          "cik": "1843714",
-          "entity_type": "company"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "mna",
-          "title": "Price to earnings forward of Andretti Acquisition Corp. II – NASDAQ:POLE",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWld4U2ZoYkRjaU1scmxIYmtEOVpPV0xHWnhjc0JneFFfZkFFbjRRaExxMVc2alBhMjNISmM0RVZxVHFlcFlxUVA4SWU0OUE4WGMwWVVFTlA2czhOZEVvbnlaeGdqd2xNS2pHazE1a2p5T3k1Skg2dzFsd0oteU5Lc3I2SzdQVVJPcXZVcUdaMjVoSzRXRFQ0MU5sVHQ0d3hzN3c?oc=5",
-          "domain": "tradingview.com",
-          "source_name": "TradingView",
-          "timestamp_utc": "2026-08-23T03:54:44+00:00",
-          "entity": "Andretti Acquisition Corp.",
-          "ticker": "WNNR",
-          "cik": "1843714",
-          "entity_type": "company"
-        }
-      ]
-    },
-    {
-      "entity": "Paramount Group, Inc.",
-      "ticker": "PGRE",
-      "cik": "1605607",
+      "entity": "Paramount Skydance Corporation",
+      "ticker": "PSKY",
+      "cik": "2041610",
       "entity_type": "company",
       "representative_title": "Mark Ruffalo Fires Back After Paramount Slammed His Merger Attack as ‘Antisemitic'",
       "latest_timestamp_utc": "2026-08-23T06:16:35+00:00",
@@ -2248,7 +1515,8 @@
           "cik": "1605607",
           "entity_type": "company"
         }
-      ]
+      ],
+      "entity_correction": "paramount_media_disambiguation"
     },
     {
       "entity": "SK hynix",
@@ -2421,7 +1689,7 @@
           "title": "Bitcoin Approaches the $80,000 Frontier",
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1yM05HcDI1X0RscVZISlQ3NUFuTFZxNS0xaGRuWURTZTY3UUZiejZlQ0dWV1dxUXYteEZuRjdDMGQxU0FEZU1JbmdlYkczNWhSVGNlOUVUbWRRWWtORjVKaXZYYVNBMldZQ2pOX014cw?oc=5",
           "domain": "onesafe.io",
-          "source_name": "OneSafe",
+          "source_name": "OneSafe.io",
           "timestamp_utc": "2026-08-23T05:37:02+00:00",
           "entity": "Bitcoin / Crypto",
           "ticker": null,
@@ -2472,6 +1740,51 @@
           "ticker": null,
           "cik": null,
           "entity_type": "macro"
+        }
+      ]
+    },
+    {
+      "entity": "AI Infrastructure",
+      "ticker": null,
+      "cik": null,
+      "entity_type": "theme",
+      "representative_title": "Samsung Leverages Advanced Logic Processes To Advance HBM As It Works On Its Next-Gen zHBM DRAM That 3D Stacks Memory On Compute",
+      "latest_timestamp_utc": "2026-08-23T18:45:35+00:00",
+      "categories": [
+        "ai_semis"
+      ],
+      "sec_forms": [],
+      "source_domains": [
+        "servethehome.com",
+        "wccftech.com"
+      ],
+      "recent_evidence_count": 2,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "ai_semis",
+          "title": "Samsung Leverages Advanced Logic Processes To Advance HBM As It Works On Its Next-Gen zHBM DRAM That 3D Stacks Memory On Compute",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcXRJUUxrMVA1WUxsd19uSXVvMUJtOHFNaFAzUHZvZ2VpQnE4VEM2UjFQaVZsSnpkUDhsc3BJTGh3emxpTW9OQ0V5Z2MzRm9SRVNuT2lOZmlUQVlDMTFhVFdKQnZnNlZtcmw5ZDI5d0paMU5aaHVRTEtGQ3d5dVNBX1VYRXc2OFRnY1VhVDVQZGU0aTZUb2JxRk1VeVdPbHZNeUw1dVh4MNIBrAFBVV95cUxNck1hdjJrdnN1RGZtc29palBjZzFRQjVzVXJMY2lmTjZDNHBDUWFfakVhS0RnSHhHTFYyQ1dMUERkVldXR1FhUS16Z0VxS2JYbVR4azBkcy1CSlo5ckRrVUw1MHRMMVZ6ek5TbGgtOV9qbEdWS0JweWVlN2ppeUo4NkkzNnByNm14LTZQX2NmZGdUX3BoZXQyUU1WODl2QllrQVZQRXM1WkE0ZXFB?oc=5",
+          "domain": "wccftech.com",
+          "source_name": "Wccftech",
+          "timestamp_utc": "2026-08-23T18:45:35+00:00",
+          "entity": "AI Infrastructure",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "theme"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "ai_semis",
+          "title": "Samsung HBM Development History",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9uSThiV1p4OUNBWUEyNURLNTlMeUNoUHJXelNRRHFnUWZJcFp5ZUVmZ013NEtuZzVVUGVST2NGeS01N1B5bDI2Si1wTzdkRGg3OEpyN2NhUXVROXdMaGszdGJjU3NiRzFONkV2aEZsYW1wT2JzM0s0?oc=5",
+          "domain": "servethehome.com",
+          "source_name": "ServeTheHome",
+          "timestamp_utc": "2026-08-23T18:30:18+00:00",
+          "entity": "AI Infrastructure",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "theme"
         }
       ]
     },
@@ -2655,9 +1968,9 @@
       ]
     },
     {
-      "entity": "Paramount Group, Inc.",
-      "ticker": "PGRE",
-      "cik": "1605607",
+      "entity": "Paramount Skydance Corporation",
+      "ticker": "PSKY",
+      "cik": "2041610",
       "entity_type": "company",
       "representative_title": "CPI | Paramount, California to Meet Monday on Antitrust Settlement",
       "latest_timestamp_utc": "2026-08-23T16:56:45+00:00",
@@ -2698,7 +2011,8 @@
           "cik": "1605607",
           "entity_type": "company"
         }
-      ]
+      ],
+      "entity_correction": "paramount_media_disambiguation"
     },
     {
       "entity": "Personalis, Inc.",
@@ -2791,46 +2105,47 @@
       ]
     },
     {
-      "entity": "AI Infrastructure",
+      "entity": "Tariffs / Trade",
       "ticker": null,
       "cik": null,
-      "entity_type": "theme",
-      "representative_title": "Vacuum Suction Cup Pads Market Growth Driven by Semiconductor Precision Handling to 2035 - News and Statistics",
-      "latest_timestamp_utc": "2026-08-23T15:16:26+00:00",
+      "entity_type": "macro",
+      "representative_title": "'Bad deal': Canada's Carney announces retaliation after US tariffs",
+      "latest_timestamp_utc": "2026-08-23T14:51:00+00:00",
       "categories": [
-        "ai_semis"
+        "macro_rates"
       ],
       "sec_forms": [],
       "source_domains": [
-        "indexbox.io"
+        "newsnationnow.com",
+        "usatoday.com"
       ],
       "recent_evidence_count": 2,
       "evidence": [
         {
           "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Vacuum Suction Cup Pads Market Growth Driven by Semiconductor Precision Handling to 2035 - News and Statistics",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbmgzcGRmME5nbVZleFR0Rms0bUFEajlLdlpyUV9KREk0QTRodFRWeHlfM0FQeEdMU2lZeFVNVnRCNXpWVWtjb1czZlJKNlROTXp6M0dKZFlUTDNudnhoX3NBSFF4QUFpWFRYeThkSDJvOHZwMWZPN2U3d1NDb3pIMHBLT3BKTk1tSG00bk4tbUloVDVuMFlWcmx1VnV5Tkl0aGxhN1pjR0Q1SXZJWlN5ZnRGNWF1eTVsTHgyQ3N4UC1oUQ?oc=5",
-          "domain": "indexbox.io",
-          "source_name": "IndexBox",
-          "timestamp_utc": "2026-08-23T15:16:26+00:00",
-          "entity": "AI Infrastructure",
+          "category": "macro_rates",
+          "title": "'Bad deal': Canada's Carney announces retaliation after US tariffs",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYnB2X2dteXdmaGNwS09QSWhoVWozSWVvUjMwV2lQenN1ZkZxV29RV2VxXzZhOEpVOU1OUzJKQy1UaE5jUDhVaGNFNGlNQXQyS2pfUGwwU2dGamw3UVNLT1E4VEtzRGJHekxZQ2gzS21zTnlBZmtrQlhiQUctRmp2OG1BWm1WWkFsV3U5UUswVEJ2M25DbEJrRm5fX3Q?oc=5",
+          "domain": "usatoday.com",
+          "source_name": "USA Today",
+          "timestamp_utc": "2026-08-23T14:51:00+00:00",
+          "entity": "Tariffs / Trade",
           "ticker": null,
           "cik": null,
-          "entity_type": "theme"
+          "entity_type": "macro"
         },
         {
           "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Quick-Change Modular Tool Holder Systems Market Growth to 2035 Driven by Semiconductor Precision Manufacturing - News and Statistics",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNZEtHSENFYU91NVBWLS1xSVhlSkxQUGJFYm1OdG5udW4zSEFoMHZKOFlWTi1YSHFGU3Rvem93cGxJaWpZdmNOSDlTYzlMZFBtaUQ2c1NERHFZcHJmSC1MMFdQUWJSLU1EcVNMMXJhVkpmZE82WnM2Ml9NWk5hbE5jbHo4QkZjbFpzcGRaOXhPeVdObl9LdkotbGJNWGxMV2lyRlV5WklWYkVFWHk5WkxSUEpJbUV1OWxYNjRvTVBHNjlpMlpEcGN3cFF5ampwTFZSOHVhRktn?oc=5",
-          "domain": "indexbox.io",
-          "source_name": "IndexBox",
-          "timestamp_utc": "2026-08-23T12:56:20+00:00",
-          "entity": "AI Infrastructure",
+          "category": "macro_rates",
+          "title": "Canada announces retaliatory tariffs to begin Sept. 8",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNYlJFZF9KQWhGM2dTZjFSY0ZmcmpQdTBxb0xpWGR6aU45VVp1ay1VemgyWmdyREhIS1V5aDZtY1RURHhaNUNSVHQtRkpodzE4S19zUThyNkNoZVFTaElTU0hNd1B1NFN2WW5VTXdmSkhSM041dTBZUG5aMTVYTkFCMnhPaUZPZ9IBiwFBVV95cUxNdWhHa0FrNUg3QWRicERnSTcyVmFUUFFBS3RjLTZqcGQ1Zk5ldlg0QTM1anhfRllXREJxM2hoMU9GTHVWbzZpbmoxX0JZQW5CQlA2bUhZUVRQdTdqTzdKS3pUcU9GRDdzZlRXQnd3RmRHdFhtejgtVEpPdS1vanNYM211bWFsYmlnQ25j?oc=5",
+          "domain": "newsnationnow.com",
+          "source_name": "NewsNation",
+          "timestamp_utc": "2026-08-23T12:55:25+00:00",
+          "entity": "Tariffs / Trade",
           "ticker": null,
           "cik": null,
-          "entity_type": "theme"
+          "entity_type": "macro"
         }
       ]
     },
@@ -2880,182 +2195,6 @@
       ]
     },
     {
-      "entity": "ON SEMICONDUCTOR CORP",
-      "ticker": "ON",
-      "cik": "1097864",
-      "entity_type": "company",
-      "representative_title": "Bacterial Growth Detection Medium Market to Reach USD 2.5B by 2035 on Semiconductor Contamination Demands",
-      "latest_timestamp_utc": "2026-08-23T14:31:19+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "indexbox.io"
-      ],
-      "recent_evidence_count": 2,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Bacterial Growth Detection Medium Market to Reach USD 2.5B by 2035 on Semiconductor Contamination Demands",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNR0ZSSW1SZmRoLTNZSEtzOHlZdkNCQ0JzcXFEal80TmNIaHh5Tm01QlBFVnNGc3hQNjdSUExaY29YWG1pWElCQzlvTmNpaHpxc3FfYy1hM3AwRXVCLUQtU0J5QkZRREdMWWZJa05rZHlvNjZ4X21XUmpCS2JrRHJLVEVxT0wtSGtvd1pmdmRYOGhHSmhaWjliVkJybTg5SWdTNFlMV1l4SEZfSldkWTcxcGdGa013VjVvZ2xLVlBLMGl5UTRBSFRnMTQxU21BNm55?oc=5",
-          "domain": "indexbox.io",
-          "source_name": "IndexBox",
-          "timestamp_utc": "2026-08-23T14:31:19+00:00",
-          "entity": "ON SEMICONDUCTOR CORP",
-          "ticker": "ON",
-          "cik": "1097864",
-          "entity_type": "company"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Magnesia-Stabilized Zirconia Parts Market to Reach USD 2.3 Billion by 2035 on Semiconductor Fab Expansion",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOMEpvUmpsRWNBM2tJUFVLMjlrZjZfQlZkRVFjSHlZaXBrSVB4UTNaT0lwYkROZktHdzlKbTN2eF9LVVhiUVM5dXBwZzdrbWgyT3hVS1p3dU96VDM5YlhDVFlmSnBHdzlRQXZKenRoNmtHdkJBU185Q3pwTndiMDRHeldZUE1qQkpfRk1RSUpJN0w0dHVVenFteEJvYldESzlxTUVGVFdNalk2NXl2cUpVbVYyZzVYS0FRbjlzdlc5Vmg3RnVZQVJxZlpNS1Y3NlA3?oc=5",
-          "domain": "indexbox.io",
-          "source_name": "IndexBox",
-          "timestamp_utc": "2026-08-23T12:21:13+00:00",
-          "entity": "ON SEMICONDUCTOR CORP",
-          "ticker": "ON",
-          "cik": "1097864",
-          "entity_type": "company"
-        }
-      ]
-    },
-    {
-      "entity": "Information Services Group Inc.",
-      "ticker": "III",
-      "cik": "1371489",
-      "entity_type": "company",
-      "representative_title": "Price to book forward of A SPAC III Acquisition Corp. – NASDAQ:ASPCR",
-      "latest_timestamp_utc": "2026-08-23T14:11:28+00:00",
-      "categories": [
-        "mna"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "tradingview.com"
-      ],
-      "recent_evidence_count": 2,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "mna",
-          "title": "Price to book forward of A SPAC III Acquisition Corp. – NASDAQ:ASPCR",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQYXRwQXc0dzJuLTVJazBnVklJMDVSZjRCd2lsSnd1SEh5UGVjZWFYT1RkTUNRWW5PeUcxSG9xQ0xJMWFIbXBiTmFEQkxhMERES0lhSU1zT0RjanlSdllrZTlOVUZkSXBaOFZuc1JXZTRSZG9WS1dZMGU4eHJuLXJZbnFRM3pic1VPWHZ0S2JRT0ZVM2JiUVRRbnFpUk1yUQ?oc=5",
-          "domain": "tradingview.com",
-          "source_name": "TradingView",
-          "timestamp_utc": "2026-08-23T14:11:28+00:00",
-          "entity": "Information Services Group Inc.",
-          "ticker": "III",
-          "cik": "1371489",
-          "entity_type": "company"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "mna",
-          "title": "Price to book forward of Oaktree Acquisition Corp. III Life Sciences – NASDAQ:OACCU",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLWV2emdEcmhWdk1nRGVEN1I2Tk4tSExhZzgtSWluOHJNNndOU0ZWSEpnMFk3ZlRqWEVISVYxN3JuYjNCd3lGSmY2aFdkdkVpZXBfME1WZnJRT1hBbXJVVzZ0bFNEMHZIbEZoMWZ1cmdvZElwMjBEQUFDS2ctWXJmSzlYTjJwNC1tM2tYRFctN1V3MkhhTzl1ejVPNFdoQQ?oc=5",
-          "domain": "tradingview.com",
-          "source_name": "TradingView",
-          "timestamp_utc": "2026-08-23T07:09:04+00:00",
-          "entity": "Information Services Group Inc.",
-          "ticker": "III",
-          "cik": "1371489",
-          "entity_type": "company"
-        }
-      ]
-    },
-    {
-      "entity": "International Media Acquisition Corp.",
-      "ticker": "IMAQ",
-      "cik": "1846235",
-      "entity_type": "company",
-      "representative_title": "Price to sales forward of International Media Acquisition Corp. – OTC:IMAQ",
-      "latest_timestamp_utc": "2026-08-23T12:53:20+00:00",
-      "categories": [
-        "mna"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "tradingview.com"
-      ],
-      "recent_evidence_count": 2,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "mna",
-          "title": "Price to sales forward of International Media Acquisition Corp. – OTC:IMAQ",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOdklSSWNhY3JKYkhYelpyZ1dPRG5OVXNETFdFRWZwZElTRlNxQjVCSkJEaDJ6TjNIekd0dXdWVnYyeTR0VG9qYWdPMnhwbGVCd1JhcjN0cV9HU3owQkxCVE1IRjNqM3A1YlpFbEZ2ZEhnVTJLdW5nQVBPakFEcFJxZ1FkWXBPc2Jxd2R0X2pTd1FfSVd3eks3blZB?oc=5",
-          "domain": "tradingview.com",
-          "source_name": "TradingView",
-          "timestamp_utc": "2026-08-23T12:53:20+00:00",
-          "entity": "International Media Acquisition Corp.",
-          "ticker": "IMAQ",
-          "cik": "1846235",
-          "entity_type": "company"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "mna",
-          "title": "Enterprise value to EBIT forward of International Media Acquisition Corp. – OTC:IMAQ",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVW8zbEJsbF9GNlFFQnBFMDBQTDR3NHBoZFc3MHRKMDl4eHdrYlJsTE1RU183XzQ5YURZeFpTSnJZOS02SkZBc2VPN2tZamJtQ3E3RkFKMHpYbzZ4Q3JoUEhjdHpMdnI5WWJuajJHX2Q0NVFLQ2MwUDF4OGZReGtHZHN3YWJVV3R1MXpKVDhOWnppZlFweEZaSWRNLWppeXN5aEhPOEpDRQ?oc=5",
-          "domain": "tradingview.com",
-          "source_name": "TradingView",
-          "timestamp_utc": "2026-08-23T12:50:22+00:00",
-          "entity": "International Media Acquisition Corp.",
-          "ticker": "IMAQ",
-          "cik": "1846235",
-          "entity_type": "company"
-        }
-      ]
-    },
-    {
-      "entity": "Inflection Point Acquisition Corp.",
-      "ticker": "IPAX",
-      "cik": "1844452",
-      "entity_type": "company",
-      "representative_title": "Enterprise value to EBIT forward of Inflection Point Acquisition Corp. – NASDAQ:IPEXR",
-      "latest_timestamp_utc": "2026-08-23T10:18:50+00:00",
-      "categories": [
-        "mna"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "tradingview.com"
-      ],
-      "recent_evidence_count": 2,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "mna",
-          "title": "Enterprise value to EBIT forward of Inflection Point Acquisition Corp. – NASDAQ:IPEXR",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPOUtEYzREWnlTMjlTazZ3aGtWa25DOG8xNVVyWjk0UHVmVmoyeVh5TGtFMlRNbVFXTkRxU3VCUHMtRFo2OGp0SkZ6T292Ylh5ZnFvcHBsLV8zQjg0d215UFcyWFk5Sjc4Nm00S3JUcjUySm1PWWkzMFRiRnk5YjNNOXF4T1NyVC1mbjJwWGxPcTBBRHdzWXBIUzNWM0ZQMkxxMEdxLWJpVVBGUWRy?oc=5",
-          "domain": "tradingview.com",
-          "source_name": "TradingView",
-          "timestamp_utc": "2026-08-23T10:18:50+00:00",
-          "entity": "Inflection Point Acquisition Corp.",
-          "ticker": "IPAX",
-          "cik": "1844452",
-          "entity_type": "company"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "mna",
-          "title": "Price to sales forward of Inflection Point Acquisition Corp. – NASDAQ:IPEXR",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNM2prWnBMSldpQ3ppN2F1YWFyZEpqS2VNVE1aTU5JUERlSnB2YjZYNnNjQVoybDQwUl9kYVV5bXpzNk1VRUNQSUZ4VHFyT2s0dk1vanpfaGt3SDduMExXUlRGTDhSckFnT21VN05SX3BVc0xBVDVfT2g4QkFTTVlwWlhqOHhzSmh0UHdDR3ZhSzhIemFIdzFZM29uQV9lVjQ?oc=5",
-          "domain": "tradingview.com",
-          "source_name": "TradingView",
-          "timestamp_utc": "2026-08-23T10:10:52+00:00",
-          "entity": "Inflection Point Acquisition Corp.",
-          "ticker": "IPAX",
-          "cik": "1844452",
-          "entity_type": "company"
-        }
-      ]
-    },
-    {
       "entity": "NVIDIA CORP",
       "ticker": "NVDA",
       "cik": "1045810",
@@ -3096,94 +2235,6 @@
           "entity": "NVIDIA CORP",
           "ticker": "NVDA",
           "cik": "1045810",
-          "entity_type": "company"
-        }
-      ]
-    },
-    {
-      "entity": "Healthcare AI Acquisition Corp.",
-      "ticker": "HAIA",
-      "cik": "1848861",
-      "entity_type": "company",
-      "representative_title": "Price to earnings forward of Healthcare AI Acquisition Corp. – OTC:HAIUF",
-      "latest_timestamp_utc": "2026-08-23T07:30:55+00:00",
-      "categories": [
-        "mna"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "tradingview.com"
-      ],
-      "recent_evidence_count": 2,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "mna",
-          "title": "Price to earnings forward of Healthcare AI Acquisition Corp. – OTC:HAIUF",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPSnlkUmR4QnRyNlFGazhBNDFiLVlCSzJoNUpVazRtczZZM2RvM0xqWjJLU3R1SHdxWXVTTHlrQlFzbU05b2FJbW4zTDZkZ0hYeDFNbElaUmduY3p2NkhqYlZGak9lMVNWaTB1M2F3UWtrWUtvRE5HOU1qUWZqQWV2dzlvMDBMbDU4OHJTMmFJNlVjVGNVM0JlNElZV3ZfUEE?oc=5",
-          "domain": "tradingview.com",
-          "source_name": "TradingView",
-          "timestamp_utc": "2026-08-23T07:30:55+00:00",
-          "entity": "Healthcare AI Acquisition Corp.",
-          "ticker": "HAIA",
-          "cik": "1848861",
-          "entity_type": "company"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "mna",
-          "title": "Enterprise value to EBITDA forward of Healthcare AI Acquisition Corp. – OTC:HAIUF",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQNVU5X1NIaFIxRGpXNlJSNDNzQ3NOZmxBY0ZKblpxUFNPVHo3aEdPcWNhM2JNbFpzVHdSaXhLYnQ3M3Z4N3JhRHFCcGJCS0ZlSkFyWXFyYWhCb0pwNkU3UFRqelk4SUhjZ0hmN01vVFNZYm5IUkpPLThFN2ZKZzRfUVRVTlp4SjJTaEp4bVI3YndYbmtLck1PMjFFMkNpUFh6SGNyY1lNY29wdUE?oc=5",
-          "domain": "tradingview.com",
-          "source_name": "TradingView",
-          "timestamp_utc": "2026-08-23T04:56:04+00:00",
-          "entity": "Healthcare AI Acquisition Corp.",
-          "ticker": "HAIA",
-          "cik": "1848861",
-          "entity_type": "company"
-        }
-      ]
-    },
-    {
-      "entity": "HUTCHMED (China) Ltd",
-      "ticker": "HCM",
-      "cik": "1648257",
-      "entity_type": "company",
-      "representative_title": "Price to book forward of HCM III Acquisition Corp. – BOATS:HCMAU",
-      "latest_timestamp_utc": "2026-08-23T07:07:31+00:00",
-      "categories": [
-        "mna"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "tradingview.com"
-      ],
-      "recent_evidence_count": 2,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "mna",
-          "title": "Price to book forward of HCM III Acquisition Corp. – BOATS:HCMAU",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbnZmYUVuaHJrdUh2dnYzbkQxUjVWMTUyZjF1UHVVM3dvNFhOZ0FVSVlVVXA0bVQ4YnVMYXMwVkRNUDdLT2trWnRBcHJUTlNVVTFBajc1WUpuQ1pyYzV3XzM2NlNiOW1JeWhyVHlhNEFPVERZUGdKSXNqN1A4bG8wWm9PMTRKZ1BPZ0ZIRnlZUXFSVWMyTm5qeVR6NnQ?oc=5",
-          "domain": "tradingview.com",
-          "source_name": "TradingView",
-          "timestamp_utc": "2026-08-23T07:07:31+00:00",
-          "entity": "HUTCHMED (China) Ltd",
-          "ticker": "HCM",
-          "cik": "1648257",
-          "entity_type": "company"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "mna",
-          "title": "Enterprise value to EBITDA forward of HCM III Acquisition Corp. – BOATS:HCMAU",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSmdCbTV3T2JOaUdJU19hWmJ1STVJY0swQ3M3ZDJ3Q2Nlc3pqTUVBUlY0SlQ2S2xjN0hRMFpsUlphX0FhYllzdWNUUUc2RUxncDdEQ0JhckhvRzlBVWRITDJPMmVHaE80OEVIQnhmZEZVTUJsMVN2cEdPWXpMUGlSY2NkRTV4VUNzNTNFX3FaODUtTmFCUFBtN2g2TUFveksxYVdLTEtwbkVZbm9rYkE?oc=5",
-          "domain": "tradingview.com",
-          "source_name": "TradingView",
-          "timestamp_utc": "2026-08-23T07:04:41+00:00",
-          "entity": "HUTCHMED (China) Ltd",
-          "ticker": "HCM",
-          "cik": "1648257",
           "entity_type": "company"
         }
       ]
@@ -3279,32 +2330,32 @@
       ]
     },
     {
-      "entity": "NVIDIA CORP",
-      "ticker": "NVDA",
-      "cik": "1045810",
+      "entity": "Affirm Holdings, Inc.",
+      "ticker": "AFRM",
+      "cik": "1820953",
       "entity_type": "company",
-      "representative_title": "Wall Street Week Ahead: Warsh's Jackson speech, PCE inflation and Nvidia earnings in focus",
-      "latest_timestamp_utc": "2026-08-23T21:33:49+00:00",
+      "representative_title": "Affirm Stock Wavers Ahead of Earnings: Will it Fall Like Klarna?",
+      "latest_timestamp_utc": "2026-08-23T21:41:07+00:00",
       "categories": [
         "earnings_guidance"
       ],
       "sec_forms": [],
       "source_domains": [
-        "tradingview.com"
+        "benzinga.com"
       ],
       "recent_evidence_count": 1,
       "evidence": [
         {
           "source_type": "news_rss",
           "category": "earnings_guidance",
-          "title": "Wall Street Week Ahead: Warsh's Jackson speech, PCE inflation and Nvidia earnings in focus",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPdHhzUFNjOENIcmh3LTZlREs4LW9OUjJaZF84cU85RWpncUNBSVhkQjV6OVlBR0tENUlqX0k2Ym56OTBVNjVrSWZWSWViVWJydVA0bU9fWHlnWmpZWHFtSHJFVnFwYm1KWlFwXzNBM2V1TDVwMWRHaTRBaGc4TDVPY2lkNThYckdrdU9sdG1RVHFyaVg5Qnc5b3lzLWVlSUMxaXBnQ3RPV1ltc3V5Z1BGRWFLNk0wbjJrMjE4XzFPRjRHVWE3Q2FLOVhqUEk2M2NDSVVyXzJXOHVDVVFoU2c?oc=5",
-          "domain": "tradingview.com",
-          "source_name": "TradingView",
-          "timestamp_utc": "2026-08-23T21:33:49+00:00",
-          "entity": "NVIDIA CORP",
-          "ticker": "NVDA",
-          "cik": "1045810",
+          "title": "Affirm Stock Wavers Ahead of Earnings: Will it Fall Like Klarna?",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQSDZuZlVuQzdXMVJUTnRXVXF5SktWOWRBWUNTVlV0azJETF9zOG02a2dtbzJzSEllNWJha0xIaC0zbmJ0eUUtaHY3WTA2YW1BM1UyWXZISUQ4Ulk0RS1sN3VmaVFBeE9pa2JIeFpILTV2eXotb0c3RlJfTlRtdXdzOW96aktFRTNBclZGR3hfS0VUUGxLWEF0NGJYQ1BDUVk2UUplVWtqRUdBVXMzY0JubW9meHVzVDdrWlNv?oc=5",
+          "domain": "benzinga.com",
+          "source_name": "Benzinga",
+          "timestamp_utc": "2026-08-23T21:41:07+00:00",
+          "entity": "Affirm Holdings, Inc.",
+          "ticker": "AFRM",
+          "cik": "1820953",
           "entity_type": "company"
         }
       ]
@@ -3641,7 +2692,7 @@
           "title": "Bitcoin ETFs Mark a Transformative Shift for Institutional Investors",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1aS3ZGaFdIVTRNZGNFM2FGdk1PYWs3UlBOOTk4bktRbmJxdXZ6bHFMcjlHUlhCZ2NvZ0hWNFhZR0ZBUUN2elRzT2pHbFY5VW5yd0stOXpadG05N3IxQUxocVVvNlFmTXZ6Q1RMWE45TFdaMjRVSEUwOWNYZTNKVmc?oc=5",
           "domain": "onesafe.io",
-          "source_name": "OneSafe",
+          "source_name": "OneSafe.io",
           "timestamp_utc": "2026-08-23T20:56:09+00:00",
           "entity": "Bitcoin / Crypto",
           "ticker": null,
@@ -3740,37 +2791,6 @@
           "ticker": null,
           "cik": null,
           "entity_type": "theme"
-        }
-      ]
-    },
-    {
-      "entity": "Edwards Lifesciences Corp",
-      "ticker": "EW",
-      "cik": "1099800",
-      "entity_type": "company",
-      "representative_title": "Copper Extraction Reagents Market Growth Driven by SX-EW Expansion Through 2035 - News and Statistics",
-      "latest_timestamp_utc": "2026-08-23T20:26:20+00:00",
-      "categories": [
-        "pricing_capacity"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "indexbox.io"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "pricing_capacity",
-          "title": "Copper Extraction Reagents Market Growth Driven by SX-EW Expansion Through 2035 - News and Statistics",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRU13cXNGME8xOTBqTk5qSWJGaGs3eGNzS19sSUNBQ2V1RFVkU0pmSkx3QUJmSWxqc0lyQlJtc0RhWnRlaUNPSDBRNTdldGdBaGZ5Y01MZnp6cUtJMXNzd3VmWkpHcWRfM25NWFNzc0gybUVHcVd4Q3FKWllHSjdYMm9OdGxWcThXUThCMmdPZ2UwLUxCWkxUakloa0VUcWxuYXlIWVM0aEdDZlMySUdHUG85ZEdPOTg?oc=5",
-          "domain": "indexbox.io",
-          "source_name": "IndexBox",
-          "timestamp_utc": "2026-08-23T20:26:20+00:00",
-          "entity": "Edwards Lifesciences Corp",
-          "ticker": "EW",
-          "cik": "1099800",
-          "entity_type": "company"
         }
       ]
     },
@@ -4302,33 +3322,33 @@
       ]
     },
     {
-      "entity": "AI Infrastructure",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "theme",
-      "representative_title": "Samsung Leverages Advanced Logic Processes To Advance HBM As It Works On Its Next-Gen zHBM DRAM That 3D Stacks Memory On Compute",
-      "latest_timestamp_utc": "2026-08-23T18:45:35+00:00",
+      "entity": "MICROSOFT CORP",
+      "ticker": "MSFT",
+      "cik": "789019",
+      "entity_type": "company",
+      "representative_title": "Mapping Microsoft’s Potential Healthcare AI and Technology Acquisition Horizons Across North America, Europe and the Commonwealth",
+      "latest_timestamp_utc": "2026-08-23T18:53:29+00:00",
       "categories": [
-        "ai_semis"
+        "mna"
       ],
       "sec_forms": [],
       "source_domains": [
-        "wccftech.com"
+        "healthcare.digital"
       ],
       "recent_evidence_count": 1,
       "evidence": [
         {
           "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Samsung Leverages Advanced Logic Processes To Advance HBM As It Works On Its Next-Gen zHBM DRAM That 3D Stacks Memory On Compute",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcXRJUUxrMVA1WUxsd19uSXVvMUJtOHFNaFAzUHZvZ2VpQnE4VEM2UjFQaVZsSnpkUDhsc3BJTGh3emxpTW9OQ0V5Z2MzRm9SRVNuT2lOZmlUQVlDMTFhVFdKQnZnNlZtcmw5ZDI5d0paMU5aaHVRTEtGQ3d5dVNBX1VYRXc2OFRnY1VhVDVQZGU0aTZUb2JxRk1VeVdPbHZNeUw1dVh4MNIBrAFBVV95cUxNck1hdjJrdnN1RGZtc29palBjZzFRQjVzVXJMY2lmTjZDNHBDUWFfakVhS0RnSHhHTFYyQ1dMUERkVldXR1FhUS16Z0VxS2JYbVR4azBkcy1CSlo5ckRrVUw1MHRMMVZ6ek5TbGgtOV9qbEdWS0JweWVlN2ppeUo4NkkzNnByNm14LTZQX2NmZGdUX3BoZXQyUU1WODl2QllrQVZQRXM1WkE0ZXFB?oc=5",
-          "domain": "wccftech.com",
-          "source_name": "Wccftech",
-          "timestamp_utc": "2026-08-23T18:45:35+00:00",
-          "entity": "AI Infrastructure",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "theme"
+          "category": "mna",
+          "title": "Mapping Microsoft’s Potential Healthcare AI and Technology Acquisition Horizons Across North America, Europe and the Commonwealth",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNN1dnTDFGcVoxakRkVFJWUVQwTGhFdU9xM2FxZXY3c2VyWF9mbnFvZmdVVDE3M2dSeUk2emgtLTZNS3ZxTVU3YS1kMVZ1MURkNFJKR1N0U21OUk1xWERzTVJCYjk2TnZvOVRzU2tWQU9hb3EtbHhIekROdUxLSTlTRm9rSkcwZ2c0UlppY0ZNeU5xZWU5VXFPM0drQzFkQUZjbDJ5UnVRTnNHb1F6MjNINWF2alJPZlFtcnpZZ3ViOWdKYS1uYVZzaG43OTlfU3hQb3VCdTNZVy1rWUk?oc=5",
+          "domain": "healthcare.digital",
+          "source_name": "healthcare.digital",
+          "timestamp_utc": "2026-08-23T18:53:29+00:00",
+          "entity": "MICROSOFT CORP",
+          "ticker": "MSFT",
+          "cik": "789019",
+          "entity_type": "company"
         }
       ]
     },
@@ -4577,68 +3597,6 @@
           "ticker": null,
           "cik": null,
           "entity_type": "macro"
-        }
-      ]
-    },
-    {
-      "entity": "Bandwidth Inc.",
-      "ticker": "BAND",
-      "cik": "1514416",
-      "entity_type": "company",
-      "representative_title": "Samsung High Bandwidth Memory (HBM)",
-      "latest_timestamp_utc": "2026-08-23T18:30:13+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "servethehome.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Samsung High Bandwidth Memory (HBM)",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1wQlQxV0Nfdk1vbnlRdWY5VFFHNFJrUkZIc2I4dzVFMDBHMmdrdVptS0hqLVdqaGtLZjRiNVF4eFRIdEZqV0FKUnVib2FmLVZTcEFOakY1Y09VeWI5REg0bHEzRENtY3p2VHY1dkEzaEdtLXFwMk0w?oc=5",
-          "domain": "servethehome.com",
-          "source_name": "ServeTheHome",
-          "timestamp_utc": "2026-08-23T18:30:13+00:00",
-          "entity": "Bandwidth Inc.",
-          "ticker": "BAND",
-          "cik": "1514416",
-          "entity_type": "company"
-        }
-      ]
-    },
-    {
-      "entity": "HighPeak Energy, Inc.",
-      "ticker": "HPK",
-      "cik": "1792849",
-      "entity_type": "company",
-      "representative_title": "HighPeak Energy (HPK) Is Up 12.0% After Q2 Profit Jump Narrows First-Half Loss - What's Changed",
-      "latest_timestamp_utc": "2026-08-23T18:25:27+00:00",
-      "categories": [
-        "earnings_guidance"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "simplywall.st"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "earnings_guidance",
-          "title": "HighPeak Energy (HPK) Is Up 12.0% After Q2 Profit Jump Narrows First-Half Loss - What's Changed",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNU5PczZOUE9sd2JKcVg5cjVCOFFFTjRKS1BaUkQwZTg0djBoODl4YjVEMjRtOGJHVUY2VDdoS256RmxGYnZoLXk0WGEySjFOZlI0VGdxbjFSY0lDVF9TQV9fOXA4bHgyaHdvUEo5QWZOOHdmUXMxTnEzM0JMa0x3dnQtLTVYWGRWR00xZ3FaYUo4di1CRnFIYTFoMUR6ME5adjAxYnZKdlU0c19yMlZINzBZNkFiakhQWDhybGZZVEpfc2g4WXgtUFR2NNIB0AFBVV95cUxNTjVNRUYzRVFCdlR2bzEtQjFsVHFmUHVuNW5qb0pxMU9hU3ZmRWhGQ2pkYjdrZ2VyZ1JFN1VIWU5xNWNMb3UzNjR4bHBGODVPQUtJRGFGN0RGVzh2T0R3WGZ4aExwdHFsWmVod3FZTzNBY0hiSll3QV8ycjlweXVuZGlvLTRlN1Fneml6RG41UWI4SlM4d2U1RFU3aEUyUkQwbGlvc2NLcG5HU2pjbE02THowS2Q5MWdEMUFTR1I3eUlwdnlRRGxrYW9nazRzSm9m?oc=5",
-          "domain": "simplywall.st",
-          "source_name": "simplywall.st",
-          "timestamp_utc": "2026-08-23T18:25:27+00:00",
-          "entity": "HighPeak Energy, Inc.",
-          "ticker": "HPK",
-          "cik": "1792849",
-          "entity_type": "company"
         }
       ]
     },
@@ -4917,37 +3875,6 @@
           "entity": "DROPBOX, INC.",
           "ticker": "DBX",
           "cik": "1467623",
-          "entity_type": "company"
-        }
-      ]
-    },
-    {
-      "entity": "Warner Bros. Discovery, Inc.",
-      "ticker": "WBD",
-      "cik": "1437107",
-      "entity_type": "company",
-      "representative_title": "Paramount-WBD Merger Blocked: Talks Set for Monday | Legal News - News and Statistics",
-      "latest_timestamp_utc": "2026-08-23T18:10:00+00:00",
-      "categories": [
-        "mna"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "indexbox.io"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "mna",
-          "title": "Paramount-WBD Merger Blocked: Talks Set for Monday | Legal News - News and Statistics",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNamVaUEtXSFIzd1JpaEp3U0dOTVdFUFZuUGxPaFNWNDVyeVpLVWJMeFAzemFNSDhOdHVyMXBnV2x2Z3BTVFBvQ2tiZDg2NXpqUG5vWEpTcW1YbHBFMU9IX3pxMXlXaFFpUUxuN2hXUC1aaEFGM0lVanFkb0JtYV9YY1VIdnV1Zw?oc=5",
-          "domain": "indexbox.io",
-          "source_name": "IndexBox",
-          "timestamp_utc": "2026-08-23T18:10:00+00:00",
-          "entity": "Warner Bros. Discovery, Inc.",
-          "ticker": "WBD",
-          "cik": "1437107",
           "entity_type": "company"
         }
       ]
@@ -5914,9 +4841,9 @@
       ]
     },
     {
-      "entity": "Paramount Group, Inc.",
-      "ticker": "PGRE",
-      "cik": "1605607",
+      "entity": "Paramount Skydance Corporation",
+      "ticker": "PSKY",
+      "cik": "2041610",
       "entity_type": "company",
       "representative_title": "3 Leading Jewish Groups Rebuke Mark Ruffalo for Tying Paramount Merger to Israel’s Gaza War, Demand Response",
       "latest_timestamp_utc": "2026-08-23T16:26:39+00:00",
@@ -5942,38 +4869,8 @@
           "cik": "1605607",
           "entity_type": "company"
         }
-      ]
-    },
-    {
-      "entity": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
-      "ticker": "WAB",
-      "cik": "943452",
-      "entity_type": "company",
-      "representative_title": "Westinghouse Air Brake Technologies (WAB) Earnings Beat Raises The Question Of Whether Shares Are Fully Valued",
-      "latest_timestamp_utc": "2026-08-23T16:19:27+00:00",
-      "categories": [
-        "earnings_guidance"
       ],
-      "sec_forms": [],
-      "source_domains": [
-        "simplywall.st"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "earnings_guidance",
-          "title": "Westinghouse Air Brake Technologies (WAB) Earnings Beat Raises The Question Of Whether Shares Are Fully Valued",
-          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQM1BIUFFlSDlXTlFKbXNiNzZ2aXdSYW9DdUtFdVA1U3lYUUltaXNBZW5yVzQ1NGxlYlJhTjFONWpXYTR4UDBBVjdsdEwtNFJvU3dYampBU0R1MTFQdVJCdVdHbWVsY1JySnBkU0hFTnZWVy11ajFzd1NCNTZKQnhDZi1lWVJqNGNWblZNMlM2cXFCY1VSNEx1S3NEWUVlSU15Q2ZpRVlJY210czI1QWl5a2FDTzhfWV8wbGplcUxxaXZyc3p3S3hKV1Y2YmsyS0pJTlVlSUkxOGVVUE5xUkJmWmxqZkpYOTJOR2o4dtIB8gFBVV95cUxOb3JKdGxpS1hweWVIT0pJT3ZERGRVSnprMGNnQnZYLTFpYUlJcU5ta2kxa0g0QTA2Smp4NzcxX0wyOWhnOGpoTWFwbXVZNk1DSWZmclV5UHBNdXZJcXo3NVowX1BhZ19PRS02eGNjclFlTXAzdjh1Y2wzb1owczhnS2Z1TXRGWlA1Um44ekRlVDJieE1pZndRcGdnZ0Z2cW12Nnprc1hVMDJaa3YxdnMzbXJkejE1WmxqNG5pQXJOSU9Ea0pDc25qR1BiQkY4NWZDYWlCa250M3pJN0s0OEJNSVhLa1NlZVFCOFlta3d2Y1JXdw?oc=5",
-          "domain": "simplywall.st",
-          "source_name": "simplywall.st",
-          "timestamp_utc": "2026-08-23T16:19:27+00:00",
-          "entity": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
-          "ticker": "WAB",
-          "cik": "943452",
-          "entity_type": "company"
-        }
-      ]
+      "entity_correction": "paramount_media_disambiguation"
     },
     {
       "entity": "Tariffs / Trade",
@@ -6441,37 +5338,6 @@
       ]
     },
     {
-      "entity": "ARC DOCUMENT SOLUTIONS, INC.",
-      "ticker": "ARC",
-      "cik": "1305168",
-      "entity_type": "company",
-      "representative_title": "Enterprise value to EBIT forward of D. Boral ARC Acquisition I Corp. – NASDAQ:BCAR",
-      "latest_timestamp_utc": "2026-08-23T14:40:02+00:00",
-      "categories": [
-        "mna"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "tradingview.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "mna",
-          "title": "Enterprise value to EBIT forward of D. Boral ARC Acquisition I Corp. – NASDAQ:BCAR",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMUVnTW03YVlLZGd4Q1FfRnlneHlRYmlLUDJ5NURualU0Y21pcHZDTVRiaTk3ZDNfaHpudzJURVlNU0ctNi05aXg2YWpnNHRRdXhCU3pod3JKa0pCQ1ZOdGtlaHpRWVI0V1dEd2FoQXo2LWkyMUlGRUk1NDBCbTl5clo5SFBwVXhUcG90ZkN3Yjh4YWlaQ2RwOUNkUmJUWXV4blQzZ20tSGM1eWc?oc=5",
-          "domain": "tradingview.com",
-          "source_name": "TradingView",
-          "timestamp_utc": "2026-08-23T14:40:02+00:00",
-          "entity": "ARC DOCUMENT SOLUTIONS, INC.",
-          "ticker": "ARC",
-          "cik": "1305168",
-          "entity_type": "company"
-        }
-      ]
-    },
-    {
       "entity": "Opera Ltd",
       "ticker": "OPRA",
       "cik": "1737450",
@@ -6596,33 +5462,33 @@
       ]
     },
     {
-      "entity": "Alphabet Inc.",
-      "ticker": "GOOGL",
-      "cik": "1652044",
-      "entity_type": "company",
-      "representative_title": "Alphabet Stock (GOOGL) Opinions on Recent Earnings and AI Outlook",
-      "latest_timestamp_utc": "2026-08-23T14:03:00+00:00",
+      "entity": "Tariffs / Trade",
+      "ticker": null,
+      "cik": null,
+      "entity_type": "macro",
+      "representative_title": "Hours after U.S. imposes tariffs, Canada says it'll strike back starting Sept. 8",
+      "latest_timestamp_utc": "2026-08-23T13:54:00+00:00",
       "categories": [
-        "earnings_guidance"
+        "macro_rates"
       ],
       "sec_forms": [],
       "source_domains": [
-        "quiverquant.com"
+        "ijpr.org"
       ],
       "recent_evidence_count": 1,
       "evidence": [
         {
           "source_type": "news_rss",
-          "category": "earnings_guidance",
-          "title": "Alphabet Stock (GOOGL) Opinions on Recent Earnings and AI Outlook",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdTd0VkI5TzhTQWFxcjVfQy16V0V1c19IeTl5Vm43YndLUWFuUlgweEN6Z0VabXVBQTlXNnZjQjlxVGpGWkF4dkhScUJEdmhHOHdDcXo2bUIyanJ4TlJfNnE1N0tzdk9DRlk1cEJGOXV6ejIwT09zalhZd0FvX3ZFUUtVTnJHbWJjU2RuOUg0eDNBUW9KOXRsSU5sMkVHYjZVWEdoYg?oc=5",
-          "domain": "quiverquant.com",
-          "source_name": "Quiver Quantitative",
-          "timestamp_utc": "2026-08-23T14:03:00+00:00",
-          "entity": "Alphabet Inc.",
-          "ticker": "GOOGL",
-          "cik": "1652044",
-          "entity_type": "company"
+          "category": "macro_rates",
+          "title": "Hours after U.S. imposes tariffs, Canada says it'll strike back starting Sept. 8",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQOVFLbHhDSXhpbDJMN0J6NERqMk9yWUVNZDhUWUlUVDF1V2J2RjA5eVI1eTZPT2d2ZW5HMndGdUpBREFueU9Jdmo2ZHVVckNGSHVERzVJTTB2Uy0wUFlySlVoTE9EYnpfWG1uMzlvOWJ1OHJrdkNNY2w2S3NlN2lERmpTUVdBaXRYVUdRN1hWYm90ZHRWczQ2TGRVeW1FM3RwSUl0UEtIR2JyRDhFNlRyY09FXzd1VE1NMURodXN0Zy1ua2s?oc=5",
+          "domain": "ijpr.org",
+          "source_name": "Jefferson Public Radio",
+          "timestamp_utc": "2026-08-23T13:54:00+00:00",
+          "entity": "Tariffs / Trade",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
         }
       ]
     },
@@ -6963,37 +5829,6 @@
           "entity": "MORGAN STANLEY",
           "ticker": "MS",
           "cik": "895421",
-          "entity_type": "company"
-        }
-      ]
-    },
-    {
-      "entity": "LF Capital Acquisition Corp. II",
-      "ticker": "LFACW",
-      "cik": "1851266",
-      "entity_type": "company",
-      "representative_title": "Enterprise value to EBITDA forward of Leapfrog Acquisition Corporation – BOATS:LFACW",
-      "latest_timestamp_utc": "2026-08-23T12:55:30+00:00",
-      "categories": [
-        "mna"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "tradingview.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "mna",
-          "title": "Enterprise value to EBITDA forward of Leapfrog Acquisition Corporation – BOATS:LFACW",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQQUlzcWlPdkE1UDJISVh5MlZpcDVWYnA4WDZtR0NvTm9XV1N2dHRmYW1IT0p1WXljTEVWMFpFS1MtdkJkcjVXUzlHQlgyVzA3dUJPdUVBRmIwYVNRVTNyN2lqUGNVcWJWb3hKemY3bkxBWng3RGM1M2tJS2pDbk81ZGppZHJYZ3UxRHhXY2VKMGlVMGJiaUlqUTZWeXVrMG1nRExpUks3b3FhWS1OeFE?oc=5",
-          "domain": "tradingview.com",
-          "source_name": "TradingView",
-          "timestamp_utc": "2026-08-23T12:55:30+00:00",
-          "entity": "LF Capital Acquisition Corp. II",
-          "ticker": "LFACW",
-          "cik": "1851266",
           "entity_type": "company"
         }
       ]
@@ -7654,6 +6489,37 @@
       "ticker": null,
       "cik": null,
       "entity_type": "theme",
+      "representative_title": "Japanese Government to Invest Additional ¥150 Billion in Semiconductor Maker Rapidus",
+      "latest_timestamp_utc": "2026-08-23T11:00:00+00:00",
+      "categories": [
+        "ai_semis"
+      ],
+      "sec_forms": [],
+      "source_domains": [
+        "japannews.yomiuri.co.jp"
+      ],
+      "recent_evidence_count": 1,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "ai_semis",
+          "title": "Japanese Government to Invest Additional ¥150 Billion in Semiconductor Maker Rapidus",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9UN0FKNEZWeDhRMm5KbVNoak04Y05HUkRMbTg1N1ViQ3I3UVNXNl9aeTg5cnViMmhZenF2NGo3a0RoUmU0Y1dXdGh1V2RPamY4ODB4Z2x5YkdWTzZOQTEtZnd5RGgwQnZBMThaNGJqUnNUeEU?oc=5",
+          "domain": "japannews.yomiuri.co.jp",
+          "source_name": "The Japan News",
+          "timestamp_utc": "2026-08-23T11:00:00+00:00",
+          "entity": "AI Infrastructure",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "theme"
+        }
+      ]
+    },
+    {
+      "entity": "AI Infrastructure",
+      "ticker": null,
+      "cik": null,
+      "entity_type": "theme",
       "representative_title": "Meet FreeToken: An Edge-Native MoE Serving Engine that Runs 753B GLM-5.2 on a Single Workstation GPU",
       "latest_timestamp_utc": "2026-08-23T10:44:59+00:00",
       "categories": [
@@ -7677,37 +6543,6 @@
           "ticker": null,
           "cik": null,
           "entity_type": "theme"
-        }
-      ]
-    },
-    {
-      "entity": "DIAMOND HOLDINGS, INC.",
-      "ticker": "DIAH",
-      "cik": "1692981",
-      "entity_type": "company",
-      "representative_title": "World Diamond Thermal Enhancer Pad - Market Analysis, Forecast, Size, Trends and Insights",
-      "latest_timestamp_utc": "2026-08-23T10:41:22+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "indexbox.io"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "World Diamond Thermal Enhancer Pad - Market Analysis, Forecast, Size, Trends and Insights",
-          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNYVg0TWpSVmRnbVdLTktGMWlUaWVTSmZnRVR3cEVwS3VkeG9Cb1BWS2pqemtfMS1FVkhZOHRndEZfVm1oXy1EMWVlTVprU2Q2UlVGcjVFMWlHZU1rUG9UMGhEY3k4MUtXVjVQcHBsVG1ieHhueEszajBsQzN2eTNiYlJ0aWlJTHdKTnduREd1WXFMVFBWZFpCUmxuNTN3MXdjaWhITU9yejdURy0wbmhSRUpIbkNUSENUdUpQbDMwMnB5T1ZKbTNIWUpocExMZ0xKLUpKdVhid0UxWjZQazlsc1F6cVFnc2U1Smw5Sg?oc=5",
-          "domain": "indexbox.io",
-          "source_name": "IndexBox",
-          "timestamp_utc": "2026-08-23T10:41:22+00:00",
-          "entity": "DIAMOND HOLDINGS, INC.",
-          "ticker": "DIAH",
-          "cik": "1692981",
-          "entity_type": "company"
         }
       ]
     },
@@ -8084,6 +6919,37 @@
       ]
     },
     {
+      "entity": "MICROSOFT CORP",
+      "ticker": "MSFT",
+      "cik": "789019",
+      "entity_type": "company",
+      "representative_title": "Nvidia Delivers First 'Vera Rubin' Systems to Microsoft, Notifies Customers of 15% AI Server Price Hike",
+      "latest_timestamp_utc": "2026-08-23T09:00:43+00:00",
+      "categories": [
+        "ai_semis"
+      ],
+      "sec_forms": [],
+      "source_domains": [
+        "finance.biggo.com"
+      ],
+      "recent_evidence_count": 1,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "ai_semis",
+          "title": "Nvidia Delivers First 'Vera Rubin' Systems to Microsoft, Notifies Customers of 15% AI Server Price Hike",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5zLWhoeGRCdF9ROHlyX0VmVkRGVF9xSUdwZnNNcVFXY3F3WUF5djdpMGJJUzYtR3VQbzIxSGdEc3B3eUpMS1Zkc1BvMnRZUVB1ZHJiSDBBbm1fVnFjQ2NMRTcwaEVlR0lhaWFmUmRndVhQQ1dTSEE?oc=5",
+          "domain": "finance.biggo.com",
+          "source_name": "finance.biggo.com",
+          "timestamp_utc": "2026-08-23T09:00:43+00:00",
+          "entity": "MICROSOFT CORP",
+          "ticker": "MSFT",
+          "cik": "789019",
+          "entity_type": "company"
+        }
+      ]
+    },
+    {
       "entity": "Osiris Acquisition Corp.",
       "ticker": "OSI",
       "cik": "1832136",
@@ -8173,37 +7039,6 @@
           "ticker": "AMD",
           "cik": "2488",
           "entity_type": "company"
-        }
-      ]
-    },
-    {
-      "entity": "AI Infrastructure",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "theme",
-      "representative_title": "US$ Weakness: Ranking the Winners and Losers in Semiconductor Memory",
-      "latest_timestamp_utc": "2026-08-23T08:05:28+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "smartkarma.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "US$ Weakness: Ranking the Winners and Losers in Semiconductor Memory",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPQ3kyXy0yWDNCb0t2ZVRvNVJjQnNNaU9wQnEwSHAxc1dkdThOVFdYOUdtQVRsa2lMNDktMTBaWkdPWWdvOFVCQnk1RFFUNHYwaFpZbFdMTk9PVnFoRTZ0LWE1M1I3bGQxZU5YTFQ2LXE3T2l1WWszR2Jpa0txTWxJWWN2V1pNVXNYcjI1SHQ0YnBuREJ0NF9LMXZaMlo1Mkw5VU9GOE1sakFlYlNEYjhWVnA0VWdiSk9MY2pxNUJ4SjBPNWxObW9lcmVZNmlSdw?oc=5",
-          "domain": "smartkarma.com",
-          "source_name": "Smartkarma",
-          "timestamp_utc": "2026-08-23T08:05:28+00:00",
-          "entity": "AI Infrastructure",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "theme"
         }
       ]
     },
@@ -9014,37 +7849,6 @@
       ]
     },
     {
-      "entity": "AI Infrastructure",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "theme",
-      "representative_title": "ETFs Investing in Brite Semiconductor (Shanghai) Co., Ltd. Class A Stocks",
-      "latest_timestamp_utc": "2026-08-23T02:36:41+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "tradingview.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "ETFs Investing in Brite Semiconductor (Shanghai) Co., Ltd. Class A Stocks",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1BSW1GMmVCdm4xSEtBNXF2MmpjOEJpZTFDVWQ1WFpGb19WUnExLVVvMXUxVEpnYnFlYzJsMWlreHFZMmFWa3N6R2VfcDN5azdzNEZlWncxczY0bE9vWUx2MzdB?oc=5",
-          "domain": "tradingview.com",
-          "source_name": "TradingView",
-          "timestamp_utc": "2026-08-23T02:36:41+00:00",
-          "entity": "AI Infrastructure",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "theme"
-        }
-      ]
-    },
-    {
       "entity": "Bitcoin / Crypto",
       "ticker": null,
       "cik": null,
@@ -9257,37 +8061,6 @@
           "entity": "Baidu, Inc.",
           "ticker": "BIDU",
           "cik": "1329099",
-          "entity_type": "company"
-        }
-      ]
-    },
-    {
-      "entity": "Sea Ltd",
-      "ticker": "SE",
-      "cik": "1703399",
-      "entity_type": "company",
-      "representative_title": "Price to earnings forward of Elmos Semiconductor SE – BX:ELG",
-      "latest_timestamp_utc": "2026-08-23T01:01:51+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "tradingview.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Price to earnings forward of Elmos Semiconductor SE – BX:ELG",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVU1lOHFmbjY2U04xeWpib0ZzWk04dXd5NzlUU2VXcVBoWjAxdmU5S0hsaU5ENExhcE94aUFTOHhkWWI0WDdPcGpvY3NMZ1FmSmo5cG5GMUV5N0FjcGVwQUhFYnlDV056V1RZbWJJMzZHWU9VeUN1MlNUclhReU5tVXRWYm9JN0JhUmltWHNfVHIzUXd2amRSVkI2UQ?oc=5",
-          "domain": "tradingview.com",
-          "source_name": "TradingView",
-          "timestamp_utc": "2026-08-23T01:01:51+00:00",
-          "entity": "Sea Ltd",
-          "ticker": "SE",
-          "cik": "1703399",
           "entity_type": "company"
         }
       ]
@@ -9541,37 +8314,6 @@
       ]
     },
     {
-      "entity": "Eventbrite, Inc.",
-      "ticker": "EB",
-      "cik": "1475115",
-      "entity_type": "company",
-      "representative_title": "I Bought A $2000 GPU For Just $8 On EBay?! D (hS6WoX4R9I)",
-      "latest_timestamp_utc": "2026-08-22T23:51:06+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "mshale.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "I Bought A $2000 GPU For Just $8 On EBay?! D (hS6WoX4R9I)",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9iRnJab2lUTkdzanZnbFFxQlkwY1NtYmdmMWRBdS1ZUldSelBVcElieUFXcldJT0pKQk1aRDhQV3Blc1duUE9hZTBDc0c2RTZZLW5tRHBWblhPdVE?oc=5",
-          "domain": "mshale.com",
-          "source_name": "Mshale",
-          "timestamp_utc": "2026-08-22T23:51:06+00:00",
-          "entity": "Eventbrite, Inc.",
-          "ticker": "EB",
-          "cik": "1475115",
-          "entity_type": "company"
-        }
-      ]
-    },
-    {
       "entity": "Bitcoin / Crypto",
       "ticker": null,
       "cik": null,
@@ -9633,5 +8375,11 @@
         }
       ]
     }
-  ]
+  ],
+  "pre_clean_event_cluster_count": 252,
+  "cleaning_dropped_count": 23,
+  "cleaning_drop_reasons": {
+    "seo_or_metric_title": 19,
+    "blocked_low_value_source": 4
+  }
 }
