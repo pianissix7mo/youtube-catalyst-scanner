@@ -4,7 +4,6 @@ from __future__ import annotations
 import json
 import time
 from datetime import datetime, timezone
-from urllib.parse import urlparse
 
 import requests
 
@@ -13,21 +12,19 @@ from collect_external_safe import ResilientSession, TICKER_MIRROR
 from news_rss import fetch_google_news
 from scanner_common import DATA, ensure_dirs, write_json
 
-# Broad catalyst families.  These are discovery queries, not the final event
-# labels.  Each result is mapped back to a company/theme and then clustered.
+# Keep discovery queries intentionally broad. Google News RSS is the raw news
+# tape; company/theme matching and event clustering provide the precision later.
 CATALYST_RSS_QUERIES: dict[str, str] = {
-    "earnings_guidance": '(earnings OR guidance OR outlook OR forecast OR revenue OR profit) (stock OR shares)',
-    "mna": '(acquisition OR merger OR takeover OR buyout) (stock OR shares OR company)',
-    "contract_order": '(contract OR order OR partnership OR deal) (stock OR shares OR company)',
-    "regulatory_legal": '(investigation OR probe OR lawsuit OR antitrust OR regulator) (stock OR shares OR company)',
-    "pricing_capacity": '("price increase" OR "price hike" OR shortage OR capacity OR production) (stock OR shares OR company)',
-    "ai_semis": '(semiconductor OR GPU OR HBM OR datacenter OR "data center" OR "AI chip") (stock OR shares OR company)',
-    "macro_rates": '("Federal Reserve" OR Treasury OR inflation OR "interest rates" OR tariff OR tariffs) (market OR stocks OR bonds)',
-    "crypto": '(Bitcoin OR Ethereum OR crypto) (ETF OR market OR price OR institutional)',
+    "earnings_guidance": "earnings OR guidance OR outlook OR forecast OR revenue OR profit",
+    "mna": "acquisition OR merger OR takeover OR buyout",
+    "contract_order": "contract OR partnership OR major order OR supply deal",
+    "regulatory_legal": "investigation OR probe OR lawsuit OR antitrust OR regulator",
+    "pricing_capacity": '"price increase" OR "price hike" OR shortage OR capacity OR production',
+    "ai_semis": 'semiconductor OR GPU OR HBM OR datacenter OR "AI chip"',
+    "macro_rates": '"Federal Reserve" OR inflation OR "interest rates" OR tariffs OR Treasury',
+    "crypto": "Bitcoin OR Ethereum OR crypto ETF",
 }
 
-# Important brand/company aliases that do not reliably resemble SEC conformed
-# company names.  Values are listed tickers, resolved through the loaded map.
 BRAND_ALIASES: dict[str, str] = {
     "google": "GOOGL",
     "youtube": "GOOGL",
@@ -37,14 +34,13 @@ BRAND_ALIASES: dict[str, str] = {
     "instagram": "META",
     "aws": "AMZN",
     "amazon web services": "AMZN",
-    "chatgpt": "MSFT",  # only as a market-link hint; direct OpenAI stories still need title context
     "supermicro": "SMCI",
     "super micro": "SMCI",
 }
 
 
 class MirrorFirstSession(ResilientSession):
-    """Avoid the known ~30s SEC edge delay on GitHub-hosted runners."""
+    """Avoid the known SEC edge delay on GitHub-hosted runners."""
 
     def get(self, url, *args, **kwargs):  # type: ignore[override]
         if url == legacy.SEC_TICKERS:
@@ -74,7 +70,7 @@ def main() -> None:
     ensure_dirs()
     config = json.loads(open("config.json", encoding="utf-8").read())
     lookback_hours = int(config.get("news_lookback_hours", 24))
-    when = f"{lookback_hours}h"
+    when = "1d" if lookback_hours <= 24 else f"{max(1, round(lookback_hours / 24))}d"
 
     s = build_session()
     by_cik, by_ticker, first_word_index = legacy.load_sec_universe(s)
@@ -139,10 +135,8 @@ def main() -> None:
         print(f"RSS [{category}]: {len(articles)} articles, {accepted} mapped evidence rows")
         time.sleep(0.25)
 
-    # SEC live feeds are enhancement-only.  Hosted runners frequently receive
-    # SEC 403s, so this stage remains non-fatal by design.
     sec_evidence: list[dict] = []
-    if str(config.get("enable_sec_live", False)).lower() in {"1", "true", "yes"}:
+    if bool(config.get("enable_sec_live", False)):
         forms = [str(x) for x in config.get("official_catalyst_forms", [])]
         current_forms = [x for x in forms if x in {"8-K", "10-Q", "10-K", "6-K", "20-F"}]
         sec_evidence = legacy.collect_sec_current(s, by_cik, current_forms, lookback_hours)
@@ -164,8 +158,6 @@ def main() -> None:
     write_json(DATA / "raw_events.json", payload)
     print(f"Wrote {len(clusters)} event clusters from {len(all_evidence)} evidence rows")
 
-    # Empty discovery is considered a real failure: a green workflow with zero
-    # evidence would hide upstream blocking/rate-limit problems.
     if not clusters:
         raise RuntimeError("Scanner B discovery produced zero event clusters")
 
