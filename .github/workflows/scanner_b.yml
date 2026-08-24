@@ -11,7 +11,9 @@ on:
       - "requirements.txt"
       - ".github/workflows/scanner_b.yml"
   schedule:
-    # Toronto 05:10. Two UTC entries + local-hour guard make this DST-safe.
+    # Toronto 05:10. Keep both UTC entries for DST, but select by Toronto's
+    # current UTC offset instead of the workflow's actual start hour. GitHub
+    # scheduled runs can be delayed, so checking `date +%H` is not reliable.
     - cron: "10 9 * * *"
     - cron: "10 10 * * *"
 
@@ -34,8 +36,16 @@ jobs:
             echo "run=true" >> "$GITHUB_OUTPUT"
             exit 0
           fi
-          LOCAL_HOUR=$(TZ=America/Toronto date +%H)
-          if [ "$LOCAL_HOUR" = "05" ]; then
+
+          TORONTO_OFFSET=$(TZ=America/Toronto date +%z)
+          SCHEDULE="${{ github.event.schedule }}"
+
+          # EDT (UTC-4): 05:10 Toronto == 09:10 UTC.
+          # EST (UTC-5): 05:10 Toronto == 10:10 UTC.
+          # Key point: choose from the scheduled cron expression, not the
+          # workflow's delayed wall-clock start time.
+          if { [ "$TORONTO_OFFSET" = "-0400" ] && [ "$SCHEDULE" = "10 9 * * *" ]; } || \
+             { [ "$TORONTO_OFFSET" = "-0500" ] && [ "$SCHEDULE" = "10 10 * * *" ]; }; then
             echo "run=true" >> "$GITHUB_OUTPUT"
           else
             echo "run=false" >> "$GITHUB_OUTPUT"
