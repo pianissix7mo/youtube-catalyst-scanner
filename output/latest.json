@@ -1,59 +1,633 @@
 {
   "scanner": "B",
   "judge_version": "B_V1",
-  "source_candidates_generated_at_utc": "2026-08-23T22:16:58.590671+00:00",
-  "generated_at_utc": "2026-08-23T22:29:05.025032+00:00",
+  "source_candidates_generated_at_utc": "2026-08-24T11:55:17.033599+00:00",
+  "generated_at_utc": "2026-08-24T12:30:07.962135+00:00",
   "youtube_search_budget_per_run": 20,
-  "youtube_search_calls_used": 12,
+  "youtube_search_calls_used": 10,
   "events": [
     {
-      "event_id": "46f9845b63162ef8",
+      "event_id": "49ef4f3a81ec2d12",
       "scanner": "B",
-      "entity": "SK hynix",
-      "ticker": null,
-      "entity_type": "foreign_company",
-      "event_title": "SK hynix IMPACT ON HBM",
-      "event_timestamp_utc": "2026-08-23T20:48:19+00:00",
+      "entity": "AURORA CANNABIS INC",
+      "ticker": "ACB",
+      "entity_type": "company",
+      "event_title": "Aurora Cannabis rejects Curaleaf takeover bid as opportunistic",
+      "event_timestamp_utc": "2026-08-24T11:18:22+00:00",
+      "categories": [
+        "mna"
+      ],
+      "sec_forms": [],
+      "discovery_score": 68.5,
+      "news_burst_score": 63.7,
+      "source_diversity_score": 38.0,
+      "catalyst_quality_score": 94.0,
+      "freshness_score": 100.0,
+      "evidence_quality_score": 48,
+      "baseline": {
+        "source": "google_news_rss",
+        "current_3h": 5,
+        "baseline_3h_median": 0.0,
+        "short_ratio": 6.0,
+        "current_day": 10,
+        "baseline_day_median": 1.0,
+        "long_ratio": 5.5,
+        "news_burst_score": 63.7,
+        "feed_capped": true
+      },
+      "source_domains": [
+        "investing.com",
+        "streetinsider.com"
+      ],
+      "recent_evidence_count": 2,
+      "youtube_query": "ACB Curaleaf takeover bid",
+      "youtube_event_terms": [
+        "Curaleaf",
+        "takeover"
+      ],
+      "evidence": [
+        {
+          "title": "Aurora Cannabis rejects Curaleaf takeover bid as opportunistic",
+          "domain": "investing.com",
+          "source_name": "Investing.com",
+          "timestamp_utc": "2026-08-24T11:18:22+00:00",
+          "source_type": "news_rss",
+          "category": "mna",
+          "sec_form": null
+        },
+        {
+          "title": "Aurora Cannabis disputes Curaleaf's hostile takeover bid claims",
+          "domain": "streetinsider.com",
+          "source_name": "StreetInsider",
+          "timestamp_utc": "2026-08-24T11:06:36+00:00",
+          "source_type": "news_rss",
+          "category": "mna",
+          "sec_form": null
+        }
+      ],
+      "judge_version": "B_V1",
+      "entity_accuracy": "pass",
+      "catalyst_reality_score": 24,
+      "investor_materiality_score": 22,
+      "novelty_score": 15,
+      "judge_evidence_quality_score": 10,
+      "content_potential_score": 18,
+      "judge_score": 89,
+      "judge_reason": "Fresh hostile-takeover rejection with direct valuation and strategic implications for ACB; the dispute is a concrete corporate catalyst.",
+      "verification_note": "Confirm the exact bid terms and Aurora/Curaleaf statements before publication.",
+      "youtube_metrics": {
+        "status": "ok_no_videos",
+        "query": "ACB Curaleaf takeover bid",
+        "raw_sample_size": 0,
+        "relevant_sample_size": 0,
+        "estimated_total_results": 2,
+        "youtube_supply_gap_score": 100.0,
+        "median_views_per_day": 0,
+        "small_channel_hit_rate": 0.0,
+        "sample_videos": []
+      },
+      "scanner_b_score": 85.0
+    },
+    {
+      "event_id": "7d2f9b1135220522",
+      "scanner": "B",
+      "entity": "NVIDIA CORP",
+      "ticker": "NVDA",
+      "entity_type": "company",
+      "event_title": "NVIDIA’s Vera Rubin & Blackwell GPU Server Prices Could Soar By As Much As 17% As Memory Prices Bite, Say Reports",
+      "event_timestamp_utc": "2026-08-24T10:53:10+00:00",
       "categories": [
         "ai_semis"
       ],
       "sec_forms": [],
       "discovery_score": 48.6,
-      "news_burst_score": 18.0,
-      "source_diversity_score": 55.0,
+      "news_burst_score": 28.5,
+      "source_diversity_score": 38.0,
       "catalyst_quality_score": 68.0,
       "freshness_score": 92.0,
-      "evidence_quality_score": 39,
+      "evidence_quality_score": 36,
+      "baseline": {
+        "source": "google_news_rss",
+        "current_3h": 2,
+        "baseline_3h_median": 0.0,
+        "short_ratio": 3.0,
+        "current_day": 2,
+        "baseline_day_median": 2.0,
+        "long_ratio": 1.0,
+        "news_burst_score": 28.5,
+        "feed_capped": true
+      },
+      "source_domains": [
+        "theinformation.com",
+        "wccftech.com"
+      ],
+      "recent_evidence_count": 2,
+      "youtube_query": "NVDA Blackwell Rubin price hike 17%",
+      "youtube_event_terms": [
+        "price",
+        "Blackwell",
+        "Rubin"
+      ],
+      "evidence": [
+        {
+          "title": "NVIDIA’s Vera Rubin & Blackwell GPU Server Prices Could Soar By As Much As 17% As Memory Prices Bite, Say Reports",
+          "domain": "wccftech.com",
+          "source_name": "Wccftech",
+          "timestamp_utc": "2026-08-24T10:53:10+00:00",
+          "source_type": "news_rss",
+          "category": "ai_semis",
+          "sec_form": null
+        },
+        {
+          "title": "Nvidia to Raise Flagship AI Chip Prices 17%, Server Makers Say",
+          "domain": "theinformation.com",
+          "source_name": "The Information",
+          "timestamp_utc": "2026-08-24T06:06:00+00:00",
+          "source_type": "news_rss",
+          "category": "ai_semis",
+          "sec_form": null
+        }
+      ],
+      "judge_version": "B_V1",
+      "entity_accuracy": "pass",
+      "catalyst_reality_score": 23,
+      "investor_materiality_score": 24,
+      "novelty_score": 15,
+      "judge_evidence_quality_score": 10,
+      "content_potential_score": 20,
+      "judge_score": 92,
+      "judge_reason": "A reported 17% flagship AI pricing increase is a highly material margin/demand signal for Nvidia and the memory supply chain.",
+      "verification_note": "Report remains source-based rather than company-confirmed; verify product scope, timing and whether the increase is chips or full systems.",
+      "youtube_metrics": {
+        "status": "ok_no_videos",
+        "query": "NVDA Blackwell Rubin price hike 17%",
+        "raw_sample_size": 0,
+        "relevant_sample_size": 0,
+        "estimated_total_results": 7,
+        "youtube_supply_gap_score": 100.0,
+        "median_views_per_day": 0,
+        "small_channel_hit_rate": 0.0,
+        "sample_videos": []
+      },
+      "scanner_b_score": 80.6
+    },
+    {
+      "event_id": "3d3f4ef6bc9fecd8",
+      "scanner": "B",
+      "entity": "Paramount Skydance Corporation",
+      "ticker": "PSKY",
+      "entity_type": "company",
+      "event_title": "Hollywood mega-merger on the brink as California demands Paramount sell off channels",
+      "event_timestamp_utc": "2026-08-24T09:08:00+00:00",
+      "categories": [
+        "mna"
+      ],
+      "sec_forms": [],
+      "discovery_score": 53.0,
+      "news_burst_score": 26.2,
+      "source_diversity_score": 38.0,
+      "catalyst_quality_score": 94.0,
+      "freshness_score": 92.0,
+      "evidence_quality_score": 36,
+      "baseline": {
+        "source": "google_news_rss",
+        "current_3h": 1,
+        "baseline_3h_median": 0.0,
+        "short_ratio": 2.0,
+        "current_day": 8,
+        "baseline_day_median": 3.0,
+        "long_ratio": 2.25,
+        "news_burst_score": 26.2,
+        "feed_capped": true
+      },
+      "source_domains": [
+        "independent.co.uk",
+        "nytimes.com"
+      ],
+      "recent_evidence_count": 2,
+      "youtube_query": "PSKY WBD California merger antitrust",
+      "youtube_event_terms": [
+        "WBD",
+        "merger",
+        "California"
+      ],
+      "evidence": [
+        {
+          "title": "Hollywood mega-merger on the brink as California demands Paramount sell off channels",
+          "domain": "independent.co.uk",
+          "source_name": "The Independent",
+          "timestamp_utc": "2026-08-24T09:08:00+00:00",
+          "source_type": "news_rss",
+          "category": "mna",
+          "sec_form": null
+        },
+        {
+          "title": "California Cancels Talks With Paramount Over Warner Bros. Merger",
+          "domain": "nytimes.com",
+          "source_name": "The New York Times",
+          "timestamp_utc": "2026-08-24T07:42:35+00:00",
+          "source_type": "news_rss",
+          "category": "mna",
+          "sec_form": null
+        }
+      ],
+      "judge_version": "B_V1",
+      "entity_accuracy": "pass",
+      "catalyst_reality_score": 24,
+      "investor_materiality_score": 22,
+      "novelty_score": 15,
+      "judge_evidence_quality_score": 10,
+      "content_potential_score": 18,
+      "judge_score": 89,
+      "judge_reason": "California's antitrust posture is a fresh development that can alter merger feasibility, remedies and valuation for PSKY/WBD.",
+      "verification_note": "Focus on the regulatory/transaction development, not celebrity controversy; verify the latest remedy demand.",
+      "youtube_metrics": {
+        "status": "ok_no_videos",
+        "query": "PSKY WBD California merger antitrust",
+        "raw_sample_size": 0,
+        "relevant_sample_size": 0,
+        "estimated_total_results": 1,
+        "youtube_supply_gap_score": 100.0,
+        "median_views_per_day": 0,
+        "small_channel_hit_rate": 0.0,
+        "sample_videos": []
+      },
+      "scanner_b_score": 80.4
+    },
+    {
+      "event_id": "46a7efa2a4b87d20",
+      "scanner": "B",
+      "entity": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+      "ticker": "TSM",
+      "entity_type": "company",
+      "event_title": "Xiaomi launches new Xring chip, partners with TSMC for production, sources say",
+      "event_timestamp_utc": "2026-08-24T06:22:00+00:00",
+      "categories": [
+        "pricing_capacity"
+      ],
+      "sec_forms": [],
+      "discovery_score": 42.5,
+      "news_burst_score": 18.0,
+      "source_diversity_score": 20.0,
+      "catalyst_quality_score": 77.0,
+      "freshness_score": 82.0,
+      "evidence_quality_score": 45,
       "baseline": {
         "source": "google_news_rss",
         "current_3h": 1,
         "baseline_3h_median": 0.0,
         "short_ratio": 2.0,
         "current_day": 2,
-        "baseline_day_median": 2.0,
-        "long_ratio": 1.0,
+        "baseline_day_median": 3.0,
+        "long_ratio": 0.75,
         "news_burst_score": 18.0,
         "feed_capped": true
       },
       "source_domains": [
-        "kedglobal.com",
-        "servethehome.com",
-        "wccftech.com"
+        "reuters.com"
       ],
-      "recent_evidence_count": 5,
-      "youtube_query": "SK hynix HBM advanced packaging",
+      "recent_evidence_count": 1,
+      "youtube_query": "TSMC Xiaomi Xring chip production",
       "youtube_event_terms": [
-        "HBM",
-        "advanced packaging"
+        "Xiaomi",
+        "Xring"
       ],
       "evidence": [
         {
-          "title": "SK hynix HBM Packaging at Hot Chips 2026",
-          "domain": "servethehome.com",
-          "source_name": "ServeTheHome",
-          "timestamp_utc": "2026-08-23T20:40:15+00:00",
+          "title": "Xiaomi launches new Xring chip, partners with TSMC for production, sources say",
+          "domain": "reuters.com",
+          "source_name": "Reuters",
+          "timestamp_utc": "2026-08-24T06:22:00+00:00",
+          "source_type": "news_rss",
+          "category": "pricing_capacity",
+          "sec_form": null
+        }
+      ],
+      "judge_version": "B_V1",
+      "entity_accuracy": "pass",
+      "catalyst_reality_score": 24,
+      "investor_materiality_score": 22,
+      "novelty_score": 15,
+      "judge_evidence_quality_score": 12,
+      "content_potential_score": 19,
+      "judge_score": 92,
+      "judge_reason": "A new Xiaomi chip manufactured by TSMC is a concrete foundry-demand and competitive-position catalyst with direct semiconductor relevance.",
+      "verification_note": "Reuters sourcing is strong; verify node/process details if discussed because the candidate does not specify them.",
+      "youtube_metrics": {
+        "status": "ok_no_videos",
+        "query": "TSMC Xiaomi Xring chip production",
+        "raw_sample_size": 0,
+        "relevant_sample_size": 0,
+        "estimated_total_results": 0,
+        "youtube_supply_gap_score": 100.0,
+        "median_views_per_day": 0,
+        "small_channel_hit_rate": 0.0,
+        "sample_videos": []
+      },
+      "scanner_b_score": 78.8
+    },
+    {
+      "event_id": "0c695ca0085a4313",
+      "scanner": "B",
+      "entity": "ROSS STORES, INC.",
+      "ticker": "ROST",
+      "entity_type": "company",
+      "event_title": "Ross Stores raises forecast after surge in Q2 sales and store openings",
+      "event_timestamp_utc": "2026-08-24T10:49:01+00:00",
+      "categories": [
+        "earnings_guidance"
+      ],
+      "sec_forms": [],
+      "discovery_score": 50.5,
+      "news_burst_score": 29.1,
+      "source_diversity_score": 20.0,
+      "catalyst_quality_score": 90.0,
+      "freshness_score": 92.0,
+      "evidence_quality_score": 45,
+      "baseline": {
+        "source": "google_news_rss",
+        "current_3h": 1,
+        "baseline_3h_median": 0.0,
+        "short_ratio": 2.0,
+        "current_day": 2,
+        "baseline_day_median": 0.0,
+        "long_ratio": 3.0,
+        "news_burst_score": 29.1,
+        "feed_capped": false
+      },
+      "source_domains": [
+        "finance.yahoo.com"
+      ],
+      "recent_evidence_count": 1,
+      "youtube_query": "ROST Q2 raises forecast",
+      "youtube_event_terms": [
+        "forecast",
+        "Q2"
+      ],
+      "evidence": [
+        {
+          "title": "Ross Stores raises forecast after surge in Q2 sales and store openings",
+          "domain": "finance.yahoo.com",
+          "source_name": "Yahoo Finance",
+          "timestamp_utc": "2026-08-24T10:49:01+00:00",
+          "source_type": "news_rss",
+          "category": "earnings_guidance",
+          "sec_form": null
+        }
+      ],
+      "judge_version": "B_V1",
+      "entity_accuracy": "pass",
+      "catalyst_reality_score": 24,
+      "investor_materiality_score": 21,
+      "novelty_score": 15,
+      "judge_evidence_quality_score": 9,
+      "content_potential_score": 17,
+      "judge_score": 86,
+      "judge_reason": "A fresh forecast increase tied to Q2 sales and expansion is directly material to earnings expectations and retail demand.",
+      "verification_note": "Confirm the exact revised guidance range against the company earnings release.",
+      "youtube_metrics": {
+        "status": "ok_no_videos",
+        "query": "ROST Q2 raises forecast",
+        "raw_sample_size": 0,
+        "relevant_sample_size": 0,
+        "estimated_total_results": 10,
+        "youtube_supply_gap_score": 100.0,
+        "median_views_per_day": 0,
+        "small_channel_hit_rate": 0.0,
+        "sample_videos": []
+      },
+      "scanner_b_score": 78.2
+    },
+    {
+      "event_id": "ee46a18287a86aa7",
+      "scanner": "B",
+      "entity": "General Motors Co",
+      "ticker": "GM",
+      "entity_type": "company",
+      "event_title": "NHTSA Expands Investigation Into GM Braking System",
+      "event_timestamp_utc": "2026-08-24T11:30:00+00:00",
+      "categories": [
+        "regulatory_legal"
+      ],
+      "sec_forms": [],
+      "discovery_score": 39.5,
+      "news_burst_score": 0.0,
+      "source_diversity_score": 20.0,
+      "catalyst_quality_score": 80.0,
+      "freshness_score": 100.0,
+      "evidence_quality_score": 45,
+      "baseline": {
+        "source": "google_news_rss",
+        "current_3h": 0,
+        "baseline_3h_median": 1.0,
+        "short_ratio": 0.5,
+        "current_day": 1,
+        "baseline_day_median": 2.0,
+        "long_ratio": 0.667,
+        "news_burst_score": 0.0,
+        "feed_capped": true
+      },
+      "source_domains": [
+        "wsj.com"
+      ],
+      "recent_evidence_count": 1,
+      "youtube_query": "GM NHTSA brake investigation",
+      "youtube_event_terms": [
+        "NHTSA",
+        "brake"
+      ],
+      "evidence": [
+        {
+          "title": "NHTSA Expands Investigation Into GM Braking System",
+          "domain": "wsj.com",
+          "source_name": "WSJ",
+          "timestamp_utc": "2026-08-24T11:30:00+00:00",
+          "source_type": "news_rss",
+          "category": "regulatory_legal",
+          "sec_form": null
+        }
+      ],
+      "judge_version": "B_V1",
+      "entity_accuracy": "pass",
+      "catalyst_reality_score": 24,
+      "investor_materiality_score": 22,
+      "novelty_score": 15,
+      "judge_evidence_quality_score": 12,
+      "content_potential_score": 18,
+      "judge_score": 91,
+      "judge_reason": "An expanded NHTSA brake investigation is a fresh regulatory catalyst with potential recall, cost and reputation implications for GM.",
+      "verification_note": "Verify the investigation scope and affected vehicle count against NHTSA before publication.",
+      "youtube_metrics": {
+        "status": "ok_no_videos",
+        "query": "GM NHTSA brake investigation",
+        "raw_sample_size": 0,
+        "relevant_sample_size": 0,
+        "estimated_total_results": 5,
+        "youtube_supply_gap_score": 100.0,
+        "median_views_per_day": 0,
+        "small_channel_hit_rate": 0.0,
+        "sample_videos": []
+      },
+      "scanner_b_score": 77.3
+    },
+    {
+      "event_id": "db4a93c6d52c47fa",
+      "scanner": "B",
+      "entity": "MICRON TECHNOLOGY INC",
+      "ticker": "MU",
+      "entity_type": "company",
+      "event_title": "Micron Researcher Warns: The Memory Wall Persists as HBM Fails to Keep Pace with Rising Computing Speeds",
+      "event_timestamp_utc": "2026-08-24T07:51:51+00:00",
+      "categories": [
+        "ai_semis"
+      ],
+      "sec_forms": [],
+      "discovery_score": 45.2,
+      "news_burst_score": 23.2,
+      "source_diversity_score": 38.0,
+      "catalyst_quality_score": 68.0,
+      "freshness_score": 82.0,
+      "evidence_quality_score": 36,
+      "baseline": {
+        "source": "google_news_rss",
+        "current_3h": 1,
+        "baseline_3h_median": 0.0,
+        "short_ratio": 2.0,
+        "current_day": 4,
+        "baseline_day_median": 2.0,
+        "long_ratio": 1.667,
+        "news_burst_score": 23.2,
+        "feed_capped": false
+      },
+      "source_domains": [
+        "moomoo.com",
+        "servethehome.com"
+      ],
+      "recent_evidence_count": 2,
+      "youtube_query": "Micron MU HBM memory wall",
+      "youtube_event_terms": [
+        "HBM",
+        "memory wall"
+      ],
+      "evidence": [
+        {
+          "title": "Micron Researcher Warns: The Memory Wall Persists as HBM Fails to Keep Pace with Rising Computing Speeds",
+          "domain": "moomoo.com",
+          "source_name": "Moomoo",
+          "timestamp_utc": "2026-08-24T07:51:51+00:00",
           "source_type": "news_rss",
           "category": "ai_semis",
+          "sec_form": null
+        },
+        {
+          "title": "Micron What is HBM?",
+          "domain": "servethehome.com",
+          "source_name": "ServeTheHome",
+          "timestamp_utc": "2026-08-23T18:02:10+00:00",
+          "source_type": "news_rss",
+          "category": "ai_semis",
+          "sec_form": null
+        }
+      ],
+      "judge_version": "B_V1",
+      "entity_accuracy": "pass",
+      "catalyst_reality_score": 20,
+      "investor_materiality_score": 23,
+      "novelty_score": 13,
+      "judge_evidence_quality_score": 8,
+      "content_potential_score": 19,
+      "judge_score": 83,
+      "judge_reason": "Fresh technical disclosure on HBM bandwidth constraints is directly relevant to AI-memory demand, packaging and Micron's product roadmap.",
+      "verification_note": "Distinguish a technical roadmap observation from near-term revenue guidance; verify the original Micron presentation/context.",
+      "youtube_metrics": {
+        "status": "ok_no_videos",
+        "query": "Micron MU HBM memory wall",
+        "raw_sample_size": 0,
+        "relevant_sample_size": 0,
+        "estimated_total_results": 9,
+        "youtube_supply_gap_score": 100.0,
+        "median_views_per_day": 0,
+        "small_channel_hit_rate": 0.0,
+        "sample_videos": []
+      },
+      "scanner_b_score": 75.1
+    },
+    {
+      "event_id": "ab9b668fff36587e",
+      "scanner": "B",
+      "entity": "Bitcoin / Crypto",
+      "ticker": null,
+      "entity_type": "crypto",
+      "event_title": "Bitcoin ETF Inflows Hit $1.9B in Strongest Week Since October 2025",
+      "event_timestamp_utc": "2026-08-24T11:35:17+00:00",
+      "categories": [
+        "crypto"
+      ],
+      "sec_forms": [],
+      "discovery_score": 44.2,
+      "news_burst_score": 0.0,
+      "source_diversity_score": 55.0,
+      "catalyst_quality_score": 70.0,
+      "freshness_score": 100.0,
+      "evidence_quality_score": 42,
+      "baseline": {
+        "source": "google_news_rss",
+        "current_3h": 0,
+        "baseline_3h_median": 0.0,
+        "short_ratio": 1.0,
+        "current_day": 1,
+        "baseline_day_median": 3.0,
+        "long_ratio": 0.5,
+        "news_burst_score": 0.0,
+        "feed_capped": true
+      },
+      "source_domains": [
+        "altcoinbuzz.io",
+        "en.bloomingbit.io",
+        "finance.biggo.com",
+        "kucoin.com"
+      ],
+      "recent_evidence_count": 4,
+      "youtube_query": "Bitcoin ETF inflows 1.9B",
+      "youtube_event_terms": [
+        "ETF",
+        "inflows"
+      ],
+      "evidence": [
+        {
+          "title": "Bitcoin ETF Inflows Hit $1.9B in Strongest Week Since October 2025",
+          "domain": "altcoinbuzz.io",
+          "source_name": "Altcoin Buzz",
+          "timestamp_utc": "2026-08-24T11:35:17+00:00",
+          "source_type": "news_rss",
+          "category": "crypto",
+          "sec_form": null
+        },
+        {
+          "title": "Bitcoin ETF Inflows Reach $1.9B, Strongest Week Since Oct 2025",
+          "domain": "kucoin.com",
+          "source_name": "KuCoin",
+          "timestamp_utc": "2026-08-24T09:46:06+00:00",
+          "source_type": "news_rss",
+          "category": "crypto",
+          "sec_form": null
+        },
+        {
+          "title": "US Spot-Bitcoin ETFs Draw $1.92 Billion in Weekly Inflows, Most Since October 2025",
+          "domain": "en.bloomingbit.io",
+          "source_name": "bloomingbit",
+          "timestamp_utc": "2026-08-24T09:11:53+00:00",
+          "source_type": "news_rss",
+          "category": "crypto",
+          "sec_form": null
+        },
+        {
+          "title": "U.S. Bitcoin, Ethereum Spot ETFs See $2.6 Billion Weekly Net Inflows — Largest Since October 2025",
+          "domain": "finance.biggo.com",
+          "source_name": "finance.biggo.com",
+          "timestamp_utc": "2026-08-24T02:00:53+00:00",
+          "source_type": "news_rss",
+          "category": "crypto",
           "sec_form": null
         }
       ],
@@ -63,73 +637,170 @@
       "investor_materiality_score": 21,
       "novelty_score": 14,
       "judge_evidence_quality_score": 8,
-      "content_potential_score": 19,
-      "judge_score": 84,
-      "judge_reason": "Fresh HBM/advanced-packaging roadmap disclosure is directly relevant to AI-memory supply, packaging and capex competition.",
-      "verification_note": "Technical-event sourcing is credible enough for discovery; distinguish roadmap disclosure from near-term shipment guidance.",
+      "content_potential_score": 18,
+      "judge_score": 83,
+      "judge_reason": "The weekly ETF-flow surge is a quantifiable institutional-demand catalyst with clear crypto and crypto-equity relevance.",
+      "verification_note": "Sources are crypto-heavy; verify the exact weekly spot-Bitcoin ETF flow against primary fund-flow data before publication.",
+      "youtube_metrics": {
+        "status": "ok",
+        "query": "Bitcoin ETF inflows 1.9B",
+        "raw_sample_size": 2,
+        "relevant_sample_size": 1,
+        "estimated_total_results": 2,
+        "youtube_supply_gap_score": 100.0,
+        "median_views_per_day": 11,
+        "small_channel_sample_size": 1,
+        "small_channel_hit_rate": 0.0,
+        "sample_videos": [
+          {
+            "video_id": "E_xwDWYHrWM",
+            "title": "Daily Crypto ETF Flows (Aug 21, 2026): +$2.7B Net — BlackRock Drives BTC",
+            "channel_id": "UCpGp7LWFj_sPzT0sElbBaZQ",
+            "published_at": "2026-08-23T06:24:55+00:00",
+            "views": 14,
+            "views_per_day": 11,
+            "channel_subscribers": 11
+          }
+        ]
+      },
+      "scanner_b_score": 74.8
+    },
+    {
+      "event_id": "ce7f8dff74d5b640",
+      "scanner": "B",
+      "entity": "Alphabet Inc.",
+      "ticker": "GOOGL",
+      "entity_type": "company",
+      "event_title": "YouTube Premium is getting another price hike worldwide",
+      "event_timestamp_utc": "2026-08-24T08:52:59+00:00",
+      "categories": [
+        "pricing_capacity"
+      ],
+      "sec_forms": [],
+      "discovery_score": 36.4,
+      "news_burst_score": 4.1,
+      "source_diversity_score": 20.0,
+      "catalyst_quality_score": 77.0,
+      "freshness_score": 82.0,
+      "evidence_quality_score": 33,
+      "baseline": {
+        "source": "google_news_rss",
+        "current_3h": 0,
+        "baseline_3h_median": 0.0,
+        "short_ratio": 1.0,
+        "current_day": 2,
+        "baseline_day_median": 1.0,
+        "long_ratio": 1.5,
+        "news_burst_score": 4.1,
+        "feed_capped": false
+      },
+      "source_domains": [
+        "trustedreviews.com"
+      ],
+      "recent_evidence_count": 1,
+      "youtube_query": "GOOGL YouTube Premium price hike",
+      "youtube_event_terms": [
+        "YouTube Premium",
+        "price"
+      ],
+      "evidence": [
+        {
+          "title": "YouTube Premium is getting another price hike worldwide",
+          "domain": "trustedreviews.com",
+          "source_name": "Trusted Reviews",
+          "timestamp_utc": "2026-08-24T08:52:59+00:00",
+          "source_type": "news_rss",
+          "category": "pricing_capacity",
+          "sec_form": null
+        }
+      ],
+      "judge_version": "B_V1",
+      "entity_accuracy": "pass",
+      "catalyst_reality_score": 23,
+      "investor_materiality_score": 20,
+      "novelty_score": 15,
+      "judge_evidence_quality_score": 7,
+      "content_potential_score": 18,
+      "judge_score": 83,
+      "judge_reason": "A broad YouTube Premium price increase is a concrete monetization catalyst for Alphabet with a simple investor-facing margin/ARPU angle.",
+      "verification_note": "Single secondary source in the candidate set; verify countries, timing and exact new prices before publication.",
       "youtube_metrics": {
         "status": "ok_no_videos",
-        "query": "SK hynix HBM advanced packaging",
+        "query": "GOOGL YouTube Premium price hike",
         "raw_sample_size": 0,
         "relevant_sample_size": 0,
-        "estimated_total_results": 28,
+        "estimated_total_results": 171,
         "youtube_supply_gap_score": 100.0,
         "median_views_per_day": 0,
         "small_channel_hit_rate": 0.0,
         "sample_videos": []
       },
-      "scanner_b_score": 76.6
+      "scanner_b_score": 72.4
     },
     {
-      "event_id": "79cc14b41ed3f245",
+      "event_id": "cc51c56e76b6ce31",
       "scanner": "B",
       "entity": "Tariffs / Trade",
       "ticker": null,
       "entity_type": "macro",
-      "event_title": "U.S.-Canada trade talks collapse, new tariffs take effect",
-      "event_timestamp_utc": "2026-08-23T20:27:00+00:00",
+      "event_title": "Canada to hit US dairy with retaliatory tariffs after trade talks collapse",
+      "event_timestamp_utc": "2026-08-24T09:58:00+00:00",
       "categories": [
         "macro_rates"
       ],
       "sec_forms": [],
-      "discovery_score": 62.2,
-      "news_burst_score": 18.9,
-      "source_diversity_score": 100.0,
+      "discovery_score": 52.2,
+      "news_burst_score": 15.2,
+      "source_diversity_score": 55.0,
       "catalyst_quality_score": 85.0,
       "freshness_score": 92.0,
-      "evidence_quality_score": 48,
+      "evidence_quality_score": 51,
       "baseline": {
         "source": "google_news_rss",
-        "current_3h": 0,
+        "current_3h": 1,
         "baseline_3h_median": 1.0,
-        "short_ratio": 0.5,
-        "current_day": 12,
+        "short_ratio": 1.0,
+        "current_day": 8,
         "baseline_day_median": 1.0,
-        "long_ratio": 6.5,
-        "news_burst_score": 18.9,
+        "long_ratio": 4.5,
+        "news_burst_score": 15.2,
         "feed_capped": true
       },
       "source_domains": [
-        "13wmaz.com",
-        "aljazeera.com",
-        "axios.com",
-        "butlereagle.com",
-        "cbs19.tv",
-        "cbsnews.com"
+        "bloomberg.com",
+        "monvalleyindependent.com",
+        "thecattlesite.com"
       ],
-      "recent_evidence_count": 19,
-      "youtube_query": "Canada U.S. tariffs 50% trade talks",
+      "recent_evidence_count": 3,
+      "youtube_query": "Canada US retaliatory tariffs dairy",
       "youtube_event_terms": [
-        "tariff",
         "Canada",
-        "50%"
+        "tariffs"
       ],
       "evidence": [
         {
-          "title": "U.S.-Canada trade talks collapse, new tariffs take effect",
-          "domain": "cbs19.tv",
-          "source_name": "cbs19.tv",
-          "timestamp_utc": "2026-08-23T20:27:00+00:00",
+          "title": "Canada to hit US dairy with retaliatory tariffs after trade talks collapse",
+          "domain": "thecattlesite.com",
+          "source_name": "The Cattle Site",
+          "timestamp_utc": "2026-08-24T09:58:00+00:00",
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "sec_form": null
+        },
+        {
+          "title": "U.S. and Canada fall deeper into a trade war with new tariffs as talks collapse and blame is spread",
+          "domain": "monvalleyindependent.com",
+          "source_name": "Mon Valley Independent",
+          "timestamp_utc": "2026-08-24T07:50:36+00:00",
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "sec_form": null
+        },
+        {
+          "title": "Canada to Hit US With $20 Billion Counter Tariffs",
+          "domain": "bloomberg.com",
+          "source_name": "Bloomberg.com",
+          "timestamp_utc": "2026-08-24T05:58:00+00:00",
           "source_type": "news_rss",
           "category": "macro_rates",
           "sec_form": null
@@ -140,1011 +811,115 @@
       "catalyst_reality_score": 25,
       "investor_materiality_score": 25,
       "novelty_score": 15,
-      "judge_evidence_quality_score": 14,
+      "judge_evidence_quality_score": 13,
       "content_potential_score": 20,
-      "judge_score": 99,
-      "judge_reason": "Major fresh U.S.-Canada trade-policy shock with direct implications for equities, sectors and inflation; duplicate tariff angles were collapsed into this representative event.",
-      "verification_note": "Strong multi-source support. Keep this as the sole Canada-tariff representative.",
+      "judge_score": 98,
+      "judge_reason": "Fresh U.S.-Canada retaliation is a major macro catalyst with direct inflation, sector and cross-border equity implications.",
+      "verification_note": "Use this as the sole Canada-retaliation representative; verify final tariff scope and effective dates.",
       "youtube_metrics": {
         "status": "ok",
-        "query": "Canada U.S. tariffs 50% trade talks",
+        "query": "Canada US retaliatory tariffs dairy",
         "raw_sample_size": 50,
-        "relevant_sample_size": 48,
-        "estimated_total_results": 14247,
+        "relevant_sample_size": 44,
+        "estimated_total_results": 620,
         "youtube_supply_gap_score": 30.0,
-        "median_views_per_day": 1806,
-        "small_channel_sample_size": 40,
-        "small_channel_hit_rate": 42.5,
+        "median_views_per_day": 209,
+        "small_channel_sample_size": 30,
+        "small_channel_hit_rate": 26.7,
         "sample_videos": [
           {
-            "video_id": "_TJ-iP0gZu4",
-            "title": "Canada could lose 10,000s of jobs due to Trump’s 50% tariffs",
-            "channel_id": "UCuFFtHWoLl5fauMMD5Ww2jA",
-            "published_at": "2026-08-23T18:34:24+00:00",
-            "views": 55369,
-            "views_per_day": 339835,
-            "channel_subscribers": 4720000
+            "video_id": "gJPqn8G8hRI",
+            "title": "আমেরিকার বিরুদ্ধে বাণিজ্য যুদ্ধ শুরু করলো কানাডা, চুপ করে দেখছে ইরান | US-Canada Trade War | Padatik",
+            "channel_id": "UCuXsj5ENgvmNyReMYBJvRDw",
+            "published_at": "2026-08-23T14:50:08+00:00",
+            "views": 134669,
+            "views_per_day": 149178,
+            "channel_subscribers": 506000
           },
           {
-            "video_id": "ZEBnbyLCxa4",
-            "title": "Trade war escalates as US-Canada talks collapse",
-            "channel_id": "UCH1oRy1dINbMVp3UFWrKP0w",
-            "published_at": "2026-08-23T14:32:28+00:00",
-            "views": 68367,
-            "views_per_day": 206585,
-            "channel_subscribers": 5490000
+            "video_id": "j2hnqThWu3M",
+            "title": "Canada to impose retaliatory tariffs on US goods as trade negotiations collapse",
+            "channel_id": "UC2xLESFeytXO0j7pgVBf7fg",
+            "published_at": "2026-08-24T05:31:09+00:00",
+            "views": 6377,
+            "views_per_day": 21920,
+            "channel_subscribers": 102000
           },
           {
-            "video_id": "bcNkDDCmrcI",
-            "title": "Canada READY TO FIGHT: Carney REVEALS Trump's Tariff Lies as USA Tries To BULLY Canada",
-            "channel_id": "UCVBD2a1uUkhX18B1WVcddzQ",
-            "published_at": "2026-08-23T13:44:44+00:00",
-            "views": 55757,
-            "views_per_day": 153142,
-            "channel_subscribers": 144000
+            "video_id": "qdoW0x5m9Eo",
+            "title": "Canada Controls 40% of Silver Supply. Trump Just Made His Biggest Mistake",
+            "channel_id": "UCrTp2maKKITrUoBx1AF38ww",
+            "published_at": "2026-08-24T06:00:15+00:00",
+            "views": 3611,
+            "views_per_day": 13339,
+            "channel_subscribers": 5990
           },
           {
-            "video_id": "ns2xiFIv91Q",
-            "title": "US Trade Fight Escalates as Canada Digs In",
-            "channel_id": "UChF5O40UBqAc82I7-i5ig6A",
-            "published_at": "2026-08-23T14:03:54+00:00",
-            "views": 36832,
-            "views_per_day": 105001,
-            "channel_subscribers": 553000
+            "video_id": "rrbwCBlTyYY",
+            "title": "Donald Trump fires up over Canada’s retaliatory tariffs against the US",
+            "channel_id": "UCO0akufu9MOzyz3nvGIXAAw",
+            "published_at": "2026-08-24T01:51:53+00:00",
+            "views": 3829,
+            "views_per_day": 8640,
+            "channel_subscribers": 6240000
           },
           {
-            "video_id": "U-oqim-BlWQ",
-            "title": "U.S.–Canada Trade Deal LIVE | Carney Vows Retaliation | 50% TARIFFS | Trade Talks Collapse | N18G",
+            "video_id": "rfd0VgKoQvY",
+            "title": "U.S.–Canada LIVE | “WE WERE ATTACKED”: Canada Fires Back at Trump as Trade War Erupts |N18G",
             "channel_id": "UCef1-8eOpJgud7szVPlZQAQ",
-            "published_at": "2026-08-23T17:21:54+00:00",
-            "views": 11273,
-            "views_per_day": 52856,
+            "published_at": "2026-08-24T00:30:49+00:00",
+            "views": 3617,
+            "views_per_day": 7241,
             "channel_subscribers": 10800000
           },
           {
-            "video_id": "h676-23UWlw",
-            "title": "Canada Finally Hits Trump Back — Carney Launches a “Dollar-for-Dollar” Trade War",
-            "channel_id": "UC84nkn_ehe7iySeoyYyttDg",
-            "published_at": "2026-08-23T17:04:02+00:00",
-            "views": 7013,
-            "views_per_day": 31074,
-            "channel_subscribers": 697
+            "video_id": "btmyid1JnFU",
+            "title": "Carney Punches Back: Canada vs Trump Tariffs!",
+            "channel_id": "UCSiYkMylC3F_eQfIodMHkOw",
+            "published_at": "2026-08-23T08:00:07+00:00",
+            "views": 8243,
+            "views_per_day": 6942,
+            "channel_subscribers": 237000
           },
           {
-            "video_id": "5nbsSfodCtM",
-            "title": "Trump Says Canada Wants the Benefits of Being a State, Without Being One After Trade Talks Collapse",
-            "channel_id": "UCXte6Yk8LDn5bvN1fL3-WEA",
-            "published_at": "2026-08-23T13:49:04+00:00",
-            "views": 8904,
-            "views_per_day": 24660,
-            "channel_subscribers": 10400
+            "video_id": "hy-ni-o4v4Y",
+            "title": "Canada's Carney stands up to Trump, despite risks",
+            "channel_id": "UCoejQVtZelbGC2ALkIht0nw",
+            "published_at": "2026-08-24T07:34:07+00:00",
+            "views": 897,
+            "views_per_day": 4364,
+            "channel_subscribers": 309
           },
           {
-            "video_id": "B9VcfeJ0dOI",
-            "title": "US vs CANADA - TRUMP-ஐ தில்லாக எதிர்க்கும் CANADA PM! | Decode by Venkat",
-            "channel_id": "UClA78vdYrYwLFP4aWzL46xQ",
-            "published_at": "2026-08-23T16:32:21+00:00",
-            "views": 4318,
-            "views_per_day": 17433,
-            "channel_subscribers": 22800
+            "video_id": "bjaQpfKIjdg",
+            "title": "“The Deal Collapsed. Now Comes  Retaliation.” #breakingnews #geopolitics #worldnews #canada #usa",
+            "channel_id": "UCcicHyn8vUSuwFqsJ1Ul-Tg",
+            "published_at": "2026-08-23T11:27:16+00:00",
+            "views": 3586,
+            "views_per_day": 3436,
+            "channel_subscribers": 2670
           },
           {
-            "video_id": "Xdu-nDq_tXs",
-            "title": "U.S.-Canada trade talks collapse, new tariffs take effect",
-            "channel_id": "UCJp7gd3QZvweXGnevptxJng",
-            "published_at": "2026-08-23T20:29:14+00:00",
-            "views": 1732,
-            "views_per_day": 13856,
-            "channel_subscribers": 91500
+            "video_id": "psnFxuRf4Cs",
+            "title": "US-Canada Trade Talks COLLAPSE Carney Vows Retaliation Trump Says Canada \"Wants Benefits of a State",
+            "channel_id": "UC43sre52v51QMGYCDvMwDcg",
+            "published_at": "2026-08-24T08:52:30+00:00",
+            "views": 293,
+            "views_per_day": 1939,
+            "channel_subscribers": 20
           },
           {
-            "video_id": "T-L4TKPj6zk",
-            "title": "Trump Says Canada Wants US State Benefits as Trade War Deepens #shorts #breakingnews #usa #canada",
-            "channel_id": "UCQ_tRO5f3xrwF4u15LB03MA",
-            "published_at": "2026-08-23T15:40:29+00:00",
-            "views": 2536,
-            "views_per_day": 8939,
-            "channel_subscribers": 4170
+            "video_id": "j25Bbslg2XY",
+            "title": "Canada Fires Back: Dollar for Dollar Tariffs  #trump #canada #shorts",
+            "channel_id": "UCTg7sTMpOrUwdxCBUASkE1Q",
+            "published_at": "2026-08-23T14:53:38+00:00",
+            "views": 1706,
+            "views_per_day": 1895,
+            "channel_subscribers": 44
           }
         ]
       },
-      "scanner_b_score": 74.2
-    },
-    {
-      "event_id": "aa17307720bbeb6e",
-      "scanner": "B",
-      "entity": "Federal Reserve / Rates",
-      "ticker": null,
-      "entity_type": "macro",
-      "event_title": "Fed’s Kashkari says rising Treasury yields not a concern",
-      "event_timestamp_utc": "2026-08-23T16:53:53+00:00",
-      "categories": [
-        "macro_rates"
-      ],
-      "sec_forms": [],
-      "discovery_score": 46.6,
-      "news_burst_score": 0.0,
-      "source_diversity_score": 55.0,
-      "catalyst_quality_score": 85.0,
-      "freshness_score": 82.0,
-      "evidence_quality_score": 63,
-      "baseline": {
-        "source": "google_news_rss",
-        "current_3h": 0,
-        "baseline_3h_median": 0.0,
-        "short_ratio": 1.0,
-        "current_day": 0,
-        "baseline_day_median": 3.0,
-        "long_ratio": 0.25,
-        "news_burst_score": 0.0,
-        "feed_capped": true
-      },
-      "source_domains": [
-        "bloomberg.com",
-        "investing.com",
-        "seekingalpha.com"
-      ],
-      "recent_evidence_count": 3,
-      "youtube_query": "Kashkari Treasury yields Fed",
-      "youtube_event_terms": [
-        "Kashkari",
-        "Treasury yields"
-      ],
-      "evidence": [
-        {
-          "title": "Fed’s Kashkari says rising Treasury yields not a concern",
-          "domain": "investing.com",
-          "source_name": "Investing.com",
-          "timestamp_utc": "2026-08-23T16:53:53+00:00",
-          "source_type": "news_rss",
-          "category": "macro_rates",
-          "sec_form": null
-        }
-      ],
-      "judge_version": "B_V1",
-      "entity_accuracy": "pass",
-      "catalyst_reality_score": 20,
-      "investor_materiality_score": 18,
-      "novelty_score": 13,
-      "judge_evidence_quality_score": 13,
-      "content_potential_score": 16,
-      "judge_score": 80,
-      "judge_reason": "Direct Fed commentary on long-end Treasury yields matters to the rates narrative and growth-stock valuation backdrop.",
-      "verification_note": "Supported by Bloomberg and other finance sources; commentary is not a formal policy change.",
-      "youtube_metrics": {
-        "status": "ok_no_videos",
-        "query": "Kashkari Treasury yields Fed",
-        "raw_sample_size": 0,
-        "relevant_sample_size": 0,
-        "estimated_total_results": 0,
-        "youtube_supply_gap_score": 100.0,
-        "median_views_per_day": 0,
-        "small_channel_hit_rate": 0.0,
-        "sample_videos": []
-      },
-      "scanner_b_score": 74.0
-    },
-    {
-      "event_id": "a650803c81eac876",
-      "scanner": "B",
-      "entity": "Bitcoin / Crypto",
-      "ticker": null,
-      "entity_type": "crypto",
-      "event_title": "Bitcoin and Ethereum ETFs just had their biggest week of 2026 as crypto exploded higher",
-      "event_timestamp_utc": "2026-08-23T20:05:10+00:00",
-      "categories": [
-        "crypto"
-      ],
-      "sec_forms": [],
-      "discovery_score": 49.0,
-      "news_burst_score": 2.3,
-      "source_diversity_score": 72.0,
-      "catalyst_quality_score": 70.0,
-      "freshness_score": 92.0,
-      "evidence_quality_score": 60,
-      "baseline": {
-        "source": "google_news_rss",
-        "current_3h": 0,
-        "baseline_3h_median": 0.0,
-        "short_ratio": 1.0,
-        "current_day": 4,
-        "baseline_day_median": 3.0,
-        "long_ratio": 1.25,
-        "news_burst_score": 2.3,
-        "feed_capped": true
-      },
-      "source_domains": [
-        "cointribune.com",
-        "cryptoslate.com",
-        "finance.yahoo.com",
-        "finway.com.ua",
-        "incrypted.com",
-        "koinbulteni.com"
-      ],
-      "recent_evidence_count": 7,
-      "youtube_query": "Bitcoin ETF inflows biggest week 2026",
-      "youtube_event_terms": [
-        "ETF inflows",
-        "2026"
-      ],
-      "evidence": [
-        {
-          "title": "Bitcoin and Ethereum ETFs just had their biggest week of 2026 as crypto exploded higher",
-          "domain": "cryptoslate.com",
-          "source_name": "CryptoSlate",
-          "timestamp_utc": "2026-08-23T20:05:10+00:00",
-          "source_type": "news_rss",
-          "category": "crypto",
-          "sec_form": null
-        }
-      ],
-      "judge_version": "B_V1",
-      "entity_accuracy": "pass",
-      "catalyst_reality_score": 19,
-      "investor_materiality_score": 20,
-      "novelty_score": 13,
-      "judge_evidence_quality_score": 7,
-      "content_potential_score": 18,
-      "judge_score": 77,
-      "judge_reason": "Unusually large ETF-flow week is a quantifiable institutional-demand signal with clear crypto-equity relevance.",
-      "verification_note": "Mostly crypto-media sourcing; recheck the exact weekly flow amount before publication.",
-      "youtube_metrics": {
-        "status": "ok",
-        "query": "Bitcoin ETF inflows biggest week 2026",
-        "raw_sample_size": 2,
-        "relevant_sample_size": 1,
-        "estimated_total_results": 140,
-        "youtube_supply_gap_score": 100.0,
-        "median_views_per_day": 5,
-        "small_channel_sample_size": 1,
-        "small_channel_hit_rate": 0.0,
-        "sample_videos": [
-          {
-            "video_id": "bJgiY2-olgg",
-            "title": "Bitcoin Up 20% This Week — The Buyers I Doubted Came Back Bigger (With One... — Aug 21, 2026",
-            "channel_id": "UCZKXe2IVQaa4MArtiq71WrQ",
-            "published_at": "2026-08-21T13:53:38+00:00",
-            "views": 11,
-            "views_per_day": 5,
-            "channel_subscribers": 141
-          }
-        ]
-      },
-      "scanner_b_score": 73.2
-    },
-    {
-      "event_id": "378b2b4e429be72e",
-      "scanner": "B",
-      "entity": "SK hynix",
-      "ticker": null,
-      "entity_type": "foreign_company",
-      "event_title": "Samsung, SK hynix pour fresh investment into aging China factories despite U.S. curbs",
-      "event_timestamp_utc": "2026-08-23T20:00:41+00:00",
-      "categories": [
-        "pricing_capacity"
-      ],
-      "sec_forms": [],
-      "discovery_score": 42.8,
-      "news_burst_score": 18.0,
-      "source_diversity_score": 20.0,
-      "catalyst_quality_score": 77.0,
-      "freshness_score": 92.0,
-      "evidence_quality_score": 33,
-      "baseline": {
-        "source": "google_news_rss",
-        "current_3h": 1,
-        "baseline_3h_median": 0.0,
-        "short_ratio": 2.0,
-        "current_day": 2,
-        "baseline_day_median": 2.0,
-        "long_ratio": 1.0,
-        "news_burst_score": 18.0,
-        "feed_capped": true
-      },
-      "source_domains": [
-        "koreajoongangdaily.com"
-      ],
-      "recent_evidence_count": 1,
-      "youtube_query": "SK hynix Samsung China fabs US curbs",
-      "youtube_event_terms": [
-        "China fabs",
-        "U.S. curbs"
-      ],
-      "evidence": [
-        {
-          "title": "Samsung, SK hynix pour fresh investment into aging China factories despite U.S. curbs",
-          "domain": "koreajoongangdaily.com",
-          "source_name": "Korea JoongAng Daily",
-          "timestamp_utc": "2026-08-23T20:00:41+00:00",
-          "source_type": "news_rss",
-          "category": "pricing_capacity",
-          "sec_form": null
-        }
-      ],
-      "judge_version": "B_V1",
-      "entity_accuracy": "pass",
-      "catalyst_reality_score": 22,
-      "investor_materiality_score": 21,
-      "novelty_score": 14,
-      "judge_evidence_quality_score": 5,
-      "content_potential_score": 18,
-      "judge_score": 80,
-      "judge_reason": "Fresh memory-fab investment under U.S. restrictions is relevant to DRAM/NAND supply and semiconductor geopolitics.",
-      "verification_note": "Single strong regional source in the candidate set; confirm capex scale and timing before publication.",
-      "youtube_metrics": {
-        "status": "ok_no_videos",
-        "query": "SK hynix Samsung China fabs US curbs",
-        "raw_sample_size": 0,
-        "relevant_sample_size": 0,
-        "estimated_total_results": 0,
-        "youtube_supply_gap_score": 100.0,
-        "median_views_per_day": 0,
-        "small_channel_hit_rate": 0.0,
-        "sample_videos": []
-      },
-      "scanner_b_score": 72.8
-    },
-    {
-      "event_id": "f0f50af97fd02351",
-      "scanner": "B",
-      "entity": "Personalis, Inc.",
-      "ticker": "PSNL",
-      "entity_type": "company",
-      "event_title": "Personalis Stock Jumps After Tempus AI Acquisition Deal And Q2 Beat",
-      "event_timestamp_utc": "2026-08-23T15:36:00+00:00",
-      "categories": [
-        "mna"
-      ],
-      "sec_forms": [],
-      "discovery_score": 42.6,
-      "news_burst_score": 7.0,
-      "source_diversity_score": 38.0,
-      "catalyst_quality_score": 94.0,
-      "freshness_score": 68.0,
-      "evidence_quality_score": 36,
-      "baseline": {
-        "source": "google_news_rss",
-        "current_3h": 0,
-        "baseline_3h_median": 0.0,
-        "short_ratio": 1.0,
-        "current_day": 3,
-        "baseline_day_median": 1.0,
-        "long_ratio": 2.0,
-        "news_burst_score": 7.0,
-        "feed_capped": false
-      },
-      "source_domains": [
-        "stockstotrade.com",
-        "timothysykes.com"
-      ],
-      "recent_evidence_count": 2,
-      "youtube_query": "PSNL Tempus AI acquisition",
-      "youtube_event_terms": [
-        "Tempus AI",
-        "acquisition"
-      ],
-      "evidence": [
-        {
-          "title": "Personalis Stock Jumps After Tempus AI Acquisition Deal And Q2 Beat",
-          "domain": "stockstotrade.com",
-          "source_name": "StocksToTrade",
-          "timestamp_utc": "2026-08-23T15:36:00+00:00",
-          "source_type": "news_rss",
-          "category": "mna",
-          "sec_form": null
-        }
-      ],
-      "judge_version": "B_V1",
-      "entity_accuracy": "pass",
-      "catalyst_reality_score": 24,
-      "investor_materiality_score": 18,
-      "novelty_score": 15,
-      "judge_evidence_quality_score": 5,
-      "content_potential_score": 18,
-      "judge_score": 80,
-      "judge_reason": "Explicit acquisition catalyst in healthcare AI; exactly the kind of niche event Scanner B can surface before broad YouTube attention.",
-      "verification_note": "Candidate sources are secondary; verify deal terms against company/filing before publishing.",
-      "youtube_metrics": {
-        "status": "ok_no_videos",
-        "query": "PSNL Tempus AI acquisition",
-        "raw_sample_size": 0,
-        "relevant_sample_size": 0,
-        "estimated_total_results": 0,
-        "youtube_supply_gap_score": 100.0,
-        "median_views_per_day": 0,
-        "small_channel_hit_rate": 0.0,
-        "sample_videos": []
-      },
-      "scanner_b_score": 72.8
-    },
-    {
-      "event_id": "c40ea23dcf38986e",
-      "scanner": "B",
-      "entity": "NVIDIA CORP",
-      "ticker": "NVDA",
-      "entity_type": "company",
-      "event_title": "NVIDIA Raises AI Server Prices 15% Amid Memory Cost Surge",
-      "event_timestamp_utc": "2026-08-23T15:41:42+00:00",
-      "categories": [
-        "ai_semis",
-        "pricing_capacity"
-      ],
-      "sec_forms": [],
-      "discovery_score": 40.5,
-      "news_burst_score": 0.0,
-      "source_diversity_score": 55.0,
-      "catalyst_quality_score": 77.0,
-      "freshness_score": 68.0,
-      "evidence_quality_score": 39,
-      "baseline": {
-        "source": "google_news_rss",
-        "current_3h": 0,
-        "baseline_3h_median": 0.0,
-        "short_ratio": 1.0,
-        "current_day": 2,
-        "baseline_day_median": 2.5,
-        "long_ratio": 0.857,
-        "news_burst_score": 0.0,
-        "feed_capped": true
-      },
-      "source_domains": [
-        "chosun.com",
-        "the-decoder.com",
-        "theinformation.com"
-      ],
-      "recent_evidence_count": 4,
-      "youtube_query": "NVIDIA AI server price 15% memory",
-      "youtube_event_terms": [
-        "server prices",
-        "memory"
-      ],
-      "evidence": [
-        {
-          "title": "NVIDIA Raises AI Server Prices 15% Amid Memory Cost Surge",
-          "domain": "chosun.com",
-          "source_name": "조선일보",
-          "timestamp_utc": "2026-08-23T15:41:42+00:00",
-          "source_type": "news_rss",
-          "category": "pricing_capacity",
-          "sec_form": null
-        },
-        {
-          "title": "Nvidia AI Chip Prices to Rise About 17%, Server Makers Tell Customers",
-          "domain": "theinformation.com",
-          "source_name": "The Information",
-          "timestamp_utc": "2026-08-22T23:45:00+00:00",
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "sec_form": null
-        }
-      ],
-      "judge_version": "B_V1",
-      "entity_accuracy": "pass",
-      "catalyst_reality_score": 24,
-      "investor_materiality_score": 24,
-      "novelty_score": 15,
-      "judge_evidence_quality_score": 10,
-      "content_potential_score": 20,
-      "judge_score": 93,
-      "judge_reason": "Direct AI-infrastructure pricing signal tied to memory costs; highly actionable for NVIDIA, server makers and memory suppliers.",
-      "verification_note": "Multiple reports including The Information; verify whether the reported increase is ~15% or ~17% and which products are affected.",
-      "youtube_metrics": {
-        "status": "ok",
-        "query": "NVIDIA AI server price 15% memory",
-        "raw_sample_size": 48,
-        "relevant_sample_size": 12,
-        "estimated_total_results": 61,
-        "youtube_supply_gap_score": 70.0,
-        "median_views_per_day": 15,
-        "small_channel_sample_size": 12,
-        "small_channel_hit_rate": 0.0,
-        "sample_videos": [
-          {
-            "video_id": "Y_p_MgIAgwQ",
-            "title": "Nvidia May Raise AI-Server Prices by over 15% — Why It Can Get Away With It",
-            "channel_id": "UCxVyhsLAnZ9HoVVjY9TJ-3Q",
-            "published_at": "2026-08-23T13:24:40+00:00",
-            "views": 61,
-            "views_per_day": 161,
-            "channel_subscribers": 2
-          },
-          {
-            "video_id": "N8TLK-RiMhc",
-            "title": "Nvidia Server Prices Jumping 15%? The Report Wall Street Hasn't Priced In",
-            "channel_id": "UC4_S65boWU0bQxa-x9u1LIQ",
-            "published_at": "2026-08-23T11:16:04+00:00",
-            "views": 73,
-            "views_per_day": 156,
-            "channel_subscribers": 1590
-          },
-          {
-            "video_id": "4IilHfar1kA",
-            "title": "Nvidia Plans AI Server Price Hike Amid Rising Memory Costs",
-            "channel_id": "UC9gYaBOevF3P_MKVH-m56Pw",
-            "published_at": "2026-08-23T10:00:07+00:00",
-            "views": 42,
-            "views_per_day": 81,
-            "channel_subscribers": 273
-          },
-          {
-            "video_id": "LR0uX8RxuRY",
-            "title": "Nvidia AI Server Prices May Jump 15%: What Memory Costs Mean for the Global AI Boom",
-            "channel_id": "UC68LUNidsQaQE0nF9rHyZKg",
-            "published_at": "2026-08-23T01:07:04+00:00",
-            "views": 64,
-            "views_per_day": 72,
-            "channel_subscribers": 1
-          },
-          {
-            "video_id": "OaCTnDTW2Hg",
-            "title": "Nvidia AI Server Prices Set to Jump Over 15%: What It Means for the AI Boom",
-            "channel_id": "UC9gYaBOevF3P_MKVH-m56Pw",
-            "published_at": "2026-08-23T09:00:00+00:00",
-            "views": 12,
-            "views_per_day": 21,
-            "channel_subscribers": 273
-          },
-          {
-            "video_id": "Y4TKTIyn040",
-            "title": "NVIDIA AI Server Prices Could Jump Over 15% — What’s Going On?#englishlearning #english#NVIDIA",
-            "channel_id": "UCWydK-Nfjn6B0Xyh7KhaWZQ",
-            "published_at": "2026-08-23T00:21:40+00:00",
-            "views": 17,
-            "views_per_day": 18,
-            "channel_subscribers": 2030
-          },
-          {
-            "video_id": "wJBUOfZ48_c",
-            "title": "Nvidia tells customers AI server prices jumping 15%+",
-            "channel_id": "UCQTPbFKPsqnWYevlzeC-cRQ",
-            "published_at": "2026-08-23T11:00:29+00:00",
-            "views": 6,
-            "views_per_day": 13,
-            "channel_subscribers": 11
-          },
-          {
-            "video_id": "p03iShxmH2I",
-            "title": "Nvidia Hikes AI Server Prices 15%+",
-            "channel_id": "UCO8bzN9sTJ0-opcD6LODjCw",
-            "published_at": "2026-08-23T05:41:54+00:00",
-            "views": 6,
-            "views_per_day": 9,
-            "channel_subscribers": 14
-          },
-          {
-            "video_id": "SRl_B5xnoyE",
-            "title": "NVIDIA Hikes AI Server Prices 15%: Margin Play or DUMP? | /biz/ 2026-08-23",
-            "channel_id": "UC_QoIfvBVXc97pVBVtsAutQ",
-            "published_at": "2026-08-23T09:40:39+00:00",
-            "views": 2,
-            "views_per_day": 4,
-            "channel_subscribers": 13
-          },
-          {
-            "video_id": "czkqLNajgZw",
-            "title": "Nvidia Server Costs Surge 15% Amid Memory Price Spike",
-            "channel_id": "UCv6kYFytX2iwC38PEmKNYxA",
-            "published_at": "2026-08-22T23:31:56+00:00",
-            "views": 4,
-            "views_per_day": 4,
-            "channel_subscribers": 23
-          }
-        ]
-      },
-      "scanner_b_score": 72.7
-    },
-    {
-      "event_id": "79acf761837ba0ae",
-      "scanner": "B",
-      "entity": "Paramount Skydance Corporation",
-      "ticker": "PSKY",
-      "entity_type": "company",
-      "event_title": "CPI | Paramount, California to Meet Monday on Antitrust Settlement",
-      "event_timestamp_utc": "2026-08-23T16:56:45+00:00",
-      "categories": [
-        "mna",
-        "regulatory_legal"
-      ],
-      "sec_forms": [],
-      "discovery_score": 48.6,
-      "news_burst_score": 18.0,
-      "source_diversity_score": 38.0,
-      "catalyst_quality_score": 94.0,
-      "freshness_score": 82.0,
-      "evidence_quality_score": 36,
-      "baseline": {
-        "source": "google_news_rss",
-        "current_3h": 1,
-        "baseline_3h_median": 0.0,
-        "short_ratio": 2.0,
-        "current_day": 1,
-        "baseline_day_median": 2.0,
-        "long_ratio": 0.667,
-        "news_burst_score": 18.0,
-        "feed_capped": false
-      },
-      "source_domains": [
-        "mynewsla.com",
-        "pymnts.com"
-      ],
-      "recent_evidence_count": 2,
-      "youtube_query": "PSKY Paramount antitrust settlement",
-      "youtube_event_terms": [
-        "antitrust",
-        "settlement"
-      ],
-      "evidence": [
-        {
-          "title": "CPI | Paramount, California to Meet Monday on Antitrust Settlement",
-          "domain": "pymnts.com",
-          "source_name": "PYMNTS.com",
-          "timestamp_utc": "2026-08-23T16:56:45+00:00",
-          "source_type": "news_rss",
-          "category": "regulatory_legal",
-          "sec_form": null
-        }
-      ],
-      "judge_version": "B_V1",
-      "entity_accuracy": "pass",
-      "catalyst_reality_score": 21,
-      "investor_materiality_score": 18,
-      "novelty_score": 14,
-      "judge_evidence_quality_score": 7,
-      "content_potential_score": 16,
-      "judge_score": 76,
-      "judge_reason": "A real antitrust/settlement development can affect transaction feasibility and valuation; celebrity/general-interest Paramount stories were rejected.",
-      "verification_note": "Use only the transaction/regulatory angle; do not merge with celebrity controversy.",
-      "youtube_metrics": {
-        "status": "ok_no_videos",
-        "query": "PSKY Paramount antitrust settlement",
-        "raw_sample_size": 0,
-        "relevant_sample_size": 0,
-        "estimated_total_results": 23,
-        "youtube_supply_gap_score": 100.0,
-        "median_views_per_day": 0,
-        "small_channel_hit_rate": 0.0,
-        "sample_videos": []
-      },
-      "scanner_b_score": 72.6
-    },
-    {
-      "event_id": "aea9508b244706b4",
-      "scanner": "B",
-      "entity": "BOEING CO",
-      "ticker": "BA",
-      "entity_type": "company",
-      "event_title": "Boeing union ready to strike after rejecting contract offer",
-      "event_timestamp_utc": "2026-08-23T02:51:00+00:00",
-      "categories": [
-        "contract_order"
-      ],
-      "sec_forms": [],
-      "discovery_score": 31.5,
-      "news_burst_score": 0.0,
-      "source_diversity_score": 20.0,
-      "catalyst_quality_score": 82.0,
-      "freshness_score": 52.0,
-      "evidence_quality_score": 33,
-      "baseline": {
-        "source": "rolling_local_fallback",
-        "current_3h": null,
-        "baseline_3h_median": null,
-        "short_ratio": null,
-        "current_day": 1.0,
-        "baseline_day_median": 1.0,
-        "long_ratio": 1.0,
-        "news_burst_score": 0.0
-      },
-      "source_domains": [
-        "kiro7.com"
-      ],
-      "recent_evidence_count": 1,
-      "youtube_query": "Boeing union strike contract rejection",
-      "youtube_event_terms": [
-        "Boeing",
-        "strike",
-        "contract"
-      ],
-      "evidence": [
-        {
-          "title": "Boeing union ready to strike after rejecting contract offer",
-          "domain": "kiro7.com",
-          "source_name": "KIRO 7 News Seattle",
-          "timestamp_utc": "2026-08-23T02:51:00+00:00",
-          "source_type": "news_rss",
-          "category": "contract_order",
-          "sec_form": null
-        }
-      ],
-      "judge_version": "B_V1",
-      "entity_accuracy": "pass",
-      "catalyst_reality_score": 24,
-      "investor_materiality_score": 23,
-      "novelty_score": 15,
-      "judge_evidence_quality_score": 6,
-      "content_potential_score": 19,
-      "judge_score": 87,
-      "judge_reason": "A strike threat after contract rejection can directly affect Boeing production, deliveries and cash flow.",
-      "verification_note": "Fast-moving labor story; confirm the affected workforce and current negotiation status before publication.",
-      "youtube_metrics": {
-        "status": "ok",
-        "query": "Boeing union strike contract rejection",
-        "raw_sample_size": 4,
-        "relevant_sample_size": 4,
-        "estimated_total_results": 23,
-        "youtube_supply_gap_score": 95.0,
-        "median_views_per_day": 339,
-        "small_channel_sample_size": 3,
-        "small_channel_hit_rate": 0.0,
-        "sample_videos": [
-          {
-            "video_id": "JXjMobc1PoY",
-            "title": "SPEEA members reject Boeing offers",
-            "channel_id": "UCp1KrVaZDZ7BOI_QBuTWWmg",
-            "published_at": "2026-08-22T04:58:09+00:00",
-            "views": 1605,
-            "views_per_day": 928,
-            "channel_subscribers": 609000
-          },
-          {
-            "video_id": "9mGkXsYB7FE",
-            "title": "Boeing Engineers and Technicians Reject Contract Offer",
-            "channel_id": "UCBkp7FF7Gpy9eA26cgvHPAw",
-            "published_at": "2026-08-22T09:30:31+00:00",
-            "views": 604,
-            "views_per_day": 392,
-            "channel_subscribers": 220
-          },
-          {
-            "video_id": "HTpwG299gLk",
-            "title": "Boeing Plunges 7.5%—$13.8B Wiped Out as 17,000 Workers Threaten Strike #Aerospace #NYSEBA",
-            "channel_id": "UC9x864bd1Eg5YFA_fKIwcjA",
-            "published_at": "2026-08-22T04:19:23+00:00",
-            "views": 502,
-            "views_per_day": 286,
-            "channel_subscribers": 964
-          },
-          {
-            "video_id": "l7-zuBGasVo",
-            "title": "Strike AlertBoeing Strike Vote",
-            "channel_id": "UCmxKCvI8Ehq077Pb9A-RPjQ",
-            "published_at": "2026-08-22T08:11:45+00:00",
-            "views": 1,
-            "views_per_day": 1,
-            "channel_subscribers": 50
-          }
-        ]
-      },
-      "scanner_b_score": 72.0
-    },
-    {
-      "event_id": "cadcc24d641626a5",
-      "scanner": "B",
-      "entity": "AMAZON COM INC",
-      "ticker": "AMZN",
-      "entity_type": "company",
-      "event_title": "Twitch and Amazon face lawsuit over AI training using streamers’ content",
-      "event_timestamp_utc": "2026-08-23T19:48:26+00:00",
-      "categories": [
-        "regulatory_legal"
-      ],
-      "sec_forms": [],
-      "discovery_score": 41.0,
-      "news_burst_score": 0.0,
-      "source_diversity_score": 38.0,
-      "catalyst_quality_score": 80.0,
-      "freshness_score": 92.0,
-      "evidence_quality_score": 36,
-      "baseline": {
-        "source": "google_news_rss",
-        "current_3h": 0,
-        "baseline_3h_median": 0.0,
-        "short_ratio": 1.0,
-        "current_day": 0,
-        "baseline_day_median": 3.0,
-        "long_ratio": 0.25,
-        "news_burst_score": 0.0,
-        "feed_capped": true
-      },
-      "source_domains": [
-        "engadget.com",
-        "firstpost.com"
-      ],
-      "recent_evidence_count": 2,
-      "youtube_query": "Amazon Twitch AI training lawsuit",
-      "youtube_event_terms": [
-        "Twitch",
-        "AI training",
-        "lawsuit"
-      ],
-      "evidence": [
-        {
-          "title": "Twitch and Amazon face lawsuit over AI training using streamers’ content",
-          "domain": "firstpost.com",
-          "source_name": "Firstpost",
-          "timestamp_utc": "2026-08-23T19:48:26+00:00",
-          "source_type": "news_rss",
-          "category": "regulatory_legal",
-          "sec_form": null
-        }
-      ],
-      "judge_version": "B_V1",
-      "entity_accuracy": "pass",
-      "catalyst_reality_score": 23,
-      "investor_materiality_score": 17,
-      "novelty_score": 14,
-      "judge_evidence_quality_score": 7,
-      "content_potential_score": 18,
-      "judge_score": 79,
-      "judge_reason": "Fresh AI-training copyright/legal risk involving Amazon/Twitch has clear platform and AI-data policy relevance.",
-      "verification_note": "Legal development is real; ultimate financial materiality remains uncertain.",
-      "youtube_metrics": {
-        "status": "ok",
-        "query": "Amazon Twitch AI training lawsuit",
-        "raw_sample_size": 1,
-        "relevant_sample_size": 1,
-        "estimated_total_results": 4,
-        "youtube_supply_gap_score": 100.0,
-        "median_views_per_day": 4904,
-        "small_channel_sample_size": 1,
-        "small_channel_hit_rate": 100.0,
-        "sample_videos": [
-          {
-            "video_id": "BFA6tR1lvU8",
-            "title": "Twitch Is Being Sued Over AI Training",
-            "channel_id": "UCeg5k70ghndnN8yW0QE_9VQ",
-            "published_at": "2026-08-23T19:06:45+00:00",
-            "views": 689,
-            "views_per_day": 4904,
-            "channel_subscribers": 212
-          }
-        ]
-      },
-      "scanner_b_score": 71.8
-    },
-    {
-      "event_id": "aa1ea4e961b76e46",
-      "scanner": "B",
-      "entity": "AI Infrastructure",
-      "ticker": null,
-      "entity_type": "theme",
-      "event_title": "Samsung Leverages Advanced Logic Processes To Advance HBM As It Works On Its Next-Gen zHBM DRAM That 3D Stacks Memory On Compute",
-      "event_timestamp_utc": "2026-08-23T18:45:35+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "discovery_score": 33.2,
-      "news_burst_score": 0.0,
-      "source_diversity_score": 20.0,
-      "catalyst_quality_score": 68.0,
-      "freshness_score": 82.0,
-      "evidence_quality_score": 33,
-      "baseline": {
-        "source": "google_news_rss",
-        "current_3h": 0,
-        "baseline_3h_median": 0.0,
-        "short_ratio": 1.0,
-        "current_day": 2,
-        "baseline_day_median": 3.0,
-        "long_ratio": 0.75,
-        "news_burst_score": 0.0,
-        "feed_capped": true
-      },
-      "source_domains": [
-        "wccftech.com"
-      ],
-      "recent_evidence_count": 1,
-      "youtube_query": "Samsung zHBM Hot Chips",
-      "youtube_event_terms": [
-        "zHBM",
-        "Hot Chips"
-      ],
-      "evidence": [
-        {
-          "title": "Samsung Leverages Advanced Logic Processes To Advance HBM As It Works On Its Next-Gen zHBM DRAM That 3D Stacks Memory On Compute",
-          "domain": "wccftech.com",
-          "source_name": "Wccftech",
-          "timestamp_utc": "2026-08-23T18:45:35+00:00",
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "sec_form": null
-        }
-      ],
-      "judge_version": "B_V1",
-      "entity_accuracy": "pass",
-      "catalyst_reality_score": 21,
-      "investor_materiality_score": 21,
-      "novelty_score": 14,
-      "judge_evidence_quality_score": 4,
-      "content_potential_score": 18,
-      "judge_score": 78,
-      "judge_reason": "New zHBM/3D memory-on-compute architecture is strategically relevant to HBM competition and AI-memory design.",
-      "verification_note": "Single technical-media source in pool; treat as roadmap/technical disclosure, not near-term commercialization.",
-      "youtube_metrics": {
-        "status": "ok_no_videos",
-        "query": "Samsung zHBM Hot Chips",
-        "raw_sample_size": 0,
-        "relevant_sample_size": 0,
-        "estimated_total_results": 0,
-        "youtube_supply_gap_score": 100.0,
-        "median_views_per_day": 0,
-        "small_channel_hit_rate": 0.0,
-        "sample_videos": []
-      },
-      "scanner_b_score": 69.0
-    },
-    {
-      "event_id": "6ae8f771e8aadb22",
-      "scanner": "B",
-      "entity": "MICRON TECHNOLOGY INC",
-      "ticker": "MU",
-      "entity_type": "company",
-      "event_title": "Micron Evolving Memory Architectures for AI at Hot Chips 2026",
-      "event_timestamp_utc": "2026-08-23T17:55:32+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "discovery_score": 33.2,
-      "news_burst_score": 0.0,
-      "source_diversity_score": 20.0,
-      "catalyst_quality_score": 68.0,
-      "freshness_score": 82.0,
-      "evidence_quality_score": 33,
-      "baseline": {
-        "source": "google_news_rss",
-        "current_3h": 0,
-        "baseline_3h_median": 0.0,
-        "short_ratio": 1.0,
-        "current_day": 2,
-        "baseline_day_median": 2.0,
-        "long_ratio": 1.0,
-        "news_burst_score": 0.0,
-        "feed_capped": false
-      },
-      "source_domains": [
-        "servethehome.com"
-      ],
-      "recent_evidence_count": 1,
-      "youtube_query": "Micron AI memory Hot Chips",
-      "youtube_event_terms": [
-        "AI memory",
-        "Hot Chips"
-      ],
-      "evidence": [
-        {
-          "title": "Micron Evolving Memory Architectures for AI at Hot Chips 2026",
-          "domain": "servethehome.com",
-          "source_name": "ServeTheHome",
-          "timestamp_utc": "2026-08-23T17:55:32+00:00",
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "sec_form": null
-        }
-      ],
-      "judge_version": "B_V1",
-      "entity_accuracy": "pass",
-      "catalyst_reality_score": 20,
-      "investor_materiality_score": 20,
-      "novelty_score": 13,
-      "judge_evidence_quality_score": 5,
-      "content_potential_score": 18,
-      "judge_score": 76,
-      "judge_reason": "Fresh Micron technical roadmap around the AI memory wall is highly relevant to HBM/bandwidth investment themes.",
-      "verification_note": "Technical roadmap rather than near-term earnings guidance; single specialist source in candidate pool.",
-      "youtube_metrics": {
-        "status": "ok_no_videos",
-        "query": "Micron AI memory Hot Chips",
-        "raw_sample_size": 0,
-        "relevant_sample_size": 0,
-        "estimated_total_results": 14,
-        "youtube_supply_gap_score": 100.0,
-        "median_views_per_day": 0,
-        "small_channel_hit_rate": 0.0,
-        "sample_videos": []
-      },
-      "scanner_b_score": 68.0
+      "scanner_b_score": 70.7
     }
   ]
 }
