@@ -1,18 +1,20 @@
 # Scanner B — Catalyst Opportunities
 
-Generated: **2026-08-24T12:30:07.962135+00:00**
+Generated: **2026-08-25T09:57:58.633783+00:00**
 
-YouTube search calls used: **10 / 20**
+YouTube search calls used: **12 / 20**
 
 | # | Event | Ticker | Judge | Discovery | Burst | Sources | YT gap | B final |
 |---:|---|---|---:|---:|---:|---:|---:|---:|
-| 1 | Aurora Cannabis rejects Curaleaf takeover bid as opportunistic | ACB | 89 | 68.5 | 63.7 | 38.0 | 100.0 | 85.0 |
-| 2 | NVIDIA’s Vera Rubin & Blackwell GPU Server Prices Could Soar By As Much As 17% As Memory Prices Bite, Say Reports | NVDA | 92 | 48.6 | 28.5 | 38.0 | 100.0 | 80.6 |
-| 3 | Hollywood mega-merger on the brink as California demands Paramount sell off channels | PSKY | 89 | 53.0 | 26.2 | 38.0 | 100.0 | 80.4 |
-| 4 | Xiaomi launches new Xring chip, partners with TSMC for production, sources say | TSM | 92 | 42.5 | 18.0 | 20.0 | 100.0 | 78.8 |
-| 5 | Ross Stores raises forecast after surge in Q2 sales and store openings | ROST | 86 | 50.5 | 29.1 | 20.0 | 100.0 | 78.2 |
-| 6 | NHTSA Expands Investigation Into GM Braking System | GM | 91 | 39.5 | 0.0 | 20.0 | 100.0 | 77.3 |
-| 7 | Micron Researcher Warns: The Memory Wall Persists as HBM Fails to Keep Pace with Rising Computing Speeds | MU | 83 | 45.2 | 23.2 | 38.0 | 100.0 | 75.1 |
-| 8 | Bitcoin ETF Inflows Hit $1.9B in Strongest Week Since October 2025 | — | 83 | 44.2 | 0.0 | 55.0 | 100.0 | 74.8 |
-| 9 | YouTube Premium is getting another price hike worldwide | GOOGL | 83 | 36.4 | 4.1 | 20.0 | 100.0 | 72.4 |
-| 10 | Canada to hit US dairy with retaliatory tariffs after trade talks collapse | — | 98 | 52.2 | 15.2 | 55.0 | 30.0 | 70.7 |
+| 1 | Gold Fields flags Ghana licence risk as half-year profit surges | GFI | 89 | 67.4 | 77.3 | 20.0 | 100.0 | 84.7 |
+| 2 | PDD Holdings’ net profit falls 12% despite revenue growth in Q2 | PDD | 89 | 63.9 | 64.0 | 20.0 | 100.0 | 83.7 |
+| 3 | Xpeng shares sink as weak delivery forecast overshadows $6.3 billion robot unit valuation | XPEV | 90 | 56.9 | 51.8 | 20.0 | 100.0 | 82.1 |
+| 4 | Calif. halts settlement talks with Paramount over Warner Bros. merger | PSKY | 90 | 57.1 | 16.9 | 72.0 | 100.0 | 82.1 |
+| 5 | CoStar Group Completes Acquisition of Zonda, Expanding into New Home Data, Analytics and Online Marketplaces | CSGP | 83 | 67.4 | 64.0 | 38.0 | 100.0 | 81.7 |
+| 6 | Nvidia Manager Named ‘Key Figure’ in Illicit B300 GPU Exports to China, 8 Others Indicted in Taiwan Probe | NVDA | 91 | 56.7 | 34.3 | 55.0 | 95.0 | 81.5 |
+| 7 | 1.16 Million Vehicles Now Under Probe For GM Brake Failure | GM | 86 | 51.7 | 41.7 | 20.0 | 100.0 | 78.5 |
+| 8 | BlackRock Leads $338M Bitcoin ETF Inflow, ETH ETFs See Sixth Consecutive Day of Gains | — | 88 | 48.0 | 8.2 | 55.0 | 100.0 | 78.4 |
+| 9 | Navitas Semiconductor to Buy Claros in $232.8 Million Deal | NVTS | 83 | 51.6 | 48.2 | 20.0 | 100.0 | 77.0 |
+| 10 | Amazon hikes hardware prices by 60%, blaming memory shortage | AMZN | 87 | 42.0 | 32.8 | 20.0 | 100.0 | 76.1 |
+| 11 | Canada to announce retaliatory tariffs on the U.S. as ties deteriorate | — | 99 | 63.9 | 37.2 | 72.0 | 30.0 | 74.7 |
+| 12 | Alabama launches probe into OpenAI after Hugging Face breach | — | 86 | 34.7 | 0.0 | 20.0 | 100.0 | 73.4 |
