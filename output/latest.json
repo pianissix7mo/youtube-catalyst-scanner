@@ -1,73 +1,270 @@
 {
   "scanner": "B",
   "judge_version": "B_V1",
-  "source_candidates_generated_at_utc": "2026-08-25T09:50:02.276333+00:00",
-  "generated_at_utc": "2026-08-25T09:57:58.633783+00:00",
+  "source_candidates_generated_at_utc": "2026-08-26T09:55:32.696228+00:00",
+  "generated_at_utc": "2026-08-26T11:41:16.999982+00:00",
   "youtube_search_budget_per_run": 20,
-  "youtube_search_calls_used": 12,
+  "youtube_search_calls_used": 11,
   "events": [
     {
-      "event_id": "205e986c60c7a3bf",
+      "event_id": "f2b4c2378647712e",
       "scanner": "B",
-      "entity": "GOLD FIELDS LTD",
-      "ticker": "GFI",
+      "entity": "APPLE INC.",
+      "ticker": "AAPL",
       "entity_type": "company",
-      "event_title": "Gold Fields flags Ghana licence risk as half-year profit surges",
-      "event_timestamp_utc": "2026-08-25T08:12:05+00:00",
+      "event_title": "Apple unveils new M5 Ultra and M6 processors",
+      "event_timestamp_utc": "2026-08-26T08:15:41+00:00",
       "categories": [
-        "earnings_guidance"
+        "ai_semis"
       ],
       "sec_forms": [],
-      "discovery_score": 67.4,
-      "news_burst_score": 77.3,
-      "source_diversity_score": 20.0,
-      "catalyst_quality_score": 90.0,
+      "discovery_score": 44.0,
+      "news_burst_score": 4.1,
+      "source_diversity_score": 55.0,
+      "catalyst_quality_score": 68.0,
       "freshness_score": 92.0,
-      "evidence_quality_score": 45,
+      "evidence_quality_score": 42,
       "baseline": {
         "source": "google_news_rss",
-        "current_3h": 9,
+        "current_3h": 0,
         "baseline_3h_median": 0.0,
-        "short_ratio": 10.0,
-        "current_day": 16,
-        "baseline_day_median": 2.0,
-        "long_ratio": 5.667,
-        "news_burst_score": 77.3,
-        "feed_capped": false
+        "short_ratio": 1.0,
+        "current_day": 5,
+        "baseline_day_median": 3.0,
+        "long_ratio": 1.5,
+        "news_burst_score": 4.1,
+        "feed_capped": true
       },
       "source_domains": [
-        "reuters.com"
+        "apple.com",
+        "cgchannel.com",
+        "engadget.com",
+        "fstoppers.com"
       ],
-      "recent_evidence_count": 1,
-      "youtube_query": "GFI Gold Fields Ghana licence H1 profit",
-      "youtube_event_terms": [
-        "Ghana",
-        "licence"
-      ],
+      "recent_evidence_count": 4,
       "evidence": [
         {
-          "title": "Gold Fields flags Ghana licence risk as half-year profit surges",
-          "domain": "reuters.com",
-          "source_name": "Reuters",
-          "timestamp_utc": "2026-08-25T08:12:05+00:00",
+          "title": "Apple unveils new M5 Ultra and M6 processors",
+          "domain": "cgchannel.com",
+          "source_name": "CG Channel",
+          "timestamp_utc": "2026-08-26T08:15:41+00:00",
           "source_type": "news_rss",
-          "category": "earnings_guidance",
+          "category": "ai_semis",
+          "sec_form": null
+        },
+        {
+          "title": "Apple introduces M6 and M5 Ultra for a big leap in performance and AI compute",
+          "domain": "apple.com",
+          "source_name": "Apple",
+          "timestamp_utc": "2026-08-26T03:51:16+00:00",
+          "source_type": "news_rss",
+          "category": "ai_semis",
+          "sec_form": null
+        },
+        {
+          "title": "Apple M6 and M5 Ultra: 2026 Performance Gains Explained",
+          "domain": "fstoppers.com",
+          "source_name": "Fstoppers",
+          "timestamp_utc": "2026-08-25T18:21:33+00:00",
+          "source_type": "news_rss",
+          "category": "ai_semis",
+          "sec_form": null
+        },
+        {
+          "title": "Apple's M5 Ultra With An 80-Core GPU Will Power Through Your AI Models And 8K Video",
+          "domain": "engadget.com",
+          "source_name": "Engadget",
+          "timestamp_utc": "2026-08-25T13:00:00+00:00",
+          "source_type": "news_rss",
+          "category": "ai_semis",
           "sec_form": null
         }
       ],
+      "youtube_query": "AAPL M6 M5 Ultra AI compute",
+      "youtube_event_terms": [
+        "M6",
+        "M5 Ultra",
+        "AI"
+      ],
       "judge_version": "B_V1",
       "entity_accuracy": "pass",
-      "catalyst_reality_score": 24,
+      "catalyst_reality_score": 25,
+      "investor_materiality_score": 23,
+      "novelty_score": 15,
+      "judge_evidence_quality_score": 14,
+      "content_potential_score": 18,
+      "judge_score": 95,
+      "judge_reason": "Official launch of new Apple silicon is a clear product and AI-compute catalyst with implications for Apple differentiation and the semiconductor supply chain.",
+      "verification_note": "Use Apple's official specifications for architecture, performance and availability claims.",
+      "youtube_metrics": {
+        "status": "ok",
+        "query": "AAPL M6 M5 Ultra AI compute",
+        "raw_sample_size": 10,
+        "relevant_sample_size": 9,
+        "estimated_total_results": 22,
+        "youtube_supply_gap_score": 85.0,
+        "median_views_per_day": 181,
+        "small_channel_sample_size": 9,
+        "small_channel_hit_rate": 11.1,
+        "sample_videos": [
+          {
+            "video_id": "zv9NHamJs8I",
+            "title": "Apple M6投入、512GB卓上AI時代へ",
+            "channel_id": "UCAv6O6XYVjlkY7XCGLRi9Cg",
+            "published_at": "2026-08-25T23:55:00+00:00",
+            "views": 965,
+            "views_per_day": 1968,
+            "channel_subscribers": 751
+          },
+          {
+            "video_id": "vwO21t2BUE8",
+            "title": "🔥 Apple M6 запускает большой AI локально: 2 нм, 170 ГБ/с и новый Mac mini #ai #ainews #shorts",
+            "channel_id": "UCPiwpQF-0s_xcwzyavGl50A",
+            "published_at": "2026-08-25T16:40:57+00:00",
+            "views": 635,
+            "views_per_day": 802,
+            "channel_subscribers": 242
+          },
+          {
+            "video_id": "N4C5Lx16HVk",
+            "title": "Apple’s M6 & M5 Ultra is INSANE — Can Run HUGE AI Models Locally!",
+            "channel_id": "UCflFbG9kh5ZRcVl1TvzDCPw",
+            "published_at": "2026-08-25T16:40:23+00:00",
+            "views": 562,
+            "views_per_day": 709,
+            "channel_subscribers": 14400
+          },
+          {
+            "video_id": "e6NABm7Dqr4",
+            "title": "ไทยสร้าง AI เอง? ทุ่มงบมหาศาล!od 284c678680404e0f9d9d6dfd154c4f47 clip",
+            "channel_id": "UCIlZL6idWscWvHqA2TIiZ0A",
+            "published_at": "2026-08-26T05:02:47+00:00",
+            "views": 95,
+            "views_per_day": 343,
+            "channel_subscribers": 339
+          },
+          {
+            "video_id": "MbUgp1Cqi-8",
+            "title": "APPLE INTRODUCES M6 AND M5 ULTRA WITH 2‑NM PROCESS IN NEW MAC MINI AND MAC STUDIO",
+            "channel_id": "UCKJz2RpQlqeLmTqCmh5CXpg",
+            "published_at": "2026-08-25T13:48:49+00:00",
+            "views": 165,
+            "views_per_day": 181,
+            "channel_subscribers": 3
+          },
+          {
+            "video_id": "Ih-VGrj8mEY",
+            "title": "Mac mini首搭M6",
+            "channel_id": "UCkdKeIrssN7MHF-UAhmd4uQ",
+            "published_at": "2026-08-26T02:01:41+00:00",
+            "views": 51,
+            "views_per_day": 127,
+            "channel_subscribers": 2280
+          },
+          {
+            "video_id": "DF-E1qXICp0",
+            "title": "Apple's M5 Ultra & M6: AI Powerhouse #Shorts",
+            "channel_id": "UC7HyuKexEz_TF7sMoY6sr2w",
+            "published_at": "2026-08-25T15:02:52+00:00",
+            "views": 26,
+            "views_per_day": 30,
+            "channel_subscribers": 7
+          },
+          {
+            "video_id": "e31S0Kp3_g8",
+            "title": "Apple Introduces M6 And M5 Ultra Chips",
+            "channel_id": "UCsKI3pJLrQCIAuV3gERXHkg",
+            "published_at": "2026-08-25T15:37:02+00:00",
+            "views": 5,
+            "views_per_day": 6,
+            "channel_subscribers": 13
+          },
+          {
+            "video_id": "h1OGZCFmVQA",
+            "title": "Apple's M6 Ultra Just Slaughtered Cloud AI Monopolies",
+            "channel_id": "UCxD1V_xpA_s3RTryAHoihMA",
+            "published_at": "2026-08-25T14:05:16+00:00",
+            "views": 1,
+            "views_per_day": 1,
+            "channel_subscribers": 45
+          }
+        ]
+      },
+      "scanner_b_score": 77.7
+    },
+    {
+      "event_id": "60352814bc8b3224",
+      "scanner": "B",
+      "entity": "Huntsman CORP",
+      "ticker": "HUN",
+      "entity_type": "company",
+      "event_title": "Olin, Huntsman shareholders approve merger as HQ move from St. Louis advances",
+      "event_timestamp_utc": "2026-08-25T19:46:00+00:00",
+      "categories": [
+        "mna"
+      ],
+      "sec_forms": [],
+      "discovery_score": 42.4,
+      "news_burst_score": 13.1,
+      "source_diversity_score": 38.0,
+      "catalyst_quality_score": 94.0,
+      "freshness_score": 52.0,
+      "evidence_quality_score": 36,
+      "baseline": {
+        "source": "google_news_rss",
+        "current_3h": 0,
+        "baseline_3h_median": 1.0,
+        "short_ratio": 0.5,
+        "current_day": 10,
+        "baseline_day_median": 2.0,
+        "long_ratio": 3.667,
+        "news_burst_score": 13.1,
+        "feed_capped": true
+      },
+      "source_domains": [
+        "bizjournals.com",
+        "prnewswire.com"
+      ],
+      "recent_evidence_count": 2,
+      "evidence": [
+        {
+          "title": "Olin, Huntsman shareholders approve merger as HQ move from St. Louis advances",
+          "domain": "bizjournals.com",
+          "source_name": "The Business Journals",
+          "timestamp_utc": "2026-08-25T19:46:00+00:00",
+          "source_type": "news_rss",
+          "category": "mna",
+          "sec_form": null
+        },
+        {
+          "title": "OLIN and HUNTSMAN Shareholders Approve Transformative Merger of Equals",
+          "domain": "prnewswire.com",
+          "source_name": "PR Newswire",
+          "timestamp_utc": "2026-08-25T15:30:00+00:00",
+          "source_type": "news_rss",
+          "category": "mna",
+          "sec_form": null
+        }
+      ],
+      "youtube_query": "HUN OLN merger shareholder approval",
+      "youtube_event_terms": [
+        "Olin",
+        "Huntsman",
+        "merger"
+      ],
+      "judge_version": "B_V1",
+      "entity_accuracy": "pass",
+      "catalyst_reality_score": 25,
       "investor_materiality_score": 22,
       "novelty_score": 14,
-      "judge_evidence_quality_score": 12,
-      "content_potential_score": 17,
+      "judge_evidence_quality_score": 13,
+      "content_potential_score": 15,
       "judge_score": 89,
-      "judge_reason": "A sharp profit increase paired with a Ghana licence risk is a fresh earnings and regulatory catalyst with direct cash-flow and asset-value implications.",
-      "verification_note": "Verify which Ghana licence/assets are at risk and any renewal timeline or government conditions.",
+      "judge_reason": "Shareholder approval is a concrete de-risking milestone for a large merger of equals with direct valuation, synergy and industry-consolidation implications.",
+      "verification_note": "Confirm remaining regulatory approvals and expected closing timing.",
       "youtube_metrics": {
         "status": "ok_no_videos",
-        "query": "GFI Gold Fields Ghana licence H1 profit",
+        "query": "HUN OLN merger shareholder approval",
         "raw_sample_size": 0,
         "relevant_sample_size": 0,
         "estimated_total_results": 0,
@@ -76,162 +273,457 @@
         "small_channel_hit_rate": 0.0,
         "sample_videos": []
       },
-      "scanner_b_score": 84.7
+      "scanner_b_score": 77.2
     },
     {
-      "event_id": "2e1a4ab53c1710e3",
+      "event_id": "824442bc909f4ae3",
       "scanner": "B",
-      "entity": "Pinduoduo Inc.",
-      "ticker": "PDD",
+      "entity": "ZILLOW GROUP, INC.",
+      "ticker": "ZG",
       "entity_type": "company",
-      "event_title": "PDD Holdings’ net profit falls 12% despite revenue growth in Q2",
-      "event_timestamp_utc": "2026-08-25T09:24:44+00:00",
+      "event_title": "Zillow and Redfin settle FTC antitrust case over rental listings",
+      "event_timestamp_utc": "2026-08-25T21:55:30+00:00",
       "categories": [
-        "earnings_guidance"
+        "contract_order",
+        "regulatory_legal"
       ],
       "sec_forms": [],
-      "discovery_score": 63.9,
-      "news_burst_score": 64.0,
-      "source_diversity_score": 20.0,
-      "catalyst_quality_score": 90.0,
-      "freshness_score": 100.0,
-      "evidence_quality_score": 45,
+      "discovery_score": 46.6,
+      "news_burst_score": 25.1,
+      "source_diversity_score": 38.0,
+      "catalyst_quality_score": 82.0,
+      "freshness_score": 68.0,
+      "evidence_quality_score": 36,
       "baseline": {
         "source": "google_news_rss",
-        "current_3h": 3,
-        "baseline_3h_median": 0.0,
-        "short_ratio": 4.0,
-        "current_day": 45,
-        "baseline_day_median": 1.0,
-        "long_ratio": 23.0,
-        "news_burst_score": 64.0,
-        "feed_capped": true
+        "current_3h": 0,
+        "baseline_3h_median": 1.0,
+        "short_ratio": 0.5,
+        "current_day": 11,
+        "baseline_day_median": 0.0,
+        "long_ratio": 12.0,
+        "news_burst_score": 25.1,
+        "feed_capped": false
       },
       "source_domains": [
-        "finance.yahoo.com"
+        "lawcommentary.com",
+        "northeasttimes.com"
       ],
-      "recent_evidence_count": 1,
-      "youtube_query": "PDD Q2 revenue profit 12%",
-      "youtube_event_terms": [
-        "Q2",
-        "profit"
-      ],
+      "recent_evidence_count": 2,
       "evidence": [
         {
-          "title": "PDD Holdings’ net profit falls 12% despite revenue growth in Q2",
-          "domain": "finance.yahoo.com",
-          "source_name": "Yahoo Finance",
-          "timestamp_utc": "2026-08-25T09:24:44+00:00",
+          "title": "Zillow and Redfin settle FTC antitrust case over rental listings",
+          "domain": "northeasttimes.com",
+          "source_name": "Northeast Times",
+          "timestamp_utc": "2026-08-25T21:55:30+00:00",
           "source_type": "news_rss",
-          "category": "earnings_guidance",
+          "category": "regulatory_legal",
+          "sec_form": null
+        },
+        {
+          "title": "Zillow, Redfin Agree to FTC Antitrust Settlement Over $100 Million Rental Listings Deal",
+          "domain": "lawcommentary.com",
+          "source_name": "Law Commentary",
+          "timestamp_utc": "2026-08-25T17:24:27+00:00",
+          "source_type": "news_rss",
+          "category": "contract_order",
           "sec_form": null
         }
+      ],
+      "youtube_query": "ZG RDFN FTC antitrust settlement rentals",
+      "youtube_event_terms": [
+        "Zillow",
+        "Redfin",
+        "FTC"
       ],
       "judge_version": "B_V1",
       "entity_accuracy": "pass",
       "catalyst_reality_score": 24,
-      "investor_materiality_score": 23,
-      "novelty_score": 15,
-      "judge_evidence_quality_score": 9,
-      "content_potential_score": 18,
-      "judge_score": 89,
-      "judge_reason": "Fresh Q2 results show a clear divergence between revenue growth and falling profit, a directly investable margin/competition signal for PDD.",
-      "verification_note": "Confirm the full earnings release and management commentary before attributing the profit decline to a specific cause.",
+      "investor_materiality_score": 22,
+      "novelty_score": 14,
+      "judge_evidence_quality_score": 10,
+      "content_potential_score": 15,
+      "judge_score": 85,
+      "judge_reason": "A concrete FTC settlement changes legal overhang and competitive constraints in rental listings for Zillow and Redfin.",
+      "verification_note": "Verify final settlement terms and any behavioral restrictions against the FTC order before publication.",
       "youtube_metrics": {
-        "status": "ok",
-        "query": "PDD Q2 revenue profit 12%",
-        "raw_sample_size": 2,
-        "relevant_sample_size": 2,
-        "estimated_total_results": 2,
+        "status": "ok_no_videos",
+        "query": "ZG RDFN FTC antitrust settlement rentals",
+        "raw_sample_size": 0,
+        "relevant_sample_size": 0,
+        "estimated_total_results": 0,
         "youtube_supply_gap_score": 100.0,
-        "median_views_per_day": 9,
-        "small_channel_sample_size": 2,
+        "median_views_per_day": 0,
         "small_channel_hit_rate": 0.0,
-        "sample_videos": [
-          {
-            "video_id": "ViPwV2_HRO8",
-            "title": "PDD Stock: PDD Holdings Q2 2026 Earnings - Revenue +8%, Earnings -12% #Shorts",
-            "channel_id": "UC4ZDZpC0OvoN4cCGoUSofuA",
-            "published_at": "2026-08-24T23:29:01+00:00",
-            "views": 5,
-            "views_per_day": 11,
-            "channel_subscribers": 571
-          },
-          {
-            "video_id": "6SvF-NlD9o0",
-            "title": "PDD Holdings (PDD) Q2 2026: Revenue +8%, Earnings -12%, And A $61bn Portfolio",
-            "channel_id": "UC4ZDZpC0OvoN4cCGoUSofuA",
-            "published_at": "2026-08-24T23:28:57+00:00",
-            "views": 3,
-            "views_per_day": 7,
-            "channel_subscribers": 571
-          }
-        ]
+        "sample_videos": []
       },
-      "scanner_b_score": 83.7
+      "scanner_b_score": 76.5
     },
     {
-      "event_id": "d0964a6339303789",
+      "event_id": "257f6bd1e1a1be55",
       "scanner": "B",
-      "entity": "XPENG INC.",
-      "ticker": "XPEV",
+      "entity": "INTUIT INC",
+      "ticker": "INTU",
       "entity_type": "company",
-      "event_title": "Xpeng shares sink as weak delivery forecast overshadows $6.3 billion robot unit valuation",
-      "event_timestamp_utc": "2026-08-25T04:08:37+00:00",
+      "event_title": "Intuit's earnings miss is largely an accounting illusion, but the revenue slowdown is real",
+      "event_timestamp_utc": "2026-08-26T07:13:00+00:00",
       "categories": [
         "earnings_guidance"
       ],
       "sec_forms": [],
-      "discovery_score": 56.9,
+      "discovery_score": 58.4,
       "news_burst_score": 51.8,
       "source_diversity_score": 20.0,
       "catalyst_quality_score": 90.0,
-      "freshness_score": 82.0,
+      "freshness_score": 92.0,
       "evidence_quality_score": 45,
       "baseline": {
         "source": "google_news_rss",
         "current_3h": 4,
         "baseline_3h_median": 1.0,
         "short_ratio": 2.5,
-        "current_day": 66,
+        "current_day": 42,
         "baseline_day_median": 0.0,
-        "long_ratio": 67.0,
+        "long_ratio": 43.0,
         "news_burst_score": 51.8,
         "feed_capped": false
       },
       "source_domains": [
-        "cnbc.com"
+        "finance.yahoo.com"
       ],
       "recent_evidence_count": 1,
-      "youtube_query": "XPEV Q2 weak delivery forecast robot valuation",
-      "youtube_event_terms": [
-        "delivery forecast",
-        "robot"
-      ],
       "evidence": [
         {
-          "title": "Xpeng shares sink as weak delivery forecast overshadows $6.3 billion robot unit valuation",
-          "domain": "cnbc.com",
-          "source_name": "CNBC",
-          "timestamp_utc": "2026-08-25T04:08:37+00:00",
+          "title": "Intuit's earnings miss is largely an accounting illusion, but the revenue slowdown is real",
+          "domain": "finance.yahoo.com",
+          "source_name": "Yahoo Finance",
+          "timestamp_utc": "2026-08-26T07:13:00+00:00",
           "source_type": "news_rss",
           "category": "earnings_guidance",
           "sec_form": null
         }
       ],
+      "youtube_query": "INTU Q2 revenue slowdown earnings",
+      "youtube_event_terms": [
+        "earnings",
+        "revenue",
+        "slowdown"
+      ],
       "judge_version": "B_V1",
       "entity_accuracy": "pass",
-      "catalyst_reality_score": 24,
-      "investor_materiality_score": 23,
-      "novelty_score": 14,
-      "judge_evidence_quality_score": 10,
-      "content_potential_score": 19,
-      "judge_score": 90,
-      "judge_reason": "Fresh earnings/guidance information combines a weak near-term delivery outlook with a large robotics valuation angle, directly affecting Xpeng's earnings and growth narrative.",
-      "verification_note": "Confirm the delivery-guidance range and the basis for the robot-unit valuation before publication.",
+      "catalyst_reality_score": 22,
+      "investor_materiality_score": 21,
+      "novelty_score": 13,
+      "judge_evidence_quality_score": 9,
+      "content_potential_score": 13,
+      "judge_score": 78,
+      "judge_reason": "The earnings report contains a real operating signal: weaker revenue momentum despite an accounting-driven headline miss.",
+      "verification_note": "Verify reported versus adjusted EPS and the exact revenue/guidance figures from Intuit's earnings release before publication.",
       "youtube_metrics": {
         "status": "ok_no_videos",
-        "query": "XPEV Q2 weak delivery forecast robot valuation",
+        "query": "INTU Q2 revenue slowdown earnings",
+        "raw_sample_size": 0,
+        "relevant_sample_size": 0,
+        "estimated_total_results": 14,
+        "youtube_supply_gap_score": 100.0,
+        "median_views_per_day": 0,
+        "small_channel_hit_rate": 0.0,
+        "sample_videos": []
+      },
+      "scanner_b_score": 76.5
+    },
+    {
+      "event_id": "e39458a40f078ed6",
+      "scanner": "B",
+      "entity": "Tariffs / Trade",
+      "ticker": null,
+      "entity_type": "macro",
+      "event_title": "Canada Announces Matching Tariffs on U.S. Goods",
+      "event_timestamp_utc": "2026-08-26T09:35:11+00:00",
+      "categories": [
+        "macro_rates"
+      ],
+      "sec_forms": [],
+      "discovery_score": 69.0,
+      "news_burst_score": 24.7,
+      "source_diversity_score": 100.0,
+      "catalyst_quality_score": 85.0,
+      "freshness_score": 100.0,
+      "evidence_quality_score": 84,
+      "baseline": {
+        "source": "google_news_rss",
+        "current_3h": 1,
+        "baseline_3h_median": 1.0,
+        "short_ratio": 1.0,
+        "current_day": 22,
+        "baseline_day_median": 1.0,
+        "long_ratio": 11.5,
+        "news_burst_score": 24.7,
+        "feed_capped": true
+      },
+      "source_domains": [
+        "abcnews.com",
+        "cnbc.com",
+        "dw.com",
+        "ft.com",
+        "ingstadmedia.com",
+        "localnewslive.com"
+      ],
+      "recent_evidence_count": 16,
+      "evidence": [
+        {
+          "title": "Canada Announces Matching Tariffs on U.S. Goods",
+          "domain": "ingstadmedia.com",
+          "source_name": "Ingstad Media",
+          "timestamp_utc": "2026-08-26T09:35:11+00:00",
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "sec_form": null
+        },
+        {
+          "title": "Canada retaliates with tariffs of up to 50 percent on US goods",
+          "domain": "newstribune.com",
+          "source_name": "Jefferson City News Tribune",
+          "timestamp_utc": "2026-08-26T09:00:00+00:00",
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "sec_form": null
+        },
+        {
+          "title": "Canada imposes retaliatory tariffs on US goods",
+          "domain": "news8000.com",
+          "source_name": "news8000.com",
+          "timestamp_utc": "2026-08-26T04:40:00+00:00",
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "sec_form": null
+        },
+        {
+          "title": "Canada announces retaliatory tariffs on imports from the US",
+          "domain": "scrippsnews.com",
+          "source_name": "Scripps News",
+          "timestamp_utc": "2026-08-26T03:12:54+00:00",
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "sec_form": null
+        }
+      ],
+      "youtube_query": "Canada US retaliatory tariffs 50%",
+      "youtube_event_terms": [
+        "Canada",
+        "tariffs",
+        "50%"
+      ],
+      "judge_version": "B_V1",
+      "entity_accuracy": "pass",
+      "catalyst_reality_score": 25,
+      "investor_materiality_score": 25,
+      "novelty_score": 15,
+      "judge_evidence_quality_score": 15,
+      "content_potential_score": 19,
+      "judge_score": 99,
+      "judge_reason": "Fresh matching Canadian retaliation is a major macro catalyst with direct implications for inflation, trade-exposed equities, autos and cross-border supply chains.",
+      "verification_note": "Confirm the final covered product list, effective dates and whether the top rate is 50% before publication.",
+      "youtube_metrics": {
+        "status": "ok",
+        "query": "Canada US retaliatory tariffs 50%",
+        "raw_sample_size": 50,
+        "relevant_sample_size": 48,
+        "estimated_total_results": 28950,
+        "youtube_supply_gap_score": 30.0,
+        "median_views_per_day": 1833,
+        "small_channel_sample_size": 24,
+        "small_channel_hit_rate": 33.3,
+        "sample_videos": [
+          {
+            "video_id": "pKKgNrmDRPc",
+            "title": "Canada announces 50% retaliatory tariffs",
+            "channel_id": "UC4V84y8cUtthXhRzLKSly7A",
+            "published_at": "2026-08-25T23:11:36+00:00",
+            "views": 256569,
+            "views_per_day": 492861,
+            "channel_subscribers": 435000
+          },
+          {
+            "video_id": "Wd71UuBAiko",
+            "title": "加拿大舉國反美！卡尼掐化肥稀土「紅州」農民成最大祭品！川普50%關稅變自殺 福特、通用成本飆漲20萬先被打殘！【#環球大戰線】20260825-P1 葉思敏 介文汲 王尚智 張延廷",
+            "channel_id": "UCiOR3zQCU-tLza5g1MuqABA",
+            "published_at": "2026-08-26T04:00:28+00:00",
+            "views": 9006,
+            "views_per_day": 28146,
+            "channel_subscribers": 707000
+          },
+          {
+            "video_id": "QoHRTd3zGgM",
+            "title": "Canada strikes back at U.S. with retaliatory tariffs as high as 50% as trade war escalates",
+            "channel_id": "UCVxBA3Cbu3pm8w8gEIoMEog",
+            "published_at": "2026-08-26T00:02:08+00:00",
+            "views": 10915,
+            "views_per_day": 22483,
+            "channel_subscribers": 2950000
+          },
+          {
+            "video_id": "6XCoxbei-do",
+            "title": "The Palki Sharma Show LIVE: Canada Hits Back With 50% Tariffs on US Goods | China's New Missile",
+            "channel_id": "UC83iGbaOhZR8AWNYYNzSNjg",
+            "published_at": "2026-08-26T11:23:42+00:00",
+            "views": 2623,
+            "views_per_day": 20984,
+            "channel_subscribers": 526000
+          },
+          {
+            "video_id": "DVzFtiQ_N-4",
+            "title": "US Canada Tariff War LIVE News | Canada Imposes Up To 50% Tariffs On 700+ US Goods | Trump | N18G",
+            "channel_id": "UCef1-8eOpJgud7szVPlZQAQ",
+            "published_at": "2026-08-26T02:07:01+00:00",
+            "views": 6893,
+            "views_per_day": 17286,
+            "channel_subscribers": 10800000
+          },
+          {
+            "video_id": "9cBMvZp2AEc",
+            "title": "캐나다도 맞불 관세...\"미국산 7백개 제품에 최고 50% 부과\" / YTN 사이언스",
+            "channel_id": "UCUkuuoNkyVBFWojFW-SPmTw",
+            "published_at": "2026-08-26T04:48:15+00:00",
+            "views": 2700,
+            "views_per_day": 9415,
+            "channel_subscribers": 135000
+          },
+          {
+            "video_id": "EaBAygOo9JI",
+            "title": "Trump News: Canada Unveils Counter-Tariffs Of 15-50% On US Goods After Bizarre Trump Tariffs Action",
+            "channel_id": "UCIRAYFbJmrP--jyrC9MAIWQ",
+            "published_at": "2026-08-26T08:00:21+00:00",
+            "views": 1251,
+            "views_per_day": 8156,
+            "channel_subscribers": 1370000
+          },
+          {
+            "video_id": "NnKp_FbqSIE",
+            "title": "カナダ　アメリカに最大50％の報復関税　700品目超が対象　貿易戦争さらに激化(2026年8月26日)",
+            "channel_id": "UCGCZAYq5Xxojl_tSXcVJhiQ",
+            "published_at": "2026-08-26T01:10:48+00:00",
+            "views": 3411,
+            "views_per_day": 7791,
+            "channel_subscribers": 5050000
+          },
+          {
+            "video_id": "9paVmQUqQWA",
+            "title": "Canada retaliates against US by adding new tariffs on US imports",
+            "channel_id": "UCeu1N74PUB5qo5qbx3aSgdw",
+            "published_at": "2026-08-26T10:30:28+00:00",
+            "views": 922,
+            "views_per_day": 7376,
+            "channel_subscribers": 49200
+          },
+          {
+            "video_id": "x1heYbmm28k",
+            "title": "Canadá impone aranceles de hasta 50% a productos estadunidenses por 20 mil millones",
+            "channel_id": "UCFxHplbcoJK9m70c4VyTIxg",
+            "published_at": "2026-08-25T23:35:48+00:00",
+            "views": 3295,
+            "views_per_day": 6541,
+            "channel_subscribers": 8280000
+          }
+        ]
+      },
+      "scanner_b_score": 76.2
+    },
+    {
+      "event_id": "11428c129dbb0817",
+      "scanner": "B",
+      "entity": "Bitcoin / Crypto",
+      "ticker": null,
+      "entity_type": "crypto",
+      "event_title": "BlackRock cuts Bitcoin-to-ETF conversion minimu...",
+      "event_timestamp_utc": "2026-08-26T09:06:34+00:00",
+      "categories": [
+        "crypto"
+      ],
+      "sec_forms": [],
+      "discovery_score": 51.7,
+      "news_burst_score": 9.9,
+      "source_diversity_score": 72.0,
+      "catalyst_quality_score": 70.0,
+      "freshness_score": 100.0,
+      "evidence_quality_score": 48,
+      "baseline": {
+        "source": "google_news_rss",
+        "current_3h": 0,
+        "baseline_3h_median": 1.0,
+        "short_ratio": 0.5,
+        "current_day": 7,
+        "baseline_day_median": 2.0,
+        "long_ratio": 2.667,
+        "news_burst_score": 9.9,
+        "feed_capped": true
+      },
+      "source_domains": [
+        "coindesk.com",
+        "crypto.news",
+        "cryptorank.io",
+        "en.cryptonomist.ch",
+        "finance.biggo.com",
+        "pluang.com"
+      ],
+      "recent_evidence_count": 7,
+      "evidence": [
+        {
+          "title": "BlackRock cuts Bitcoin-to-ETF conversion minimu...",
+          "domain": "pluang.com",
+          "source_name": "Pluang",
+          "timestamp_utc": "2026-08-26T09:06:34+00:00",
+          "source_type": "news_rss",
+          "category": "crypto",
+          "sec_form": null
+        },
+        {
+          "title": "BlackRock Slashes Minimum for Bitcoin-to-ETF Swaps to $1 Million",
+          "domain": "finance.biggo.com",
+          "source_name": "finance.biggo.com",
+          "timestamp_utc": "2026-08-26T06:39:47+00:00",
+          "source_type": "news_rss",
+          "category": "crypto",
+          "sec_form": null
+        },
+        {
+          "title": "BlackRock cuts IBIT bitcoin swap minimum to $1M",
+          "domain": "crypto.news",
+          "source_name": "Crypto News",
+          "timestamp_utc": "2026-08-26T06:33:00+00:00",
+          "source_type": "news_rss",
+          "category": "crypto",
+          "sec_form": null
+        },
+        {
+          "title": "Bitcoin Custody Trends Shift as Whales Move $3B Into BlackRock’s ETF",
+          "domain": "en.cryptonomist.ch",
+          "source_name": "The Cryptonomist",
+          "timestamp_utc": "2026-08-26T06:21:45+00:00",
+          "source_type": "news_rss",
+          "category": "crypto",
+          "sec_form": null
+        }
+      ],
+      "youtube_query": "IBIT in-kind creation minimum $1M",
+      "youtube_event_terms": [
+        "IBIT",
+        "in-kind",
+        "$1M"
+      ],
+      "judge_version": "B_V1",
+      "entity_accuracy": "pass",
+      "catalyst_reality_score": 23,
+      "investor_materiality_score": 20,
+      "novelty_score": 14,
+      "judge_evidence_quality_score": 9,
+      "content_potential_score": 14,
+      "judge_score": 80,
+      "judge_reason": "A sharp reduction in the institutional in-kind conversion threshold is a concrete market-structure change that can broaden access and liquidity around IBIT.",
+      "verification_note": "Confirm the exact prior and new creation/redemption minimum and whether the change applies to all authorized participants.",
+      "youtube_metrics": {
+        "status": "ok_no_videos",
+        "query": "IBIT in-kind creation minimum $1M",
         "raw_sample_size": 0,
         "relevant_sample_size": 0,
         "estimated_total_results": 0,
@@ -240,102 +732,238 @@
         "small_channel_hit_rate": 0.0,
         "sample_videos": []
       },
-      "scanner_b_score": 82.1
+      "scanner_b_score": 75.5
     },
     {
-      "event_id": "7a404c12ee69c12b",
+      "event_id": "48b6d8cc5b6d3f19",
       "scanner": "B",
-      "entity": "Paramount Skydance Corporation",
-      "ticker": "PSKY",
+      "entity": "Navitas Semiconductor Corp",
+      "ticker": "NVTS",
       "entity_type": "company",
-      "event_title": "Calif. halts settlement talks with Paramount over Warner Bros. merger",
-      "event_timestamp_utc": "2026-08-25T04:28:50+00:00",
+      "event_title": "What Could Navitas Semiconductor (NVTS) Gain From Its Claros Deal?",
+      "event_timestamp_utc": "2026-08-26T08:15:54+00:00",
       "categories": [
-        "mna"
+        "ai_semis"
       ],
       "sec_forms": [],
-      "discovery_score": 57.1,
-      "news_burst_score": 16.9,
-      "source_diversity_score": 72.0,
-      "catalyst_quality_score": 94.0,
-      "freshness_score": 82.0,
-      "evidence_quality_score": 57,
+      "discovery_score": 54.9,
+      "news_burst_score": 43.1,
+      "source_diversity_score": 38.0,
+      "catalyst_quality_score": 68.0,
+      "freshness_score": 92.0,
+      "evidence_quality_score": 48,
       "baseline": {
         "source": "google_news_rss",
-        "current_3h": 0,
+        "current_3h": 3,
         "baseline_3h_median": 1.0,
-        "short_ratio": 0.5,
-        "current_day": 15,
+        "short_ratio": 2.0,
+        "current_day": 35,
         "baseline_day_median": 2.0,
-        "long_ratio": 5.333,
-        "news_burst_score": 16.9,
+        "long_ratio": 12.0,
+        "news_burst_score": 43.1,
         "feed_capped": false
       },
       "source_domains": [
-        "mynewsla.com",
-        "nbcnews.com",
-        "nytimes.com",
-        "reuters.com",
-        "sjvsun.com"
+        "finance.yahoo.com",
+        "quiverquant.com"
       ],
-      "recent_evidence_count": 5,
-      "youtube_query": "PSKY WBD California merger settlement talks",
-      "youtube_event_terms": [
-        "WBD",
-        "California",
-        "settlement"
-      ],
+      "recent_evidence_count": 2,
       "evidence": [
         {
-          "title": "Calif. halts settlement talks with Paramount over Warner Bros. merger",
-          "domain": "sjvsun.com",
-          "source_name": "The San Joaquin Valley Sun",
-          "timestamp_utc": "2026-08-25T04:28:50+00:00",
+          "title": "What Could Navitas Semiconductor (NVTS) Gain From Its Claros Deal?",
+          "domain": "finance.yahoo.com",
+          "source_name": "Yahoo Finance",
+          "timestamp_utc": "2026-08-26T08:15:54+00:00",
           "source_type": "news_rss",
-          "category": "mna",
+          "category": "ai_semis",
           "sec_form": null
         },
         {
-          "title": "Bonta Cancels Planned Settlement Talks with Paramount Over Merger Lawsuit",
-          "domain": "mynewsla.com",
-          "source_name": "MyNewsLA.com",
-          "timestamp_utc": "2026-08-24T22:30:38+00:00",
+          "title": "Navitas Semiconductor Rises as Claros Deal Boosts AI Power Story",
+          "domain": "quiverquant.com",
+          "source_name": "Quiver Quantitative",
+          "timestamp_utc": "2026-08-25T17:35:00+00:00",
           "source_type": "news_rss",
-          "category": "mna",
-          "sec_form": null
-        },
-        {
-          "title": "California cancels talks with Paramount over Warner Bros deal",
-          "domain": "reuters.com",
-          "source_name": "Reuters",
-          "timestamp_utc": "2026-08-24T21:59:40+00:00",
-          "source_type": "news_rss",
-          "category": "mna",
-          "sec_form": null
-        },
-        {
-          "title": "California attorney general cancels Paramount merger talks",
-          "domain": "nbcnews.com",
-          "source_name": "NBC News",
-          "timestamp_utc": "2026-08-24T20:39:37+00:00",
-          "source_type": "news_rss",
-          "category": "mna",
+          "category": "ai_semis",
           "sec_form": null
         }
       ],
+      "youtube_query": "NVTS Claros acquisition AI power",
+      "youtube_event_terms": [
+        "Claros",
+        "acquisition",
+        "AI"
+      ],
       "judge_version": "B_V1",
       "entity_accuracy": "pass",
-      "catalyst_reality_score": 24,
-      "investor_materiality_score": 22,
+      "catalyst_reality_score": 21,
+      "investor_materiality_score": 20,
+      "novelty_score": 12,
+      "judge_evidence_quality_score": 9,
+      "content_potential_score": 15,
+      "judge_score": 77,
+      "judge_reason": "The Claros deal is a concrete strategic catalyst for Navitas's AI power and high-voltage positioning, with clear semiconductor-content potential.",
+      "verification_note": "Verify transaction terms and whether the deal has closed; the lead article is analysis rather than the original announcement.",
+      "youtube_metrics": {
+        "status": "ok",
+        "query": "NVTS Claros acquisition AI power",
+        "raw_sample_size": 1,
+        "relevant_sample_size": 1,
+        "estimated_total_results": 1,
+        "youtube_supply_gap_score": 100.0,
+        "median_views_per_day": 96,
+        "small_channel_sample_size": 1,
+        "small_channel_hit_rate": 0.0,
+        "sample_videos": [
+          {
+            "video_id": "K-Jv5kaJpRU",
+            "title": "$NVTS: Navitas To Advance AI Infrastructure with Claros Acquisition",
+            "channel_id": "UCUy6q6JP0G4FskWtF3yj0-g",
+            "published_at": "2026-08-25T08:22:53+00:00",
+            "views": 109,
+            "views_per_day": 96,
+            "channel_subscribers": 7080
+          }
+        ]
+      },
+      "scanner_b_score": 75.0
+    },
+    {
+      "event_id": "8f14208d3f2567e6",
+      "scanner": "B",
+      "entity": "Alphabet Inc.",
+      "ticker": "GOOGL",
+      "entity_type": "company",
+      "event_title": "EXCLUSIVE: China's Moonshot in talks with Microsoft, Amazon, Google over K3 revenue sharing, sources say",
+      "event_timestamp_utc": "2026-08-26T08:14:45+00:00",
+      "categories": [
+        "earnings_guidance"
+      ],
+      "sec_forms": [],
+      "discovery_score": 42.8,
+      "news_burst_score": 7.0,
+      "source_diversity_score": 20.0,
+      "catalyst_quality_score": 90.0,
+      "freshness_score": 92.0,
+      "evidence_quality_score": 45,
+      "baseline": {
+        "source": "google_news_rss",
+        "current_3h": 0,
+        "baseline_3h_median": 0.0,
+        "short_ratio": 1.0,
+        "current_day": 5,
+        "baseline_day_median": 2.0,
+        "long_ratio": 2.0,
+        "news_burst_score": 7.0,
+        "feed_capped": true
+      },
+      "source_domains": [
+        "reuters.com"
+      ],
+      "recent_evidence_count": 1,
+      "evidence": [
+        {
+          "title": "EXCLUSIVE: China's Moonshot in talks with Microsoft, Amazon, Google over K3 revenue sharing, sources say",
+          "domain": "reuters.com",
+          "source_name": "Reuters",
+          "timestamp_utc": "2026-08-26T08:14:45+00:00",
+          "source_type": "news_rss",
+          "category": "earnings_guidance",
+          "sec_form": null
+        }
+      ],
+      "youtube_query": "GOOGL Moonshot K3 revenue sharing",
+      "youtube_event_terms": [
+        "Moonshot",
+        "K3",
+        "revenue"
+      ],
+      "judge_version": "B_V1",
+      "entity_accuracy": "pass",
+      "catalyst_reality_score": 22,
+      "investor_materiality_score": 21,
       "novelty_score": 14,
-      "judge_evidence_quality_score": 12,
-      "content_potential_score": 18,
-      "judge_score": 90,
-      "judge_reason": "California halting settlement talks is a concrete new development that can alter merger timing, remedies and deal feasibility for Paramount/WBD.",
-      "verification_note": "Verify the latest legal posture and requested remedies before publication.",
+      "judge_evidence_quality_score": 13,
+      "content_potential_score": 13,
+      "judge_score": 83,
+      "judge_reason": "Fresh Reuters reporting on Chinese-model revenue-sharing talks with major U.S. cloud platforms is a real AI distribution and monetization development.",
+      "verification_note": "The talks are not a signed deal; verify which platforms participate and whether terms become final.",
       "youtube_metrics": {
         "status": "ok_no_videos",
-        "query": "PSKY WBD California merger settlement talks",
+        "query": "GOOGL Moonshot K3 revenue sharing",
+        "raw_sample_size": 0,
+        "relevant_sample_size": 0,
+        "estimated_total_results": 3,
+        "youtube_supply_gap_score": 100.0,
+        "median_views_per_day": 0,
+        "small_channel_hit_rate": 0.0,
+        "sample_videos": []
+      },
+      "scanner_b_score": 74.3
+    },
+    {
+      "event_id": "fad6b9d159f4f6c3",
+      "scanner": "B",
+      "entity": "DeepSeek",
+      "ticker": null,
+      "entity_type": "private_company",
+      "event_title": "DeepSeek’s Revenue Reaches $70 Million as of July, Tenfold Jump from 2025",
+      "event_timestamp_utc": "2026-08-26T06:50:00+00:00",
+      "categories": [
+        "earnings_guidance"
+      ],
+      "sec_forms": [],
+      "discovery_score": 39.4,
+      "news_burst_score": 5.2,
+      "source_diversity_score": 20.0,
+      "catalyst_quality_score": 90.0,
+      "freshness_score": 82.0,
+      "evidence_quality_score": 33,
+      "baseline": {
+        "source": "google_news_rss",
+        "current_3h": 0,
+        "baseline_3h_median": 0.0,
+        "short_ratio": 1.0,
+        "current_day": 4,
+        "baseline_day_median": 2.0,
+        "long_ratio": 1.667,
+        "news_burst_score": 5.2,
+        "feed_capped": false
+      },
+      "source_domains": [
+        "theinformation.com"
+      ],
+      "recent_evidence_count": 1,
+      "evidence": [
+        {
+          "title": "DeepSeek’s Revenue Reaches $70 Million as of July, Tenfold Jump from 2025",
+          "domain": "theinformation.com",
+          "source_name": "The Information",
+          "timestamp_utc": "2026-08-26T06:50:00+00:00",
+          "source_type": "news_rss",
+          "category": "earnings_guidance",
+          "sec_form": null
+        }
+      ],
+      "youtube_query": "DeepSeek revenue $70 million July",
+      "youtube_event_terms": [
+        "DeepSeek",
+        "revenue",
+        "$70M"
+      ],
+      "judge_version": "B_V1",
+      "entity_accuracy": "pass",
+      "catalyst_reality_score": 23,
+      "investor_materiality_score": 20,
+      "novelty_score": 15,
+      "judge_evidence_quality_score": 10,
+      "content_potential_score": 14,
+      "judge_score": 82,
+      "judge_reason": "A reported tenfold revenue increase provides a concrete monetization signal for a major AI competitor and matters to the economics of the global model market.",
+      "verification_note": "Single-source reporting; verify whether the $70M figure is cumulative, annualized or monthly and how revenue is defined.",
+      "youtube_metrics": {
+        "status": "ok_no_videos",
+        "query": "DeepSeek revenue $70 million July",
         "raw_sample_size": 0,
         "relevant_sample_size": 0,
         "estimated_total_results": 2,
@@ -344,799 +972,275 @@
         "small_channel_hit_rate": 0.0,
         "sample_videos": []
       },
-      "scanner_b_score": 82.1
+      "scanner_b_score": 72.8
     },
     {
-      "event_id": "14c73f43d35d6eba",
+      "event_id": "14451ceccc1f7d93",
       "scanner": "B",
-      "entity": "COSTAR GROUP, INC.",
-      "ticker": "CSGP",
-      "entity_type": "company",
-      "event_title": "CoStar Group Completes Acquisition of Zonda, Expanding into New Home Data, Analytics and Online Marketplaces",
-      "event_timestamp_utc": "2026-08-25T09:27:18+00:00",
-      "categories": [
-        "mna"
-      ],
-      "sec_forms": [],
-      "discovery_score": 67.4,
-      "news_burst_score": 64.0,
-      "source_diversity_score": 38.0,
-      "catalyst_quality_score": 94.0,
-      "freshness_score": 100.0,
-      "evidence_quality_score": 36,
-      "baseline": {
-        "source": "google_news_rss",
-        "current_3h": 3,
-        "baseline_3h_median": 0.0,
-        "short_ratio": 4.0,
-        "current_day": 28,
-        "baseline_day_median": 0.0,
-        "long_ratio": 29.0,
-        "news_burst_score": 64.0,
-        "feed_capped": true
-      },
-      "source_domains": [
-        "proptechconnect.com",
-        "virginiabusiness.com"
-      ],
-      "recent_evidence_count": 2,
-      "youtube_query": "CSGP CoStar Zonda $800M acquisition",
-      "youtube_event_terms": [
-        "Zonda",
-        "acquisition"
-      ],
-      "evidence": [
-        {
-          "title": "CoStar Group Completes Acquisition of Zonda, Expanding into New Home Data, Analytics and Online Marketplaces",
-          "domain": "proptechconnect.com",
-          "source_name": "PropTech Connect",
-          "timestamp_utc": "2026-08-25T09:27:18+00:00",
-          "source_type": "news_rss",
-          "category": "mna",
-          "sec_form": null
-        },
-        {
-          "title": "CoStar completes $800M acquisition of Zonda",
-          "domain": "virginiabusiness.com",
-          "source_name": "Virginia Business",
-          "timestamp_utc": "2026-08-24T14:59:59+00:00",
-          "source_type": "news_rss",
-          "category": "mna",
-          "sec_form": null
-        }
-      ],
-      "judge_version": "B_V1",
-      "entity_accuracy": "pass",
-      "catalyst_reality_score": 25,
-      "investor_materiality_score": 19,
-      "novelty_score": 15,
-      "judge_evidence_quality_score": 9,
-      "content_potential_score": 15,
-      "judge_score": 83,
-      "judge_reason": "Completion of an approximately $800 million acquisition is a real, fresh strategic catalyst that expands CoStar's housing-data and marketplace footprint.",
-      "verification_note": "Confirm final purchase price and expected financial contribution from CoStar's acquisition announcement.",
-      "youtube_metrics": {
-        "status": "ok_no_videos",
-        "query": "CSGP CoStar Zonda $800M acquisition",
-        "raw_sample_size": 0,
-        "relevant_sample_size": 0,
-        "estimated_total_results": 0,
-        "youtube_supply_gap_score": 100.0,
-        "median_views_per_day": 0,
-        "small_channel_hit_rate": 0.0,
-        "sample_videos": []
-      },
-      "scanner_b_score": 81.7
-    },
-    {
-      "event_id": "860ecb262a4f513f",
-      "scanner": "B",
-      "entity": "NVIDIA CORP",
-      "ticker": "NVDA",
-      "entity_type": "company",
-      "event_title": "Nvidia Manager Named ‘Key Figure’ in Illicit B300 GPU Exports to China, 8 Others Indicted in Taiwan Probe",
-      "event_timestamp_utc": "2026-08-25T09:15:26+00:00",
+      "entity": "OpenAI",
+      "ticker": null,
+      "entity_type": "private_company",
+      "event_title": "OpenAI's Jalapeño Chip Outperforms NVIDIA GPUs",
+      "event_timestamp_utc": "2026-08-26T06:23:50+00:00",
       "categories": [
         "ai_semis"
       ],
       "sec_forms": [],
-      "discovery_score": 56.7,
-      "news_burst_score": 34.3,
+      "discovery_score": 42.5,
+      "news_burst_score": 4.1,
       "source_diversity_score": 55.0,
       "catalyst_quality_score": 68.0,
-      "freshness_score": 100.0,
-      "evidence_quality_score": 51,
-      "baseline": {
-        "source": "google_news_rss",
-        "current_3h": 1,
-        "baseline_3h_median": 0.0,
-        "short_ratio": 2.0,
-        "current_day": 14,
-        "baseline_day_median": 2.0,
-        "long_ratio": 5.0,
-        "news_burst_score": 34.3,
-        "feed_capped": true
-      },
-      "source_domains": [
-        "benzinga.com",
-        "bloomberg.com",
-        "me.pcmag.com"
-      ],
-      "recent_evidence_count": 3,
-      "youtube_query": "NVDA B300 China smuggling Taiwan indictment",
-      "youtube_event_terms": [
-        "B300",
-        "smuggling",
-        "Taiwan"
-      ],
-      "evidence": [
-        {
-          "title": "Nvidia Manager Named ‘Key Figure’ in Illicit B300 GPU Exports to China, 8 Others Indicted in Taiwan Probe",
-          "domain": "benzinga.com",
-          "source_name": "Benzinga",
-          "timestamp_utc": "2026-08-25T09:15:26+00:00",
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "sec_form": null
-        },
-        {
-          "title": "Taiwan Indicts 9, Including Nvidia Manager, Over GPU Smuggling Case",
-          "domain": "me.pcmag.com",
-          "source_name": "PCMag Middle East",
-          "timestamp_utc": "2026-08-25T04:35:06+00:00",
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "sec_form": null
-        },
-        {
-          "title": "Taiwan Indicts Nvidia Manager Following Chip Smuggling Probe",
-          "domain": "bloomberg.com",
-          "source_name": "Bloomberg.com",
-          "timestamp_utc": "2026-08-25T02:13:00+00:00",
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "sec_form": null
-        }
-      ],
-      "judge_version": "B_V1",
-      "entity_accuracy": "pass",
-      "catalyst_reality_score": 24,
-      "investor_materiality_score": 22,
-      "novelty_score": 15,
-      "judge_evidence_quality_score": 10,
-      "content_potential_score": 20,
-      "judge_score": 91,
-      "judge_reason": "A fresh indictment tied to alleged illicit B300 exports creates direct export-control, compliance and China-access risk for Nvidia's AI-chip business.",
-      "verification_note": "Distinguish allegations and indictments from proven company wrongdoing; verify the employee role and chip/export details.",
-      "youtube_metrics": {
-        "status": "ok",
-        "query": "NVDA B300 China smuggling Taiwan indictment",
-        "raw_sample_size": 4,
-        "relevant_sample_size": 3,
-        "estimated_total_results": 9,
-        "youtube_supply_gap_score": 95.0,
-        "median_views_per_day": 0,
-        "small_channel_sample_size": 3,
-        "small_channel_hit_rate": 33.3,
-        "sample_videos": [
-          {
-            "video_id": "5CW1B2K7jGk",
-            "title": "輝達、美超微台灣員工當內鬼：74 台 B300 伺服器繞道走私中國，賺 6 億 #Shorts",
-            "channel_id": "UC1q6LKlcco02dF0BxE0G1zg",
-            "published_at": "2026-08-25T08:16:07+00:00",
-            "views": 193,
-            "views_per_day": 1544,
-            "channel_subscribers": 2000
-          },
-          {
-            "video_id": "8bk9wXgv3lE",
-            "title": "9 Indicted for Smuggling Nvidia B300 AI Servers #Shorts",
-            "channel_id": "UCIytgDtc7nSvdEeY9TGN8Jg",
-            "published_at": "2026-08-25T09:30:33+00:00",
-            "views": 0,
-            "views_per_day": 0,
-            "channel_subscribers": 1
-          },
-          {
-            "video_id": "HItO6oEq8ek",
-            "title": "Nine Indicted for Smuggling Nvidia B300 AI Servers to China | Silicon Desk",
-            "channel_id": "UCIytgDtc7nSvdEeY9TGN8Jg",
-            "published_at": "2026-08-25T05:00:38+00:00",
-            "views": 0,
-            "views_per_day": 0,
-            "channel_subscribers": 1
-          }
-        ]
-      },
-      "scanner_b_score": 81.5
-    },
-    {
-      "event_id": "a79446d0f603e996",
-      "scanner": "B",
-      "entity": "General Motors Co",
-      "ticker": "GM",
-      "entity_type": "company",
-      "event_title": "1.16 Million Vehicles Now Under Probe For GM Brake Failure",
-      "event_timestamp_utc": "2026-08-25T06:53:00+00:00",
-      "categories": [
-        "regulatory_legal"
-      ],
-      "sec_forms": [],
-      "discovery_score": 51.7,
-      "news_burst_score": 41.7,
-      "source_diversity_score": 20.0,
-      "catalyst_quality_score": 80.0,
-      "freshness_score": 92.0,
-      "evidence_quality_score": 33,
-      "baseline": {
-        "source": "google_news_rss",
-        "current_3h": 1,
-        "baseline_3h_median": 0.0,
-        "short_ratio": 2.0,
-        "current_day": 20,
-        "baseline_day_median": 1.0,
-        "long_ratio": 10.5,
-        "news_burst_score": 41.7,
-        "feed_capped": true
-      },
-      "source_domains": [
-        "motor1.com"
-      ],
-      "recent_evidence_count": 1,
-      "youtube_query": "GM 1.16 million brake investigation",
-      "youtube_event_terms": [
-        "brake",
-        "investigation"
-      ],
-      "evidence": [
-        {
-          "title": "1.16 Million Vehicles Now Under Probe For GM Brake Failure",
-          "domain": "motor1.com",
-          "source_name": "Motor1.com",
-          "timestamp_utc": "2026-08-25T06:53:00+00:00",
-          "source_type": "news_rss",
-          "category": "regulatory_legal",
-          "sec_form": null
-        }
-      ],
-      "judge_version": "B_V1",
-      "entity_accuracy": "pass",
-      "catalyst_reality_score": 24,
-      "investor_materiality_score": 22,
-      "novelty_score": 15,
-      "judge_evidence_quality_score": 7,
-      "content_potential_score": 18,
-      "judge_score": 86,
-      "judge_reason": "A probe covering roughly 1.16 million vehicles is a material regulatory catalyst with potential recall, warranty and reputation implications for GM.",
-      "verification_note": "Verify the affected vehicle population and investigation status against NHTSA before publication.",
-      "youtube_metrics": {
-        "status": "ok_no_videos",
-        "query": "GM 1.16 million brake investigation",
-        "raw_sample_size": 0,
-        "relevant_sample_size": 0,
-        "estimated_total_results": 0,
-        "youtube_supply_gap_score": 100.0,
-        "median_views_per_day": 0,
-        "small_channel_hit_rate": 0.0,
-        "sample_videos": []
-      },
-      "scanner_b_score": 78.5
-    },
-    {
-      "event_id": "abf1add05ed6c4d2",
-      "scanner": "B",
-      "entity": "Bitcoin / Crypto",
-      "ticker": null,
-      "entity_type": "crypto",
-      "event_title": "BlackRock Leads $338M Bitcoin ETF Inflow, ETH ETFs See Sixth Consecutive Day of Gains",
-      "event_timestamp_utc": "2026-08-25T07:43:45+00:00",
-      "categories": [
-        "crypto"
-      ],
-      "sec_forms": [],
-      "discovery_score": 48.0,
-      "news_burst_score": 8.2,
-      "source_diversity_score": 55.0,
-      "catalyst_quality_score": 70.0,
-      "freshness_score": 92.0,
-      "evidence_quality_score": 63,
+      "freshness_score": 82.0,
+      "evidence_quality_score": 42,
       "baseline": {
         "source": "google_news_rss",
         "current_3h": 0,
         "baseline_3h_median": 0.0,
         "short_ratio": 1.0,
-        "current_day": 8,
+        "current_day": 5,
         "baseline_day_median": 3.0,
-        "long_ratio": 2.25,
-        "news_burst_score": 8.2,
+        "long_ratio": 1.5,
+        "news_burst_score": 4.1,
         "feed_capped": true
       },
       "source_domains": [
-        "bloomberg.com",
-        "finance.yahoo.com",
-        "kucoin.com"
+        "aa.com.tr",
+        "chosun.com",
+        "datacenterdynamics.com",
+        "theinformation.com"
       ],
-      "recent_evidence_count": 3,
-      "youtube_query": "Bitcoin ETF inflows BlackRock $338M",
-      "youtube_event_terms": [
-        "ETF inflows",
-        "BlackRock"
-      ],
+      "recent_evidence_count": 4,
       "evidence": [
         {
-          "title": "BlackRock Leads $338M Bitcoin ETF Inflow, ETH ETFs See Sixth Consecutive Day of Gains",
-          "domain": "kucoin.com",
-          "source_name": "KuCoin",
-          "timestamp_utc": "2026-08-25T07:43:45+00:00",
+          "title": "OpenAI's Jalapeño Chip Outperforms NVIDIA GPUs",
+          "domain": "chosun.com",
+          "source_name": "조선일보",
+          "timestamp_utc": "2026-08-26T06:23:50+00:00",
           "source_type": "news_rss",
-          "category": "crypto",
+          "category": "ai_semis",
           "sec_form": null
         },
         {
-          "title": "BlackRock Adds Over 60% of Bitcoin's $338 Million ETF Inflow While ETH Also Jumps",
-          "domain": "finance.yahoo.com",
-          "source_name": "Yahoo Finance",
-          "timestamp_utc": "2026-08-25T07:31:42+00:00",
+          "title": "OpenAI Says Its Jalapeño AI Chip Is Better Than Nvidia’s Blackwell",
+          "domain": "theinformation.com",
+          "source_name": "The Information",
+          "timestamp_utc": "2026-08-26T04:29:00+00:00",
           "source_type": "news_rss",
-          "category": "crypto",
+          "category": "ai_semis",
           "sec_form": null
         },
         {
-          "title": "Bitcoin ETFs See Biggest Weekly Inflow in 10 Months During Rally",
-          "domain": "bloomberg.com",
-          "source_name": "Bloomberg.com",
-          "timestamp_utc": "2026-08-24T20:42:09+00:00",
+          "title": "OpenAI says its 1st custom AI chip surpasses Nvidia systems in key tests",
+          "domain": "aa.com.tr",
+          "source_name": "Anadolu Ajansı",
+          "timestamp_utc": "2026-08-25T17:43:03+00:00",
           "source_type": "news_rss",
-          "category": "crypto",
+          "category": "ai_semis",
           "sec_form": null
-        }
-      ],
-      "judge_version": "B_V1",
-      "entity_accuracy": "pass",
-      "catalyst_reality_score": 23,
-      "investor_materiality_score": 21,
-      "novelty_score": 14,
-      "judge_evidence_quality_score": 11,
-      "content_potential_score": 19,
-      "judge_score": 88,
-      "judge_reason": "Large spot-ETF inflows are a fresh, quantifiable institutional-demand signal with direct implications for crypto assets and crypto-linked equities.",
-      "verification_note": "Verify daily and weekly flow totals against the underlying ETF-flow dataset before publication.",
-      "youtube_metrics": {
-        "status": "ok_no_videos",
-        "query": "Bitcoin ETF inflows BlackRock $338M",
-        "raw_sample_size": 0,
-        "relevant_sample_size": 0,
-        "estimated_total_results": 0,
-        "youtube_supply_gap_score": 100.0,
-        "median_views_per_day": 0,
-        "small_channel_hit_rate": 0.0,
-        "sample_videos": []
-      },
-      "scanner_b_score": 78.4
-    },
-    {
-      "event_id": "d05fdd2f497c5be1",
-      "scanner": "B",
-      "entity": "Navitas Semiconductor Corp",
-      "ticker": "NVTS",
-      "entity_type": "company",
-      "event_title": "Navitas Semiconductor to Buy Claros in $232.8 Million Deal",
-      "event_timestamp_utc": "2026-08-25T07:54:13+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "discovery_score": 51.6,
-      "news_burst_score": 48.2,
-      "source_diversity_score": 20.0,
-      "catalyst_quality_score": 68.0,
-      "freshness_score": 92.0,
-      "evidence_quality_score": 33,
-      "baseline": {
-        "source": "google_news_rss",
-        "current_3h": 3,
-        "baseline_3h_median": 0.0,
-        "short_ratio": 4.0,
-        "current_day": 9,
-        "baseline_day_median": 2.0,
-        "long_ratio": 3.333,
-        "news_burst_score": 48.2,
-        "feed_capped": false
-      },
-      "source_domains": [
-        "marketscreener.com"
-      ],
-      "recent_evidence_count": 1,
-      "youtube_query": "NVTS Claros acquisition $232.8M",
-      "youtube_event_terms": [
-        "Claros",
-        "acquisition"
-      ],
-      "evidence": [
+        },
         {
-          "title": "Navitas Semiconductor to Buy Claros in $232.8 Million Deal",
-          "domain": "marketscreener.com",
-          "source_name": "marketscreener.com",
-          "timestamp_utc": "2026-08-25T07:54:13+00:00",
+          "title": "OpenAI details Jalapeño AI chip, with 700W TDP",
+          "domain": "datacenterdynamics.com",
+          "source_name": "Data Center Dynamics",
+          "timestamp_utc": "2026-08-25T14:24:52+00:00",
           "source_type": "news_rss",
           "category": "ai_semis",
           "sec_form": null
         }
       ],
-      "judge_version": "B_V1",
-      "entity_accuracy": "pass",
-      "catalyst_reality_score": 24,
-      "investor_materiality_score": 20,
-      "novelty_score": 15,
-      "judge_evidence_quality_score": 7,
-      "content_potential_score": 17,
-      "judge_score": 83,
-      "judge_reason": "A defined acquisition is a concrete corporate catalyst that can reshape Navitas's AI-power portfolio, scale and capital allocation.",
-      "verification_note": "Verify deal consideration, financing, closing conditions and Claros's revenue/technology contribution against company materials.",
-      "youtube_metrics": {
-        "status": "ok_no_videos",
-        "query": "NVTS Claros acquisition $232.8M",
-        "raw_sample_size": 0,
-        "relevant_sample_size": 0,
-        "estimated_total_results": 0,
-        "youtube_supply_gap_score": 100.0,
-        "median_views_per_day": 0,
-        "small_channel_hit_rate": 0.0,
-        "sample_videos": []
-      },
-      "scanner_b_score": 77.0
-    },
-    {
-      "event_id": "e0200760313b5a60",
-      "scanner": "B",
-      "entity": "AMAZON COM INC",
-      "ticker": "AMZN",
-      "entity_type": "company",
-      "event_title": "Amazon hikes hardware prices by 60%, blaming memory shortage",
-      "event_timestamp_utc": "2026-08-24T19:54:50+00:00",
-      "categories": [
-        "pricing_capacity"
-      ],
-      "sec_forms": [],
-      "discovery_score": 42.0,
-      "news_burst_score": 32.8,
-      "source_diversity_score": 20.0,
-      "catalyst_quality_score": 77.0,
-      "freshness_score": 52.0,
-      "evidence_quality_score": 33,
-      "baseline": {
-        "source": "google_news_rss",
-        "current_3h": 1,
-        "baseline_3h_median": 0.0,
-        "short_ratio": 2.0,
-        "current_day": 12,
-        "baseline_day_median": 2.0,
-        "long_ratio": 4.333,
-        "news_burst_score": 32.8,
-        "feed_capped": true
-      },
-      "source_domains": [
-        "techcrunch.com"
-      ],
-      "recent_evidence_count": 1,
-      "youtube_query": "Amazon hardware price hike memory shortage 60%",
+      "youtube_query": "OpenAI Jalapeno AI chip Nvidia Blackwell",
       "youtube_event_terms": [
-        "price hike",
-        "memory shortage"
-      ],
-      "evidence": [
-        {
-          "title": "Amazon hikes hardware prices by 60%, blaming memory shortage",
-          "domain": "techcrunch.com",
-          "source_name": "TechCrunch",
-          "timestamp_utc": "2026-08-24T19:54:50+00:00",
-          "source_type": "news_rss",
-          "category": "pricing_capacity",
-          "sec_form": null
-        }
-      ],
-      "judge_version": "B_V1",
-      "entity_accuracy": "pass",
-      "catalyst_reality_score": 23,
-      "investor_materiality_score": 22,
-      "novelty_score": 15,
-      "judge_evidence_quality_score": 8,
-      "content_potential_score": 19,
-      "judge_score": 87,
-      "judge_reason": "A large reported hardware price increase tied to memory scarcity is a concrete pricing and supply-chain catalyst for Amazon devices and memory suppliers.",
-      "verification_note": "Confirm which Amazon hardware products are affected, the baseline prices and whether the 60% figure is broad or product-specific.",
-      "youtube_metrics": {
-        "status": "ok",
-        "query": "Amazon hardware price hike memory shortage 60%",
-        "raw_sample_size": 5,
-        "relevant_sample_size": 1,
-        "estimated_total_results": 16,
-        "youtube_supply_gap_score": 100.0,
-        "median_views_per_day": 1377,
-        "small_channel_sample_size": 1,
-        "small_channel_hit_rate": 100.0,
-        "sample_videos": [
-          {
-            "video_id": "SUZm585rsZE",
-            "title": "Amazon Hikes Hardware Prices by 60 Percent Citing Severe Global Memory Shortages",
-            "channel_id": "UC5VOORGP4VqN73lfgk9VG5A",
-            "published_at": "2026-08-25T05:45:53+00:00",
-            "views": 241,
-            "views_per_day": 1377,
-            "channel_subscribers": 169
-          }
-        ]
-      },
-      "scanner_b_score": 76.1
-    },
-    {
-      "event_id": "29e4b62776ad467e",
-      "scanner": "B",
-      "entity": "Tariffs / Trade",
-      "ticker": null,
-      "entity_type": "macro",
-      "event_title": "Canada to announce retaliatory tariffs on the U.S. as ties deteriorate",
-      "event_timestamp_utc": "2026-08-25T08:44:00+00:00",
-      "categories": [
-        "macro_rates"
-      ],
-      "sec_forms": [],
-      "discovery_score": 63.9,
-      "news_burst_score": 37.2,
-      "source_diversity_score": 72.0,
-      "catalyst_quality_score": 85.0,
-      "freshness_score": 92.0,
-      "evidence_quality_score": 57,
-      "baseline": {
-        "source": "google_news_rss",
-        "current_3h": 2,
-        "baseline_3h_median": 1.0,
-        "short_ratio": 1.5,
-        "current_day": 27,
-        "baseline_day_median": 1.0,
-        "long_ratio": 14.0,
-        "news_burst_score": 37.2,
-        "feed_capped": true
-      },
-      "source_domains": [
-        "apnews.com",
-        "pbs.org",
-        "spectrumlocalnews.com",
-        "upr.org",
-        "wsj.com"
-      ],
-      "recent_evidence_count": 5,
-      "youtube_query": "Canada U.S. retaliatory tariffs",
-      "youtube_event_terms": [
-        "Canada",
-        "retaliatory tariffs"
-      ],
-      "evidence": [
-        {
-          "title": "Canada to announce retaliatory tariffs on the U.S. as ties deteriorate",
-          "domain": "upr.org",
-          "source_name": "Utah Public Radio",
-          "timestamp_utc": "2026-08-25T08:44:00+00:00",
-          "source_type": "news_rss",
-          "category": "macro_rates",
-          "sec_form": null
-        },
-        {
-          "title": "Canada set to announce retaliatory tariffs as Trump tells its leaders to ‘fall in line’",
-          "domain": "apnews.com",
-          "source_name": "AP News",
-          "timestamp_utc": "2026-08-25T02:13:00+00:00",
-          "source_type": "news_rss",
-          "category": "macro_rates",
-          "sec_form": null
-        },
-        {
-          "title": "Canada will announce retaliatory tariffs against U.S. on Tuesday, official tells AP",
-          "domain": "pbs.org",
-          "source_name": "PBS",
-          "timestamp_utc": "2026-08-24T22:50:25+00:00",
-          "source_type": "news_rss",
-          "category": "macro_rates",
-          "sec_form": null
-        },
-        {
-          "title": "Canada will announce retaliatory tariffs against the United States on Tuesday, official tells AP",
-          "domain": "spectrumlocalnews.com",
-          "source_name": "Spectrum News",
-          "timestamp_utc": "2026-08-24T22:42:00+00:00",
-          "source_type": "news_rss",
-          "category": "macro_rates",
-          "sec_form": null
-        }
+        "Jalapeno",
+        "Nvidia",
+        "chip"
       ],
       "judge_version": "B_V1",
       "entity_accuracy": "pass",
       "catalyst_reality_score": 25,
       "investor_materiality_score": 25,
       "novelty_score": 15,
-      "judge_evidence_quality_score": 14,
-      "content_potential_score": 20,
-      "judge_score": 99,
-      "judge_reason": "A fresh retaliatory-tariff escalation is a major macro catalyst with direct implications for inflation, autos, industrials and cross-border equities.",
-      "verification_note": "Verify the final product list, tariff rates and effective dates before publication.",
+      "judge_evidence_quality_score": 12,
+      "content_potential_score": 19,
+      "judge_score": 96,
+      "judge_reason": "A disclosed OpenAI custom accelerator with claimed Nvidia-beating efficiency is a major new competitive signal for AI chips, HBM demand and hyperscale inference economics.",
+      "verification_note": "Treat performance comparisons as company claims until benchmark methodology and workload details are independently validated.",
       "youtube_metrics": {
         "status": "ok",
-        "query": "Canada U.S. retaliatory tariffs",
-        "raw_sample_size": 50,
-        "relevant_sample_size": 45,
-        "estimated_total_results": 49948,
-        "youtube_supply_gap_score": 30.0,
-        "median_views_per_day": 1368,
-        "small_channel_sample_size": 29,
-        "small_channel_hit_rate": 37.9,
+        "query": "OpenAI Jalapeno AI chip Nvidia Blackwell",
+        "raw_sample_size": 29,
+        "relevant_sample_size": 22,
+        "estimated_total_results": 57,
+        "youtube_supply_gap_score": 50.0,
+        "median_views_per_day": 14,
+        "small_channel_sample_size": 20,
+        "small_channel_hit_rate": 0.0,
         "sample_videos": [
           {
-            "video_id": "ailtNA2yHeg",
-            "title": "Trump enacts 50% tariffs on some Canadian goods; Canada set to retaliate",
-            "channel_id": "UCupvZG-5ko_eiXAupbDfxWw",
-            "published_at": "2026-08-24T18:20:54+00:00",
-            "views": 230992,
-            "views_per_day": 354991,
-            "channel_subscribers": 19800000
+            "video_id": "3LYZf2Bl57I",
+            "title": "OpenAI联手博通造推理芯片，英伟达垄断地位危险了？#nvidia #openai #broadcom #tsmc #semiconductor #aichips #gpu #asics",
+            "channel_id": "UCwbwyiCXO7EcS30Zcqu_K5A",
+            "published_at": "2026-08-26T08:01:11+00:00",
+            "views": 450,
+            "views_per_day": 2945,
+            "channel_subscribers": 190000
           },
           {
-            "video_id": "5w8-WKKiBwI",
-            "title": "Canada to announce retaliatory tariffs against the U.S. | CTV National News for Aug. 24, 2026",
-            "channel_id": "UCi7Zk9baY1tvdlgxIML8MXg",
-            "published_at": "2026-08-25T03:22:15+00:00",
-            "views": 53408,
-            "views_per_day": 194380,
-            "channel_subscribers": 2380000
+            "video_id": "-w3kMEWEeuw",
+            "title": "HUGE: OpenAI's Jalapeño Chip Outperforms Nvidia Blackwell by Up to 4x on Inference",
+            "channel_id": "UCAlwrsgeJavG1vw9qSFOUmA",
+            "published_at": "2026-08-26T09:30:31+00:00",
+            "views": 217,
+            "views_per_day": 1736,
+            "channel_subscribers": 378000
           },
           {
-            "video_id": "GwdAbiK4DSM",
-            "title": "‘DOLLAR FOR DOLLAR’: Canada WARNS of retaliatory tariffs against US",
-            "channel_id": "UCCXoCcu9Rp7NPbTzIvogpZg",
-            "published_at": "2026-08-24T22:00:13+00:00",
-            "views": 15151,
-            "views_per_day": 30400,
-            "channel_subscribers": 3380000
+            "video_id": "POxrbRiOYQ0",
+            "title": "OpenAI's Jalapeno Inference Chip | ARD #148",
+            "channel_id": "UCXRTCY5yQkZwcVTRSCtmp9A",
+            "published_at": "2026-08-25T19:13:46+00:00",
+            "views": 123,
+            "views_per_day": 179,
+            "channel_subscribers": 423
           },
           {
-            "video_id": "k2aHBlQDR_s",
-            "title": "Don't expect 'HUGE IMPACT' from Canada's retaliatory tariffs: TRUMP team preparing response",
-            "channel_id": "UCvAnclelY8eSq8GyPE19KTw",
-            "published_at": "2026-08-24T14:44:34+00:00",
-            "views": 22268,
-            "views_per_day": 27803,
-            "channel_subscribers": 822000
+            "video_id": "WadqO3mK0Jg",
+            "title": "OpenAI Jalapeño vs Nvidia Blackwell: Who Wins? #Shorts",
+            "channel_id": "UCoZxJups9fdLHxZ4dpEEn1Q",
+            "published_at": "2026-08-26T07:04:24+00:00",
+            "views": 26,
+            "views_per_day": 135,
+            "channel_subscribers": 2
           },
           {
-            "video_id": "6fzjfUXlJJ0",
-            "title": "Danielle Smith against retaliatory tariffs",
-            "channel_id": "UCi7Zk9baY1tvdlgxIML8MXg",
-            "published_at": "2026-08-24T17:44:19+00:00",
-            "views": 15714,
-            "views_per_day": 23242,
-            "channel_subscribers": 2380000
+            "video_id": "rzMt8UnD8IM",
+            "title": "OpenAI Jalapeño vs Nvidia Blackwell: Custom AI Silicon #Shorts",
+            "channel_id": "UCMiZhjTX3oAGEp3j6EoohXA",
+            "published_at": "2026-08-26T08:34:22+00:00",
+            "views": 17,
+            "views_per_day": 131,
+            "channel_subscribers": 2
           },
           {
-            "video_id": "rSfb1KUmFUg",
-            "title": "US-Canada trade war deepens as Trump threatens additional tariffs • FRANCE 24 English",
-            "channel_id": "UCQfwfsi5VrQ8yKZ-UWmAEFg",
-            "published_at": "2026-08-24T14:30:03+00:00",
-            "views": 10507,
-            "views_per_day": 12955,
-            "channel_subscribers": 3660000
+            "video_id": "0RE9zocgVkA",
+            "title": "OpenAI Built Its Own AI Chip — Codenamed Jalapeño #shorts",
+            "channel_id": "UCuUoeLnuSWMP11hUraX4LAg",
+            "published_at": "2026-08-26T08:30:53+00:00",
+            "views": 10,
+            "views_per_day": 76,
+            "channel_subscribers": 101
           },
           {
-            "video_id": "Fhmbn7Zzz0Y",
-            "title": "BREAKING: Canada Targets Trump’s Red States With Retaliatory Tariffs — “We’re Going to Hit Hard”",
-            "channel_id": "UCbNJq-4KK7tv2ccoaDQzV_w",
-            "published_at": "2026-08-25T02:39:40+00:00",
-            "views": 3476,
-            "views_per_day": 11422,
-            "channel_subscribers": 5800
+            "video_id": "m0oHiDEIPCo",
+            "title": "OpenAI Jalepeno Chip Is Here! #ai",
+            "channel_id": "UChWM3Ic9R0oV4IzcxjCvRaQ",
+            "published_at": "2026-08-26T01:37:08+00:00",
+            "views": 17,
+            "views_per_day": 41,
+            "channel_subscribers": 106
           },
           {
-            "video_id": "2DCZGREEoRs",
-            "title": "\"Not the Way to Go\": Panel Rejects Retaliatory Tariffs as Canada-U.S. Trade War Escalates",
-            "channel_id": "UCgTRel6MSTPppnTPS3ez6zg",
-            "published_at": "2026-08-25T00:12:01+00:00",
-            "views": 4268,
-            "views_per_day": 10490,
-            "channel_subscribers": 18600
+            "video_id": "asuT9VI8tY4",
+            "title": "OpenAI Jalapeño vs Nvidia Blackwell: Who Wins?",
+            "channel_id": "UCoZxJups9fdLHxZ4dpEEn1Q",
+            "published_at": "2026-08-26T07:04:45+00:00",
+            "views": 5,
+            "views_per_day": 26,
+            "channel_subscribers": 2
           },
           {
-            "video_id": "nA2VmcIp7gM",
-            "title": "Canada to announce retaliatory tariffs on US | How this will impact the economy",
-            "channel_id": "UCOGa-48fFt4cW0UnW5WSdRg",
-            "published_at": "2026-08-25T01:24:34+00:00",
-            "views": 3649,
-            "views_per_day": 10236,
-            "channel_subscribers": 500000
+            "video_id": "JXk1dxmRgVg",
+            "title": "OpenAI Unveils In-House 'Jalapeño' Chip Benchmarks Outperforming Nvidia Blackwell",
+            "channel_id": "UC6CEkO9aQdeFNFMo5xYg_8g",
+            "published_at": "2026-08-25T17:37:26+00:00",
+            "views": 18,
+            "views_per_day": 24,
+            "channel_subscribers": 4
           },
           {
-            "video_id": "NDDRAIDpi_o",
-            "title": "Canada to announce retaliatory tariffs as Trump tells its leaders to 'fall in line'",
-            "channel_id": "UCNBmxc6FvKyxtCpUygcdINA",
-            "published_at": "2026-08-25T04:17:37+00:00",
-            "views": 1857,
-            "views_per_day": 7858,
-            "channel_subscribers": 566000
+            "video_id": "m4ByvTYAFsw",
+            "title": "OpenAI Jalapeño: The Chip Threatening Nvidia’s Monopoly",
+            "channel_id": "UCyh9cPdkzvCX1M5d3W0cgZA",
+            "published_at": "2026-08-25T22:02:32+00:00",
+            "views": 12,
+            "views_per_day": 21,
+            "channel_subscribers": 0
           }
         ]
       },
-      "scanner_b_score": 74.7
+      "scanner_b_score": 70.8
     },
     {
-      "event_id": "84097f2ad7e688cb",
+      "event_id": "be55889780b9b2c6",
       "scanner": "B",
       "entity": "OpenAI",
       "ticker": null,
       "entity_type": "private_company",
-      "event_title": "Alabama launches probe into OpenAI after Hugging Face breach",
-      "event_timestamp_utc": "2026-08-25T00:47:00+00:00",
+      "event_title": "GSAM eyes $6.6bn GPU-backed private financing for OpenAI",
+      "event_timestamp_utc": "2026-08-25T23:54:28+00:00",
       "categories": [
-        "regulatory_legal"
+        "ai_semis"
       ],
       "sec_forms": [],
-      "discovery_score": 34.7,
-      "news_burst_score": 0.0,
+      "discovery_score": 32.5,
+      "news_burst_score": 4.1,
       "source_diversity_score": 20.0,
-      "catalyst_quality_score": 80.0,
+      "catalyst_quality_score": 68.0,
       "freshness_score": 68.0,
-      "evidence_quality_score": 45,
+      "evidence_quality_score": 33,
       "baseline": {
         "source": "google_news_rss",
         "current_3h": 0,
         "baseline_3h_median": 0.0,
         "short_ratio": 1.0,
-        "current_day": 1,
+        "current_day": 5,
         "baseline_day_median": 3.0,
-        "long_ratio": 0.5,
-        "news_burst_score": 0.0,
+        "long_ratio": 1.5,
+        "news_burst_score": 4.1,
         "feed_capped": true
       },
       "source_domains": [
-        "reuters.com"
+        "9fin.com"
       ],
       "recent_evidence_count": 1,
-      "youtube_query": "OpenAI Alabama probe Hugging Face breach",
-      "youtube_event_terms": [
-        "Alabama",
-        "probe",
-        "Hugging Face"
-      ],
       "evidence": [
         {
-          "title": "Alabama launches probe into OpenAI after Hugging Face breach",
-          "domain": "reuters.com",
-          "source_name": "Reuters",
-          "timestamp_utc": "2026-08-25T00:47:00+00:00",
+          "title": "GSAM eyes $6.6bn GPU-backed private financing for OpenAI",
+          "domain": "9fin.com",
+          "source_name": "9fin",
+          "timestamp_utc": "2026-08-25T23:54:28+00:00",
           "source_type": "news_rss",
-          "category": "regulatory_legal",
+          "category": "ai_semis",
           "sec_form": null
         }
       ],
+      "youtube_query": "OpenAI GPU financing Goldman Sachs $6.6B",
+      "youtube_event_terms": [
+        "GPU",
+        "financing",
+        "$6.6B"
+      ],
       "judge_version": "B_V1",
       "entity_accuracy": "pass",
-      "catalyst_reality_score": 24,
-      "investor_materiality_score": 18,
-      "novelty_score": 15,
-      "judge_evidence_quality_score": 12,
-      "content_potential_score": 17,
-      "judge_score": 86,
-      "judge_reason": "A new state probe involving OpenAI is a real AI-regulatory catalyst with implications for data security, model ecosystems and major public-market AI partners.",
-      "verification_note": "Verify the scope of the Alabama probe and the precise connection between OpenAI and the Hugging Face breach.",
+      "catalyst_reality_score": 21,
+      "investor_materiality_score": 22,
+      "novelty_score": 14,
+      "judge_evidence_quality_score": 7,
+      "content_potential_score": 14,
+      "judge_score": 78,
+      "judge_reason": "A large GPU-backed financing proposal is a real capital-structure signal linking OpenAI expansion, accelerator collateral values and AI infrastructure funding.",
+      "verification_note": "Single specialist-source report; verify GSAM involvement, facility size, structure and status before publication.",
       "youtube_metrics": {
-        "status": "ok",
-        "query": "OpenAI Alabama probe Hugging Face breach",
-        "raw_sample_size": 1,
+        "status": "ok_no_videos",
+        "query": "OpenAI GPU financing Goldman Sachs $6.6B",
+        "raw_sample_size": 0,
         "relevant_sample_size": 0,
-        "estimated_total_results": 4,
+        "estimated_total_results": 0,
         "youtube_supply_gap_score": 100.0,
         "median_views_per_day": 0,
-        "small_channel_sample_size": 0,
         "small_channel_hit_rate": 0.0,
         "sample_videos": []
       },
-      "scanner_b_score": 73.4
+      "scanner_b_score": 68.8
     }
   ]
 }
