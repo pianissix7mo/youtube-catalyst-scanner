@@ -115,96 +115,6 @@
   ],
   "Tariffs / Trade": [
     {
-      "timestamp_utc": "2026-08-23T21:57:01.584152+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-23T21:57:01.584152+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-23T21:57:01.584152+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-23T21:57:01.584152+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-23T21:57:01.584152+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-23T21:57:01.584152+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-23T22:02:46.319596+00:00",
-      "recent_evidence_count": 20,
-      "source_domain_count": 20
-    },
-    {
-      "timestamp_utc": "2026-08-23T22:02:46.319596+00:00",
-      "recent_evidence_count": 5,
-      "source_domain_count": 5
-    },
-    {
-      "timestamp_utc": "2026-08-23T22:02:46.319596+00:00",
-      "recent_evidence_count": 4,
-      "source_domain_count": 4
-    },
-    {
-      "timestamp_utc": "2026-08-23T22:02:46.319596+00:00",
-      "recent_evidence_count": 3,
-      "source_domain_count": 3
-    },
-    {
-      "timestamp_utc": "2026-08-23T22:02:46.319596+00:00",
-      "recent_evidence_count": 2,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-23T22:02:46.319596+00:00",
-      "recent_evidence_count": 2,
-      "source_domain_count": 2
-    },
-    {
-      "timestamp_utc": "2026-08-23T22:02:46.319596+00:00",
-      "recent_evidence_count": 2,
-      "source_domain_count": 2
-    },
-    {
-      "timestamp_utc": "2026-08-23T22:02:46.319596+00:00",
-      "recent_evidence_count": 2,
-      "source_domain_count": 2
-    },
-    {
-      "timestamp_utc": "2026-08-23T22:02:46.319596+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-23T22:02:46.319596+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-23T22:02:46.319596+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-23T22:02:46.319596+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
       "timestamp_utc": "2026-08-23T22:02:46.319596+00:00",
       "recent_evidence_count": 1,
       "source_domain_count": 1
@@ -1013,6 +923,96 @@
       "timestamp_utc": "2026-08-26T12:07:37.315958+00:00",
       "recent_evidence_count": 1,
       "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 6,
+      "source_domain_count": 6
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 2,
+      "source_domain_count": 2
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 2,
+      "source_domain_count": 2
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 2,
+      "source_domain_count": 2
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
     }
   ],
   "Carney Technology Acquisition Corp. II": [
@@ -1698,110 +1698,100 @@
       "timestamp_utc": "2026-08-26T12:07:37.315958+00:00",
       "recent_evidence_count": 1,
       "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 3,
+      "source_domain_count": 2
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 3,
+      "source_domain_count": 3
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 2,
+      "source_domain_count": 2
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 2,
+      "source_domain_count": 2
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 2,
+      "source_domain_count": 2
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 2,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
     }
   ],
   "NVIDIA CORP": [
     {
-      "timestamp_utc": "2026-08-23T21:43:17.278932+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-23T21:43:17.278932+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-23T21:43:17.278932+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-23T21:43:17.278932+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-23T21:43:17.278932+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-23T21:43:17.278932+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-23T21:43:17.278932+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-23T21:43:17.278932+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-23T21:45:14.687177+00:00",
-      "recent_evidence_count": 4,
-      "source_domain_count": 3
-    },
-    {
-      "timestamp_utc": "2026-08-23T21:45:14.687177+00:00",
-      "recent_evidence_count": 2,
-      "source_domain_count": 2
-    },
-    {
-      "timestamp_utc": "2026-08-23T21:45:14.687177+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-23T21:45:14.687177+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-23T21:45:14.687177+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-23T21:45:14.687177+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-23T21:45:14.687177+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-23T21:45:14.687177+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-23T21:45:14.687177+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-23T21:45:14.687177+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-23T21:45:14.687177+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-23T21:45:14.687177+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
       "timestamp_utc": "2026-08-23T21:45:14.687177+00:00",
       "recent_evidence_count": 1,
       "source_domain_count": 1
@@ -2598,316 +2588,111 @@
     },
     {
       "timestamp_utc": "2026-08-26T12:07:37.315958+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 6,
+      "source_domain_count": 5
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 2,
+      "source_domain_count": 2
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 2,
+      "source_domain_count": 2
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 2,
+      "source_domain_count": 2
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 2,
+      "source_domain_count": 2
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
       "recent_evidence_count": 1,
       "source_domain_count": 1
     }
   ],
   "Bitcoin / Crypto": [
-    {
-      "timestamp_utc": "2026-08-24T11:55:17.044388+00:00",
-      "recent_evidence_count": 2,
-      "source_domain_count": 2
-    },
-    {
-      "timestamp_utc": "2026-08-24T11:55:17.044388+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-24T11:55:17.044388+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-24T11:55:17.044388+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-24T11:55:17.044388+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-24T11:55:17.044388+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-24T11:55:17.044388+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-24T11:55:17.044388+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-24T11:55:17.044388+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-24T11:55:17.044388+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-24T11:55:17.044388+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-24T11:55:17.044388+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-24T11:55:17.044388+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-24T11:55:17.044388+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-24T11:55:17.044388+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-24T11:55:17.044388+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-24T11:55:17.044388+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-24T11:55:17.044388+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-24T11:55:17.044388+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-24T11:55:17.044388+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-24T11:55:17.044388+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-24T11:55:17.044388+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-24T11:55:17.044388+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-24T11:55:17.044388+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-24T11:55:17.044388+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-24T11:55:17.044388+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-24T11:55:17.044388+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-24T11:55:17.044388+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-24T11:55:17.044388+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-24T11:55:17.044388+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-24T11:55:17.044388+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-24T11:55:17.044388+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-24T11:55:17.044388+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-24T11:55:17.044388+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-24T11:55:17.044388+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-24T11:55:17.044388+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-24T11:55:17.044388+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-24T11:55:17.044388+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-24T11:55:17.044388+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-24T11:55:17.044388+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-24T11:55:17.044388+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-24T11:55:17.044388+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-24T11:55:17.044388+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-24T11:55:17.044388+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-24T11:55:17.044388+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-25T09:50:02.286988+00:00",
-      "recent_evidence_count": 12,
-      "source_domain_count": 10
-    },
-    {
-      "timestamp_utc": "2026-08-25T09:50:02.286988+00:00",
-      "recent_evidence_count": 5,
-      "source_domain_count": 5
-    },
-    {
-      "timestamp_utc": "2026-08-25T09:50:02.286988+00:00",
-      "recent_evidence_count": 4,
-      "source_domain_count": 3
-    },
-    {
-      "timestamp_utc": "2026-08-25T09:50:02.286988+00:00",
-      "recent_evidence_count": 3,
-      "source_domain_count": 3
-    },
-    {
-      "timestamp_utc": "2026-08-25T09:50:02.286988+00:00",
-      "recent_evidence_count": 3,
-      "source_domain_count": 3
-    },
-    {
-      "timestamp_utc": "2026-08-25T09:50:02.286988+00:00",
-      "recent_evidence_count": 3,
-      "source_domain_count": 3
-    },
-    {
-      "timestamp_utc": "2026-08-25T09:50:02.286988+00:00",
-      "recent_evidence_count": 2,
-      "source_domain_count": 2
-    },
-    {
-      "timestamp_utc": "2026-08-25T09:50:02.286988+00:00",
-      "recent_evidence_count": 2,
-      "source_domain_count": 2
-    },
-    {
-      "timestamp_utc": "2026-08-25T09:50:02.286988+00:00",
-      "recent_evidence_count": 2,
-      "source_domain_count": 2
-    },
-    {
-      "timestamp_utc": "2026-08-25T09:50:02.286988+00:00",
-      "recent_evidence_count": 2,
-      "source_domain_count": 2
-    },
-    {
-      "timestamp_utc": "2026-08-25T09:50:02.286988+00:00",
-      "recent_evidence_count": 2,
-      "source_domain_count": 2
-    },
-    {
-      "timestamp_utc": "2026-08-25T09:50:02.286988+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-25T09:50:02.286988+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-25T09:50:02.286988+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-25T09:50:02.286988+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-25T09:50:02.286988+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
     {
       "timestamp_utc": "2026-08-25T09:50:02.286988+00:00",
       "recent_evidence_count": 1,
@@ -3502,6 +3287,311 @@
       "timestamp_utc": "2026-08-26T12:07:37.315958+00:00",
       "recent_evidence_count": 1,
       "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 5,
+      "source_domain_count": 5
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 4,
+      "source_domain_count": 3
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 3,
+      "source_domain_count": 2
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 3,
+      "source_domain_count": 3
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 3,
+      "source_domain_count": 3
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 2,
+      "source_domain_count": 2
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 2,
+      "source_domain_count": 2
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 2,
+      "source_domain_count": 2
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 2,
+      "source_domain_count": 2
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 2,
+      "source_domain_count": 2
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 2,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
     }
   ],
   "Hudbay Minerals Inc.": [
@@ -3610,141 +3700,6 @@
   ],
   "AI Infrastructure": [
     {
-      "timestamp_utc": "2026-08-23T21:57:01.584152+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-23T21:57:01.584152+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-23T21:57:01.584152+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-23T22:02:46.319596+00:00",
-      "recent_evidence_count": 2,
-      "source_domain_count": 2
-    },
-    {
-      "timestamp_utc": "2026-08-23T22:02:46.319596+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-23T22:02:46.319596+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-23T22:02:46.319596+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-23T22:02:46.319596+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-23T22:02:46.319596+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-23T22:02:46.319596+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-23T22:02:46.319596+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-23T22:02:46.319596+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-23T22:02:46.319596+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-23T22:02:46.319596+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-23T22:02:46.319596+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-23T22:02:46.319596+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-23T22:02:46.319596+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-23T22:14:54.134961+00:00",
-      "recent_evidence_count": 2,
-      "source_domain_count": 2
-    },
-    {
-      "timestamp_utc": "2026-08-23T22:14:54.134961+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-23T22:14:54.134961+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-23T22:14:54.134961+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-23T22:14:54.134961+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-23T22:14:54.134961+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-23T22:14:54.134961+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-23T22:14:54.134961+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-23T22:14:54.134961+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
-      "timestamp_utc": "2026-08-23T22:14:54.134961+00:00",
-      "recent_evidence_count": 1,
-      "source_domain_count": 1
-    },
-    {
       "timestamp_utc": "2026-08-23T22:14:54.134961+00:00",
       "recent_evidence_count": 1,
       "source_domain_count": 1
@@ -4506,6 +4461,141 @@
     },
     {
       "timestamp_utc": "2026-08-26T12:07:37.315958+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 4,
+      "source_domain_count": 4
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 3,
+      "source_domain_count": 3
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
       "recent_evidence_count": 1,
       "source_domain_count": 1
     }
@@ -4702,6 +4792,26 @@
     },
     {
       "timestamp_utc": "2026-08-26T12:07:37.315958+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 3,
+      "source_domain_count": 3
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
       "recent_evidence_count": 1,
       "source_domain_count": 1
     }
@@ -4973,6 +5083,11 @@
       "timestamp_utc": "2026-08-26T09:55:32.707809+00:00",
       "recent_evidence_count": 1,
       "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 2,
+      "source_domain_count": 2
     }
   ],
   "WATTS WATER TECHNOLOGIES INC": [
@@ -5212,6 +5327,16 @@
     },
     {
       "timestamp_utc": "2026-08-26T12:07:37.315958+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 2,
+      "source_domain_count": 2
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
       "recent_evidence_count": 1,
       "source_domain_count": 1
     }
@@ -6008,6 +6133,141 @@
       "timestamp_utc": "2026-08-26T12:07:37.315958+00:00",
       "recent_evidence_count": 1,
       "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 2,
+      "source_domain_count": 2
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 2,
+      "source_domain_count": 2
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 2,
+      "source_domain_count": 2
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
     }
   ],
   "WILLAMETTE VALLEY VINEYARDS INC": [
@@ -6716,6 +6976,16 @@
       "timestamp_utc": "2026-08-26T09:55:32.707809+00:00",
       "recent_evidence_count": 1,
       "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
     }
   ],
   "FOREIGN TRADE BANK OF LATIN AMERICA, INC.": [
@@ -6987,6 +7257,11 @@
       "timestamp_utc": "2026-08-26T12:07:37.315958+00:00",
       "recent_evidence_count": 1,
       "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
     }
   ],
   "Clear Secure, Inc.": [
@@ -7194,6 +7469,11 @@
     },
     {
       "timestamp_utc": "2026-08-26T12:07:37.315958+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
       "recent_evidence_count": 1,
       "source_domain_count": 1
     }
@@ -7645,6 +7925,16 @@
       "timestamp_utc": "2026-08-25T09:50:02.286988+00:00",
       "recent_evidence_count": 1,
       "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
     }
   ],
   "AMERICA MOVIL SAB DE CV/": [
@@ -8007,6 +8297,21 @@
       "timestamp_utc": "2026-08-25T09:50:02.286988+00:00",
       "recent_evidence_count": 1,
       "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
     }
   ],
   "UNILEVER PLC": [
@@ -8047,6 +8352,11 @@
     },
     {
       "timestamp_utc": "2026-08-23T22:16:58.600876+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
       "recent_evidence_count": 1,
       "source_domain_count": 1
     }
@@ -8686,6 +8996,11 @@
       "timestamp_utc": "2026-08-26T09:55:32.707809+00:00",
       "recent_evidence_count": 1,
       "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
     }
   ],
   "FIFTH THIRD BANCORP": [
@@ -8905,6 +9220,11 @@
       "timestamp_utc": "2026-08-26T12:07:37.315958+00:00",
       "recent_evidence_count": 1,
       "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
     }
   ],
   "ENTERTAINMENT ARTS RESEARCH, INC.": [
@@ -9078,6 +9398,16 @@
       "timestamp_utc": "2026-08-23T22:16:58.600876+00:00",
       "recent_evidence_count": 1,
       "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 6,
+      "source_domain_count": 5
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 2,
+      "source_domain_count": 2
     }
   ],
   "ABBOTT LABORATORIES": [
@@ -9600,6 +9930,11 @@
       "timestamp_utc": "2026-08-26T12:07:37.315958+00:00",
       "recent_evidence_count": 1,
       "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
     }
   ],
   "Porsche Automobil Holding SE / ADR": [
@@ -9832,6 +10167,11 @@
     },
     {
       "timestamp_utc": "2026-08-26T12:07:37.315958+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
       "recent_evidence_count": 1,
       "source_domain_count": 1
     }
@@ -10256,6 +10596,11 @@
       "timestamp_utc": "2026-08-26T12:07:37.315958+00:00",
       "recent_evidence_count": 1,
       "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
     }
   ],
   "James Hardie Industries plc": [
@@ -10577,6 +10922,21 @@
     },
     {
       "timestamp_utc": "2026-08-26T12:07:37.315958+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
       "recent_evidence_count": 1,
       "source_domain_count": 1
     }
@@ -10942,6 +11302,16 @@
       "timestamp_utc": "2026-08-26T12:07:37.315958+00:00",
       "recent_evidence_count": 1,
       "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 5,
+      "source_domain_count": 5
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
     }
   ],
   "POET TECHNOLOGIES INC.": [
@@ -11201,6 +11571,16 @@
       "timestamp_utc": "2026-08-26T12:07:37.315958+00:00",
       "recent_evidence_count": 1,
       "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
     }
   ],
   "Turning Point Brands, Inc.": [
@@ -11398,6 +11778,16 @@
     },
     {
       "timestamp_utc": "2026-08-26T12:07:37.315958+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
       "recent_evidence_count": 1,
       "source_domain_count": 1
     }
@@ -11690,6 +12080,21 @@
       "timestamp_utc": "2026-08-26T12:07:37.315958+00:00",
       "recent_evidence_count": 1,
       "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 2,
+      "source_domain_count": 2
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
     }
   ],
   "JOINT Corp": [
@@ -11886,6 +12291,11 @@
     },
     {
       "timestamp_utc": "2026-08-26T12:07:37.315958+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
       "recent_evidence_count": 1,
       "source_domain_count": 1
     }
@@ -12167,6 +12577,16 @@
     },
     {
       "timestamp_utc": "2026-08-25T09:50:02.286988+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
       "recent_evidence_count": 1,
       "source_domain_count": 1
     }
@@ -12573,6 +12993,11 @@
       "timestamp_utc": "2026-08-26T12:07:37.315958+00:00",
       "recent_evidence_count": 1,
       "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
     }
   ],
   "Affirm Holdings, Inc.": [
@@ -12674,6 +13099,16 @@
       "timestamp_utc": "2026-08-26T12:07:37.315958+00:00",
       "recent_evidence_count": 2,
       "source_domain_count": 2
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
     }
   ],
   "Samsung Electronics": [
@@ -12728,6 +13163,11 @@
     },
     {
       "timestamp_utc": "2026-08-26T12:07:37.315958+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
       "recent_evidence_count": 1,
       "source_domain_count": 1
     }
@@ -12861,6 +13301,11 @@
     },
     {
       "timestamp_utc": "2026-08-24T11:55:17.044388+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
       "recent_evidence_count": 1,
       "source_domain_count": 1
     }
@@ -13075,6 +13520,16 @@
       "timestamp_utc": "2026-08-26T12:07:37.315958+00:00",
       "recent_evidence_count": 1,
       "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 3,
+      "source_domain_count": 3
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
     }
   ],
   "INTERNATIONAL BUSINESS MACHINES CORP": [
@@ -13092,6 +13547,11 @@
       "timestamp_utc": "2026-08-26T12:07:37.315958+00:00",
       "recent_evidence_count": 1,
       "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 2,
+      "source_domain_count": 2
     }
   ],
   "AMETEK INC/": [
@@ -13163,6 +13623,11 @@
     },
     {
       "timestamp_utc": "2026-08-26T09:55:32.707809+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
       "recent_evidence_count": 1,
       "source_domain_count": 1
     }
@@ -13442,6 +13907,11 @@
       "timestamp_utc": "2026-08-24T11:55:17.044388+00:00",
       "recent_evidence_count": 1,
       "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
     }
   ],
   "Merck & Co., Inc.": [
@@ -13503,6 +13973,11 @@
     },
     {
       "timestamp_utc": "2026-08-26T09:55:32.707809+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
       "recent_evidence_count": 1,
       "source_domain_count": 1
     }
@@ -13597,6 +14072,11 @@
       "timestamp_utc": "2026-08-24T11:55:17.044388+00:00",
       "recent_evidence_count": 1,
       "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
     }
   ],
   "STEELCASE INC": [
@@ -13629,6 +14109,41 @@
     },
     {
       "timestamp_utc": "2026-08-26T09:55:32.707809+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 3,
+      "source_domain_count": 3
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 2,
+      "source_domain_count": 2
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 2,
+      "source_domain_count": 2
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 2,
+      "source_domain_count": 2
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
       "recent_evidence_count": 1,
       "source_domain_count": 1
     }
@@ -13703,6 +14218,21 @@
       "timestamp_utc": "2026-08-26T12:07:37.315958+00:00",
       "recent_evidence_count": 1,
       "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
     }
   ],
   "RIO TINTO LTD": [
@@ -13754,6 +14284,11 @@
       "timestamp_utc": "2026-08-26T12:07:37.315958+00:00",
       "recent_evidence_count": 1,
       "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
     }
   ],
   "Alibaba Group Holding Ltd": [
@@ -13795,6 +14330,11 @@
       "timestamp_utc": "2026-08-24T11:55:17.044388+00:00",
       "recent_evidence_count": 1,
       "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
     }
   ],
   "REX AMERICAN RESOURCES Corp": [
@@ -13823,6 +14363,11 @@
       "timestamp_utc": "2026-08-24T11:55:17.044388+00:00",
       "recent_evidence_count": 1,
       "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
     }
   ],
   "UiPath, Inc.": [
@@ -13847,6 +14392,21 @@
       "timestamp_utc": "2026-08-25T09:50:02.286988+00:00",
       "recent_evidence_count": 1,
       "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 2,
+      "source_domain_count": 2
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
     }
   ],
   "Quanex Building Products CORP": [
@@ -13866,6 +14426,11 @@
   "FIRSTENERGY CORP": [
     {
       "timestamp_utc": "2026-08-24T11:55:17.044388+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
       "recent_evidence_count": 1,
       "source_domain_count": 1
     }
@@ -14129,6 +14694,11 @@
     },
     {
       "timestamp_utc": "2026-08-26T12:07:37.315958+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
       "recent_evidence_count": 1,
       "source_domain_count": 1
     }
@@ -14495,6 +15065,11 @@
       "timestamp_utc": "2026-08-26T12:07:37.315958+00:00",
       "recent_evidence_count": 1,
       "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
     }
   ],
   "WEC ENERGY GROUP, INC.": [
@@ -14576,6 +15151,11 @@
       "timestamp_utc": "2026-08-26T09:55:32.707809+00:00",
       "recent_evidence_count": 1,
       "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
     }
   ],
   "CENTRAL GARDEN & PET CO": [
@@ -14647,6 +15227,11 @@
       "timestamp_utc": "2026-08-26T12:07:37.315958+00:00",
       "recent_evidence_count": 1,
       "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
     }
   ],
   "Sigma Lithium Corp": [
@@ -14690,6 +15275,11 @@
   "HALLIBURTON CO": [
     {
       "timestamp_utc": "2026-08-26T09:55:32.707809+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
       "recent_evidence_count": 1,
       "source_domain_count": 1
     }
@@ -14759,6 +15349,11 @@
     },
     {
       "timestamp_utc": "2026-08-26T12:07:37.315958+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
       "recent_evidence_count": 1,
       "source_domain_count": 1
     }
@@ -15126,6 +15721,16 @@
       "timestamp_utc": "2026-08-26T12:07:37.315958+00:00",
       "recent_evidence_count": 1,
       "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
     }
   ],
   "Li Auto Inc.": [
@@ -15145,6 +15750,11 @@
   "Coupang, Inc.": [
     {
       "timestamp_utc": "2026-08-26T12:07:37.315958+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
       "recent_evidence_count": 1,
       "source_domain_count": 1
     }
@@ -15175,11 +15785,396 @@
       "timestamp_utc": "2026-08-26T12:07:37.315958+00:00",
       "recent_evidence_count": 1,
       "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
     }
   ],
   "Shell plc": [
     {
       "timestamp_utc": "2026-08-26T12:07:37.315958+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    }
+  ],
+  "KKR & Co. Inc.": [
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 5,
+      "source_domain_count": 5
+    }
+  ],
+  "MALIBU BOATS, INC.": [
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 2,
+      "source_domain_count": 2
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    }
+  ],
+  "HORMEL FOODS CORP /DE/": [
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 2,
+      "source_domain_count": 2
+    }
+  ],
+  "Burlington Stores, Inc.": [
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 2,
+      "source_domain_count": 1
+    }
+  ],
+  "LAM RESEARCH CORP": [
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 2,
+      "source_domain_count": 2
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    }
+  ],
+  "Genius Group Ltd": [
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    }
+  ],
+  "HEALTHEQUITY, INC.": [
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    }
+  ],
+  "IMAX CORP": [
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    }
+  ],
+  "CAPRICOR THERAPEUTICS, INC.": [
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    }
+  ],
+  "Grand Canyon Education, Inc.": [
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    }
+  ],
+  "BUILD-A-BEAR WORKSHOP INC": [
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    }
+  ],
+  "DOLLAR TREE, INC.": [
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    }
+  ],
+  "DESRI Inc.": [
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    }
+  ],
+  "A2Z Smart Technologies Corp": [
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    }
+  ],
+  "Kingsoft Cloud Holdings Ltd": [
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    }
+  ],
+  "ROYAL BANK OF CANADA": [
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    }
+  ],
+  "Bilibili Inc.": [
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    }
+  ],
+  "PRUDENTIAL PLC": [
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    }
+  ],
+  "ENBRIDGE INC": [
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    }
+  ],
+  "ISTAR INC.": [
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    }
+  ],
+  "Kimball Electronics, Inc.": [
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    }
+  ],
+  "KROGER CO": [
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    }
+  ],
+  "ReNew Energy Global plc": [
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    }
+  ],
+  "TORONTO DOMINION BANK": [
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    }
+  ],
+  "Helmerich & Payne, Inc.": [
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    }
+  ],
+  "Crane Holdings, Co.": [
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    }
+  ],
+  "Ability Inc.": [
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    }
+  ],
+  "Orion Group Holdings Inc": [
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    }
+  ],
+  "SUN COMMUNITIES INC": [
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    }
+  ],
+  "Freedom Holding Corp.": [
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    }
+  ],
+  "KRATOS DEFENSE & SECURITY SOLUTIONS, INC.": [
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    }
+  ],
+  "NORTHROP GRUMMAN CORP /DE/": [
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    }
+  ],
+  "DONALDSON Co INC": [
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    }
+  ],
+  "Eagle Point Credit Co Inc.": [
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    }
+  ],
+  "Trinseo PLC": [
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    }
+  ],
+  "AstroNova, Inc.": [
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    }
+  ],
+  "Kyndryl Holdings, Inc.": [
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    }
+  ],
+  "AXT INC": [
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    }
+  ],
+  "AMPCO PITTSBURGH CORP": [
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    }
+  ],
+  "AVISTA CORP": [
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    }
+  ],
+  "TRACTOR SUPPLY CO /DE/": [
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    }
+  ],
+  "MP Materials Corp. / DE": [
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    },
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    }
+  ],
+  "GLOBUS MEDICAL INC": [
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    }
+  ],
+  "UNION PACIFIC CORP": [
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    }
+  ],
+  "NACCO INDUSTRIES INC": [
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    }
+  ],
+  "SYSCO CORP": [
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    }
+  ],
+  "Sony Group Corp": [
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    }
+  ],
+  "DraftKings Inc.": [
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    }
+  ],
+  "Professional Holding Corp.": [
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
+      "recent_evidence_count": 1,
+      "source_domain_count": 1
+    }
+  ],
+  "Bristow Group Inc.": [
+    {
+      "timestamp_utc": "2026-08-27T12:34:48.826041+00:00",
       "recent_evidence_count": 1,
       "source_domain_count": 1
     }
