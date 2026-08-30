@@ -1,953 +1,775 @@
 {
   "scanner": "B",
   "judge_version": "B_V1",
-  "source_candidates_generated_at_utc": "2026-08-29T11:10:15.099665+00:00",
-  "generated_at_utc": "2026-08-29T12:19:12.423367+00:00",
+  "source_candidates_generated_at_utc": "2026-08-30T10:48:00.605985+00:00",
+  "generated_at_utc": "2026-08-30T11:02:15.824285+00:00",
   "youtube_search_budget_per_run": 20,
-  "youtube_search_calls_used": 13,
+  "youtube_search_calls_used": 20,
   "events": [
     {
-      "candidate_rank": 1,
-      "event_id": "87e61cfa751d97f0",
-      "entity": "Federal Reserve / Rates",
-      "ticker": null,
-      "entity_type": "macro",
-      "event_title": "Kevin Warsh at a crossroads as Fed grapples with inflation",
-      "event_timestamp_utc": "2026-08-29T11:05:00+00:00",
-      "categories": [
-        "macro_rates"
-      ],
-      "discovery_score": 69,
-      "news_burst_score": 21,
-      "source_diversity_score": 100,
-      "catalyst_quality_score": 85,
-      "freshness_score": 100,
-      "evidence_quality_score": 96,
-      "baseline": {
-        "source": "google_news_rss",
-        "current_3h": 1,
-        "baseline_3h_median": 2,
-        "short_ratio": 0.667,
-        "current_day": 23,
-        "baseline_day_median": 2,
-        "long_ratio": 8,
-        "news_burst_score": 21,
-        "feed_capped": true
-      },
-      "source_domains": [
-        "abc7ny.com",
-        "abcnews.com",
-        "apnews.com",
-        "axios.com",
-        "barrons.com",
-        "bloomberg.com"
-      ],
-      "recent_evidence_count": 23,
-      "youtube_query": "Federal Reserve / Rates Kevin Warsh crossroads",
-      "youtube_event_terms": [
-        "Kevin",
-        "Warsh",
-        "crossroads"
-      ],
-      "evidence_sample": [
-        {
-          "title": "Kevin Warsh at a crossroads as Fed grapples with inflation",
-          "domain": "thetimes.com",
-          "source_name": "The Times",
-          "timestamp_utc": "2026-08-29T11:05:00+00:00",
-          "source_type": "news_rss",
-          "category": "macro_rates",
-          "sec_form": null
-        },
-        {
-          "title": "Fed's Warsh: 'We have work to do' on inflation",
-          "domain": "abc7ny.com",
-          "source_name": "ABC7 Eyewitness News",
-          "timestamp_utc": "2026-08-29T03:11:38+00:00",
-          "source_type": "news_rss",
-          "category": "macro_rates",
-          "sec_form": null
-        },
-        {
-          "title": "Fed Chairman Kevin Warsh stays quiet on interest rates but calls inflation ‘concerning’",
-          "domain": "kxly.com",
-          "source_name": "KXLY.com",
-          "timestamp_utc": "2026-08-29T00:48:07+00:00",
-          "source_type": "news_rss",
-          "category": "macro_rates",
-          "sec_form": null
-        },
-        {
-          "title": "Fed chair Warsh, concerned about inflation, says bank may have ‘work to do’",
-          "domain": "washingtonpost.com",
-          "source_name": "The Washington Post",
-          "timestamp_utc": "2026-08-28T23:58:12+00:00",
-          "source_type": "news_rss",
-          "category": "macro_rates",
-          "sec_form": null
-        }
-      ],
-      "judge_version": "B_V1",
-      "entity_accuracy": "pass",
-      "catalyst_reality_score": 25,
-      "investor_materiality_score": 25,
-      "novelty_score": 16,
-      "judge_evidence_quality_score": 15,
-      "content_potential_score": 19,
-      "judge_score": 100,
-      "judge_reason": "Warsh's inflation message materially shifted rate expectations into the September Fed meeting, with broad market and bond implications.",
-      "verification_note": "Use the official Jackson Hole transcript and confirm the latest market-implied September hike odds before publication.",
-      "youtube_metrics": {
-        "status": "ok",
-        "query": "Federal Reserve / Rates Kevin Warsh crossroads",
-        "raw_sample_size": 1,
-        "relevant_sample_size": 1,
-        "estimated_total_results": 6,
-        "youtube_supply_gap_score": 100.0,
-        "median_views_per_day": 52,
-        "small_channel_sample_size": 1,
-        "small_channel_hit_rate": 0.0,
-        "sample_videos": [
-          {
-            "video_id": "gRZ2f0PjiLY",
-            "title": "Warsh Faces High-Stakes Jackson Hole Test as Yields Rise and Inflation Persists",
-            "channel_id": "UChvsgOfT8A66XccpWay2rvw",
-            "published_at": "2026-08-28T00:08:20+00:00",
-            "views": 78,
-            "views_per_day": 52,
-            "channel_subscribers": 1260
-          }
-        ]
-      },
-      "scanner_b_score": 90.7
-    },
-    {
-      "candidate_rank": 4,
-      "event_id": "435ed135ac14a60e",
-      "entity": "OpenAI",
-      "ticker": null,
-      "entity_type": "private_company",
-      "event_title": "OpenAI to stop supplying models to Cursor after SpaceX acquisition",
-      "event_timestamp_utc": "2026-08-29T10:16:42+00:00",
-      "categories": [
-        "contract_order",
-        "mna"
-      ],
-      "discovery_score": 55.4,
-      "news_burst_score": 0,
-      "source_diversity_score": 72,
-      "catalyst_quality_score": 94,
-      "freshness_score": 100,
-      "evidence_quality_score": 72,
-      "baseline": {
-        "source": "google_news_rss",
-        "current_3h": 0,
-        "baseline_3h_median": 0,
-        "short_ratio": 1,
-        "current_day": 1,
-        "baseline_day_median": 2,
-        "long_ratio": 0.667,
-        "news_burst_score": 0,
-        "feed_capped": true
-      },
-      "source_domains": [
-        "app.dealroom.co",
-        "bloomberg.com",
-        "finance.biggo.com",
-        "investing.com",
-        "the-decoder.com",
-        "thenextweb.com"
-      ],
-      "recent_evidence_count": 6,
-      "youtube_query": "OpenAI stop supplying models",
-      "youtube_event_terms": [
-        "stop",
-        "supplying",
-        "models"
-      ],
-      "evidence_sample": [
-        {
-          "title": "OpenAI to stop supplying models to Cursor after SpaceX acquisition",
-          "domain": "thenextweb.com",
-          "source_name": "The Next Web",
-          "timestamp_utc": "2026-08-29T10:16:42+00:00",
-          "source_type": "news_rss",
-          "category": "mna",
-          "sec_form": null
-        },
-        {
-          "title": "OpenAI cuts off Cursor after SpaceX acquisition, citing Musk's history of breaking contracts",
-          "domain": "the-decoder.com",
-          "source_name": "the-decoder.com",
-          "timestamp_utc": "2026-08-29T09:19:09+00:00",
-          "source_type": "news_rss",
-          "category": "mna",
-          "sec_form": null
-        },
-        {
-          "title": "OpenAI ends Cursor partnership after SpaceX acquisition",
-          "domain": "app.dealroom.co",
-          "source_name": "Dealroom",
-          "timestamp_utc": "2026-08-29T07:40:39+00:00",
-          "source_type": "news_rss",
-          "category": "mna",
-          "sec_form": null
-        },
-        {
-          "title": "OpenAI to Cut Off Cursor Model Supply in November; Musk Acquisition Sparks AI Camp Showdown",
-          "domain": "finance.biggo.com",
-          "source_name": "finance.biggo.com",
-          "timestamp_utc": "2026-08-29T04:05:00+00:00",
-          "source_type": "news_rss",
-          "category": "contract_order",
-          "sec_form": null
-        }
-      ],
-      "judge_version": "B_V1",
-      "entity_accuracy": "pass",
-      "catalyst_reality_score": 25,
-      "investor_materiality_score": 24,
-      "novelty_score": 18,
-      "judge_evidence_quality_score": 14,
-      "content_potential_score": 19,
-      "judge_score": 100,
-      "judge_reason": "OpenAI plans to end model supply to Cursor after the SpaceX acquisition, a fresh and unusually direct AI-platform distribution catalyst.",
-      "verification_note": "Confirm the proposed November 12 cutoff date and the exact scope of models affected from OpenAI's statement.",
-      "youtube_metrics": {
-        "status": "ok",
-        "query": "OpenAI stop supplying models",
-        "raw_sample_size": 2,
-        "relevant_sample_size": 1,
-        "estimated_total_results": 131,
-        "youtube_supply_gap_score": 100.0,
-        "median_views_per_day": 7,
-        "small_channel_sample_size": 1,
-        "small_channel_hit_rate": 0.0,
-        "sample_videos": [
-          {
-            "video_id": "XxSkeEMvweI",
-            "title": "OpenAI to pull AI models from Cursor over SpaceX deal",
-            "channel_id": "UC4BA54HYgy-WCePSt7Vrc_A",
-            "published_at": "2026-08-29T02:17:18+00:00",
-            "views": 3,
-            "views_per_day": 7,
-            "channel_subscribers": 217
-          }
-        ]
-      },
-      "scanner_b_score": 86.6
-    },
-    {
-      "candidate_rank": 2,
-      "event_id": "64e8ec96d6f859ae",
-      "entity": "Element Solutions Inc",
-      "ticker": "ESI",
+      "event_id": "af8fab687d741cd9",
+      "scanner": "B",
+      "entity": "PETROCHINA CO LTD",
+      "ticker": "PCCYF",
       "entity_type": "company",
-      "event_title": "Solstice and Element Solutions cancel merger",
-      "event_timestamp_utc": "2026-08-29T10:57:21+00:00",
-      "categories": [
-        "mna"
-      ],
-      "discovery_score": 61.3,
-      "news_burst_score": 46.6,
-      "source_diversity_score": 38,
-      "catalyst_quality_score": 94,
-      "freshness_score": 100,
-      "evidence_quality_score": 36,
-      "baseline": {
-        "source": "google_news_rss",
-        "current_3h": 5,
-        "baseline_3h_median": 1,
-        "short_ratio": 3,
-        "current_day": 17,
-        "baseline_day_median": 2,
-        "long_ratio": 6,
-        "news_burst_score": 46.6,
-        "feed_capped": true
-      },
-      "source_domains": [
-        "coolingpost.com",
-        "industryweek.com"
-      ],
-      "recent_evidence_count": 2,
-      "youtube_query": "ESI Solstice cancel merger",
-      "youtube_event_terms": [
-        "Solstice",
-        "cancel",
-        "merger"
-      ],
-      "evidence_sample": [
-        {
-          "title": "Solstice and Element Solutions cancel merger",
-          "domain": "coolingpost.com",
-          "source_name": "Cooling Post",
-          "timestamp_utc": "2026-08-29T10:57:21+00:00",
-          "source_type": "news_rss",
-          "category": "mna",
-          "sec_form": null
-        },
-        {
-          "title": "Solstice Abandons $14B Element Solutions Acquisition After Investor Pressure",
-          "domain": "industryweek.com",
-          "source_name": "IndustryWeek",
-          "timestamp_utc": "2026-08-28T20:35:03+00:00",
-          "source_type": "news_rss",
-          "category": "mna",
-          "sec_form": null
-        }
-      ],
-      "judge_version": "B_V1",
-      "entity_accuracy": "pass",
-      "catalyst_reality_score": 25,
-      "investor_materiality_score": 23,
-      "novelty_score": 17,
-      "judge_evidence_quality_score": 12,
-      "content_potential_score": 18,
-      "judge_score": 95,
-      "judge_reason": "Element Solutions and Solstice cancelled a $14.5B merger, a large strategic reversal with immediate valuation and shareholder implications.",
-      "verification_note": "Confirm the termination terms and any buyback/capital-return actions from company filings or releases.",
-      "youtube_metrics": {
-        "status": "ok_no_videos",
-        "query": "ESI Solstice cancel merger",
-        "raw_sample_size": 0,
-        "relevant_sample_size": 0,
-        "estimated_total_results": 0,
-        "youtube_supply_gap_score": 100.0,
-        "median_views_per_day": 0,
-        "small_channel_hit_rate": 0.0,
-        "sample_videos": []
-      },
-      "scanner_b_score": 85.9
-    },
-    {
-      "candidate_rank": 6,
-      "event_id": "d702d74b9ae96c1c",
-      "entity": "Bullish",
-      "ticker": "BULL",
-      "entity_type": "company",
-      "event_title": "Bullish Provides USD.AI $100 Million Facility for GPU-Backed Loans",
-      "event_timestamp_utc": "2026-08-28T23:54:07+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "discovery_score": 53.7,
-      "news_burst_score": 18.1,
-      "source_diversity_score": 88,
-      "catalyst_quality_score": 68,
-      "freshness_score": 68,
-      "evidence_quality_score": 60,
-      "baseline": {
-        "source": "google_news_rss",
-        "current_3h": 0,
-        "baseline_3h_median": 1,
-        "short_ratio": 0.5,
-        "current_day": 11,
-        "baseline_day_median": 1,
-        "long_ratio": 6,
-        "news_burst_score": 18.1,
-        "feed_capped": true
-      },
-      "source_domains": [
-        "citybiz.co",
-        "cryptonews.net",
-        "egamers.io",
-        "finance.biggo.com",
-        "finance.yahoo.com",
-        "pymnts.com"
-      ],
-      "recent_evidence_count": 8,
-      "youtube_query": "BULL Provides Million Facility",
-      "youtube_event_terms": [
-        "Provides",
-        "Million",
-        "Facility"
-      ],
-      "evidence_sample": [
-        {
-          "title": "Bullish Provides USD.AI $100 Million Facility for GPU-Backed Loans",
-          "domain": "thedefiant.io",
-          "source_name": "The Defiant",
-          "timestamp_utc": "2026-08-28T23:54:07+00:00",
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "sec_form": null
-        },
-        {
-          "title": "Bullish Backs USD.AI With a $100 Million Credit Line for GPU-Secured Lending",
-          "domain": "egamers.io",
-          "source_name": "eGamers.io",
-          "timestamp_utc": "2026-08-28T19:27:56+00:00",
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "sec_form": null
-        },
-        {
-          "title": "Bullish backs USD.AI with $100 million in financing to drive GPU-backed loans",
-          "domain": "cryptonews.net",
-          "source_name": "Cryptonews.net",
-          "timestamp_utc": "2026-08-28T18:44:49+00:00",
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "sec_form": null
-        },
-        {
-          "title": "Bullish Extends $100M Stablecoin Facility to USD.AI for GPU-Secured Lending",
-          "domain": "finance.biggo.com",
-          "source_name": "finance.biggo.com",
-          "timestamp_utc": "2026-08-28T18:29:00+00:00",
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "sec_form": null
-        }
-      ],
-      "judge_version": "B_V1",
-      "entity_accuracy": "pass",
-      "catalyst_reality_score": 24,
-      "investor_materiality_score": 20,
-      "novelty_score": 18,
-      "judge_evidence_quality_score": 9,
-      "content_potential_score": 18,
-      "judge_score": 89,
-      "judge_reason": "Bullish is backing a $100M facility for GPU-collateralized loans, a novel bridge between AI infrastructure financing and digital-asset markets.",
-      "verification_note": "Verify the facility size, counterparties, collateral structure and whether the financing is already funded.",
-      "youtube_metrics": {
-        "status": "ok_no_videos",
-        "query": "BULL Provides Million Facility",
-        "raw_sample_size": 0,
-        "relevant_sample_size": 0,
-        "estimated_total_results": 897,
-        "youtube_supply_gap_score": 100.0,
-        "median_views_per_day": 0,
-        "small_channel_hit_rate": 0.0,
-        "sample_videos": []
-      },
-      "scanner_b_score": 80.6
-    },
-    {
-      "candidate_rank": 5,
-      "event_id": "ce2d5b80e3855563",
-      "entity": "Walmart Inc.",
-      "ticker": "WMT",
-      "entity_type": "company",
-      "event_title": "Walmart to Pay $50 Million to Settle Opioid Lawsuit, U.S. Says",
-      "event_timestamp_utc": "2026-08-29T01:08:49+00:00",
-      "categories": [
-        "regulatory_legal"
-      ],
-      "discovery_score": 53.8,
-      "news_burst_score": 18.1,
-      "source_diversity_score": 72,
-      "catalyst_quality_score": 80,
-      "freshness_score": 68,
-      "evidence_quality_score": 69,
-      "baseline": {
-        "source": "google_news_rss",
-        "current_3h": 0,
-        "baseline_3h_median": 0,
-        "short_ratio": 1,
-        "current_day": 11,
-        "baseline_day_median": 1,
-        "long_ratio": 6,
-        "news_burst_score": 18.1,
-        "feed_capped": true
-      },
-      "source_domains": [
-        "aljazeera.com",
-        "cnbc.com",
-        "nytimes.com",
-        "reuters.com",
-        "talkbusiness.net"
-      ],
-      "recent_evidence_count": 5,
-      "youtube_query": "WMT Million Settle Opioid",
-      "youtube_event_terms": [
-        "Million",
-        "Settle",
-        "Opioid"
-      ],
-      "evidence_sample": [
-        {
-          "title": "Walmart to Pay $50 Million to Settle Opioid Lawsuit, U.S. Says",
-          "domain": "nytimes.com",
-          "source_name": "The New York Times",
-          "timestamp_utc": "2026-08-29T01:08:49+00:00",
-          "source_type": "news_rss",
-          "category": "regulatory_legal",
-          "sec_form": null
-        },
-        {
-          "title": "Walmart pays $50 million to settle DOJ opioid lawsuit",
-          "domain": "talkbusiness.net",
-          "source_name": "Talk Business & Politics",
-          "timestamp_utc": "2026-08-28T23:07:06+00:00",
-          "source_type": "news_rss",
-          "category": "regulatory_legal",
-          "sec_form": null
-        },
-        {
-          "title": "Walmart settles US government’s opioid lawsuit",
-          "domain": "aljazeera.com",
-          "source_name": "Al Jazeera",
-          "timestamp_utc": "2026-08-28T23:04:05+00:00",
-          "source_type": "news_rss",
-          "category": "regulatory_legal",
-          "sec_form": null
-        },
-        {
-          "title": "Walmart settles US government's opioid lawsuit, which sought billions, for $50 million",
-          "domain": "reuters.com",
-          "source_name": "Reuters",
-          "timestamp_utc": "2026-08-28T22:29:32+00:00",
-          "source_type": "news_rss",
-          "category": "regulatory_legal",
-          "sec_form": null
-        }
-      ],
-      "judge_version": "B_V1",
-      "entity_accuracy": "pass",
-      "catalyst_reality_score": 25,
-      "investor_materiality_score": 16,
-      "novelty_score": 13,
-      "judge_evidence_quality_score": 15,
-      "content_potential_score": 15,
-      "judge_score": 84,
-      "judge_reason": "Walmart agreed to a $50M opioid settlement, a verified legal catalyst with direct company exposure and multiple top-tier sources.",
-      "verification_note": "Confirm settlement scope, jurisdictions and whether Walmart admitted wrongdoing in the DOJ filing.",
-      "youtube_metrics": {
-        "status": "ok_no_videos",
-        "query": "WMT Million Settle Opioid",
-        "raw_sample_size": 0,
-        "relevant_sample_size": 0,
-        "estimated_total_results": 0,
-        "youtube_supply_gap_score": 100.0,
-        "median_views_per_day": 0,
-        "small_channel_hit_rate": 0.0,
-        "sample_videos": []
-      },
-      "scanner_b_score": 78.1
-    },
-    {
-      "candidate_rank": 20,
-      "event_id": "4a88d6169854c0d1",
-      "entity": "Bitcoin / Crypto",
-      "ticker": null,
-      "entity_type": "crypto",
-      "event_title": "Bitcoin dips below $78K as US spot Bitcoin ETFs see $201.9M outflows after nine-day inflow streak.",
-      "event_timestamp_utc": "2026-08-29T09:05:06+00:00",
-      "categories": [
-        "crypto"
-      ],
-      "discovery_score": 47,
-      "news_burst_score": 0,
-      "source_diversity_score": 72,
-      "catalyst_quality_score": 70,
-      "freshness_score": 92,
-      "evidence_quality_score": 48,
-      "baseline": {
-        "source": "google_news_rss",
-        "current_3h": 0,
-        "baseline_3h_median": 0,
-        "short_ratio": 1,
-        "current_day": 0,
-        "baseline_day_median": 3,
-        "long_ratio": 0.25,
-        "news_burst_score": 0,
-        "feed_capped": true
-      },
-      "source_domains": [
-        "altcoinbuzz.io",
-        "en.bloomingbit.io",
-        "finance.biggo.com",
-        "pluang.com",
-        "tradingview.com",
-        "yellow.com"
-      ],
-      "recent_evidence_count": 8,
-      "youtube_query": "Bitcoin / Crypto dips below spot",
-      "youtube_event_terms": [
-        "dips",
-        "below",
-        "spot"
-      ],
-      "evidence_sample": [
-        {
-          "title": "Bitcoin dips below $78K as US spot Bitcoin ETFs see $201.9M outflows after nine-day inflow streak.",
-          "domain": "pluang.com",
-          "source_name": "Pluang",
-          "timestamp_utc": "2026-08-29T09:05:06+00:00",
-          "source_type": "news_rss",
-          "category": "crypto",
-          "sec_form": null
-        },
-        {
-          "title": "Bitcoin ETFs Break 9-Day Inflow Streak as BTC Falls Below $78K",
-          "domain": "altcoinbuzz.io",
-          "source_name": "Altcoin Buzz",
-          "timestamp_utc": "2026-08-29T08:26:59+00:00",
-          "source_type": "news_rss",
-          "category": "crypto",
-          "sec_form": null
-        },
-        {
-          "title": "US spot Bitcoin ETFs see $202M outflows as BTC price dips below $78K",
-          "domain": "pluang.com",
-          "source_name": "Pluang",
-          "timestamp_utc": "2026-08-29T07:37:14+00:00",
-          "source_type": "news_rss",
-          "category": "crypto",
-          "sec_form": null
-        },
-        {
-          "title": "Bitcoin ETFs Shed $201.8M After BTC Falls Below $78K",
-          "domain": "yellow.com",
-          "source_name": "Yellow.com",
-          "timestamp_utc": "2026-08-29T07:36:10+00:00",
-          "source_type": "news_rss",
-          "category": "crypto",
-          "sec_form": null
-        }
-      ],
-      "judge_version": "B_V1",
-      "entity_accuracy": "pass",
-      "catalyst_reality_score": 23,
-      "investor_materiality_score": 19,
-      "novelty_score": 14,
-      "judge_evidence_quality_score": 11,
-      "content_potential_score": 18,
-      "judge_score": 85,
-      "judge_reason": "Bitcoin ETF flows reversed after a nine-day inflow streak as BTC fell below $78K, creating a timely institutional-flow and price-action hook.",
-      "verification_note": "Cross-check the daily spot-Bitcoin ETF flow total and streak with primary fund-flow data.",
-      "youtube_metrics": {
-        "status": "ok_no_videos",
-        "query": "Bitcoin / Crypto dips below spot",
-        "raw_sample_size": 0,
-        "relevant_sample_size": 0,
-        "estimated_total_results": 79,
-        "youtube_supply_gap_score": 100.0,
-        "median_views_per_day": 0,
-        "small_channel_hit_rate": 0.0,
-        "sample_videos": []
-      },
-      "scanner_b_score": 76.6
-    },
-    {
-      "candidate_rank": 3,
-      "event_id": "736c0466b8385643",
-      "entity": "PayPal Holdings, Inc.",
-      "ticker": "PYPL",
-      "entity_type": "company",
-      "event_title": "PayPal (PYPL) Hit After Stripe, Advent Drop $53B Planned Takeover",
-      "event_timestamp_utc": "2026-08-29T03:43:00+00:00",
-      "categories": [
-        "mna"
-      ],
-      "discovery_score": 57.3,
-      "news_burst_score": 28,
-      "source_diversity_score": 55,
-      "catalyst_quality_score": 94,
-      "freshness_score": 68,
-      "evidence_quality_score": 75,
-      "baseline": {
-        "source": "google_news_rss",
-        "current_3h": 0,
-        "baseline_3h_median": 1,
-        "short_ratio": 0.5,
-        "current_day": 40,
-        "baseline_day_median": 0,
-        "long_ratio": 41,
-        "news_burst_score": 28,
-        "feed_capped": false
-      },
-      "source_domains": [
-        "bloomberg.com",
-        "finance.yahoo.com",
-        "wsj.com"
-      ],
-      "recent_evidence_count": 3,
-      "youtube_query": "PYPL PYPL Stripe Advent",
-      "youtube_event_terms": [
-        "PYPL",
-        "Stripe",
-        "Advent"
-      ],
-      "evidence_sample": [
-        {
-          "title": "PayPal (PYPL) Hit After Stripe, Advent Drop $53B Planned Takeover",
-          "domain": "finance.yahoo.com",
-          "source_name": "Yahoo Finance",
-          "timestamp_utc": "2026-08-29T03:43:00+00:00",
-          "source_type": "news_rss",
-          "category": "mna",
-          "sec_form": null
-        },
-        {
-          "title": "Advent and Stripe Abandon $50 Billion Pursuit of PayPal",
-          "domain": "bloomberg.com",
-          "source_name": "Bloomberg.com",
-          "timestamp_utc": "2026-08-28T14:30:39+00:00",
-          "source_type": "news_rss",
-          "category": "mna",
-          "sec_form": null
-        },
-        {
-          "title": "PayPal Shares Dive Premarket on Report of Advent, Stripe Abandoning Takeover Plan",
-          "domain": "wsj.com",
-          "source_name": "WSJ",
-          "timestamp_utc": "2026-08-28T12:26:00+00:00",
-          "source_type": "news_rss",
-          "category": "mna",
-          "sec_form": null
-        }
-      ],
-      "judge_version": "B_V1",
-      "entity_accuracy": "pass",
-      "catalyst_reality_score": 25,
-      "investor_materiality_score": 24,
-      "novelty_score": 14,
-      "judge_evidence_quality_score": 15,
-      "content_potential_score": 18,
-      "judge_score": 96,
-      "judge_reason": "The reported $53B PayPal takeover pursuit collapsed and the stock sold off sharply, remaining one of the most material fintech catalysts in the feed.",
-      "verification_note": "Confirm the reported bid value, consortium members and final share-price reaction with Reuters/WSJ.",
-      "youtube_metrics": {
-        "status": "ok",
-        "query": "PYPL PYPL Stripe Advent",
-        "raw_sample_size": 38,
-        "relevant_sample_size": 25,
-        "estimated_total_results": 142,
-        "youtube_supply_gap_score": 50.0,
-        "median_views_per_day": 91,
-        "small_channel_sample_size": 21,
-        "small_channel_hit_rate": 0.0,
-        "sample_videos": [
-          {
-            "video_id": "WBBKEKSzV2M",
-            "title": "Stripe and Advent Just Walked From PayPal. He Sees Why From the Merchant Side.",
-            "channel_id": "UCLJiSMXJ9K-1AOTqIqdXJgQ",
-            "published_at": "2026-08-28T18:19:10+00:00",
-            "views": 2930,
-            "views_per_day": 3907,
-            "channel_subscribers": 492000
-          },
-          {
-            "video_id": "DetFy1bt2sk",
-            "title": "PayPal Plunges 15% After Reports That Advent, Stripe Abandon $53 Billion Bid",
-            "channel_id": "UCg40OxZ1GYh3u3jBntB6DLg",
-            "published_at": "2026-08-28T16:59:25+00:00",
-            "views": 2022,
-            "views_per_day": 2511,
-            "channel_subscribers": 5600000
-          },
-          {
-            "video_id": "Qf3_jS6OBqw",
-            "title": "Morning Minute: MRVL Falls, WDAY Earnings, PYPL Takeover Dropped #shorts",
-            "channel_id": "UCqoSrYgusd8ZddtMoWhjHYA",
-            "published_at": "2026-08-28T12:31:41+00:00",
-            "views": 1941,
-            "views_per_day": 1958,
-            "channel_subscribers": 335000
-          },
-          {
-            "video_id": "nZdZg5Y_RCI",
-            "title": "Stripe and Advent Drop Massive $50B PayPal Takeover Bid",
-            "channel_id": "UC9ZGkLwawKeG5C0Dt9FS-lQ",
-            "published_at": "2026-08-28T18:00:05+00:00",
-            "views": 425,
-            "views_per_day": 557,
-            "channel_subscribers": 36800
-          },
-          {
-            "video_id": "ErOKMRZ8WQ4",
-            "title": "PYPL Dropping! #Shorts #PYPL",
-            "channel_id": "UCoOyPvAtxw0Fa-gGoKDsypA",
-            "published_at": "2026-08-28T22:40:20+00:00",
-            "views": 158,
-            "views_per_day": 278,
-            "channel_subscribers": 34
-          },
-          {
-            "video_id": "OoP7cQGwH7g",
-            "title": "PayPal Cae un 16% al Colapsar la Oferta de Adquisición de 50 Mil Millones de Dólares de Stripe-Adven",
-            "channel_id": "UCy6WeQ9PkWo5oLhRAX7r_jQ",
-            "published_at": "2026-08-28T13:13:34+00:00",
-            "views": 154,
-            "views_per_day": 160,
-            "channel_subscribers": 45
-          },
-          {
-            "video_id": "9U0PH6zvsao",
-            "title": "PayPal Tumbles 16% as $50 Billion Stripe-Advent Buyout Collapses",
-            "channel_id": "UC5VOORGP4VqN73lfgk9VG5A",
-            "published_at": "2026-08-28T13:13:53+00:00",
-            "views": 140,
-            "views_per_day": 146,
-            "channel_subscribers": 170
-          },
-          {
-            "video_id": "WMGgxOMJkDI",
-            "title": "PYPL PayPal Stock: 5 Scenarios After Advent-Stripe Exit - Friday Predicted Opening Price? 🚨",
-            "channel_id": "UCCWXov3PHr0kX9WG543svBw",
-            "published_at": "2026-08-28T08:53:01+00:00",
-            "views": 137,
-            "views_per_day": 120,
-            "channel_subscribers": 75500
-          },
-          {
-            "video_id": "4KlM8aCd_hE",
-            "title": "PayPal Buyout Cancelled Why Stripe & Advent Abandoned the Mega $53B Deal! 💳⚡ #shorts",
-            "channel_id": "UCgxi0q8pszqTVaDxNAaoKNA",
-            "published_at": "2026-08-28T05:09:07+00:00",
-            "views": 145,
-            "views_per_day": 112,
-            "channel_subscribers": 169
-          },
-          {
-            "video_id": "LKesqcIXsqg",
-            "title": "PayPal Loses Its Takeover Floor as Stripe and Advent Walk Away",
-            "channel_id": "UC7NZFvzmF5SmNxArdycI2sg",
-            "published_at": "2026-08-28T12:41:59+00:00",
-            "views": 107,
-            "views_per_day": 109,
-            "channel_subscribers": 10
-          }
-        ]
-      },
-      "scanner_b_score": 75.2
-    },
-    {
-      "candidate_rank": 14,
-      "event_id": "625d2263dd817b33",
-      "entity": "Hims & Hers Health, Inc.",
-      "ticker": "HIMS",
-      "entity_type": "company",
-      "event_title": "Hims & Hers Health (HIMS) Is Down 14.6% After Raising Guidance Amid Privacy Scrutiny - What's Changed",
-      "event_timestamp_utc": "2026-08-29T09:07:25+00:00",
+      "event_title": "PetroChina H1 net profit jumps 22%, boosted by fuel sales, oil price spike",
+      "event_timestamp_utc": "2026-08-30T08:52:09+00:00",
       "categories": [
         "earnings_guidance"
       ],
-      "discovery_score": 48.4,
-      "news_burst_score": 23.2,
+      "sec_forms": [],
+      "discovery_score": 64.9,
+      "news_burst_score": 70.3,
       "source_diversity_score": 20,
       "catalyst_quality_score": 90,
       "freshness_score": 92,
       "evidence_quality_score": 45,
+      "youtube_query": "PetroChina PCCYF earnings oil price",
+      "youtube_event_terms": [
+        "earnings",
+        "profit",
+        "oil"
+      ],
       "baseline": {
         "source": "google_news_rss",
+        "query": "\"petrochina\" OR \"PCCYF\"",
+        "article_count": 45,
+        "feed_capped": false,
+        "current_3h": 7,
+        "baseline_3h_median": 0,
+        "short_ratio": 8,
+        "current_day": 9,
+        "baseline_day_median": 1,
+        "long_ratio": 5,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 29,
+        "news_burst_score": 70.3
+      },
+      "source_domains": [
+        "reuters.com"
+      ],
+      "recent_evidence_count": 1,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "earnings_guidance",
+          "title": "PetroChina H1 net profit jumps 22%, boosted by fuel sales, oil price spike",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPcmQ4VXNUSnZWLWI4M0h2U2EwM040TVVYa3pZdHdva21DY0JrZThtbnVMU2lLcTcwbEhqeTNENldRam1UaGhRNUdsYUtTZ1FnQmtVRG1tUE9MbUtHNXEyeXJUdV9hRV9saDRZRU9yYTU4VmUzZEJJVWE1eXZ6R1JjRU4xZGhvNFZuaDZmUTRveFZ1TkJCN3BGT2p2SVRtRzVpbzRsaUJET1A4dmExMGlRMXc1R0s0eUZtdjIxMDRsOXA?oc=5",
+          "domain": "reuters.com",
+          "source_name": "Reuters",
+          "timestamp_utc": "2026-08-30T08:52:09+00:00",
+          "entity": "PETROCHINA CO LTD",
+          "ticker": "PCCYF",
+          "cik": "1108329",
+          "entity_type": "company"
+        }
+      ],
+      "candidate_rank": 1,
+      "judge_version": "B_V1",
+      "entity_accuracy": "pass",
+      "catalyst_reality_score": 24,
+      "investor_materiality_score": 18,
+      "novelty_score": 13,
+      "judge_evidence_quality_score": 12,
+      "content_potential_score": 14,
+      "judge_score": 81,
+      "judge_reason": "PetroChina 半年利润同比上升且油价冲击明确，是现实、可验证的能源催化剂，对油气板块有读数价值。",
+      "verification_note": "发布前确认公司正式半年报中的净利润、销量与油价敏感性。",
+      "youtube_metrics": {
+        "status": "ok_no_videos",
+        "query": "PetroChina PCCYF earnings oil price",
+        "raw_sample_size": 0,
+        "relevant_sample_size": 0,
+        "estimated_total_results": 0,
+        "youtube_supply_gap_score": 100.0,
+        "median_views_per_day": 0,
+        "small_channel_hit_rate": 0.0,
+        "sample_videos": []
+      },
+      "scanner_b_score": 80.0
+    },
+    {
+      "event_id": "341f10e5450a9163",
+      "scanner": "B",
+      "entity": "Marvell Technology, Inc.",
+      "ticker": "MRVL",
+      "entity_type": "company",
+      "event_title": "Marvell Lifts Long-Term Targets as AI Demand Boosts Second-Quarter Profit, Revenue",
+      "event_timestamp_utc": "2026-08-30T08:47:18+00:00",
+      "categories": [
+        "earnings_guidance"
+      ],
+      "sec_forms": [],
+      "discovery_score": 42.8,
+      "news_burst_score": 7,
+      "source_diversity_score": 20,
+      "catalyst_quality_score": 90,
+      "freshness_score": 92,
+      "evidence_quality_score": 45,
+      "youtube_query": "Marvell MRVL AI earnings targets",
+      "youtube_event_terms": [
+        "Marvell",
+        "AI",
+        "earnings"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "\"marvell technology\" OR \"MRVL\"",
+        "article_count": 90,
+        "feed_capped": false,
+        "current_3h": 0,
+        "baseline_3h_median": 1,
+        "short_ratio": 0.5,
+        "current_day": 1,
+        "baseline_day_median": 0,
+        "long_ratio": 2,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 29,
+        "news_burst_score": 7
+      },
+      "source_domains": [
+        "wsj.com"
+      ],
+      "recent_evidence_count": 1,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "earnings_guidance",
+          "title": "Marvell Lifts Long-Term Targets as AI Demand Boosts Second-Quarter Profit, Revenue",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOSm5ndVJNUnpKaEZfa2FiT1FPV2Z4WV9KcTVTSkt3am9sNVBZQWRzMnVrYXJYbVBTOEtjVXNfRkZuTG45eVVtbWxocVRjMFo0Qm8yRXJGdkxWOVNQZXRfSkdXRlE3WHQyZFNnRmMxWEtpT1VjeDJqZDJtSEFpZk1HQVFOQnVDZEVwWTM2VmJESFdHQlEyeTdvTF9DZnZKY3ZBWjlQd0tmOGNXY29DR2w0UElwTlFnR1k2Q2FvWWdrUEQyRnR4NGx5UQ?oc=5",
+          "domain": "wsj.com",
+          "source_name": "WSJ",
+          "timestamp_utc": "2026-08-30T08:47:18+00:00",
+          "entity": "Marvell Technology, Inc.",
+          "ticker": "MRVL",
+          "cik": "1835632",
+          "entity_type": "company"
+        }
+      ],
+      "candidate_rank": 31,
+      "judge_version": "B_V1",
+      "entity_accuracy": "pass",
+      "catalyst_reality_score": 24,
+      "investor_materiality_score": 24,
+      "novelty_score": 14,
+      "judge_evidence_quality_score": 11,
+      "content_potential_score": 19,
+      "judge_score": 92,
+      "judge_reason": "Marvell 上调长期目标且 AI 需求推动盈利，是直接、可量化的 AI 基建半导体催化剂。",
+      "verification_note": "以公司财报和电话会核对长期目标、AI 收入与毛利率。",
+      "youtube_metrics": {
+        "status": "ok",
+        "query": "Marvell MRVL AI earnings targets",
+        "raw_sample_size": 4,
+        "relevant_sample_size": 4,
+        "estimated_total_results": 49,
+        "youtube_supply_gap_score": 95.0,
+        "median_views_per_day": 87,
+        "small_channel_sample_size": 3,
+        "small_channel_hit_rate": 0.0,
+        "sample_videos": [
+          {
+            "video_id": "0DZtip8ByWU",
+            "title": "Marvell CEO: AI-related bookings remain exceptionally robust",
+            "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
+            "published_at": "2026-08-27T23:50:21+00:00",
+            "views": 41507,
+            "views_per_day": 16828,
+            "channel_subscribers": 3390000
+          },
+          {
+            "video_id": "vpMSFWYIMHM",
+            "title": "Marvell Crashed 10% After a Record Beat and Raise. Why? #shorts #MRVL #stocks #investing",
+            "channel_id": "UCa-ERIkoWeahzUbrxr946vg",
+            "published_at": "2026-08-29T01:28:25+00:00",
+            "views": 229,
+            "views_per_day": 164,
+            "channel_subscribers": 132
+          },
+          {
+            "video_id": "-gK74YjpJZI",
+            "title": "Marvell Technology Stock: AI Custom Chip Boom – Buy or Sell? (MRVL Earnings Breakdown)",
+            "channel_id": "UCgHlLE31bFoyTh_wNOQxEpw",
+            "published_at": "2026-08-28T02:44:15+00:00",
+            "views": 25,
+            "views_per_day": 11,
+            "channel_subscribers": 259
+          },
+          {
+            "video_id": "Fi5J7SnK1m4",
+            "title": "Marvell (MRVL): The 9% selloff over custom AI margins [Q2 2027]",
+            "channel_id": "UCpuM56VDmU-5twAmvccjzHg",
+            "published_at": "2026-08-28T02:17:45+00:00",
+            "views": 6,
+            "views_per_day": 3,
+            "channel_subscribers": 171
+          }
+        ]
+      },
+      "scanner_b_score": 77.8
+    },
+    {
+      "event_id": "6c2bea9f87f28726",
+      "scanner": "B",
+      "entity": "PayPal Holdings, Inc.",
+      "ticker": "PYPL",
+      "entity_type": "company",
+      "event_title": "PayPal Shares Dive Premarket on Report of Advent, Stripe Abandoning Takeover Plan",
+      "event_timestamp_utc": "2026-08-30T10:32:48+00:00",
+      "categories": [
+        "mna"
+      ],
+      "sec_forms": [],
+      "discovery_score": 50.1,
+      "news_burst_score": 11.1,
+      "source_diversity_score": 38,
+      "catalyst_quality_score": 94,
+      "freshness_score": 100,
+      "evidence_quality_score": 48,
+      "youtube_query": "PayPal PYPL takeover Advent Stripe",
+      "youtube_event_terms": [
+        "PayPal",
+        "takeover",
+        "Advent",
+        "Stripe"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "\"paypal\" OR \"PYPL\"",
+        "article_count": 95,
+        "feed_capped": true,
+        "current_3h": 2,
+        "baseline_3h_median": 2,
+        "short_ratio": 1,
+        "current_day": 5,
+        "baseline_day_median": 1,
+        "long_ratio": 3,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 24,
+        "news_burst_score": 11.1
+      },
+      "source_domains": [
+        "inc.com",
+        "wsj.com"
+      ],
+      "recent_evidence_count": 2,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "mna",
+          "title": "PayPal Shares Dive Premarket on Report of Advent, Stripe Abandoning Takeover Plan",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPSUhQbVJlRXotV2twRWJWeVpOcjhNemgwNlU5b1AzWEd1WkpUakZMc2w0SUFuVGF2d1dycWU5b01zdEJKTUhMUmZySUZyZWVzWU1IU1habm10YUNTeDdnOWx4TEJrTVRwd0lnTmVRd2hiaHZaeHVNMG9heXdENDFnaDl1TUF0QnNBZFIwTm5vbzNJWkJIcVZvQkF2UFE2VHVsWkJ6U3pybFhZRlQ3QUFWSXRSUlYyNXRWWUNHbW5YdnRnQQ?oc=5",
+          "domain": "wsj.com",
+          "source_name": "WSJ",
+          "timestamp_utc": "2026-08-30T10:32:48+00:00",
+          "entity": "PayPal Holdings, Inc.",
+          "ticker": "PYPL",
+          "cik": "1633917",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "mna",
+          "title": "Stripe’s Attempted Takeover of PayPal Has Collapsed—Again",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdzFBYTlSWmNsdDEtNmFNU2c5R0UtMS1rUHp5MjNhMUd4dlgwNGNBaUxubjQzbV9Ma3h4N3RrMXVnb3dTNWY0THBJZXF6Ti1NVVBOeG9EYUZrWDNzUnFHS3NLaUExSjJ0Zk9qVHJRUGlreV91M1ZEVjZROWxPcmV3a2Z4RFdNbi1pZW1ub2RHRXJVRWNnY3FPSFdteWVVcnM?oc=5",
+          "domain": "inc.com",
+          "source_name": "inc.com",
+          "timestamp_utc": "2026-08-30T00:51:12+00:00",
+          "entity": "PayPal Holdings, Inc.",
+          "ticker": "PYPL",
+          "cik": "1633917",
+          "entity_type": "company"
+        }
+      ],
+      "candidate_rank": 8,
+      "judge_version": "B_V1",
+      "entity_accuracy": "pass",
+      "catalyst_reality_score": 25,
+      "investor_materiality_score": 24,
+      "novelty_score": 15,
+      "judge_evidence_quality_score": 12,
+      "content_potential_score": 19,
+      "judge_score": 95,
+      "judge_reason": "PayPal 潜在收购计划被放弃直接影响并购溢价与估值预期，且有高质量媒体证据，投资者相关性强。",
+      "verification_note": "确认 WSJ 报道的交易方、谈判状态以及 PayPal 是否回应。",
+      "youtube_metrics": {
+        "status": "ok",
+        "query": "PayPal PYPL takeover Advent Stripe",
+        "raw_sample_size": 14,
+        "relevant_sample_size": 14,
+        "estimated_total_results": 29,
+        "youtube_supply_gap_score": 70.0,
+        "median_views_per_day": 31,
+        "small_channel_sample_size": 13,
+        "small_channel_hit_rate": 0.0,
+        "sample_videos": [
+          {
+            "video_id": "lHRxHDR1S4g",
+            "title": "PayPal Drops on Deal News; Gap Soars on Earnings | Stock Movers",
+            "channel_id": "UChF5O40UBqAc82I7-i5ig6A",
+            "published_at": "2026-08-28T13:39:20+00:00",
+            "views": 3057,
+            "views_per_day": 1617,
+            "channel_subscribers": 559000
+          },
+          {
+            "video_id": "-rBNS3izMDI",
+            "title": "PayPal深度分析｜$53B收购突然取消，股价一天暴跌13%！10倍P/E、13%自由现金流收益率，PayPal还值得买吗？",
+            "channel_id": "UCB-lBqalpoBchaVNMlUBf-Q",
+            "published_at": "2026-08-30T02:39:58+00:00",
+            "views": 41,
+            "views_per_day": 118,
+            "channel_subscribers": 14700
+          },
+          {
+            "video_id": "haHgx3zd7zo",
+            "title": "PayPal PLUNGES! 🚨 Advent-Stripe Deal Falls Apart | What’s Next?#PayPal #Stripe #AdventInternational",
+            "channel_id": "UCfOJkW5Ann8h9IEEf3D3cgw",
+            "published_at": "2026-08-29T12:30:35+00:00",
+            "views": 106,
+            "views_per_day": 113,
+            "channel_subscribers": 0
+          },
+          {
+            "video_id": "LA-MjshCCT4",
+            "title": "the buyers walked away and paypal lost $7.81 in a day $PYPL",
+            "channel_id": "UCn5rqMDJ2Q0ifo7Wp8PE8Ww",
+            "published_at": "2026-08-29T11:24:04+00:00",
+            "views": 97,
+            "views_per_day": 98,
+            "channel_subscribers": 275
+          },
+          {
+            "video_id": "8nB2FsviZpQ",
+            "title": "PayPal Stock CRASHES 13% After $53B Stripe Deal Collapses | What Happens to PYPL Now?",
+            "channel_id": "UC-WcZn_iwC9_8tHZDhcVRFA",
+            "published_at": "2026-08-28T12:59:45+00:00",
+            "views": 86,
+            "views_per_day": 45,
+            "channel_subscribers": 160
+          },
+          {
+            "video_id": "Ll3wSGhq8kk",
+            "title": "$PYPL: Dips on Advent-Stripe Consortium Dropping Pursuit",
+            "channel_id": "UCUy6q6JP0G4FskWtF3yj0-g",
+            "published_at": "2026-08-28T12:15:02+00:00",
+            "views": 87,
+            "views_per_day": 45,
+            "channel_subscribers": 7100
+          },
+          {
+            "video_id": "u01bTQWI5sA",
+            "title": "Why PayPal Fell 12.7% in One Day #Shorts",
+            "channel_id": "UCSQYFVvDXMFKYrhORlbQBHg",
+            "published_at": "2026-08-29T14:43:42+00:00",
+            "views": 29,
+            "views_per_day": 34,
+            "channel_subscribers": 1
+          },
+          {
+            "video_id": "y8q6ezdL5Xc",
+            "title": "PYPL Stock CRASHES 14%! Is PayPal NOW a BUY After Stripe Deal FALLS Through?",
+            "channel_id": "UCgHlLE31bFoyTh_wNOQxEpw",
+            "published_at": "2026-08-28T12:13:00+00:00",
+            "views": 56,
+            "views_per_day": 29,
+            "channel_subscribers": 259
+          },
+          {
+            "video_id": "LdwmrFVDQjQ",
+            "title": "PayPal Lost a $53 Billion Buyer—Why the Drop Matters #Shorts",
+            "channel_id": "UCQ5rLY_SGHl9VCitFfT8Aeg",
+            "published_at": "2026-08-29T13:09:33+00:00",
+            "views": 24,
+            "views_per_day": 26,
+            "channel_subscribers": 1
+          },
+          {
+            "video_id": "QWXqOvsD_qQ",
+            "title": "PayPal (PYPL) Crashes 12.7% as $53 Billion Takeover Bid Collapses",
+            "channel_id": "UC6pLDoFLQaVjjrL7Gik4lbw",
+            "published_at": "2026-08-29T02:04:53+00:00",
+            "views": 35,
+            "views_per_day": 25,
+            "channel_subscribers": 550
+          }
+        ]
+      },
+      "scanner_b_score": 76.5
+    },
+    {
+      "event_id": "459f0d56006427c2",
+      "scanner": "B",
+      "entity": "BOEING CO",
+      "ticker": "BA",
+      "entity_type": "company",
+      "event_title": "Boeing's Back in the Defense Business With a Big $131.2 Billion Order for New F-15 Fighters",
+      "event_timestamp_utc": "2026-08-29T11:50:00+00:00",
+      "categories": [
+        "contract_order"
+      ],
+      "sec_forms": [],
+      "discovery_score": 32.7,
+      "news_burst_score": 0,
+      "source_diversity_score": 20,
+      "catalyst_quality_score": 82,
+      "freshness_score": 52,
+      "evidence_quality_score": 45,
+      "youtube_query": "Boeing BA F-15 order",
+      "youtube_event_terms": [
+        "Boeing",
+        "F-15",
+        "order"
+      ],
+      "baseline": {
+        "query": null,
+        "current_3h": null,
+        "baseline_3h_median": null,
+        "short_ratio": null,
+        "current_day": 1,
+        "baseline_day_median": 1,
+        "long_ratio": 1,
+        "news_burst_score": 0,
+        "source": "rolling_local_fallback"
+      },
+      "source_domains": [
+        "finance.yahoo.com"
+      ],
+      "recent_evidence_count": 1,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "contract_order",
+          "title": "Boeing's Back in the Defense Business With a Big $131.2 Billion Order for New F-15 Fighters",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNU2g4cmEyeFNOSjZEY0VXcWhUX0gwZHRSSTRUMDU3ZUZxWjNoNk1qbnN3RWp2alFjMi1yb29YWFB4UWxWVklhejRSYjNLUlI2Sk1MWElWa3dOQVlBWS1YT1lINjBfUU45T001T0x2SkNmTjBqTmVOc1ZYdXdkVWlEM3dNQURibkpxdWphSUZaNmpueGhFMUJQNGlPXzJfUDQ?oc=5",
+          "domain": "finance.yahoo.com",
+          "source_name": "Yahoo Finance",
+          "timestamp_utc": "2026-08-29T11:50:00+00:00",
+          "entity": "BOEING CO",
+          "ticker": "BA",
+          "cik": "12927",
+          "entity_type": "company"
+        }
+      ],
+      "candidate_rank": 128,
+      "judge_version": "B_V1",
+      "entity_accuracy": "pass",
+      "catalyst_reality_score": 25,
+      "investor_materiality_score": 24,
+      "novelty_score": 13,
+      "judge_evidence_quality_score": 9,
+      "content_potential_score": 19,
+      "judge_score": 90,
+      "judge_reason": "Boeing 大额 F-15 订单若按报道落地，对防务收入与积压订单高度重要，金额足以形成强投资者钩子。",
+      "verification_note": "核对合同授予方、订单总额、交付期与 Boeing 官方/政府公告。",
+      "youtube_metrics": {
+        "status": "ok_no_videos",
+        "query": "Boeing BA F-15 order",
+        "raw_sample_size": 0,
+        "relevant_sample_size": 0,
+        "estimated_total_results": 20,
+        "youtube_supply_gap_score": 100.0,
+        "median_views_per_day": 0,
+        "small_channel_hit_rate": 0.0,
+        "sample_videos": []
+      },
+      "scanner_b_score": 74.8
+    },
+    {
+      "event_id": "bbc11ef66a6454fa",
+      "scanner": "B",
+      "entity": "Tesla, Inc.",
+      "ticker": "TSLA",
+      "entity_type": "company",
+      "event_title": "Optimus Just Entered Production at Fremont. Here's What Changes for Tesla Investors",
+      "event_timestamp_utc": "2026-08-29T18:35:00+00:00",
+      "categories": [
+        "pricing_capacity"
+      ],
+      "sec_forms": [],
+      "discovery_score": 31.7,
+      "news_burst_score": 0,
+      "source_diversity_score": 20,
+      "catalyst_quality_score": 77,
+      "freshness_score": 52,
+      "evidence_quality_score": 45,
+      "youtube_query": "Tesla TSLA Optimus Fremont production",
+      "youtube_event_terms": [
+        "Tesla",
+        "Optimus",
+        "production"
+      ],
+      "baseline": {
+        "query": null,
+        "current_3h": null,
+        "baseline_3h_median": null,
+        "short_ratio": null,
+        "current_day": 1,
+        "baseline_day_median": 1,
+        "long_ratio": 1,
+        "news_burst_score": 0,
+        "source": "rolling_local_fallback"
+      },
+      "source_domains": [
+        "finance.yahoo.com"
+      ],
+      "recent_evidence_count": 1,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "pricing_capacity",
+          "title": "Optimus Just Entered Production at Fremont. Here's What Changes for Tesla Investors",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOMk0zMUVJdkxTVkxLRnFRSzhzMHg5NTVkUnBhNHJMM3R2eXc2X1ZmOW9QSlhzS3QxVU0xSkMzYnI4Q0wzaGxBbGRCOXNwT3BGd3BCMUo2MlFEVzZjcHgzOFMxbm1lVlFPXzdVUVFTRnZaQVUyZmozLWU5WVpkMVBGTHgza0lCbXpnb01RdUlqYndnX0tWLWh2akFhYWZKVWdUMnNVdjJUZw?oc=5",
+          "domain": "finance.yahoo.com",
+          "source_name": "Yahoo Finance",
+          "timestamp_utc": "2026-08-29T18:35:00+00:00",
+          "entity": "Tesla, Inc.",
+          "ticker": "TSLA",
+          "cik": "1318605",
+          "entity_type": "company"
+        }
+      ],
+      "candidate_rank": 135,
+      "judge_version": "B_V1",
+      "entity_accuracy": "pass",
+      "catalyst_reality_score": 24,
+      "investor_materiality_score": 24,
+      "novelty_score": 14,
+      "judge_evidence_quality_score": 9,
+      "content_potential_score": 20,
+      "judge_score": 91,
+      "judge_reason": "Tesla Optimus 进入 Fremont 生产若属实，是机器人商业化节奏的关键节点，对 TSLA 估值叙事高度重要。",
+      "verification_note": "必须确认 Tesla 官方是否称为量产，以及产量、用途和时间表。",
+      "youtube_metrics": {
+        "status": "ok",
+        "query": "Tesla TSLA Optimus Fremont production",
+        "raw_sample_size": 3,
+        "relevant_sample_size": 3,
+        "estimated_total_results": 7,
+        "youtube_supply_gap_score": 95.0,
+        "median_views_per_day": 67,
+        "small_channel_sample_size": 3,
+        "small_channel_hit_rate": 0.0,
+        "sample_videos": [
+          {
+            "video_id": "n-9c4ndm7GY",
+            "title": "Elon Musk Says 80% Of Tesla's Value Is NO LONGER Cars.  #usashorts  #elonmusk #tesla",
+            "channel_id": "UC2u3pahm_VO5Ck4y54EgAZw",
+            "published_at": "2026-08-28T20:26:45+00:00",
+            "views": 1161,
+            "views_per_day": 722,
+            "channel_subscribers": 23
+          },
+          {
+            "video_id": "ogInJghqIbI",
+            "title": "Tesla Tore Out The Model S Line. What Replaced It Walks #stockmarket #investing #money #stocks",
+            "channel_id": "UC1NGFso7iz54VrzR_F_hd0A",
+            "published_at": "2026-08-28T10:30:07+00:00",
+            "views": 135,
+            "views_per_day": 67,
+            "channel_subscribers": 2830
+          },
+          {
+            "video_id": "LeDt_yeOcNg",
+            "title": "Fremont humanoid lines going in | Optimus Wire",
+            "channel_id": "UCdTPp4hEjvj3FGkX-l9SyeQ",
+            "published_at": "2026-08-29T03:57:46+00:00",
+            "views": 57,
+            "views_per_day": 44,
+            "channel_subscribers": 2
+          }
+        ]
+      },
+      "scanner_b_score": 74.0
+    },
+    {
+      "event_id": "4993cacc63af0930",
+      "scanner": "B",
+      "entity": "CHEVRON CORP",
+      "ticker": "CVX",
+      "entity_type": "company",
+      "event_title": "Venezuela-U.S. Energy Deal Targets 1.5 Million Bpd Oil Output - Chevron (NYSE:CVX)",
+      "event_timestamp_utc": "2026-08-30T08:14:34+00:00",
+      "categories": [
+        "contract_order"
+      ],
+      "sec_forms": [],
+      "discovery_score": 45.1,
+      "news_burst_score": 21.6,
+      "source_diversity_score": 20,
+      "catalyst_quality_score": 82,
+      "freshness_score": 92,
+      "evidence_quality_score": 33,
+      "youtube_query": "Chevron CVX Venezuela oil deal",
+      "youtube_event_terms": [
+        "Chevron",
+        "Venezuela",
+        "oil"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "\"chevron\" OR \"CVX\"",
+        "article_count": 95,
+        "feed_capped": true,
         "current_3h": 1,
         "baseline_3h_median": 0,
         "short_ratio": 2,
         "current_day": 4,
-        "baseline_day_median": 2,
-        "long_ratio": 1.667,
-        "news_burst_score": 23.2,
-        "feed_capped": true
+        "baseline_day_median": 2.5,
+        "long_ratio": 1.429,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 28,
+        "news_burst_score": 21.6
       },
       "source_domains": [
-        "finance.yahoo.com"
+        "benzinga.com"
       ],
       "recent_evidence_count": 1,
-      "youtube_query": "HIMS Down Raising Guidance",
-      "youtube_event_terms": [
-        "Down",
-        "Raising",
-        "Guidance"
-      ],
-      "evidence_sample": [
+      "evidence": [
         {
-          "title": "Hims & Hers Health (HIMS) Is Down 14.6% After Raising Guidance Amid Privacy Scrutiny - What's Changed",
-          "domain": "finance.yahoo.com",
-          "source_name": "Yahoo Finance",
-          "timestamp_utc": "2026-08-29T09:07:25+00:00",
           "source_type": "news_rss",
-          "category": "earnings_guidance",
-          "sec_form": null
+          "category": "contract_order",
+          "title": "Venezuela-U.S. Energy Deal Targets 1.5 Million Bpd Oil Output - Chevron (NYSE:CVX)",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaTJycGxLelowa2h6OFlPS2dtYzI3REVsM1d4ZXhYQjF0dFVYNDhoLTkxT2hVb2N2a2FYLTZDRHRoX2Q2amtHSlB4a2RaaDJxQ3RyYkdoNVRrcjBJTnBhLVBxdjQtcHVtZTFDWUVZeFBUUXN2M2FZYlRheE5LaUVvYVBjQXprNGdDWkhpT2VHdnJwempwbDFYQkZaLW5EaldfeTk4aVZxWXJDcWM?oc=5",
+          "domain": "benzinga.com",
+          "source_name": "Benzinga",
+          "timestamp_utc": "2026-08-30T08:14:34+00:00",
+          "entity": "CHEVRON CORP",
+          "ticker": "CVX",
+          "cik": "93410",
+          "entity_type": "company"
         }
       ],
+      "candidate_rank": 22,
       "judge_version": "B_V1",
       "entity_accuracy": "pass",
-      "catalyst_reality_score": 22,
-      "investor_materiality_score": 18,
-      "novelty_score": 13,
-      "judge_evidence_quality_score": 8,
-      "content_potential_score": 16,
-      "judge_score": 77,
-      "judge_reason": "Hims & Hers is down sharply despite raised guidance as privacy scrutiny weighs on the story, giving a clean growth-versus-regulatory-risk angle.",
-      "verification_note": "Confirm the updated guidance and the specific privacy issue driving the share-price reaction.",
+      "catalyst_reality_score": 23,
+      "investor_materiality_score": 22,
+      "novelty_score": 14,
+      "judge_evidence_quality_score": 6,
+      "content_potential_score": 18,
+      "judge_score": 83,
+      "judge_reason": "委内瑞拉—美国能源安排若推进，将影响 Chevron 与全球原油供给预期，事件重要但当前证据较薄。",
+      "verification_note": "必须确认协议主体、1.5m bpd 目标和 Chevron 的实际参与范围。",
       "youtube_metrics": {
-        "status": "ok_no_videos",
-        "query": "HIMS Down Raising Guidance",
-        "raw_sample_size": 0,
-        "relevant_sample_size": 0,
-        "estimated_total_results": 15,
-        "youtube_supply_gap_score": 100.0,
-        "median_views_per_day": 0,
+        "status": "ok",
+        "query": "Chevron CVX Venezuela oil deal",
+        "raw_sample_size": 4,
+        "relevant_sample_size": 4,
+        "estimated_total_results": 28,
+        "youtube_supply_gap_score": 95.0,
+        "median_views_per_day": 27,
+        "small_channel_sample_size": 4,
         "small_channel_hit_rate": 0.0,
-        "sample_videos": []
+        "sample_videos": [
+          {
+            "video_id": "O5rHC0nfMRc",
+            "title": "Trump’s 65 Billion-Barrel Oil Deal—The Real Stock Winners #Shorts",
+            "channel_id": "UCQ5rLY_SGHl9VCitFfT8Aeg",
+            "published_at": "2026-08-29T10:36:06+00:00",
+            "views": 199,
+            "views_per_day": 195,
+            "channel_subscribers": 1
+          },
+          {
+            "video_id": "7TPUVJue_24",
+            "title": "CVX Stock: Chevron’s $Billion Venezuela Opportunity — A New Growth Engine?",
+            "channel_id": "UCdu2LIYE2AARXr_vG7AtvCA",
+            "published_at": "2026-08-29T06:30:34+00:00",
+            "views": 38,
+            "views_per_day": 32,
+            "channel_subscribers": 1740
+          },
+          {
+            "video_id": "YO4RSdEQsfE",
+            "title": "Technical and geopolitical speculations on Oil/Stocks/Venezuela-29/08/2026-",
+            "channel_id": "UCcRzMbSDy9DGbQynyMw8JJA",
+            "published_at": "2026-08-29T13:51:16+00:00",
+            "views": 20,
+            "views_per_day": 23,
+            "channel_subscribers": 6840
+          },
+          {
+            "video_id": "idwprHcRqmg",
+            "title": "President Trump announces 'biggest oil deal in world history'",
+            "channel_id": "UClduABJuRU26JvAG92JddSQ",
+            "published_at": "2026-08-29T05:25:56+00:00",
+            "views": 1,
+            "views_per_day": 1,
+            "channel_subscribers": 2
+          }
+        ]
       },
-      "scanner_b_score": 73.0
+      "scanner_b_score": 74.0
     },
     {
-      "candidate_rank": 25,
-      "event_id": "cfb26eab6ed97cdb",
-      "entity": "LATTICE SEMICONDUCTOR CORP",
-      "ticker": "LSCC",
+      "event_id": "a4a8ad1c64ecc085",
+      "scanner": "B",
+      "entity": "MICROSOFT CORP",
+      "ticker": "MSFT",
       "entity_type": "company",
-      "event_title": "Lattice Semiconductor Sees AMI Combination Powering $3B AI Data Center Ambition",
-      "event_timestamp_utc": "2026-08-29T02:01:00+00:00",
+      "event_title": "Microsoft and Chevron Sign 20-Year Power Deal For Texas Data Center",
+      "event_timestamp_utc": "2026-08-29T12:32:04+00:00",
       "categories": [
-        "ai_semis"
+        "contract_order"
       ],
-      "discovery_score": 46.2,
-      "news_burst_score": 39.6,
+      "sec_forms": [],
+      "discovery_score": 31.5,
+      "news_burst_score": 0,
       "source_diversity_score": 20,
-      "catalyst_quality_score": 68,
-      "freshness_score": 68,
-      "evidence_quality_score": 45,
+      "catalyst_quality_score": 82,
+      "freshness_score": 52,
+      "evidence_quality_score": 33,
+      "youtube_query": "Microsoft MSFT Chevron Texas data center power deal",
+      "youtube_event_terms": [
+        "Microsoft",
+        "Chevron",
+        "data center"
+      ],
       "baseline": {
-        "source": "google_news_rss",
-        "current_3h": 2,
-        "baseline_3h_median": 0,
-        "short_ratio": 3,
-        "current_day": 5,
+        "query": null,
+        "current_3h": null,
+        "baseline_3h_median": null,
+        "short_ratio": null,
+        "current_day": 1,
         "baseline_day_median": 1,
-        "long_ratio": 3,
-        "news_burst_score": 39.6,
-        "feed_capped": false
+        "long_ratio": 1,
+        "news_burst_score": 0,
+        "source": "rolling_local_fallback"
       },
       "source_domains": [
-        "finance.yahoo.com"
+        "energynow.com"
       ],
       "recent_evidence_count": 1,
-      "youtube_query": "LSCC Sees Combination Powering",
-      "youtube_event_terms": [
-        "Sees",
-        "Combination",
-        "Powering"
-      ],
-      "evidence_sample": [
+      "evidence": [
         {
-          "title": "Lattice Semiconductor Sees AMI Combination Powering $3B AI Data Center Ambition",
-          "domain": "finance.yahoo.com",
-          "source_name": "Yahoo Finance",
-          "timestamp_utc": "2026-08-29T02:01:00+00:00",
           "source_type": "news_rss",
-          "category": "ai_semis",
-          "sec_form": null
+          "category": "contract_order",
+          "title": "Microsoft and Chevron Sign 20-Year Power Deal For Texas Data Center",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQNmtOMnRJVnZpV0VpVE1FdDZhSGJtLWtoY0Q0ODhXaVpfdzBmQU16X3A3MUw5TEo2T0VoRTBwZXlvX19kLXcyMFVXUE9yNGpxekRWcG4wOFQzYVJiMHJVWTEtY0JiOVhyeXlhaS1EX1ZaRDhPN1Q4S2tCOTlNT216eVl5WnhBeFpNa2RDOVBhWk1CdElYMWZ6eHZqSFBjN1k?oc=5",
+          "domain": "energynow.com",
+          "source_name": "EnergyNow.com",
+          "timestamp_utc": "2026-08-29T12:32:04+00:00",
+          "entity": "MICROSOFT CORP",
+          "ticker": "MSFT",
+          "cik": "789019",
+          "entity_type": "company"
         }
       ],
+      "candidate_rank": 140,
       "judge_version": "B_V1",
       "entity_accuracy": "pass",
-      "catalyst_reality_score": 22,
-      "investor_materiality_score": 19,
-      "novelty_score": 12,
+      "catalyst_reality_score": 24,
+      "investor_materiality_score": 23,
+      "novelty_score": 14,
       "judge_evidence_quality_score": 8,
-      "content_potential_score": 16,
-      "judge_score": 77,
-      "judge_reason": "Lattice's AMI combination is being framed around a $3B AI-data-center opportunity, a focused FPGA/edge-AI semiconductor catalyst.",
-      "verification_note": "Separate previously announced deal facts from new disclosures and confirm the $3B opportunity language in company materials.",
+      "content_potential_score": 19,
+      "judge_score": 88,
+      "judge_reason": "Microsoft 与 Chevron 的长期供电协议把 AI 数据中心电力需求与能源资本开支直接连接，投资角度强。",
+      "verification_note": "核对合同签约主体、期限、容量、数据中心位置及公司公告。",
       "youtube_metrics": {
         "status": "ok_no_videos",
-        "query": "LSCC Sees Combination Powering",
+        "query": "Microsoft MSFT Chevron Texas data center power deal",
         "raw_sample_size": 0,
         "relevant_sample_size": 0,
         "estimated_total_results": 0,
@@ -956,296 +778,1582 @@
         "small_channel_hit_rate": 0.0,
         "sample_videos": []
       },
-      "scanner_b_score": 72.4
+      "scanner_b_score": 73.5
     },
     {
-      "candidate_rank": 28,
-      "event_id": "c07b06e08a0db4a6",
-      "entity": "Okta, Inc.",
-      "ticker": "OKTA",
+      "event_id": "971a95b2035622fb",
+      "scanner": "B",
+      "entity": "NVIDIA CORP",
+      "ticker": "NVDA",
       "entity_type": "company",
-      "event_title": "Okta (OKTA) Grew Remaining Performance Obligations 17% While Revenue Rose 11%. Is the Platform Reaccelerating?",
-      "event_timestamp_utc": "2026-08-29T03:17:00+00:00",
+      "event_title": "Lambda Secures $1 Billion Debt for NVIDIA GPU Acquisition and Mi",
+      "event_timestamp_utc": "2026-08-30T07:42:29+00:00",
       "categories": [
-        "earnings_guidance"
+        "mna"
       ],
-      "discovery_score": 45.8,
-      "news_burst_score": 25.9,
+      "sec_forms": [],
+      "discovery_score": 39.4,
+      "news_burst_score": 2.9,
       "source_diversity_score": 20,
-      "catalyst_quality_score": 90,
-      "freshness_score": 68,
-      "evidence_quality_score": 45,
+      "catalyst_quality_score": 94,
+      "freshness_score": 82,
+      "evidence_quality_score": 33,
+      "youtube_query": "NVIDIA NVDA Lambda GPU debt",
+      "youtube_event_terms": [
+        "NVIDIA",
+        "Lambda",
+        "GPU"
+      ],
       "baseline": {
         "source": "google_news_rss",
+        "query": "\"nvidia\" OR \"NVDA\"",
+        "article_count": 99,
+        "feed_capped": true,
         "current_3h": 0,
-        "baseline_3h_median": 3,
-        "short_ratio": 0.25,
-        "current_day": 12,
-        "baseline_day_median": 0,
-        "long_ratio": 13,
-        "news_burst_score": 25.9,
-        "feed_capped": false
+        "baseline_3h_median": 0,
+        "short_ratio": 1,
+        "current_day": 3,
+        "baseline_day_median": 2,
+        "long_ratio": 1.333,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 26,
+        "news_burst_score": 2.9
       },
       "source_domains": [
-        "finance.yahoo.com"
+        "gurufocus.com"
       ],
       "recent_evidence_count": 1,
-      "youtube_query": "OKTA Grew Remaining Performance",
-      "youtube_event_terms": [
-        "Grew",
-        "Remaining",
-        "Performance"
-      ],
-      "evidence_sample": [
+      "evidence": [
         {
-          "title": "Okta (OKTA) Grew Remaining Performance Obligations 17% While Revenue Rose 11%. Is the Platform Reaccelerating?",
-          "domain": "finance.yahoo.com",
-          "source_name": "Yahoo Finance",
-          "timestamp_utc": "2026-08-29T03:17:00+00:00",
           "source_type": "news_rss",
-          "category": "earnings_guidance",
-          "sec_form": null
+          "category": "mna",
+          "title": "Lambda Secures $1 Billion Debt for NVIDIA GPU Acquisition and Mi",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWlJXVzhPNE5seHU1bWRwTkxHMWxTZTJBMnJUYktDZk1BZVNhcFN6X0FZOExzbFdCeXplUTk2UmY3QS04YmEzNU1uelllVVI0WTJERGlMUnV1UHVHNUlreXNEZURaVGZQMWExUVcwV01zZTgzanBxSWp2R1pVLVp0MUFBYUNxaGxRQ2hmYzZDY2FaMDVsQ0FxbnVtNVhGdXU5UTc2MndDUGZBLTl1UDRCZVlHeDBGSTA0?oc=5",
+          "domain": "gurufocus.com",
+          "source_name": "GuruFocus",
+          "timestamp_utc": "2026-08-30T07:42:29+00:00",
+          "entity": "NVIDIA CORP",
+          "ticker": "NVDA",
+          "cik": "1045810",
+          "entity_type": "company"
         }
       ],
+      "candidate_rank": 60,
       "judge_version": "B_V1",
       "entity_accuracy": "pass",
-      "catalyst_reality_score": 22,
-      "investor_materiality_score": 18,
+      "catalyst_reality_score": 23,
+      "investor_materiality_score": 24,
       "novelty_score": 12,
-      "judge_evidence_quality_score": 8,
-      "content_potential_score": 16,
-      "judge_score": 76,
-      "judge_reason": "Okta's remaining performance obligations grew faster than revenue, offering a useful post-earnings signal on whether demand is reaccelerating.",
-      "verification_note": "Confirm RPO, revenue growth and forward guidance in Okta's earnings release or call transcript.",
+      "judge_evidence_quality_score": 6,
+      "content_potential_score": 18,
+      "judge_score": 83,
+      "judge_reason": "Lambda 为购买 NVIDIA GPU 获得大额债务融资，强化 AI 基建融资与 NVDA 需求的联动，但需更强一手确认。",
+      "verification_note": "核对 Lambda/NVIDIA/贷款方公告中的融资金额、用途与条款。",
       "youtube_metrics": {
-        "status": "ok",
-        "query": "OKTA Grew Remaining Performance",
-        "raw_sample_size": 1,
+        "status": "ok_no_videos",
+        "query": "NVIDIA NVDA Lambda GPU debt",
+        "raw_sample_size": 0,
         "relevant_sample_size": 0,
-        "estimated_total_results": 29,
+        "estimated_total_results": 2,
         "youtube_supply_gap_score": 100.0,
         "median_views_per_day": 0,
-        "small_channel_sample_size": 0,
         "small_channel_hit_rate": 0.0,
         "sample_videos": []
       },
-      "scanner_b_score": 71.7
+      "scanner_b_score": 73.3
     },
     {
-      "candidate_rank": 19,
-      "event_id": "7d5bbe2bc094d1ce",
-      "entity": "Marvell Technology, Inc.",
-      "ticker": "MRVL",
+      "event_id": "4cc491da3b1d00b0",
+      "scanner": "B",
+      "entity": "VEEVA SYSTEMS INC",
+      "ticker": "VEEV",
       "entity_type": "company",
-      "event_title": "Marvell Stock Leads 3 AI Infrastructure Picks With Strong Earnings Growth",
-      "event_timestamp_utc": "2026-08-29T06:42:40+00:00",
+      "event_title": "Why Veeva Systems (VEEV) Is Up 11.6% After Strong Q2, Higher Guidance, and New AI CRM Wins",
+      "event_timestamp_utc": "2026-08-30T07:37:02+00:00",
       "categories": [
         "earnings_guidance"
       ],
-      "discovery_score": 47.4,
-      "news_burst_score": 28,
+      "sec_forms": [],
+      "discovery_score": 39,
+      "news_burst_score": 4.1,
       "source_diversity_score": 20,
       "catalyst_quality_score": 90,
       "freshness_score": 82,
       "evidence_quality_score": 33,
+      "youtube_query": "Veeva VEEV earnings AI CRM",
+      "youtube_event_terms": [
+        "Veeva",
+        "earnings",
+        "AI"
+      ],
       "baseline": {
         "source": "google_news_rss",
+        "query": "\"veeva systems\" OR \"VEEV\"",
+        "article_count": 89,
+        "feed_capped": false,
         "current_3h": 0,
         "baseline_3h_median": 1,
         "short_ratio": 0.5,
-        "current_day": 22,
-        "baseline_day_median": 0,
-        "long_ratio": 23,
-        "news_burst_score": 28,
-        "feed_capped": false
+        "current_day": 2,
+        "baseline_day_median": 1,
+        "long_ratio": 1.5,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 29,
+        "news_burst_score": 4.1
       },
       "source_domains": [
         "simplywall.st"
       ],
       "recent_evidence_count": 1,
-      "youtube_query": "MRVL Stock Leads Infrastructure",
-      "youtube_event_terms": [
-        "Stock",
-        "Leads",
-        "Infrastructure"
-      ],
-      "evidence_sample": [
+      "evidence": [
         {
-          "title": "Marvell Stock Leads 3 AI Infrastructure Picks With Strong Earnings Growth",
-          "domain": "simplywall.st",
-          "source_name": "simplywall.st",
-          "timestamp_utc": "2026-08-29T06:42:40+00:00",
           "source_type": "news_rss",
           "category": "earnings_guidance",
-          "sec_form": null
+          "title": "Why Veeva Systems (VEEV) Is Up 11.6% After Strong Q2, Higher Guidance, and New AI CRM Wins",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNcGR6RU82Y0lteTRsMDJNa1hHcWp5NXBCSTJMQnpOLWxPUnoyX2xyUXVWSVdTNENITXpvWkRLUEdsMjBEcVVRNExtWVJFYXVuOGRRbkZwSDg5SUdnODZQQU5fS2ppWlFzcmYtczhhYzFRN2pfeUlTNzFkeWRoZjdaNEVMaFJMOWQwa0VQdVBidVF4emNQTUltemtROS1ZUjN3SjlxQmQwbjhuV3ZnenRONzRVSzlBOEJFUjVEX0J6R1VUSXNvUGJXRzBpbUvSAdIBQVVfeXFMUFpUMUNEd0xRcnpsSWdVVzRoWFo0X0dOQ0pvMU9majB3MFd3T3hobEFnWmNKeVpLenlhV0NUbENjbTkyaWJzSVFzX1NveWpsWERhQUpMaGVETWxMTjZGRFRlbWw0VnlsbnRwbHRlZTk1UGhIdHM2czM3QmQ3UDVhVENhLXJhVndiTF82WFBTUGQxVF9EVVRvVUZnZEFHNFh2TGZEek16TkpMSTFBakRRWmxJb1ZIMzV1T3U3eklVSnlNUy0tdzBrYzJLcTUzaWNIVzdB?oc=5",
+          "domain": "simplywall.st",
+          "source_name": "simplywall.st",
+          "timestamp_utc": "2026-08-30T07:37:02+00:00",
+          "entity": "VEEVA SYSTEMS INC",
+          "ticker": "VEEV",
+          "cik": "1393052",
+          "entity_type": "company"
         }
       ],
+      "candidate_rank": 67,
       "judge_version": "B_V1",
       "entity_accuracy": "pass",
-      "catalyst_reality_score": 21,
-      "investor_materiality_score": 20,
-      "novelty_score": 10,
+      "catalyst_reality_score": 24,
+      "investor_materiality_score": 21,
+      "novelty_score": 12,
       "judge_evidence_quality_score": 7,
       "content_potential_score": 17,
-      "judge_score": 75,
-      "judge_reason": "Marvell remains a high-attention AI-infrastructure name after earnings, with the feed highlighting continued earnings-growth interest despite the selloff.",
-      "verification_note": "Anchor any video to Marvell's actual reported results, guidance and post-earnings share move rather than third-party valuation commentary.",
+      "judge_score": 81,
+      "judge_reason": "Veeva 强劲 Q2、上调指引及 AI CRM 赢单构成明确软件基本面催化，适合 AI 软件变现角度。",
+      "verification_note": "用公司财报核对增长、指引和 AI CRM 客户披露。",
       "youtube_metrics": {
-        "status": "ok_no_videos",
-        "query": "MRVL Stock Leads Infrastructure",
-        "raw_sample_size": 0,
-        "relevant_sample_size": 0,
-        "estimated_total_results": 25,
+        "status": "ok",
+        "query": "Veeva VEEV earnings AI CRM",
+        "raw_sample_size": 2,
+        "relevant_sample_size": 2,
+        "estimated_total_results": 9,
         "youtube_supply_gap_score": 100.0,
-        "median_views_per_day": 0,
+        "median_views_per_day": 18,
+        "small_channel_sample_size": 2,
         "small_channel_hit_rate": 0.0,
-        "sample_videos": []
+        "sample_videos": [
+          {
+            "video_id": "pV-a8ZzcZc0",
+            "title": "Veeva Systems (VEEV) Q2 FY2027 Earnings: The AI Cloud King Dominates",
+            "channel_id": "UCD6YjhZMNj_iz1tDAxc97_w",
+            "published_at": "2026-08-27T17:25:42+00:00",
+            "views": 72,
+            "views_per_day": 26,
+            "channel_subscribers": 8980
+          },
+          {
+            "video_id": "_gOn9SEvX7A",
+            "title": "Veeva Systems Stock: $600+ Potential? My 5–10 Year Forecast",
+            "channel_id": "UCdu2LIYE2AARXr_vG7AtvCA",
+            "published_at": "2026-08-27T11:30:02+00:00",
+            "views": 33,
+            "views_per_day": 11,
+            "channel_subscribers": 1740
+          }
+        ]
       },
-      "scanner_b_score": 71.7
+      "scanner_b_score": 72.2
     },
     {
-      "candidate_rank": 91,
-      "event_id": "5f4872e0e8fa75b2",
-      "entity": "ENERGY FUELS INC",
-      "ticker": "UUUU",
+      "event_id": "7a1adea83adc98a3",
+      "scanner": "B",
+      "entity": "MAGNITE, INC.",
+      "ticker": "MGNI",
       "entity_type": "company",
-      "event_title": "Energy Fuels Completes Acquisition of Australian Strategic Materials",
-      "event_timestamp_utc": "2026-08-28T20:15:00+00:00",
-      "categories": [
-        "mna"
-      ],
-      "discovery_score": 38.2,
-      "news_burst_score": 12.2,
-      "source_diversity_score": 20,
-      "catalyst_quality_score": 94,
-      "freshness_score": 52,
-      "evidence_quality_score": 33,
-      "baseline": {
-        "source": "google_news_rss",
-        "current_3h": 0,
-        "baseline_3h_median": 0,
-        "short_ratio": 1,
-        "current_day": 9,
-        "baseline_day_median": 2,
-        "long_ratio": 3.333,
-        "news_burst_score": 12.2,
-        "feed_capped": false
-      },
-      "source_domains": [
-        "prnewswire.com"
-      ],
-      "recent_evidence_count": 1,
-      "youtube_query": "UUUU Completes Acquisition Australian",
-      "youtube_event_terms": [
-        "Completes",
-        "Acquisition",
-        "Australian"
-      ],
-      "evidence_sample": [
-        {
-          "title": "Energy Fuels Completes Acquisition of Australian Strategic Materials",
-          "domain": "prnewswire.com",
-          "source_name": "PR Newswire",
-          "timestamp_utc": "2026-08-28T20:15:00+00:00",
-          "source_type": "news_rss",
-          "category": "mna",
-          "sec_form": null
-        }
-      ],
-      "judge_version": "B_V1",
-      "entity_accuracy": "pass",
-      "catalyst_reality_score": 25,
-      "investor_materiality_score": 18,
-      "novelty_score": 15,
-      "judge_evidence_quality_score": 7,
-      "content_potential_score": 15,
-      "judge_score": 80,
-      "judge_reason": "Energy Fuels completed its Australian Strategic Materials acquisition, a concrete strategic-minerals deal with uranium/critical-minerals read-through.",
-      "verification_note": "Confirm closing consideration, acquired assets and any updated production or capital guidance from the company release.",
-      "youtube_metrics": {
-        "status": "ok_no_videos",
-        "query": "UUUU Completes Acquisition Australian",
-        "raw_sample_size": 0,
-        "relevant_sample_size": 0,
-        "estimated_total_results": 6,
-        "youtube_supply_gap_score": 100.0,
-        "median_views_per_day": 0,
-        "small_channel_hit_rate": 0.0,
-        "sample_videos": []
-      },
-      "scanner_b_score": 71.5
-    },
-    {
-      "candidate_rank": 22,
-      "event_id": "ae2b270cb3a0da36",
-      "entity": "BEST BUY CO INC",
-      "ticker": "BBY",
-      "entity_type": "company",
-      "event_title": "Best Buy (BBY) Raised Comparable-Sales Guidance but Product Margins Fell. Can Ads and Marketplace Sustain Margin Recovery?",
-      "event_timestamp_utc": "2026-08-29T03:27:00+00:00",
+      "event_title": "Magnite (MGNI) Lifted Guidance, Is The Stock Fully Priced?",
+      "event_timestamp_utc": "2026-08-30T08:14:23+00:00",
       "categories": [
         "earnings_guidance"
       ],
-      "discovery_score": 46.5,
-      "news_burst_score": 28,
+      "sec_forms": [],
+      "discovery_score": 51.1,
+      "news_burst_score": 34.2,
       "source_diversity_score": 20,
       "catalyst_quality_score": 90,
-      "freshness_score": 68,
-      "evidence_quality_score": 45,
+      "freshness_score": 92,
+      "evidence_quality_score": 33,
+      "youtube_query": "Magnite MGNI guidance",
+      "youtube_event_terms": [
+        "Magnite",
+        "guidance",
+        "earnings"
+      ],
       "baseline": {
         "source": "google_news_rss",
+        "query": "\"magnite\" OR \"MGNI\"",
+        "article_count": 98,
+        "feed_capped": true,
+        "current_3h": 2,
+        "baseline_3h_median": 0,
+        "short_ratio": 3,
+        "current_day": 6,
+        "baseline_day_median": 3,
+        "long_ratio": 1.75,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 26,
+        "news_burst_score": 34.2
+      },
+      "source_domains": [
+        "sg.finance.yahoo.com"
+      ],
+      "recent_evidence_count": 1,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "earnings_guidance",
+          "title": "Magnite (MGNI) Lifted Guidance, Is The Stock Fully Priced?",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOOEhfZ20yM0t2UVVaUmtLdHpaR3hpWE9leXlxOUkzUGRKM25BYTZDNG9sdnBZZ3MwVVpvLUQ5VUhLajh4RzRBYldSdmR5SHZIdE40R3ZuNzFnZlpOT19qNVBha2dNMjhGRW9XOFJnVUo3RENzSDJPeXE1M0xzRTF6MXNPZGtyNzJJWDlF?oc=5",
+          "domain": "sg.finance.yahoo.com",
+          "source_name": "Yahoo Finance Singapore",
+          "timestamp_utc": "2026-08-30T08:14:23+00:00",
+          "entity": "MAGNITE, INC.",
+          "ticker": "MGNI",
+          "cik": "1595974",
+          "entity_type": "company"
+        }
+      ],
+      "candidate_rank": 6,
+      "judge_version": "B_V1",
+      "entity_accuracy": "pass",
+      "catalyst_reality_score": 22,
+      "investor_materiality_score": 18,
+      "novelty_score": 11,
+      "judge_evidence_quality_score": 7,
+      "content_potential_score": 15,
+      "judge_score": 73,
+      "judge_reason": "Magnite 上调指引属于明确基本面催化剂，广告科技增长与估值都可形成短视频角度。",
+      "verification_note": "核对公司原始指引变化与增长驱动。",
+      "youtube_metrics": {
+        "status": "ok_no_videos",
+        "query": "Magnite MGNI guidance",
+        "raw_sample_size": 0,
+        "relevant_sample_size": 0,
+        "estimated_total_results": 2,
+        "youtube_supply_gap_score": 100.0,
+        "median_views_per_day": 0,
+        "small_channel_hit_rate": 0.0,
+        "sample_videos": []
+      },
+      "scanner_b_score": 71.8
+    },
+    {
+      "event_id": "89de029ffe24fe6e",
+      "scanner": "B",
+      "entity": "Iris Energy Ltd",
+      "ticker": "IREN",
+      "entity_type": "company",
+      "event_title": "IREN secures $6.5 billion GPU financing as AI pricing surges 125%",
+      "event_timestamp_utc": "2026-08-29T21:47:35+00:00",
+      "categories": [
+        "ai_semis"
+      ],
+      "sec_forms": [],
+      "discovery_score": 40.1,
+      "news_burst_score": 32.7,
+      "source_diversity_score": 20,
+      "catalyst_quality_score": 68,
+      "freshness_score": 52,
+      "evidence_quality_score": 33,
+      "youtube_query": "IREN GPU financing",
+      "youtube_event_terms": [
+        "IREN",
+        "GPU",
+        "financing"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "\"iris energy\" OR \"IREN\"",
+        "article_count": 89,
+        "feed_capped": false,
+        "current_3h": 2,
+        "baseline_3h_median": 1,
+        "short_ratio": 1.5,
+        "current_day": 8,
+        "baseline_day_median": 0,
+        "long_ratio": 9,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 29,
+        "news_burst_score": 32.7
+      },
+      "source_domains": [
+        "scanx.trade"
+      ],
+      "recent_evidence_count": 1,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "ai_semis",
+          "title": "IREN secures $6.5 billion GPU financing as AI pricing surges 125%",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVzVoajNHRXg1X0hDZ3d5NHVERFpjMEJQdFJXeWdwaE9FZkg2T3NvLWsxTG1IWGpKUThRZm1HSnhJazRaRzVhbWEyR0p0ekp2a0ZVWjVoVTZlTEJ1Y3pNVmp3R3VhUXBCSF9Dc2lObGJDc3lfMldKX0ttTTdyNUZGa1Y3NWk1SDVSZU1KZGk5Yzlob3htazRIb0RGU2VOUUpfZHlhZ0ZjMEpVY3FtM3ZfdnY5ZWw?oc=5",
+          "domain": "scanx.trade",
+          "source_name": "scanx.trade",
+          "timestamp_utc": "2026-08-29T21:47:35+00:00",
+          "entity": "Iris Energy Ltd",
+          "ticker": "IREN",
+          "cik": "1878848",
+          "entity_type": "company"
+        }
+      ],
+      "candidate_rank": 57,
+      "judge_version": "B_V1",
+      "entity_accuracy": "pass",
+      "catalyst_reality_score": 24,
+      "investor_materiality_score": 23,
+      "novelty_score": 13,
+      "judge_evidence_quality_score": 5,
+      "content_potential_score": 19,
+      "judge_score": 84,
+      "judge_reason": "IREN 的 GPU 融资若属实，对 AI 数据中心扩张、资本结构与订单能力都很重要，但当前来源质量偏弱。",
+      "verification_note": "必须回到公司公告或融资方材料确认 $6.5B 金额、期限与抵押结构。",
+      "youtube_metrics": {
+        "status": "ok",
+        "query": "IREN GPU financing",
+        "raw_sample_size": 8,
+        "relevant_sample_size": 7,
+        "estimated_total_results": 150,
+        "youtube_supply_gap_score": 85.0,
+        "median_views_per_day": 289,
+        "small_channel_sample_size": 6,
+        "small_channel_hit_rate": 0.0,
+        "sample_videos": [
+          {
+            "video_id": "qfF7Hd8c-PU",
+            "title": "엔비디아 다음 돈은 어디로? IREN·Marvell이 보여준 AI 인프라 확산",
+            "channel_id": "UCyz6yvsV50kB4grPkwDni4A",
+            "published_at": "2026-08-28T13:48:39+00:00",
+            "views": 1098,
+            "views_per_day": 583,
+            "channel_subscribers": 279
+          },
+          {
+            "video_id": "ngdgHbsXEx0",
+            "title": "비트코인 채굴회사가 AI 기업이 된 이유｜IREN(아이렌)",
+            "channel_id": "UCoyYzgcX3M8496Ew_az3h6Q",
+            "published_at": "2026-08-27T12:18:22+00:00",
+            "views": 1716,
+            "views_per_day": 582,
+            "channel_subscribers": 52
+          },
+          {
+            "video_id": "ru3cLUEAru4",
+            "title": "아이렌(IREN),2분기 실적 쇼크 실적 미스의 실체채굴주 탈피가 관건",
+            "channel_id": "UCb7C7KwJ_fevSAv0GUaPO9A",
+            "published_at": "2026-08-28T10:00:26+00:00",
+            "views": 1042,
+            "views_per_day": 510,
+            "channel_subscribers": 1910
+          },
+          {
+            "video_id": "H6j0V8ZAmRo",
+            "title": "IREN Stock: $2.4B NVIDIA Financing Could Change Everything! - IREN Stock.",
+            "channel_id": "UCpK9E1BovnJPyusnmAaBP1Q",
+            "published_at": "2026-08-29T15:50:02+00:00",
+            "views": 231,
+            "views_per_day": 289,
+            "channel_subscribers": 1050
+          },
+          {
+            "video_id": "WGY22LpOG4k",
+            "title": "NeoCloud's Secret Weapon: IREN in NVIDIA's 10-Q #IREN #Nvidia #AI",
+            "channel_id": "UCa5hPmX8-q03fxDYLi9XM7w",
+            "published_at": "2026-08-28T18:00:22+00:00",
+            "views": 455,
+            "views_per_day": 266,
+            "channel_subscribers": 57900
+          },
+          {
+            "video_id": "c6tNnvWjjiI",
+            "title": "Nvidia Just Shelved A $36B Backstop — IREN Sank 7%",
+            "channel_id": "UCpnoeFBLOmtYaUwg7z4EcHQ",
+            "published_at": "2026-08-29T23:45:09+00:00",
+            "views": 107,
+            "views_per_day": 228,
+            "channel_subscribers": 189
+          },
+          {
+            "video_id": "S61XQb0-cbM",
+            "title": "$IREN: Beats EPS & Revenue Estimates Amid Nvidia's Bullish Neocloud Capacity Outlook",
+            "channel_id": "UCUy6q6JP0G4FskWtF3yj0-g",
+            "published_at": "2026-08-28T08:10:36+00:00",
+            "views": 140,
+            "views_per_day": 66,
+            "channel_subscribers": 7100
+          }
+        ]
+      },
+      "scanner_b_score": 71.0
+    },
+    {
+      "event_id": "4a40c6067d3a5245",
+      "scanner": "B",
+      "entity": "VERISIGN INC/CA",
+      "ticker": "VRSN",
+      "entity_type": "company",
+      "event_title": "How VeriSign’s 10% .net Price Hike Could Shape Recurring Revenue for VeriSign (VRSN) Investors",
+      "event_timestamp_utc": "2026-08-29T16:31:49+00:00",
+      "categories": [
+        "pricing_capacity"
+      ],
+      "sec_forms": [],
+      "discovery_score": 39.2,
+      "news_burst_score": 25,
+      "source_diversity_score": 20,
+      "catalyst_quality_score": 77,
+      "freshness_score": 52,
+      "evidence_quality_score": 33,
+      "youtube_query": "VeriSign VRSN .net price increase",
+      "youtube_event_terms": [
+        "VeriSign",
+        ".net",
+        "price"
+      ],
+      "baseline": {
+        "query": null,
+        "current_3h": null,
+        "baseline_3h_median": null,
+        "short_ratio": null,
+        "current_day": 1,
+        "baseline_day_median": 0,
+        "long_ratio": 2,
+        "news_burst_score": 25,
+        "source": "rolling_local_fallback"
+      },
+      "source_domains": [
+        "simplywall.st"
+      ],
+      "recent_evidence_count": 1,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "pricing_capacity",
+          "title": "How VeriSign’s 10% .net Price Hike Could Shape Recurring Revenue for VeriSign (VRSN) Investors",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOZWxMT0s0Z09BaFdYd1ZPVjI1Z1RuZWplalZ0cnZsalp4SXBaMHFncHpGZTB5U2o2Tm5qcXN5SjJLb0d0MEZ6R2kzMjFoZ3NUOGtHVnVhTmF0TWtWZ1BLOFFoOWdDQWhadkoyS1BRSzVGaktBZlN6eWVfU2sxNG0tb3k2WVpibV9hRDVlVFhDVU1WMFRxeG1kZzdlLUdQOUdLSDdGU3VUaERDdkdTRFItQ004Z0kxSWdSNUI2eXoyU3ZsMG5ScHfSAcsBQVVfeXFMTWxWRTItaWpaVHduZTY5R3BmdFRFaVBNOS01UHhPaTUwaWRhRXNOb1ZnNnFpS2VscjItYzJUTjUtb3Rvcnh6MEQwVEZsRE5QQVpscDhZOWVfdzNHVnNoemgwVERzVWl6ZXN2aTlEMjRjTXhKS3pGMkZjV3d0TmdTS3MxeWVja0tGQzhBZ0h0OG96RndybGxOUDhJaWxWMTlDNFBId0FDM0Q0LWhhZ3NSOWpMTmdrMmVhRFllMjFCUE5nOHJla2xuTkFod1E?oc=5",
+          "domain": "simplywall.st",
+          "source_name": "simplywall.st",
+          "timestamp_utc": "2026-08-29T16:31:49+00:00",
+          "entity": "VERISIGN INC/CA",
+          "ticker": "VRSN",
+          "cik": "1014473",
+          "entity_type": "company"
+        }
+      ],
+      "candidate_rank": 64,
+      "judge_version": "B_V1",
+      "entity_accuracy": "pass",
+      "catalyst_reality_score": 23,
+      "investor_materiality_score": 19,
+      "novelty_score": 13,
+      "judge_evidence_quality_score": 6,
+      "content_potential_score": 16,
+      "judge_score": 77,
+      "judge_reason": "VeriSign .net 提价直接关联高毛利经常性收入，定价权角度清晰，但当前来源较弱。",
+      "verification_note": "核对 VeriSign 官方价格通知、生效日期与涨幅。",
+      "youtube_metrics": {
+        "status": "ok_no_videos",
+        "query": "VeriSign VRSN .net price increase",
+        "raw_sample_size": 0,
+        "relevant_sample_size": 0,
+        "estimated_total_results": 0,
+        "youtube_supply_gap_score": 100.0,
+        "median_views_per_day": 0,
+        "small_channel_hit_rate": 0.0,
+        "sample_videos": []
+      },
+      "scanner_b_score": 70.3
+    },
+    {
+      "event_id": "ab0b1be0256a4b43",
+      "scanner": "B",
+      "entity": "MINISO Group Holding Ltd",
+      "ticker": "MNSO",
+      "entity_type": "company",
+      "event_title": "China Lifestyle Retailer Miniso’s Shares Drop 4% After Earnings Report",
+      "event_timestamp_utc": "2026-08-30T08:54:36+00:00",
+      "categories": [
+        "earnings_guidance"
+      ],
+      "sec_forms": [],
+      "discovery_score": 50.1,
+      "news_burst_score": 31.4,
+      "source_diversity_score": 20,
+      "catalyst_quality_score": 90,
+      "freshness_score": 92,
+      "evidence_quality_score": 33,
+      "youtube_query": "Miniso MNSO earnings",
+      "youtube_event_terms": [
+        "Miniso",
+        "earnings",
+        "results"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "\"miniso\" OR \"MNSO\"",
+        "article_count": 94,
+        "feed_capped": false,
+        "current_3h": 2,
+        "baseline_3h_median": 0,
+        "short_ratio": 3,
+        "current_day": 3,
+        "baseline_day_median": 2,
+        "long_ratio": 1.333,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 29,
+        "news_burst_score": 31.4
+      },
+      "source_domains": [
+        "forbes.com"
+      ],
+      "recent_evidence_count": 1,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "earnings_guidance",
+          "title": "China Lifestyle Retailer Miniso’s Shares Drop 4% After Earnings Report",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNOFZwaGlOODdnYVAtVVlnRzBLLW5HMkJSWlZ5UHFxbVA5eGVtektWaktZQW93bXBkaDdSXzZ6VjZYZ2VMZGZlZDZ2WGg1M0Z5TVlVeUZFZ1V4RWUtRS12bi1zU0I2bGN2V0lza3ZFS0ZZVGY3LVk5MzV4NEJlNnRGWHYwQ19ud3dVcWZEMDlZQUZVLUJlNFFMMHhFXzVuaDZibWpsN1JkV2ZSb25XSHdQcDFxd1pwMHY0cFA4SkZ3MzhfZ3c?oc=5",
+          "domain": "forbes.com",
+          "source_name": "Forbes",
+          "timestamp_utc": "2026-08-30T08:54:36+00:00",
+          "entity": "MINISO Group Holding Ltd",
+          "ticker": "MNSO",
+          "cik": "1815846",
+          "entity_type": "company"
+        }
+      ],
+      "candidate_rank": 9,
+      "judge_version": "B_V1",
+      "entity_accuracy": "pass",
+      "catalyst_reality_score": 23,
+      "investor_materiality_score": 14,
+      "novelty_score": 12,
+      "judge_evidence_quality_score": 8,
+      "content_potential_score": 13,
+      "judge_score": 70,
+      "judge_reason": "Miniso 财报后股价下跌是明确业绩催化剂，但对美股频道属于次级跨境消费题材。",
+      "verification_note": "核对正式财报中的收入、利润与指引。",
+      "youtube_metrics": {
+        "status": "ok",
+        "query": "Miniso MNSO earnings",
+        "raw_sample_size": 1,
+        "relevant_sample_size": 1,
+        "estimated_total_results": 5,
+        "youtube_supply_gap_score": 100.0,
+        "median_views_per_day": 0,
+        "small_channel_sample_size": 1,
+        "small_channel_hit_rate": 0.0,
+        "sample_videos": [
+          {
+            "video_id": "OrwT3qmunHY",
+            "title": "MINISO Group 2026 June Quarter and Interim Financial Results (MNSO)",
+            "channel_id": "UCnMjIvxO8SW3rmYGmYtOfQg",
+            "published_at": "2026-08-28T16:05:42+00:00",
+            "views": 0,
+            "views_per_day": 0,
+            "channel_subscribers": 168
+          }
+        ]
+      },
+      "scanner_b_score": 70.0
+    },
+    {
+      "event_id": "b27f6f740ddb7e89",
+      "scanner": "B",
+      "entity": "MASCO CORP /DE/",
+      "ticker": "MAS",
+      "entity_type": "company",
+      "event_title": "How Investors Are Reacting To Masco (MAS) Earnings Beat, Sales Decline, and Tariff-Boosted Outlook",
+      "event_timestamp_utc": "2026-08-30T10:30:07+00:00",
+      "categories": [
+        "earnings_guidance"
+      ],
+      "sec_forms": [],
+      "discovery_score": 51.7,
+      "news_burst_score": 32.6,
+      "source_diversity_score": 20,
+      "catalyst_quality_score": 90,
+      "freshness_score": 100,
+      "evidence_quality_score": 33,
+      "youtube_query": "Masco MAS earnings tariff outlook",
+      "youtube_event_terms": [
+        "Masco",
+        "earnings",
+        "tariff"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "\"masco corp /de/\" OR \"MAS\"",
+        "article_count": 93,
+        "feed_capped": false,
+        "current_3h": 3,
+        "baseline_3h_median": 2,
+        "short_ratio": 1.333,
+        "current_day": 11,
+        "baseline_day_median": 0,
+        "long_ratio": 12,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 29,
+        "news_burst_score": 32.6
+      },
+      "source_domains": [
+        "simplywall.st"
+      ],
+      "recent_evidence_count": 1,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "earnings_guidance",
+          "title": "How Investors Are Reacting To Masco (MAS) Earnings Beat, Sales Decline, and Tariff-Boosted Outlook",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPT3lXTUNNTEFtSzI5dWQ0U2Zma2F6Ml9xbDdVaWhOUU1jalZIM1Iwc2M1aFc3LWhjaVlfaXFjTVN5VGt5WWNwZ3NZRXM2VldBYUhqTDBzMFJKQzRrOE1uN21SaFlvTmpzNzNhV2pqaVdaUVJNLVliMU92d1RqNjBnU2hnMDhka1J4Sy1fVDBxaFh2Ty1kZDlzN2xtS01mREJUcTVGYmM3dlRvZXBqMVBCRlBBaTMwaHc1N0dlT2d4R0NFR03SAcgBQVVfeXFMUHk4V2swTjMtZXY5THNua2YxcnRlc2N6R3hrdkV0SjVYcmxtLVpSNVJtZmt6bVhSRWE2dUQwNUU5WnJ1U0lUVkZVVHlnaHBvZHN0ZWFaeW5RWFVrNmoyRFZxMWRSWjIwUFZfY0J2cjRNRnpHdWk0UkFON2ZLYlEzZlo5Q25rUnBsaGZlTnFwci1OXzZaRm5SMHk4MTFlcGM2MlNDYUJuT3lodjJiYnN2YV9ReUJsSXVoelRwYjIxRkdxbnNRenViR20?oc=5",
+          "domain": "simplywall.st",
+          "source_name": "simplywall.st",
+          "timestamp_utc": "2026-08-30T10:30:07+00:00",
+          "entity": "MASCO CORP /DE/",
+          "ticker": "MAS",
+          "cik": "62996",
+          "entity_type": "company"
+        }
+      ],
+      "candidate_rank": 5,
+      "judge_version": "B_V1",
+      "entity_accuracy": "pass",
+      "catalyst_reality_score": 22,
+      "investor_materiality_score": 15,
+      "novelty_score": 10,
+      "judge_evidence_quality_score": 6,
+      "content_potential_score": 14,
+      "judge_score": 67,
+      "judge_reason": "Masco 财报与关税影响利润率的组合是真实投资变量，但来源集中于二级解读，证据质量一般。",
+      "verification_note": "用公司财报核对销售、利润率与关税相关指引。",
+      "youtube_metrics": {
+        "status": "ok_no_videos",
+        "query": "Masco MAS earnings tariff outlook",
+        "raw_sample_size": 0,
+        "relevant_sample_size": 0,
+        "estimated_total_results": 0,
+        "youtube_supply_gap_score": 100.0,
+        "median_views_per_day": 0,
+        "small_channel_hit_rate": 0.0,
+        "sample_videos": []
+      },
+      "scanner_b_score": 69.0
+    },
+    {
+      "event_id": "7c83a95638765b51",
+      "scanner": "B",
+      "entity": "OpenAI",
+      "ticker": null,
+      "entity_type": "private_company",
+      "event_title": "OpenAI Ends Cursor Partnership Amid SpaceX Acquisition, Sets November 2026 Cutoff",
+      "event_timestamp_utc": "2026-08-30T09:13:48+00:00",
+      "categories": [
+        "contract_order",
+        "mna"
+      ],
+      "sec_forms": [],
+      "discovery_score": 52.7,
+      "news_burst_score": 0,
+      "source_diversity_score": 72,
+      "catalyst_quality_score": 94,
+      "freshness_score": 92,
+      "evidence_quality_score": 57,
+      "youtube_query": "OpenAI Cursor partnership SpaceX",
+      "youtube_event_terms": [
+        "OpenAI",
+        "Cursor",
+        "partnership"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "\"openai\"",
+        "article_count": 100,
+        "feed_capped": true,
+        "current_3h": 0,
+        "baseline_3h_median": 0,
+        "short_ratio": 1,
+        "current_day": 2,
+        "baseline_day_median": 3,
+        "long_ratio": 0.75,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 28,
+        "news_burst_score": 0
+      },
+      "source_domains": [
+        "biz.chosun.com",
+        "buttondown.com",
+        "cnbc.com",
+        "engadget.com",
+        "kucoin.com"
+      ],
+      "recent_evidence_count": 5,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "mna",
+          "title": "OpenAI Ends Cursor Partnership Amid SpaceX Acquisition, Sets November 2026 Cutoff",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOX0Q0RHl2bjFjbWZaUjhYSXlxcE9XUV9TT3J1bW5saVhQbG9raDc1dFVxYmVMa2FLWWhyb1JVY0g4ZUVFd08zcTFMRDFQMFI5OWNwbVlxU05WeDNFWHBJUEdzdWUxX21neXRvLTd5U1VyQlVUWmlhRmMxWTg2TFBpeGJmZ01jb1J1c1lxa2VjSTYtVkhuVGJsb0Z4TG1ONHNHOVJxdEc3aGo0Y1dHVkNUX1JZbXQ?oc=5",
+          "domain": "kucoin.com",
+          "source_name": "KuCoin",
+          "timestamp_utc": "2026-08-30T09:13:48+00:00",
+          "entity": "OpenAI",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "private_company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "contract_order",
+          "title": "OpenAI ends Cursor deal after SpaceX acquisition as Musk blasts leaders - CHOSUNBIZ",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8zQUxkZVBGUXd6cjJDOHQtbXFFVVQtc3hRV2tuRUZxSVFpLUhPUHdqUzE5cUE0OGlwTG45NjI5alB6LWJDS0pHVUNmRGI1YVBQTER4NHNJYlhDaTlLUDVPa0hpRndZemI4bE1fVU9ZX0JOancwNG1sQ1RR0gGOAUFVX3lxTFByaExGS3pxMmRoUVAxdXJiXzVvcHR2eExlWWtvc2tlTWs3am5XYmI2NkdwRHBaUFZHRTA5WWwtTzhkTUpxWk82VlE1Q2p1bUlTWDVNQ3VxcVdFOENTb0loVTdnSEVaeHJQaXhiOWptRUVjYm9ORTR6OF9jeGNWeFNrcW5vZjZkZ0VzQ184bGc?oc=5",
+          "domain": "biz.chosun.com",
+          "source_name": "Chosunbiz",
+          "timestamp_utc": "2026-08-30T01:00:00+00:00",
+          "entity": "OpenAI",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "private_company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "mna",
+          "title": "OpenAI to end model access to Cursor after acquisition by Elon Musk's SpaceX",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE90bmQ0enBvenh2RFZzWDJtV2FWRnFMVzNRMEJrbG1RSmtWbnZ6MU1XcHV0TUJ1dll3YkJJM1RSMUgyRWVsV3NTeHpUV1JOeEZVb01TRkctT0c0NjZIc0haWFVTdzVkSmFLM1htanRGeVJZMmxNb2NaWnBn0gF_QVVfeXFMTnNMYVB6Q3hkc1l0NnRTSVhOeU5uT21nbUxOZDZjU2ota0tocTk2a3JjOWdxeUp0M2ttVUpHNk1ZTlB5MWp6QkR5c21aUlduUERGbzRZenhNZ1ZIQVVWTWt6RmJJdW8xcVAtRW05NnIxVGI5UE1uaVA4Q0V6NWd4cw?oc=5",
+          "domain": "cnbc.com",
+          "source_name": "CNBC",
+          "timestamp_utc": "2026-08-29T19:05:55+00:00",
+          "entity": "OpenAI",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "private_company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "mna",
+          "title": "OpenAI Will Pull Its Models From Cursor Due To SpaceXAI Acquisition",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZW9MbzZUcGhWN0N5Rk5wdnpzNWpyc0tVUDRkbXREcVhTR29DSGhSRWI0T0psczJRcWl5QkF0Yzh1S3JEa0ZzRXp6OFc0cFN3SmItUEl4RHF2VGVJaW9QdXBrYVJGRUxzSG1jRnM5ZGdBNWhNd3FTaWxjYmRGeWFvSTZWcVJ4dDdNNWVZWWhvOXFEc0xJcEhwUFdOTzM?oc=5",
+          "domain": "engadget.com",
+          "source_name": "Engadget",
+          "timestamp_utc": "2026-08-29T14:58:40+00:00",
+          "entity": "OpenAI",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "private_company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "contract_order",
+          "title": "D.A.D.: OpenAI Cuts Off Cursor After SpaceX Buys It — 8/29",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZWJ1UEY4NjIydnVGaWFxcXJWUE8wdDY2SktHaVZ1NjQ1OFQtYktaR0xYYnlUMWk1UUNHdERZTnpBLTlieUN6V1I3WTRLOUVJNHVKUWp2MFQtMmdDa1dCOFBac2hlXy16ZmQ2UEY3eTVMZGpGalBDcEwySDB3LTlHY3VRYXE0V25KVldNTHlJdnBXbmVsX3Uxag?oc=5",
+          "domain": "buttondown.com",
+          "source_name": "Buttondown",
+          "timestamp_utc": "2026-08-29T12:53:55+00:00",
+          "entity": "OpenAI",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "private_company"
+        }
+      ],
+      "candidate_rank": 4,
+      "judge_version": "B_V1",
+      "entity_accuracy": "pass",
+      "catalyst_reality_score": 25,
+      "investor_materiality_score": 22,
+      "novelty_score": 15,
+      "judge_evidence_quality_score": 13,
+      "content_potential_score": 19,
+      "judge_score": 94,
+      "judge_reason": "OpenAI 与 Cursor 的模型合作终止是新发生的 AI 生态分裂事件，对开发者工具竞争与平台议价权有直接内容价值。",
+      "verification_note": "确认合作终止时间、SpaceX 收购后的安排及双方官方表述。",
+      "youtube_metrics": {
+        "status": "ok",
+        "query": "OpenAI Cursor partnership SpaceX",
+        "raw_sample_size": 47,
+        "relevant_sample_size": 43,
+        "estimated_total_results": 74,
+        "youtube_supply_gap_score": 30.0,
+        "median_views_per_day": 17,
+        "small_channel_sample_size": 42,
+        "small_channel_hit_rate": 7.1,
+        "sample_videos": [
+          {
+            "video_id": "HNSrcRvFWdQ",
+            "title": "【悲報】GPTシリーズ、Cursorから消える。",
+            "channel_id": "UCrpJWCdK_UUTKhC1-jGOFKQ",
+            "published_at": "2026-08-29T04:24:51+00:00",
+            "views": 17727,
+            "views_per_day": 13894,
+            "channel_subscribers": 5830
+          },
+          {
+            "video_id": "KIN6dIBZGdk",
+            "title": "OpenAIがCursorとの提携を終了、SpaceX買収が引き金に #Shorts",
+            "channel_id": "UCg4AN-k3Iwb1EuMBjJt23Og",
+            "published_at": "2026-08-30T05:00:01+00:00",
+            "views": 915,
+            "views_per_day": 3638,
+            "channel_subscribers": 494
+          },
+          {
+            "video_id": "Dy-HiJP5ZpY",
+            "title": "世界AI新聞快訊（2026年8月30日）｜OpenAI將停止供應Cursor模型｜Meta AI登上CarPlay、7月AI失控事件逾300宗",
+            "channel_id": "UC38YXS2v9NWq99MCzXj9vJA",
+            "published_at": "2026-08-30T05:46:58+00:00",
+            "views": 516,
+            "views_per_day": 2357,
+            "channel_subscribers": 84400
+          },
+          {
+            "video_id": "AA42Dvs3Jr4",
+            "title": "Why did OpenAI just block the world's favorite AI coding tool?",
+            "channel_id": "UC0qsYSHexIxEJue91rgYgyQ",
+            "published_at": "2026-08-29T09:06:53+00:00",
+            "views": 1187,
+            "views_per_day": 1099,
+            "channel_subscribers": 12
+          },
+          {
+            "video_id": "eZsaKfZ1nT0",
+            "title": "OpenAI vs SpaceX: Why Did Cursor Lose OpenAI Models? 🤖🚀 #shorts",
+            "channel_id": "UCqdHEbOkJ0M5PApQBir_tJg",
+            "published_at": "2026-08-29T13:30:00+00:00",
+            "views": 832,
+            "views_per_day": 927,
+            "channel_subscribers": 111
+          },
+          {
+            "video_id": "WU5C8DXcrlg",
+            "title": "OpenAI is pulling its models from Cursor — but GPT isn’t completely disappearing from the IDE.",
+            "channel_id": "UCnuWx53H3R4uczBmF56eEvg",
+            "published_at": "2026-08-30T09:44:51+00:00",
+            "views": 21,
+            "views_per_day": 168,
+            "channel_subscribers": 1210
+          },
+          {
+            "video_id": "-Ouyy9Zpf34",
+            "title": "💔 Cursor выбрал Маска — OpenAI забирают подарки",
+            "channel_id": "UCGNfNeQalOHV7j5chWKuDog",
+            "published_at": "2026-08-29T11:39:15+00:00",
+            "views": 162,
+            "views_per_day": 166,
+            "channel_subscribers": 7
+          },
+          {
+            "video_id": "6B2bLLvYX1M",
+            "title": "Cursor Just Lost OpenAI — Here's Where Developers Are Going Instead",
+            "channel_id": "UCELeft_2NTA-Qazqt81RLKA",
+            "published_at": "2026-08-29T12:42:59+00:00",
+            "views": 139,
+            "views_per_day": 149,
+            "channel_subscribers": 72
+          },
+          {
+            "video_id": "3yyCGrtIQC0",
+            "title": "OpenAI Walked Away From Cursor — Anthropic Walked In Within Hours",
+            "channel_id": "UCELeft_2NTA-Qazqt81RLKA",
+            "published_at": "2026-08-29T23:26:12+00:00",
+            "views": 69,
+            "views_per_day": 143,
+            "channel_subscribers": 72
+          },
+          {
+            "video_id": "dljPLrJLzq4",
+            "title": "‏OpenAI و Cursor: نهاية الشراكة المفاجئة!",
+            "channel_id": "UCbzVRYg13OMCh4D6HHrFfXg",
+            "published_at": "2026-08-29T11:11:20+00:00",
+            "views": 141,
+            "views_per_day": 142,
+            "channel_subscribers": 44100
+          }
+        ]
+      },
+      "scanner_b_score": 68.8
+    },
+    {
+      "event_id": "af0fcbe1314e11d1",
+      "scanner": "B",
+      "entity": "AeroVironment Inc",
+      "ticker": "AVAV",
+      "entity_type": "company",
+      "event_title": "AeroVironment (AVAV) Is Down 7.7% After NASA Mars Deal And New Defense Orders - What's Changed",
+      "event_timestamp_utc": "2026-08-30T09:35:08+00:00",
+      "categories": [
+        "contract_order"
+      ],
+      "sec_forms": [],
+      "discovery_score": 39.3,
+      "news_burst_score": 5.2,
+      "source_diversity_score": 20,
+      "catalyst_quality_score": 82,
+      "freshness_score": 92,
+      "evidence_quality_score": 33,
+      "youtube_query": "AeroVironment AVAV NASA defense orders",
+      "youtube_event_terms": [
+        "AeroVironment",
+        "NASA",
+        "orders"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "\"aerovironment\" OR \"AVAV\"",
+        "article_count": 96,
+        "feed_capped": true,
         "current_3h": 1,
         "baseline_3h_median": 1,
         "short_ratio": 1,
-        "current_day": 15,
+        "current_day": 4,
+        "baseline_day_median": 2,
+        "long_ratio": 1.667,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 28,
+        "news_burst_score": 5.2
+      },
+      "source_domains": [
+        "simplywall.st"
+      ],
+      "recent_evidence_count": 1,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "contract_order",
+          "title": "AeroVironment (AVAV) Is Down 7.7% After NASA Mars Deal And New Defense Orders - What's Changed",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNVHA2TU1EbFNBR01jQ2dqYkwzMjZWa1kxSVZOdzZZdWV0TzRyS2tHck12VU9qclQwanBiTzRlWVEtc1NPQkxHM0h0TElpQUM0VElDWmJYWmVweVQ3cFdsbndnNGYycFF3S0FWekVwNWhTX3pUQ2lHbkxCaVh4S2RTeVNkbVBzcU9saXFtdjJiLXlNRmRKZTYzTTdadTBzVk9ZRm5xcU4weFRRR2xDRUx1enNkeTNCbWhqLWtJcWhEWmxCaWJuV3hGX284bzNvUk1USFFz0gHYAUFVX3lxTE5iMVJpWmVJRURZSGNnQ2tGQnAySzJ1V1JqaGVyU0g2a0d2LUZzZ05IME1sQUg1eF81bGJnWWFrUFlUeXlNWUlpNVRCZnNvNFZpS0dVNWprVW4zT29BTzBla2RqdVFuZGdwZWRSTERKdm9SZm10OU9VX2dxcnd2Q3l2ZmhqZkZ0dUN5UXJOUWlqb3ZNa2tuYnhINGZfMF9Qc19vOURmc2V6VFlieEQ4LUhzaUZPSzNMWVhmR20zM3lTdnJoVFpuSS1XNlhpWXNvZ254TmhsaHVhbA?oc=5",
+          "domain": "simplywall.st",
+          "source_name": "simplywall.st",
+          "timestamp_utc": "2026-08-30T09:35:08+00:00",
+          "entity": "AeroVironment Inc",
+          "ticker": "AVAV",
+          "cik": "1368622",
+          "entity_type": "company"
+        }
+      ],
+      "candidate_rank": 62,
+      "judge_version": "B_V1",
+      "entity_accuracy": "pass",
+      "catalyst_reality_score": 22,
+      "investor_materiality_score": 19,
+      "novelty_score": 11,
+      "judge_evidence_quality_score": 6,
+      "content_potential_score": 16,
+      "judge_score": 74,
+      "judge_reason": "AeroVironment 的 NASA 与防务订单构成现实订单催化，但当前证据主要为二级汇总。",
+      "verification_note": "核对 NASA/国防合同金额、执行期和公司披露。",
+      "youtube_metrics": {
+        "status": "ok_no_videos",
+        "query": "AeroVironment AVAV NASA defense orders",
+        "raw_sample_size": 0,
+        "relevant_sample_size": 0,
+        "estimated_total_results": 2,
+        "youtube_supply_gap_score": 100.0,
+        "median_views_per_day": 0,
+        "small_channel_hit_rate": 0.0,
+        "sample_videos": []
+      },
+      "scanner_b_score": 68.8
+    },
+    {
+      "event_id": "04bba120f9b83013",
+      "scanner": "B",
+      "entity": "Federal Reserve / Rates",
+      "ticker": null,
+      "entity_type": "macro",
+      "event_title": "Jackson Hole Highlights New Tug-of-War for the Treasury and Fed",
+      "event_timestamp_utc": "2026-08-30T09:51:58+00:00",
+      "categories": [
+        "macro_rates"
+      ],
+      "sec_forms": [],
+      "discovery_score": 49.6,
+      "news_burst_score": 0,
+      "source_diversity_score": 55,
+      "catalyst_quality_score": 85,
+      "freshness_score": 100,
+      "evidence_quality_score": 66,
+      "youtube_query": "Federal Reserve Warsh inflation rates",
+      "youtube_event_terms": [
+        "Warsh",
+        "inflation",
+        "rates"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "\"Federal Reserve\" OR \"interest rates\" OR \"Treasury yields\"",
+        "article_count": 100,
+        "feed_capped": true,
+        "current_3h": 0,
+        "baseline_3h_median": 1,
+        "short_ratio": 0.5,
+        "current_day": 0,
+        "baseline_day_median": 2,
+        "long_ratio": 0.333,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 26,
+        "news_burst_score": 0
+      },
+      "source_domains": [
+        "bloomberg.com",
+        "pbs.org",
+        "stocktwits.com",
+        "wsj.com"
+      ],
+      "recent_evidence_count": 4,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "Jackson Hole Highlights New Tug-of-War for the Treasury and Fed",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTjhzeTdjSnlrLS1NMWJhMFJaUm0yMEZvV25YUTMwNUhIdFp0a21vMFNFVXdSZ19QSkF6SjhUWXZncldjVUYwcG5NaDB2YVdER3FpWkE2QUpCR3BudWJoR0taY3ptOXdmY3hCUENsYU1pdDlOZFRTRF9iVGN3Vk5PQmJXNWxlZnJnc005RjczeXdhRG5vSnNaUy1IUkd6SHhKUjFuX0pDRQ?oc=5",
+          "domain": "wsj.com",
+          "source_name": "WSJ",
+          "timestamp_utc": "2026-08-30T09:51:58+00:00",
+          "entity": "Federal Reserve / Rates",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "Key Takeaways From the Fed’s Annual Jackson Hole Conference",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZkxSQnpUWlRQenBzLVdKbG8zc0Y5bUxfODRlNzNMbzFhcG9DbldFRTExRGZLeXNxbUFHbjNGYy1salJOd0xUbzQzMENDZWQzWjhlMW5UWnJiQVhFWFZqcE1MSXd5QktuUE15aWpBYzRvSXZrMG1tTzl0MjVreF9CYWkxQTZXWmI2RG1kSmdhUjlvdUxkRmJwOWVndnZtR05nRlctb0Z0UE81OWRVSFdN?oc=5",
+          "domain": "bloomberg.com",
+          "source_name": "Bloomberg.com",
+          "timestamp_utc": "2026-08-29T18:27:02+00:00",
+          "entity": "Federal Reserve / Rates",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "Kevin Warsh Faces Fed Inflation Divide At Jackson Hole: Stephen Miran Says A Rate Hike Now Would Be ‘Really Strange'",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxON0o4TjhoWDFPVmxITDhzalVrTXdnWDRUcFd6SlQwdWdZWGtYb2l3dXBCdWlfRmxRY0JmMW9LX0stbWJFVGJfREt2c2ZQU0VjZF9vVEVwcjNPenE5emt3RjM2c0NWdGNpSzd6WU5qVFpmUW5HdFVubHFNQVY2MEw0RjRJWXNlVUxuMVRNQmZIRFktVGNwNDZOOVZZRFU5bTBhU3ZacDZadW9HVWc3OGdhTnQxWmtib2FkMjZhdXJaOVJnOG1nLVlERmV3NWNMZw?oc=5",
+          "domain": "stocktwits.com",
+          "source_name": "Stocktwits",
+          "timestamp_utc": "2026-08-29T18:10:16+00:00",
+          "entity": "Federal Reserve / Rates",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "Warsh raises stakes for Fed's next meeting, and other takeaways from Jackson Hole conference",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQU0VoNFJqVUpidzB5X3h6WXlxcDhZdjlpWEt4UXFsMWlyTjNjVS03VjgtRjZoLVg1UWY5Xy01alNUdVZNN1ZmejlnaVZaMElfSkVyenlwcldkWnlXeW9UZXpLWEZ1M3cyZzd1SDBObEZ4Wm1oVXZqLTVkcXRlTzd3QU1HZ2dRVXBKWExTLXVNeGY0aktpSUhzOE5DU2VSbTQ4N0pYQ0o5VGhEdlZUZ3lvYlBUOGY4bU9HQ084aVd0SGR0Yy0wNUHSAcsBQVVfeXFMTzREZzM3d0IyUDgwNTB1ZW1xY0tWaGQ1QjZocmlnckU0NFE2bTgtMmRUalFGeVRUeEJad05mTllhZVVGTjVWcjRSOVFpV2xqLXViM196X0xOTkhETzNhZXRpc1BzTVBlUUlJNVVrYldxQ05EUXdpNTlLRWNFZ2d1cUNWMGFGWHdia2xpdmxRX2ljbnlJNG5XWndQamt5ZmUxaGlpZGQ1ckpwTEF1TE0wYTlGMGxsS2pGTkJPZzY4RzJjbnU4SjBYckIzNkk?oc=5",
+          "domain": "pbs.org",
+          "source_name": "PBS",
+          "timestamp_utc": "2026-08-29T15:25:24+00:00",
+          "entity": "Federal Reserve / Rates",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        }
+      ],
+      "candidate_rank": 11,
+      "judge_version": "B_V1",
+      "entity_accuracy": "pass",
+      "catalyst_reality_score": 24,
+      "investor_materiality_score": 25,
+      "novelty_score": 13,
+      "judge_evidence_quality_score": 14,
+      "content_potential_score": 19,
+      "judge_score": 95,
+      "judge_reason": "Jackson Hole 后 Warsh 的通胀/利率立场对全市场估值与 9 月利率预期高度重要，且有多家高质量来源。",
+      "verification_note": "发布前以官方讲话稿核对措辞，并核对最新市场隐含利率概率。",
+      "youtube_metrics": {
+        "status": "ok",
+        "query": "Federal Reserve Warsh inflation rates",
+        "raw_sample_size": 50,
+        "relevant_sample_size": 43,
+        "estimated_total_results": 14911,
+        "youtube_supply_gap_score": 30.0,
+        "median_views_per_day": 17,
+        "small_channel_sample_size": 37,
+        "small_channel_hit_rate": 13.5,
+        "sample_videos": [
+          {
+            "video_id": "EhAKCIK-F0Q",
+            "title": "LIVE: Fed Chair Kevin Warsh Speaks at Jackson Hole Amid Inflation Concerns | US Markets | N18G",
+            "channel_id": "UCmRbHAgG2k2vDUvb3xsEunQ",
+            "published_at": "2026-08-29T03:23:24+00:00",
+            "views": 180117,
+            "views_per_day": 136598,
+            "channel_subscribers": 5170000
+          },
+          {
+            "video_id": "1Wi-8BVflDE",
+            "title": "GOLD & SILVER CRASH_Kevin Warsh Bombshell 🔥గోల్డ్ సిల్వర్ ధరలపై .. కెవిన్ వార్స్ బిగ్ బాంబ్ | 99TV",
+            "channel_id": "UCl5YgCiwSRVOiC2Nd1P9v1A",
+            "published_at": "2026-08-30T04:00:06+00:00",
+            "views": 38305,
+            "views_per_day": 130686,
+            "channel_subscribers": 2990000
+          },
+          {
+            "video_id": "v21TJuyboUc",
+            "title": "Warsh Speaks, Gold and Silver Drop — Summer Price Run Over?",
+            "channel_id": "UCFX1QGky8xI9BxIFwfskTcA",
+            "published_at": "2026-08-29T17:00:27+00:00",
+            "views": 6628,
+            "views_per_day": 8823,
+            "channel_subscribers": 73400
+          },
+          {
+            "video_id": "RhREjjHD0TQ",
+            "title": "GOLD JUST FELL — BUT WHAT WARSH DIDN'T SAY COULD MATTER | Jamie Dimon",
+            "channel_id": "UCcyxKcWlSLcm390bVXmcUOQ",
+            "published_at": "2026-08-29T20:30:01+00:00",
+            "views": 2126,
+            "views_per_day": 3510,
+            "channel_subscribers": 938
+          },
+          {
+            "video_id": "HCUwsX01_-0",
+            "title": "Warsh ADMITTED 5 Years Above 2%. Emergencies Only Now.",
+            "channel_id": "UCuRSyVm1HutXspLvLf16aXg",
+            "published_at": "2026-08-29T15:42:39+00:00",
+            "views": 2617,
+            "views_per_day": 3250,
+            "channel_subscribers": 32500
+          },
+          {
+            "video_id": "rAMoJUi7-W8",
+            "title": "'There are reasons to be concerned': Kevin Warsh’s full Jackson Hole speech on Fed, inflation & more",
+            "channel_id": "UCJFOER35ggIWwsXh2ZDnqyg",
+            "published_at": "2026-08-29T18:52:15+00:00",
+            "views": 2069,
+            "views_per_day": 3072,
+            "channel_subscribers": 3480000
+          },
+          {
+            "video_id": "Thk2e9CJzKk",
+            "title": "Title: The Fed Didn't Touch Rates. Bitcoin Dropped 3% Anyway.",
+            "channel_id": "UCaNCDk1BIC7viU9S2-aR0Kg",
+            "published_at": "2026-08-30T05:17:42+00:00",
+            "views": 704,
+            "views_per_day": 2943,
+            "channel_subscribers": 14
+          },
+          {
+            "video_id": "BbqeCSHhelQ",
+            "title": "Bitcoin CRASHED After Warsh Spoke — The Next Move Could Be HUGE",
+            "channel_id": "UCaJrVBIOwHkYiK1nTB1K9rw",
+            "published_at": "2026-08-29T19:05:08+00:00",
+            "views": 1569,
+            "views_per_day": 2361,
+            "channel_subscribers": 4580
+          },
+          {
+            "video_id": "UjwHfSFR_-g",
+            "title": "‘Inflation Is Still Too High’: Trump’s Fed Chair Drops Economic Bombshell, Delivers Stark Warning",
+            "channel_id": "UCyri-PL3l4Dn9IooWXQAqfA",
+            "published_at": "2026-08-29T15:45:19+00:00",
+            "views": 1660,
+            "views_per_day": 2066,
+            "channel_subscribers": 1070000
+          },
+          {
+            "video_id": "LSrCoP-0bK8",
+            "title": "Warsh Says Fed Has ‘Work to Do’ on Inflation. Markets Raise September Hike Odds",
+            "channel_id": "UCjBNgb6p6wSXvJSUOp_d5aQ",
+            "published_at": "2026-08-29T16:55:20+00:00",
+            "views": 1322,
+            "views_per_day": 1752,
+            "channel_subscribers": 51200
+          }
+        ]
+      },
+      "scanner_b_score": 68.4
+    },
+    {
+      "event_id": "32bc99063450a01a",
+      "scanner": "B",
+      "entity": "Walmart Inc.",
+      "ticker": "WMT",
+      "entity_type": "company",
+      "event_title": "Walmart settles U.S. government's opioid lawsuit, which sought billions, for $50 million",
+      "event_timestamp_utc": "2026-08-30T03:00:00+00:00",
+      "categories": [
+        "regulatory_legal"
+      ],
+      "sec_forms": [],
+      "discovery_score": 41.1,
+      "news_burst_score": 0,
+      "source_diversity_score": 55,
+      "catalyst_quality_score": 80,
+      "freshness_score": 68,
+      "evidence_quality_score": 39,
+      "youtube_query": "Walmart WMT opioid settlement",
+      "youtube_event_terms": [
+        "Walmart",
+        "opioid",
+        "settlement"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "\"walmart\" OR \"WMT\"",
+        "article_count": 100,
+        "feed_capped": true,
+        "current_3h": 0,
+        "baseline_3h_median": 0,
+        "short_ratio": 1,
+        "current_day": 1,
+        "baseline_day_median": 1.5,
+        "long_ratio": 0.8,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 24,
+        "news_burst_score": 0
+      },
+      "source_domains": [
+        "news8000.com",
+        "texarkanagazette.com",
+        "thehill.com"
+      ],
+      "recent_evidence_count": 3,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "regulatory_legal",
+          "title": "Walmart settles U.S. government's opioid lawsuit, which sought billions, for $50 million",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMlVINkhib21zMjFmTUNqT3AzbmRwSmVGWWc2T1dITEFDcUZ2eXRlaWxqWTNiUXJiZWxfcV9UelQxbGNoenFCcDlJQUN4VVRQYUxsRU9MX1FCZnVkUTdOc09zTkJORG9FeE0zQjRMbWxWdTB0N1FGalFFLVlwVGQ2OFdWVEVJZXFwTWZ2dkxxX3NzcGhXSWxyeWFWRnk?oc=5",
+          "domain": "texarkanagazette.com",
+          "source_name": "Texarkana Gazette",
+          "timestamp_utc": "2026-08-30T03:00:00+00:00",
+          "entity": "Walmart Inc.",
+          "ticker": "WMT",
+          "cik": "104169",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "regulatory_legal",
+          "title": "Walmart Faces Lawsuit",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZW5YZk1mTWZ6STFiZng1VENqQ3pKa21UX2xNV3FjVGpFcnlRalpFTGRMT2dvaTNvMGRYYXU0dDdRQmRNa2ppNldYTXJ4Nkt4dnZ6akpPUG9WNnNUc012dmpSMGJKTmRKbVYxWTJfTnp1RkplMGtzNXNDR0JSNUkxQnJLcmhhSzEtdlVjMG03R2ZHWE1YME1mWXdzbmVqY0Jp?oc=5",
+          "domain": "news8000.com",
+          "source_name": "news8000.com",
+          "timestamp_utc": "2026-08-29T23:18:00+00:00",
+          "entity": "Walmart Inc.",
+          "ticker": "WMT",
+          "cik": "104169",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "regulatory_legal",
+          "title": "Walmart settles DOJ opioid crisis lawsuit for $50 million",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONFp6Y0RtRVBnTTFtdDNJUXZkYlNKV3I4ek5IRGhDQXR4SGJqMDJEVV92MVJZYU5LWDhCZDQ4Vi1FRkNvYzAtd0RnY1FFU2ZPd1JGd3hXUTdhek14N2hpNzNKQmREVGJOM3R1dWRIZzNtU3dpa296M1ZVOFRSUUdXRlhEOElycEkxbzRCWUNiQmHSAZYBQVVfeXFMTVlCLVBRZ2wxSm8wX0FoRWktRXZOR3BiSzJ5cDNqZVFONVQ4eGJnaHBNNHplZUNSdXRHbUdUbEhZQzNGMGtaaC02YlJwRVM3MGVWLTE4RlhOTVktWTVZOVE0TXlxNi1oMzdDejJNWXV3Ri1qTmhMWC1lMEhHY1JzU0d4XzhyUjMybWFBQ3d1dmlvZkZmYW1n?oc=5",
+          "domain": "thehill.com",
+          "source_name": "The Hill",
+          "timestamp_utc": "2026-08-29T19:34:00+00:00",
+          "entity": "Walmart Inc.",
+          "ticker": "WMT",
+          "cik": "104169",
+          "entity_type": "company"
+        }
+      ],
+      "candidate_rank": 48,
+      "judge_version": "B_V1",
+      "entity_accuracy": "pass",
+      "catalyst_reality_score": 23,
+      "investor_materiality_score": 13,
+      "novelty_score": 12,
+      "judge_evidence_quality_score": 12,
+      "content_potential_score": 12,
+      "judge_score": 72,
+      "judge_reason": "Walmart 以 5000 万美元和解阿片诉讼是真实法律事件且证据较强，但金额相对公司规模有限。",
+      "verification_note": "确认 DOJ 和解范围、是否承认责任及最终付款条款。",
+      "youtube_metrics": {
+        "status": "ok_no_videos",
+        "query": "Walmart WMT opioid settlement",
+        "raw_sample_size": 0,
+        "relevant_sample_size": 0,
+        "estimated_total_results": 4,
+        "youtube_supply_gap_score": 100.0,
+        "median_views_per_day": 0,
+        "small_channel_hit_rate": 0.0,
+        "sample_videos": []
+      },
+      "scanner_b_score": 68.3
+    },
+    {
+      "event_id": "3732ce18e9a2358b",
+      "scanner": "B",
+      "entity": "ASCENT INDUSTRIES CO.",
+      "ticker": "ACNT",
+      "entity_type": "company",
+      "event_title": "Ascent Industries Targets $120M Revenue After Specialty Chemicals Transformation",
+      "event_timestamp_utc": "2026-08-30T09:02:01+00:00",
+      "categories": [
+        "earnings_guidance"
+      ],
+      "sec_forms": [],
+      "discovery_score": 50.5,
+      "news_burst_score": 29.1,
+      "source_diversity_score": 20,
+      "catalyst_quality_score": 90,
+      "freshness_score": 92,
+      "evidence_quality_score": 45,
+      "youtube_query": "Ascent Industries ACNT revenue target",
+      "youtube_event_terms": [
+        "Ascent",
+        "revenue",
+        "guidance"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "\"ascent industries\" OR \"ACNT\"",
+        "article_count": 13,
+        "feed_capped": false,
+        "current_3h": 1,
+        "baseline_3h_median": 0,
+        "short_ratio": 2,
+        "current_day": 2,
         "baseline_day_median": 0,
-        "long_ratio": 16,
-        "news_burst_score": 28,
-        "feed_capped": true
+        "long_ratio": 3,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 29,
+        "news_burst_score": 29.1
       },
       "source_domains": [
         "finance.yahoo.com"
       ],
       "recent_evidence_count": 1,
-      "youtube_query": "BBY Raised Comparable Sales",
-      "youtube_event_terms": [
-        "Raised",
-        "Comparable",
-        "Sales"
-      ],
-      "evidence_sample": [
+      "evidence": [
         {
-          "title": "Best Buy (BBY) Raised Comparable-Sales Guidance but Product Margins Fell. Can Ads and Marketplace Sustain Margin Recovery?",
-          "domain": "finance.yahoo.com",
-          "source_name": "Yahoo Finance",
-          "timestamp_utc": "2026-08-29T03:27:00+00:00",
           "source_type": "news_rss",
           "category": "earnings_guidance",
-          "sec_form": null
+          "title": "Ascent Industries Targets $120M Revenue After Specialty Chemicals Transformation",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOVHB2MTJrTW1CQ2NnNVFEcTkzeWlhU0pNWlVnVzVXRE5xYzdRM3d5VjFnTmQzd2w1bXZGRFg0M2U1elhtREl1eVlZdG05SVBmLWNCMG9YLTQ5QmRwNUpLaThZUXlEWkgyRGI3Yjl0MmRRMlhLZzd3R0RHaHBEY0JEcU9sZHczQnlpenpHbFkzdUFVbm4yMVN2MDE4YTBiNGFwVkRGZmx3?oc=5",
+          "domain": "finance.yahoo.com",
+          "source_name": "Yahoo Finance",
+          "timestamp_utc": "2026-08-30T09:02:01+00:00",
+          "entity": "ASCENT INDUSTRIES CO.",
+          "ticker": "ACNT",
+          "cik": "95953",
+          "entity_type": "company"
         }
       ],
+      "candidate_rank": 7,
       "judge_version": "B_V1",
       "entity_accuracy": "pass",
-      "catalyst_reality_score": 22,
-      "investor_materiality_score": 16,
+      "catalyst_reality_score": 21,
+      "investor_materiality_score": 14,
       "novelty_score": 11,
-      "judge_evidence_quality_score": 8,
-      "content_potential_score": 15,
-      "judge_score": 72,
-      "judge_reason": "Best Buy raised comparable-sales guidance while product margins weakened, a useful consumer-demand and margin-mix read-through.",
-      "verification_note": "Confirm the new comparable-sales range, margin commentary and full-year guidance in company materials.",
+      "judge_evidence_quality_score": 7,
+      "content_potential_score": 13,
+      "judge_score": 66,
+      "judge_reason": "Ascent 的转型后收入目标是现实公司事件，但体量较小且证据集中，适合作为次级小盘催化。",
+      "verification_note": "确认 $120M 目标的时间框架及公司原始披露。",
       "youtube_metrics": {
         "status": "ok_no_videos",
-        "query": "BBY Raised Comparable Sales",
+        "query": "Ascent Industries ACNT revenue target",
         "raw_sample_size": 0,
         "relevant_sample_size": 0,
-        "estimated_total_results": 4719,
+        "estimated_total_results": 0,
         "youtube_supply_gap_score": 100.0,
         "median_views_per_day": 0,
         "small_channel_hit_rate": 0.0,
         "sample_videos": []
       },
-      "scanner_b_score": 70.0
+      "scanner_b_score": 68.2
+    },
+    {
+      "event_id": "d82c8ec8b70c4301",
+      "scanner": "B",
+      "entity": "Anthropic",
+      "ticker": null,
+      "entity_type": "private_company",
+      "event_title": "Music publishers sue Anthropic, allege \"blantant theft\" of copyrighted music",
+      "event_timestamp_utc": "2026-08-29T23:33:51+00:00",
+      "categories": [
+        "regulatory_legal"
+      ],
+      "sec_forms": [],
+      "discovery_score": 37.4,
+      "news_burst_score": 0,
+      "source_diversity_score": 38,
+      "catalyst_quality_score": 80,
+      "freshness_score": 68,
+      "evidence_quality_score": 36,
+      "youtube_query": "Anthropic music copyright lawsuit",
+      "youtube_event_terms": [
+        "Anthropic",
+        "copyright",
+        "lawsuit"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "\"anthropic\"",
+        "article_count": 98,
+        "feed_capped": true,
+        "current_3h": 0,
+        "baseline_3h_median": 0,
+        "short_ratio": 1,
+        "current_day": 2,
+        "baseline_day_median": 2.5,
+        "long_ratio": 0.857,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 28,
+        "news_burst_score": 0
+      },
+      "source_domains": [
+        "axios.com",
+        "techcrunch.com"
+      ],
+      "recent_evidence_count": 2,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "regulatory_legal",
+          "title": "Music publishers sue Anthropic, allege \"blantant theft\" of copyrighted music",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE4yWkVsWkZ5bXMySGRnSmIwVWNQR2x6Z3B6ZzF0TVU1WGZtN1R2bVczRkFJOU5HZE93VlJFbmZGU3RVeEdPWC1IalN4bXEzbmhPb3RpTGt2TmE0U0lqcTdrR0QtT1VYY05za0hkRGVrOV9sU3hvU2JOX1JR?oc=5",
+          "domain": "axios.com",
+          "source_name": "Axios",
+          "timestamp_utc": "2026-08-29T23:33:51+00:00",
+          "entity": "Anthropic",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "private_company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "regulatory_legal",
+          "title": "Sony Music, Warner sue Anthropic, alleging a \"brazen campaign\" of intellectual property theft",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQejY1TWtSaGE0bDJPNF92ZEZBeTlSYnAycFpjN2dwS2JYZmlCQ2F3SnMzY01vSUlwdGljVzZsYU9mSk50dm9LMENkWW9fSnM5dnN0QVpFdlktalYwYXBGZWVkQ0ltcXRQdjdDYUNRNDExSkFQVXFQWk1ZSlVQLURWNXBZZTVhU2FoWE9vcjlXUURmSlBOOWdIczBtN0U5aF9BM2NoNnVPLTVjTmdhWG9sNGlhb1hXNXZ6Y3NCaTZpU2VBUQ?oc=5",
+          "domain": "techcrunch.com",
+          "source_name": "TechCrunch",
+          "timestamp_utc": "2026-08-29T18:41:59+00:00",
+          "entity": "Anthropic",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "private_company"
+        }
+      ],
+      "candidate_rank": 81,
+      "judge_version": "B_V1",
+      "entity_accuracy": "pass",
+      "catalyst_reality_score": 24,
+      "investor_materiality_score": 18,
+      "novelty_score": 14,
+      "judge_evidence_quality_score": 12,
+      "content_potential_score": 17,
+      "judge_score": 85,
+      "judge_reason": "音乐出版商起诉 Anthropic 涉及生成式 AI 的版权成本与商业模式风险，且 Axios/TechCrunch 提供交叉确认。",
+      "verification_note": "确认诉状原文、原告名单与索赔范围。",
+      "youtube_metrics": {
+        "status": "ok",
+        "query": "Anthropic music copyright lawsuit",
+        "raw_sample_size": 25,
+        "relevant_sample_size": 22,
+        "estimated_total_results": 63,
+        "youtube_supply_gap_score": 50.0,
+        "median_views_per_day": 8,
+        "small_channel_sample_size": 22,
+        "small_channel_hit_rate": 9.1,
+        "sample_videos": [
+          {
+            "video_id": "jKpoEsCw9ec",
+            "title": "ソニーとワーナーがAnthropicを提訴【#AIニュース速報 Shorts】",
+            "channel_id": "UC4eusPZYggQv6Yaf4EO6j4Q",
+            "published_at": "2026-08-29T22:18:40+00:00",
+            "views": 1014,
+            "views_per_day": 1912,
+            "channel_subscribers": 1750
+          },
+          {
+            "video_id": "fiFphCOK7IE",
+            "title": "【#AIニュース】ソニーとワーナーがAnthropicを提訴！防衛省は自衛隊通信網にNTTの光通信を導入 | 2026.08.30 | No.175",
+            "channel_id": "UC4eusPZYggQv6Yaf4EO6j4Q",
+            "published_at": "2026-08-29T22:05:15+00:00",
+            "views": 960,
+            "views_per_day": 1779,
+            "channel_subscribers": 1750
+          },
+          {
+            "video_id": "hfNt1OQ84dg",
+            "title": "Anthropic sued by Sony Music and Warner over AI training",
+            "channel_id": "UC_y_brFpuc8xJ7eKKxKCYJQ",
+            "published_at": "2026-08-29T23:16:20+00:00",
+            "views": 106,
+            "views_per_day": 216,
+            "channel_subscribers": 18
+          },
+          {
+            "video_id": "-oCgIKPtPcQ",
+            "title": "Sony & Warner Sue Anthropic — Billions in Damages?",
+            "channel_id": "UCNqmNgLgZMeCvUK3DkSW1xg",
+            "published_at": "2026-08-30T02:09:50+00:00",
+            "views": 44,
+            "views_per_day": 119,
+            "channel_subscribers": 29
+          },
+          {
+            "video_id": "XQ_Ffm85k2s",
+            "title": "AI Giant Anthropic Sued for Billions! 🎵",
+            "channel_id": "UCknCEn3ecwW18YM1xJODXsg",
+            "published_at": "2026-08-30T00:16:24+00:00",
+            "views": 37,
+            "views_per_day": 83,
+            "channel_subscribers": 18
+          },
+          {
+            "video_id": "xsqFLp5yK3E",
+            "title": "Anthropic Sued Again: The $1.5B Piracy Precedent",
+            "channel_id": "UCinH8JENcQcBD6lIBYQBpXw",
+            "published_at": "2026-08-30T10:23:54+00:00",
+            "views": 8,
+            "views_per_day": 64,
+            "channel_subscribers": 2
+          },
+          {
+            "video_id": "ZnndxXQhpNY",
+            "title": "Anthropic sued by Sony Music and Warner Chappell over AI training data",
+            "channel_id": "UC_y_brFpuc8xJ7eKKxKCYJQ",
+            "published_at": "2026-08-29T23:36:57+00:00",
+            "views": 24,
+            "views_per_day": 50,
+            "channel_subscribers": 18
+          },
+          {
+            "video_id": "IV_2wCBJo9w",
+            "title": "Anthropic著作権訴訟とApple新製品、AI業界の激動を徹底解説",
+            "channel_id": "UCw5mmHpkWe79w75MCREaE3A",
+            "published_at": "2026-08-30T02:53:16+00:00",
+            "views": 5,
+            "views_per_day": 15,
+            "channel_subscribers": 11
+          },
+          {
+            "video_id": "jOSufRtSjNA",
+            "title": "Sony Music and Warner Sue Anthropic for IP Theft ⚖️",
+            "channel_id": "UC5MFLDzs7w-KVMp-0RZYcRg",
+            "published_at": "2026-08-29T20:15:11+00:00",
+            "views": 9,
+            "views_per_day": 15,
+            "channel_subscribers": 2010
+          },
+          {
+            "video_id": "uq2UnfVNZ70",
+            "title": "Sony Music and Warner Chappell Sue Anthropic Over AI-Used Lyrics #Shorts",
+            "channel_id": "UCDSQUdALnmaVfKUlu2vQZMQ",
+            "published_at": "2026-08-30T03:31:51+00:00",
+            "views": 3,
+            "views_per_day": 10,
+            "channel_subscribers": 16
+          }
+        ]
+      },
+      "scanner_b_score": 63.7
     }
   ]
 }
