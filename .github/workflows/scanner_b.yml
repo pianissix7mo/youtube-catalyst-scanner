@@ -11,11 +11,11 @@ on:
       - "requirements.txt"
       - ".github/workflows/scanner_b.yml"
   schedule:
-    # Toronto 05:07. Keep both UTC entries for DST, but select by Toronto's
+    # Toronto 02:15. Keep both UTC entries for DST, but select by Toronto's
     # current UTC offset instead of the workflow's actual start hour. GitHub
-    # scheduled runs can be delayed, so checking `date +%H` is not reliable.
-    - cron: "7 9 * * *"
-    - cron: "7 10 * * *"
+    # scheduled runs can be delayed, so checking wall-clock start time is not reliable.
+    - cron: "15 6 * * *"
+    - cron: "15 7 * * *"
 
 permissions:
   contents: write
@@ -40,12 +40,12 @@ jobs:
           TORONTO_OFFSET=$(TZ=America/Toronto date +%z)
           SCHEDULE="${{ github.event.schedule }}"
 
-          # EDT (UTC-4): 05:07 Toronto == 09:07 UTC.
-          # EST (UTC-5): 05:07 Toronto == 10:07 UTC.
+          # EDT (UTC-4): 02:15 Toronto == 06:15 UTC.
+          # EST (UTC-5): 02:15 Toronto == 07:15 UTC.
           # Key point: choose from the scheduled cron expression, not the
           # workflow's delayed wall-clock start time.
-          if { [ "$TORONTO_OFFSET" = "-0400" ] && [ "$SCHEDULE" = "7 9 * * *" ]; } || \
-             { [ "$TORONTO_OFFSET" = "-0500" ] && [ "$SCHEDULE" = "7 10 * * *" ]; }; then
+          if { [ "$TORONTO_OFFSET" = "-0400" ] && [ "$SCHEDULE" = "15 6 * * *" ]; } || \
+             { [ "$TORONTO_OFFSET" = "-0500" ] && [ "$SCHEDULE" = "15 7 * * *" ]; }; then
             echo "run=true" >> "$GITHUB_OUTPUT"
           else
             echo "run=false" >> "$GITHUB_OUTPUT"
