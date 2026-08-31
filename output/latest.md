@@ -1,28 +1,25 @@
 # Scanner B — Catalyst Opportunities
 
-Generated: **2026-08-30T11:02:15.824285+00:00**
+Generated: **2026-08-31T13:12:21.545221+00:00**
 
-YouTube search calls used: **20 / 20**
+YouTube search calls used: **17 / 20**
 
 | # | Event | Ticker | Judge | Discovery | Burst | Sources | YT gap | B final |
 |---:|---|---|---:|---:|---:|---:|---:|---:|
-| 1 | PetroChina H1 net profit jumps 22%, boosted by fuel sales, oil price spike | PCCYF | 81 | 64.9 | 70.3 | 20 | 100.0 | 80.0 |
-| 2 | Marvell Lifts Long-Term Targets as AI Demand Boosts Second-Quarter Profit, Revenue | MRVL | 92 | 42.8 | 7 | 20 | 95.0 | 77.8 |
-| 3 | PayPal Shares Dive Premarket on Report of Advent, Stripe Abandoning Takeover Plan | PYPL | 95 | 50.1 | 11.1 | 38 | 70.0 | 76.5 |
-| 4 | Boeing's Back in the Defense Business With a Big $131.2 Billion Order for New F-15 Fighters | BA | 90 | 32.7 | 0 | 20 | 100.0 | 74.8 |
-| 5 | Optimus Just Entered Production at Fremont. Here's What Changes for Tesla Investors | TSLA | 91 | 31.7 | 0 | 20 | 95.0 | 74.0 |
-| 6 | Venezuela-U.S. Energy Deal Targets 1.5 Million Bpd Oil Output - Chevron (NYSE:CVX) | CVX | 83 | 45.1 | 21.6 | 20 | 95.0 | 74.0 |
-| 7 | Microsoft and Chevron Sign 20-Year Power Deal For Texas Data Center | MSFT | 88 | 31.5 | 0 | 20 | 100.0 | 73.5 |
-| 8 | Lambda Secures $1 Billion Debt for NVIDIA GPU Acquisition and Mi | NVDA | 83 | 39.4 | 2.9 | 20 | 100.0 | 73.3 |
-| 9 | Why Veeva Systems (VEEV) Is Up 11.6% After Strong Q2, Higher Guidance, and New AI CRM Wins | VEEV | 81 | 39 | 4.1 | 20 | 100.0 | 72.2 |
-| 10 | Magnite (MGNI) Lifted Guidance, Is The Stock Fully Priced? | MGNI | 73 | 51.1 | 34.2 | 20 | 100.0 | 71.8 |
-| 11 | IREN secures $6.5 billion GPU financing as AI pricing surges 125% | IREN | 84 | 40.1 | 32.7 | 20 | 85.0 | 71.0 |
-| 12 | How VeriSign’s 10% .net Price Hike Could Shape Recurring Revenue for VeriSign (VRSN) Investors | VRSN | 77 | 39.2 | 25 | 20 | 100.0 | 70.3 |
-| 13 | China Lifestyle Retailer Miniso’s Shares Drop 4% After Earnings Report | MNSO | 70 | 50.1 | 31.4 | 20 | 100.0 | 70.0 |
-| 14 | How Investors Are Reacting To Masco (MAS) Earnings Beat, Sales Decline, and Tariff-Boosted Outlook | MAS | 67 | 51.7 | 32.6 | 20 | 100.0 | 69.0 |
-| 15 | OpenAI Ends Cursor Partnership Amid SpaceX Acquisition, Sets November 2026 Cutoff | — | 94 | 52.7 | 0 | 72 | 30.0 | 68.8 |
-| 16 | AeroVironment (AVAV) Is Down 7.7% After NASA Mars Deal And New Defense Orders - What's Changed | AVAV | 74 | 39.3 | 5.2 | 20 | 100.0 | 68.8 |
-| 17 | Jackson Hole Highlights New Tug-of-War for the Treasury and Fed | — | 95 | 49.6 | 0 | 55 | 30.0 | 68.4 |
-| 18 | Walmart settles U.S. government's opioid lawsuit, which sought billions, for $50 million | WMT | 72 | 41.1 | 0 | 55 | 100.0 | 68.3 |
-| 19 | Ascent Industries Targets $120M Revenue After Specialty Chemicals Transformation | ACNT | 66 | 50.5 | 29.1 | 20 | 100.0 | 68.2 |
-| 20 | Music publishers sue Anthropic, allege "blantant theft" of copyrighted music | — | 85 | 37.4 | 0 | 38 | 50.0 | 63.7 |
+| 1 | GameStop Sees Higher Profit as eBay Investment Offsets Lower Sales | GME | 95 | 73.6 | 77.1 | 38.0 | 100.0 | 89.6 |
+| 2 | Aon tallies up estimated costs and synergies for $17B USI acquisition (AON:NYSE) | AON | 87 | 71.5 | 79.2 | 38.0 | 100.0 | 85.0 |
+| 3 | SAIC (SAIC) Tops Q2 Earnings and Revenue Estimates | SAIC | 85 | 74.6 | 83.5 | 38.0 | 100.0 | 84.9 |
+| 4 | South Korea's SK On signs energy storage battery deal with US firm NeoVolta Power | NEOV | 91 | 57.1 | 69.8 | 20.0 | 100.0 | 82.6 |
+| 5 | German inflation rises to 2.9% in August, below forecasts | — | 86 | 50.8 | 0.0 | 55.0 | 100.0 | 78.2 |
+| 6 | Forecast: Fed To Hike Interest Rates After Warsh's Jackson Hole Talk | — | 92 | 61.3 | 41.2 | 55.0 | 50.0 | 74.4 |
+| 7 | Raytheon and Lockheed Martin select Tata for planned Javelin co-production in India, linking U.S. plants to Indo-Pacific missile supply | LMT | 79 | 46.4 | 32.6 | 20.0 | 100.0 | 73.4 |
+| 8 | Samsung Works With Nvidia to Develop 8-Layer HBM4E, Targeting a 20% Speed Boost Over Initial Samples | NVDA | 79 | 47.1 | 18.0 | 55.0 | 95.0 | 72.6 |
+| 9 | SK hynix still reviewing feasibility of Japan semiconductor plant | — | 79 | 42.6 | 0.0 | 38.0 | 100.0 | 72.3 |
+| 10 | Lockheed Martin CEO says NATO weapons demand is driving a new wave of production, co-production and sustainment capacity in Europe | LMT | 74 | 47.9 | 32.6 | 20.0 | 100.0 | 71.4 |
+| 11 | SK Hynix Considers Intel for Next-Gen HBM Base-Dies | — | 78 | 38.6 | 0.0 | 38.0 | 100.0 | 70.6 |
+| 12 | U.S. Crypto ETFs See Over $2 Billion in Weekly Inflows | — | 73 | 45.5 | 0.0 | 72.0 | 100.0 | 70.2 |
+| 13 | Soitec locks AI chip wafer customers into multi-year deals with deposits and fixed pricing | — | 75 | 38.1 | 2.9 | 38.0 | 100.0 | 68.9 |
+| 14 | What Hesai Group (HSAI)'s Q2 Earnings Beat and Q3 Revenue Guidance Means For Shareholders | HSAI | 68 | 46.8 | 22.1 | 20.0 | 100.0 | 68.0 |
+| 15 | Untested in court, Trump’s new tariffs on Canada raise legal questions | — | 80 | 43.6 | 4.7 | 38.0 | 70.0 | 67.1 |
+| 16 | OpenAI Cuts Off Cursor After SpaceX's $60 Billion Takeover | — | 88 | 49.0 | 0.0 | 55.0 | 30.0 | 64.7 |
+| 17 | Anthropic Hit With New Copyright Lawsuit From Sony, Warner | — | 80 | 39.8 | 18.0 | 20.0 | 50.0 | 61.9 |
