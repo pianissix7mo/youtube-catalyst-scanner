@@ -1,21 +1,21 @@
 {
   "scanner": "B",
-  "generated_at_utc": "2026-09-01T11:31:58.277931+00:00",
+  "generated_at_utc": "2026-09-01T11:35:00.135855+00:00",
   "lookback_hours": 24,
   "primary_news_source": "google_news_rss",
-  "raw_evidence_count": 361,
-  "news_evidence_count": 361,
+  "raw_evidence_count": 268,
+  "news_evidence_count": 268,
   "sec_evidence_count": 0,
-  "event_cluster_count": 251,
+  "event_cluster_count": 184,
   "category_mapped_counts": {
-    "earnings_guidance": 19,
-    "mna": 32,
+    "earnings_guidance": 20,
+    "mna": 31,
     "contract_order": 22,
-    "regulatory_legal": 29,
-    "pricing_capacity": 18,
-    "ai_semis": 91,
+    "regulatory_legal": 28,
+    "pricing_capacity": 20,
+    "ai_semis": 0,
     "macro_rates": 76,
-    "crypto": 74
+    "crypto": 71
   },
   "events": [
     {
@@ -39,7 +39,7 @@
         "pluang.com",
         "techtimes.com"
       ],
-      "recent_evidence_count": 10,
+      "recent_evidence_count": 9,
       "evidence": [
         {
           "source_type": "news_rss",
@@ -148,23 +148,10 @@
         {
           "source_type": "news_rss",
           "category": "crypto",
-          "title": "Crypto ETFs attract $2.07B as Bitcoin and Ether lead strong weekly inflows",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORHQ1RGFRZExRTmF3RlB4VmkyVTdxOXhfcF9QR1UwbUh5cGNfTWVEQmdJTzBhc3g3RFVHV0RuazZWWldHRm94U0hid0QzQTlCV3B2ZWY0bm42THFFcnc5QmR5WW9wSzVVa00zVjVlWmFmUTk1NXluTXdIWExGWVVJMEJWUVYxSVlGeVlDVzdOLWljNTdNU24td1lEUQ?oc=5",
-          "domain": "pluang.com",
-          "source_name": "Pluang",
-          "timestamp_utc": "2026-08-31T16:58:37+00:00",
-          "entity": "Bitcoin / Crypto",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "crypto"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "crypto",
           "title": "U.S. Crypto ETFs See Over $2 Billion in Weekly Inflows",
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOLTRsSkNiZUN2aUh2MG1zMUx5TlVwSEJicEVqbHl3ZFdjY2R1b2NLeExJOXUzOGZhYlltQ0J3dl9SQlFtYzlzTzNnQzdadm9yR2FTQjNfWEF0ME9ybEVvTG1nTndOS2dHb0RGaTBzWXc2cTlnSkg1XzBWQzRyYWdRckc2UnlzblNQYzZPRExVR2tNRHI1QnZz0gGcAUFVX3lxTE9BWTRvYjJIQ0RxLWpZU01sVDBLMjFZckNncEdHTUVkb2d1QkF0Qm9WcHNOUU5Yb2ptT3ROTFRoVkhSaFhSYkR2cnlzaElTeTJNbkI5clJBdEJ3YkFqN05KRTltN3NfZm9najBQWXdIRmUwWWVtenFVeEotWVdFallsUGlNbkdKYnhFVFJMdFNGRXBBS015UmJfdl93ag?oc=5",
           "domain": "coinpedia.org",
-          "source_name": "Coinpedia",
+          "source_name": "coinpedia.org",
           "timestamp_utc": "2026-08-31T16:08:31+00:00",
           "entity": "Bitcoin / Crypto",
           "ticker": null,
@@ -178,37 +165,25 @@
       "ticker": "LTUM",
       "cik": "1415332",
       "entity_type": "company",
-      "representative_title": "LG Energy Solution Secures 10-Year Lithium Carbonate Supply Deal",
-      "latest_timestamp_utc": "2026-09-01T08:42:15+00:00",
+      "representative_title": "LG Energy Solution Secures 10-Year US Lithium Supply Deal",
+      "latest_timestamp_utc": "2026-09-01T08:24:20+00:00",
       "categories": [
         "contract_order"
       ],
       "sec_forms": [],
       "source_domains": [
+        "biz.chosun.com",
         "businesskorea.co.kr",
-        "chemanalyst.com",
         "en.sedaily.com",
         "fsxbusiness.com",
         "geomechanics.io",
         "indianchemicalnews.com",
+        "kait8.com",
         "koreaherald.com",
         "kvom.com"
       ],
-      "recent_evidence_count": 8,
+      "recent_evidence_count": 9,
       "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "contract_order",
-          "title": "LG Energy Solution Secures 10-Year Lithium Carbonate Supply Deal",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNUtPQzYxQ1ExTm1pOVlRMU9TNUMycDEzX2wwODJvMEt1TFF2ZGdTZ0xzZWRGQUdvYVBhSkVjMHhSN3psTDE4WWxjb3VwRHEtY1otQWI4RWREZFJOQVBfbk9KcE51Z21XdjdEdmN3UGxLZjJXQ2ctN3hzeDFBOEhTdFA4TWs0V1VXWTBSMk1feXR4RUtyX2l0cXJRWDQzUUx3UWxlT3BOX3dXU2N3cnBZYw?oc=5",
-          "domain": "chemanalyst.com",
-          "source_name": "ChemAnalyst",
-          "timestamp_utc": "2026-09-01T08:42:15+00:00",
-          "entity": "Lithium Corp",
-          "ticker": "LTUM",
-          "cik": "1415332",
-          "entity_type": "company"
-        },
         {
           "source_type": "news_rss",
           "category": "contract_order",
@@ -238,10 +213,23 @@
         {
           "source_type": "news_rss",
           "category": "contract_order",
+          "title": "Lithium company signs agreement with LG Energy Solution for South West Arkansas Project",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNaXpvTzdHdTd6Mllvd3ZHbkRwRVh2YXlIcnBfTlp0VjBZV3RQMWQwSU1wUV96OVdCT3FYaGlDMzJZeG00VzVjQnRjQzc1T3k1RzN4QW1GdmNxMGVodkpmSEU0OGdBekU0TmJCa08wTXFUXzFQdDREak1XOXVhM09oMHltak9NTWM3MklRbzZQT1ZSeTNydkZZZjdObzZFaTVvZUd1UmRULUdzdlNteWUweWRxOWlFRHVQ0gHMAUFVX3lxTE8yYl9QVWpDTVJsZS00cWVRdmw0MW9ENkNySm1QRjBaZVYwMmU2ekdWTm1pazJiNUZsazNBVG5WMXZQOER0M2VrX1UtMFo3d25hckRrOXNvWnBYT0xGTDRac2ZUeWhNU05XcmF0M3YwMmt2dWd2T3Z0eDQ1MGM3SHdLT1N2R01FYjlxSS1iZElIdTREN1BFalZwN1F6aXlIb0Q4MVpPcGdrWl85WU5hQkZIVlpvalY4SzhUWFFoU0pVUFd0YlN2cHdSWjh4Vg?oc=5",
+          "domain": "kait8.com",
+          "source_name": "K8 News | Jonesboro, Arkansas",
+          "timestamp_utc": "2026-09-01T03:50:00+00:00",
+          "entity": "Lithium Corp",
+          "ticker": "LTUM",
+          "cik": "1415332",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "contract_order",
           "title": "LG Energy Solution Secures U.S. Lithium Supply Deal",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBNalliM3l0anF1R3Uyel8zV3kzOWRxUFNWczkzUHFpOEFiVlRGV0sxOGc1bkhvME5ENzNUVU9yclFVQjhUZ2R6YWpnVW1sd0lPbnJIOVFUZFRnNVE3WDJub0dkRnJtNjY4NnBwM2dxVkRpQW5w?oc=5",
           "domain": "businesskorea.co.kr",
-          "source_name": "Businesskorea",
+          "source_name": "businesskorea.co.kr",
           "timestamp_utc": "2026-09-01T02:58:25+00:00",
           "entity": "Lithium Corp",
           "ticker": "LTUM",
@@ -264,10 +252,23 @@
         {
           "source_type": "news_rss",
           "category": "contract_order",
+          "title": "LG Energy Solution secures US lithium carbonate in 10-year, 80,000-ton deal - CHOSUNBIZ",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNUXU0MG1UUWxhY3U2QmZYcEkyaFhPRmk1aW80SDU5MDM3Yy0wMGpFUnR1cnR5dzVuRm9aZGs2Nml3SmJ2bUJLLVl1RFVINDV0Z2tmQ0tmU1Y1VFBvSDEzRTZRMUtQVFhYUGdXcjR5QWNKM01XYTlFLS15a2xOOU9Mekx30gGWAUFVX3lxTE9UZUtLR3R6Z0tzZ3RwaEpRanM1bmZrMEhXdkw0eGdyX1dqSUVLdkVRNUhwcmVXY1BlYlNzcG5VNzlVcktNbTlpajZRRUtsMVdXdld6Z19yVDhDTEtHUV9DcE9saEtfQ1F6SjNUTEhBUXpQYmhMTjZ0UHlsT0NYSUF1WjEtZHZxX0loSXI3X0RYY1d6RDNRQQ?oc=5",
+          "domain": "biz.chosun.com",
+          "source_name": "biz.chosun.com",
+          "timestamp_utc": "2026-09-01T00:29:00+00:00",
+          "entity": "Lithium Corp",
+          "ticker": "LTUM",
+          "cik": "1415332",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "contract_order",
           "title": "Smackover–LG 10‑year lithium deal: supply chain and project notes for mine planners",
           "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOeTYyRFIydkJCaUJCc1BtbjdHZUxnY0thdHNXS2JtMlFZQ0pBMWxSV3pmUkZRUGxSdHJPbkdGQm5TQ0NQTzVGcFllTm55TGw4VlBzUGdBdnZpSTNvdUwwN2ZzaTlhWHVjM0JCalNnazF2T25CSF8tUkRiSk5SMGEwRXZ3djJyZ0R5bVIwd1FFbzR2N1p5QmphVGN0a0ItTjBETVg4SEtudnZsanlrR0Q4aTNacC1hR1luS1U0cnVn?oc=5",
           "domain": "geomechanics.io",
-          "source_name": "geomechanics.io",
+          "source_name": "Geomechanics.io",
           "timestamp_utc": "2026-09-01T00:02:42+00:00",
           "entity": "Lithium Corp",
           "ticker": "LTUM",
@@ -441,7 +442,7 @@
           "title": "Eurozone inflation jumps to 3.3% in August as energy prices surge",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONEN1aWRpVHNlV0FWVF9TTks3dFVIclY0Vkd4N0VacG1JS19OY25nckZBQXVnR2JtZUVyR3d6V3R5aVg5dnZrUUh6WFBxS1poT3A3VzA5VFNtWHB4dnRBZ2JibzI1ZG1uNEJQQnN1OWxteUwwOEZ1S2xsajZyQTFZak9tZTdrbVJmdkk4U0hKVmJ5QmwwMFNaWUdJb3lhaml3ZkR4NTB0TjBZRndK?oc=5",
           "domain": "euronews.com",
-          "source_name": "Euronews.com",
+          "source_name": "euronews.com",
           "timestamp_utc": "2026-09-01T09:43:15+00:00",
           "entity": "Inflation",
           "ticker": null,
@@ -455,7 +456,7 @@
           "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWi12RXhUckg1T1JDbE5MR085RC0tT1BhMlFMWlRkWlNMNV9EaWNVTHZfS2FSTEpGQXFOdVBRRTVqSy1qVlN4TkZtb3NISWhOYnBKS3BSVUY5b1RjODRJT0JNeGY3NnBBRzN3R2dKNThHZHpGRDdzVElJTnQzQTY1ZVZ6ZHc?oc=5",
           "domain": "ft.com",
           "source_name": "Financial Times",
-          "timestamp_utc": "2026-09-01T09:34:49+00:00",
+          "timestamp_utc": "2026-09-01T09:33:45+00:00",
           "entity": "Inflation",
           "ticker": null,
           "cik": null,
@@ -467,7 +468,7 @@
           "title": "Global bond yields soar to multi-decade highs as Middle East turmoil reignites inflation fears",
           "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNSXE1amZIRWIwXzJ6NTVmZ1pLQVZIVThoQjI1QnRzUGtNX2UybVVGVFpDM01IenhCY1F0Z0lTNlphU1NNdF81RGk5XzFXWndRcVBRRkd6ZWJXeUM0RUpZc01yeTRCMXY0S25RblhDbXhNMHpVM0xmaVRsOHMxMGdkOVF0ckhBLU1SbkHSAY8BQVVfeXFMTlR1WGhmQWsyWlRVWGt1WkVxczJJdkpmSS1NOGUwUzFvY2xxaUdJOGpRbnMyYjV3YzIzR0MtMm9aMzFrOGJ5cGtYWnUzblotc2pfcE91Ym8zcF9PRGg5MDQwRWpfcDVocFotUlg1WWlCamE5TWlYS29Fd2hYNVNEYVBvVlA1QTJzVTVmVXZkZGc?oc=5",
           "domain": "cnbc.com",
-          "source_name": "CNBC",
+          "source_name": "cnbc.com",
           "timestamp_utc": "2026-09-01T09:31:59+00:00",
           "entity": "Inflation",
           "ticker": null,
@@ -499,165 +500,6 @@
           "ticker": null,
           "cik": null,
           "entity_type": "macro"
-        }
-      ]
-    },
-    {
-      "entity": "NVIDIA CORP",
-      "ticker": "NVDA",
-      "cik": "1045810",
-      "entity_type": "company",
-      "representative_title": "Qualcomm rival MediaTek jumps 10% after $3.5 billion Nvidia AI chip deal",
-      "latest_timestamp_utc": "2026-09-01T08:00:23+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "app.dealroom.co",
-        "cnbc.com",
-        "electronicsforyou.biz",
-        "siliconangle.com",
-        "techzine.eu"
-      ],
-      "recent_evidence_count": 5,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Qualcomm rival MediaTek jumps 10% after $3.5 billion Nvidia AI chip deal",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE05RTBTampvUXh0LUFDY0FCb09GSlFTTXNtUkVtYUl4bGFsdkVVRHF6a1dwYjUzZUFFYVV0Vl9aQ1BwcFFMQ29Yemdjd0tiVGFTWHRVT2E5aDZTN3ppOTlOWkxPWGFNNFhuYk1zakFkRlhIUdIBd0FVX3lxTE1aeWtQaTBtd3NfV1BWT1NWcjhIdmo5WndPTmNQNG5OVkZRVTRrVzBLbTEtRDlKTHluejh1bVNYMHNKWHBzNjFuY2JrVUc0a3V1X1ZlSnEtTnRxbnE3UUp2YTc5dEI0T2xvaTNRNTJCLXVad3hVSGYw?oc=5",
-          "domain": "cnbc.com",
-          "source_name": "CNBC",
-          "timestamp_utc": "2026-09-01T08:00:23+00:00",
-          "entity": "NVIDIA CORP",
-          "ticker": "NVDA",
-          "cik": "1045810",
-          "entity_type": "company"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Nvidia Invests $3.5 Billion in MediaTek to Expand AI Chip Ecosystem",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTF9wRDlBSDNWbGFDOWQ1T2VlTE9BdmxvSncyYWF2b2ZPMS1yVm5LWHpEOVBEUDBzc1QyV2JmQkQ0aTZmaVN1TTd5c1NMOGY2S08tMk1ZUlM1LVAzd0M2Qlc5UmRCZnpDWDdkaFI0MkczX1VLTW44MFZ0LXRUbWo5SGV2WWFsOThTbk5oTnBVWDY3SWFaOGhwLXBnT2VUcXluQmhmX3FyNXp4Wll4OEYwMDdjM2hYdw?oc=5",
-          "domain": "electronicsforyou.biz",
-          "source_name": "Electronics For You BUSINESS",
-          "timestamp_utc": "2026-09-01T07:53:23+00:00",
-          "entity": "NVIDIA CORP",
-          "ticker": "NVDA",
-          "cik": "1045810",
-          "entity_type": "company"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Nvidia invests $3.5 billion in MediaTek for custom AI chip support",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNOW9VY2ZudmdBYm5pS3ZNSzFkQnBkS2lLMnhCNjhPbGlUcmg5MVBnN2pWejBVYlVUREVxTGtIaUpTMC1SOWl5NFNxSENCV3I5Y1FpY0RTQkFhalBOR0Y0MDljMVBSN2tiWUd5eFFUTzFnTU9POVNOS1pzdUNLLVkxb1FTdDg0aDFVSEhhWVZldW5iYWg5djJCampGZFRITUp3d056Yk9OYUYzOHloTzNSNkstWjBKZGpq?oc=5",
-          "domain": "techzine.eu",
-          "source_name": "Techzine Global",
-          "timestamp_utc": "2026-09-01T06:43:00+00:00",
-          "entity": "NVIDIA CORP",
-          "ticker": "NVDA",
-          "cik": "1045810",
-          "entity_type": "company"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Nvidia buys into MediaTek with $3.5B bet to keep AI chip 'tollbooth",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPX1FTNUQ3ZmVoWmRVX1pqZXpJN0swcjN5NVJXWDB0OGh2OURzbWpNZEhNV3hrMzFOR3J5aEdzZXZUMDVCc2xiTnk3aTUzWWxjek5pazdvX0UtVkpDUlVxUVRZTWhKNmgyaTZ5UHlHNExpM2VwOGc1Q3NFQXFRaFExYll2cE9LcExzLVkyRnVMWVdWeWl1ZGxtNEJzZlBHSGh4?oc=5",
-          "domain": "app.dealroom.co",
-          "source_name": "Dealroom",
-          "timestamp_utc": "2026-09-01T02:50:43+00:00",
-          "entity": "NVIDIA CORP",
-          "ticker": "NVDA",
-          "cik": "1045810",
-          "entity_type": "company"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Nvidia invests $3.5B in MediaTek as part of expanded AI chip partnership",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVWhJbXlUZ19sdXNsLTdoSGJYaGZPeXkxaG52QmlYUWVrS2QxOEZQa3B2R3NiSVJuSlFwNGNHR0JZb0NKUXdTTDROc2pmQ0FxQ2JoUFBUa0FEZ25lWlFFdjJhN08zanB1N2NYaGtYSWdmNVByajhORGhsTlpneHJuNjhRVEhJaTRsQ0xfNUtYNnVSSlV6dk9uUGRtYVdQby1RVmIxYzRoS1hUNkQ3?oc=5",
-          "domain": "siliconangle.com",
-          "source_name": "SiliconANGLE",
-          "timestamp_utc": "2026-08-31T20:18:00+00:00",
-          "entity": "NVIDIA CORP",
-          "ticker": "NVDA",
-          "cik": "1045810",
-          "entity_type": "company"
-        }
-      ]
-    },
-    {
-      "entity": "AMAZON COM INC",
-      "ticker": "AMZN",
-      "cik": "1018724",
-      "entity_type": "company",
-      "representative_title": "The Morning Risk Report: FTC Files Lawsuit Alleging Amazon Deceived Advertisers",
-      "latest_timestamp_utc": "2026-09-01T10:53:00+00:00",
-      "categories": [
-        "regulatory_legal"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "digiday.com",
-        "finance.yahoo.com",
-        "wsj.com"
-      ],
-      "recent_evidence_count": 4,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "regulatory_legal",
-          "title": "The Morning Risk Report: FTC Files Lawsuit Alleging Amazon Deceived Advertisers",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPRVM0cEZMZk9PbGROZEpzSk9CVGFLU2ZMWUE2UmpVWTBNZXZZei13STJZZlZqYjh2NHdhRVJBNDhaaG1Wd1JOdnhLb292MlNscmhPM1lFczljdWduQ3VyMEVTUnNMSkdSLXZFQ2RJZ1VOZnk2c0stTXFHbXl3MlR5MUVrVmZPeDN5R29WSnhVZndBRkpMZks3cHJMek1Wdkh3ZngtNkJ6ZnY0aktHUVBza0NOamFiSW1STGVaQUFMaXJIT1ZIOGdBaTNJVQ?oc=5",
-          "domain": "wsj.com",
-          "source_name": "WSJ",
-          "timestamp_utc": "2026-09-01T10:53:00+00:00",
-          "entity": "AMAZON COM INC",
-          "ticker": "AMZN",
-          "cik": "1018724",
-          "entity_type": "company"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "regulatory_legal",
-          "title": "Is Amazon.com (AMZN) Undervalued After The FTC Ad Auction Lawsuit?",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQSkJ4QnZ6NnhlT08zemZ2aDNXd2hIRDRmLV9sVGx1cTk3VGpRdnE5R0ZUMUYzdVZZalhUeWlPWDV4b0hPQ0M0Q2gyaE84ZWtlRzhpd21BdFNrVnViX3hqVldvcWc1QUlvdnExTkZueWNuZnNrdWRWblRObFRYSm9rTXJmM0ZKYnQ5azctWFY5U1A5SThHR0Z5VDEzclk?oc=5",
-          "domain": "finance.yahoo.com",
-          "source_name": "Yahoo Finance",
-          "timestamp_utc": "2026-09-01T10:10:36+00:00",
-          "entity": "AMAZON COM INC",
-          "ticker": "AMZN",
-          "cik": "1018724",
-          "entity_type": "company"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "regulatory_legal",
-          "title": "WTF is the Amazon ad surcharge lawsuit?",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBYWi13Q3FyWmlVSmxrT1F4TUpROC10UUVMN0Y3Ry1JLWpqVjVCcGNyQl9iVnFpM3lUSFFMVWM3NjRpUXdwSmpmZUp5c3B0NWVnLVVMY2o2WkZIdUh4bFVJR2xmR1dLQ3pGTUREZUFqeFVaTVpvMGRFZl9oTzg?oc=5",
-          "domain": "digiday.com",
-          "source_name": "Digiday",
-          "timestamp_utc": "2026-09-01T04:04:44+00:00",
-          "entity": "AMAZON COM INC",
-          "ticker": "AMZN",
-          "cik": "1018724",
-          "entity_type": "company"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "regulatory_legal",
-          "title": "FTC Sues Amazon, Alleging It Deceived Advertisers and Drove Up Prices",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVTdfSlBMRDYwWko4RjVDVEZCdWNDM3Zvdi11MWlTSlVxZjcwZDViYWJxMUUzSXR5QmQ2a0p2dHJTY3dpMlVaWmlGUThOS0EwNmlXaU9IWS1zb2lLdjlTUUVQb0RHNGZOWnptVm5OZFNneTFjNWY0c0xHekR3OXJFY2VLb0F2ZV9ubUtHZHBkTXR0LWJO?oc=5",
-          "domain": "wsj.com",
-          "source_name": "WSJ",
-          "timestamp_utc": "2026-08-31T21:45:00+00:00",
-          "entity": "AMAZON COM INC",
-          "ticker": "AMZN",
-          "cik": "1018724",
-          "entity_type": "company"
         }
       ]
     },
@@ -925,6 +767,65 @@
       ]
     },
     {
+      "entity": "AMAZON COM INC",
+      "ticker": "AMZN",
+      "cik": "1018724",
+      "entity_type": "company",
+      "representative_title": "The Morning Risk Report: FTC Files Lawsuit Alleging Amazon Deceived Advertisers",
+      "latest_timestamp_utc": "2026-09-01T10:53:00+00:00",
+      "categories": [
+        "regulatory_legal"
+      ],
+      "sec_forms": [],
+      "source_domains": [
+        "digiday.com",
+        "finance.yahoo.com",
+        "wsj.com"
+      ],
+      "recent_evidence_count": 3,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "regulatory_legal",
+          "title": "The Morning Risk Report: FTC Files Lawsuit Alleging Amazon Deceived Advertisers",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPRVM0cEZMZk9PbGROZEpzSk9CVGFLU2ZMWUE2UmpVWTBNZXZZei13STJZZlZqYjh2NHdhRVJBNDhaaG1Wd1JOdnhLb292MlNscmhPM1lFczljdWduQ3VyMEVTUnNMSkdSLXZFQ2RJZ1VOZnk2c0stTXFHbXl3MlR5MUVrVmZPeDN5R29WSnhVZndBRkpMZks3cHJMek1Wdkh3ZngtNkJ6ZnY0aktHUVBza0NOamFiSW1STGVaQUFMaXJIT1ZIOGdBaTNJVQ?oc=5",
+          "domain": "wsj.com",
+          "source_name": "WSJ",
+          "timestamp_utc": "2026-09-01T10:53:00+00:00",
+          "entity": "AMAZON COM INC",
+          "ticker": "AMZN",
+          "cik": "1018724",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "regulatory_legal",
+          "title": "Is Amazon.com (AMZN) Undervalued After The FTC Ad Auction Lawsuit?",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQSkJ4QnZ6NnhlT08zemZ2aDNXd2hIRDRmLV9sVGx1cTk3VGpRdnE5R0ZUMUYzdVZZalhUeWlPWDV4b0hPQ0M0Q2gyaE84ZWtlRzhpd21BdFNrVnViX3hqVldvcWc1QUlvdnExTkZueWNuZnNrdWRWblRObFRYSm9rTXJmM0ZKYnQ5azctWFY5U1A5SThHR0Z5VDEzclk?oc=5",
+          "domain": "finance.yahoo.com",
+          "source_name": "Yahoo Finance",
+          "timestamp_utc": "2026-09-01T10:10:36+00:00",
+          "entity": "AMAZON COM INC",
+          "ticker": "AMZN",
+          "cik": "1018724",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "regulatory_legal",
+          "title": "WTF is the Amazon ad surcharge lawsuit?",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBYWi13Q3FyWmlVSmxrT1F4TUpROC10UUVMN0Y3Ry1JLWpqVjVCcGNyQl9iVnFpM3lUSFFMVWM3NjRpUXdwSmpmZUp5c3B0NWVnLVVMY2o2WkZIdUh4bFVJR2xmR1dLQ3pGTUREZUFqeFVaTVpvMGRFZl9oTzg?oc=5",
+          "domain": "digiday.com",
+          "source_name": "digiday.com",
+          "timestamp_utc": "2026-09-01T04:04:44+00:00",
+          "entity": "AMAZON COM INC",
+          "ticker": "AMZN",
+          "cik": "1018724",
+          "entity_type": "company"
+        }
+      ]
+    },
+    {
       "entity": "Federal Reserve / Rates",
       "ticker": null,
       "cik": null,
@@ -1043,6 +944,65 @@
       ]
     },
     {
+      "entity": "Inflation",
+      "ticker": null,
+      "cik": null,
+      "entity_type": "macro",
+      "representative_title": "Eurozone inflation hits three-year high at 3.3% in August",
+      "latest_timestamp_utc": "2026-09-01T09:59:41+00:00",
+      "categories": [
+        "macro_rates"
+      ],
+      "sec_forms": [],
+      "source_domains": [
+        "aa.com.tr",
+        "euractiv.com",
+        "think.ing.com"
+      ],
+      "recent_evidence_count": 3,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "Eurozone inflation hits three-year high at 3.3% in August",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQc3NWRWRneFAxMzltMFA5clBYU0lLLXVzMFh2OFhqcms1YWtWNm1EdUM0WFdUQWJCRm50SkRJcVllMEFmQnFJZ0xxUmNLaTJrWmxFZm9SRDNPRm1FR2FLWjdZSENCbGg1endQLWwwQXZYR19xa2NkT3pZMFVacHFnVnNpMmppNEJ3UHdkbEdHVmw?oc=5",
+          "domain": "euractiv.com",
+          "source_name": "euractiv.com",
+          "timestamp_utc": "2026-09-01T09:59:41+00:00",
+          "entity": "Inflation",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "Eurozone inflation hits highest since September 2023 as energy costs accelerate",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNWGYwa0d4Z1dZZHgyUm9iWWVTcklFRW1qRy1QT1VKaWVWZzQyQVFEXzRfcGZmTFh2YW5lMmVxaVBJX2FGYjE5b3RpNlRCNFVsdGM0NEp0Q1NnWVVqUUltRXdSNTk4V0xsT05kQjcxLVUtZkM4ZnFWMVB2TWJDY3VkYmR5U0lyS082RE5SSXNGUzF2eE5LbXJVNGNUUnBaVWlsa0pRSnduRTJKUkMzYlBFSXcxcFpCVjNfNVZiSQ?oc=5",
+          "domain": "aa.com.tr",
+          "source_name": "Anadolu Ajansı",
+          "timestamp_utc": "2026-09-01T09:19:07+00:00",
+          "entity": "Inflation",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "Eurozone inflation hits a Middle East war high, but core pressures remain contained",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPcm1TSHIxTk8zU1J0d3Q3TVNfYnVKRGNxYVFpNnZMRXZMSFVHNldHYm1vdEN1a05xWVdNT2c5T2JjTEhuTnV2cDVuVzRxczZMb3V4MXBlSmdjd0hYSlVFdmhqSmZOTFJSb2RMeTVDcUtueHZWN0lYRVpsX3A2dWpTY3dKTEdRQUtpeHE0ZEljVG15MVhXT2ZiQWdRTDRwVHdOeFJrbXJUSWU0VWtfelFyQy1IVDFGZw?oc=5",
+          "domain": "think.ing.com",
+          "source_name": "ING Think",
+          "timestamp_utc": "2026-09-01T09:11:04+00:00",
+          "entity": "Inflation",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        }
+      ]
+    },
+    {
       "entity": "Federal Reserve / Rates",
       "ticker": null,
       "cik": null,
@@ -1092,7 +1052,7 @@
           "title": "The 10-year Treasury yield just crossed a key threshold that should make people ‘sit up and take notice’",
           "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNYTJWMDluczQxSnVjYWZUZHFQVTdDcUJkRlF0WjZ5b2lMNFYtRHozcVJZaEwzc3U0NjFQQXpCS2YyV3dvMFNpbWhWWTR6MktZUFRRNHFUaXdYSElmaEtSV3l5eUo4ejl3TnVGWHpXeVBTWXc3dXlhT2FGbFFCRV9YYU5wOG91LXdUaTNCbURqRjBCNW5VTjZVcThnRFdZWXItUW5Bd3FRVWNDVUVPMGFRaDRXd3hGS3hVaDBIZ2dobE9TNnMwSUpZT25fMUJPSXZPUWZLTzhmSTlJZDVmMWc?oc=5",
           "domain": "marketwatch.com",
-          "source_name": "MarketWatch",
+          "source_name": "marketwatch.com",
           "timestamp_utc": "2026-08-31T20:26:00+00:00",
           "entity": "Federal Reserve / Rates",
           "ticker": null,
@@ -1161,121 +1121,61 @@
       ]
     },
     {
-      "entity": "SK hynix",
+      "entity": "Bitcoin / Crypto",
       "ticker": null,
       "cik": null,
-      "entity_type": "foreign_company",
-      "representative_title": "US-Korea AI: Inside SK hynix’s Indiana HBM Production Base",
-      "latest_timestamp_utc": "2026-09-01T09:11:15+00:00",
+      "entity_type": "crypto",
+      "representative_title": "Bitcoin Price Prediction for September 2026: What Follows a $3.5 Billion ETF Month?",
+      "latest_timestamp_utc": "2026-09-01T08:02:00+00:00",
       "categories": [
-        "ai_semis",
-        "pricing_capacity"
+        "crypto"
       ],
       "sec_forms": [],
       "source_domains": [
-        "aimagazine.com",
-        "digitimes.com",
-        "newelectronics.co.uk"
+        "beincrypto.com",
+        "cryptoslate.com",
+        "fortune.com"
       ],
       "recent_evidence_count": 3,
       "evidence": [
         {
           "source_type": "news_rss",
-          "category": "pricing_capacity",
-          "title": "US-Korea AI: Inside SK hynix’s Indiana HBM Production Base",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPd25oSTRZbkRZNWprNVF3M1p2WS04Yks5TUd3RnZGZlRtdUp5clFFUU54OU9yWjlJZ2FMZjdPM0E0WW9CeU9LZkJCZHIzRUIwdkJLUmNNcng3UG1qSjdxU2tNaXlvLW5XUU1hZERVQ0VsaXptYlZfOGdaSUtnQTB0ZDVOQXRaUDR6WUpMZA?oc=5",
-          "domain": "aimagazine.com",
-          "source_name": "AI Magazine",
-          "timestamp_utc": "2026-09-01T09:11:15+00:00",
-          "entity": "SK hynix",
+          "category": "crypto",
+          "title": "Bitcoin Price Prediction for September 2026: What Follows a $3.5 Billion ETF Month?",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5QNkpLZmtfeDlMWXlhNlV6T3VFZ3lSWkVWZmJwTzlZTkl6VkJlN1RjR1ZuVmcyMG1mS3UtQUZhYWo1a0M2aXc1LUxLbElDRURMWXdqZmtDTVc1Z0gyenlseUFpVUJMbjIydlRhc2JyaG0?oc=5",
+          "domain": "beincrypto.com",
+          "source_name": "BeInCrypto",
+          "timestamp_utc": "2026-09-01T08:02:00+00:00",
+          "entity": "Bitcoin / Crypto",
           "ticker": null,
           "cik": null,
-          "entity_type": "foreign_company"
+          "entity_type": "crypto"
         },
         {
           "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "SK Hynix targets 2029 start for AI memory chip production in Indiana",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPR2dWZld3V0RBVlIzVXp4NFd3UlNjeG9FWEt4UGt6VXVFVXAzT1Rlbl9jSlhtcVFzeFhma2sweFZFYnBoZXQzMC1rNHhqY3A5T2VPbEpPR0VwR2t1OWl4Y0ZGQ3NqYlIyNTNic0ZCdU1pVXhfZGo0Q0hWd3RPdjVSMGdCMXdkSENsYzkzUXZ2VmR0dHVNVU85R29nT3FvM25vWUtwd3pqSy1pZWJzS1ppUzROVmg?oc=5",
-          "domain": "newelectronics.co.uk",
-          "source_name": "newelectronics.co.uk",
-          "timestamp_utc": "2026-09-01T07:49:08+00:00",
-          "entity": "SK hynix",
+          "category": "crypto",
+          "title": "Bitcoin gains 24% as CryptoSlate price prediction model maps a volatile September",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQYXNxRVNDSjNORFBWR25wZDNDTVJUV2pVX0tOSnlSZ0Ytb3V6UWpEbnJIZHd3aXNnenN1YnQ1ZHFMclFHS0N4ekhET0hEbjBSUm1FRWUtVkZQd1hfRHRsUnBlS0FNaFRpZUs4ZEprWW5zNGR5SEtpTGNsakwzU3BJQkdBcEV6QnVxS05VcHEtaEpmUV9iZjU4V1NReXhtWjN4YnBfNUZadmo?oc=5",
+          "domain": "cryptoslate.com",
+          "source_name": "CryptoSlate",
+          "timestamp_utc": "2026-08-31T19:50:04+00:00",
+          "entity": "Bitcoin / Crypto",
           "ticker": null,
           "cik": null,
-          "entity_type": "foreign_company"
+          "entity_type": "crypto"
         },
         {
           "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "SK Hynix explores Intel as second source for HBM base dies",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPandwUjdPaTVBbkxvTVNOS01XZHZEa1pJdlFQTE1mVXNEanIxbHZ4VkdHcmVzT3dBaGFnUVVScDJnZVVtY2tWTHhkUF82dDBiTnQxOTRBMWRtbXBOZWFWa1pNSmtaWVpzMmNoRVctMGZWS3hmM1BUMjlyeUllLTkxVVRwQTY2cnd6SFpDZHNHcG1VT29NSFBYX1V0VQ?oc=5",
-          "domain": "digitimes.com",
-          "source_name": "digitimes",
-          "timestamp_utc": "2026-08-31T23:09:10+00:00",
-          "entity": "SK hynix",
+          "category": "crypto",
+          "title": "Current price of Bitcoin for August 31, 2026",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5NUFNaSzBESTk5dkFKZWo5UXdaZXBwZTA0Z19FUEpHbDAtUGI3SDdmTmtoc2Q0bi1EUzRqUENfV3k2V0FFbW9FV0p3YTVkM0hZTFRsMEpXOGdUTkhUM1JWRTdBTGdoQzA?oc=5",
+          "domain": "fortune.com",
+          "source_name": "Fortune",
+          "timestamp_utc": "2026-08-31T12:36:06+00:00",
+          "entity": "Bitcoin / Crypto",
           "ticker": null,
           "cik": null,
-          "entity_type": "foreign_company"
-        }
-      ]
-    },
-    {
-      "entity": "AI Infrastructure",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "theme",
-      "representative_title": "South Korean exports surge on record semiconductor shipments",
-      "latest_timestamp_utc": "2026-09-01T06:33:00+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "coinpedia.org",
-        "finance.biggo.com",
-        "finance.yahoo.com"
-      ],
-      "recent_evidence_count": 3,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "South Korean exports surge on record semiconductor shipments",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPMGw1QWFIMXB0OEpKaWo2bUd1cGY5czFJdXZPVmNSYU5pSGNXV0Q0dDAzbWxPTnN1TjFBODEtY0NtMGlXQ0pxZWt6VXBXUkotd3dBMXoybGhmb21xMGtZdGFhSG9ENDVQQlBPR2xRbE0tdjgyRDE1YW0zYl9CckpEZWlVOVhxdTV3MjJjUVpodFVzcEdpTGc?oc=5",
-          "domain": "finance.yahoo.com",
-          "source_name": "Yahoo Finance",
-          "timestamp_utc": "2026-09-01T06:33:00+00:00",
-          "entity": "AI Infrastructure",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "theme"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "KOSPI Index Rises 0.33% as AI Chip Demand Boosts South Korean Exports",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPODhjSDRaV25vMGtyN2FqcVF5bEM1a1ZmZlZpQld5a1BYNXJOWkpDdzFKa2Rval9MZnpNMjV4MmVRd1V6R1pUWHFmNERYanRtWFYwc2xONWZtendmYzJoaG52SXg0NFM1VmNzQmJLSWdWdUdkS0w2UnRsMWJDOWR2MTltMTEyalA1c0xLLTRVYk16U1BNZWphRFh2bVN6Y1NZSXpXYXB2cEdFakFf0gGyAUFVX3lxTE0wNmhJakVxdWgzZGhSb2lOdEsxZXZvNHdKbGgxZVVGQ3N2SW5vS0VHcXJiMERGSWFkVEkya0FOWkdFNkJTbUZreURxTmJ1MGJ0djVlR2lwVl81YzY3TWMzN25ocC1fendlZmZmMUpqVU1QQzF5dkxRVHB6UmVpaFZfNU5xWGpzNGh6UmhGd2dTWTNHSVowaG9kVEhUNHZBcjJ0ejRRT0dSaXFNdWtYbUljbGc?oc=5",
-          "domain": "coinpedia.org",
-          "source_name": "Coinpedia",
-          "timestamp_utc": "2026-09-01T06:18:56+00:00",
-          "entity": "AI Infrastructure",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "theme"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "AI Infrastructure Demand Surge Drives South Korea's August Semiconductor Exports Up 209% to Another Record",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1Ibk1aNGRaMmQtaVR1cUkydGtFUmR6TkEyNXY4N1JIdVpLNHRzWnQ2R2xBcEVCbzdjcDllbW1LenVJZDFUbHgzd2w2UjBJNFoyV1dsRFJxYXFUM0xzLTZybXRZYnRqTTB2NWVrUTBpTlVwZnJ0UUE?oc=5",
-          "domain": "finance.biggo.com",
-          "source_name": "finance.biggo.com",
-          "timestamp_utc": "2026-09-01T04:55:00+00:00",
-          "entity": "AI Infrastructure",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "theme"
+          "entity_type": "crypto"
         }
       ]
     },
@@ -1362,7 +1262,7 @@
           "title": "APD places 6 officers on leave pending investigation into former DWI unit",
           "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQYVpEMXhqUFVpWkM3X1drUXlQYW5pZmRHXy1pd3ppR0M1eEVDTTByUGIxZDdrS3JXWnlVY1ppOGlKdHFubWhRb2FoajVIQ0s4bjFpQVQ3RGdoV1piMkdYSDdOd1BZYnoxaVpYY0NOdzE0WlJmcjdFNHREMlhoQ01UMzItekNUSVo5RWppbnBPN1M3VlhUTllOTHBOcXB6dlhiOHhaTm1VeW51RDRsNGdr?oc=5",
           "domain": "krqe.com",
-          "source_name": "KRQE",
+          "source_name": "krqe.com",
           "timestamp_utc": "2026-09-01T04:05:46+00:00",
           "entity": "Air Products & Chemicals, Inc.",
           "ticker": "APD",
@@ -1394,6 +1294,65 @@
           "ticker": "APD",
           "cik": "2969",
           "entity_type": "company"
+        }
+      ]
+    },
+    {
+      "entity": "Bitcoin / Crypto",
+      "ticker": null,
+      "cik": null,
+      "entity_type": "crypto",
+      "representative_title": "Ethereum holds $2,500 as ETF demand rises, offs...",
+      "latest_timestamp_utc": "2026-09-01T00:24:28+00:00",
+      "categories": [
+        "crypto"
+      ],
+      "sec_forms": [],
+      "source_domains": [
+        "cryptonews.net",
+        "cryptorank.io",
+        "pluang.com"
+      ],
+      "recent_evidence_count": 3,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "crypto",
+          "title": "Ethereum holds $2,500 as ETF demand rises, offs...",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOZ0d6MDBheWlDaHh1anRTSHlma0FBODFWT0NRY0pOSVBOeWlHbk80aDBWaHNlZ0RVUVhTVWhQWTFZejI5UWc2S3ZYc3VQNmo0b0Q3b2FNbVpzMHdOdDRiZDUzNFh5LTBrZHZhSTdKNmh4cEhXM0JFX0JNbWoyTXBkS1BLZ29FdXZ4TktmYVlEaVNtbmhFSGc?oc=5",
+          "domain": "pluang.com",
+          "source_name": "Pluang",
+          "timestamp_utc": "2026-09-01T00:24:28+00:00",
+          "entity": "Bitcoin / Crypto",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "crypto"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "crypto",
+          "title": "Bitcoin Holds Near $78,000 as ETF Inflows Signal Renewed Institutional Demand",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPQU00UXlERmdmLWxxWnNFd1hKbWVuc3U1S3ZzaXFWcF9fV1BTaG9EZWRqbFQ4OFUyR1ZZOHg5UmpFYVNjakxZT0UtdGI2QmNiaGttdDVRSXR2SGZKblBrQTFLanl3eGVrbUFTRjhkdDlmREZESHZ0UjYyTjc4emxzOWZsa3E?oc=5",
+          "domain": "cryptorank.io",
+          "source_name": "CryptoRank",
+          "timestamp_utc": "2026-09-01T00:20:33+00:00",
+          "entity": "Bitcoin / Crypto",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "crypto"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "crypto",
+          "title": "Ethereum price analysis: Nine-day ETF inflow streak holds ETH near $2,500",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1tSWIzLWZLdVZPWXVTdUtfVXR6Ym5jSm1KQ01PMFpyY0VxRG9NOUZYZVFXd0kteEl4Si0yUGpRMHRkek9RZi1EeWJ6RWlhdlVIaVY2X1YtUEFWQQ?oc=5",
+          "domain": "cryptonews.net",
+          "source_name": "Cryptonews.net",
+          "timestamp_utc": "2026-08-31T13:29:03+00:00",
+          "entity": "Bitcoin / Crypto",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "crypto"
         }
       ]
     },
@@ -1502,6 +1461,51 @@
       ]
     },
     {
+      "entity": "ROC Energy Acquisition Corp.",
+      "ticker": "ROC",
+      "cik": "1884516",
+      "entity_type": "company",
+      "representative_title": "ROC Completes Acquisition of ZTC, Expanding ROC Evidence Into End-to-End Investigative Intelligence",
+      "latest_timestamp_utc": "2026-09-01T11:11:00+00:00",
+      "categories": [
+        "mna"
+      ],
+      "sec_forms": [],
+      "source_domains": [
+        "quiverquant.com",
+        "stocktitan.net"
+      ],
+      "recent_evidence_count": 2,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "mna",
+          "title": "ROC Completes Acquisition of ZTC, Expanding ROC Evidence Into End-to-End Investigative Intelligence",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQOGxKU0RnZ0RNSG50TUZORElNVGc0LWFVR2VwaVBUUm1kcW1YbzhVb19TVFlZdlVUMFZJczlPdGtFVVVCMXNIa2FPdXp4UXFPNF95bm9iQk04OEw4SDdyQV9sLS1GdmVYVEFlSlIwRFpUSk9wdW8ybkZjLWNBeEd3YVpsXy1KM29BTWVWS1A5anhZeEFxSFNXX2Q4aEtQa29JYTBxY0dVUjlfNnpZWURZc3lCdTVOY2gyVFl1dzI1NnJ6MF9mTUFQZXZyb1FLWHM?oc=5",
+          "domain": "quiverquant.com",
+          "source_name": "Quiver Quantitative",
+          "timestamp_utc": "2026-09-01T11:11:00+00:00",
+          "entity": "ROC Energy Acquisition Corp.",
+          "ticker": "ROC",
+          "cik": "1884516",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "mna",
+          "title": "Digital forensics and evidence management are now under one roof as ROC completes its acquisition of ZTC.",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPX1NlLUdXTW5hZS1NZFRFRExCRnpxUVBCajJkVjhheUdZS0lyeXNLXzc4SEtURjRvc09mR19SZktuQmpWS3dXSzRBY2VMaVJjU0dIbjlEM0tFVmJKaDNlWmFoNGxkV0xha2FoTXNQVkNhVkUwbnV6UEhKbWdKZkZhZU9iX3FtMW5oaEtaMGozaXJpTkJkLWZoYUwteDBsUG55ZWN2TF9LMjk2cDJLUG5iTkxzdjdaUGlEaW1fRDh3?oc=5",
+          "domain": "stocktitan.net",
+          "source_name": "Stock Titan",
+          "timestamp_utc": "2026-09-01T11:00:00+00:00",
+          "entity": "ROC Energy Acquisition Corp.",
+          "ticker": "ROC",
+          "cik": "1884516",
+          "entity_type": "company"
+        }
+      ]
+    },
+    {
       "entity": "Medtronic plc",
       "ticker": "MDT",
       "cik": "1613103",
@@ -1592,51 +1596,6 @@
       ]
     },
     {
-      "entity": "ROC Energy Acquisition Corp.",
-      "ticker": "ROC",
-      "cik": "1884516",
-      "entity_type": "company",
-      "representative_title": "ROC Completes Acquisition of ZTC; Strengthening Competitive Position for ROC’s Vision AI Platform",
-      "latest_timestamp_utc": "2026-09-01T11:00:00+00:00",
-      "categories": [
-        "mna"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "finance.yahoo.com",
-        "stocktitan.net"
-      ],
-      "recent_evidence_count": 2,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "mna",
-          "title": "ROC Completes Acquisition of ZTC; Strengthening Competitive Position for ROC’s Vision AI Platform",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPM05mVVU1S3gwQ0xXSTJiMlRYTTNnS1hITlJhby1yOTd4bW5GbmJhbWJMakF0amk5ejFoQXRvM0lHSmJoWHkxenJCcHdWbEx5amsxNi0wUmdqTnBEUks0ZldNVXhHRHM1eHp1ZDBYWTMtczJ2S0dCanFQQXF4N0FFdTIxbllLOV9lSVRkLUhvLWd6Q1VVZ3ZOVUpWNjhhUUpjZldpRksxTFNwaDA?oc=5",
-          "domain": "finance.yahoo.com",
-          "source_name": "Yahoo Finance",
-          "timestamp_utc": "2026-09-01T11:00:00+00:00",
-          "entity": "ROC Energy Acquisition Corp.",
-          "ticker": "ROC",
-          "cik": "1884516",
-          "entity_type": "company"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "mna",
-          "title": "Digital forensics and evidence management are now under one roof as ROC completes its acquisition of ZTC.",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPX1NlLUdXTW5hZS1NZFRFRExCRnpxUVBCajJkVjhheUdZS0lyeXNLXzc4SEtURjRvc09mR19SZktuQmpWS3dXSzRBY2VMaVJjU0dIbjlEM0tFVmJKaDNlWmFoNGxkV0xha2FoTXNQVkNhVkUwbnV6UEhKbWdKZkZhZU9iX3FtMW5oaEtaMGozaXJpTkJkLWZoYUwteDBsUG55ZWN2TF9LMjk2cDJLUG5iTkxzdjdaUGlEaW1fRDh3?oc=5",
-          "domain": "stocktitan.net",
-          "source_name": "Stock Titan",
-          "timestamp_utc": "2026-09-01T11:00:00+00:00",
-          "entity": "ROC Energy Acquisition Corp.",
-          "ticker": "ROC",
-          "cik": "1884516",
-          "entity_type": "company"
-        }
-      ]
-    },
-    {
       "entity": "Inflation",
       "ticker": null,
       "cik": null,
@@ -1672,55 +1631,11 @@
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxON29kQ3RLTVl6ZVB1WFNuQW5TNk5wZDYtSHBTN1dGaEZPNFRDeDIwZ29PaTh5bnA5YVl2YVE2bVUyMnN1RTFZTE9GR090emZQRWoxMWZKbGhUeWZNc25jVTZxUVJWZU9aSVNVMTFJUEFIdEtQcG0yWVFUVEZJaXdFVkRsX0tMOXMyRE03VzJRVG1RVVBPVEVYMThPcllkY3FNdlE?oc=5",
           "domain": "bloomberg.com",
           "source_name": "Bloomberg.com",
-          "timestamp_utc": "2026-09-01T10:28:34+00:00",
+          "timestamp_utc": "2026-09-01T10:29:22+00:00",
           "entity": "Inflation",
           "ticker": null,
           "cik": null,
           "entity_type": "macro"
-        }
-      ]
-    },
-    {
-      "entity": "AI Infrastructure",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "theme",
-      "representative_title": "Should You Invest in the VanEck Fabless Semiconductor ETF (SMHX)?",
-      "latest_timestamp_utc": "2026-09-01T10:20:01+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "finance.yahoo.com"
-      ],
-      "recent_evidence_count": 2,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Should You Invest in the VanEck Fabless Semiconductor ETF (SMHX)?",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPNmtmYWV4azFqNTNKS0R0LW8wNk1CWUVRQXk3Z3VSVnBxeVZ0TjkwdWdncjBkVUhSaVhDUjhiUUVhQy1VMTQ4a1NrTXRIVmU0eFRMYURXbGZCRktPM053NDFKVzBzOU9qVGFXVVFFTDEtc3lPQWNGTzN1Z0pmNzZkT0FmMnR4SURadERvVVVfLUdEcC1hcGVSc3pNVGJ4dzJfODhuaTNtOA?oc=5",
-          "domain": "finance.yahoo.com",
-          "source_name": "Yahoo Finance",
-          "timestamp_utc": "2026-09-01T10:20:01+00:00",
-          "entity": "AI Infrastructure",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "theme"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Should You Invest in the Strive U.S. Semiconductor ETF (SHOC)?",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPb21Zc0NEZ0RmMXlXbGFsRUNsUlptNVIxa1ZwRkh4LVhTalhPdndfOFozTDdQdFU2Rlp3eGlqM3lYbUUxVHhtcUQ4azg3OTdQUm5WVXc0OTZFYkdCdDc0MnBRRS1IaE9zN0twamRoTU5jVFYtNzg5ZVZENmZMZ3M3MEJlem9ObFpfY0VzbW5jWU1IcDVmMy1hYTFuMUhUSms?oc=5",
-          "domain": "finance.yahoo.com",
-          "source_name": "Yahoo Finance",
-          "timestamp_utc": "2026-09-01T10:20:01+00:00",
-          "entity": "AI Infrastructure",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "theme"
         }
       ]
     },
@@ -1770,51 +1685,6 @@
       ]
     },
     {
-      "entity": "Bullish",
-      "ticker": "BULL",
-      "cik": "1872195",
-      "entity_type": "company",
-      "representative_title": "Bullish Commits $100 Million To GPU-Backed AI Loans Via USD.AI",
-      "latest_timestamp_utc": "2026-09-01T10:13:03+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "crowdfundinsider.com",
-        "cryptorank.io"
-      ],
-      "recent_evidence_count": 2,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Bullish Commits $100 Million To GPU-Backed AI Loans Via USD.AI",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPblZoTWtvZFFhTGJpeTZtMXQ3RXdmYlJBT3JwemMybTJlWUZ3Y3d0aEYxN18xeW1fWDNBaW83VVBCM1JOMElOakJ3emdXOVBJbng0dEJQdzlkYURsaUdWMVNmbG1GZlhDMllwRlNBT0d6OU1ZN2x0czRWRmxKYV9sNVk5VGluSUpNMGdzUFdOQjM5M3VOUVVLeDhfcUJUVVlJVExRNkRhUklVZTNRQlJR?oc=5",
-          "domain": "crowdfundinsider.com",
-          "source_name": "Crowdfund Insider",
-          "timestamp_utc": "2026-09-01T10:13:03+00:00",
-          "entity": "Bullish",
-          "ticker": "BULL",
-          "cik": "1872195",
-          "entity_type": "company"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Bullish extends $100M stablecoin debt facility to USD.AI for GPU-backed credit",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5sOThNZFdIZmdfX2Roa19WUDBScUREMWZDTUI0RWZaT01NNGtLXzJUUXVEVDZnQkgxUzJ6MlpxSWdxaWE0RXp3OEpTQl9QX3A0MDhPSFNMXzRyTDhUWjZZMXo4d3RYNE5hTF91QUVtVVVGNm5RT0E3Mw?oc=5",
-          "domain": "cryptorank.io",
-          "source_name": "CryptoRank",
-          "timestamp_utc": "2026-09-01T09:19:24+00:00",
-          "entity": "Bullish",
-          "ticker": "BULL",
-          "cik": "1872195",
-          "entity_type": "company"
-        }
-      ]
-    },
-    {
       "entity": "Bitcoin / Crypto",
       "ticker": null,
       "cik": null,
@@ -1855,51 +1725,6 @@
           "ticker": null,
           "cik": null,
           "entity_type": "crypto"
-        }
-      ]
-    },
-    {
-      "entity": "AI Infrastructure",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "theme",
-      "representative_title": "Pragmatic Semiconductor awarded RFID Product Gold Prize at IOTE 2026 Innovation Awards for NFC product portfolio",
-      "latest_timestamp_utc": "2026-09-01T10:03:33+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "cambridgenetwork.co.uk",
-        "electronicdesign.com"
-      ],
-      "recent_evidence_count": 2,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Pragmatic Semiconductor awarded RFID Product Gold Prize at IOTE 2026 Innovation Awards for NFC product portfolio",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQdUdlbmhzQ0QwNVRCUUVhNjlWMEQ3SlJ2aDlWbWpUUE9zanpwX3B3U19RdGZ3Mml3N1JVcDQ0LXlNVFVrWFJXWTB4dDVHRkcwT0kxcmpvaVlnQkZQcDJUQzJXVmRGeWJVUWZwWjlJT1FZMTY4UGRHeW5Cc3l5N3BESklhMGhFTEMzVm44VERwY2V2Z0RMVE4wUjhwY0dhUWpOX3laMXBMVXJDaXpydWZ3OGhJalNDR005bDVlVEhqM3VIMkh6OGc?oc=5",
-          "domain": "cambridgenetwork.co.uk",
-          "source_name": "Cambridge Network",
-          "timestamp_utc": "2026-09-01T10:03:33+00:00",
-          "entity": "AI Infrastructure",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "theme"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "The semiconductor singularity: Accelerating IC innovation with AI",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNMUtWYXE1dTllNGg0TDFwTHhhSDQ3VDdSSHlsTm1QT1ZTcE5rZndHQnhDMThIVU8xU1Y3VjRVcmlGaUItOWpGVVNMaU1FUzJ3SjJzMVItenpIblFYUWUxWk1FTl90ZUttcUtYcVNLN0hPQ3pVd2dqcDhWZWRva2xWbFN6QmVhd2lTSXYzMWp3S21tdVVTVmcta3pVQVJPVWZCT1NFd2Y3WXdmLVVqdUpUYXVUaHA4RmdtZTRlYVlNRVhrQQ?oc=5",
-          "domain": "electronicdesign.com",
-          "source_name": "Electronic Design",
-          "timestamp_utc": "2026-09-01T05:09:19+00:00",
-          "entity": "AI Infrastructure",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "theme"
         }
       ]
     },
@@ -1984,7 +1809,7 @@
           "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNV2Jmek11RFVUTTRvVFR1dmQ0cUVicVZGM2pxS3FzME8zN0pJUmpGMGtPcU1DeHp1aHUxaU1VeDEtMy00anM2WUthdjRrTHl0aWR6V3ZKSVVLM3M2Q09IVk1kV1JEMXl0YWE3ZWt4VDdya1BQMFlTVTlxUHhEdFdPSTM3NURaVmlLYktsSkdBWERjYkJMbnlaM0oweFZ5ZUZNaDFmT2tLOHliZUNKaHhZ?oc=5",
           "domain": "reuters.com",
           "source_name": "Reuters",
-          "timestamp_utc": "2026-09-01T08:35:13+00:00",
+          "timestamp_utc": "2026-09-01T02:56:00+00:00",
           "entity": "Federal Reserve / Rates",
           "ticker": null,
           "cik": null,
@@ -1993,47 +1818,47 @@
       ]
     },
     {
-      "entity": "NVIDIA CORP",
-      "ticker": "NVDA",
-      "cik": "1045810",
-      "entity_type": "company",
-      "representative_title": "Nvidia investing $3.5m into semiconductor company MediaTek",
-      "latest_timestamp_utc": "2026-09-01T08:46:57+00:00",
+      "entity": "SK hynix",
+      "ticker": null,
+      "cik": null,
+      "entity_type": "foreign_company",
+      "representative_title": "US-Korea AI: Inside SK hynix’s Indiana HBM Production Base",
+      "latest_timestamp_utc": "2026-09-01T09:11:15+00:00",
       "categories": [
-        "ai_semis"
+        "pricing_capacity"
       ],
       "sec_forms": [],
       "source_domains": [
-        "finance.yahoo.com",
-        "siliconrepublic.com"
+        "aimagazine.com",
+        "newelectronics.co.uk"
       ],
       "recent_evidence_count": 2,
       "evidence": [
         {
           "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Nvidia investing $3.5m into semiconductor company MediaTek",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOYlJxQ01ZUnRCbUhxMmV2b3dlbGJDMTd1ZmVaOXQ0dEx4RnZxZGVkcHNwRGQ4Z2FDZGw4bkJ0TlNWZ2xNeFNZT1RqSGNBUlJrRzBhVndBNURVYVZEOUx3Qlh2cTZMNXF1Rk9MU0xtd1ByelVPcE80b3FHVk9nNDIzSUw4VnNxa3p3aVBxUlhZdTJSRDduQW1fUWhraHFlaUVGd1hyTjFKMnZOandNUGIxVnYyOA?oc=5",
-          "domain": "siliconrepublic.com",
-          "source_name": "Silicon Republic",
-          "timestamp_utc": "2026-09-01T08:46:57+00:00",
-          "entity": "NVIDIA CORP",
-          "ticker": "NVDA",
-          "cik": "1045810",
-          "entity_type": "company"
+          "category": "pricing_capacity",
+          "title": "US-Korea AI: Inside SK hynix’s Indiana HBM Production Base",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPd25oSTRZbkRZNWprNVF3M1p2WS04Yks5TUd3RnZGZlRtdUp5clFFUU54OU9yWjlJZ2FMZjdPM0E0WW9CeU9LZkJCZHIzRUIwdkJLUmNNcng3UG1qSjdxU2tNaXlvLW5XUU1hZERVQ0VsaXptYlZfOGdaSUtnQTB0ZDVOQXRaUDR6WUpMZA?oc=5",
+          "domain": "aimagazine.com",
+          "source_name": "aimagazine.com",
+          "timestamp_utc": "2026-09-01T09:11:15+00:00",
+          "entity": "SK hynix",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "foreign_company"
         },
         {
           "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Nvidia investing $3.5 billion in MediaTek for AI chip partnership",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSzZaRExuTXZqWVJSWkdMLXZTV3dPdm1BTVJQYW5NbWVGcjZQdk95OFpLRWdzZkxZNWJiR3NtUzM4ZnFoNTRTSGhkTkNHNW4yYXB6SEpvcnVyOERvWHprekNNTk91dTVhTHJKaUk2YmZNNmNOUHJJMUFndG1RQ0U2cHNsQWgwbkxSaWYwcHdRcXBISjFnSl84?oc=5",
-          "domain": "finance.yahoo.com",
-          "source_name": "Yahoo Finance",
-          "timestamp_utc": "2026-08-31T13:54:08+00:00",
-          "entity": "NVIDIA CORP",
-          "ticker": "NVDA",
-          "cik": "1045810",
-          "entity_type": "company"
+          "category": "pricing_capacity",
+          "title": "SK Hynix targets 2029 start for AI memory chip production in Indiana",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPR2dWZld3V0RBVlIzVXp4NFd3UlNjeG9FWEt4UGt6VXVFVXAzT1Rlbl9jSlhtcVFzeFhma2sweFZFYnBoZXQzMC1rNHhqY3A5T2VPbEpPR0VwR2t1OWl4Y0ZGQ3NqYlIyNTNic0ZCdU1pVXhfZGo0Q0hWd3RPdjVSMGdCMXdkSENsYzkzUXZ2VmR0dHVNVU85R29nT3FvM25vWUtwd3pqSy1pZWJzS1ppUzROVmg?oc=5",
+          "domain": "newelectronics.co.uk",
+          "source_name": "New Electronics",
+          "timestamp_utc": "2026-09-01T07:49:08+00:00",
+          "entity": "SK hynix",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "foreign_company"
         }
       ]
     },
@@ -2073,102 +1898,12 @@
           "title": "Yuhan secures 131.1b won API deal, expands global supply footprint - CHOSUNBIZ",
           "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPSHNKNG9zQ0VJUXpqLVVXQXBtUHpvTkU5QlRfOFBrd250N3hfWWt0YkNPWGQ2U2hLelcwWEpSTTNGM1VlMm10Q1czR2gtQVozTjhTQzByWkJKYy14dldqaTkyN1dwMExoODVNOExMSDBYRnNSSVNlR2xQeS12Y3I0a9IBlAFBVV95cUxOUWdTMnM2T0NDVGwyYy0tOTJYYUxQOFl2VmR0ajhYZXpqZ3NyQUxsaTJjZ29YU2VsRWxWUmUxMU5fQzRTR0tPcVc5U1dKYlVFcE9mNmNkTTgtTUxZZkpET2JHdm43VlFxMndpNFlHNk5CTHJJRlZEdG91QmpwZlhNdVdwZzRaZzVHdGpoWjhRR2tDTlVY?oc=5",
           "domain": "biz.chosun.com",
-          "source_name": "Chosunbiz",
+          "source_name": "biz.chosun.com",
           "timestamp_utc": "2026-09-01T07:38:00+00:00",
           "entity": "Agora, Inc.",
           "ticker": "API",
           "cik": "1802883",
           "entity_type": "company"
-        }
-      ]
-    },
-    {
-      "entity": "Bitcoin / Crypto",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "crypto",
-      "representative_title": "Bitcoin steady above $78,000, HYPE leads as majors slip on hawkish Fed bets",
-      "latest_timestamp_utc": "2026-09-01T08:05:00+00:00",
-      "categories": [
-        "crypto"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "analyticsinsight.net",
-        "cryptonews.net"
-      ],
-      "recent_evidence_count": 2,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "crypto",
-          "title": "Bitcoin steady above $78,000, HYPE leads as majors slip on hawkish Fed bets",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE16YUNfbFZCbW5mVFM2cVdWczZLTWh0b0FNdzlyUVpVZzVUR2hlQkwyWlFVWk1KMnhSSGQyWWE1eW5pTE9iYzdWLUFReTZFRlN5RnFFUzhxM1pzTnM?oc=5",
-          "domain": "cryptonews.net",
-          "source_name": "Cryptonews.net",
-          "timestamp_utc": "2026-09-01T08:05:00+00:00",
-          "entity": "Bitcoin / Crypto",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "crypto"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "crypto",
-          "title": "Crypto Prices Today: Bitcoin Holds Near USD 78,876, Hyperliquid Leads Gains on Hawkish Fed Bets",
-          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPM3hoekROekx4UWtJQW5iaXZRZ1kxZkpZWVlXaWtWZ3JSS2NwQVRNUVBNODJTVmVOZU0wcEJ5cVlfUWd4ME5TZkNsRDlRZ0RIQUFMclRKN20xUUFQS1NoRGc5R1hSQVJpdWhjY0JISHBfSzF1OERGZlY1d0hvaXB5ei1rRUhoZXFpSUNhVXFxQ1hYeHVSOEdXVXJ4cElJbDdRTFZXVk80Zk5qbDdKQmhRTHJQQjdpaFlsQ2VXT3o5R1dMbHpKUEtzVDJSbVJSV0JHTEd5TEZlajdIcWNldkZsU0NkVFrSAeQBQVVfeXFMTzN4aHpETnpMeFFrSUFuYml2UWdZMWZKWVlZV2lrVmdyUktjcEFUTVFQTTgyU1ZlTmVNMHBCeXFZX1FneDBOU2ZDbEQ5UWdESEFBTHJUSjdtMVFBUEtTaERnOUdYUkFSaXVoY2NCSEhwX0sxdThERmZWNXdIb2lweXota0VIaGVxaUlDYVVxcUNYWHh1UjhHV1VyeHBJSWw3UUxWV1ZPNGZOamw3SkJoUUxyUEI3aWhZbENlV096OUdXTGx6SlBLc1QyUm1SUldCR0xHeUxGZWo3SHFjZXZGbFNDZFRa?oc=5",
-          "domain": "analyticsinsight.net",
-          "source_name": "Analytics Insight",
-          "timestamp_utc": "2026-09-01T06:43:25+00:00",
-          "entity": "Bitcoin / Crypto",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "crypto"
-        }
-      ]
-    },
-    {
-      "entity": "Bitcoin / Crypto",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "crypto",
-      "representative_title": "Bitcoin Price Prediction for September 2026: What Follows a $3.5 Billion ETF Month?",
-      "latest_timestamp_utc": "2026-09-01T08:02:00+00:00",
-      "categories": [
-        "crypto"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "beincrypto.com",
-        "cryptoslate.com"
-      ],
-      "recent_evidence_count": 2,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "crypto",
-          "title": "Bitcoin Price Prediction for September 2026: What Follows a $3.5 Billion ETF Month?",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5QNkpLZmtfeDlMWXlhNlV6T3VFZ3lSWkVWZmJwTzlZTkl6VkJlN1RjR1ZuVmcyMG1mS3UtQUZhYWo1a0M2aXc1LUxLbElDRURMWXdqZmtDTVc1Z0gyenlseUFpVUJMbjIydlRhc2JyaG0?oc=5",
-          "domain": "beincrypto.com",
-          "source_name": "BeInCrypto",
-          "timestamp_utc": "2026-09-01T08:02:00+00:00",
-          "entity": "Bitcoin / Crypto",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "crypto"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "crypto",
-          "title": "Bitcoin gains 24% as CryptoSlate price prediction model maps a volatile September",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQYXNxRVNDSjNORFBWR25wZDNDTVJUV2pVX0tOSnlSZ0Ytb3V6UWpEbnJIZHd3aXNnenN1YnQ1ZHFMclFHS0N4ekhET0hEbjBSUm1FRWUtVkZQd1hfRHRsUnBlS0FNaFRpZUs4ZEprWW5zNGR5SEtpTGNsakwzU3BJQkdBcEV6QnVxS05VcHEtaEpmUV9iZjU4V1NReXhtWjN4YnBfNUZadmo?oc=5",
-          "domain": "cryptoslate.com",
-          "source_name": "CryptoSlate",
-          "timestamp_utc": "2026-08-31T19:50:04+00:00",
-          "entity": "Bitcoin / Crypto",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "crypto"
         }
       ]
     },
@@ -2253,7 +1988,7 @@
           "title": "HFCL bags ₹2,329 crore OFC supply deal from global multinational; Stock up 255% this year",
           "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQczVPa2RwRDNiNHBrMGxoZnp1VWF1NHV1RlQxa2RfcUwzR3dZSUtBbDlWdG5JTXBhSjZLNWhDc2Q5ajA5MzJBZGtjWnFrU0lsMXJQeDVodnptX05Ba0d0UmR4TWxqTzVnV3lIZnlCRF91OUZ0ak5xci1tWEVfNlNKeVp4UUxaSjQ5RWNCa2ZKVWg5b0RKVERyWm9MSjBJOU03b2NhOVRWUHQxQUtzSzV4NUdZdTUyUkFELURHRmdDekk3YWdUNDFjadIBzgFBVV95cUxNX2dYMWpVWXp0WUtWcG1wcmI1OWZuSGd4a1pSNFRuU1dOTnZMNzhmZlNka25JZFhzTjMwdnVrUlREcy13Yi1WNEZ5bXZCMWhTc1g2UE1fUGRYNWQxdmdZR2Z1Rk4xVTRMOVlNZnRyU0JqcVpYZ3pFLUNHbkNJZ2VYeGhxTTNQLTd4Zk9jbDY4SHBjeXpkTzZPcXVyVDE1ZkRSSjEzWS1ncXJkc2duVlNZTGtBSFd1cHQwR3FJZHlxQjVwMWtrVnd5V3lBMlJUUQ?oc=5",
           "domain": "cnbctv18.com",
-          "source_name": "cnbctv18.com",
+          "source_name": "CNBC TV18",
           "timestamp_utc": "2026-09-01T06:41:39+00:00",
           "entity": "CORPORATE OFFICE PROPERTIES TRUST",
           "ticker": "OFC",
@@ -2308,51 +2043,6 @@
       ]
     },
     {
-      "entity": "AI Infrastructure",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "theme",
-      "representative_title": "South Korea Proposes 821 Trillion Won Budget for 2027 with Semiconductor and Defense Focus",
-      "latest_timestamp_utc": "2026-09-01T04:31:00+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "chosun.com",
-        "indexbox.io"
-      ],
-      "recent_evidence_count": 2,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "South Korea Proposes 821 Trillion Won Budget for 2027 with Semiconductor and Defense Focus",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZEN5X0hHZHpjMUt1OE1sREJYTXJJcmxVc2VRN0NESDRzeUY0WGRMeF9BUDVvSlVwZFNoTHZrTll4MzZHVEc1aVlVVHpkeng3elE1c3BnalprNTNfSEhhWDZtVGdSRkhGc3o1bUNRNHJHbmRPUXhzQkxsTXAtR1hxU0RPdzdodlVQTHJpUDhzZVFrSnEwTXp2bF9WOFhfXzJ1UzFnRHQ3OGd4SFk0LUhhSlV2XzNlaThiQ1N5Tw?oc=5",
-          "domain": "indexbox.io",
-          "source_name": "IndexBox",
-          "timestamp_utc": "2026-09-01T04:31:00+00:00",
-          "entity": "AI Infrastructure",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "theme"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Government Allocates 3.4 Trillion Won to Semiconductor Sector",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQcFZ2MTRkOHF3VTFTMnN0bVN1RU5pZWZFM2J5cVVWWVhjSVF6QkE0VnltSWRFM19wUkxxVFdGb3FVdEhhTmx2bE1KaFoxR1M0eE9aME1sclpvVnhNcGVmQWl5bUhraHJJd0EyazhFdm1FeTNRYzZheHRPbUFRaGhYdnhyeVNBaGIwQ0FSeTZ3?oc=5",
-          "domain": "chosun.com",
-          "source_name": "조선일보",
-          "timestamp_utc": "2026-09-01T02:51:37+00:00",
-          "entity": "AI Infrastructure",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "theme"
-        }
-      ]
-    },
-    {
       "entity": "MORGAN GROUP HOLDING CO",
       "ticker": "MGHL",
       "cik": "1162283",
@@ -2393,141 +2083,6 @@
           "ticker": "MGHL",
           "cik": "1162283",
           "entity_type": "company"
-        }
-      ]
-    },
-    {
-      "entity": "Bitcoin / Crypto",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "crypto",
-      "representative_title": "Bitcoin September Outlook: Can BTC Hold Its August Rally As ‘Red September’ Looms?",
-      "latest_timestamp_utc": "2026-09-01T03:20:37+00:00",
-      "categories": [
-        "crypto"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "altcoinbuzz.io",
-        "stocktwits.com"
-      ],
-      "recent_evidence_count": 2,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "crypto",
-          "title": "Bitcoin September Outlook: Can BTC Hold Its August Rally As ‘Red September’ Looms?",
-          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOZ29ldE5yV0tmR2czOUFvRTJRQURRRTRHMXdFY0dKNXB4RC1vWldBOTFERy1DVmw1Q3BqSnVaUXN4NF9WQkdDMk5hVWh0bGxrM3VyRGRYM0loWWdPNHlHejk3ZXRNakhLN1VwT21FSG82bXdYQlBxeHg2TzhpMHg5Z2dFei1JSnB1T2NSOEtMZXlKbTNOUXpsTG80VGx6MjdSMEJ0MFRmc3Y5RnVkZFNERlRRUkFxb0hwRFAzNzVoLXpteWVaUi1YMEdxbHBNRmRYTWpfb3FQbjBVUUtZMzJKNG5qT0FXdmlJS1QzcFh2SUxsTkR4?oc=5",
-          "domain": "stocktwits.com",
-          "source_name": "stocktwits.com",
-          "timestamp_utc": "2026-09-01T03:20:37+00:00",
-          "entity": "Bitcoin / Crypto",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "crypto"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "crypto",
-          "title": "Bitcoin Enters September With 3 Warning Signs After 24% August Rally",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE90NkFZUWpRUXdENEZ3ZlNmYVpxMHRoOEZGMTJLZXhyXzBPNU9RbFp5Q3U4SkdMWVpKaUYyZ1JOTWY0eFpnNXV3V3RDcHJTZkRlQ1NWYVI1S0hvWnhrSXVWSS1JM2o2bTlSX1FPcGRkNUM?oc=5",
-          "domain": "altcoinbuzz.io",
-          "source_name": "Altcoin Buzz",
-          "timestamp_utc": "2026-08-31T12:31:17+00:00",
-          "entity": "Bitcoin / Crypto",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "crypto"
-        }
-      ]
-    },
-    {
-      "entity": "AI Infrastructure",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "theme",
-      "representative_title": "Samsung locks 70% of memory output as HBM spot prices soar",
-      "latest_timestamp_utc": "2026-09-01T02:34:14+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "digitimes.com",
-        "wccftech.com"
-      ],
-      "recent_evidence_count": 2,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Samsung locks 70% of memory output as HBM spot prices soar",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQRDhXLWFuSEg5TGxVM3ZEeGtEY3liTS1PWGdRbEFFUjJzMzlZTDRVdHhvV1BtRmVHbTRWM0NaM2JtQ3g2VV9XeWJDUHYtaXNrV2hWeUt2aDBtek1KQWN3Yjhka2JORDh4bzBnSXNEX290aUlnZmFVVVd3Z0pqYWtoLXRfV2c5MnlMNkZfM3VfRTJzZw?oc=5",
-          "domain": "digitimes.com",
-          "source_name": "digitimes",
-          "timestamp_utc": "2026-09-01T02:34:14+00:00",
-          "entity": "AI Infrastructure",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "theme"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Samsung Locks 70% of Memory Capacity Into 2031 Deals – Long-Term HBM Deals Run 5x Cheaper Than Spot, as AI Demand Chokes the DRAM Market",
-          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNWUxYYWVIQzZGdm14dzlmOHhidUhDLTVTaWlVZk1FX0p0MUpiVXVXdFR6R2ZqYk5uT2hUUnpPelk3ZzhkZnBmazZtWFlPTzYxTzZ4eks1alZIRmtQekNHdGRYUFk5ZmpubEJiUHVuR210QkZpWGlDd1UxNDUteENzZnRibUttOGczMkVTZE5HaUpuUU9lWDhhQzE1OXQwdEgxcXhtaWJEaEEtdmZ3a3J6ME5obncxYzVtSk5uVWF2U1dMM3l4cXdacEZnRjdLVHFHNl8yZ3dDYW5ZdXRaRTcxNnBTdURNUVNKZGfSAe8BQVVfeXFMTkpRektEMk1SOUJHX2JUelF1TmtmeXlDb0hlSkZfV1A4VmRVMjBTMHVfM05vQmRyejNicjItTVQyU29tLVZTV3UwYXpwRDNsWmYzNk90Zmw2OTVOMkVYWUtlRW1NTkVnY0VTUm1LeGh1UnNWdXFEbmwtajBhLTV2cm9KRHp5dXQzUlZTbU5FVnZuNXJWX0JlZzBXV182SnJwVmREV2Z3QlNDaTJ4UFpzbUVPajVHUEFvbV9SYTJha3BOVnAyWTBSR2xxdFVCNks4SXFrc0R2VEpONzdmX2hDWW11NDVUQzZYOHZWdktBWkk?oc=5",
-          "domain": "wccftech.com",
-          "source_name": "Wccftech",
-          "timestamp_utc": "2026-08-31T11:40:18+00:00",
-          "entity": "AI Infrastructure",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "theme"
-        }
-      ]
-    },
-    {
-      "entity": "AI Infrastructure",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "theme",
-      "representative_title": "South Korea’s Exports Extend Chip-Led Growth in August",
-      "latest_timestamp_utc": "2026-09-01T01:35:00+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "finimize.com",
-        "wsj.com"
-      ],
-      "recent_evidence_count": 2,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "South Korea’s Exports Extend Chip-Led Growth in August",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNWjAwN1JYMTBCdl9lSTN6TGd0bG5VWG9xNzNuSnd0MFRaS254M3JjblQ0RG5tRFZreC0wLVRJYmRjLUNyU3ZYSnFjQmNwN18tLTY3Ym9CRTN4UlNJUE1uQ19FQ0xHaXI5bW1ZVExUYmVILXk4SkN0Y0NBSWt6b2MySFRwQ0hObGhwRUlDWFF5eFYtOHh4THd2S1JaVnc?oc=5",
-          "domain": "wsj.com",
-          "source_name": "WSJ",
-          "timestamp_utc": "2026-09-01T01:35:00+00:00",
-          "entity": "AI Infrastructure",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "theme"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "South Korea’s AI Chip Exports Kept KOSPI On The Front Foot",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQVzFnOUw5UFRWX1FiVmZJX2tuZThhN2d6eVFtRG9sTWN6STFydkZBSGFUZ3pQV2FBS1dfM25KX0NJQXJhR21FNlRRcjZYZWJuSnBmOGZZMW91VEpKMFdyay1tZklWcHVfT0w1cjJNZEJOOHpEbktYdHJkZXQ2empubUZnWWR2OUFTZjYtUjgybw?oc=5",
-          "domain": "finimize.com",
-          "source_name": "Finimize",
-          "timestamp_utc": "2026-09-01T01:20:20+00:00",
-          "entity": "AI Infrastructure",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "theme"
         }
       ]
     },
@@ -2573,51 +2128,6 @@
           "ticker": null,
           "cik": null,
           "entity_type": "macro"
-        }
-      ]
-    },
-    {
-      "entity": "Bitcoin / Crypto",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "crypto",
-      "representative_title": "Ethereum holds $2,500 as ETF demand rises, offs...",
-      "latest_timestamp_utc": "2026-09-01T00:24:28+00:00",
-      "categories": [
-        "crypto"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "cryptonews.net",
-        "pluang.com"
-      ],
-      "recent_evidence_count": 2,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "crypto",
-          "title": "Ethereum holds $2,500 as ETF demand rises, offs...",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOZ0d6MDBheWlDaHh1anRTSHlma0FBODFWT0NRY0pOSVBOeWlHbk80aDBWaHNlZ0RVUVhTVWhQWTFZejI5UWc2S3ZYc3VQNmo0b0Q3b2FNbVpzMHdOdDRiZDUzNFh5LTBrZHZhSTdKNmh4cEhXM0JFX0JNbWoyTXBkS1BLZ29FdXZ4TktmYVlEaVNtbmhFSGc?oc=5",
-          "domain": "pluang.com",
-          "source_name": "Pluang",
-          "timestamp_utc": "2026-09-01T00:24:28+00:00",
-          "entity": "Bitcoin / Crypto",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "crypto"
-        },
-        {
-          "source_type": "news_rss",
-          "category": "crypto",
-          "title": "Ethereum price analysis: Nine-day ETF inflow streak holds ETH near $2,500",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1tSWIzLWZLdVZPWXVTdUtfVXR6Ym5jSm1KQ01PMFpyY0VxRG9NOUZYZVFXd0kteEl4Si0yUGpRMHRkek9RZi1EeWJ6RWlhdlVIaVY2X1YtUEFWQQ?oc=5",
-          "domain": "cryptonews.net",
-          "source_name": "Cryptonews.net",
-          "timestamp_utc": "2026-08-31T13:29:03+00:00",
-          "entity": "Bitcoin / Crypto",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "crypto"
         }
       ]
     },
@@ -2712,6 +2222,68 @@
       ]
     },
     {
+      "entity": "Federal Reserve / Rates",
+      "ticker": null,
+      "cik": null,
+      "entity_type": "macro",
+      "representative_title": "Trump says U.S. GDP could grow 20%, pushes Fed to cut rates",
+      "latest_timestamp_utc": "2026-09-01T11:31:28+00:00",
+      "categories": [
+        "macro_rates"
+      ],
+      "sec_forms": [],
+      "source_domains": [
+        "qz.com"
+      ],
+      "recent_evidence_count": 1,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "Trump says U.S. GDP could grow 20%, pushes Fed to cut rates",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9GckNJTjBMdkt0VzNCeTdtUHdrRVR1c0pzSTVfaEFsbVNDMW0wTzNqX2c4RUIwdjZUeGdzbWNLaGFCS18tMUpaTFBlM09YYmtqMGwzWXBGQUg3QjhhY3EzMUlQczZJX2tNUmRTcGFBNVh5OE9MZ2JF?oc=5",
+          "domain": "qz.com",
+          "source_name": "qz.com",
+          "timestamp_utc": "2026-09-01T11:31:28+00:00",
+          "entity": "Federal Reserve / Rates",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        }
+      ]
+    },
+    {
+      "entity": "Bitcoin / Crypto",
+      "ticker": null,
+      "cik": null,
+      "entity_type": "crypto",
+      "representative_title": "Crypto Today: Bitcoin, Ethereum, XRP Struggle to Extend Gains Despite ETF Inflows",
+      "latest_timestamp_utc": "2026-09-01T11:31:03+00:00",
+      "categories": [
+        "crypto"
+      ],
+      "sec_forms": [],
+      "source_domains": [
+        "cryptorank.io"
+      ],
+      "recent_evidence_count": 1,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "crypto",
+          "title": "Crypto Today: Bitcoin, Ethereum, XRP Struggle to Extend Gains Despite ETF Inflows",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPSjRkQUpqUE1HMUs5U1EweWlvYTViaVZ4TGZfemVrNWlCalgtUWs5YVhxc1dVaDFpai1Vd19ZQUZGSFM2RzhBbWRBTUYtTGVVNjYtUEh0QUt6cG1SdjB3TzR0WUp0OTJUNWZjUElfUnBpQXhQSEp3QThSS1djTUhKY2FiTWxHS3NmV3ZZSkhURzdZbnpxTFhSUGVhNlNmSGloMVE?oc=5",
+          "domain": "cryptorank.io",
+          "source_name": "CryptoRank",
+          "timestamp_utc": "2026-09-01T11:31:03+00:00",
+          "entity": "Bitcoin / Crypto",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "crypto"
+        }
+      ]
+    },
+    {
       "entity": "HELIX ENERGY SOLUTIONS GROUP INC",
       "ticker": "HLX",
       "cik": "866829",
@@ -2748,7 +2320,7 @@
       "cik": "744825",
       "entity_type": "company",
       "representative_title": "Korn Ferry Completes Acquisition of AMS",
-      "latest_timestamp_utc": "2026-09-01T11:27:00+00:00",
+      "latest_timestamp_utc": "2026-09-01T11:27:43+00:00",
       "categories": [
         "mna"
       ],
@@ -2765,7 +2337,7 @@
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMm12MmkyZWIyNDFNODZVYzZhNHhDTGhoWG1Fa25fTTlfNDE0MUd0Y3NFU1NXSklFRmc5VVJ3al9hTmMzbjhSbXQ2MGtBb0hEYmRvc3ZObXBZZjRtcWZyOWhUUlhZX0FHSzlnNmgxcXJGMG1kTGxwaWtTclRvLUdvQjNkWDU5Wkt2RWpXZWRVV20zM2RuUmpsbmZZQ1Y?oc=5",
           "domain": "businesswire.com",
           "source_name": "Business Wire",
-          "timestamp_utc": "2026-09-01T11:27:00+00:00",
+          "timestamp_utc": "2026-09-01T11:27:43+00:00",
           "entity": "AMERICAN SHARED HOSPITAL SERVICES",
           "ticker": "AMS",
           "cik": "744825",
@@ -2960,37 +2532,6 @@
       ]
     },
     {
-      "entity": "AI Infrastructure",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "theme",
-      "representative_title": "Samsung reveals three-phase HBM roadmap that puts logic and compute inside memory — zHBM ultimately stacks DRAM directly on top of the processor",
-      "latest_timestamp_utc": "2026-09-01T11:06:15+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "tomshardware.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Samsung reveals three-phase HBM roadmap that puts logic and compute inside memory — zHBM ultimately stacks DRAM directly on top of the processor",
-          "url": "https://news.google.com/rss/articles/CBMivgJBVV95cUxOMEVZWHRkVm45Q19lY0x0S2ZLRzhqTkdaOExrUmRvSTRvNTNhV3NveFBScTktYW42RnUyQjI1RFdDY25hQUVCZWxjNDZrSThKTzV0WWdKTEtzaEM0dGRTcHM2enh0cTlRN09RXzBTOWdqOVYxVkZaRE53UTNfOG5yQkJUSU8zSzN0a3JxNV9xLVZ4Y3o2WUszMzlOOExpbm9nMl9HckRia05UQl9WNzBQQWJBVV94RW12UE9EbzNlQnhwVUQ5TVlZRHRrWF9rVXpIV2J6eWpvSmhsWVUySVFmVzZmMEdIR3E0V1RiZnRFUmxaT1BmWkpEd0NldkJhczVmVmx0WWhlY0w2T3YxbnZ5NzdnZ0VuV21UWjZtSFd2VVRGcFBxdEZuUWdzTG9ieTkxdXRDTU5HaUR4a1RvdFE?oc=5",
-          "domain": "tomshardware.com",
-          "source_name": "Tom's Hardware",
-          "timestamp_utc": "2026-09-01T11:06:15+00:00",
-          "entity": "AI Infrastructure",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "theme"
-        }
-      ]
-    },
-    {
       "entity": "GRUPO TELEVISA, S.A.B.",
       "ticker": "TV",
       "cik": "912892",
@@ -3167,7 +2708,7 @@
           "title": "Canadian radio show host describes his country’s response to President Trump’s tariffs",
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZ0pXU2pZM1l4cUw1cU8zZkJjOGo0RXdGY1BGQW1GZGUyaU83dDN6M3dqUEZDbWRuUkNNSEVkc3l1NXFleEtQazl6VTMtSXNPYXlrcFNCbWdtQnU4S1FNX2xLVnhQSXZFSVpFWHlLdUFWelJMZW5WQ3JSU1dQQUVxNW9YTldpeXF6MkxraWZHMG9ydmpyVUVyY0pkbkpHVTZ6U2ExbktRRVQ0Q2JJcVVsel9TZw?oc=5",
           "domain": "kfgo.com",
-          "source_name": "The Mighty 790 KFGO",
+          "source_name": "kfgo.com",
           "timestamp_utc": "2026-09-01T10:55:53+00:00",
           "entity": "Tariffs / Trade",
           "ticker": null,
@@ -3260,7 +2801,7 @@
           "title": "GDDY Class Action Alert: GoDaddy Customer Acquisition Issues and Subsequent 14% Stock Drop Lead to Investor Securities Fraud Class Action to Recover Losses",
           "url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxNeUtZeThJWjBFMXUxUGNaSUk3VWhiN0FHTVNMM3R3V0FnVm41MzVZWW1WOFVUbWZsZXYxak1BS2RvdFR6RmFwMEVxOFFWQkJDeDEwNW56bGp6UDNBVmg5d0t3RUNLTnZseUVSbkpVZ3g1Vzd2aElEVVZQcmRuWmlaU1ZOQzBQZHVaYWdWazIwVDgtRXRvdndXMmNLMjVKcEZwU1dOUmhEQ2JGOUlqN3EtWlVKWmRVMEU2blFMWFhqaW1GLUlEQkNDMFpoYU9xM3YzTy1IVzV4eGtmaDNOaU1QTU1NbzJzVlpXMDVyamxmbjF6dGI3ajN1SmU4eVdwWUl1ZDctUGtXT3huUVJ0bEFTV29sc2Z6N3hiTERHTTdlMm1JQXJFaTBtaklyOHJXOW1OdkJKOVJQd2V2QQ?oc=5",
           "domain": "morningstar.com",
-          "source_name": "morningstar.com",
+          "source_name": "Morningstar",
           "timestamp_utc": "2026-09-01T10:47:49+00:00",
           "entity": "GoDaddy Inc.",
           "ticker": "GDDY",
@@ -3642,37 +3183,6 @@
       ]
     },
     {
-      "entity": "Bitcoin / Crypto",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "crypto",
-      "representative_title": "Crypto Today: Bitcoin, Ethereum, XRP struggle to extend gains despite ETF inflows",
-      "latest_timestamp_utc": "2026-09-01T10:20:50+00:00",
-      "categories": [
-        "crypto"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "fxstreet.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "crypto",
-          "title": "Crypto Today: Bitcoin, Ethereum, XRP struggle to extend gains despite ETF inflows",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOMDNuN2MtVVNFYkxxVVRCSXF1QzRMSXk0SktXRjR2UDJjNnlNYk91Zll6OEVJVHVXMWpsYkVEdE9HbEUwcnJBd3l0STVCME96cVFjdXExRjNLVWlXazE2SmxnUXlVRHRuVUVGaG90d0RtLTZHRHpHaDF3UkEyUnJKM3FYU3lpTlNCV3dCeVlETDF3WkNpRUdPZDN2T3NZX1ZiVXdXVDNQcVl1UEtLZTJLZWhDem1majdVX3p0UXhrbW40TmswNmtSN29HcVpqb3NXSHNmTg?oc=5",
-          "domain": "fxstreet.com",
-          "source_name": "FXStreet",
-          "timestamp_utc": "2026-09-01T10:20:50+00:00",
-          "entity": "Bitcoin / Crypto",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "crypto"
-        }
-      ]
-    },
-    {
       "entity": "PHIBRO ANIMAL HEALTH CORP",
       "ticker": "PAHC",
       "cik": "1069899",
@@ -3699,37 +3209,6 @@
           "entity": "PHIBRO ANIMAL HEALTH CORP",
           "ticker": "PAHC",
           "cik": "1069899",
-          "entity_type": "company"
-        }
-      ]
-    },
-    {
-      "entity": "BARNES GROUP INC",
-      "ticker": "B",
-      "cik": "9984",
-      "entity_type": "company",
-      "representative_title": "Acting Office picks Matt Barnes as new chief revenue officer",
-      "latest_timestamp_utc": "2026-09-01T10:15:50+00:00",
-      "categories": [
-        "earnings_guidance"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "internationalaccountingbulletin.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "earnings_guidance",
-          "title": "Acting Office picks Matt Barnes as new chief revenue officer",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUGVTNnhTdldhbDhZRElHN3ptSFRLeFRPYUE4VUgtTk1DZkFjNVVhcjJ6ZERHN2VOcDJZcE93WWp0T0Y0Y1hWaWV2RFZ4anhremlkN3hZeldpSEdOMHFEbGJZTkpjbEdac09ZQUpIa0dTc2p1Q2FrbUxvSTA4cjlnb0JONDBzc3I2b0pJWUJ4MHFvU1MzdDNNaW11TkszNTBlQTkwa1RfOFh6cHFpZlcyUmwwYkU?oc=5",
-          "domain": "internationalaccountingbulletin.com",
-          "source_name": "International Accounting Bulletin",
-          "timestamp_utc": "2026-09-01T10:15:50+00:00",
-          "entity": "BARNES GROUP INC",
-          "ticker": "B",
-          "cik": "9984",
           "entity_type": "company"
         }
       ]
@@ -3766,37 +3245,6 @@
       ]
     },
     {
-      "entity": "Science Applications International Corp",
-      "ticker": "SAIC",
-      "cik": "1571123",
-      "entity_type": "company",
-      "representative_title": "SAIC Q2 Deep Dive: Margin Discipline and Transformation Drive Guidance Upgrades",
-      "latest_timestamp_utc": "2026-09-01T10:13:52+00:00",
-      "categories": [
-        "earnings_guidance"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "stockstory.org"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "earnings_guidance",
-          "title": "SAIC Q2 Deep Dive: Margin Discipline and Transformation Drive Guidance Upgrades",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxONkxVZGtEQTl3MjluZHd3LXJUTkxGQWI3ZDRqSXVVSmw4OTBYZUt4Um91QzFFV0llZmxuN1p1WkVsUjVicm1yTWp3eVpLaFdTUHdJMWJFaG83Sm9OUGNzMWJIQkJGbUN6dUtDUG8xamhjS3lGZm15ak5nU2xHRmd1SUJ6LWlFakJucDRaYlVpYi0xSzM0Mnl6S19aeS16a0dwU1c2bUJBclV1aWJWSWd5UzEta2ZwZ0Z3cUUyUnNRcDhubzZtRVRIRjAxRkw5WmpqZHk1b1dRcXpDUQ?oc=5",
-          "domain": "stockstory.org",
-          "source_name": "StockStory",
-          "timestamp_utc": "2026-09-01T10:13:52+00:00",
-          "entity": "Science Applications International Corp",
-          "ticker": "SAIC",
-          "cik": "1571123",
-          "entity_type": "company"
-        }
-      ]
-    },
-    {
       "entity": "GENERAL DYNAMICS CORP",
       "ticker": "GD",
       "cik": "40533",
@@ -3818,42 +3266,11 @@
           "title": "Portfolio Acquisition Executive (PAE IO) Visit to General Dynamics NASSCO and BAE Shipyard",
           "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNQ3d3UGNIUjFWaW1uamM5UEVwWGM5bEY5dTRTWGRUcFhJMElqUVNyWVpuVm4xckhtcmRtOU42R1NwM0FBTzNiNmRqV01NUlNZMk5vRWRlTFRzUTFhLUhiTmMyVTlQOWJNa2pCdFlVWHF6MkQwTTFRcG53YVFNUXh6RGprSFlvcU1qQ1lnQ25YYzhFVTkzRDRTbi1sNDJxU0prb0xaQlhtMUQtdTNud0RIZUg1Tm5GYkE1YVNpYjlycFJ4dw?oc=5",
           "domain": "dvidshub.net",
-          "source_name": "DVIDS",
+          "source_name": "dvidshub.net",
           "timestamp_utc": "2026-09-01T10:11:00+00:00",
           "entity": "GENERAL DYNAMICS CORP",
           "ticker": "GD",
           "cik": "40533",
-          "entity_type": "company"
-        }
-      ]
-    },
-    {
-      "entity": "Alphabet Inc.",
-      "ticker": "GOOGL",
-      "cik": "1652044",
-      "entity_type": "company",
-      "representative_title": "Samsung Locks Down 70% of HBM Capacity: Nvidia and Google Secure Chips Through 2031 at Dirt-Cheap Prices",
-      "latest_timestamp_utc": "2026-09-01T10:06:24+00:00",
-      "categories": [
-        "pricing_capacity"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "hi-tech.ua"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "pricing_capacity",
-          "title": "Samsung Locks Down 70% of HBM Capacity: Nvidia and Google Secure Chips Through 2031 at Dirt-Cheap Prices",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOc2JDZjRrd0hnbTdjcFZXUGhzcjRZc0U4T2tmR2IxczZLSmRNNlExMTRWRFdvWE1pR1NvR1pGN0JVeHEwams5Q2xrcEdncUQ1WjVHQzBITUpFWFluM2FfSUJUTHdQQVFiaTZyNm1ib0ppejhTdVFMaGtGMnJsb0JnUEY5QTRhOUVaSzNRZWltVTJJaHo4ZzJpTjlKTDN4eUdSQ2h2MXY1V1RmTlYyODNKUWZOcGYzUUpWRmluNzJDd3FDS2c?oc=5",
-          "domain": "hi-tech.ua",
-          "source_name": "hi-Tech.ua",
-          "timestamp_utc": "2026-09-01T10:06:24+00:00",
-          "entity": "Alphabet Inc.",
-          "ticker": "GOOGL",
-          "cik": "1652044",
           "entity_type": "company"
         }
       ]
@@ -3880,7 +3297,7 @@
           "title": "Alaska, Hawaiian airlines report merger gains",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNWGhqX3VjVTNFSzN5Tjg5aXBUalFKTzJ3MUpwTU16T0dZTEZtREpaMWZXcl9seVFyQXN6REtLWDlrN2xodm9OLTVWTldIM2FKVTdCcFZrV0R1M0RhcmRsVE1XUEJrb3VWeEE2Rms4Y3pEaWNoSUNCYVJ4WWhHWHRVTzBBZjRvUG9CMlJ1SF94bjd2ZFlyY3A5NWdhWlhHRjhmanVZamotLTg?oc=5",
           "domain": "hawaiitribune-herald.com",
-          "source_name": "hawaiitribune-herald.com",
+          "source_name": "Hawaii Tribune-Herald",
           "timestamp_utc": "2026-09-01T10:05:00+00:00",
           "entity": "HAWAIIAN HOLDINGS INC",
           "ticker": "HA",
@@ -3942,12 +3359,43 @@
           "title": "Brazil promises to seek beneficial agreement with US amid Trump tariffs",
           "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbEdGbmt5bHF3VWY3ODdzQXRRNXI4WFhSeWxyS3lKZUMwbnFkUEZyMmNkd3RUcTRGeDZ3d3RoXzhCMGxDNUtFSDVFeHNXbTdqZXlmTzVQM3NoZHpCb3RfOE52RUdQdVJNM3NrSW05eFNpRHplNFZTTC1xT0RUaFpiTHlfaHJnZFczVGk5c3oybmNad0NBVXZrcXBXbXp6U2Z6dHpuMFkxQWIxZWlLZ2l5ckRwWG9wZmVmdV9zYg?oc=5",
           "domain": "plataformamedia.com",
-          "source_name": "Plataforma Media",
+          "source_name": "plataformamedia.com",
           "timestamp_utc": "2026-09-01T10:02:50+00:00",
           "entity": "Tariffs / Trade",
           "ticker": null,
           "cik": null,
           "entity_type": "macro"
+        }
+      ]
+    },
+    {
+      "entity": "Science Applications International Corp",
+      "ticker": "SAIC",
+      "cik": "1571123",
+      "entity_type": "company",
+      "representative_title": "SAIC Q2 Deep Dive: Margin Discipline and Transformation Drive Guidance Upgrades",
+      "latest_timestamp_utc": "2026-09-01T10:02:14+00:00",
+      "categories": [
+        "earnings_guidance"
+      ],
+      "sec_forms": [],
+      "source_domains": [
+        "finance.yahoo.com"
+      ],
+      "recent_evidence_count": 1,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "earnings_guidance",
+          "title": "SAIC Q2 Deep Dive: Margin Discipline and Transformation Drive Guidance Upgrades",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZ0VKNWVTeG1od1pmS1RVM05wMENWYnFzN3FyOXJISTFtbWtvS2l3VC0td0VRWVF4MzZSVVpnTEhneFY2aVBYX3ZwWnZHdjl2MFpib09JM0JCc0xYV2ZXVDlZam1uWmdEellJeWpQZHkwQXhNY0pYNE8taEtDdjZNYmlWajZPYmlyRWdRYXRtOFE3aW8?oc=5",
+          "domain": "finance.yahoo.com",
+          "source_name": "Yahoo Finance",
+          "timestamp_utc": "2026-09-01T10:02:14+00:00",
+          "entity": "Science Applications International Corp",
+          "ticker": "SAIC",
+          "cik": "1571123",
+          "entity_type": "company"
         }
       ]
     },
@@ -4035,7 +3483,7 @@
           "title": "Detroit tenant lawsuit seeks to block evictions in unsafe homes",
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOeGJ6dW9kYVU0TGwzakNKN0NaY2VoSG5FNFFhSFNHOWxydEw1NmxMU29valdER3V6UklMa0JtZUdlNGlTcVhUWjRjak9mSVdyLUN3WmJBSzlDbXJjbUdGX3BSdGVqQm5nU0NCZ291NkRiTWJHd3BIWEhqcjU4Um8tdVV3?oc=5",
           "domain": "outliermedia.org",
-          "source_name": "Outlier Media",
+          "source_name": "outliermedia.org",
           "timestamp_utc": "2026-09-01T10:00:00+00:00",
           "entity": "Block, Inc.",
           "ticker": "SQ",
@@ -4045,64 +3493,64 @@
       ]
     },
     {
-      "entity": "Broadcom Inc.",
-      "ticker": "AVGO",
-      "cik": "1730168",
+      "entity": "CUMMINS INC",
+      "ticker": "CMI",
+      "cik": "26172",
       "entity_type": "company",
-      "representative_title": "Exploring The Competitive Space: Broadcom Versus Industry Peers In Semiconductors & Semiconductor Equ",
-      "latest_timestamp_utc": "2026-09-01T09:58:31+00:00",
+      "representative_title": "CMI backs apple production increase with retail promotions throughout the season",
+      "latest_timestamp_utc": "2026-09-01T10:00:00+00:00",
       "categories": [
-        "ai_semis"
+        "pricing_capacity"
       ],
       "sec_forms": [],
       "source_domains": [
-        "benzinga.com"
+        "theproducenews.com"
       ],
       "recent_evidence_count": 1,
       "evidence": [
         {
           "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Exploring The Competitive Space: Broadcom Versus Industry Peers In Semiconductors & Semiconductor Equ",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNcW1qQV9tNi0yUXBqc0lFVVE0Wml2QmRET2FTYVcwZ2t4S3ByUU1CaVF6ajdacWxPbHQta0NpRy15ZVpXN3ZiNlQxWVFaTVpWcWhEY0huTEliWnJKbUFXV0lkSnEyZjI2SnhkaDd1NVl5SzhRT2pQVlFuLVJ1b2k0TVBVTUJrRUVuRE9ISGR2LS0xdkNLOHIxeUduQmpyRWUycDNRNnZ3MDFtcEY2Z1E4ZW04ZUF6SHhtcnlXVVVvMjdvT0pULWxrUGRzZ3FXbDZkWkhySlZfWVYxa1RUY1E?oc=5",
-          "domain": "benzinga.com",
-          "source_name": "Benzinga",
-          "timestamp_utc": "2026-09-01T09:58:31+00:00",
-          "entity": "Broadcom Inc.",
-          "ticker": "AVGO",
-          "cik": "1730168",
+          "category": "pricing_capacity",
+          "title": "CMI backs apple production increase with retail promotions throughout the season",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdERhZTdCWElYb3ZDeWVuWjZSVUF3M05ld0xIcFJ2YWV1LVFCQ1JLYTduV3BlWGxKMUxCbW03Q3pDbVV4Y2JmdFhNMzVqZkNFUzIySTFsamRxY3dFUXJVZzA4QjFDeDhHM2tEd1FRUTNoYjUzUGNXV1RQX3RvRnJ5MlEzZDl0aEZDN1B6ck5sazN2WXRIWVZIWExGX3BiOTZXZHBVTHJXYzV0UkY0VU5OTzNlSQ?oc=5",
+          "domain": "theproducenews.com",
+          "source_name": "Produce News",
+          "timestamp_utc": "2026-09-01T10:00:00+00:00",
+          "entity": "CUMMINS INC",
+          "ticker": "CMI",
+          "cik": "26172",
           "entity_type": "company"
         }
       ]
     },
     {
-      "entity": "NVIDIA CORP",
-      "ticker": "NVDA",
-      "cik": "1045810",
-      "entity_type": "company",
-      "representative_title": "Understanding NVIDIA's Position In Semiconductors & Semiconductor Equipment Industry Compared To Comp",
-      "latest_timestamp_utc": "2026-09-01T09:58:18+00:00",
+      "entity": "Inflation",
+      "ticker": null,
+      "cik": null,
+      "entity_type": "macro",
+      "representative_title": "Bulgaria's Aug inflation highest among eurozone states in SEE - flash data",
+      "latest_timestamp_utc": "2026-09-01T09:56:49+00:00",
       "categories": [
-        "ai_semis"
+        "macro_rates"
       ],
       "sec_forms": [],
       "source_domains": [
-        "benzinga.com"
+        "seenews.com"
       ],
       "recent_evidence_count": 1,
       "evidence": [
         {
           "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Understanding NVIDIA's Position In Semiconductors & Semiconductor Equipment Industry Compared To Comp",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQME1oOWVHVzU0T0k4UWxiMlBVbnJoZS0yd1lpSnotM1FCSkp5dVFBdkpuQTJMallzN2p0TlBlRk01ZHZOZW1CM2FTU2FnUThNcTNiZS16S3M3ck9PSGdoaEtOOVFuakhMU1YxSGdCX1B3ekJNRjloTW8wVjFpV29RRzM2V096UDNMdkE3aXB5VWRGczFYb0M0ckJCWHNiVzB6TG9pMktXQ3dqdHctQlQ3LV9ERE01aTFsOUtqRHBPejQxYnk2dTZMdUJEcE1LZm00dTZ6Y2VSd3NVNm5RdVE?oc=5",
-          "domain": "benzinga.com",
-          "source_name": "Benzinga",
-          "timestamp_utc": "2026-09-01T09:58:18+00:00",
-          "entity": "NVIDIA CORP",
-          "ticker": "NVDA",
-          "cik": "1045810",
-          "entity_type": "company"
+          "category": "macro_rates",
+          "title": "Bulgaria's Aug inflation highest among eurozone states in SEE - flash data",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObEk5ZFMyN1NKMDJwbG53ZTN6N2NGVWlrU1duWDluajNuZVhxNmZsWmhlYUlZQTRyeEJnbnNKUmI3NXhKZmJzbUdRQnBJQ0pfYzNwMWxoRGUteHlsNGlMaGZNR1NucjF5REN0cFZtZ210LTQwbUFGMXp3ZlNJMS1JbHVrSEFfR3ltY2ZfTVl3THlONVFZZFduMko1X3p3cmJ1YUtEM2V0bw?oc=5",
+          "domain": "seenews.com",
+          "source_name": "SeeNews",
+          "timestamp_utc": "2026-09-01T09:56:49+00:00",
+          "entity": "Inflation",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
         }
       ]
     },
@@ -4128,7 +3576,7 @@
           "title": "Euro zone inflation is back above 3%. Higher interest rates are likely to follow",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1URThiREt2Skg4dk9BX21rNVlzMWcwSTBYcG16RVZrYnE1aVZsMkZtYXpmcDdNSk1CRWdyX3pHdW5aM20zSzF3OENGYmJGQnpJbHZUandzV2ZJSGJZLTVDU2ptaldzbG9ucWVPekp3TkNCd0RI0gF6QVVfeXFMUGxFSndfRm8zeHFCVFhEX1VjQVV1T0xDQkkxM0pYRWZzZHJ4dVFTWTl5UmVpcXRHUS1wQWNwV3RVaUVYRlFDZFpFR0J5SUJpZXJ1aEJMQ3U1ZmFLQ0ZqdmtBRXItTDBvT3Z2N0hjdU5XYU5QVUZNWVNmM1E?oc=5",
           "domain": "cnbc.com",
-          "source_name": "CNBC",
+          "source_name": "cnbc.com",
           "timestamp_utc": "2026-09-01T09:56:12+00:00",
           "entity": "Federal Reserve / Rates",
           "ticker": null,
@@ -4138,33 +3586,33 @@
       ]
     },
     {
-      "entity": "AI Infrastructure",
+      "entity": "Federal Reserve / Rates",
       "ticker": null,
       "cik": null,
-      "entity_type": "theme",
-      "representative_title": "A guide to AI chip architectures",
-      "latest_timestamp_utc": "2026-09-01T09:51:15+00:00",
+      "entity_type": "macro",
+      "representative_title": "Jackson Hole Highlights New Tug-of-War for the Treasury and Fed",
+      "latest_timestamp_utc": "2026-09-01T09:52:14+00:00",
       "categories": [
-        "ai_semis"
+        "macro_rates"
       ],
       "sec_forms": [],
       "source_domains": [
-        "techtarget.com"
+        "wsj.com"
       ],
       "recent_evidence_count": 1,
       "evidence": [
         {
           "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "A guide to AI chip architectures",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBOTWFGNDVXbUJpWmFneGd4ZUM5TlV0RGp4UDk5TG9jUGlIeXJ4aHR1SDJFT2xXYlFUV25odUEzWW9XLVhHQk5Da0VQSUo1TU9MTlR4OTRhTjRKMWtOcjJHYTZqUldjd1A1azFpRXhPY1d1TG1K?oc=5",
-          "domain": "techtarget.com",
-          "source_name": "TechTarget",
-          "timestamp_utc": "2026-09-01T09:51:15+00:00",
-          "entity": "AI Infrastructure",
+          "category": "macro_rates",
+          "title": "Jackson Hole Highlights New Tug-of-War for the Treasury and Fed",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTjhzeTdjSnlrLS1NMWJhMFJaUm0yMEZvV25YUTMwNUhIdFp0a21vMFNFVXdSZ19QSkF6SjhUWXZncldjVUYwcG5NaDB2YVdER3FpWkE2QUpCR3BudWJoR0taY3ptOXdmY3hCUENsYU1pdDlOZFRTRF9iVGN3Vk5PQmJXNWxlZnJnc005RjczeXdhRG5vSnNaUy1IUkd6SHhKUjFuX0pDRQ?oc=5",
+          "domain": "wsj.com",
+          "source_name": "WSJ",
+          "timestamp_utc": "2026-09-01T09:52:14+00:00",
+          "entity": "Federal Reserve / Rates",
           "ticker": null,
           "cik": null,
-          "entity_type": "theme"
+          "entity_type": "macro"
         }
       ]
     },
@@ -4297,6 +3745,37 @@
       "ticker": null,
       "cik": null,
       "entity_type": "macro",
+      "representative_title": "Euro-Zone Inflation Jumps to Highest in Almost Three Years",
+      "latest_timestamp_utc": "2026-09-01T09:36:26+00:00",
+      "categories": [
+        "macro_rates"
+      ],
+      "sec_forms": [],
+      "source_domains": [
+        "bloomberg.com"
+      ],
+      "recent_evidence_count": 1,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "Euro-Zone Inflation Jumps to Highest in Almost Three Years",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOcVNNTjlFbFRZSnZNLWVkWlRpMkRqOHhEZUU4S0ZvcHZyVUFHMjNXdC1GQllsUER5anh0UzdlX3dnUnY1eUlSUnItcjlDaHFSSjA5OFVjVUoxaWFYODItQkFUbmRKWW5mMHNybUlzdW56UlZacTdvNFNSRFFlQkc3T1NQNlF6MFl6eUc4OWRYRFRXQm1KbXlLd3lNOFBieUhfc01NUVV1SFhmU002Umc?oc=5",
+          "domain": "bloomberg.com",
+          "source_name": "Bloomberg.com",
+          "timestamp_utc": "2026-09-01T09:36:26+00:00",
+          "entity": "Inflation",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        }
+      ]
+    },
+    {
+      "entity": "Inflation",
+      "ticker": null,
+      "cik": null,
+      "entity_type": "macro",
       "representative_title": "Minimum wages rise across Europe as inflation eases",
       "latest_timestamp_utc": "2026-09-01T09:35:49+00:00",
       "categories": [
@@ -4345,42 +3824,11 @@
           "title": "MidWestOne Financial Group stock draws attention after stock merger detail surfaces",
           "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQU24tUnFpcVZXNXI5bnpBbXFMekxHWXh6MG9xMlhOMW41NW5kamdva1VmUGY2T1J0SEk0REdpc0ExT1BvVXRBdW9Ka3I5ck9yZmEtZTNaVTVFUm9VTHlOeDBxclJUZ3FNUXFBTEhlV3lPS1plNklKQ2NxMWJOUWp2ZkxfRzRhRE5VcjhUc0g1alU3LUlIZFdkdFkzd0NQcW1SUGJNczhSVS1kOExnX2hBNVVZcl85bC1EU2ozZkd3T3c3WnVGWVZ5a1UwcUVRQQ?oc=5",
           "domain": "ad-hoc-news.de",
-          "source_name": "ad-hoc-news.de",
+          "source_name": "AD HOC NEWS",
           "timestamp_utc": "2026-09-01T09:33:50+00:00",
           "entity": "MidWestOne Financial Group, Inc.",
           "ticker": "MOFG",
           "cik": "1412665",
-          "entity_type": "company"
-        }
-      ]
-    },
-    {
-      "entity": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
-      "ticker": "TSM",
-      "cik": "1046179",
-      "entity_type": "company",
-      "representative_title": "Taiwan Semiconductor Manufacturing (TSM) Stock May Be Fully Priced On Fresh AI Chip News",
-      "latest_timestamp_utc": "2026-09-01T09:32:51+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "simplywall.st"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Taiwan Semiconductor Manufacturing (TSM) Stock May Be Fully Priced On Fresh AI Chip News",
-          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNMkMzYjhCekwwV1R5WWFIcmdHM0lUamhtSGVwODg3M2tMenZYR0htUU1wUVNUX2VLUk9hRVFKajBDSEZ2UURybEZKQXRkMUZNSXg3OWdRWWE1dTVVMjk1RFZsemRGU0lrdU82TjI2ajc0LTBuUlExN2FZTmN1N0o1RHh4aDJlSWs1Q1cwWDNfVkIwWjhmVUJfNGJicHp5alBaWlh6Y01XazVhQlBpWXNXZXZpMGc5SlBVX19QXzZTdFB1cHBXbzdIUEktLXBRV2JnX0V0ZjBwN1MwSVJGVUZ1blBtZ2hVOXBhRVNmSm5RdngwZ9IB8gFBVV95cUxNMkMzYjhCekwwV1R5WWFIcmdHM0lUamhtSGVwODg3M2tMenZYR0htUU1wUVNUX2VLUk9hRVFKajBDSEZ2UURybEZKQXRkMUZNSXg3OWdRWWE1dTVVMjk1RFZsemRGU0lrdU82TjI2ajc0LTBuUlExN2FZTmN1N0o1RHh4aDJlSWs1Q1cwWDNfVkIwWjhmVUJfNGJicHp5alBaWlh6Y01XazVhQlBpWXNXZXZpMGc5SlBVX19QXzZTdFB1cHBXbzdIUEktLXBRV2JnX0V0ZjBwN1MwSVJGVUZ1blBtZ2hVOXBhRVNmSm5RdngwZw?oc=5",
-          "domain": "simplywall.st",
-          "source_name": "simplywall.st",
-          "timestamp_utc": "2026-09-01T09:32:51+00:00",
-          "entity": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
-          "ticker": "TSM",
-          "cik": "1046179",
           "entity_type": "company"
         }
       ]
@@ -4412,68 +3860,6 @@
           "entity": "Cheniere Energy, Inc.",
           "ticker": "LNG",
           "cik": "3570",
-          "entity_type": "company"
-        }
-      ]
-    },
-    {
-      "entity": "Inflation",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "macro",
-      "representative_title": "Is There More to Collision Repair Inflation Than Parts and Labor?",
-      "latest_timestamp_utc": "2026-09-01T09:32:32+00:00",
-      "categories": [
-        "macro_rates"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "fenderbender.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "macro_rates",
-          "title": "Is There More to Collision Repair Inflation Than Parts and Labor?",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOT2lfWEZKcFhHMG9namxGdFF2a29oLVN2dTk1WHF3WVRueDJwRmp4cTVySDJ5aWNDS0lMQm94ZHAwUndUb3dqT2FQeFY2VjhMajNLUEtRRkYtVHVZVzdsZXN1a0hjM29XZm1uUGk0TGkxUDZTaGFiZnF3SGhoaWJ4d2NoYkhGTHljQTdSTWRuOEhQejNkdXM0VHJ0dXlQWVVYU2JOQTlyaXozaWEwUF80UkttaFhjNWxGaElhN2tNUm1uMWJCX1NMM3dpa0Z3RHB4bzhRZGpYWQ?oc=5",
-          "domain": "fenderbender.com",
-          "source_name": "fenderbender.com",
-          "timestamp_utc": "2026-09-01T09:32:32+00:00",
-          "entity": "Inflation",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "macro"
-        }
-      ]
-    },
-    {
-      "entity": "Guardant Health, Inc.",
-      "ticker": "GH",
-      "cik": "1576280",
-      "entity_type": "company",
-      "representative_title": "izmo Microsystems Develops Indigenous 40 GHz RF Semiconductor Package for Defence and Secure Communication Applications",
-      "latest_timestamp_utc": "2026-09-01T09:32:00+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "prnewswire.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "izmo Microsystems Develops Indigenous 40 GHz RF Semiconductor Package for Defence and Secure Communication Applications",
-          "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQa1hMNVBITWNQdEd1NGN0cEFvanZYM1E3MjBvMGZnc2xZdXJEak81c0xhalVCYWNGOTduS0pIb2FLazZRbEpDN0pESjAybG5mLVc2YVdZc0NqLUNLU0ZNdkpBd3ppTEFPZHFuQ0o1Nm5YdmNMQzEtaHF4MmpxS0w4dGF1V0JDRWxwQjdMV05rZXFPOU1WSTlNVVQ0UzVlVEhnVWpZZ3BtcHd6dzBFT0QtU0Mxam9LSmJrX3RuRkIwZDlDRWlkZnU5OEg5VEVQVzRVQ2NwWURUMWNpNnc1bFhoM1k3dHBJc2FMekJvZmFCcGtXVkx5dENLbngzWUp2MF9zd18tT1BkTTFCQQ?oc=5",
-          "domain": "prnewswire.com",
-          "source_name": "PR Newswire",
-          "timestamp_utc": "2026-09-01T09:32:00+00:00",
-          "entity": "Guardant Health, Inc.",
-          "ticker": "GH",
-          "cik": "1576280",
           "entity_type": "company"
         }
       ]
@@ -4541,37 +3927,6 @@
       ]
     },
     {
-      "entity": "TEXAS INSTRUMENTS INC",
-      "ticker": "TXN",
-      "cik": "97476",
-      "entity_type": "company",
-      "representative_title": "How Is Texas Instruments' Stock Performance Compared to Other Semiconductor Stocks?",
-      "latest_timestamp_utc": "2026-09-01T09:28:35+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "barchart.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "How Is Texas Instruments' Stock Performance Compared to Other Semiconductor Stocks?",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPSTUtVTJzN1NFU3ZnbVVJYTIyREV6RjhBTlZXUlhCM1VNMGRFSDl4YkFCYlZSNngzNlQwSDVsV1EwdzRlTlg1M0tlQmlXbnJ1UV9HRVVxNF9IOXZxWnNQRVNpSWVsYm1UWDZVZ1pqWVVVMFB0eHhxTm1OTFJKMFZrc0gybmxLaHRXeUZvbTFuUzYzUERyVHhWVE9OX3UxdTQ5eEt5RUFycktQWV85ankzMFphSmU5THhCcmJZOUxzUlVLSk0?oc=5",
-          "domain": "barchart.com",
-          "source_name": "Barchart.com",
-          "timestamp_utc": "2026-09-01T09:28:35+00:00",
-          "entity": "TEXAS INSTRUMENTS INC",
-          "ticker": "TXN",
-          "cik": "97476",
-          "entity_type": "company"
-        }
-      ]
-    },
-    {
       "entity": "Bitcoin / Crypto",
       "ticker": null,
       "cik": null,
@@ -4634,14 +3989,14 @@
       ]
     },
     {
-      "entity": "Tariffs / Trade",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "macro",
+      "entity": "ROYAL BANK OF CANADA",
+      "ticker": "RY",
+      "cik": "1000275",
+      "entity_type": "company",
       "representative_title": "Royal Bank of Canada (RY) Posts Record Profit as Tariffs Loom",
       "latest_timestamp_utc": "2026-09-01T09:19:59+00:00",
       "categories": [
-        "macro_rates"
+        "earnings_guidance"
       ],
       "sec_forms": [],
       "source_domains": [
@@ -4651,77 +4006,15 @@
       "evidence": [
         {
           "source_type": "news_rss",
-          "category": "macro_rates",
+          "category": "earnings_guidance",
           "title": "Royal Bank of Canada (RY) Posts Record Profit as Tariffs Loom",
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNbktwd1ZFM2VFNmVLckxuTGxaRGlZSy1sQWtMWW9vRDV0VllYY3RrVmdLNUIyME1KaGtUUUVVY1dvUXJqY0xJZ3Bra2NzRG5McXZVcHNQQlVvLVpPbGlBaWpaRXBMdmRCQUdrYWFJeFVMdFhmUE9xRmRUNF9KREhNYlhnVHZ3end0bnl3alFWWmxhMGtFV0E?oc=5",
           "domain": "finance.yahoo.com",
           "source_name": "Yahoo Finance",
           "timestamp_utc": "2026-09-01T09:19:59+00:00",
-          "entity": "Tariffs / Trade",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "macro"
-        }
-      ]
-    },
-    {
-      "entity": "Inflation",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "macro",
-      "representative_title": "Eurozone inflation hits highest since September 2023 as energy costs accelerate",
-      "latest_timestamp_utc": "2026-09-01T09:19:07+00:00",
-      "categories": [
-        "macro_rates"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "aa.com.tr"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "macro_rates",
-          "title": "Eurozone inflation hits highest since September 2023 as energy costs accelerate",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNWGYwa0d4Z1dZZHgyUm9iWWVTcklFRW1qRy1QT1VKaWVWZzQyQVFEXzRfcGZmTFh2YW5lMmVxaVBJX2FGYjE5b3RpNlRCNFVsdGM0NEp0Q1NnWVVqUUltRXdSNTk4V0xsT05kQjcxLVUtZkM4ZnFWMVB2TWJDY3VkYmR5U0lyS082RE5SSXNGUzF2eE5LbXJVNGNUUnBaVWlsa0pRSnduRTJKUkMzYlBFSXcxcFpCVjNfNVZiSQ?oc=5",
-          "domain": "aa.com.tr",
-          "source_name": "Anadolu Ajansı",
-          "timestamp_utc": "2026-09-01T09:19:07+00:00",
-          "entity": "Inflation",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "macro"
-        }
-      ]
-    },
-    {
-      "entity": "Broadcom Inc.",
-      "ticker": "AVGO",
-      "cik": "1730168",
-      "entity_type": "company",
-      "representative_title": "Broadcom vs. Marvell: Which AI Chip Stock Is the Better Buy?",
-      "latest_timestamp_utc": "2026-09-01T09:18:09+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "tradingkey.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Broadcom vs. Marvell: Which AI Chip Stock Is the Better Buy?",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSlZoUHd0cVRKTWxPWVE2NHlfM0dRQXJ4R29iVW5HT0JLV0Y5T2owNk5DaHRISTFKSWZhTHh6V21ZYlRXX3ZSYnBCQmxhdzc3ZUxvZEs3ZlE4MmhjbFNyM1FLSmtWZ0VkSHdjNmxaQ2ptSWdGYzB4Nkk2NkpqVTdRdURRNVhvUk5wQVk0SzFGWmVqSXZPQUFtSGJJTmdEbFZXb0c5ZUV4MG1CR19Td0I4bHVfR1JzWGl1eEhwbUhUZXEzQQ?oc=5",
-          "domain": "tradingkey.com",
-          "source_name": "TradingKey",
-          "timestamp_utc": "2026-09-01T09:18:09+00:00",
-          "entity": "Broadcom Inc.",
-          "ticker": "AVGO",
-          "cik": "1730168",
+          "entity": "ROYAL BANK OF CANADA",
+          "ticker": "RY",
+          "cik": "1000275",
           "entity_type": "company"
         }
       ]
@@ -4758,37 +4051,6 @@
       ]
     },
     {
-      "entity": "AI Infrastructure",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "theme",
-      "representative_title": "Semicon 2.0: What is India’s new Rs 1.27 lakh-crore push for chip design?",
-      "latest_timestamp_utc": "2026-09-01T09:16:20+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "indianexpress.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Semicon 2.0: What is India’s new Rs 1.27 lakh-crore push for chip design?",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUDh0VUFWWTZGWWk5LXpkYXJxa2FfRlFJX2RrWTRadDI0bWczWExudHhDTnBaWFUxdmlUdmRPUnZlNUF1N0FzNkN1el9tNzFySWF2ODEySW5qS0RsZDJaelE1VG0telRJUGlldzV0OUw0U1Jtb3VicDhleV80R2daZGo5U0tMT1VuY3lNZ0lFampQMVNnTnB4cWxuR1NUYV9VR2hRaldRQWNNbVdPQktpWTl5MHgtSXJMa25kR2xaMUFWUdIByAFBVV95cUxOY1JNenpnY0FKeDlkSFRLMnNPOERoRWJFa3RMMG1adFIzWlcwS0tVaWNUZDllZFNOcnQ3Q084ZlhzV0Z0V1VCcV9hQkd6NTN0STVxV3ppbGlNbXNqRlRzWWlwdlRJdXFWQ2lfZjloMXpienA5al9BWkZucFBqWWNXVEZzbEptdERhRjNZZFVGaV9kUlE3UDdCYklkby1CcHN2Z2E5MmRBR0xCVEkzTk11NkpPV1JjSkc0QS10ZVNSQ2FBV1Etdkgxaw?oc=5",
-          "domain": "indianexpress.com",
-          "source_name": "The Indian Express",
-          "timestamp_utc": "2026-09-01T09:16:20+00:00",
-          "entity": "AI Infrastructure",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "theme"
-        }
-      ]
-    },
-    {
       "entity": "Inflation",
       "ticker": null,
       "cik": null,
@@ -4812,37 +4074,6 @@
           "domain": "think.ing.com",
           "source_name": "ING Think",
           "timestamp_utc": "2026-09-01T09:14:19+00:00",
-          "entity": "Inflation",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "macro"
-        }
-      ]
-    },
-    {
-      "entity": "Inflation",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "macro",
-      "representative_title": "Eurozone inflation hits a Middle East war high, but core pressures remain contained",
-      "latest_timestamp_utc": "2026-09-01T09:11:04+00:00",
-      "categories": [
-        "macro_rates"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "think.ing.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "macro_rates",
-          "title": "Eurozone inflation hits a Middle East war high, but core pressures remain contained",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPcm1TSHIxTk8zU1J0d3Q3TVNfYnVKRGNxYVFpNnZMRXZMSFVHNldHYm1vdEN1a05xWVdNT2c5T2JjTEhuTnV2cDVuVzRxczZMb3V4MXBlSmdjd0hYSlVFdmhqSmZOTFJSb2RMeTVDcUtueHZWN0lYRVpsX3A2dWpTY3dKTEdRQUtpeHE0ZEljVG15MVhXT2ZiQWdRTDRwVHdOeFJrbXJUSWU0VWtfelFyQy1IVDFGZw?oc=5",
-          "domain": "think.ing.com",
-          "source_name": "ING Think",
-          "timestamp_utc": "2026-09-01T09:11:04+00:00",
           "entity": "Inflation",
           "ticker": null,
           "cik": null,
@@ -4944,68 +4175,6 @@
       ]
     },
     {
-      "entity": "AI Infrastructure",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "theme",
-      "representative_title": "Diodes Incorporated acquires ElevATE Semiconductor for $250 million",
-      "latest_timestamp_utc": "2026-09-01T09:07:01+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "evertiq.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Diodes Incorporated acquires ElevATE Semiconductor for $250 million",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVHpEc1hSR2NONWVvN0xVUWpjZHVhd0NjakdFMC1wRllPVmhPeHpYZ0pGR1NIRkpVQmZfbWVWOUwzdGtXa0FPMXRva2FPenZPUFpUdHlVNDMtWU5vYUViTzY1c2dKMkt6bGNyeHR1a1B2TFQxVWNsMVBuUTdPRXY1TXhSaTFPaUF5Tmg3UlBoNnR3VHBiSG44UnVkcmJwMkJ0TDJCOGVtcw?oc=5",
-          "domain": "evertiq.com",
-          "source_name": "Evertiq",
-          "timestamp_utc": "2026-09-01T09:07:01+00:00",
-          "entity": "AI Infrastructure",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "theme"
-        }
-      ]
-    },
-    {
-      "entity": "AI Infrastructure",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "theme",
-      "representative_title": "Japanese GPU brand Kuroutoshikou is becoming Crowxis",
-      "latest_timestamp_utc": "2026-09-01T09:06:32+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "videocardz.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Japanese GPU brand Kuroutoshikou is becoming Crowxis",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNOWNBdkx6cnZMbkxfbTF6TnA5ai1fZGlYQ1d4T05ta0twVks4aFFaUXVKd1duN1lEckQwVXJQZ3otUXBoeGkxZ013STFORHVOVlZCaFFGOHBIT0JWZ1lqNVpjS0ZEZUI3QkM3ZG5YbWxlYTVRMHhqcHA5NVhJdWlTM3hIU2hNN2M?oc=5",
-          "domain": "videocardz.com",
-          "source_name": "VideoCardz.com",
-          "timestamp_utc": "2026-09-01T09:06:32+00:00",
-          "entity": "AI Infrastructure",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "theme"
-        }
-      ]
-    },
-    {
       "entity": "NEOGENOMICS INC",
       "ticker": "NEO",
       "cik": "1077183",
@@ -5037,6 +4206,37 @@
       ]
     },
     {
+      "entity": "SOUTHERN CO",
+      "ticker": "SO",
+      "cik": "92122",
+      "entity_type": "company",
+      "representative_title": "GOFO Deploys Automated Narrow-Belt Sorter at Rome Hub, Lifting Southern Italy Capacity by 40%",
+      "latest_timestamp_utc": "2026-09-01T09:00:00+00:00",
+      "categories": [
+        "pricing_capacity"
+      ],
+      "sec_forms": [],
+      "source_domains": [
+        "au.finance.yahoo.com"
+      ],
+      "recent_evidence_count": 1,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "pricing_capacity",
+          "title": "GOFO Deploys Automated Narrow-Belt Sorter at Rome Hub, Lifting Southern Italy Capacity by 40%",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZ2ZzeWlUQlBQX0tteS03ekE5SExRdGRTOVpwQUtDUG8tWnpNTFc5Vno0TE95OVcwbGhud01RUjMtWDdmaV9hY1B3QnpXa2gzeENkaWZKakF3MmlRbzNveXNtSmVZcDU2RGFRQ3NsRktnRkxVLTV6M24wLWxlYTI5V2hYMUZXbC1RendF?oc=5",
+          "domain": "au.finance.yahoo.com",
+          "source_name": "Yahoo Finance Australia",
+          "timestamp_utc": "2026-09-01T09:00:00+00:00",
+          "entity": "SOUTHERN CO",
+          "ticker": "SO",
+          "cik": "92122",
+          "entity_type": "company"
+        }
+      ]
+    },
+    {
       "entity": "MICRON TECHNOLOGY INC",
       "ticker": "MU",
       "cik": "723125",
@@ -5058,7 +4258,7 @@
           "title": "In Micron lawsuit, DOJ's filing raises a question: Does national security trump state environmental law?",
           "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONnl5dV96dFlUWHRNd25oSFVzV2xEWnYzZjdsc1l6MU9iRnh1ZnM1MTVOaUdoVTFzWS1MUERhY2xuXy1mRWlyTVdnSkd3d3ZCU2RIaGQyaXdSTEdJM3VKTkR1ZDFuMnE0QnB6eGRwTDdpc1lndk9oQTU2OXFoSXkwMTZBenlzVTcyd2VOR21ZaUN0Rk16UnA0UWlYUEVob0NLWVE3M2lucVFLSVBWWnFHQlR1RGM1RzRmQjljUUNIMVd1QWRpcVk4?oc=5",
           "domain": "centralcurrent.org",
-          "source_name": "centralcurrent.org",
+          "source_name": "Central Current",
           "timestamp_utc": "2026-09-01T09:00:00+00:00",
           "entity": "MICRON TECHNOLOGY INC",
           "ticker": "MU",
@@ -5223,37 +4423,6 @@
       ]
     },
     {
-      "entity": "Iris Energy Ltd",
-      "ticker": "IREN",
-      "cik": "1878848",
-      "entity_type": "company",
-      "representative_title": "IREN (IREN) Swaps Bitcoin Rigs For Microsoft’s (MSFT) GPU Contracts",
-      "latest_timestamp_utc": "2026-09-01T08:39:47+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "finance.yahoo.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "IREN (IREN) Swaps Bitcoin Rigs For Microsoft’s (MSFT) GPU Contracts",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxObjdVR2N1SHFrLUJ1Q1BkUVhWNGEzNGtLZ0hRSG1HaHV5Zk9JQmRBa1RBTnlGZWZHTnNIRTNPTXRUREs4SUFmWEt4bkJoYkhrRVl4QjhKLUgwaVVPQmkxc0s1RDVkLTVVUFoyUkI0UTRHUGZ2SDlrZVFTNnplUkNNNW1rWE85QlFNTF9vUzd1Q0ZoOERCbGtJ?oc=5",
-          "domain": "finance.yahoo.com",
-          "source_name": "Yahoo Finance",
-          "timestamp_utc": "2026-09-01T08:39:47+00:00",
-          "entity": "Iris Energy Ltd",
-          "ticker": "IREN",
-          "cik": "1878848",
-          "entity_type": "company"
-        }
-      ]
-    },
-    {
       "entity": "SCORES HOLDING CO INC",
       "ticker": "SCRH",
       "cik": "831489",
@@ -5378,37 +4547,6 @@
       ]
     },
     {
-      "entity": "AI Infrastructure",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "theme",
-      "representative_title": "South Korean presidential policy chief quits over AI chip investment row",
-      "latest_timestamp_utc": "2026-09-01T08:25:57+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "malaymail.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "South Korean presidential policy chief quits over AI chip investment row",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRHY2aEZpZjdNcGV2R2Q3cy13dnUxSDhnWWZzTVhYUWN4NUVBc0lORUh3dDJBbVpYX1NsZC1vcEpiVFZnVmEtTUNBampkWnpmY0tveWkyb1NucDRteUJtaFdMbUVUbEUzZFJ4dHdjYUpXSlpqdHkxSXkxdk1tVEFITFpoNGhnUkpQLUpsRUZSYTNldUcwSU8tNmI3NG9fR0g5ODdCdTZueUFIX2JydTJaNkNOZFZuOUtSZzhuWGh0MFZKWU5OaEHSAcsBQVVfeXFMTU5rOGZaWFhNR05kNXlBOTFPS25WM0VJcUR4UWx4OUxGYi03TnB5UHVNeF9vX0h3Z3dwTHYwOXlkV005Y1ZQcDBielZMbWtSNWxfM1MtbkstLXktTnBIWVBQMy1COVZ4WEl1VnBBb1NqLWtNQ3Jkd3ZTS1JzbWxtS0NXSEtzb09NMFRMQ0FRWGw5RUlkUHRtUk5yOE5tSGdLNTRIUk5wa3NabUdyNThfZ2dUd2VKcDNVZzBqQnVPeVBOMjBQWDNRV1M3dGc?oc=5",
-          "domain": "malaymail.com",
-          "source_name": "Malay Mail",
-          "timestamp_utc": "2026-09-01T08:25:57+00:00",
-          "entity": "AI Infrastructure",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "theme"
-        }
-      ]
-    },
-    {
       "entity": "Inflation",
       "ticker": null,
       "cik": null,
@@ -5436,6 +4574,37 @@
           "ticker": null,
           "cik": null,
           "entity_type": "macro"
+        }
+      ]
+    },
+    {
+      "entity": "Bitcoin / Crypto",
+      "ticker": null,
+      "cik": null,
+      "entity_type": "crypto",
+      "representative_title": "Bitcoin steady above $78,000, HYPE leads as majors slip on hawkish Fed bets",
+      "latest_timestamp_utc": "2026-09-01T08:05:00+00:00",
+      "categories": [
+        "crypto"
+      ],
+      "sec_forms": [],
+      "source_domains": [
+        "cryptonews.net"
+      ],
+      "recent_evidence_count": 1,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "crypto",
+          "title": "Bitcoin steady above $78,000, HYPE leads as majors slip on hawkish Fed bets",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE16YUNfbFZCbW5mVFM2cVdWczZLTWh0b0FNdzlyUVpVZzVUR2hlQkwyWlFVWk1KMnhSSGQyWWE1eW5pTE9iYzdWLUFReTZFRlN5RnFFUzhxM1pzTnM?oc=5",
+          "domain": "cryptonews.net",
+          "source_name": "Cryptonews.net",
+          "timestamp_utc": "2026-09-01T08:05:00+00:00",
+          "entity": "Bitcoin / Crypto",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "crypto"
         }
       ]
     },
@@ -5502,161 +4671,6 @@
       ]
     },
     {
-      "entity": "SK hynix",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "foreign_company",
-      "representative_title": "SK Hynix’s $4B HBM Project Targets U.S. Chipmaking Gap",
-      "latest_timestamp_utc": "2026-09-01T07:48:09+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "eetimes.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "SK Hynix’s $4B HBM Project Targets U.S. Chipmaking Gap",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOMVdvV1Fld0pnRnlMazZMbVI5SFgtSHY0SnJPTnFSRGtaaWRicFAwbUlKMUNpNDVmVGlyUzVIeFpCdE1BOWFlZTE1SHZfc0Ryd3JBUERRaVRuY3JVUUY5aHlhU1d1ZEh4dUY0VkIxNWRhUE1nZVNUcTFTaFF0SHBNRmRR?oc=5",
-          "domain": "eetimes.com",
-          "source_name": "EE Times",
-          "timestamp_utc": "2026-09-01T07:48:09+00:00",
-          "entity": "SK hynix",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "foreign_company"
-        }
-      ]
-    },
-    {
-      "entity": "SK hynix",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "foreign_company",
-      "representative_title": "Techcross Water & Energy Nears 30 Billion Won SK hynix Order",
-      "latest_timestamp_utc": "2026-09-01T07:38:41+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "thelec.net"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Techcross Water & Energy Nears 30 Billion Won SK hynix Order",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1UMFNUY2tTdkQyT2V4Nl9uMy1PSTVneDlST1YtcGJxamtqQ0trRlU3RFQ1WEVxUGJzY0FMSDdkZlNtX0VrRm8xQmo2YlBsMG9qQTFsaUt5NFg0RjJxTm9rSWNMd3FqNUk?oc=5",
-          "domain": "thelec.net",
-          "source_name": "thelec.net",
-          "timestamp_utc": "2026-09-01T07:38:41+00:00",
-          "entity": "SK hynix",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "foreign_company"
-        }
-      ]
-    },
-    {
-      "entity": "AI Infrastructure",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "theme",
-      "representative_title": "HanWool Semiconductor's AI System Inspects 13,000 MLCCs a Minute",
-      "latest_timestamp_utc": "2026-09-01T07:38:24+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "thelec.net"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "HanWool Semiconductor's AI System Inspects 13,000 MLCCs a Minute",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1MNGhqYXdvbkowZ2xnbkRBcDRNNHVOeS0zeWtPVHlsclV0TEFzR1BtbnN1V2ZMUTl5bG9FWDMzZ1doZnRMRTdLQjMtNkJzSm9YSThxN1lrMUkweWF3WHE0UkJ5d3lHZnM?oc=5",
-          "domain": "thelec.net",
-          "source_name": "thelec.net",
-          "timestamp_utc": "2026-09-01T07:38:24+00:00",
-          "entity": "AI Infrastructure",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "theme"
-        }
-      ]
-    },
-    {
-      "entity": "AI Infrastructure",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "theme",
-      "representative_title": "SK Chairman Chey Tae-won Says Japan Chip Plant Investment Under Review",
-      "latest_timestamp_utc": "2026-09-01T07:38:14+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "thelec.net"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "SK Chairman Chey Tae-won Says Japan Chip Plant Investment Under Review",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1zaVN4Uk0tWE9fSFRNQnZkMnpvSm1HTTBOYTdfY2pZb2l3OUtfeUZmRDRRdjNiZDZjYW5vX2Y0OF9oODd1SlNkUVlxSmtuMEg3ZkhFN2tscmgxaTJqYTdzN3R2X2QyQzQ?oc=5",
-          "domain": "thelec.net",
-          "source_name": "thelec.net",
-          "timestamp_utc": "2026-09-01T07:38:14+00:00",
-          "entity": "AI Infrastructure",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "theme"
-        }
-      ]
-    },
-    {
-      "entity": "AI Infrastructure",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "theme",
-      "representative_title": "BASiC Semiconductor becomes first to turn gross margin positive amid SiC price war; industrial-grade MOSFET revenue surges 582%",
-      "latest_timestamp_utc": "2026-09-01T07:36:00+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "finance.biggo.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "BASiC Semiconductor becomes first to turn gross margin positive amid SiC price war; industrial-grade MOSFET revenue surges 582%",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0xWEFWN295VXgzUUktalNZRXpPUk0wUndjVjJhb2h4UkF4amYxeEpUTU9qdzFRQ1dibFpUWWt5aFFkSjJud2hhb0tmODRVbEZlNy1pbEhMejB3QXpwczJ4N1ZaeVp1bHBBWTZ6cDZqNmNFb0N3bUE?oc=5",
-          "domain": "finance.biggo.com",
-          "source_name": "finance.biggo.com",
-          "timestamp_utc": "2026-09-01T07:36:00+00:00",
-          "entity": "AI Infrastructure",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "theme"
-        }
-      ]
-    },
-    {
       "entity": "Bitcoin / Crypto",
       "ticker": null,
       "cik": null,
@@ -5684,161 +4698,6 @@
           "ticker": null,
           "cik": null,
           "entity_type": "crypto"
-        }
-      ]
-    },
-    {
-      "entity": "GLOBAL PARTNERS LP",
-      "ticker": "GLP",
-      "cik": "1323468",
-      "entity_type": "company",
-      "representative_title": "Taiwan's chips link global partners, strengthen supply chain: President",
-      "latest_timestamp_utc": "2026-09-01T07:34:00+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "focustaiwan.tw"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Taiwan's chips link global partners, strengthen supply chain: President",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE82VjlxbjFSTFpoSlZEZVk5dXAtTVcxNGg0UzNRMU9LUGZuS3JJbDlOb0pMWlUzalF1NVdEZTJWMWJkZ1UwMTloLXlhbTBpN09nR3Z4dFpHNA?oc=5",
-          "domain": "focustaiwan.tw",
-          "source_name": "Focus Taiwan",
-          "timestamp_utc": "2026-09-01T07:34:00+00:00",
-          "entity": "GLOBAL PARTNERS LP",
-          "ticker": "GLP",
-          "cik": "1323468",
-          "entity_type": "company"
-        }
-      ]
-    },
-    {
-      "entity": "AI Infrastructure",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "theme",
-      "representative_title": "Global semiconductor market to exceed USD 2 trillion by 2030, driven by AI demand",
-      "latest_timestamp_utc": "2026-09-01T07:33:54+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "cio.economictimes.indiatimes.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Global semiconductor market to exceed USD 2 trillion by 2030, driven by AI demand",
-          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPd0hBbzAwWWNQbzE3Nnh5ODFKSVdHUWt5WTFRT0VvNVJRaUFmaHhNVWo4WXE2U0l2R3dDNGZ6bmF4RG9CT1MweFhWZ0pQQjVrREdmNnNjWlBqUnNvR0RxNFMxUUo0ZUR0RkhIWXNCRXloV0E4dHlZRU5iOWcteHc4eUZmdmZrZFIyVEI1MVVFWlR3NFZYTUVNcGRWU0prLURISHZSQ19yN3lWYy1NR0ozNDJDamdrVnhDTFBZNDR5MGp2Z2E5RGtrbzNENC1oRFlZZHFLeGhXTlBhTnVDNWg0WUtyZW54eFJBVjBKZUJmZ9IB9AFBVV95cUxObjlXenpmRk5CS2Rqa2o1bDlkVFRGT09sdl9OUXNLRG9pYzQ3UUF1d0pJSDhGN3dXNy1qTHo4RUVfMGd6MElsS2VXbmgwSUpSU1dQeWpWeFRRcEljOXFlekNFZTE1b2dFWHBDa29TNGoyQ0JfOVhHUTZTM1k3eDNUSFlnSnY4TEJsMzhPNXV4OXNUa0N5QWR2czh3dTRuY3RYcjR6TC1PeHlyZUJuWUZ2WVRVOG40Tm5RTEdZYnB2d21ZSlBiWVJzNlBlMm04ak1laENac0U3MFJqY2ltSkxEdnk2SkNlb2ZseDA1WEpvRGI5UnVL?oc=5",
-          "domain": "cio.economictimes.indiatimes.com",
-          "source_name": "ET CIO",
-          "timestamp_utc": "2026-09-01T07:33:54+00:00",
-          "entity": "AI Infrastructure",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "theme"
-        }
-      ]
-    },
-    {
-      "entity": "Inflation",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "macro",
-      "representative_title": "Europe's Insured Losses Are Climbing as Catastrophes, Inflation and Construction Costs Combine, Verisk Finds",
-      "latest_timestamp_utc": "2026-09-01T07:30:00+00:00",
-      "categories": [
-        "macro_rates"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "ca.finance.yahoo.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "macro_rates",
-          "title": "Europe's Insured Losses Are Climbing as Catastrophes, Inflation and Construction Costs Combine, Verisk Finds",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZmZkXzFzOWZpX3dQYTY0aU0yNG9nTXBva0p1eTVjRjV1WjZNalNjckViejd2eGlEZTZCcDBjUGVwNERmSERCS0F0ZUdaZzAxLUw5R0NtUkZPTmlHbWZpV0dQZzBhc19PNzRwNXNsd3FGeXF1aHFtUnhiNndLS25VVFlXYW5iZnVjbFdTbHNnNThZSjJiU3p3OA?oc=5",
-          "domain": "ca.finance.yahoo.com",
-          "source_name": "Yahoo! Finance Canada",
-          "timestamp_utc": "2026-09-01T07:30:00+00:00",
-          "entity": "Inflation",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "macro"
-        }
-      ]
-    },
-    {
-      "entity": "AI Infrastructure",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "theme",
-      "representative_title": "Optimizing Semiconductor Vacuum Chambers with Chemically Inert PFPE Lubricants",
-      "latest_timestamp_utc": "2026-09-01T07:25:18+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "natlawreview.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Optimizing Semiconductor Vacuum Chambers with Chemically Inert PFPE Lubricants",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdUwtNFJiX08yS0wyaEpjWnNvbE5jVFBEOVdDaGJNOC1lNk1wY1lqdENnSVE0WWV3aGxrMWRwNDB1bk5nY2dILW5tSEpwa1pTXzFFZVdIU3dWSF8zc3laX29RSUk0WFdGVmpsdzQ1UzZxMTZDRmFBNzljOE5JLWxTRnpxSGZPS2hGbTNVUlRHeWtQNU1tZnA2UWlodWdpVWZEZDY5SS1seDFGS1BST1ZHZ21kVQ?oc=5",
-          "domain": "natlawreview.com",
-          "source_name": "natlawreview.com",
-          "timestamp_utc": "2026-09-01T07:25:18+00:00",
-          "entity": "AI Infrastructure",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "theme"
-        }
-      ]
-    },
-    {
-      "entity": "FutureFuel Corp.",
-      "ticker": "FF",
-      "cik": "1337298",
-      "entity_type": "company",
-      "representative_title": "NVIDIA GPU Frame Interpolation Support Lands in FFmpeg",
-      "latest_timestamp_utc": "2026-09-01T07:21:43+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "techpowerup.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "NVIDIA GPU Frame Interpolation Support Lands in FFmpeg",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZjV2NmxaRHV3S3NDaVg3SndTeUZtRjl0NW0ySFFUZ2hmYzg2R01GdG5kSjdDa2tCZEQwRXduV3NQa0Y2ZVZabzFGTi1MV01SdG1JX3lnb056SXNDTHpZRmd1eEtIMTJPdjJLejFEN3hGQmxSZXduMTFvSF9FV2xrc1BVUnRaeGFvSlpZZ3dJVTd6OVXSAZgBQVVfeXFMTWtPQW9QT2xnRjlRbmVHSlZFZnJIbENxTVBqeU04dTVYbUo0am41V2s2cTZDRjhnMTJCeHRXajIxOTNPSE9NUzlRZUQ2WURveS1CTmFoSkNuZGp5WkdKR1JNSDRVVzdmcDJwbFdvN19IcmV5eGxFUEZtRDV5eFJtS01kS2ZNUUwzb3VaNGZyU3dmV1VxYnQ2V1A?oc=5",
-          "domain": "techpowerup.com",
-          "source_name": "TechPowerUp",
-          "timestamp_utc": "2026-09-01T07:21:43+00:00",
-          "entity": "FutureFuel Corp.",
-          "ticker": "FF",
-          "cik": "1337298",
-          "entity_type": "company"
         }
       ]
     },
@@ -5874,95 +4733,33 @@
       ]
     },
     {
-      "entity": "AI Infrastructure",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "theme",
-      "representative_title": "Semiconductor Sales Hit $702 Billion in the First Half of 2026. What Next for Sector Stocks & ETFs?",
-      "latest_timestamp_utc": "2026-09-01T07:10:00+00:00",
+      "entity": "SOUTHERN CO",
+      "ticker": "SO",
+      "cik": "92122",
+      "entity_type": "company",
+      "representative_title": "Los Angeles weather: Southern California sees below-average temps ahead of tropical moisture",
+      "latest_timestamp_utc": "2026-09-01T07:07:22+00:00",
       "categories": [
-        "ai_semis"
+        "earnings_guidance"
       ],
       "sec_forms": [],
       "source_domains": [
-        "ebc.com"
+        "abc7.com"
       ],
       "recent_evidence_count": 1,
       "evidence": [
         {
           "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Semiconductor Sales Hit $702 Billion in the First Half of 2026. What Next for Sector Stocks & ETFs?",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZm40N09vWkNFTkw5Zzg5NGtQclRVVVAzaEFQeUhQcTdjWnU2aF9JZGZ2c0dxQlRpZXNwVDI1M2F3cmVjeFdaRVAyeWVERkZQVklvMVFsZXQ5dHVxQk9WNXk3cWNObzlBVk42aDNhSGhFQ0ptWEJXaEIwanNXVU5oN3d0LTRka0g2SUlYQlJnTW5vTDZOYnJDRmJOdndES0FaWVNlYS1rM1ktbTZkMDdlNl9jLUxka21sbTRXYTRWRUUzUQ?oc=5",
-          "domain": "ebc.com",
-          "source_name": "EBC Financial Group",
-          "timestamp_utc": "2026-09-01T07:10:00+00:00",
-          "entity": "AI Infrastructure",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "theme"
-        }
-      ]
-    },
-    {
-      "entity": "AI Infrastructure",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "theme",
-      "representative_title": "GPU Prices Jump 15% in a Month, With GeForce Cards Taking the Biggest Hit",
-      "latest_timestamp_utc": "2026-09-01T07:05:28+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "ghacks.net"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "GPU Prices Jump 15% in a Month, With GeForce Cards Taking the Biggest Hit",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRlA3VzB3UWkzbWUtbGNrUXVRUWdIS3diMFMwX1h5bFZ6VkxmUnhpTHg1dVdxUDdrbUlFUWt3cGwyWGs3aEwtYWlGUmU0cHR1M2lwYjNYNjVmMWVzNlVBY3NaWEM0dDVFM0lJb0FhYlptR3dTMWJDNGItc0hIX2lNRFVZVExkWFptcUZDbjdTSGRvTE5YVTZRMjBtaHJUbXFqV2EwZnVkSFJJZw?oc=5",
-          "domain": "ghacks.net",
-          "source_name": "gHacks",
-          "timestamp_utc": "2026-09-01T07:05:28+00:00",
-          "entity": "AI Infrastructure",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "theme"
-        }
-      ]
-    },
-    {
-      "entity": "AI Infrastructure",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "theme",
-      "representative_title": "Lai Ching-te: Taiwan's Semiconductor Industry Connects the Globe, Building Resilient Supply Chains for Shared Prosperity",
-      "latest_timestamp_utc": "2026-09-01T07:05:00+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "finance.biggo.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Lai Ching-te: Taiwan's Semiconductor Industry Connects the Globe, Building Resilient Supply Chains for Shared Prosperity",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5IY1RwN1QxemdiZzhzcW9OV3YycEE4MWJZdVlSQ19EUU1jc3lKX2xYYW44Y1JaNEE1dUoxc1llSXRRZzcxNlVuYzl1WjFUNDdXMmtjMDYteHR3U005Q041T2ttcEZaNFVZOS1zb0dmYVdKZXZudGc?oc=5",
-          "domain": "finance.biggo.com",
-          "source_name": "finance.biggo.com",
-          "timestamp_utc": "2026-09-01T07:05:00+00:00",
-          "entity": "AI Infrastructure",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "theme"
+          "category": "earnings_guidance",
+          "title": "Los Angeles weather: Southern California sees below-average temps ahead of tropical moisture",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNaHBveFJoaFppc1F5bWJYdDNscnYtM1BEb1l3UHI0UDFkUkdZdWpLcHo2UGNtLXVMbFl6cTRFYW96UjBScDJFbHJCelZLaE5oSnZJeFhUWmFfVGZtS1Znd3RHWnpEVnFWVXlQWFBtX2VJZGtSWTFYMnJuTFprdzdsWDJsY1ZqaEFJ0gGOAUFVX3lxTE53M1lpY0dkY2g2RXVsR1hYcUlVeThwUWdHS29WUVhuMDg1dXkzWlFFTVBxTFNZOXIwQXIxY2dJemRDdjQ1THFXa0EtWERDZ1VMcE5RblZuOWRqOHdJOXpEVG5yVUd5STFUYU5aNHdvbFZ6d0dSZFFQMG9SakhPY3pZZHNDQ05EdXBsdGVES1E?oc=5",
+          "domain": "abc7.com",
+          "source_name": "ABC7 Los Angeles",
+          "timestamp_utc": "2026-09-01T07:07:22+00:00",
+          "entity": "SOUTHERN CO",
+          "ticker": "SO",
+          "cik": "92122",
+          "entity_type": "company"
         }
       ]
     },
@@ -6060,37 +4857,6 @@
       ]
     },
     {
-      "entity": "AI Infrastructure",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "theme",
-      "representative_title": "Kyocera Opens Japan's Largest Semiconductor Components Plant in Nagasaki with ¥68 Billion Investment to Meet AI Demand",
-      "latest_timestamp_utc": "2026-09-01T06:56:00+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "finance.biggo.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Kyocera Opens Japan's Largest Semiconductor Components Plant in Nagasaki with ¥68 Billion Investment to Meet AI Demand",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5ORF9WVFhDa2FtQlNjZFNJT1poMUtJNjQ0enhhVnpEcHZvenZVaXhWZ0VVWVRaMWJkZXY2enI5OVdJSHlTTnVDZTJMRU1yWnFzZTZaaUxYSnYtRl8xNS1KTmdzODBqaGdhaFh5b3hicEp0NUZHWkE?oc=5",
-          "domain": "finance.biggo.com",
-          "source_name": "finance.biggo.com",
-          "timestamp_utc": "2026-09-01T06:56:00+00:00",
-          "entity": "AI Infrastructure",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "theme"
-        }
-      ]
-    },
-    {
       "entity": "Bitcoin / Crypto",
       "ticker": null,
       "cik": null,
@@ -6118,68 +4884,6 @@
           "ticker": null,
           "cik": null,
           "entity_type": "crypto"
-        }
-      ]
-    },
-    {
-      "entity": "AI Infrastructure",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "theme",
-      "representative_title": "German chip sector seeks Japan ties to reshape supply chain amid China risk",
-      "latest_timestamp_utc": "2026-09-01T06:28:00+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "english.kyodonews.net"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "German chip sector seeks Japan ties to reshape supply chain amid China risk",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBvNk1jRFJfdFZtbk8wWXlGSDRqMHZwNFFqWl9VNzMtOUlmWHR0MkQyMjdjTllIaWFaVUd2N3hjclFvWjdSVnVUZG1CTERQRV82cjVud3N4X0JpUQ?oc=5",
-          "domain": "english.kyodonews.net",
-          "source_name": "Japan Wire by Kyodo News",
-          "timestamp_utc": "2026-09-01T06:28:00+00:00",
-          "entity": "AI Infrastructure",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "theme"
-        }
-      ]
-    },
-    {
-      "entity": "AI Infrastructure",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "theme",
-      "representative_title": "Sweden must turn semiconductor expertise into industry",
-      "latest_timestamp_utc": "2026-09-01T06:25:44+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "evertiq.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Sweden must turn semiconductor expertise into industry",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOTVM5bFNpX1RwdGt3UW5NdjlpUTZXNUktblRiNDI5SVhHTU9KUzVxS3VCRnFEQnFGSlF0RmszcjhtTTRYVlQ3blI4QlpZNlQ3M1FTYXVsYkd6X2Q4bUUxWHdvY0JjZkg1aWdoMlc2dzNkYS1OYTVNUzk2LS1xemJYWVBjMVpmQ0NlTG1yOGJkRW9aeXR1?oc=5",
-          "domain": "evertiq.com",
-          "source_name": "Evertiq",
-          "timestamp_utc": "2026-09-01T06:25:44+00:00",
-          "entity": "AI Infrastructure",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "theme"
         }
       ]
     },
@@ -6215,37 +4919,6 @@
       ]
     },
     {
-      "entity": "NVIDIA CORP",
-      "ticker": "NVDA",
-      "cik": "1045810",
-      "entity_type": "company",
-      "representative_title": "Rebellions, Nvidia discuss tie-up, testing S.Korea’s sovereign AI ambitions",
-      "latest_timestamp_utc": "2026-09-01T06:01:55+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "kedglobal.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Rebellions, Nvidia discuss tie-up, testing S.Korea’s sovereign AI ambitions",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9BaHpVdmU4Q3IxYVZuRHJoSUUyaEVIM1ZtX3ZzWGFzSExfTnY2WVFZN25yVnUwMm1odE1pMU5raXE3eWNiTzV5c29pcFB3aVpic2RBTGhDQ0lDdV9xU3VjSzF5UEFrS3drMXBPdlVyeVFETEZlNjB6WC1SaG1KNWc?oc=5",
-          "domain": "kedglobal.com",
-          "source_name": "KED Global",
-          "timestamp_utc": "2026-09-01T06:01:55+00:00",
-          "entity": "NVIDIA CORP",
-          "ticker": "NVDA",
-          "cik": "1045810",
-          "entity_type": "company"
-        }
-      ]
-    },
-    {
       "entity": "Western Union CO",
       "ticker": "WU",
       "cik": "1365135",
@@ -6272,68 +4945,6 @@
           "entity": "Western Union CO",
           "ticker": "WU",
           "cik": "1365135",
-          "entity_type": "company"
-        }
-      ]
-    },
-    {
-      "entity": "AI Infrastructure",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "theme",
-      "representative_title": "Semiconductor, Defense Firms Become ‘Bureaucrat Black Holes’",
-      "latest_timestamp_utc": "2026-09-01T05:17:08+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "chosun.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Semiconductor, Defense Firms Become ‘Bureaucrat Black Holes’",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPODNSR05sUkRDTUJmUE9SeDdDVm9wQ2N2M0l6VlhzRnBzMTQwTndGVElHWGdoUWVoSzR4RERROGgzSWRvRkQ1bElrRXJZdnVIRUxhUHRjU0tHeTFWRWZ2U2s2S2cwbmdKSGlWMWR6WlNlRFNGZEhHMWNoYlppX0ZucC1wMUVHSTRM?oc=5",
-          "domain": "chosun.com",
-          "source_name": "조선일보",
-          "timestamp_utc": "2026-09-01T05:17:08+00:00",
-          "entity": "AI Infrastructure",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "theme"
-        }
-      ]
-    },
-    {
-      "entity": "CubeSmart",
-      "ticker": "CUBE",
-      "cik": "1298675",
-      "entity_type": "company",
-      "representative_title": "Samsung unveils CUBE strategy for HBM traction",
-      "latest_timestamp_utc": "2026-09-01T05:14:41+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "ajupress.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Samsung unveils CUBE strategy for HBM traction",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9RYk1xelNWVVRCSjA3QlUyU1I0ZTNLUFNqcURMaklKa2lIbHYzSTNVOXdqdjg1eWczODA1RnFLNjBPcFhmZEZoWUdZZExmZm1uRm1yOXMxd1hJU3PSAVdBVV95cUxOMXk4dUc5TmRYWDVGdHlXUVE5N2E1TlVQZkV5bF9kTG1BVHZFUkNHaWFDaV83clppSWF6dFBBTEY4dFNaVVQ4SDJPQk5tUXJkNng4RlRvUUU?oc=5",
-          "domain": "ajupress.com",
-          "source_name": "Aju Press",
-          "timestamp_utc": "2026-09-01T05:14:41+00:00",
-          "entity": "CubeSmart",
-          "ticker": "CUBE",
-          "cik": "1298675",
           "entity_type": "company"
         }
       ]
@@ -6401,37 +5012,6 @@
       ]
     },
     {
-      "entity": "SK hynix",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "foreign_company",
-      "representative_title": "SK Hynix Chairman's Overseas Semiconductor Remarks Stir Speculation",
-      "latest_timestamp_utc": "2026-09-01T05:03:03+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "chosun.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "SK Hynix Chairman's Overseas Semiconductor Remarks Stir Speculation",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPMl9COGVlV1BIQXNDY1RkZDMwNmlYb3FZam5wQ3BWa0JuMm00dFJUbGxrSnhTMFNwWWYycHlZY3FVQm1UYnU1ZndzZDBORkdHWFhLUk1FVkJhUU12QXJraDBtNzVGQTlDUTRhc2gzc3dhMEc3cnhqZHJHblo1Sm4zbGc5Zk5UZ1dU?oc=5",
-          "domain": "chosun.com",
-          "source_name": "조선일보",
-          "timestamp_utc": "2026-09-01T05:03:03+00:00",
-          "entity": "SK hynix",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "foreign_company"
-        }
-      ]
-    },
-    {
       "entity": "Bitcoin / Crypto",
       "ticker": null,
       "cik": null,
@@ -6453,7 +5033,7 @@
           "title": "Japan, India use blockchain for bonds; Thailand on crypto ETFs",
           "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPOTRhNEJ6Vy1VZFNrWmVsMUloTVd1eS05eThOMW45emh6WmFaSUJpT0swTnJPQ21DVzhiMXF5aXN3aE5KNVR6eXdyTmQ5ZmVIN1RUYkNMZ3VrbFN4SHlmbVY0SklrbjM5VGNqV2V0UG9vSXZUXzhnRzBjd1lKejdsRkZxNHplRXk1bFE?oc=5",
           "domain": "coingeek.com",
-          "source_name": "coingeek.com",
+          "source_name": "CoinGeek",
           "timestamp_utc": "2026-09-01T05:00:00+00:00",
           "entity": "Bitcoin / Crypto",
           "ticker": null,
@@ -6587,37 +5167,6 @@
       ]
     },
     {
-      "entity": "NVIDIA CORP",
-      "ticker": "NVDA",
-      "cik": "1045810",
-      "entity_type": "company",
-      "representative_title": "Nvidia's Rubin CPX Back From the Dead? Ming-Chi Kuo Says AI Chip Back With Major Redesign",
-      "latest_timestamp_utc": "2026-09-01T04:24:25+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "benzinga.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Nvidia's Rubin CPX Back From the Dead? Ming-Chi Kuo Says AI Chip Back With Major Redesign",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOS0VoZDFrNC1jNFhzWjcxWnBSZ2RTVTVJaDRybDdnaHRpT0hfSDZvdURQQWtzamRvUy0zTDFranZybjhNUUlXNGI3TTBJWmw1S3hIU2tCYV9UaW53MzFhSTJ4VlZjTEU5R1Y5bW1WQ0FZQ3lOWlBpTmZXSVdmVWlVNVZyd2dIX193ODhqTUZVX3V3STNTVmtvZkpUS0hyTTYtLVY1cHFNSTg?oc=5",
-          "domain": "benzinga.com",
-          "source_name": "Benzinga",
-          "timestamp_utc": "2026-09-01T04:24:25+00:00",
-          "entity": "NVIDIA CORP",
-          "ticker": "NVDA",
-          "cik": "1045810",
-          "entity_type": "company"
-        }
-      ]
-    },
-    {
       "entity": "Bitcoin / Crypto",
       "ticker": null,
       "cik": null,
@@ -6711,68 +5260,6 @@
       ]
     },
     {
-      "entity": "GameStop Corp.",
-      "ticker": "GME",
-      "cik": "1326380",
-      "entity_type": "company",
-      "representative_title": "GameStop builds $4.95B eBay stake after $56B takeover rebuff",
-      "latest_timestamp_utc": "2026-09-01T04:03:32+00:00",
-      "categories": [
-        "mna"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "app.dealroom.co"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "mna",
-          "title": "GameStop builds $4.95B eBay stake after $56B takeover rebuff",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTHlZcUM5RzRBa2p6UHlhOE1VeHRsQ1c3M1RjOVhzTGR4WDYyakc4Y3NnN05yWG5iTFFrQ18zMGh4RlF4NThpNUdYbjN3ZW1USllYWVNwRjRVOGxreWFJaWp0Qzg1X2tLY1FxczBkcDZvRXhMNDU3QzZnN1ZsMm4wby1TNTFFR0ptYnkwb1ZPUzZjN0VUeUp3?oc=5",
-          "domain": "app.dealroom.co",
-          "source_name": "Dealroom",
-          "timestamp_utc": "2026-09-01T04:03:32+00:00",
-          "entity": "GameStop Corp.",
-          "ticker": "GME",
-          "cik": "1326380",
-          "entity_type": "company"
-        }
-      ]
-    },
-    {
-      "entity": "AI Infrastructure",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "theme",
-      "representative_title": "Japan Business Mood Rises as Semiconductor Boom Lifts Manufacturers",
-      "latest_timestamp_utc": "2026-09-01T04:00:07+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "sme.asia"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Japan Business Mood Rises as Semiconductor Boom Lifts Manufacturers",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUVdBVUJLVXJEcVpYRldCVWFreW5CaThiRHZKb25ELXBGNjBnelc3WkhXRGNYM0tDVHlLMVluSzNjbnBvVHFpLXdMZUxiaFoyRGJDeGZmcjlKbXpSOEhhcm1jN19iMURyQ0pkME4wX1FTYVhSakxDZHJmZUR2TGFYNjlEUXNSSjBSYVh4cmZR?oc=5",
-          "domain": "sme.asia",
-          "source_name": "SME & Entrepreneurship Magazine",
-          "timestamp_utc": "2026-09-01T04:00:07+00:00",
-          "entity": "AI Infrastructure",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "theme"
-        }
-      ]
-    },
-    {
       "entity": "Tariffs / Trade",
       "ticker": null,
       "cik": null,
@@ -6856,7 +5343,7 @@
           "title": "AGs, WGA Slam Paramount's Bid For $1.9B Merger Suit Bond",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1qVXF5UnR0VFltTW16WDZhY1JfanQ3YlFxWUVCakRubUFDX0p4Ulp2Q1J4WEpZaXRvOFdxck5MVXlZclRuWExmeEpkV2hLclM0RFpKOVNR0gFWQVVfeXFMTWpVcXlSdHRUWW1NbXpYNmFjUl9qdDdiUXFZRUJqRG5tQUNfSnhSWnZDUnhYSllpdG84V3FyTkxVeVlyVG5YTGZ4SmRXaEtyUzREWko5U1E?oc=5",
           "domain": "law360.com",
-          "source_name": "law360.com",
+          "source_name": "Law360",
           "timestamp_utc": "2026-09-01T03:52:00+00:00",
           "entity": "FIRST MAJESTIC SILVER CORP",
           "ticker": "AG",
@@ -6866,33 +5353,33 @@
       ]
     },
     {
-      "entity": "Lithium Corp",
-      "ticker": "LTUM",
-      "cik": "1415332",
-      "entity_type": "company",
-      "representative_title": "Lithium company signs agreement with LG Energy Solution for South West Arkansas Project",
-      "latest_timestamp_utc": "2026-09-01T03:50:00+00:00",
+      "entity": "Bitcoin / Crypto",
+      "ticker": null,
+      "cik": null,
+      "entity_type": "crypto",
+      "representative_title": "Bitcoin September Outlook: Can BTC Hold Its August Rally As ‘Red September’ Looms?",
+      "latest_timestamp_utc": "2026-09-01T03:20:37+00:00",
       "categories": [
-        "contract_order"
+        "crypto"
       ],
       "sec_forms": [],
       "source_domains": [
-        "kait8.com"
+        "stocktwits.com"
       ],
       "recent_evidence_count": 1,
       "evidence": [
         {
           "source_type": "news_rss",
-          "category": "contract_order",
-          "title": "Lithium company signs agreement with LG Energy Solution for South West Arkansas Project",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNaXpvTzdHdTd6Mllvd3ZHbkRwRVh2YXlIcnBfTlp0VjBZV3RQMWQwSU1wUV96OVdCT3FYaGlDMzJZeG00VzVjQnRjQzc1T3k1RzN4QW1GdmNxMGVodkpmSEU0OGdBekU0TmJCa08wTXFUXzFQdDREak1XOXVhM09oMHltak9NTWM3MklRbzZQT1ZSeTNydkZZZjdObzZFaTVvZUd1UmRULUdzdlNteWUweWRxOWlFRHVQ0gHMAUFVX3lxTE8yYl9QVWpDTVJsZS00cWVRdmw0MW9ENkNySm1QRjBaZVYwMmU2ekdWTm1pazJiNUZsazNBVG5WMXZQOER0M2VrX1UtMFo3d25hckRrOXNvWnBYT0xGTDRac2ZUeWhNU05XcmF0M3YwMmt2dWd2T3Z0eDQ1MGM3SHdLT1N2R01FYjlxSS1iZElIdTREN1BFalZwN1F6aXlIb0Q4MVpPcGdrWl85WU5hQkZIVlpvalY4SzhUWFFoU0pVUFd0YlN2cHdSWjh4Vg?oc=5",
-          "domain": "kait8.com",
-          "source_name": "K8 News | Jonesboro, Arkansas",
-          "timestamp_utc": "2026-09-01T03:50:00+00:00",
-          "entity": "Lithium Corp",
-          "ticker": "LTUM",
-          "cik": "1415332",
-          "entity_type": "company"
+          "category": "crypto",
+          "title": "Bitcoin September Outlook: Can BTC Hold Its August Rally As ‘Red September’ Looms?",
+          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOZ29ldE5yV0tmR2czOUFvRTJRQURRRTRHMXdFY0dKNXB4RC1vWldBOTFERy1DVmw1Q3BqSnVaUXN4NF9WQkdDMk5hVWh0bGxrM3VyRGRYM0loWWdPNHlHejk3ZXRNakhLN1VwT21FSG82bXdYQlBxeHg2TzhpMHg5Z2dFei1JSnB1T2NSOEtMZXlKbTNOUXpsTG80VGx6MjdSMEJ0MFRmc3Y5RnVkZFNERlRRUkFxb0hwRFAzNzVoLXpteWVaUi1YMEdxbHBNRmRYTWpfb3FQbjBVUUtZMzJKNG5qT0FXdmlJS1QzcFh2SUxsTkR4?oc=5",
+          "domain": "stocktwits.com",
+          "source_name": "Stocktwits",
+          "timestamp_utc": "2026-09-01T03:20:37+00:00",
+          "entity": "Bitcoin / Crypto",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "crypto"
         }
       ]
     },
@@ -6990,37 +5477,6 @@
       ]
     },
     {
-      "entity": "AI Infrastructure",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "theme",
-      "representative_title": "Taiwan's chip prowess is built on democracy and rule of law, president says",
-      "latest_timestamp_utc": "2026-09-01T03:03:00+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "reuters.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Taiwan's chip prowess is built on democracy and rule of law, president says",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZlNBQUloQjZQaTRsNEI5dlVwSTZqc0d5WXp6VmxqRXJra0V0b0cyaXlBQ1gzSzVDeHplZW53di1WUkZJX1cwd0QyQkwtb2VWRVN1S2Z0T1hwTmRKTVZnaUNBYzJvamRNOUltaGJ6bEdyTXU2enRZMnlNMkxsWFVPNFVMTTBFcEprRW9aODB6MXZtRDhIUGQta0IwcElxUng1c21GREYwanF2U2F3eWhjbnd0ZldUZ21aS2c?oc=5",
-          "domain": "reuters.com",
-          "source_name": "Reuters",
-          "timestamp_utc": "2026-09-01T03:03:00+00:00",
-          "entity": "AI Infrastructure",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "theme"
-        }
-      ]
-    },
-    {
       "entity": "Tariffs / Trade",
       "ticker": null,
       "cik": null,
@@ -7114,68 +5570,6 @@
       ]
     },
     {
-      "entity": "JOINT Corp",
-      "ticker": "JYNT",
-      "cik": "1612630",
-      "entity_type": "company",
-      "representative_title": "South Korea-India joint venture opens semiconductor materials plant, targets China-free supply chain",
-      "latest_timestamp_utc": "2026-09-01T02:23:48+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "digitimes.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "South Korea-India joint venture opens semiconductor materials plant, targets China-free supply chain",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWVlRZmR2S3dqSUpRRFh1WkV3OG5IT2FHcy1ta0lYeGdtczl1YTRlMFRoYkxXSVZTdzVpRXpVUl94bjJiSkZmbWlCSk9zc19mR2xmZTU2T3E4UGlqd2FCM0kxZnZVbTEyN1ctOGVyVHhhSUtVWnFHRWJTVWZKTHI5ZDA1UUdDQmdzUUJqTU5tUlFMRG16RGVZRV93UGwzbVU?oc=5",
-          "domain": "digitimes.com",
-          "source_name": "digitimes",
-          "timestamp_utc": "2026-09-01T02:23:48+00:00",
-          "entity": "JOINT Corp",
-          "ticker": "JYNT",
-          "cik": "1612630",
-          "entity_type": "company"
-        }
-      ]
-    },
-    {
-      "entity": "AI Infrastructure",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "theme",
-      "representative_title": "UK’s Space Forge selects Texas A&M for first US advanced semiconductor materials facility",
-      "latest_timestamp_utc": "2026-09-01T02:20:59+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "themanufacturer.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "UK’s Space Forge selects Texas A&M for first US advanced semiconductor materials facility",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNbldWZDZPbldzVzc3UzRkckpxYXZiXzlUcFhzcGpjVjlCaGZKMWpMbHlTZGdQNVU5aWVIdVlZVW5iTkI4RVpxa01PaHNZSnRyVVVaVVZfT2QyR0luWlk1M3AzZExyU2t2dElnTDZ6T28yM0NQYjlBbE0tY3JZdWtPamxEc3ZhU1BzSVBtbHNJUG0xX3huVERyd1ppWnBfSHFiWFpndTVCSGJ1YlAxS09yY0ctb1BKU3h0Wm1YeTZPbVhQb1R5a09faA?oc=5",
-          "domain": "themanufacturer.com",
-          "source_name": "The Manufacturer",
-          "timestamp_utc": "2026-09-01T02:20:59+00:00",
-          "entity": "AI Infrastructure",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "theme"
-        }
-      ]
-    },
-    {
       "entity": "ESSEX PROPERTY TRUST, INC.",
       "ticker": "ESS",
       "cik": "920522",
@@ -7238,37 +5632,6 @@
       ]
     },
     {
-      "entity": "AI Infrastructure",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "theme",
-      "representative_title": "SEMICON Taiwan 2026 to spotlight AI-driven semiconductor supply chain shifts",
-      "latest_timestamp_utc": "2026-09-01T01:16:21+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "digitimes.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "SEMICON Taiwan 2026 to spotlight AI-driven semiconductor supply chain shifts",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNck82djZXZGpsU2s5b041Tlo3UkJxdXJWZjlHbWpxbXNmTkNSN2FNemNDaWxnZUZKdDBXc3NpRmU5ZEpPZnRPV3ZDcFg1T2VnQmJQeVdfQkJrVXhYcDgyTHhHRFNRYVVVRnJNalhHcEhWOUJlWmU5UmV3ajJhdXZnMEZ1MWJvWnVFSHluT3JSaFctWF9z?oc=5",
-          "domain": "digitimes.com",
-          "source_name": "digitimes",
-          "timestamp_utc": "2026-09-01T01:16:21+00:00",
-          "entity": "AI Infrastructure",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "theme"
-        }
-      ]
-    },
-    {
       "entity": "CITIZENS, INC.",
       "ticker": "CIA",
       "cik": "24090",
@@ -7290,7 +5653,7 @@
           "title": "WATCH: NFIB Holds Webinar with Illinois Citizens Against Lawsuit Abuse",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZGlhZUtUb3BlbmxoV2VJcDlIVld3dmRfMk9iQnNKSlpqYzN3ZnhjYjVwUE1mRGNoQ0p0cmIyVHY2WS0xRFZfN0FIalRPTVRMeTQ3WmQ4RkFZcUVBa3BjelhaZW1iLVJTRFlIU1Q2WmZOS20yc3pmdHd5TEJqSnhwendPd0dQWDlBN183WC11QXU0dkp5VFM4Z25fR1IxTW1LTzRR?oc=5",
           "domain": "nfib.com",
-          "source_name": "NFIB",
+          "source_name": "nfib.com",
           "timestamp_utc": "2026-09-01T01:02:53+00:00",
           "entity": "CITIZENS, INC.",
           "ticker": "CIA",
@@ -7321,7 +5684,7 @@
           "title": "Bessent huddles with G20 to try to rally allies on Iran as tariffs strain ties",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQOHkyT3lETlVKQjljcFhmWFFPMC1NRmo4alY1REtpQl91VUVoYU1FNWg3MlpRTGtXRjhEbi01YU4xeWdPUlo2bncxby11UzBKclBXZjFqOWFhcXlvaTVNaVFCWjgtdkhlakdMM3NCRlhEY1JlZzZIR0p5UWp5TGdwYmNHMGpDNjNKOWZ6ZkVhZGlrNDEwWUo4SzBaUmpGbnRzOHRsdDJLLXM3ZXBrQ2Y0bw?oc=5",
           "domain": "apnews.com",
-          "source_name": "apnews.com",
+          "source_name": "AP News",
           "timestamp_utc": "2026-09-01T00:47:00+00:00",
           "entity": "Tariffs / Trade",
           "ticker": null,
@@ -7358,68 +5721,6 @@
           "ticker": null,
           "cik": null,
           "entity_type": "crypto"
-        }
-      ]
-    },
-    {
-      "entity": "AI Infrastructure",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "theme",
-      "representative_title": "Rising Packaging Complexity Elevates Glass in Semiconductor Manufacturing",
-      "latest_timestamp_utc": "2026-09-01T00:00:00+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "digitimes.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Rising Packaging Complexity Elevates Glass in Semiconductor Manufacturing",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9xTU1PQURqS2lhbHFKRVQwVmtwVGxCUVlZWDhrNXM1S3JvWVpKczJsbUNXdWhCR0xBMXlxVjNhWnFheU0tTWc4c0hnSTNDc2YtR09aYVJzTEtqMktvVUlRVFpkbF9VU1FV?oc=5",
-          "domain": "digitimes.com",
-          "source_name": "digitimes",
-          "timestamp_utc": "2026-09-01T00:00:00+00:00",
-          "entity": "AI Infrastructure",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "theme"
-        }
-      ]
-    },
-    {
-      "entity": "NVIDIA CORP",
-      "ticker": "NVDA",
-      "cik": "1045810",
-      "entity_type": "company",
-      "representative_title": "Nvidia targets HBM race with custom NVHBM, expands NVLink Fusion",
-      "latest_timestamp_utc": "2026-08-31T23:40:51+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "digitimes.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Nvidia targets HBM race with custom NVHBM, expands NVLink Fusion",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPcFFzbFBtMWdQWGhtLXVLSnp1cW1RenVuRVVYSS1VakN2eVlzZmtYaUx5U2I4S3FudjFMUW1remo4RkFLM1hpaXo5LUdmNTBRbWgzcHBFSFIwX1FlYTlnRDZaVlV5bFFma0RXaHJ1VzEzNzY2cS1lTk9uY0k3cUFvdW90WDJJdUJU?oc=5",
-          "domain": "digitimes.com",
-          "source_name": "digitimes",
-          "timestamp_utc": "2026-08-31T23:40:51+00:00",
-          "entity": "NVIDIA CORP",
-          "ticker": "NVDA",
-          "cik": "1045810",
-          "entity_type": "company"
         }
       ]
     },
@@ -7610,68 +5911,6 @@
       ]
     },
     {
-      "entity": "AI Infrastructure",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "theme",
-      "representative_title": "Applied Materials Touts 3D Scaling Technologies, Develops New Materials for HBM and CPO",
-      "latest_timestamp_utc": "2026-08-31T22:27:48+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "thelec.net"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Applied Materials Touts 3D Scaling Technologies, Develops New Materials for HBM and CPO",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54dUNaNnNyN1VOeHdZN2cxdkNWOE8xZFpKUjRPUHNyRHBlenJleHNHY2N3VFdzNndJRVBzeDNyNjA4Y2VPaXZSeTIyTUtNSkpjRzJZQ0h0OUhlN0NBSEU3Q1VIUV8zblE?oc=5",
-          "domain": "thelec.net",
-          "source_name": "thelec.net",
-          "timestamp_utc": "2026-08-31T22:27:48+00:00",
-          "entity": "AI Infrastructure",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "theme"
-        }
-      ]
-    },
-    {
-      "entity": "Perfect Corp.",
-      "ticker": "PERF",
-      "cik": "1899830",
-      "entity_type": "company",
-      "representative_title": "All white and overclocked Radeon RX 9070 XT GPU deal is the perfect addition to a white PC build",
-      "latest_timestamp_utc": "2026-08-31T22:25:36+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "pcguide.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "All white and overclocked Radeon RX 9070 XT GPU deal is the perfect addition to a white PC build",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWEtYUVBEdV9obTBXTlpTUVp5TGVxMmY3Wm9nVXBmQ0dfTWtqb3NOdFR1ZE42blptdnpsdFRMQXRwQmlqRVZfcWk5Z1YtY1A1RGhYU1pKQTk0YnZLa3AzNXRqaVk4WTN1dUhWeDRrZDVzV1hMSmJvY1R0UF9IOWt6ZGZRdFlFYkhmMjBZX1dUY0FHWEtYVlhkUHVGbDRfeEhEOFk2RnNTOTBjTXExU3BCRzNZdXMwUE5WdlFtWVBjQTRLUm0yTHc?oc=5",
-          "domain": "pcguide.com",
-          "source_name": "PC Guide",
-          "timestamp_utc": "2026-08-31T22:25:36+00:00",
-          "entity": "Perfect Corp.",
-          "ticker": "PERF",
-          "cik": "1899830",
-          "entity_type": "company"
-        }
-      ]
-    },
-    {
       "entity": "Broadcom Inc.",
       "ticker": "AVGO",
       "cik": "1730168",
@@ -7755,7 +5994,7 @@
           "title": "GOP congressional candidate Jeff Wilson on tariffs, energy production, and healthcare",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOWG9Zc0lEWWRVNEJDTnllN29MYXJVT1pjSWp4RzA3dEhNQUFGbzZ0VWJXWlh1WVIyTkd3bF82SlVLS1RIRmNQcElRNzZJN3pCaEoyaUlocktXck1XSU5UTlRZbVlCMDlmZnMzc2ZmMmJ5d3lYNWUwcktJZUtDNENyMWVwbkI1OHVMVTZSUUNMUm1TYTNqOVRRUXpzTllDOXJqQk44SDNhRHhtOF9w?oc=5",
           "domain": "ipmnewsroom.org",
-          "source_name": "ipmnewsroom.org",
+          "source_name": "IPM Newsroom",
           "timestamp_utc": "2026-08-31T22:08:09+00:00",
           "entity": "Tariffs / Trade",
           "ticker": null,
@@ -7792,68 +6031,6 @@
           "ticker": "ATR",
           "cik": "896622",
           "entity_type": "company"
-        }
-      ]
-    },
-    {
-      "entity": "AI Infrastructure",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "theme",
-      "representative_title": "Lam’s Oregon Lab Expansion Launches to Accelerate AI Chip Innovation",
-      "latest_timestamp_utc": "2026-08-31T21:36:49+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "newsroom.lamresearch.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Lam’s Oregon Lab Expansion Launches to Accelerate AI Chip Innovation",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQ2V5eFNLcTFjVFJLak5EZU9wT2llWXlSYVhEeFoyNFVlX3k1VkU3b29oLWhyVjJWV2JQbEs0VnF2VGZyUjZ3YXFiUHMyekp5ZTBfcE1xRVBsaUx0cF9KS3JmN3d4ZjRXU1RIU04zZGZLenhJa0lDUU5CM3pfd3QzMHFUWUl5NE5CcjZGdWNJR2wyZw?oc=5",
-          "domain": "newsroom.lamresearch.com",
-          "source_name": "Lam Research Newsroom",
-          "timestamp_utc": "2026-08-31T21:36:49+00:00",
-          "entity": "AI Infrastructure",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "theme"
-        }
-      ]
-    },
-    {
-      "entity": "AI Infrastructure",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "theme",
-      "representative_title": "Gov. Abbott tours semiconductor training facility",
-      "latest_timestamp_utc": "2026-08-31T21:18:00+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "kvue.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Gov. Abbott tours semiconductor training facility",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPN3V6U3UzUmhnXzlHcEVCay1MSUQxcjhTeENGTXlmUmJPX0xfdmtGWVF4YnNzMk5mbGsxbm5ZTEZ1ZE9mY0dhTTdEb0VtVnUtczZTS1ZRZVR6cm9kUUZMVmtsdi1ZSnBIdUhvMXZfWE9MV3hWY1FNMW9ncnh4YkRfV21BX3g5cXd1VEIyeFkxcWFHUGU3ejJXajRMSkRSQVhjTE1uU2llRFRCdTdIT2R3QU5ZWTRNUzdyN3l3WGpn?oc=5",
-          "domain": "kvue.com",
-          "source_name": "KVUE",
-          "timestamp_utc": "2026-08-31T21:18:00+00:00",
-          "entity": "AI Infrastructure",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "theme"
         }
       ]
     },
@@ -7910,42 +6087,11 @@
           "title": "Lockheed Martin, General Dynamics get framework deals to surge Patriot, THAAD production",
           "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQWWZnMlNXZTZ1RExpNzRJaEE4akFhT2NiTTRsTTJVdk9kZEtNNHNMTW5iRHVvdnBGVnRXb3VWYlVyUEN0RnJ5ZDBla1pqWW1KRWZfNlRUWmpXSFdlcGl3M3AyR0oxeWJCSGNvLVFVdEdfZVYtcE90SzZGc0ZSemZjRDkxRlFUbjJPNkN2c1JaZ09yZC1ZdUsxcmdPNnJ6eHBsaEIyaHNLM1gtVFNwekNOczM5WmNpbUNwYnppZ05SQW1aaWJpd1lLSDNfUmlCUkpGSFY3QXVISXRhY1ctSXc?oc=5",
           "domain": "defensenews.com",
-          "source_name": "defensenews.com",
+          "source_name": "Defense News",
           "timestamp_utc": "2026-08-31T21:08:08+00:00",
           "entity": "GENERAL DYNAMICS CORP",
           "ticker": "GD",
           "cik": "40533",
-          "entity_type": "company"
-        }
-      ]
-    },
-    {
-      "entity": "NVIDIA CORP",
-      "ticker": "NVDA",
-      "cik": "1045810",
-      "entity_type": "company",
-      "representative_title": "Nvidia and Semiconductor Vendor Expand Partnership",
-      "latest_timestamp_utc": "2026-08-31T21:08:02+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "aibusiness.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Nvidia and Semiconductor Vendor Expand Partnership",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbGFVZ3JvUjdEelBrTFpmX0l0cXlLc3lYNDkzR1NHM3RLaGhtWmZrY3dCd2VsRTRmMXNmTzRQQXdINERWbGRFRVpNUVc2U1pFQ1R3VV9nX0p4QVVkNER0NVJxN3RtaDBqemNoVF9keTd4V2pxamFBejBoU1A3ZWo4ZTE3cW90bUdjRDF3?oc=5",
-          "domain": "aibusiness.com",
-          "source_name": "AI Business",
-          "timestamp_utc": "2026-08-31T21:08:02+00:00",
-          "entity": "NVIDIA CORP",
-          "ticker": "NVDA",
-          "cik": "1045810",
           "entity_type": "company"
         }
       ]
@@ -8008,37 +6154,6 @@
           "entity": "GOLDMAN SACHS GROUP INC",
           "ticker": "GS",
           "cik": "886982",
-          "entity_type": "company"
-        }
-      ]
-    },
-    {
-      "entity": "NVIDIA CORP",
-      "ticker": "NVDA",
-      "cik": "1045810",
-      "entity_type": "company",
-      "representative_title": "Which Nvidia GPU Is Equivalent To The Steam Machine?",
-      "latest_timestamp_utc": "2026-08-31T20:47:00+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "bgr.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Which Nvidia GPU Is Equivalent To The Steam Machine?",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5NbGRfcmtFRFdqT2lydV9VNEpjQXV2ZWxCR2hMREtaT3ZJcnlOd3E0T29QR3gxbWpkMkJFVFhKbk9Jd2puSDVxRDAyeUo2RGNSV3h1RWVUN3VBUm1IYWtqa0xObVpsSFR4Q21CcE9KOTFhc2Q4Z2c?oc=5",
-          "domain": "bgr.com",
-          "source_name": "bgr.com",
-          "timestamp_utc": "2026-08-31T20:47:00+00:00",
-          "entity": "NVIDIA CORP",
-          "ticker": "NVDA",
-          "cik": "1045810",
           "entity_type": "company"
         }
       ]
@@ -8199,68 +6314,6 @@
       ]
     },
     {
-      "entity": "AI Infrastructure",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "theme",
-      "representative_title": "VGT’s $58 Billion AI Chip Concentration Could Derail Your 2027 Returns",
-      "latest_timestamp_utc": "2026-08-31T20:25:00+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "247wallst.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "VGT’s $58 Billion AI Chip Concentration Could Derail Your 2027 Returns",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNQkw3bDhlZFhpNEFWNTlwc1BCendNR2hYQVlvZDRCTU1vSk9EbmFLZWVZUmhxTmZPOXVTeGpRVDgzQnlpdzdIMGtHTDZRMmdIVHAtNDdiOEIxbGRMd2hIQ0RRSURzVDRjc1RNb2NtZno5YTRiYWpWMmxzaUhZS1NOX2xxcVdsRWVjVUp6QUw5a1V0bEdydmpkQnpsM0I4MDQwb19kRUdoWGZaWmpfRzRxNHB6YTZMVDA?oc=5",
-          "domain": "247wallst.com",
-          "source_name": "24/7 Wall St.",
-          "timestamp_utc": "2026-08-31T20:25:00+00:00",
-          "entity": "AI Infrastructure",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "theme"
-        }
-      ]
-    },
-    {
-      "entity": "ADVANCED MICRO DEVICES INC",
-      "ticker": "AMD",
-      "cik": "2488",
-      "entity_type": "company",
-      "representative_title": "How AMD Became One of the World’s Leading Semiconductor Companies",
-      "latest_timestamp_utc": "2026-08-31T20:22:17+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "thomasnet.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "How AMD Became One of the World’s Leading Semiconductor Companies",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9CWVFkdDJ0Wkpud0pZbmFYTkZWZ0RrSWVET1JmYzZVUDdTbmlNNFpWamdZQkRpNjFXa08zMFpxR1dIT2VHU2kzY1MwOTJ1OXF2WXhMd0ltbUxIVmphWkpsaEx1MENDSm8?oc=5",
-          "domain": "thomasnet.com",
-          "source_name": "Thomasnet",
-          "timestamp_utc": "2026-08-31T20:22:17+00:00",
-          "entity": "ADVANCED MICRO DEVICES INC",
-          "ticker": "AMD",
-          "cik": "2488",
-          "entity_type": "company"
-        }
-      ]
-    },
-    {
       "entity": "AMAZON COM INC",
       "ticker": "AMZN",
       "cik": "1018724",
@@ -8288,68 +6341,6 @@
           "ticker": "AMZN",
           "cik": "1018724",
           "entity_type": "company"
-        }
-      ]
-    },
-    {
-      "entity": "AI Infrastructure",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "theme",
-      "representative_title": "Trump attacks datacenter backlash, claiming communities pushing back risk becoming ‘backwards and poor’",
-      "latest_timestamp_utc": "2026-08-31T20:13:00+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "theguardian.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Trump attacks datacenter backlash, claiming communities pushing back risk becoming ‘backwards and poor’",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5vWGFfWGhXNmlwZ1UtMmpqUXdQQjVHeTlTZ1VNVHB1VzdnQ0VwREtNNi1fMGcyZE1xaW0xbTY3ZFVYVm5yd2lraVNWLXBPZElfcjA2dU9iZk5vczJ2NVJ0eFhCWnBxTFJFZFYwZHo4bG5jYy1LbVRmZUtYbl9MUQ?oc=5",
-          "domain": "theguardian.com",
-          "source_name": "The Guardian",
-          "timestamp_utc": "2026-08-31T20:13:00+00:00",
-          "entity": "AI Infrastructure",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "theme"
-        }
-      ]
-    },
-    {
-      "entity": "Bitcoin / Crypto",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "crypto",
-      "representative_title": "Bitcoin Gains 24% as CryptoSlate Predicts Volatile September",
-      "latest_timestamp_utc": "2026-08-31T20:02:52+00:00",
-      "categories": [
-        "crypto"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "kucoin.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "crypto",
-          "title": "Bitcoin Gains 24% as CryptoSlate Predicts Volatile September",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPMTRiQ0FnYldwTHVOUzZha19MdGdRNGpZWlVkSWljOXgyTlg3NV9IYk42UVRIZE9Zc293b01MX3BpanNHNGk5NEhsVmVOQlowUDdnWFNSVWE2dnd4Nmk2SWQ0TDNwTmVsWHlyY3BwSU83Q3dqU1FSQTJYUjBDMjA3X0xZSHZaZHRJOWRDLUFRTDFFVHc2YVR1VQ?oc=5",
-          "domain": "kucoin.com",
-          "source_name": "KuCoin",
-          "timestamp_utc": "2026-08-31T20:02:52+00:00",
-          "entity": "Bitcoin / Crypto",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "crypto"
         }
       ]
     },
@@ -8411,68 +6402,6 @@
           "entity": "AMERICAN FINANCIAL GROUP INC",
           "ticker": "AFGE",
           "cik": "1042046",
-          "entity_type": "company"
-        }
-      ]
-    },
-    {
-      "entity": "Bitcoin / Crypto",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "crypto",
-      "representative_title": "Former Credit Suisse Risk Chief Says Bitcoin Could Hit $150,000 by End of 2027",
-      "latest_timestamp_utc": "2026-08-31T18:55:00+00:00",
-      "categories": [
-        "crypto"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "finance.biggo.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "crypto",
-          "title": "Former Credit Suisse Risk Chief Says Bitcoin Could Hit $150,000 by End of 2027",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9mQjM3TlBkTnQyazRZdnV2ZURaTGxJcXZ0dEFkVWlEOU1FUVJnRmxoQjBqbFQ1c0FNMEtLQWxJVnZ1Q3kxWVMtREpGU0FlVkllQmNCUUVBbDZlVEdZc1g2SUt3blFGVFNRLVJPQzBaNHNXdUNYZnc?oc=5",
-          "domain": "finance.biggo.com",
-          "source_name": "finance.biggo.com",
-          "timestamp_utc": "2026-08-31T18:55:00+00:00",
-          "entity": "Bitcoin / Crypto",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "crypto"
-        }
-      ]
-    },
-    {
-      "entity": "WESCO INTERNATIONAL INC",
-      "ticker": "WCC",
-      "cik": "929008",
-      "entity_type": "company",
-      "representative_title": "WCC Expands Microelectronics, Semiconductor Workforce Training",
-      "latest_timestamp_utc": "2026-08-31T18:54:26+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "thesuntimesnews.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "WCC Expands Microelectronics, Semiconductor Workforce Training",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPN3hEOU9qa2QyOWlzVml6V0lRVnZ4elprUkMzSWtzajBzZ0xiRUFScFFpampocnBKUmZRN1JPYkRUOFNaQ2tZd3dTNU5BOGxhLUlSYXUzRnR3ZnNYbHctS3VzWjR4WlhsU0ZqaWhwS3JMSEh6OXZISWgtakRUMjlsSlNhdTNmRTNEbnlPTzBXa0s0c3Jn?oc=5",
-          "domain": "thesuntimesnews.com",
-          "source_name": "The Sun Times News",
-          "timestamp_utc": "2026-08-31T18:54:26+00:00",
-          "entity": "WESCO INTERNATIONAL INC",
-          "ticker": "WCC",
-          "cik": "929008",
           "entity_type": "company"
         }
       ]
@@ -8571,37 +6500,6 @@
       ]
     },
     {
-      "entity": "MICROSOFT CORP",
-      "ticker": "MSFT",
-      "cik": "789019",
-      "entity_type": "company",
-      "representative_title": "Microsoft Announces That Saudi Arabia East Datacenter Region Will Be Available in November 2026",
-      "latest_timestamp_utc": "2026-08-31T18:24:58+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "news.microsoft.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Microsoft Announces That Saudi Arabia East Datacenter Region Will Be Available in November 2026",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQUndvX1FpVi1wTDBqa1FhTm5HTzEzOGxzTFdJbXN5OHRtcWtHTm52a1kyeFJJeUt4WHV0cWxhQnpvVXFrNDN2OUIzQXNvQ19ZcVdEVmZJMDd2eENQZDdpS0VkcFNFdDJWOS1Bd1VnZWVIVFhSZUppY2UwLW14YkxyMzJjbzQ5R2lnemtxb3JuSjdDTGt1WDk3cFFiZFV2bWJuaG9aaXpxSE9XTHM2QzdoQ0ZfT3d5UmVGODIxcW5yR2kwdVJyVDVudFNQNWFMM0RFTXV2WQ?oc=5",
-          "domain": "news.microsoft.com",
-          "source_name": "Microsoft Source",
-          "timestamp_utc": "2026-08-31T18:24:58+00:00",
-          "entity": "MICROSOFT CORP",
-          "ticker": "MSFT",
-          "cik": "789019",
-          "entity_type": "company"
-        }
-      ]
-    },
-    {
       "entity": "Bitcoin / Crypto",
       "ticker": null,
       "cik": null,
@@ -8695,37 +6593,6 @@
       ]
     },
     {
-      "entity": "NVIDIA CORP",
-      "ticker": "NVDA",
-      "cik": "1045810",
-      "entity_type": "company",
-      "representative_title": "ARM vs. NVDA: Which AI Chip Designer is Worth Investing in?",
-      "latest_timestamp_utc": "2026-08-31T17:31:00+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "finance.yahoo.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "ARM vs. NVDA: Which AI Chip Designer is Worth Investing in?",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPY3pXX2pXZy1uUzFxS0ZtcnJKZmd3MjVqSEFtOFFmbkZza2dzblJ1UU5uWV9LSjBIeU1XZFBpd2xoWng1NzdXSGp2eC1pMEpjM2h2RWlxZURRZkZaZ3FYZ0JMaWkybEtDNjUwVHZlWUZuNXBSa0EzZXpQbWJMNFJLQ3l2cHlsUjZRN2ZV?oc=5",
-          "domain": "finance.yahoo.com",
-          "source_name": "Yahoo Finance",
-          "timestamp_utc": "2026-08-31T17:31:00+00:00",
-          "entity": "NVIDIA CORP",
-          "ticker": "NVDA",
-          "cik": "1045810",
-          "entity_type": "company"
-        }
-      ]
-    },
-    {
       "entity": "Bitcoin / Crypto",
       "ticker": null,
       "cik": null,
@@ -8784,99 +6651,6 @@
           "ticker": null,
           "cik": null,
           "entity_type": "crypto"
-        }
-      ]
-    },
-    {
-      "entity": "AI Infrastructure",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "theme",
-      "representative_title": "Southeast Asia Shows Surprising Semiconductor Strengths",
-      "latest_timestamp_utc": "2026-08-31T16:12:07+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "cepa.org"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Southeast Asia Shows Surprising Semiconductor Strengths",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWE91WTYwallTOFZBeDQyVEFuOE84MllWTVExU2dLWTFDSEJVYmFfYUtXb0RtVUNSSm50Zl9hQS1xV09QbFMxVU9SbFoxVUkxV0dMRmtkblI2ekhWS1puRzJseGdybjJWQ1d0NW52Z21hVk41N1RkVWFHckhWajh4bnNVejFERTFV?oc=5",
-          "domain": "cepa.org",
-          "source_name": "Center for European Policy Analysis (CEPA)",
-          "timestamp_utc": "2026-08-31T16:12:07+00:00",
-          "entity": "AI Infrastructure",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "theme"
-        }
-      ]
-    },
-    {
-      "entity": "NVIDIA CORP",
-      "ticker": "NVDA",
-      "cik": "1045810",
-      "entity_type": "company",
-      "representative_title": "Nvidia’s $3.5B MediaTek bet reveals its plan for tackling Big Tech’s AI chip buildout",
-      "latest_timestamp_utc": "2026-08-31T15:15:25+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "techcrunch.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Nvidia’s $3.5B MediaTek bet reveals its plan for tackling Big Tech’s AI chip buildout",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcjlMRWVYT1pXS1M1ZDJzeEt6TFJ6RjlINENGQ2JpcGZzaUxod0F5SFhTUWFoNFlRM1g3WG52YmVjWURUbE9WX2tqWk10TGdDNkN2QnA3WWYzdHJJaldsREVlTml6QnJWQXh6TW1UN3l1QmhPcUFMeXNsMnFnOWxVUFhfMEV4SHh5bi1lUnlpbHMtNlhGSnAyM0tqck5FYU1TSDU1N3V0Z2hFY3VFTWZCRXktcjZvczVk?oc=5",
-          "domain": "techcrunch.com",
-          "source_name": "TechCrunch",
-          "timestamp_utc": "2026-08-31T15:15:25+00:00",
-          "entity": "NVIDIA CORP",
-          "ticker": "NVDA",
-          "cik": "1045810",
-          "entity_type": "company"
-        }
-      ]
-    },
-    {
-      "entity": "AEHR TEST SYSTEMS",
-      "ticker": "AEHR",
-      "cik": "1040470",
-      "entity_type": "company",
-      "representative_title": "AEHR vs. COHU: Which Semiconductor Equipment Stock Is The Better Buy?",
-      "latest_timestamp_utc": "2026-08-31T14:53:00+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "finance.yahoo.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "AEHR vs. COHU: Which Semiconductor Equipment Stock Is The Better Buy?",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTUs1eDBpTlZIbVZIRzdncUx6c1hBaGZnaDVaZUlNX0VTbkExZzBpenhIb0JaVnVIV3h5TEw3TzMtaG92TFE0UmRwLTVlSlN6UWgwUHp6bUlZLWZfdTNmbEt5ekVvMjEtdlEtOFQwRVpLaVRmQ0Q5aVRQODRXc1VmeDdjQmx4ODFkSm5kbFRIMHRGTGlmUGg4ZFZ2WWlLT2hZaWlJ?oc=5",
-          "domain": "finance.yahoo.com",
-          "source_name": "Yahoo Finance",
-          "timestamp_utc": "2026-08-31T14:53:00+00:00",
-          "entity": "AEHR TEST SYSTEMS",
-          "ticker": "AEHR",
-          "cik": "1040470",
-          "entity_type": "company"
         }
       ]
     },
@@ -8943,37 +6717,6 @@
       ]
     },
     {
-      "entity": "AI Infrastructure",
-      "ticker": null,
-      "cik": null,
-      "entity_type": "theme",
-      "representative_title": "Replicating success: The key to semiconductor reshoring at scale",
-      "latest_timestamp_utc": "2026-08-31T13:37:16+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "source_domains": [
-        "manufacturingdive.com"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "title": "Replicating success: The key to semiconductor reshoring at scale",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOeHNvWDZFeHhWU2xtc04xTVhWNWJTTXhiTXJIa1pDMzlRSUM4cXAtN0s2STgxd05CYXBkTmNjcjh4cW41STV2Q1Ewa1NsR1hWa1hLQm1CRkRXRUFyb18tRTZwWHg2c3NRMWM2ejZCcUtyX1gyeklfV2dBQm43di14STBPNkdBRXdaS1BOcmMwRE9ZRDJZS0M3QzJqRUVnVGdEUW9lNEFjeXFqb1pBRnVBUw?oc=5",
-          "domain": "manufacturingdive.com",
-          "source_name": "manufacturingdive.com",
-          "timestamp_utc": "2026-08-31T13:37:16+00:00",
-          "entity": "AI Infrastructure",
-          "ticker": null,
-          "cik": null,
-          "entity_type": "theme"
-        }
-      ]
-    },
-    {
       "entity": "ESSEX PROPERTY TRUST, INC.",
       "ticker": "ESS",
       "cik": "920522",
@@ -9036,11 +6779,9 @@
       ]
     }
   ],
-  "pre_clean_event_cluster_count": 270,
-  "cleaning_dropped_count": 19,
+  "pre_clean_event_cluster_count": 192,
+  "cleaning_dropped_count": 8,
   "cleaning_drop_reasons": {
-    "seo_or_metric_title": 2,
-    "blocked_low_value_source": 16,
-    "ambiguous_on_ticker": 1
+    "blocked_low_value_source": 8
   }
 }
