@@ -1,70 +1,81 @@
 {
   "scanner": "B",
   "judge_version": "B_V1",
-  "source_candidates_generated_at_utc": "2026-08-31T12:51:44.255780+00:00",
-  "generated_at_utc": "2026-08-31T13:12:21.545221+00:00",
+  "source_candidates_generated_at_utc": "2026-09-01T11:35:45.775750+00:00",
+  "generated_at_utc": "2026-09-01T11:44:41.023077+00:00",
   "youtube_search_budget_per_run": 20,
-  "youtube_search_calls_used": 17,
+  "youtube_search_calls_used": 20,
   "events": [
     {
-      "event_id": "3672f45c8ce0f348",
+      "event_id": "42ac0ec142b5c531",
       "scanner": "B",
-      "entity": "GameStop Corp.",
-      "ticker": "GME",
+      "entity": "Medtronic plc",
+      "ticker": "MDT",
       "entity_type": "company",
-      "event_title": "GameStop Sees Higher Profit as eBay Investment Offsets Lower Sales",
-      "event_timestamp_utc": "2026-08-31T12:17:00+00:00",
+      "event_title": "Medtronic Stock Rises on Better-Than-Expected Earnings and $700 Million Investment in a Robot Surgeon",
+      "event_timestamp_utc": "2026-09-01T11:08:00+00:00",
       "categories": [
         "earnings_guidance"
       ],
       "sec_forms": [],
-      "discovery_score": 73.6,
-      "news_burst_score": 77.1,
-      "source_diversity_score": 38.0,
-      "catalyst_quality_score": 90.0,
-      "freshness_score": 100.0,
-      "evidence_quality_score": 60,
+      "discovery_score": 69.5,
+      "news_burst_score": 68.8,
+      "source_diversity_score": 38,
+      "catalyst_quality_score": 90,
+      "freshness_score": 100,
+      "evidence_quality_score": 48,
+      "youtube_query": "MDT earnings robot surgeon investment",
+      "youtube_event_terms": [
+        "earnings",
+        "robot surgeon"
+      ],
       "baseline": {
         "source": "google_news_rss",
-        "current_3h": 10,
-        "baseline_3h_median": 0.0,
-        "short_ratio": 11.0,
+        "query": "\"medtronic\" OR \"MDT\"",
+        "article_count": 95,
+        "feed_capped": true,
+        "current_3h": 7,
+        "baseline_3h_median": 0,
+        "short_ratio": 8,
         "current_day": 12,
-        "baseline_day_median": 2.0,
+        "baseline_day_median": 2,
         "long_ratio": 4.333,
-        "news_burst_score": 77.1,
-        "feed_capped": true
+        "short_history_buckets": 23,
+        "daily_history_buckets": 27,
+        "news_burst_score": 68.8
       },
       "source_domains": [
-        "finance.yahoo.com",
-        "wsj.com"
+        "barrons.com",
+        "kare11.com"
       ],
       "recent_evidence_count": 2,
       "evidence": [
         {
-          "title": "GameStop Sees Higher Profit as eBay Investment Offsets Lower Sales",
-          "domain": "wsj.com",
-          "source_name": "WSJ",
-          "timestamp_utc": "2026-08-31T12:17:00+00:00",
           "source_type": "news_rss",
           "category": "earnings_guidance",
-          "sec_form": null
+          "title": "Medtronic Stock Rises on Better-Than-Expected Earnings and $700 Million Investment in a Robot Surgeon",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQaHlzMzV4dFo1a29EZElhOXlwNlBORTFOUmd6NHZIelNFc3RzdEloQmI3M0ZsZ0RRUFk5eGxoNC11dWxxMDlIUDd4cEZUQkRESUlYdU1tSmw2WF9PZXVqY1lnR19KNTg1UEhZMEZtaldHZkgzelVxYzA5LVhHMW83VFRTdVNIZnBKdEUwLVhTRQ?oc=5",
+          "domain": "barrons.com",
+          "source_name": "Barron's",
+          "timestamp_utc": "2026-09-01T11:08:00+00:00",
+          "entity": "Medtronic plc",
+          "ticker": "MDT",
+          "cik": "1613103",
+          "entity_type": "company"
         },
         {
-          "title": "GameStop Expects Higher Profit Despite Lower Sales",
-          "domain": "finance.yahoo.com",
-          "source_name": "Yahoo Finance",
-          "timestamp_utc": "2026-08-31T11:08:00+00:00",
           "source_type": "news_rss",
           "category": "earnings_guidance",
-          "sec_form": null
+          "title": "Medtronic: Fiscal Q1 Earnings Snapshot",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQTHE1QmZ3MU5yaVlDbWNsWWVuYjgtcTdnQV9Qamx4NzF2RXlxdnMzR1l4SjFOdjNsNjNfR0tfQU1UWkJ5NnE1UUNNQnhHUzdGUzVTOFVaYW5VNGUtQ0VqRi1ydk5zSG95X09mOXFwZWVmZE5MeEhVN05hcEFNNzhtdVlIbzZiaEdnRU9uOWdOdjV2eXlrOXFHckpCR0ZZZTdvTzJMOC1kdktkYUdqcFM5TVZlaXZTNzRrOEtVTUI3dnctNm5JbUdEWnFlVkVuak5lYk9n?oc=5",
+          "domain": "kare11.com",
+          "source_name": "kare11.com",
+          "timestamp_utc": "2026-09-01T10:53:00+00:00",
+          "entity": "Medtronic plc",
+          "ticker": "MDT",
+          "cik": "1613103",
+          "entity_type": "company"
         }
-      ],
-      "youtube_query": "GME earnings profit eBay",
-      "youtube_event_terms": [
-        "earnings",
-        "profit",
-        "eBay"
       ],
       "judge_version": "B_V1",
       "entity_accuracy": "pass",
@@ -72,1780 +83,2457 @@
       "investor_materiality_score": 23,
       "novelty_score": 15,
       "judge_evidence_quality_score": 13,
-      "content_potential_score": 20,
-      "judge_score": 95,
-      "judge_reason": "Fresh earnings/profit update with direct valuation relevance; confirmed by WSJ and Yahoo Finance.",
-      "verification_note": "Verify the exact reported period and whether the eBay investment effect is recurring or mark-to-market.",
+      "content_potential_score": 19,
+      "judge_score": 94,
+      "judge_reason": "Medtronic 新财报好于预期，同时出现约 $700M 机器人手术投资，兼具盈利与长期增长叙事。",
+      "verification_note": "核对 $700M 投资的时间表、资本化方式，以及本季指引是否已包含相关投入。",
       "youtube_metrics": {
-        "status": "ok",
-        "query": "GME earnings profit eBay",
-        "raw_sample_size": 1,
-        "relevant_sample_size": 1,
-        "estimated_total_results": 1,
+        "status": "ok_no_videos",
+        "query": "MDT earnings robot surgeon investment",
+        "raw_sample_size": 0,
+        "relevant_sample_size": 0,
+        "estimated_total_results": 2,
         "youtube_supply_gap_score": 100.0,
         "median_views_per_day": 0,
-        "small_channel_sample_size": 1,
         "small_channel_hit_rate": 0.0,
-        "sample_videos": [
-          {
-            "video_id": "8TlpHRlqESM",
-            "title": "GameStop Q2 2026 Earnings: Profit Doubles BUT Sales CRASH – What Investors Need to Know",
-            "channel_id": "UCgHlLE31bFoyTh_wNOQxEpw",
-            "published_at": "2026-08-31T12:56:17+00:00",
-            "views": 0,
-            "views_per_day": 0,
-            "channel_subscribers": 263
-          }
-        ]
+        "sample_videos": []
       },
-      "scanner_b_score": 89.6
+      "scanner_b_score": 87.8
     },
     {
-      "event_id": "4a55d8ad7c1c5d86",
+      "event_id": "aa3be9ae3ccf0500",
       "scanner": "B",
-      "entity": "Aon plc",
-      "ticker": "AON",
+      "entity": "TIDEWATER INC",
+      "ticker": "TDW",
       "entity_type": "company",
-      "event_title": "Aon tallies up estimated costs and synergies for $17B USI acquisition (AON:NYSE)",
-      "event_timestamp_utc": "2026-08-31T11:29:00+00:00",
+      "event_title": "News Content Hub - Tidewater completes acquisition of Brazil’s Wilson Sons",
+      "event_timestamp_utc": "2026-09-01T11:03:45+00:00",
       "categories": [
         "mna"
       ],
       "sec_forms": [],
-      "discovery_score": 71.5,
-      "news_burst_score": 79.2,
-      "source_diversity_score": 38.0,
-      "catalyst_quality_score": 94.0,
-      "freshness_score": 92.0,
-      "evidence_quality_score": 36,
+      "discovery_score": 70.9,
+      "news_burst_score": 63.4,
+      "source_diversity_score": 55,
+      "catalyst_quality_score": 94,
+      "freshness_score": 100,
+      "evidence_quality_score": 39,
+      "youtube_query": "TDW Wilson Sons acquisition",
+      "youtube_event_terms": [
+        "Wilson Sons",
+        "acquisition"
+      ],
       "baseline": {
         "source": "google_news_rss",
-        "current_3h": 16,
-        "baseline_3h_median": 1.0,
-        "short_ratio": 8.5,
-        "current_day": 30,
-        "baseline_day_median": 2.0,
-        "long_ratio": 10.333,
-        "news_burst_score": 79.2,
-        "feed_capped": true
+        "query": "\"tidewater\" OR \"TDW\"",
+        "article_count": 86,
+        "feed_capped": false,
+        "current_3h": 5,
+        "baseline_3h_median": 0,
+        "short_ratio": 6,
+        "current_day": 15,
+        "baseline_day_median": 2,
+        "long_ratio": 5.333,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 29,
+        "news_burst_score": 63.4
       },
       "source_domains": [
-        "seekingalpha.com",
-        "tradingview.com"
+        "marinelink.com",
+        "rivieramm.com",
+        "splash247.com"
       ],
       "recent_evidence_count": 3,
       "evidence": [
         {
-          "title": "Aon tallies up estimated costs and synergies for $17B USI acquisition (AON:NYSE)",
-          "domain": "seekingalpha.com",
-          "source_name": "Seeking Alpha",
-          "timestamp_utc": "2026-08-31T11:29:00+00:00",
           "source_type": "news_rss",
           "category": "mna",
-          "sec_form": null
+          "title": "News Content Hub - Tidewater completes acquisition of Brazil’s Wilson Sons",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORy1MeHBjXzNXQ1NKVHRmZEgzSzlrY0FGOC16MnoybXAxZDhobFhmdkF4c3ZTTGRPN3JtOUFNYWpMZW5Sb3VKYVduV0s2SVdCVWFmMjlCZFBMN0ZrUlBFTHRxT1QwSVk5Rkg1Wkh0VUpIVkVLOWo4M3Q3b0N5NVpZekdCVjh3R2x3dHdjUE9sNG5DQXM3ZUtmV0ZSZw?oc=5",
+          "domain": "rivieramm.com",
+          "source_name": "rivieramm.com",
+          "timestamp_utc": "2026-09-01T11:03:45+00:00",
+          "entity": "TIDEWATER INC",
+          "ticker": "TDW",
+          "cik": "98222",
+          "entity_type": "company"
         },
         {
-          "title": "AON: $17B USI acquisition forms a leading U.S. middle-market platform with $395MM in synergies",
-          "domain": "tradingview.com",
-          "source_name": "TradingView",
-          "timestamp_utc": "2026-08-31T10:36:19+00:00",
           "source_type": "news_rss",
           "category": "mna",
-          "sec_form": null
+          "title": "Tidewater completes $500m Brazil OSV takeover",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9feGJReXczR0ZzejlzRF83ZFlpSDk2ejBfUkh0eXF6SEdSd1ZmcEp6cVB6WWIxeWRtWVBRZ0pGaWllRjYxUVpLSlN6UHRCTXMxbzlkY1lXUnpYam56bFhZXzJieGdWYmdsemZqTzJMTS1vMFhmNXc?oc=5",
+          "domain": "splash247.com",
+          "source_name": "Splash247",
+          "timestamp_utc": "2026-09-01T10:52:30+00:00",
+          "entity": "TIDEWATER INC",
+          "ticker": "TDW",
+          "cik": "98222",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "mna",
+          "title": "Tidewater Completes WSUT Acquisition",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOMXlaY2hoY0lmMEtlX2NRV0tGZmJpb29nX21xUjdqbDdMRE5HRGxoeEM5Uk9vYVduazNjQkVMcXNXUUhmekp2RUVmd3d6M21HVWtiQjdseHVWcVg3QUtvS3huOEtTMzBEMEV2azFaMXVYY1FtNi01U21URGkwX1BqVg?oc=5",
+          "domain": "marinelink.com",
+          "source_name": "Marine Link",
+          "timestamp_utc": "2026-09-01T06:39:51+00:00",
+          "entity": "TIDEWATER INC",
+          "ticker": "TDW",
+          "cik": "98222",
+          "entity_type": "company"
         }
       ],
-      "youtube_query": "AON USI $17B acquisition synergies",
+      "judge_version": "B_V1",
+      "entity_accuracy": "pass",
+      "catalyst_reality_score": 25,
+      "investor_materiality_score": 22,
+      "novelty_score": 15,
+      "judge_evidence_quality_score": 13,
+      "content_potential_score": 18,
+      "judge_score": 93,
+      "judge_reason": "Tidewater 完成约 $500M Wilson Sons 收购，交易已经落地并有多个航运行业来源确认，对规模与盈利结构有直接影响。",
+      "verification_note": "核对最终购买价、融资方式和协同/整合指引。",
+      "youtube_metrics": {
+        "status": "ok_no_videos",
+        "query": "TDW Wilson Sons acquisition",
+        "raw_sample_size": 0,
+        "relevant_sample_size": 0,
+        "estimated_total_results": 0,
+        "youtube_supply_gap_score": 100.0,
+        "median_views_per_day": 0,
+        "small_channel_hit_rate": 0.0,
+        "sample_videos": []
+      },
+      "scanner_b_score": 87.8
+    },
+    {
+      "event_id": "7bda977732ba3330",
+      "scanner": "B",
+      "entity": "Federal Reserve / Rates",
+      "ticker": null,
+      "entity_type": "macro",
+      "event_title": "Euro zone inflation rises above 3%, cementing ECB rate hike bets",
+      "event_timestamp_utc": "2026-09-01T10:15:30+00:00",
+      "categories": [
+        "macro_rates"
+      ],
+      "sec_forms": [],
+      "discovery_score": 65,
+      "news_burst_score": 51.6,
+      "source_diversity_score": 55,
+      "catalyst_quality_score": 85,
+      "freshness_score": 92,
+      "evidence_quality_score": 51,
+      "youtube_query": "Eurozone inflation ECB rate hike",
       "youtube_event_terms": [
-        "USI",
-        "acquisition",
-        "synergies"
+        "Eurozone",
+        "inflation",
+        "ECB"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "\"Federal Reserve\" OR \"interest rates\" OR \"Treasury yields\"",
+        "article_count": 96,
+        "feed_capped": true,
+        "current_3h": 3,
+        "baseline_3h_median": 0,
+        "short_ratio": 4,
+        "current_day": 13,
+        "baseline_day_median": 2,
+        "long_ratio": 4.667,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 28,
+        "news_burst_score": 51.6
+      },
+      "source_domains": [
+        "global.morningstar.com",
+        "reuters.com",
+        "wsau.com"
+      ],
+      "recent_evidence_count": 3,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "Euro zone inflation rises above 3%, cementing ECB rate hike bets",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWlU0ZGJQMWt6NVhpVng4SW1jUk1SM3NXZWlRZzliNnV5emhYeDRaVF9FYnA1aWNDUVphdW1hQTcwRWVOVGR1YjBfdm9sOUlWcFpCSnFwOVNubkh6VnZrTjRyMERVTWRKaXYzZHNaVjBZZ2hYT015OHgzb2o5S25uaG1OaFNGVzRpZk1XSDZMMVhhUUM1V19VbWktVnRmXy1YbEFUS3JxeGEtY0E?oc=5",
+          "domain": "reuters.com",
+          "source_name": "Reuters",
+          "timestamp_utc": "2026-09-01T10:15:30+00:00",
+          "entity": "Federal Reserve / Rates",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "Eurozone Inflation Rises to 3.3%, Boosting Case for ECB Interest Rate Hike",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVEp1OEtSSzhoVmJ4LUtmUW5JNXJMeEczYkk2eW5XWkg0cXctN2lJS2VSbkRmbTE3TjdqVmxqLUQtOUhUMlh1OWIydGROSGRsVk1oUUl2TTdpTXhvOUFtODZMUGRtRXFpYmQzVkQ3QUc1dkt6WVdrUTN3V2xHNVpIeTdxRkFwMmg3b1lBeXhQTG5qdFczYUd6WFE3eXFUZWFGamtsZTMycW5BNkltRkE?oc=5",
+          "domain": "global.morningstar.com",
+          "source_name": "Morningstar",
+          "timestamp_utc": "2026-09-01T09:46:50+00:00",
+          "entity": "Federal Reserve / Rates",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "ECB says energy-led inflation spike justifies June rate hike",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOVEZNRDR6Ri1DX0RkQXVXZXcyVzJvTy02OVNSOGk3S2xfZXRkX2htSWt6ZUktNkNES2c3NFdieGJnSzNhdmc5MS1COEY4eGQ5U2hpVFktTHFnaVhJQWtqVVV4N2pKWjJaYmQ3djMxdjdOT3dDYXRud1BwMnJ6X01FSGJidUFqT2x3MU1LV2k5cFhKXzQ?oc=5",
+          "domain": "wsau.com",
+          "source_name": "WSAU",
+          "timestamp_utc": "2026-09-01T09:40:48+00:00",
+          "entity": "Federal Reserve / Rates",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        }
+      ],
+      "judge_version": "B_V1",
+      "entity_accuracy": "pass",
+      "catalyst_reality_score": 25,
+      "investor_materiality_score": 22,
+      "novelty_score": 15,
+      "judge_evidence_quality_score": 14,
+      "content_potential_score": 18,
+      "judge_score": 94,
+      "judge_reason": "欧元区 8 月通胀升至 3% 以上并强化 ECB 加息预期，Reuters 等多源确认，属于新鲜宏观催化。",
+      "verification_note": "核对 headline/HICP 与 core 指标，并避免把市场加息预期写成 ECB 已经决定。",
+      "youtube_metrics": {
+        "status": "ok",
+        "query": "Eurozone inflation ECB rate hike",
+        "raw_sample_size": 4,
+        "relevant_sample_size": 3,
+        "estimated_total_results": 45,
+        "youtube_supply_gap_score": 95.0,
+        "median_views_per_day": 0,
+        "small_channel_sample_size": 3,
+        "small_channel_hit_rate": 0.0,
+        "sample_videos": [
+          {
+            "video_id": "n-abbr6_CgU",
+            "title": "ECB Kocher: Growth Momentum vs 3.3% Inflation Threat",
+            "channel_id": "UCfkKGRMonUNxb0qZRqr03iA",
+            "published_at": "2026-08-29T15:04:41+00:00",
+            "views": 3,
+            "views_per_day": 1,
+            "channel_subscribers": 11
+          },
+          {
+            "video_id": "xFuCo2TBirw",
+            "title": "Supreme Court Ballroom Ruling, Euro Inflation, AI Heart Screening & Shein IPO | Sept 1, 2026",
+            "channel_id": "UCDqRU8alQ2p2fHn-ECdz-Bw",
+            "published_at": "2026-09-01T10:22:12+00:00",
+            "views": 0,
+            "views_per_day": 0,
+            "channel_subscribers": 1
+          },
+          {
+            "video_id": "AoFESOvyTB4",
+            "title": "ECB Kocher: Growth Momentum vs 3.3% Inflation Threat",
+            "channel_id": "UCfkKGRMonUNxb0qZRqr03iA",
+            "published_at": "2026-08-29T14:35:11+00:00",
+            "views": 0,
+            "views_per_day": 0,
+            "channel_subscribers": 11
+          }
+        ]
+      },
+      "scanner_b_score": 85.5
+    },
+    {
+      "event_id": "c998ddd4e331b32c",
+      "scanner": "B",
+      "entity": "Inflation",
+      "ticker": null,
+      "entity_type": "macro",
+      "event_title": "Global Bond Yields Surge as Oil Prices Fuel Inflation Worries",
+      "event_timestamp_utc": "2026-09-01T10:06:00+00:00",
+      "categories": [
+        "macro_rates"
+      ],
+      "sec_forms": [],
+      "discovery_score": 54.8,
+      "news_burst_score": 0,
+      "source_diversity_score": 72,
+      "catalyst_quality_score": 85,
+      "freshness_score": 92,
+      "evidence_quality_score": 96,
+      "youtube_query": "global bond yields oil inflation",
+      "youtube_event_terms": [
+        "bond yields",
+        "oil",
+        "inflation"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "inflation OR CPI OR PPI",
+        "article_count": 99,
+        "feed_capped": true,
+        "current_3h": 0,
+        "baseline_3h_median": 0,
+        "short_ratio": 1,
+        "current_day": 0,
+        "baseline_day_median": 1.5,
+        "long_ratio": 0.4,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 28,
+        "news_burst_score": 0
+      },
+      "source_domains": [
+        "bloomberg.com",
+        "cnbc.com",
+        "euronews.com",
+        "ft.com",
+        "reuters.com",
+        "wsj.com"
+      ],
+      "recent_evidence_count": 6,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "Global Bond Yields Surge as Oil Prices Fuel Inflation Worries",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVE1melJkWU5uSUtsb1U4aEo2Q0NIQmx5SVB2dGpOaHMzeFdJVm81TzRxYUkzYlFMMUxhdW44NktaMzFKQS1aU21aZ1JQd3N3UGFFSGtfMmo5R1lrTTNSQ1VUVmhSdWlxYkxRVmdvOXBaM0JqSEgtb0h2TUx6QURhUHg1YVJKY3dlZWtyanJJT0pTbFhveDN2YlZEdEZVdG8xUE02SmIwejY?oc=5",
+          "domain": "wsj.com",
+          "source_name": "WSJ",
+          "timestamp_utc": "2026-09-01T10:06:00+00:00",
+          "entity": "Inflation",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "Eurozone inflation jumps to 3.3% in August as energy prices surge",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONEN1aWRpVHNlV0FWVF9TTks3dFVIclY0Vkd4N0VacG1JS19OY25nckZBQXVnR2JtZUVyR3d6V3R5aVg5dnZrUUh6WFBxS1poT3A3VzA5VFNtWHB4dnRBZ2JibzI1ZG1uNEJQQnN1OWxteUwwOEZ1S2xsajZyQTFZak9tZTdrbVJmdkk4U0hKVmJ5QmwwMFNaWUdJb3lhaml3ZkR4NTB0TjBZRndK?oc=5",
+          "domain": "euronews.com",
+          "source_name": "euronews.com",
+          "timestamp_utc": "2026-09-01T09:43:15+00:00",
+          "entity": "Inflation",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "Global bond sell-off deepens amid inflation fears",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWi12RXhUckg1T1JDbE5MR085RC0tT1BhMlFMWlRkWlNMNV9EaWNVTHZfS2FSTEpGQXFOdVBRRTVqSy1qVlN4TkZtb3NISWhOYnBKS3BSVUY5b1RjODRJT0JNeGY3NnBBRzN3R2dKNThHZHpGRDdzVElJTnQzQTY1ZVZ6ZHc?oc=5",
+          "domain": "ft.com",
+          "source_name": "Financial Times",
+          "timestamp_utc": "2026-09-01T09:33:45+00:00",
+          "entity": "Inflation",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "Global bond yields soar to multi-decade highs as Middle East turmoil reignites inflation fears",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNSXE1amZIRWIwXzJ6NTVmZ1pLQVZIVThoQjI1QnRzUGtNX2UybVVGVFpDM01IenhCY1F0Z0lTNlphU1NNdF81RGk5XzFXWndRcVBRRkd6ZWJXeUM0RUpZc01yeTRCMXY0S25RblhDbXhNMHpVM0xmaVRsOHMxMGdkOVF0ckhBLU1SbkHSAY8BQVVfeXFMTlR1WGhmQWsyWlRVWGt1WkVxczJJdkpmSS1NOGUwUzFvY2xxaUdJOGpRbnMyYjV3YzIzR0MtMm9aMzFrOGJ5cGtYWnUzblotc2pfcE91Ym8zcF9PRGg5MDQwRWpfcDVocFotUlg1WWlCamE5TWlYS29Fd2hYNVNEYVBvVlA1QTJzVTVmVXZkZGc?oc=5",
+          "domain": "cnbc.com",
+          "source_name": "cnbc.com",
+          "timestamp_utc": "2026-09-01T09:31:59+00:00",
+          "entity": "Inflation",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "Global Bond Yields Surge as Inflation Fears Rise",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMXRsbzVpN09jS2VHaE5PSHJ1NjdVNFBSVF9naFY2M0VzWjU0akMzMjAyVmk5SExrUmt1TWVUQkNFTHBBVzJJY3EwX0Y3eG1RZm52TTlMVXVtMDdNOUs5QmNocGFYZVEwVTZtM09vMi1KdG9jT3Q3cC00aEZEQXF1YkNjbVlhckFoaFplZ0xFQ0R1WURxVTN4bm1tR191c2s0MzNUVQ?oc=5",
+          "domain": "bloomberg.com",
+          "source_name": "Bloomberg.com",
+          "timestamp_utc": "2026-09-01T06:38:00+00:00",
+          "entity": "Inflation",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "Bond selloff deepens and stocks drop as oil prices stoke inflation fears",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUzRjcDczTGxqaGRleWZNeUwtZnpOTjRjNWhmSEt2YkQtY1ZwaDdhZ2RxX0hCWEZZdXpPSmlWZW45ZVBHM2lsMU9XalYtNEl1cGxpWjVhVTR2cDU1ajlNMzRJb3FZaGZ4akprMWhPNmd4cmJFOFI1Q29iWlI0ZnFXNXljcw?oc=5",
+          "domain": "reuters.com",
+          "source_name": "Reuters",
+          "timestamp_utc": "2026-09-01T01:46:00+00:00",
+          "entity": "Inflation",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        }
+      ],
+      "judge_version": "B_V1",
+      "entity_accuracy": "pass",
+      "catalyst_reality_score": 25,
+      "investor_materiality_score": 25,
+      "novelty_score": 15,
+      "judge_evidence_quality_score": 15,
+      "content_potential_score": 18,
+      "judge_score": 98,
+      "judge_reason": "全球债券收益率因油价与通胀担忧上升，多家一线媒体确认，直接影响估值、利率和风险资产。",
+      "verification_note": "区分油价冲击、财政/供给因素与央行预期各自对收益率的贡献。",
+      "youtube_metrics": {
+        "status": "ok",
+        "query": "global bond yields oil inflation",
+        "raw_sample_size": 15,
+        "relevant_sample_size": 10,
+        "estimated_total_results": 643,
+        "youtube_supply_gap_score": 85.0,
+        "median_views_per_day": 64,
+        "small_channel_sample_size": 5,
+        "small_channel_hit_rate": 0.0,
+        "sample_videos": [
+          {
+            "video_id": "VG-tkQEfuog",
+            "title": "What’s Driving Global Bond Yields towards 20-Year Highs | Insight with Haslinda Amin 9/1/2026",
+            "channel_id": "UCIALMKvObZNtJ6AmdCLP7Lg",
+            "published_at": "2026-09-01T07:02:44+00:00",
+            "views": 2122,
+            "views_per_day": 10841,
+            "channel_subscribers": 3260000
+          },
+          {
+            "video_id": "hGeDQrRNIHg",
+            "title": "Oil Tankers Struck in Strait of Hormuz as Iran War Escalates | The Pulse 9/1/2026",
+            "channel_id": "UCIALMKvObZNtJ6AmdCLP7Lg",
+            "published_at": "2026-09-01T11:13:55+00:00",
+            "views": 147,
+            "views_per_day": 1176,
+            "channel_subscribers": 3260000
+          },
+          {
+            "video_id": "4JbwfuyoWso",
+            "title": "Global bond yields hit highest level since 2008",
+            "channel_id": "UCGYf0VFdlSTzcJghW9z1DAA",
+            "published_at": "2026-09-01T09:51:07+00:00",
+            "views": 32,
+            "views_per_day": 256,
+            "channel_subscribers": 735000
+          },
+          {
+            "video_id": "YNwzhjQ5hVk",
+            "title": "Bond Market Chaos Erupts - Sell Off Triggered as Oil Rallies on Renewed US-Iran War",
+            "channel_id": "UC6MESOUvPn6pqpMp1PeuPGQ",
+            "published_at": "2026-08-30T01:00:06+00:00",
+            "views": 210,
+            "views_per_day": 86,
+            "channel_subscribers": 20
+          },
+          {
+            "video_id": "DpaKfZqXG8o",
+            "title": "Why Are Government Bond Yields Exploding Around the World?",
+            "channel_id": "UCQFy8cyIoFW2L8a_r8145dQ",
+            "published_at": "2026-09-01T10:04:06+00:00",
+            "views": 8,
+            "views_per_day": 64,
+            "channel_subscribers": 297000
+          },
+          {
+            "video_id": "I3um7k2rYts",
+            "title": "Bond rout meets Middle East chaos: Oil tops $90 as global yields hit decade highs",
+            "channel_id": "UC0GP1HDhGZTLih7B89z_cTg",
+            "published_at": "2026-09-01T09:53:23+00:00",
+            "views": 8,
+            "views_per_day": 64,
+            "channel_subscribers": 63500
+          },
+          {
+            "video_id": "RJY3w7ObcII",
+            "title": "Global Bond Sell-off Amid Rising Oil Prices 🌍",
+            "channel_id": "UC5MFLDzs7w-KVMp-0RZYcRg",
+            "published_at": "2026-09-01T08:15:57+00:00",
+            "views": 8,
+            "views_per_day": 55,
+            "channel_subscribers": 2040
+          },
+          {
+            "video_id": "qGPSRsnxbsU",
+            "title": "🥉 Oil +U.S Dollar + Fed: The September 2026 Crisis Nobody Is Ready For",
+            "channel_id": "UCSCmiESTlLo3tJrErTOOkvQ",
+            "published_at": "2026-08-31T14:00:11+00:00",
+            "views": 10,
+            "views_per_day": 11,
+            "channel_subscribers": 6
+          },
+          {
+            "video_id": "cc0Hcr3VUkI",
+            "title": "Rising oil and bond yields challenge risk sentiment",
+            "channel_id": "UCwXemXAGlYEkLdtLxRI94iQ",
+            "published_at": "2026-09-01T06:06:43+00:00",
+            "views": 2,
+            "views_per_day": 9,
+            "channel_subscribers": 2080
+          },
+          {
+            "video_id": "6NeLXzkY40k",
+            "title": "Oil Prices Cross $91! Global Markets Under Pressure 📉🌍",
+            "channel_id": "UCh1TBcO5uhGm8cntXh2XO7Q",
+            "published_at": "2026-09-01T02:23:26+00:00",
+            "views": 1,
+            "views_per_day": 3,
+            "channel_subscribers": 55
+          }
+        ]
+      },
+      "scanner_b_score": 82.4
+    },
+    {
+      "event_id": "d9d9de39a6c836e9",
+      "scanner": "B",
+      "entity": "Inflation",
+      "ticker": null,
+      "entity_type": "macro",
+      "event_title": "Iran war could keep inflation high, ECB policymaker Rehn warns, FT reports",
+      "event_timestamp_utc": "2026-09-01T04:25:00+00:00",
+      "categories": [
+        "macro_rates"
+      ],
+      "sec_forms": [],
+      "discovery_score": 45.7,
+      "news_burst_score": 0,
+      "source_diversity_score": 55,
+      "catalyst_quality_score": 85,
+      "freshness_score": 68,
+      "evidence_quality_score": 75,
+      "youtube_query": "Iran war ECB inflation Rehn",
+      "youtube_event_terms": [
+        "Iran",
+        "inflation",
+        "Rehn"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "inflation OR CPI OR PPI",
+        "article_count": 99,
+        "feed_capped": true,
+        "current_3h": 0,
+        "baseline_3h_median": 0,
+        "short_ratio": 1,
+        "current_day": 0,
+        "baseline_day_median": 1.5,
+        "long_ratio": 0.4,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 28,
+        "news_burst_score": 0
+      },
+      "source_domains": [
+        "ft.com",
+        "reuters.com",
+        "wsj.com"
+      ],
+      "recent_evidence_count": 3,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "Iran war could keep inflation high, ECB policymaker Rehn warns, FT reports",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNczVob1gxUHFoRy1KdW9KWVliajZETzhoSDdQeGlDQ3pkYlRJZ1RyVjFMYlJ6LXpVQ1EwemZiYXZXblVqRW1SS2VOVWZsWmJXVTU1dFN6SDczZ2pNNjAtMmhJYVZZaUp2QmR6cm5wU0pDZloxbWY0R1hCakZlV2ZORHB4Ym1TZ2p1WVpLOTJjbTFsN3YwTVMwMDhWMFNsUXRNSjZVOGZTb29BcjhrUnBkYnNlU1pzVjVhNnJxdkNNZzlpV3hN?oc=5",
+          "domain": "reuters.com",
+          "source_name": "Reuters",
+          "timestamp_utc": "2026-09-01T04:25:00+00:00",
+          "entity": "Inflation",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "‘Conflict of attrition’ in Iran could keep inflation high, ECB policymaker warns",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTmJOb19mc01kRTRlbi1Hd2VNR1RUUGtrVHZHeUNQT2F2aDJjajlqNU5LeEVweVA4cko3QmNPcFJyN0d4dE92ZWNWYzlQUkNKTW1KbF9FeW9ZVzZIaGNqSWVOU1lJMHl4V0ZlV0FOS0tXaGpXVkhPOXdoU3I0NzhsaGZzc2o?oc=5",
+          "domain": "ft.com",
+          "source_name": "Financial Times",
+          "timestamp_utc": "2026-09-01T04:07:48+00:00",
+          "entity": "Inflation",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "U.S. Stocks Fall as Iran War Inflation Heats Up",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRUVYWG9PbUEwbUxITHE3TFdtaGg3Q3lkaEl0U05DcEJENnEtOUo1SThLa200ZWRXSHJabTRiSElaTEdwcWtvbS04alVuTjRzRHR3M0htU09HUzJJQzZiTDJiTEVxTG5WTmNOQzE3WWs3dGx0N1ltdWJrUUZWb19ZUEZKaEItS1prMWF3Rk1xdGJKUWFf?oc=5",
+          "domain": "wsj.com",
+          "source_name": "WSJ",
+          "timestamp_utc": "2026-08-31T21:16:00+00:00",
+          "entity": "Inflation",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        }
+      ],
+      "judge_version": "B_V1",
+      "entity_accuracy": "pass",
+      "catalyst_reality_score": 24,
+      "investor_materiality_score": 24,
+      "novelty_score": 14,
+      "judge_evidence_quality_score": 15,
+      "content_potential_score": 19,
+      "judge_score": 96,
+      "judge_reason": "伊朗冲突被 ECB 官员明确连接到持续通胀风险，并由 Reuters/FT/WSJ 交叉支持，对全球利率与风险资产高度相关。",
+      "verification_note": "区分 Rehn 的原话与媒体推演，并核对冲突对能源价格的最新传导。",
+      "youtube_metrics": {
+        "status": "ok_no_videos",
+        "query": "Iran war ECB inflation Rehn",
+        "raw_sample_size": 0,
+        "relevant_sample_size": 0,
+        "estimated_total_results": 2,
+        "youtube_supply_gap_score": 100.0,
+        "median_views_per_day": 0,
+        "small_channel_hit_rate": 0.0,
+        "sample_videos": []
+      },
+      "scanner_b_score": 81.7
+    },
+    {
+      "event_id": "fcce87ef17d20677",
+      "scanner": "B",
+      "entity": "AMGEN INC",
+      "ticker": "AMGN",
+      "entity_type": "company",
+      "event_title": "UK regulator suspends Amgen's Tavneos for new patients over unreliable data",
+      "event_timestamp_utc": "2026-09-01T11:17:44+00:00",
+      "categories": [
+        "regulatory_legal"
+      ],
+      "sec_forms": [],
+      "discovery_score": 48.8,
+      "news_burst_score": 26.6,
+      "source_diversity_score": 20,
+      "catalyst_quality_score": 80,
+      "freshness_score": 100,
+      "evidence_quality_score": 45,
+      "youtube_query": "AMGN Tavneos UK suspension",
+      "youtube_event_terms": [
+        "Tavneos",
+        "suspension"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "\"amgen\" OR \"AMGN\"",
+        "article_count": 98,
+        "feed_capped": true,
+        "current_3h": 1,
+        "baseline_3h_median": 0,
+        "short_ratio": 2,
+        "current_day": 6,
+        "baseline_day_median": 2,
+        "long_ratio": 2.333,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 28,
+        "news_burst_score": 26.6
+      },
+      "source_domains": [
+        "reuters.com"
+      ],
+      "recent_evidence_count": 1,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "regulatory_legal",
+          "title": "UK regulator suspends Amgen's Tavneos for new patients over unreliable data",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSE83aGF2NWZ4Q29neUZhSVEzTHBhN3Jpd0VvLVRGSkZQdERiSGxkbFpMQmxISEthVTY0T1BFeDNrTWs1aExrQ2pEeWNFLTJySWVRd19QYkVCMjlWRHdMTEZsRHlwZFU1UWxLcTVaLUJsZTFtbWMwTzZJRFRwX3dWM2xvdGc2czdBTVVhQXRnSng5SUV3YXJlcmJkOTF0bG5TLXlSeGhpQWFhTzNUWC1kNEdSX1l1cDQ5bmlfQTU1dVI?oc=5",
+          "domain": "reuters.com",
+          "source_name": "Reuters",
+          "timestamp_utc": "2026-09-01T11:17:44+00:00",
+          "entity": "AMGEN INC",
+          "ticker": "AMGN",
+          "cik": "318154",
+          "entity_type": "company"
+        }
+      ],
+      "judge_version": "B_V1",
+      "entity_accuracy": "pass",
+      "catalyst_reality_score": 25,
+      "investor_materiality_score": 22,
+      "novelty_score": 15,
+      "judge_evidence_quality_score": 12,
+      "content_potential_score": 18,
+      "judge_score": 92,
+      "judge_reason": "英国监管机构因数据可靠性问题暂停 Amgen Tavneos 新患者使用，Reuters 确认，属于明确监管与产品风险。",
+      "verification_note": "核对暂停范围、现有患者处理方式以及 Tavneos 对 Amgen 收入的财务重要性。",
+      "youtube_metrics": {
+        "status": "ok_no_videos",
+        "query": "AMGN Tavneos UK suspension",
+        "raw_sample_size": 0,
+        "relevant_sample_size": 0,
+        "estimated_total_results": 0,
+        "youtube_supply_gap_score": 100.0,
+        "median_views_per_day": 0,
+        "small_channel_hit_rate": 0.0,
+        "sample_videos": []
+      },
+      "scanner_b_score": 80.6
+    },
+    {
+      "event_id": "60bf83d780e2e81e",
+      "scanner": "B",
+      "entity": "Anthropic",
+      "ticker": null,
+      "entity_type": "private_company",
+      "event_title": "Exclusive | Anthropic Signs $35 Billion Cloud Deal Backed by Nvidia",
+      "event_timestamp_utc": "2026-08-31T23:26:22+00:00",
+      "categories": [
+        "contract_order"
+      ],
+      "sec_forms": [],
+      "discovery_score": 36.6,
+      "news_burst_score": 11.1,
+      "source_diversity_score": 20,
+      "catalyst_quality_score": 82,
+      "freshness_score": 52,
+      "evidence_quality_score": 45,
+      "youtube_query": "Anthropic Nvidia $35B cloud deal",
+      "youtube_event_terms": [
+        "Nvidia",
+        "cloud deal"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "\"anthropic\"",
+        "article_count": 98,
+        "feed_capped": true,
+        "current_3h": 0,
+        "baseline_3h_median": 0,
+        "short_ratio": 1,
+        "current_day": 8,
+        "baseline_day_median": 2,
+        "long_ratio": 3,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 28,
+        "news_burst_score": 11.1
+      },
+      "source_domains": [
+        "wsj.com"
+      ],
+      "recent_evidence_count": 1,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "contract_order",
+          "title": "Exclusive | Anthropic Signs $35 Billion Cloud Deal Backed by Nvidia",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVXJtVnpBU3B5TnhYUHdrUVc4QnlaeXBTemhxZ21ETG43empKbHZwTV9mN3huN1JNWjViOWYwMGhvVlNiX1VwU1VaVmE4RGRkV29SMFE1WWtNTVZiNXFKSUZlelFxdDAxbm9uUHNmQnhsbWlxMkdZaFRLMVNhUURYVGV0SGtBY2xlMVlid1dXcFJPaVV6NEE?oc=5",
+          "domain": "wsj.com",
+          "source_name": "WSJ",
+          "timestamp_utc": "2026-08-31T23:26:22+00:00",
+          "entity": "Anthropic",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "private_company"
+        }
+      ],
+      "judge_version": "B_V1",
+      "entity_accuracy": "pass",
+      "catalyst_reality_score": 25,
+      "investor_materiality_score": 25,
+      "novelty_score": 15,
+      "judge_evidence_quality_score": 12,
+      "content_potential_score": 20,
+      "judge_score": 97,
+      "judge_reason": "WSJ 报道 Anthropic 签署约 $35B、Nvidia 支持的云协议，规模巨大并直接关联 AI 算力、云资本开支与 Nvidia 生态。",
+      "verification_note": "确认交易对手、合同期限、承诺采购结构，以及 Nvidia 的具体支持方式。",
+      "youtube_metrics": {
+        "status": "ok",
+        "query": "Anthropic Nvidia $35B cloud deal",
+        "raw_sample_size": 5,
+        "relevant_sample_size": 4,
+        "estimated_total_results": 7,
+        "youtube_supply_gap_score": 95.0,
+        "median_views_per_day": 58,
+        "small_channel_sample_size": 4,
+        "small_channel_hit_rate": 25.0,
+        "sample_videos": [
+          {
+            "video_id": "n_unWKbRFHw",
+            "title": "Did Nvidia Just Pay For The Building That Buys Nvidia Chips?",
+            "channel_id": "UCGhN792TjC3la1iocMf18rw",
+            "published_at": "2026-09-01T01:24:31+00:00",
+            "views": 977,
+            "views_per_day": 2269,
+            "channel_subscribers": 3
+          },
+          {
+            "video_id": "dIODNnJPzgE",
+            "title": "Anthropic x Nvidia x Lambda : $35B for insatiable compute demand.",
+            "channel_id": "UCpvfhx-7Ckvm4FSou2LW6Lw",
+            "published_at": "2026-09-01T03:51:03+00:00",
+            "views": 35,
+            "views_per_day": 106,
+            "channel_subscribers": 7
+          },
+          {
+            "video_id": "vydD1f39hGY",
+            "title": "Nvidia, $35B Anthropic Deal, China HBM — Daily Fintech Recap | Aug 31",
+            "channel_id": "UClasU50m_th6q1gvdRqC_WQ",
+            "published_at": "2026-09-01T00:52:29+00:00",
+            "views": 5,
+            "views_per_day": 11,
+            "channel_subscribers": 1
+          },
+          {
+            "video_id": "M2gQXN9224w",
+            "title": "Anthropic signs $35B cloud deal backed by Nvidia",
+            "channel_id": "UCXTm5Cg50dZniPZQJG8KH2w",
+            "published_at": "2026-09-01T11:24:42+00:00",
+            "views": 0,
+            "views_per_day": 0,
+            "channel_subscribers": 479
+          }
+        ]
+      },
+      "scanner_b_score": 78.5
+    },
+    {
+      "event_id": "376e6e963c9c9d07",
+      "scanner": "B",
+      "entity": "NEXTERA ENERGY INC",
+      "ticker": "NEE",
+      "entity_type": "company",
+      "event_title": "NextEra Energy (NEE) Pushes Back On 60 Day Merger Review Delay",
+      "event_timestamp_utc": "2026-09-01T09:08:15+00:00",
+      "categories": [
+        "mna"
+      ],
+      "sec_forms": [],
+      "discovery_score": 55,
+      "news_burst_score": 39.6,
+      "source_diversity_score": 20,
+      "catalyst_quality_score": 94,
+      "freshness_score": 92,
+      "evidence_quality_score": 45,
+      "youtube_query": "NEE merger review delay",
+      "youtube_event_terms": [
+        "merger",
+        "review",
+        "delay"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "\"nextera energy\" OR \"NEE\"",
+        "article_count": 96,
+        "feed_capped": true,
+        "current_3h": 2,
+        "baseline_3h_median": 0,
+        "short_ratio": 3,
+        "current_day": 8,
+        "baseline_day_median": 2,
+        "long_ratio": 3,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 25,
+        "news_burst_score": 39.6
+      },
+      "source_domains": [
+        "finance.yahoo.com"
+      ],
+      "recent_evidence_count": 1,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "mna",
+          "title": "NextEra Energy (NEE) Pushes Back On 60 Day Merger Review Delay",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZTc4TG9UN0E1M3pONnpSVHVqRlBwZFM0YUs0c3B2YnJyWVd3MENvZFJhVFd2YVZBOUJWRnVmWS00dlRjS1YtcEVTcFIxRTkxM0ZFZ3ZzV0ZNUVBmNUhkaEJXQXV3NDhhWWRWc1RlOTRsNXBaMG14WWxxcjY1dzFmUEg2NjBfYlhsTzJFX2Ffclc?oc=5",
+          "domain": "finance.yahoo.com",
+          "source_name": "Yahoo Finance",
+          "timestamp_utc": "2026-09-01T09:08:15+00:00",
+          "entity": "NEXTERA ENERGY INC",
+          "ticker": "NEE",
+          "cik": "753308",
+          "entity_type": "company"
+        }
+      ],
+      "judge_version": "B_V1",
+      "entity_accuracy": "pass",
+      "catalyst_reality_score": 23,
+      "investor_materiality_score": 22,
+      "novelty_score": 13,
+      "judge_evidence_quality_score": 8,
+      "content_potential_score": 17,
+      "judge_score": 83,
+      "judge_reason": "NextEra 针对 60 天并购审查延迟作出回应，真实监管进程可能改变交易时间与估值预期。",
+      "verification_note": "确认具体交易对象、监管机构、延迟原因及原计划时间表。",
+      "youtube_metrics": {
+        "status": "ok_no_videos",
+        "query": "NEE merger review delay",
+        "raw_sample_size": 0,
+        "relevant_sample_size": 0,
+        "estimated_total_results": 4341,
+        "youtube_supply_gap_score": 100.0,
+        "median_views_per_day": 0,
+        "small_channel_hit_rate": 0.0,
+        "sample_videos": []
+      },
+      "scanner_b_score": 78.0
+    },
+    {
+      "event_id": "41953df20fa4759c",
+      "scanner": "B",
+      "entity": "GENERAL DYNAMICS CORP",
+      "ticker": "GD",
+      "entity_type": "company",
+      "event_title": "Lockheed Martin, General Dynamics get framework deals to surge Patriot, THAAD production",
+      "event_timestamp_utc": "2026-08-31T21:08:08+00:00",
+      "categories": [
+        "pricing_capacity"
+      ],
+      "sec_forms": [],
+      "discovery_score": 43.6,
+      "news_burst_score": 37.4,
+      "source_diversity_score": 20,
+      "catalyst_quality_score": 77,
+      "freshness_score": 52,
+      "evidence_quality_score": 33,
+      "youtube_query": "GD LMT Patriot THAAD production",
+      "youtube_event_terms": [
+        "Patriot",
+        "THAAD",
+        "production"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "\"general dynamics\" OR \"GD\"",
+        "article_count": 98,
+        "feed_capped": true,
+        "current_3h": 2,
+        "baseline_3h_median": 0,
+        "short_ratio": 3,
+        "current_day": 11,
+        "baseline_day_median": 4,
+        "long_ratio": 2.4,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 22,
+        "news_burst_score": 37.4
+      },
+      "source_domains": [
+        "defensenews.com"
+      ],
+      "recent_evidence_count": 1,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "pricing_capacity",
+          "title": "Lockheed Martin, General Dynamics get framework deals to surge Patriot, THAAD production",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQWWZnMlNXZTZ1RExpNzRJaEE4akFhT2NiTTRsTTJVdk9kZEtNNHNMTW5iRHVvdnBGVnRXb3VWYlVyUEN0RnJ5ZDBla1pqWW1KRWZfNlRUWmpXSFdlcGl3M3AyR0oxeWJCSGNvLVFVdEdfZVYtcE90SzZGc0ZSemZjRDkxRlFUbjJPNkN2c1JaZ09yZC1ZdUsxcmdPNnJ6eHBsaEIyaHNLM1gtVFNwekNOczM5WmNpbUNwYnppZ05SQW1aaWJpd1lLSDNfUmlCUkpGSFY3QXVISXRhY1ctSXc?oc=5",
+          "domain": "defensenews.com",
+          "source_name": "Defense News",
+          "timestamp_utc": "2026-08-31T21:08:08+00:00",
+          "entity": "GENERAL DYNAMICS CORP",
+          "ticker": "GD",
+          "cik": "40533",
+          "entity_type": "company"
+        }
       ],
       "judge_version": "B_V1",
       "entity_accuracy": "pass",
       "catalyst_reality_score": 24,
       "investor_materiality_score": 23,
       "novelty_score": 14,
-      "judge_evidence_quality_score": 8,
+      "judge_evidence_quality_score": 10,
       "content_potential_score": 18,
-      "judge_score": 87,
-      "judge_reason": "Large M&A transaction with quantified synergy angle and clear earnings/valuation implications.",
-      "verification_note": "Verify transaction status, financing terms and whether $395M is company-stated synergy guidance.",
+      "judge_score": 89,
+      "judge_reason": "General Dynamics 与 Lockheed 相关框架协议推动 Patriot/THAAD 产能扩张，国防需求与产能资本开支逻辑清晰。",
+      "verification_note": "核对具体合同方、产能目标、金额与交付周期，避免把框架协议写成已确认全部订单。",
+      "youtube_metrics": {
+        "status": "ok_no_videos",
+        "query": "GD LMT Patriot THAAD production",
+        "raw_sample_size": 0,
+        "relevant_sample_size": 0,
+        "estimated_total_results": 0,
+        "youtube_supply_gap_score": 100.0,
+        "median_views_per_day": 0,
+        "small_channel_hit_rate": 0.0,
+        "sample_videos": []
+      },
+      "scanner_b_score": 77.6
+    },
+    {
+      "event_id": "531f4da0507f0be2",
+      "scanner": "B",
+      "entity": "Tariffs / Trade",
+      "ticker": null,
+      "entity_type": "macro",
+      "event_title": "Trump's 50% tariffs hit $20B in Canadian exports as Harvard's Ken Rogoff warns trade war is a 'bar fight'",
+      "event_timestamp_utc": "2026-09-01T11:00:00+00:00",
+      "categories": [
+        "macro_rates"
+      ],
+      "sec_forms": [],
+      "discovery_score": 44.8,
+      "news_burst_score": 4.7,
+      "source_diversity_score": 38,
+      "catalyst_quality_score": 85,
+      "freshness_score": 100,
+      "evidence_quality_score": 36,
+      "youtube_query": "Trump Canada tariffs $20B exports",
+      "youtube_event_terms": [
+        "Canada",
+        "tariffs",
+        "exports"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "tariffs OR \"trade war\" OR \"export controls\"",
+        "article_count": 100,
+        "feed_capped": true,
+        "current_3h": 0,
+        "baseline_3h_median": 0,
+        "short_ratio": 1,
+        "current_day": 3,
+        "baseline_day_median": 1.5,
+        "long_ratio": 1.6,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 24,
+        "news_burst_score": 4.7
+      },
+      "source_domains": [
+        "axios.com",
+        "ca.finance.yahoo.com"
+      ],
+      "recent_evidence_count": 3,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "Trump's 50% tariffs hit $20B in Canadian exports as Harvard's Ken Rogoff warns trade war is a 'bar fight'",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9KeEplRDI3VjhHei1od0pyUmpGb2EyZXlGb2RrR19LODV4Z2c2VkN4VDZqc2xyVTJrSHgyUk50aDEtWkp6bU95ZV9xNk5JVFlGOHZMSkJDMVZZdEp5NEZKcVNrV2VtNXZWb3RNeDFYWXFqbExlQWN3YWdHellwbE0?oc=5",
+          "domain": "ca.finance.yahoo.com",
+          "source_name": "Yahoo! Finance Canada",
+          "timestamp_utc": "2026-09-01T11:00:00+00:00",
+          "entity": "Tariffs / Trade",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "Where Trump's tariffs hit Massachusetts the hardest",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE84NWx6M1YxUWk1ZlQ1UnlUMGNuS2xtUzRqTHB5UG1uODdjUjR5SjQwaTViZGhNcnBxRjRRUjE2N1hfV0FCZHZZTV9HdDRCZUlyZXhuNU80VGRtOWFiLVQtMzFReHlQbnQ3ZXRDaEVaQVhUYXlqLXp1U0R6S2Z5QQ?oc=5",
+          "domain": "axios.com",
+          "source_name": "Axios",
+          "timestamp_utc": "2026-09-01T10:49:30+00:00",
+          "entity": "Tariffs / Trade",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "macro_rates",
+          "title": "Where Trump tariffs hit Florida hardest",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOTUxQanZPcGxBSTI5TlpSMFUtLU5ja2Nmd0EzX2tTSXYxOVk0dlNZVzAzM0Y4MnJDMk0zSHowZFdxVUhrc3VkZk4yMkJveHhGTjk4T3kyYWlNSEd1anllNXRodXBydkdCR3NhcHkyOGhfSi1kbWQ2c3lWQ094RDVnRVlDOS1jbUg1bUF0UHdmdEREQQ?oc=5",
+          "domain": "axios.com",
+          "source_name": "Axios",
+          "timestamp_utc": "2026-09-01T10:35:45+00:00",
+          "entity": "Tariffs / Trade",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "macro"
+        }
+      ],
+      "judge_version": "B_V1",
+      "entity_accuracy": "pass",
+      "catalyst_reality_score": 23,
+      "investor_materiality_score": 23,
+      "novelty_score": 13,
+      "judge_evidence_quality_score": 10,
+      "content_potential_score": 19,
+      "judge_score": 88,
+      "judge_reason": "美加高关税已覆盖约 $20B 加拿大出口并引发经济学家警告，政策冲击可直接影响北美企业成本和通胀。",
+      "verification_note": "核对 $20B 的统计口径、适用税率和当前豁免范围。",
       "youtube_metrics": {
         "status": "ok",
-        "query": "AON USI $17B acquisition synergies",
+        "query": "Trump Canada tariffs $20B exports",
         "raw_sample_size": 2,
         "relevant_sample_size": 2,
         "estimated_total_results": 2,
         "youtube_supply_gap_score": 100.0,
-        "median_views_per_day": 16,
+        "median_views_per_day": 1151,
         "small_channel_sample_size": 2,
-        "small_channel_hit_rate": 0.0,
+        "small_channel_hit_rate": 50.0,
         "sample_videos": [
           {
-            "video_id": "Y9LQa9TcEDs",
-            "title": "Will Aon's $17B USI deal fail?",
-            "channel_id": "UCcVIR-r8swWK0gG6awoG5uA",
-            "published_at": "2026-08-31T04:30:06+00:00",
-            "views": 12,
-            "views_per_day": 33,
-            "channel_subscribers": 540
+            "video_id": "sLDtvydcbqQ",
+            "title": "⚡️ EU CORRIDOR SIGNED: Canada BYPASSES America — Trump's $900B Trade War BACKFIRES",
+            "channel_id": "UCj8vn_mOV_sspTBRM9nwWoQ",
+            "published_at": "2026-08-30T13:21:26+00:00",
+            "views": 4450,
+            "views_per_day": 2302,
+            "channel_subscribers": 1240
           },
           {
-            "video_id": "ICy45TQaz1M",
-            "title": "$17B Aon USI Deal: What Investors Must Know Now",
-            "channel_id": "UCgHlLE31bFoyTh_wNOQxEpw",
-            "published_at": "2026-08-31T12:59:25+00:00",
+            "video_id": "yA7w-sCHzms",
+            "title": "Trump Slapped Canada With $20B Tariffs — Doug Ford's Reply Just Cut America's Power",
+            "channel_id": "UC6JHt7LwpSnpCkX_nYAzy-Q",
+            "published_at": "2026-08-31T23:15:36+00:00",
             "views": 0,
             "views_per_day": 0,
-            "channel_subscribers": 263
+            "channel_subscribers": 0
           }
         ]
       },
-      "scanner_b_score": 85.0
+      "scanner_b_score": 77.4
     },
     {
-      "event_id": "7afccb753a68944d",
+      "event_id": "c0fa08da627e918c",
       "scanner": "B",
-      "entity": "Science Applications International Corp",
-      "ticker": "SAIC",
+      "entity": "ROYAL BANK OF CANADA",
+      "ticker": "RY",
       "entity_type": "company",
-      "event_title": "SAIC (SAIC) Tops Q2 Earnings and Revenue Estimates",
-      "event_timestamp_utc": "2026-08-31T12:05:02+00:00",
+      "event_title": "Royal Bank of Canada (RY) Posts Record Profit as Tariffs Loom",
+      "event_timestamp_utc": "2026-09-01T09:19:59+00:00",
       "categories": [
         "earnings_guidance"
       ],
       "sec_forms": [],
-      "discovery_score": 74.6,
-      "news_burst_score": 83.5,
-      "source_diversity_score": 38.0,
-      "catalyst_quality_score": 90.0,
-      "freshness_score": 100.0,
-      "evidence_quality_score": 48,
-      "baseline": {
-        "source": "google_news_rss",
-        "current_3h": 12,
-        "baseline_3h_median": 0.0,
-        "short_ratio": 13.0,
-        "current_day": 15,
-        "baseline_day_median": 2.0,
-        "long_ratio": 5.333,
-        "news_burst_score": 83.5,
-        "feed_capped": false
-      },
-      "source_domains": [
-        "finance.yahoo.com",
-        "kare11.com"
-      ],
-      "recent_evidence_count": 2,
-      "evidence": [
-        {
-          "title": "SAIC (SAIC) Tops Q2 Earnings and Revenue Estimates",
-          "domain": "finance.yahoo.com",
-          "source_name": "Yahoo Finance",
-          "timestamp_utc": "2026-08-31T12:05:02+00:00",
-          "source_type": "news_rss",
-          "category": "earnings_guidance",
-          "sec_form": null
-        },
-        {
-          "title": "SAIC: Fiscal Q2 Earnings Snapshot",
-          "domain": "kare11.com",
-          "source_name": "kare11.com",
-          "timestamp_utc": "2026-08-31T11:04:00+00:00",
-          "source_type": "news_rss",
-          "category": "earnings_guidance",
-          "sec_form": null
-        }
-      ],
-      "youtube_query": "SAIC earnings revenue",
-      "youtube_event_terms": [
-        "SAIC",
-        "earnings",
-        "revenue"
-      ],
-      "judge_version": "B_V1",
-      "entity_accuracy": "pass",
-      "catalyst_reality_score": 24,
-      "investor_materiality_score": 20,
-      "novelty_score": 15,
-      "judge_evidence_quality_score": 10,
-      "content_potential_score": 16,
-      "judge_score": 85,
-      "judge_reason": "Clear new earnings catalyst with strong burst and direct U.S.-equity relevance.",
-      "verification_note": "Verify guidance and backlog details before framing the investment consequence.",
-      "youtube_metrics": {
-        "status": "ok",
-        "query": "SAIC earnings revenue",
-        "raw_sample_size": 2,
-        "relevant_sample_size": 2,
-        "estimated_total_results": 6,
-        "youtube_supply_gap_score": 100.0,
-        "median_views_per_day": 31,
-        "small_channel_sample_size": 2,
-        "small_channel_hit_rate": 0.0,
-        "sample_videos": [
-          {
-            "video_id": "06jV2WUlCA0",
-            "title": "31 Ogos: SAIC Akan Reveal Earnings 🔥",
-            "channel_id": "UC4UqN-AsB7hCQjC5ZTaniUg",
-            "published_at": "2026-08-31T06:18:20+00:00",
-            "views": 18,
-            "views_per_day": 63,
-            "channel_subscribers": 2
-          },
-          {
-            "video_id": "ylCUNw9sGfA",
-            "title": "SAIC (SAIC|$5.5B) - 2027 Q2 Earnings Analysis",
-            "channel_id": "UCgSJ8USttBHsqpkkqxPHvrA",
-            "published_at": "2026-08-31T12:10:20+00:00",
-            "views": 0,
-            "views_per_day": 0,
-            "channel_subscribers": 2630
-          }
-        ]
-      },
-      "scanner_b_score": 84.9
-    },
-    {
-      "event_id": "c818eafde4d6a60f",
-      "scanner": "B",
-      "entity": "NeoVolta Inc.",
-      "ticker": "NEOV",
-      "entity_type": "company",
-      "event_title": "South Korea's SK On signs energy storage battery deal with US firm NeoVolta Power",
-      "event_timestamp_utc": "2026-08-30T23:05:00+00:00",
-      "categories": [
-        "contract_order"
-      ],
-      "sec_forms": [],
-      "discovery_score": 57.1,
-      "news_burst_score": 69.8,
-      "source_diversity_score": 20.0,
-      "catalyst_quality_score": 82.0,
-      "freshness_score": 52.0,
+      "discovery_score": 59.7,
+      "news_burst_score": 55.3,
+      "source_diversity_score": 20,
+      "catalyst_quality_score": 90,
+      "freshness_score": 92,
       "evidence_quality_score": 45,
+      "youtube_query": "RY earnings record profit tariffs",
+      "youtube_event_terms": [
+        "earnings",
+        "record profit"
+      ],
       "baseline": {
         "source": "google_news_rss",
-        "current_3h": 4,
-        "baseline_3h_median": 0.0,
-        "short_ratio": 5.0,
-        "current_day": 21,
-        "baseline_day_median": 0.0,
-        "long_ratio": 22.0,
-        "news_burst_score": 69.8,
-        "feed_capped": false
+        "query": "\"royal bank of canada\" OR \"RY\"",
+        "article_count": 99,
+        "feed_capped": true,
+        "current_3h": 6,
+        "baseline_3h_median": 0,
+        "short_ratio": 7,
+        "current_day": 7,
+        "baseline_day_median": 4,
+        "long_ratio": 1.6,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 17,
+        "news_burst_score": 55.3
       },
       "source_domains": [
-        "reuters.com"
+        "finance.yahoo.com"
       ],
       "recent_evidence_count": 1,
       "evidence": [
         {
-          "title": "South Korea's SK On signs energy storage battery deal with US firm NeoVolta Power",
-          "domain": "reuters.com",
-          "source_name": "Reuters",
-          "timestamp_utc": "2026-08-30T23:05:00+00:00",
           "source_type": "news_rss",
-          "category": "contract_order",
-          "sec_form": null
+          "category": "earnings_guidance",
+          "title": "Royal Bank of Canada (RY) Posts Record Profit as Tariffs Loom",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNbktwd1ZFM2VFNmVLckxuTGxaRGlZSy1sQWtMWW9vRDV0VllYY3RrVmdLNUIyME1KaGtUUUVVY1dvUXJqY0xJZ3Bra2NzRG5McXZVcHNQQlVvLVpPbGlBaWpaRXBMdmRCQUdrYWFJeFVMdFhmUE9xRmRUNF9KREhNYlhnVHZ3end0bnl3alFWWmxhMGtFV0E?oc=5",
+          "domain": "finance.yahoo.com",
+          "source_name": "Yahoo Finance",
+          "timestamp_utc": "2026-09-01T09:19:59+00:00",
+          "entity": "ROYAL BANK OF CANADA",
+          "ticker": "RY",
+          "cik": "1000275",
+          "entity_type": "company"
         }
       ],
-      "youtube_query": "NeoVolta NEOV SK On battery deal",
+      "judge_version": "B_V1",
+      "entity_accuracy": "pass",
+      "catalyst_reality_score": 24,
+      "investor_materiality_score": 18,
+      "novelty_score": 15,
+      "judge_evidence_quality_score": 7,
+      "content_potential_score": 15,
+      "judge_score": 79,
+      "judge_reason": "Royal Bank of Canada 报告创纪录利润，同时关税风险成为前瞻变量；虽非纯美股但有美股 ADR 且能反映北美信贷环境。",
+      "verification_note": "核对具体季度、核心盈利驱动、拨备与管理层对关税影响的指引。",
+      "youtube_metrics": {
+        "status": "ok_no_videos",
+        "query": "RY earnings record profit tariffs",
+        "raw_sample_size": 0,
+        "relevant_sample_size": 0,
+        "estimated_total_results": 7,
+        "youtube_supply_gap_score": 100.0,
+        "median_views_per_day": 0,
+        "small_channel_hit_rate": 0.0,
+        "sample_videos": []
+      },
+      "scanner_b_score": 77.4
+    },
+    {
+      "event_id": "7d551f739009c6b6",
+      "scanner": "B",
+      "entity": "NeoVolta Inc.",
+      "ticker": "NEOV",
+      "entity_type": "company",
+      "event_title": "NeoVolta, SK On Sign $1B Battery Deal for U.S. Energy Storage",
+      "event_timestamp_utc": "2026-08-31T14:24:56+00:00",
+      "categories": [
+        "contract_order"
+      ],
+      "sec_forms": [],
+      "discovery_score": 47.6,
+      "news_burst_score": 46,
+      "source_diversity_score": 20,
+      "catalyst_quality_score": 82,
+      "freshness_score": 52,
+      "evidence_quality_score": 33,
+      "youtube_query": "NEOV SK On $1B battery deal",
       "youtube_event_terms": [
         "SK On",
         "battery",
         "deal"
       ],
-      "judge_version": "B_V1",
-      "entity_accuracy": "pass",
-      "catalyst_reality_score": 25,
-      "investor_materiality_score": 21,
-      "novelty_score": 15,
-      "judge_evidence_quality_score": 12,
-      "content_potential_score": 18,
-      "judge_score": 91,
-      "judge_reason": "Concrete battery supply agreement involving a U.S. company; Reuters confirmation gives the event strong reality despite one source.",
-      "verification_note": "Verify deal value, volume and whether NeoVolta Power is consolidated into/financially material to NEOV.",
-      "youtube_metrics": {
-        "status": "ok_no_videos",
-        "query": "NeoVolta NEOV SK On battery deal",
-        "raw_sample_size": 0,
-        "relevant_sample_size": 0,
-        "estimated_total_results": 0,
-        "youtube_supply_gap_score": 100.0,
-        "median_views_per_day": 0,
-        "small_channel_hit_rate": 0.0,
-        "sample_videos": []
-      },
-      "scanner_b_score": 82.6
-    },
-    {
-      "event_id": "4e8b976993ad1eb5",
-      "scanner": "B",
-      "entity": "Inflation",
-      "ticker": null,
-      "entity_type": "macro",
-      "event_title": "German inflation rises to 2.9% in August, below forecasts",
-      "event_timestamp_utc": "2026-08-31T12:33:45+00:00",
-      "categories": [
-        "macro_rates"
-      ],
-      "sec_forms": [],
-      "discovery_score": 50.8,
-      "news_burst_score": 0.0,
-      "source_diversity_score": 55.0,
-      "catalyst_quality_score": 85.0,
-      "freshness_score": 100.0,
-      "evidence_quality_score": 78,
       "baseline": {
         "source": "google_news_rss",
-        "current_3h": 0,
-        "baseline_3h_median": 0.0,
-        "short_ratio": 1.0,
-        "current_day": 0,
-        "baseline_day_median": 2.0,
-        "long_ratio": 0.333,
-        "news_burst_score": 0.0,
-        "feed_capped": true
+        "query": "\"neovolta\" OR \"NEOV\"",
+        "article_count": 52,
+        "feed_capped": false,
+        "current_3h": 1,
+        "baseline_3h_median": 0,
+        "short_ratio": 2,
+        "current_day": 21,
+        "baseline_day_median": 0,
+        "long_ratio": 22,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 29,
+        "news_burst_score": 46
       },
       "source_domains": [
-        "bloomberg.com",
-        "investing.com",
-        "lufkindailynews.com",
-        "reuters.com"
+        "batterytechonline.com"
       ],
-      "recent_evidence_count": 4,
+      "recent_evidence_count": 1,
       "evidence": [
         {
-          "title": "German inflation rises to 2.9% in August, below forecasts",
-          "domain": "investing.com",
-          "source_name": "Investing.com",
-          "timestamp_utc": "2026-08-31T12:33:45+00:00",
           "source_type": "news_rss",
-          "category": "macro_rates",
-          "sec_form": null
-        },
-        {
-          "title": "German inflation accelerates in August on higher energy prices",
-          "domain": "reuters.com",
-          "source_name": "Reuters",
-          "timestamp_utc": "2026-08-31T12:14:13+00:00",
-          "source_type": "news_rss",
-          "category": "macro_rates",
-          "sec_form": null
+          "category": "contract_order",
+          "title": "NeoVolta, SK On Sign $1B Battery Deal for U.S. Energy Storage",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTFlweG9hZTJKck02Um13YllKYTlxNGw4dnNPVGNPRkR5dGY3ZWZEdGRCbUJ3dTFoQkVvVE9jczV3U3c5RkRuR1lSVEVRUUNYUTlMNjdpaDlXRWpOSDVnRlQ0bVdCTkRWTjFBY1lfS1FxY2NlT0lXeFpDekJuV01Zcy1ORW1Sa3hMT1JlamdSTDhHaGpVNkUwRVZzd0dnMWdYUERzOVJ6aHYyTVVyMWZ0ckU1empGeEJ1NVBVTDQ0VUlvMW1QdTh4V0tEaEFzNVhQRXc?oc=5",
+          "domain": "batterytechonline.com",
+          "source_name": "Battery Technology",
+          "timestamp_utc": "2026-08-31T14:24:56+00:00",
+          "entity": "NeoVolta Inc.",
+          "ticker": "NEOV",
+          "cik": "1748137",
+          "entity_type": "company"
         }
-      ],
-      "youtube_query": "Germany inflation August ECB",
-      "youtube_event_terms": [
-        "Germany",
-        "inflation",
-        "August"
       ],
       "judge_version": "B_V1",
       "entity_accuracy": "pass",
       "catalyst_reality_score": 24,
-      "investor_materiality_score": 18,
+      "investor_materiality_score": 21,
       "novelty_score": 15,
-      "judge_evidence_quality_score": 14,
-      "content_potential_score": 15,
+      "judge_evidence_quality_score": 7,
+      "content_potential_score": 19,
       "judge_score": 86,
-      "judge_reason": "Fresh inflation print with high-quality confirmation; relevant to global yields, ECB expectations and risk assets.",
-      "verification_note": "Verify harmonized versus national CPI definitions before quoting the 2.9% figure.",
+      "judge_reason": "NeoVolta 与 SK On 的约 $1B 美国储能电池协议是具体订单催化，对 NEOV 和美国储能链具备直接投资意义。",
+      "verification_note": "确认合同是否具约束力、9 GWh/金额口径、交付期与对 NEOV 收入的实际贡献。",
       "youtube_metrics": {
-        "status": "ok",
-        "query": "Germany inflation August ECB",
-        "raw_sample_size": 1,
+        "status": "ok_no_videos",
+        "query": "NEOV SK On $1B battery deal",
+        "raw_sample_size": 0,
         "relevant_sample_size": 0,
-        "estimated_total_results": 11,
+        "estimated_total_results": 0,
         "youtube_supply_gap_score": 100.0,
         "median_views_per_day": 0,
-        "small_channel_sample_size": 0,
         "small_channel_hit_rate": 0.0,
         "sample_videos": []
       },
-      "scanner_b_score": 78.2
+      "scanner_b_score": 77.3
     },
     {
-      "event_id": "3d936cccaf287dfa",
+      "event_id": "042f9354c7dd2e78",
       "scanner": "B",
-      "entity": "Federal Reserve / Rates",
-      "ticker": null,
-      "entity_type": "macro",
-      "event_title": "Forecast: Fed To Hike Interest Rates After Warsh's Jackson Hole Talk",
-      "event_timestamp_utc": "2026-08-31T10:30:00+00:00",
-      "categories": [
-        "macro_rates"
-      ],
-      "sec_forms": [],
-      "discovery_score": 61.3,
-      "news_burst_score": 41.2,
-      "source_diversity_score": 55.0,
-      "catalyst_quality_score": 85.0,
-      "freshness_score": 92.0,
-      "evidence_quality_score": 51,
-      "baseline": {
-        "source": "google_news_rss",
-        "current_3h": 3,
-        "baseline_3h_median": 0.0,
-        "short_ratio": 4.0,
-        "current_day": 4,
-        "baseline_day_median": 2.0,
-        "long_ratio": 1.667,
-        "news_burst_score": 41.2,
-        "feed_capped": true
-      },
-      "source_domains": [
-        "cnbc.com",
-        "hotsr.com",
-        "seekingalpha.com"
-      ],
-      "recent_evidence_count": 3,
-      "evidence": [
-        {
-          "title": "Forecast: Fed To Hike Interest Rates After Warsh's Jackson Hole Talk",
-          "domain": "seekingalpha.com",
-          "source_name": "Seeking Alpha",
-          "timestamp_utc": "2026-08-31T10:30:00+00:00",
-          "source_type": "news_rss",
-          "category": "macro_rates",
-          "sec_form": null
-        },
-        {
-          "title": "Warsh raises stakes for Fed’s next meeting and other takeaways from Jackson Hole conference",
-          "domain": "hotsr.com",
-          "source_name": "Hot Springs Sentinel Record",
-          "timestamp_utc": "2026-08-31T09:00:00+00:00",
-          "source_type": "news_rss",
-          "category": "macro_rates",
-          "sec_form": null
-        },
-        {
-          "title": "Jackson Hole analyst roundup: Warsh's speech sends hike chances higher, may put Fed at odds",
-          "domain": "cnbc.com",
-          "source_name": "CNBC",
-          "timestamp_utc": "2026-08-31T09:00:00+00:00",
-          "source_type": "news_rss",
-          "category": "macro_rates",
-          "sec_form": null
-        }
-      ],
-      "youtube_query": "Warsh Jackson Hole Fed rate hike",
-      "youtube_event_terms": [
-        "Warsh",
-        "Jackson Hole",
-        "rate hike"
-      ],
-      "judge_version": "B_V1",
-      "entity_accuracy": "pass",
-      "catalyst_reality_score": 22,
-      "investor_materiality_score": 25,
-      "novelty_score": 13,
-      "judge_evidence_quality_score": 12,
-      "content_potential_score": 20,
-      "judge_score": 92,
-      "judge_reason": "New post-Jackson-Hole rate repricing angle with direct market-wide materiality and multiple credible outlets.",
-      "verification_note": "Separate Warsh's actual remarks from analyst forecasts; verify current market-implied hike odds.",
-      "youtube_metrics": {
-        "status": "ok",
-        "query": "Warsh Jackson Hole Fed rate hike",
-        "raw_sample_size": 50,
-        "relevant_sample_size": 34,
-        "estimated_total_results": 3262,
-        "youtube_supply_gap_score": 50.0,
-        "median_views_per_day": 76,
-        "small_channel_sample_size": 27,
-        "small_channel_hit_rate": 18.5,
-        "sample_videos": [
-          {
-            "video_id": "xk2VR-UIsYw",
-            "title": "Trump को Jackson Hole से बड़ा झटका! | N18S",
-            "channel_id": "UCQIycDaLsBpMKjOCeaKUYVg",
-            "published_at": "2026-08-31T03:43:46+00:00",
-            "views": 29959,
-            "views_per_day": 75887,
-            "channel_subscribers": 6370000
-          },
-          {
-            "video_id": "-6ppYGHhoq4",
-            "title": "The Fed’s “Rate Hike” Bluff Just Hammered Gold & Silver",
-            "channel_id": "UC1FUQYPxrtVt8bd0516Pjbw",
-            "published_at": "2026-08-30T22:46:07+00:00",
-            "views": 25364,
-            "views_per_day": 42169,
-            "channel_subscribers": 108000
-          },
-          {
-            "video_id": "lj0BiBmC1II",
-            "title": "US Resumes Strikes On Iran, Warsh Fans Rate Hike Bets | The Asia Trade 8/31/2026",
-            "channel_id": "UCIALMKvObZNtJ6AmdCLP7Lg",
-            "published_at": "2026-08-31T06:15:53+00:00",
-            "views": 9567,
-            "views_per_day": 33087,
-            "channel_subscribers": 3260000
-          },
-          {
-            "video_id": "wc3_L-Mb0NY",
-            "title": "Why a Hawkish Warsh Is a Tough Sell to the Bond Markets | Insight with Haslinda Amin 8/31/2026",
-            "channel_id": "UCIALMKvObZNtJ6AmdCLP7Lg",
-            "published_at": "2026-08-31T06:29:47+00:00",
-            "views": 4370,
-            "views_per_day": 15635,
-            "channel_subscribers": 3260000
-          },
-          {
-            "video_id": "GilqJM2SlaM",
-            "title": "GOLD CRASH ALERT? $4,350 Support Is the Final Line! Silver at $64 Next? Fed Rate Hike Shock",
-            "channel_id": "UCX8vVW9oQw2FX5Ny_uIebmw",
-            "published_at": "2026-08-31T06:27:06+00:00",
-            "views": 1941,
-            "views_per_day": 6899,
-            "channel_subscribers": 32100
-          },
-          {
-            "video_id": "kPq83MqFlYU",
-            "title": "Zinserhöhungen deutet Fed-Chef Warsh an, nicht zur Freude von Trump, so Corinna Wohlfeil | ntv",
-            "channel_id": "UCSeil5V81-mEGB1-VNR7YEA",
-            "published_at": "2026-08-31T10:57:26+00:00",
-            "views": 718,
-            "views_per_day": 5744,
-            "channel_subscribers": 422000
-          },
-          {
-            "video_id": "8GR10LmEyk8",
-            "title": "Market Panicking Over Kevin Warsh for No Reason",
-            "channel_id": "UC65U81KVT7tLZaONHKwoczQ",
-            "published_at": "2026-08-30T22:24:06+00:00",
-            "views": 2211,
-            "views_per_day": 3585,
-            "channel_subscribers": 1180
-          },
-          {
-            "video_id": "gBvMXkWd7BQ",
-            "title": "Warsh spooks markets at Jackson Hole",
-            "channel_id": "UC2mn7gMmw2NWarY3r3qnaeQ",
-            "published_at": "2026-08-30T23:00:34+00:00",
-            "views": 1036,
-            "views_per_day": 1752,
-            "channel_subscribers": 8
-          },
-          {
-            "video_id": "vSgf5o-LkAg",
-            "title": "US-Iran Conflict Reignites, Boosting Odds of a Fed Rate Hike | Daily Market Update, August 31 2026",
-            "channel_id": "UC6JLdc5KMFWRlcefg2BueKg",
-            "published_at": "2026-08-31T12:48:26+00:00",
-            "views": 169,
-            "views_per_day": 1352,
-            "channel_subscribers": 37100
-          },
-          {
-            "video_id": "_zCZzIgx6j0",
-            "title": "Rate hike bets return as Fed outlook shifts",
-            "channel_id": "UCJAfFuVIJki_tlG41Ud0FUw",
-            "published_at": "2026-08-31T05:26:37+00:00",
-            "views": 424,
-            "views_per_day": 1311,
-            "channel_subscribers": 23800
-          }
-        ]
-      },
-      "scanner_b_score": 74.4
-    },
-    {
-      "event_id": "f766428942852e22",
-      "scanner": "B",
-      "entity": "LOCKHEED MARTIN CORP",
-      "ticker": "LMT",
+      "entity": "Broadcom Inc.",
+      "ticker": "AVGO",
       "entity_type": "company",
-      "event_title": "Raytheon and Lockheed Martin select Tata for planned Javelin co-production in India, linking U.S. plants to Indo-Pacific missile supply",
-      "event_timestamp_utc": "2026-08-31T07:47:03+00:00",
+      "event_title": "Broadcom Announces VMware AI Factory, Enabling Faster Time to Production AI and Greater Control Over AI Tokenomics",
+      "event_timestamp_utc": "2026-08-31T22:22:36+00:00",
       "categories": [
         "pricing_capacity"
       ],
       "sec_forms": [],
-      "discovery_score": 46.4,
-      "news_burst_score": 32.6,
-      "source_diversity_score": 20.0,
-      "catalyst_quality_score": 77.0,
-      "freshness_score": 82.0,
+      "discovery_score": 39.7,
+      "news_burst_score": 26.3,
+      "source_diversity_score": 20,
+      "catalyst_quality_score": 77,
+      "freshness_score": 52,
       "evidence_quality_score": 33,
+      "youtube_query": "AVGO VMware AI Factory",
+      "youtube_event_terms": [
+        "VMware",
+        "AI Factory"
+      ],
       "baseline": {
         "source": "google_news_rss",
-        "current_3h": 2,
-        "baseline_3h_median": 0.0,
-        "short_ratio": 3.0,
-        "current_day": 2,
-        "baseline_day_median": 1.0,
-        "long_ratio": 1.5,
-        "news_burst_score": 32.6,
-        "feed_capped": true
+        "query": "\"broadcom\" OR \"AVGO\"",
+        "article_count": 93,
+        "feed_capped": false,
+        "current_3h": 0,
+        "baseline_3h_median": 0,
+        "short_ratio": 1,
+        "current_day": 26,
+        "baseline_day_median": 1,
+        "long_ratio": 13.5,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 29,
+        "news_burst_score": 26.3
       },
       "source_domains": [
-        "defence-industry.eu"
+        "broadcom.com"
       ],
       "recent_evidence_count": 1,
       "evidence": [
         {
-          "title": "Raytheon and Lockheed Martin select Tata for planned Javelin co-production in India, linking U.S. plants to Indo-Pacific missile supply",
-          "domain": "defence-industry.eu",
-          "source_name": "Defence Industry Europe",
-          "timestamp_utc": "2026-08-31T07:47:03+00:00",
           "source_type": "news_rss",
           "category": "pricing_capacity",
-          "sec_form": null
+          "title": "Broadcom Announces VMware AI Factory, Enabling Faster Time to Production AI and Greater Control Over AI Tokenomics",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQaUlyREV3SC0xNHAyZGhqUDJZblhqYkNuUW92NVBKY3Z5Q0l3aWQ1SFpNdndXSU11VGlFZ3Y4X2w1RXJta25UcFJaZTJGcXR3VVdUZTVYWGFKMXRBV0lGYnBHdWR4cUhsME5uTllvU0RCZENoYVNweUdLSmxscnBqZDB5alpUbjRuVEdJ?oc=5",
+          "domain": "broadcom.com",
+          "source_name": "Broadcom",
+          "timestamp_utc": "2026-08-31T22:22:36+00:00",
+          "entity": "Broadcom Inc.",
+          "ticker": "AVGO",
+          "cik": "1730168",
+          "entity_type": "company"
         }
-      ],
-      "youtube_query": "LMT RTX Tata Javelin India co-production",
-      "youtube_event_terms": [
-        "Javelin",
-        "Tata",
-        "India"
-      ],
-      "judge_version": "B_V1",
-      "entity_accuracy": "pass",
-      "catalyst_reality_score": 21,
-      "investor_materiality_score": 21,
-      "novelty_score": 13,
-      "judge_evidence_quality_score": 6,
-      "content_potential_score": 18,
-      "judge_score": 79,
-      "judge_reason": "Specific planned Javelin co-production arrangement has a clean defense-supply-chain angle for LMT/RTX.",
-      "verification_note": "Verify the partnership status and whether government approvals/contracts are final.",
-      "youtube_metrics": {
-        "status": "ok_no_videos",
-        "query": "LMT RTX Tata Javelin India co-production",
-        "raw_sample_size": 0,
-        "relevant_sample_size": 0,
-        "estimated_total_results": 0,
-        "youtube_supply_gap_score": 100.0,
-        "median_views_per_day": 0,
-        "small_channel_hit_rate": 0.0,
-        "sample_videos": []
-      },
-      "scanner_b_score": 73.4
-    },
-    {
-      "event_id": "00a7b74e3abf1d79",
-      "scanner": "B",
-      "entity": "NVIDIA CORP",
-      "ticker": "NVDA",
-      "entity_type": "company",
-      "event_title": "Samsung Works With Nvidia to Develop 8-Layer HBM4E, Targeting a 20% Speed Boost Over Initial Samples",
-      "event_timestamp_utc": "2026-08-31T08:42:10+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "discovery_score": 47.1,
-      "news_burst_score": 18.0,
-      "source_diversity_score": 55.0,
-      "catalyst_quality_score": 68.0,
-      "freshness_score": 82.0,
-      "evidence_quality_score": 39,
-      "baseline": {
-        "source": "google_news_rss",
-        "current_3h": 1,
-        "baseline_3h_median": 0.0,
-        "short_ratio": 2.0,
-        "current_day": 2,
-        "baseline_day_median": 2.0,
-        "long_ratio": 1.0,
-        "news_burst_score": 18.0,
-        "feed_capped": true
-      },
-      "source_domains": [
-        "finance.biggo.com",
-        "m.expreview.com",
-        "tradingkey.com"
-      ],
-      "recent_evidence_count": 3,
-      "evidence": [
-        {
-          "title": "Samsung Works With Nvidia to Develop 8-Layer HBM4E, Targeting a 20% Speed Boost Over Initial Samples",
-          "domain": "tradingkey.com",
-          "source_name": "TradingKey",
-          "timestamp_utc": "2026-08-31T08:42:10+00:00",
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "sec_form": null
-        },
-        {
-          "title": "Samsung reportedly developing 8-layer HBM4E for Nvidia: targeting the NVB-HBM supply chain.",
-          "domain": "m.expreview.com",
-          "source_name": "expreview.com",
-          "timestamp_utc": "2026-08-31T08:30:22+00:00",
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "sec_form": null
-        }
-      ],
-      "youtube_query": "NVDA Samsung HBM4E 8-layer",
-      "youtube_event_terms": [
-        "Samsung",
-        "HBM4E",
-        "8-layer"
-      ],
-      "judge_version": "B_V1",
-      "entity_accuracy": "pass",
-      "catalyst_reality_score": 18,
-      "investor_materiality_score": 23,
-      "novelty_score": 12,
-      "judge_evidence_quality_score": 7,
-      "content_potential_score": 19,
-      "judge_score": 79,
-      "judge_reason": "Specific next-generation HBM development can affect NVIDIA memory supply and Samsung's competitive position; evidence is secondary but consistent.",
-      "verification_note": "Verify with Samsung/NVIDIA or a top-tier semiconductor source before treating specs as confirmed.",
-      "youtube_metrics": {
-        "status": "ok",
-        "query": "NVDA Samsung HBM4E 8-layer",
-        "raw_sample_size": 3,
-        "relevant_sample_size": 3,
-        "estimated_total_results": 5,
-        "youtube_supply_gap_score": 95.0,
-        "median_views_per_day": 22774,
-        "small_channel_sample_size": 0,
-        "small_channel_hit_rate": 0.0,
-        "sample_videos": [
-          {
-            "video_id": "JWNC7AZPzGY",
-            "title": "젠슨황 ‘삼성전자’ 뜻밖의 주문…엔비디아 ‘HBM4E 8단’ 판 뒤집혔다",
-            "channel_id": "UC3p-0EWA8OXko2EUDUXAy5w",
-            "published_at": "2026-08-31T07:00:31+00:00",
-            "views": 14230,
-            "views_per_day": 55113,
-            "channel_subscribers": 528000
-          },
-          {
-            "video_id": "G22g7t1i6Cc",
-            "title": "삼성, 엔비디아 ‘NVHBM’ 돌연 선점…‘HBM4E 8단’ 공급망 판 뒤집혔다",
-            "channel_id": "UC3p-0EWA8OXko2EUDUXAy5w",
-            "published_at": "2026-08-31T04:12:47+00:00",
-            "views": 8533,
-            "views_per_day": 22774,
-            "channel_subscribers": 528000
-          },
-          {
-            "video_id": "SaiQNAVNb8I",
-            "title": "삼성 ‘HBM4E 8단’ 돌연 승부수…엔비디아 ‘맞춤형 HBM’ 승기 잡았다",
-            "channel_id": "UC3p-0EWA8OXko2EUDUXAy5w",
-            "published_at": "2026-08-31T05:33:36+00:00",
-            "views": 1997,
-            "views_per_day": 6269,
-            "channel_subscribers": 528000
-          }
-        ]
-      },
-      "scanner_b_score": 72.6
-    },
-    {
-      "event_id": "231ef2a6201c190a",
-      "scanner": "B",
-      "entity": "SK hynix",
-      "ticker": null,
-      "entity_type": "foreign_company",
-      "event_title": "SK hynix still reviewing feasibility of Japan semiconductor plant",
-      "event_timestamp_utc": "2026-08-31T09:58:00+00:00",
-      "categories": [
-        "ai_semis",
-        "contract_order"
-      ],
-      "sec_forms": [],
-      "discovery_score": 42.6,
-      "news_burst_score": 0.0,
-      "source_diversity_score": 38.0,
-      "catalyst_quality_score": 82.0,
-      "freshness_score": 92.0,
-      "evidence_quality_score": 48,
-      "baseline": {
-        "source": "google_news_rss",
-        "current_3h": 0,
-        "baseline_3h_median": 0.0,
-        "short_ratio": 1.0,
-        "current_day": 3,
-        "baseline_day_median": 3.0,
-        "long_ratio": 1.0,
-        "news_burst_score": 0.0,
-        "feed_capped": true
-      },
-      "source_domains": [
-        "bloomberg.com",
-        "koreatimes.co.kr"
-      ],
-      "recent_evidence_count": 2,
-      "evidence": [
-        {
-          "title": "SK hynix still reviewing feasibility of Japan semiconductor plant",
-          "domain": "koreatimes.co.kr",
-          "source_name": "The Korea Times",
-          "timestamp_utc": "2026-08-31T09:58:00+00:00",
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "sec_form": null
-        },
-        {
-          "title": "SK Hynix Weighs Japan Memory Plant Deal to Supply AI Boom",
-          "domain": "bloomberg.com",
-          "source_name": "Bloomberg.com",
-          "timestamp_utc": "2026-08-31T09:13:36+00:00",
-          "source_type": "news_rss",
-          "category": "contract_order",
-          "sec_form": null
-        }
-      ],
-      "youtube_query": "SK hynix Japan memory plant AI",
-      "youtube_event_terms": [
-        "Japan",
-        "memory plant",
-        "AI"
-      ],
-      "judge_version": "B_V1",
-      "entity_accuracy": "pass",
-      "catalyst_reality_score": 17,
-      "investor_materiality_score": 21,
-      "novelty_score": 11,
-      "judge_evidence_quality_score": 12,
-      "content_potential_score": 18,
-      "judge_score": 79,
-      "judge_reason": "Real capacity-location development in the AI memory supply chain, with Bloomberg confirmation.",
-      "verification_note": "Still feasibility-stage; verify whether there is a committed site, investment amount or timetable.",
-      "youtube_metrics": {
-        "status": "ok_no_videos",
-        "query": "SK hynix Japan memory plant AI",
-        "raw_sample_size": 0,
-        "relevant_sample_size": 0,
-        "estimated_total_results": 6,
-        "youtube_supply_gap_score": 100.0,
-        "median_views_per_day": 0,
-        "small_channel_hit_rate": 0.0,
-        "sample_videos": []
-      },
-      "scanner_b_score": 72.3
-    },
-    {
-      "event_id": "127450ed0ede06a1",
-      "scanner": "B",
-      "entity": "LOCKHEED MARTIN CORP",
-      "ticker": "LMT",
-      "entity_type": "company",
-      "event_title": "Lockheed Martin CEO says NATO weapons demand is driving a new wave of production, co-production and sustainment capacity in Europe",
-      "event_timestamp_utc": "2026-08-31T11:20:17+00:00",
-      "categories": [
-        "pricing_capacity"
-      ],
-      "sec_forms": [],
-      "discovery_score": 47.9,
-      "news_burst_score": 32.6,
-      "source_diversity_score": 20.0,
-      "catalyst_quality_score": 77.0,
-      "freshness_score": 92.0,
-      "evidence_quality_score": 33,
-      "baseline": {
-        "source": "google_news_rss",
-        "current_3h": 2,
-        "baseline_3h_median": 0.0,
-        "short_ratio": 3.0,
-        "current_day": 2,
-        "baseline_day_median": 1.0,
-        "long_ratio": 1.5,
-        "news_burst_score": 32.6,
-        "feed_capped": true
-      },
-      "source_domains": [
-        "defence-industry.eu"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "title": "Lockheed Martin CEO says NATO weapons demand is driving a new wave of production, co-production and sustainment capacity in Europe",
-          "domain": "defence-industry.eu",
-          "source_name": "Defence Industry Europe",
-          "timestamp_utc": "2026-08-31T11:20:17+00:00",
-          "source_type": "news_rss",
-          "category": "pricing_capacity",
-          "sec_form": null
-        }
-      ],
-      "youtube_query": "LMT NATO demand production Europe",
-      "youtube_event_terms": [
-        "NATO",
-        "demand",
-        "production"
-      ],
-      "judge_version": "B_V1",
-      "entity_accuracy": "pass",
-      "catalyst_reality_score": 18,
-      "investor_materiality_score": 22,
-      "novelty_score": 11,
-      "judge_evidence_quality_score": 6,
-      "content_potential_score": 17,
-      "judge_score": 74,
-      "judge_reason": "Management commentary points to sustained defense demand and capacity expansion, relevant to LMT earnings and backlog.",
-      "verification_note": "Verify the CEO quote and whether any incremental capacity or order amount was disclosed.",
-      "youtube_metrics": {
-        "status": "ok_no_videos",
-        "query": "LMT NATO demand production Europe",
-        "raw_sample_size": 0,
-        "relevant_sample_size": 0,
-        "estimated_total_results": 49,
-        "youtube_supply_gap_score": 100.0,
-        "median_views_per_day": 0,
-        "small_channel_hit_rate": 0.0,
-        "sample_videos": []
-      },
-      "scanner_b_score": 71.4
-    },
-    {
-      "event_id": "56ec2ff582cb9788",
-      "scanner": "B",
-      "entity": "SK hynix",
-      "ticker": null,
-      "entity_type": "foreign_company",
-      "event_title": "SK Hynix Considers Intel for Next-Gen HBM Base-Dies",
-      "event_timestamp_utc": "2026-08-31T09:59:49+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "discovery_score": 38.6,
-      "news_burst_score": 0.0,
-      "source_diversity_score": 38.0,
-      "catalyst_quality_score": 68.0,
-      "freshness_score": 92.0,
-      "evidence_quality_score": 36,
-      "baseline": {
-        "source": "google_news_rss",
-        "current_3h": 0,
-        "baseline_3h_median": 0.0,
-        "short_ratio": 1.0,
-        "current_day": 3,
-        "baseline_day_median": 3.0,
-        "long_ratio": 1.0,
-        "news_burst_score": 0.0,
-        "feed_capped": true
-      },
-      "source_domains": [
-        "m.expreview.com",
-        "marketscreener.com"
-      ],
-      "recent_evidence_count": 2,
-      "evidence": [
-        {
-          "title": "SK Hynix Considers Intel for Next-Gen HBM Base-Dies",
-          "domain": "marketscreener.com",
-          "source_name": "marketscreener.com",
-          "timestamp_utc": "2026-08-31T09:59:49+00:00",
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "sec_form": null
-        },
-        {
-          "title": "SK Hynix may choose Intel to manufacture HBM base dies.",
-          "domain": "m.expreview.com",
-          "source_name": "expreview.com",
-          "timestamp_utc": "2026-08-31T07:51:52+00:00",
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "sec_form": null
-        }
-      ],
-      "youtube_query": "SK hynix Intel HBM base die foundry",
-      "youtube_event_terms": [
-        "Intel",
-        "HBM",
-        "base die"
-      ],
-      "judge_version": "B_V1",
-      "entity_accuracy": "pass",
-      "catalyst_reality_score": 17,
-      "investor_materiality_score": 23,
-      "novelty_score": 12,
-      "judge_evidence_quality_score": 7,
-      "content_potential_score": 19,
-      "judge_score": 78,
-      "judge_reason": "Potential Intel foundry win in HBM base dies would be highly material to AI-memory supply-chain competition.",
-      "verification_note": "Treat as reported consideration, not a signed foundry contract, until primary/top-tier confirmation.",
-      "youtube_metrics": {
-        "status": "ok",
-        "query": "SK hynix Intel HBM base die foundry",
-        "raw_sample_size": 1,
-        "relevant_sample_size": 1,
-        "estimated_total_results": 3,
-        "youtube_supply_gap_score": 100.0,
-        "median_views_per_day": 4989,
-        "small_channel_sample_size": 1,
-        "small_channel_hit_rate": 100.0,
-        "sample_videos": [
-          {
-            "video_id": "oKrDPeN_RsI",
-            "title": "SK하이닉스가 TSMC에만 맡기던 HBM 부품을 인텔에 넘기려는 이유",
-            "channel_id": "UC9tnbYKi_Hf63dSxlvT_Ccw",
-            "published_at": "2026-08-31T04:57:00+00:00",
-            "views": 1716,
-            "views_per_day": 4989,
-            "channel_subscribers": 36600
-          }
-        ]
-      },
-      "scanner_b_score": 70.6
-    },
-    {
-      "event_id": "6b62f6ba0b983b88",
-      "scanner": "B",
-      "entity": "Bitcoin / Crypto",
-      "ticker": null,
-      "entity_type": "crypto",
-      "event_title": "U.S. Crypto ETFs See Over $2 Billion in Weekly Inflows",
-      "event_timestamp_utc": "2026-08-31T09:45:18+00:00",
-      "categories": [
-        "crypto"
-      ],
-      "sec_forms": [],
-      "discovery_score": 45.5,
-      "news_burst_score": 0.0,
-      "source_diversity_score": 72.0,
-      "catalyst_quality_score": 70.0,
-      "freshness_score": 82.0,
-      "evidence_quality_score": 48,
-      "baseline": {
-        "source": "google_news_rss",
-        "current_3h": 0,
-        "baseline_3h_median": 0.0,
-        "short_ratio": 1.0,
-        "current_day": 2,
-        "baseline_day_median": 3.0,
-        "long_ratio": 0.75,
-        "news_burst_score": 0.0,
-        "feed_capped": true
-      },
-      "source_domains": [
-        "bitget.com",
-        "coinpedia.org",
-        "en.bloomingbit.io",
-        "finance.biggo.com",
-        "m.sosovalue.com",
-        "moomoo.com"
-      ],
-      "recent_evidence_count": 8,
-      "evidence": [
-        {
-          "title": "U.S. Crypto ETFs See Over $2 Billion in Weekly Inflows",
-          "domain": "coinpedia.org",
-          "source_name": "Coinpedia",
-          "timestamp_utc": "2026-08-31T09:45:18+00:00",
-          "source_type": "news_rss",
-          "category": "crypto",
-          "sec_form": null
-        },
-        {
-          "title": "Crypto ETFs Draw Over $2 Billion for a Second Straight Week as Capital Broadens From BTC Into ETH and Altcoins",
-          "domain": "m.sosovalue.com",
-          "source_name": "SoSoValue",
-          "timestamp_utc": "2026-08-31T09:22:18+00:00",
-          "source_type": "news_rss",
-          "category": "crypto",
-          "sec_form": null
-        }
-      ],
-      "youtube_query": "Bitcoin Ethereum ETF inflows $2B",
-      "youtube_event_terms": [
-        "ETF",
-        "inflows",
-        "Bitcoin"
-      ],
-      "judge_version": "B_V1",
-      "entity_accuracy": "pass",
-      "catalyst_reality_score": 19,
-      "investor_materiality_score": 18,
-      "novelty_score": 12,
-      "judge_evidence_quality_score": 8,
-      "content_potential_score": 16,
-      "judge_score": 73,
-      "judge_reason": "Fresh fund-flow data has a concrete investable angle for BTC/ETH and crypto-linked equities, though source quality is mixed.",
-      "verification_note": "Verify the aggregate flow figure against issuer or established ETF-flow data before publication.",
-      "youtube_metrics": {
-        "status": "ok_no_videos",
-        "query": "Bitcoin Ethereum ETF inflows $2B",
-        "raw_sample_size": 0,
-        "relevant_sample_size": 0,
-        "estimated_total_results": 1,
-        "youtube_supply_gap_score": 100.0,
-        "median_views_per_day": 0,
-        "small_channel_hit_rate": 0.0,
-        "sample_videos": []
-      },
-      "scanner_b_score": 70.2
-    },
-    {
-      "event_id": "71691ec54624272a",
-      "scanner": "B",
-      "entity": "AI Infrastructure",
-      "ticker": null,
-      "entity_type": "theme",
-      "event_title": "Soitec locks AI chip wafer customers into multi-year deals with deposits and fixed pricing",
-      "event_timestamp_utc": "2026-08-31T09:30:00+00:00",
-      "categories": [
-        "ai_semis"
-      ],
-      "sec_forms": [],
-      "discovery_score": 38.1,
-      "news_burst_score": 2.9,
-      "source_diversity_score": 38.0,
-      "catalyst_quality_score": 68.0,
-      "freshness_score": 82.0,
-      "evidence_quality_score": 36,
-      "baseline": {
-        "source": "google_news_rss",
-        "current_3h": 0,
-        "baseline_3h_median": 0.0,
-        "short_ratio": 1.0,
-        "current_day": 3,
-        "baseline_day_median": 2.0,
-        "long_ratio": 1.333,
-        "news_burst_score": 2.9,
-        "feed_capped": true
-      },
-      "source_domains": [
-        "cio.economictimes.indiatimes.com",
-        "startupfortune.com"
-      ],
-      "recent_evidence_count": 2,
-      "evidence": [
-        {
-          "title": "Soitec locks AI chip wafer customers into multi-year deals with deposits and fixed pricing",
-          "domain": "cio.economictimes.indiatimes.com",
-          "source_name": "ET CIO",
-          "timestamp_utc": "2026-08-31T09:30:00+00:00",
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "sec_form": null
-        },
-        {
-          "title": "Soitec Now Makes AI Chip Customers Pay Deposits to Reserve Wafers",
-          "domain": "startupfortune.com",
-          "source_name": "Startup Fortune",
-          "timestamp_utc": "2026-08-31T06:07:30+00:00",
-          "source_type": "news_rss",
-          "category": "ai_semis",
-          "sec_form": null
-        }
-      ],
-      "youtube_query": "Soitec AI wafers deposits fixed pricing",
-      "youtube_event_terms": [
-        "Soitec",
-        "wafers",
-        "fixed pricing"
-      ],
-      "judge_version": "B_V1",
-      "entity_accuracy": "pass",
-      "catalyst_reality_score": 20,
-      "investor_materiality_score": 18,
-      "novelty_score": 13,
-      "judge_evidence_quality_score": 7,
-      "content_potential_score": 17,
-      "judge_score": 75,
-      "judge_reason": "Multi-year wafer reservations with deposits and fixed pricing are a concrete supply-tightness/pricing signal for AI semiconductors.",
-      "verification_note": "Verify contract scope and whether the policy applies specifically to AI-chip customers versus broader wafer buyers.",
-      "youtube_metrics": {
-        "status": "ok_no_videos",
-        "query": "Soitec AI wafers deposits fixed pricing",
-        "raw_sample_size": 0,
-        "relevant_sample_size": 0,
-        "estimated_total_results": 0,
-        "youtube_supply_gap_score": 100.0,
-        "median_views_per_day": 0,
-        "small_channel_hit_rate": 0.0,
-        "sample_videos": []
-      },
-      "scanner_b_score": 68.9
-    },
-    {
-      "event_id": "2aace33066ef3f9c",
-      "scanner": "B",
-      "entity": "Hesai Group",
-      "ticker": "HSAI",
-      "entity_type": "company",
-      "event_title": "What Hesai Group (HSAI)'s Q2 Earnings Beat and Q3 Revenue Guidance Means For Shareholders",
-      "event_timestamp_utc": "2026-08-31T11:30:20+00:00",
-      "categories": [
-        "earnings_guidance"
-      ],
-      "sec_forms": [],
-      "discovery_score": 46.8,
-      "news_burst_score": 22.1,
-      "source_diversity_score": 20.0,
-      "catalyst_quality_score": 90.0,
-      "freshness_score": 92.0,
-      "evidence_quality_score": 33,
-      "baseline": {
-        "source": "google_news_rss",
-        "current_3h": 1,
-        "baseline_3h_median": 0.0,
-        "short_ratio": 2.0,
-        "current_day": 2,
-        "baseline_day_median": 1.0,
-        "long_ratio": 1.5,
-        "news_burst_score": 22.1,
-        "feed_capped": false
-      },
-      "source_domains": [
-        "simplywall.st"
-      ],
-      "recent_evidence_count": 1,
-      "evidence": [
-        {
-          "title": "What Hesai Group (HSAI)'s Q2 Earnings Beat and Q3 Revenue Guidance Means For Shareholders",
-          "domain": "simplywall.st",
-          "source_name": "simplywall.st",
-          "timestamp_utc": "2026-08-31T11:30:20+00:00",
-          "source_type": "news_rss",
-          "category": "earnings_guidance",
-          "sec_form": null
-        }
-      ],
-      "youtube_query": "HSAI Q2 earnings Q3 guidance",
-      "youtube_event_terms": [
-        "earnings",
-        "Q3 guidance",
-        "HSAI"
-      ],
-      "judge_version": "B_V1",
-      "entity_accuracy": "pass",
-      "catalyst_reality_score": 20,
-      "investor_materiality_score": 17,
-      "novelty_score": 11,
-      "judge_evidence_quality_score": 5,
-      "content_potential_score": 15,
-      "judge_score": 68,
-      "judge_reason": "Earnings beat plus forward revenue guidance is a real catalyst for a U.S.-listed lidar company, though evidence is only secondary.",
-      "verification_note": "Verify the actual company-reported Q2 figures and Q3 guidance from the earnings release.",
-      "youtube_metrics": {
-        "status": "ok_no_videos",
-        "query": "HSAI Q2 earnings Q3 guidance",
-        "raw_sample_size": 0,
-        "relevant_sample_size": 0,
-        "estimated_total_results": 0,
-        "youtube_supply_gap_score": 100.0,
-        "median_views_per_day": 0,
-        "small_channel_hit_rate": 0.0,
-        "sample_videos": []
-      },
-      "scanner_b_score": 68.0
-    },
-    {
-      "event_id": "3893008f18ee834a",
-      "scanner": "B",
-      "entity": "Tariffs / Trade",
-      "ticker": null,
-      "entity_type": "macro",
-      "event_title": "Untested in court, Trump’s new tariffs on Canada raise legal questions",
-      "event_timestamp_utc": "2026-08-31T10:00:00+00:00",
-      "categories": [
-        "macro_rates"
-      ],
-      "sec_forms": [],
-      "discovery_score": 43.6,
-      "news_burst_score": 4.7,
-      "source_diversity_score": 38.0,
-      "catalyst_quality_score": 85.0,
-      "freshness_score": 92.0,
-      "evidence_quality_score": 36,
-      "baseline": {
-        "source": "google_news_rss",
-        "current_3h": 0,
-        "baseline_3h_median": 0.0,
-        "short_ratio": 1.0,
-        "current_day": 3,
-        "baseline_day_median": 1.5,
-        "long_ratio": 1.6,
-        "news_burst_score": 4.7,
-        "feed_capped": true
-      },
-      "source_domains": [
-        "aa.com.tr",
-        "latimes.com"
-      ],
-      "recent_evidence_count": 2,
-      "evidence": [
-        {
-          "title": "Untested in court, Trump’s new tariffs on Canada raise legal questions",
-          "domain": "latimes.com",
-          "source_name": "Los Angeles Times",
-          "timestamp_utc": "2026-08-31T10:00:00+00:00",
-          "source_type": "news_rss",
-          "category": "macro_rates",
-          "sec_form": null
-        },
-        {
-          "title": "Trump says businesses returning to US from Canada to avoid tariffs",
-          "domain": "aa.com.tr",
-          "source_name": "Anadolu Ajansı",
-          "timestamp_utc": "2026-08-31T06:28:05+00:00",
-          "source_type": "news_rss",
-          "category": "macro_rates",
-          "sec_form": null
-        }
-      ],
-      "youtube_query": "Trump Canada tariffs legal challenge",
-      "youtube_event_terms": [
-        "Canada",
-        "tariffs",
-        "legal"
-      ],
-      "judge_version": "B_V1",
-      "entity_accuracy": "pass",
-      "catalyst_reality_score": 18,
-      "investor_materiality_score": 23,
-      "novelty_score": 12,
-      "judge_evidence_quality_score": 9,
-      "content_potential_score": 18,
-      "judge_score": 80,
-      "judge_reason": "New Canada tariff regime has direct cross-border earnings, supply-chain and legal-risk implications for U.S. equities.",
-      "verification_note": "Verify the tariff rate, effective date and legal authority; distinguish enacted measures from proposals.",
-      "youtube_metrics": {
-        "status": "ok",
-        "query": "Trump Canada tariffs legal challenge",
-        "raw_sample_size": 20,
-        "relevant_sample_size": 19,
-        "estimated_total_results": 311,
-        "youtube_supply_gap_score": 70.0,
-        "median_views_per_day": 38,
-        "small_channel_sample_size": 19,
-        "small_channel_hit_rate": 21.1,
-        "sample_videos": [
-          {
-            "video_id": "fLIv1OXdG9k",
-            "title": "Trump’s Canada Tariffs Just Escalated — Supreme Court Fight Returns",
-            "channel_id": "UC5E14TuojS-5rzLiFw0dCTg",
-            "published_at": "2026-08-30T18:58:34+00:00",
-            "views": 68617,
-            "views_per_day": 90340,
-            "channel_subscribers": 5310
-          },
-          {
-            "video_id": "DFjGv1CrkHM",
-            "title": "Trump’s Canada Tariffs Just Escalated — Supreme Court Fight Returns",
-            "channel_id": "UCnNEWo2ckyVNt3dYp54CZ0Q",
-            "published_at": "2026-08-31T09:00:38+00:00",
-            "views": 1237,
-            "views_per_day": 7078,
-            "channel_subscribers": 1170
-          },
-          {
-            "video_id": "EHozODC_wcA",
-            "title": "Breaking: Trump LOSES at His Own Supreme Court — Canada’s Tariffs HIT TOO",
-            "channel_id": "UCjhK4wB9X9UUgqExDilo7rA",
-            "published_at": "2026-08-31T05:03:07+00:00",
-            "views": 1582,
-            "views_per_day": 4657,
-            "channel_subscribers": 536
-          },
-          {
-            "video_id": "kEznily_uLA",
-            "title": "Canada's KNOCKOUT BLOW: Carney's Counter Tariffs Prove Trump is Losing the Trade War",
-            "channel_id": "UCZytHY7lumLkgfX019SjN8g",
-            "published_at": "2026-08-29T12:39:03+00:00",
-            "views": 2906,
-            "views_per_day": 1436,
-            "channel_subscribers": 546
-          },
-          {
-            "video_id": "KVv4_EnWbCA",
-            "title": "Trump’s Canada Tariffs Face Legal | Desh Duniya | Desh Duniya Updates",
-            "channel_id": "UCh1d1w50yN4tsV39aqXrb8w",
-            "published_at": "2026-08-30T08:22:18+00:00",
-            "views": 1022,
-            "views_per_day": 851,
-            "channel_subscribers": 1530
-          },
-          {
-            "video_id": "w4YhmjL75_M",
-            "title": "JUST IN: Trump FACES the Real PRESSURE — Not Canada",
-            "channel_id": "UCgWA464QdirxUGuWL7uYLsg",
-            "published_at": "2026-08-28T18:54:12+00:00",
-            "views": 2260,
-            "views_per_day": 818,
-            "channel_subscribers": 13
-          },
-          {
-            "video_id": "RpnGy9sznZU",
-            "title": "BREAKING: Trump Revived a 96-Year-Old Tariff Law—Canada Found Its Weakness",
-            "channel_id": "UC31tQlIgPc_8ku7zItF4X4w",
-            "published_at": "2026-08-29T04:33:29+00:00",
-            "views": 1699,
-            "views_per_day": 720,
-            "channel_subscribers": 600
-          },
-          {
-            "video_id": "Y9XG7YaN3MA",
-            "title": "Canada's $27.6 Billion Tariff Just Hit Your Grocery Bill —And Trump's Tariffs Might Be Next in Court",
-            "channel_id": "UC98t7re93axuVMlyFKMBHTg",
-            "published_at": "2026-08-30T09:30:37+00:00",
-            "views": 423,
-            "views_per_day": 367,
-            "channel_subscribers": 5
-          },
-          {
-            "video_id": "w2vN2PDfYSk",
-            "title": "BREAKING: Trump LOST Canada — Carney Just SAID NO",
-            "channel_id": "UCj9QefKgDh_uUbyHOs9mOTw",
-            "published_at": "2026-08-29T01:09:31+00:00",
-            "views": 446,
-            "views_per_day": 178,
-            "channel_subscribers": 287
-          },
-          {
-            "video_id": "pLe-sHngbcQ",
-            "title": "JUST IN: Canada HITS BACK With $27 BILLION — And Trump Is In the CROSSHAIRS",
-            "channel_id": "UCbdQjnHdr4-NhBh-k2rDdGQ",
-            "published_at": "2026-08-28T19:01:08+00:00",
-            "views": 105,
-            "views_per_day": 38,
-            "channel_subscribers": 7
-          }
-        ]
-      },
-      "scanner_b_score": 67.1
-    },
-    {
-      "event_id": "f6facea34a2f0573",
-      "scanner": "B",
-      "entity": "OpenAI",
-      "ticker": null,
-      "entity_type": "private_company",
-      "event_title": "OpenAI Cuts Off Cursor After SpaceX's $60 Billion Takeover",
-      "event_timestamp_utc": "2026-08-31T12:38:56+00:00",
-      "categories": [
-        "mna"
-      ],
-      "sec_forms": [],
-      "discovery_score": 49.0,
-      "news_burst_score": 0.0,
-      "source_diversity_score": 55.0,
-      "catalyst_quality_score": 94.0,
-      "freshness_score": 100.0,
-      "evidence_quality_score": 42,
-      "baseline": {
-        "source": "google_news_rss",
-        "current_3h": 0,
-        "baseline_3h_median": 0.0,
-        "short_ratio": 1.0,
-        "current_day": 0,
-        "baseline_day_median": 3.0,
-        "long_ratio": 0.25,
-        "news_burst_score": 0.0,
-        "feed_capped": true
-      },
-      "source_domains": [
-        "citybiz.co",
-        "forbes.com",
-        "qz.com",
-        "techzine.eu"
-      ],
-      "recent_evidence_count": 4,
-      "evidence": [
-        {
-          "title": "OpenAI Cuts Off Cursor After SpaceX's $60 Billion Takeover",
-          "domain": "forbes.com",
-          "source_name": "Forbes",
-          "timestamp_utc": "2026-08-31T12:38:56+00:00",
-          "source_type": "news_rss",
-          "category": "mna",
-          "sec_form": null
-        },
-        {
-          "title": "OpenAI cutting off Cursor AI model access after SpaceX deal",
-          "domain": "qz.com",
-          "source_name": "qz.com",
-          "timestamp_utc": "2026-08-31T11:45:14+00:00",
-          "source_type": "news_rss",
-          "category": "mna",
-          "sec_form": null
-        }
-      ],
-      "youtube_query": "OpenAI Cursor SpaceX model access",
-      "youtube_event_terms": [
-        "Cursor",
-        "SpaceX",
-        "model access"
       ],
       "judge_version": "B_V1",
       "entity_accuracy": "pass",
       "catalyst_reality_score": 23,
       "investor_materiality_score": 20,
-      "novelty_score": 15,
-      "judge_evidence_quality_score": 11,
-      "content_potential_score": 19,
-      "judge_score": 88,
-      "judge_reason": "New AI-platform distribution change tied to a large takeover; strong read-through for model access, developer tools and AI competition.",
-      "verification_note": "Verify the takeover terms and whether model access is fully terminated or only changed for specific products.",
+      "novelty_score": 14,
+      "judge_evidence_quality_score": 15,
+      "content_potential_score": 18,
+      "judge_score": 90,
+      "judge_reason": "Broadcom 官方宣布 VMware AI Factory，属于新的企业 AI 基础设施产品推进，直接关联 VMware 变现与 AI 平台竞争。",
+      "verification_note": "确认产品可用时间、定价/客户范围，以及是否已形成可量化收入贡献。",
       "youtube_metrics": {
         "status": "ok",
-        "query": "OpenAI Cursor SpaceX model access",
-        "raw_sample_size": 50,
-        "relevant_sample_size": 40,
-        "estimated_total_results": 361,
-        "youtube_supply_gap_score": 30.0,
-        "median_views_per_day": 38,
-        "small_channel_sample_size": 38,
-        "small_channel_hit_rate": 5.3,
+        "query": "AVGO VMware AI Factory",
+        "raw_sample_size": 1,
+        "relevant_sample_size": 1,
+        "estimated_total_results": 2,
+        "youtube_supply_gap_score": 100.0,
+        "median_views_per_day": 129,
+        "small_channel_sample_size": 1,
+        "small_channel_hit_rate": 0.0,
         "sample_videos": [
           {
-            "video_id": "hD65CWiKjOE",
-            "title": "Sam Altman Blocked Elon Musk’s Cursor #elonmusk #samaltman #openai #spacex #cursorai #ai #anthropic",
-            "channel_id": "UCk5bonSqXxRqd3miJGNGYpg",
-            "published_at": "2026-08-30T13:27:26+00:00",
-            "views": 48136,
-            "views_per_day": 48648,
-            "channel_subscribers": 97800
-          },
-          {
-            "video_id": "4r56QW71zVw",
-            "title": "Cursor Is Done For (OpenAI Was Just the Start)",
-            "channel_id": "UCf4sXk66VuWGlg4Nh0tuCdA",
-            "published_at": "2026-08-31T07:00:14+00:00",
-            "views": 7940,
-            "views_per_day": 30732,
-            "channel_subscribers": 16400
-          },
-          {
-            "video_id": "hwAGANlyOKE",
-            "title": "OpenAI amenaza a SpaceX con cortar sus modelos de Cursor | OVERFLOW 310826",
-            "channel_id": "UCDEoMeQoD_6l0r6Zj9TKUgA",
-            "published_at": "2026-08-31T10:00:03+00:00",
-            "views": 886,
-            "views_per_day": 6637,
-            "channel_subscribers": 124000
-          },
-          {
-            "video_id": "7YM_xgLqfSs",
-            "title": "OpenAI Just Cut Off Cursor!",
-            "channel_id": "UCAooK-K7f0Ckm9Hf2CLNHDQ",
-            "published_at": "2026-08-30T22:21:29+00:00",
-            "views": 1173,
-            "views_per_day": 1896,
-            "channel_subscribers": 47
-          },
-          {
-            "video_id": "AqS6dGCS_CA",
-            "title": "Why OpenAI is no longer on Cursor",
-            "channel_id": "UCji4PZAzkKvitEKXms4EXnA",
-            "published_at": "2026-08-30T23:00:15+00:00",
-            "views": 447,
-            "views_per_day": 755,
-            "channel_subscribers": 170
-          },
-          {
-            "video_id": "uPMixHsTU1A",
-            "title": "OpenAI Cuts Off Cursor Before Astra | IBM Quantum Claim Challenged",
-            "channel_id": "UCvlbuIiCz691utVrZYbYhIA",
-            "published_at": "2026-08-31T03:27:41+00:00",
-            "views": 227,
-            "views_per_day": 559,
-            "channel_subscribers": 10200
-          },
-          {
-            "video_id": "PPepnZZHvEU",
-            "title": "SpaceX bought Cursor. So OpenAI is walking out",
-            "channel_id": "UCB8FGfFZnWP36OboyYjXEPw",
-            "published_at": "2026-08-31T05:17:31+00:00",
-            "views": 142,
-            "views_per_day": 431,
-            "channel_subscribers": 455
-          },
-          {
-            "video_id": "TQCje6wnFVY",
-            "title": "OpenAI kappt Cursor nach SpaceX-Deal #Shorts",
-            "channel_id": "UCR0P-fsYMZWBNxGc41ZKyww",
-            "published_at": "2026-08-31T12:01:43+00:00",
-            "views": 32,
-            "views_per_day": 256,
-            "channel_subscribers": 44
-          },
-          {
-            "video_id": "AWK_QDKpjgg",
-            "title": "OpenAI Just Cut Off Cursor — You’re About to Pay Twice",
-            "channel_id": "UCev73sNtHnyB2wNkdkLv0pg",
-            "published_at": "2026-08-30T19:04:24+00:00",
-            "views": 190,
-            "views_per_day": 252,
-            "channel_subscribers": 32
-          },
-          {
-            "video_id": "ey0EhUCpyuo",
-            "title": "OpenAI Just Cut Off SpaceX’s Cursor - The AI Feud Gets Real #ainews",
-            "channel_id": "UCSrm_8G8ScxOtY5-T2a-ImA",
-            "published_at": "2026-08-30T12:58:00+00:00",
-            "views": 151,
-            "views_per_day": 150,
-            "channel_subscribers": 35
+            "video_id": "gTj2SkBvVpg",
+            "title": "财报验AI成色：Broadcom的私有云赌局Broadcom財報前AI Factory亮牌：VMware能不能把AI變成企業私有雲生意？ #money #美股  #nvidia #美股分析",
+            "channel_id": "UCYI7jAlTqoFVs7MSkWjaIqw",
+            "published_at": "2026-09-01T02:05:42+00:00",
+            "views": 52,
+            "views_per_day": 129,
+            "channel_subscribers": 352
           }
         ]
       },
-      "scanner_b_score": 64.7
+      "scanner_b_score": 76.9
     },
     {
-      "event_id": "16480add5ead140c",
+      "event_id": "ed2de9d977bf3bda",
       "scanner": "B",
-      "entity": "Anthropic",
-      "ticker": null,
-      "entity_type": "private_company",
-      "event_title": "Anthropic Hit With New Copyright Lawsuit From Sony, Warner",
-      "event_timestamp_utc": "2026-08-31T04:54:55+00:00",
+      "entity": "Western Union CO",
+      "ticker": "WU",
+      "entity_type": "company",
+      "event_title": "AUSTRAC opens AML/CTF probe into Western Union Australia",
+      "event_timestamp_utc": "2026-09-01T05:47:41+00:00",
       "categories": [
         "regulatory_legal"
       ],
       "sec_forms": [],
-      "discovery_score": 39.8,
-      "news_burst_score": 18.0,
-      "source_diversity_score": 20.0,
-      "catalyst_quality_score": 80.0,
-      "freshness_score": 68.0,
-      "evidence_quality_score": 33,
+      "discovery_score": 48.8,
+      "news_burst_score": 34.3,
+      "source_diversity_score": 20,
+      "catalyst_quality_score": 80,
+      "freshness_score": 82,
+      "evidence_quality_score": 45,
+      "youtube_query": "WU AUSTRAC AML probe",
+      "youtube_event_terms": [
+        "AUSTRAC",
+        "AML",
+        "probe"
+      ],
       "baseline": {
         "source": "google_news_rss",
+        "query": "\"western union\" OR \"WU\"",
+        "article_count": 94,
+        "feed_capped": false,
         "current_3h": 1,
-        "baseline_3h_median": 0.0,
-        "short_ratio": 2.0,
-        "current_day": 1,
-        "baseline_day_median": 2.0,
-        "long_ratio": 0.667,
-        "news_burst_score": 18.0,
-        "feed_capped": true
+        "baseline_3h_median": 0,
+        "short_ratio": 2,
+        "current_day": 9,
+        "baseline_day_median": 1,
+        "long_ratio": 5,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 29,
+        "news_burst_score": 34.3
       },
       "source_domains": [
-        "me.pcmag.com"
+        "finance.yahoo.com"
       ],
       "recent_evidence_count": 1,
       "evidence": [
         {
-          "title": "Anthropic Hit With New Copyright Lawsuit From Sony, Warner",
-          "domain": "me.pcmag.com",
-          "source_name": "PCMag Middle East",
-          "timestamp_utc": "2026-08-31T04:54:55+00:00",
           "source_type": "news_rss",
           "category": "regulatory_legal",
-          "sec_form": null
+          "title": "AUSTRAC opens AML/CTF probe into Western Union Australia",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQnhhVlR1d09qRW04dmVYQWlhTkZ5Yi1JcWxGeWd4SGszSGpDcHhRSVNhZm04TlE2NDZidUdtOVJ6RjY3NVhkYXM2cE03d0RZOWl3eTduTk5MeWZWb1hZTUliakdKWDJlUnhBVDR1MEVXekpIMHNZeEdyTjRNR2VnT2FBbDd3REFYdGxEb05KWjhtZm5VTVVJ?oc=5",
+          "domain": "finance.yahoo.com",
+          "source_name": "Yahoo Finance",
+          "timestamp_utc": "2026-09-01T05:47:41+00:00",
+          "entity": "Western Union CO",
+          "ticker": "WU",
+          "cik": "1365135",
+          "entity_type": "company"
         }
       ],
-      "youtube_query": "Anthropic Sony Warner copyright lawsuit",
+      "judge_version": "B_V1",
+      "entity_accuracy": "pass",
+      "catalyst_reality_score": 24,
+      "investor_materiality_score": 19,
+      "novelty_score": 15,
+      "judge_evidence_quality_score": 8,
+      "content_potential_score": 16,
+      "judge_score": 82,
+      "judge_reason": "AUSTRAC 对 Western Union Australia 启动 AML/CTF 调查，属于明确合规风险事件并可能带来成本或处罚。",
+      "verification_note": "核对调查范围以及澳大利亚业务对 WU 总体营收/利润的重要性。",
+      "youtube_metrics": {
+        "status": "ok_no_videos",
+        "query": "WU AUSTRAC AML probe",
+        "raw_sample_size": 0,
+        "relevant_sample_size": 0,
+        "estimated_total_results": 0,
+        "youtube_supply_gap_score": 100.0,
+        "median_views_per_day": 0,
+        "small_channel_hit_rate": 0.0,
+        "sample_videos": []
+      },
+      "scanner_b_score": 75.6
+    },
+    {
+      "event_id": "cca85ac558ca2b73",
+      "scanner": "B",
+      "entity": "SK hynix",
+      "ticker": null,
+      "entity_type": "foreign_company",
+      "event_title": "US-Korea AI: Inside SK hynix’s Indiana HBM Production Base",
+      "event_timestamp_utc": "2026-09-01T09:11:15+00:00",
+      "categories": [
+        "pricing_capacity"
+      ],
+      "sec_forms": [],
+      "discovery_score": 40.9,
+      "news_burst_score": 1.3,
+      "source_diversity_score": 38,
+      "catalyst_quality_score": 77,
+      "freshness_score": 92,
+      "evidence_quality_score": 36,
+      "youtube_query": "SK hynix Indiana HBM production",
       "youtube_event_terms": [
-        "Sony",
-        "Warner",
-        "copyright lawsuit"
+        "Indiana",
+        "HBM",
+        "production"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "\"sk hynix\"",
+        "article_count": 97,
+        "feed_capped": true,
+        "current_3h": 0,
+        "baseline_3h_median": 0,
+        "short_ratio": 1,
+        "current_day": 3,
+        "baseline_day_median": 2.5,
+        "long_ratio": 1.143,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 28,
+        "news_burst_score": 1.3
+      },
+      "source_domains": [
+        "aimagazine.com",
+        "newelectronics.co.uk"
+      ],
+      "recent_evidence_count": 2,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "pricing_capacity",
+          "title": "US-Korea AI: Inside SK hynix’s Indiana HBM Production Base",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPd25oSTRZbkRZNWprNVF3M1p2WS04Yks5TUd3RnZGZlRtdUp5clFFUU54OU9yWjlJZ2FMZjdPM0E0WW9CeU9LZkJCZHIzRUIwdkJLUmNNcng3UG1qSjdxU2tNaXlvLW5XUU1hZERVQ0VsaXptYlZfOGdaSUtnQTB0ZDVOQXRaUDR6WUpMZA?oc=5",
+          "domain": "aimagazine.com",
+          "source_name": "aimagazine.com",
+          "timestamp_utc": "2026-09-01T09:11:15+00:00",
+          "entity": "SK hynix",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "foreign_company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "pricing_capacity",
+          "title": "SK Hynix targets 2029 start for AI memory chip production in Indiana",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPR2dWZld3V0RBVlIzVXp4NFd3UlNjeG9FWEt4UGt6VXVFVXAzT1Rlbl9jSlhtcVFzeFhma2sweFZFYnBoZXQzMC1rNHhqY3A5T2VPbEpPR0VwR2t1OWl4Y0ZGQ3NqYlIyNTNic0ZCdU1pVXhfZGo0Q0hWd3RPdjVSMGdCMXdkSENsYzkzUXZ2VmR0dHVNVU85R29nT3FvM25vWUtwd3pqSy1pZWJzS1ppUzROVmg?oc=5",
+          "domain": "newelectronics.co.uk",
+          "source_name": "New Electronics",
+          "timestamp_utc": "2026-09-01T07:49:08+00:00",
+          "entity": "SK hynix",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "foreign_company"
+        }
       ],
       "judge_version": "B_V1",
       "entity_accuracy": "pass",
       "catalyst_reality_score": 23,
-      "investor_materiality_score": 17,
-      "novelty_score": 15,
-      "judge_evidence_quality_score": 8,
-      "content_potential_score": 17,
-      "judge_score": 80,
-      "judge_reason": "New AI copyright litigation from major rights holders has sector-wide implications despite Anthropic being private.",
-      "verification_note": "Verify court venue, plaintiffs and specific claims from the complaint before using legal details.",
+      "investor_materiality_score": 22,
+      "novelty_score": 13,
+      "judge_evidence_quality_score": 10,
+      "content_potential_score": 18,
+      "judge_score": 86,
+      "judge_reason": "SK hynix 美国 Indiana HBM 生产基地的时间表与 AI 内存布局出现新信息，直接关联 Nvidia/AI 供应链与美国本土化产能。",
+      "verification_note": "确认 2029 量产目标、产品代际与工厂投资规模。",
       "youtube_metrics": {
         "status": "ok",
-        "query": "Anthropic Sony Warner copyright lawsuit",
-        "raw_sample_size": 50,
-        "relevant_sample_size": 29,
-        "estimated_total_results": 106,
-        "youtube_supply_gap_score": 50.0,
-        "median_views_per_day": 16,
-        "small_channel_sample_size": 29,
+        "query": "SK hynix Indiana HBM production",
+        "raw_sample_size": 6,
+        "relevant_sample_size": 4,
+        "estimated_total_results": 32,
+        "youtube_supply_gap_score": 95.0,
+        "median_views_per_day": 265,
+        "small_channel_sample_size": 2,
         "small_channel_hit_rate": 0.0,
         "sample_videos": [
           {
-            "video_id": "AvPBnOaa5ZQ",
-            "title": "Sony & Warner Sue Anthropic for IP Theft",
-            "channel_id": "UC7wvuSNF2mV9bEV5QIxccyg",
-            "published_at": "2026-08-30T14:49:23+00:00",
-            "views": 563,
-            "views_per_day": 604,
-            "channel_subscribers": 19
+            "video_id": "aQk_OSt2h4E",
+            "title": "[SK하이닉스 주가전망] 인디애나 HBM 기대와 장중 약세가 만났다, 주가 반응이 엇갈린 이유",
+            "channel_id": "UCtEg_LyuNhbFWvhwV4DZAoQ",
+            "published_at": "2026-08-31T11:30:14+00:00",
+            "views": 727,
+            "views_per_day": 720,
+            "channel_subscribers": 202000
           },
           {
-            "video_id": "Txxc4q-TBPg",
-            "title": "Sony and Warner Sue Anthropic Over Copyrighted AI Training Data",
-            "channel_id": "UCklsKbQrfhzFamBuf9J6uPA",
-            "published_at": "2026-08-30T10:02:37+00:00",
-            "views": 662,
-            "views_per_day": 585,
-            "channel_subscribers": 13
+            "video_id": "G97mmcoHB3s",
+            "title": "SK하이닉스, 美 인디애나팹 착공…미국산 HBM 만든다",
+            "channel_id": "UC3p-0EWA8OXko2EUDUXAy5w",
+            "published_at": "2026-08-31T04:22:27+00:00",
+            "views": 673,
+            "views_per_day": 515,
+            "channel_subscribers": 529000
           },
           {
-            "video_id": "CFe85r8F-dM",
-            "title": "Sony and Warner Sue Anthropic in Blockbuster AI Music Copyright Case",
-            "channel_id": "UCEWPWbterY0VkfgQqbRwC1w",
-            "published_at": "2026-08-30T15:24:09+00:00",
-            "views": 149,
-            "views_per_day": 164,
-            "channel_subscribers": 37
+            "video_id": "PuF4ifPr0t4",
+            "title": "SK hynix’s 4 Billion Dollar US HBM Bet #SKhynix #HBM #Semiconductors",
+            "channel_id": "UCsJnnNt-4df8hMRiKs_-xtQ",
+            "published_at": "2026-08-29T22:00:12+00:00",
+            "views": 38,
+            "views_per_day": 15,
+            "channel_subscribers": 73
           },
           {
-            "video_id": "YXUr1qfUSgk",
-            "title": "Sony and Warner sue Anthropic over Claude's training",
-            "channel_id": "UC8quYog6YGgfaVMRyebJR6Q",
-            "published_at": "2026-08-30T16:18:07+00:00",
-            "views": 141,
-            "views_per_day": 162,
-            "channel_subscribers": 11
-          },
-          {
-            "video_id": "eFjuxX7PTpQ",
-            "title": "Sony Music vs Anthropic: The copyright case every developer should watch",
-            "channel_id": "UC8Px6G5sKK32xsesNNO_ttQ",
-            "published_at": "2026-08-30T10:11:46+00:00",
-            "views": 155,
-            "views_per_day": 138,
-            "channel_subscribers": 2
-          },
-          {
-            "video_id": "cMhcUTlwdNs",
-            "title": "Today's AI News: Sony Sues Anthropic, $20B AgTech Boom, FDA GenAI Rules",
-            "channel_id": "UCCEhRVrzt5siM_-_LP7kmOA",
-            "published_at": "2026-08-30T13:45:09+00:00",
-            "views": 107,
-            "views_per_day": 109,
-            "channel_subscribers": 18
-          },
-          {
-            "video_id": "JJ0itUpLnBY",
-            "title": "Sony and Warner File Multi-Billion Dollar AI Copyright Suit Against Anthropic",
-            "channel_id": "UCB2MmXdcc4TNEHlj7RKquig",
-            "published_at": "2026-08-31T04:00:22+00:00",
-            "views": 34,
-            "views_per_day": 89,
-            "channel_subscribers": 872
-          },
-          {
-            "video_id": "zvoDMJhIt2E",
-            "title": "Sony and Warner sue Anthropic over pirated song lyrics",
-            "channel_id": "UC0pcZTNiK9isEeizhGN0zRw",
-            "published_at": "2026-08-30T13:34:57+00:00",
-            "views": 54,
-            "views_per_day": 55,
-            "channel_subscribers": 445
-          },
-          {
-            "video_id": "-oCgIKPtPcQ",
-            "title": "Sony & Warner Sue Anthropic — Billions in Damages?",
-            "channel_id": "UCNqmNgLgZMeCvUK3DkSW1xg",
-            "published_at": "2026-08-30T02:09:50+00:00",
-            "views": 68,
-            "views_per_day": 47,
-            "channel_subscribers": 29
-          },
-          {
-            "video_id": "_ZvQRzbvQUw",
-            "title": "Sony and Warner Sue Anthropic: $150,000 Per Song Claimed | AI Top 5",
-            "channel_id": "UC_S2gc65dDBS61OIzHWHU9g",
-            "published_at": "2026-08-30T17:08:27+00:00",
-            "views": 31,
-            "views_per_day": 37,
-            "channel_subscribers": 6
+            "video_id": "4EfjWNnF1_w",
+            "title": "SK하이닉스 HBM, 한국 웨이퍼가 미국 AI 심장으로 가는 이유",
+            "channel_id": "UCJIWWHzwTMdY-gkdZAbQgDA",
+            "published_at": "2026-08-30T19:30:16+00:00",
+            "views": 3,
+            "views_per_day": 2,
+            "channel_subscribers": 59
           }
         ]
       },
-      "scanner_b_score": 61.9
+      "scanner_b_score": 74.3
+    },
+    {
+      "event_id": "24ca7eb49f39f858",
+      "scanner": "B",
+      "entity": "AMAZON COM INC",
+      "ticker": "AMZN",
+      "entity_type": "company",
+      "event_title": "Amazon secretly inflated ad prices, the FTC and 22 states allege in a lawsuit",
+      "event_timestamp_utc": "2026-09-01T04:59:48+00:00",
+      "categories": [
+        "regulatory_legal"
+      ],
+      "sec_forms": [],
+      "discovery_score": 49.5,
+      "news_burst_score": 34.7,
+      "source_diversity_score": 38,
+      "catalyst_quality_score": 80,
+      "freshness_score": 68,
+      "evidence_quality_score": 36,
+      "youtube_query": "AMZN FTC advertising lawsuit",
+      "youtube_event_terms": [
+        "FTC",
+        "advertising",
+        "lawsuit"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "\"amazon com\" OR \"AMZN\"",
+        "article_count": 99,
+        "feed_capped": true,
+        "current_3h": 2,
+        "baseline_3h_median": 1,
+        "short_ratio": 1.5,
+        "current_day": 21,
+        "baseline_day_median": 1,
+        "long_ratio": 11,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 27,
+        "news_burst_score": 34.7
+      },
+      "source_domains": [
+        "nytimes.com",
+        "washingtonpost.com"
+      ],
+      "recent_evidence_count": 2,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "regulatory_legal",
+          "title": "Amazon secretly inflated ad prices, the FTC and 22 states allege in a lawsuit",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOamNFWC1fNUw3NjdNeG9BdHhwSFNVbUNFNkplRVlhMEZQeGJVUmhhaUptRGRqa0ZldFJ0c3c2MVVKTVBEMkVyMUdtcXJFbTlYUS1fbjhmNHk0a1huTHdrWEdoNnFHZVRCODRPZ2FRemR3djFFLTAtSjRuZzRmQkt4MFZJRldFcU4wdVhxSHJpYkFoZzhNWHg0aGg4SGxKcV9aZHViNXlyUUpoVUg4VFpxMlY4M1BXdw?oc=5",
+          "domain": "washingtonpost.com",
+          "source_name": "The Washington Post",
+          "timestamp_utc": "2026-09-01T04:59:48+00:00",
+          "entity": "AMAZON COM INC",
+          "ticker": "AMZN",
+          "cik": "1018724",
+          "entity_type": "company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "regulatory_legal",
+          "title": "FTC and 22 States Sue Amazon Over Advertising Practices",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOWlU3MmpCaE01eGNlN2wzandqZjNIQlpQdXBaUFRweTVEM3RJZi1pcHE4VWs3cjZsNnh1b3cxX1FJTkJZRU9PZmNKdUJ6RXdVMThrQXpDM09ScktoUVJtc2V6dW1iNHlOTkVTT201VFRNS0JQbDBBVlFicUROYXFiUzJpdUpBZw?oc=5",
+          "domain": "nytimes.com",
+          "source_name": "The New York Times",
+          "timestamp_utc": "2026-08-31T19:54:17+00:00",
+          "entity": "AMAZON COM INC",
+          "ticker": "AMZN",
+          "cik": "1018724",
+          "entity_type": "company"
+        }
+      ],
+      "judge_version": "B_V1",
+      "entity_accuracy": "pass",
+      "catalyst_reality_score": 25,
+      "investor_materiality_score": 24,
+      "novelty_score": 15,
+      "judge_evidence_quality_score": 14,
+      "content_potential_score": 20,
+      "judge_score": 98,
+      "judge_reason": "FTC 与多州针对 Amazon 广告拍卖/定价提起新诉讼，涉及平台收入与监管风险，且有 NYT/Washington Post 独立确认。",
+      "verification_note": "核对诉讼中的具体指控、涉案金额与 Amazon 的正式回应。",
+      "youtube_metrics": {
+        "status": "ok",
+        "query": "AMZN FTC advertising lawsuit",
+        "raw_sample_size": 50,
+        "relevant_sample_size": 31,
+        "estimated_total_results": 141,
+        "youtube_supply_gap_score": 50.0,
+        "median_views_per_day": 16,
+        "small_channel_sample_size": 24,
+        "small_channel_hit_rate": 8.3,
+        "sample_videos": [
+          {
+            "video_id": "QNoGI-eNxEs",
+            "title": "FTC Files Lawsuit Against Amazon Alleging Manipulative Ad Prices",
+            "channel_id": "UCg40OxZ1GYh3u3jBntB6DLg",
+            "published_at": "2026-08-31T21:14:18+00:00",
+            "views": 5663,
+            "views_per_day": 9370,
+            "channel_subscribers": 5600000
+          },
+          {
+            "video_id": "otrHNxCxTKE",
+            "title": "FTC Seeks Billions In Amazon Ad Damages | WION News",
+            "channel_id": "UC_gUM8rL-Lrg6O3adPW9K1g",
+            "published_at": "2026-09-01T08:17:59+00:00",
+            "views": 588,
+            "views_per_day": 4098,
+            "channel_subscribers": 10500000
+          },
+          {
+            "video_id": "BLpF4S_JMxc",
+            "title": "Bloomberg News Now: FTC Plans to Sue Amazon",
+            "channel_id": "UChF5O40UBqAc82I7-i5ig6A",
+            "published_at": "2026-08-31T21:10:23+00:00",
+            "views": 1313,
+            "views_per_day": 2163,
+            "channel_subscribers": 560000
+          },
+          {
+            "video_id": "S04Ujp8Cweg",
+            "title": "California & FTC sue Amazon",
+            "channel_id": "UCWjTU_HjqoUxcf6YF9yHKCg",
+            "published_at": "2026-08-31T22:32:33+00:00",
+            "views": 1055,
+            "views_per_day": 1918,
+            "channel_subscribers": 1380
+          },
+          {
+            "video_id": "v-DleICEkyY",
+            "title": "Amazon Slides on FTC Lawsuit, PG&E, Edison Fall, Deere Gains | Stock Movers",
+            "channel_id": "UChF5O40UBqAc82I7-i5ig6A",
+            "published_at": "2026-08-31T20:56:22+00:00",
+            "views": 701,
+            "views_per_day": 1136,
+            "channel_subscribers": 560000
+          },
+          {
+            "video_id": "PbGYqxMoF8g",
+            "title": "FTC Sues Amazon Over $20 Billion Secret Ad Surcharge",
+            "channel_id": "UCrEMOBrO1cWx3z6t2AwFX_Q",
+            "published_at": "2026-08-31T22:06:07+00:00",
+            "views": 596,
+            "views_per_day": 1049,
+            "channel_subscribers": 24
+          },
+          {
+            "video_id": "sOt7j2-V3qA",
+            "title": "FTC가 아마존 광고 소송 제기 — 진짜 쟁점은 최저 단가입니다",
+            "channel_id": "UC2j541t6KnfBhO_5ZSL4puA",
+            "published_at": "2026-09-01T10:00:36+00:00",
+            "views": 96,
+            "views_per_day": 768,
+            "channel_subscribers": 7
+          },
+          {
+            "video_id": "hyPviFdcnPU",
+            "title": "Lawsuit says Amazon 'secretly inflated' advertising fees",
+            "channel_id": "UCp1KrVaZDZ7BOI_QBuTWWmg",
+            "published_at": "2026-08-31T21:20:55+00:00",
+            "views": 377,
+            "views_per_day": 629,
+            "channel_subscribers": 610000
+          },
+          {
+            "video_id": "dE4mKAXifYE",
+            "title": "NYS & FTC sue Amazon for overcharging advertisers",
+            "channel_id": "UCarpqAWmTDGkYyJj5syhAxA",
+            "published_at": "2026-09-01T03:14:05+00:00",
+            "views": 139,
+            "views_per_day": 392,
+            "channel_subscribers": 219000
+          },
+          {
+            "video_id": "Dap23JpxNS0",
+            "title": "PA joins multi-state lawsuit against Amazon over deceptive, unfair advertising prices",
+            "channel_id": "UCHbUdBYY4Eww8AxA9VCbqOw",
+            "published_at": "2026-09-01T00:26:41+00:00",
+            "views": 77,
+            "views_per_day": 164,
+            "channel_subscribers": 24700
+          }
+        ]
+      },
+      "scanner_b_score": 73.8
+    },
+    {
+      "event_id": "b2a7254450851039",
+      "scanner": "B",
+      "entity": "NIO Inc.",
+      "ticker": "NIO",
+      "entity_type": "company",
+      "event_title": "NIO ($NIO) Releases Q2 2026 Earnings",
+      "event_timestamp_utc": "2026-09-01T10:30:00+00:00",
+      "categories": [
+        "earnings_guidance"
+      ],
+      "sec_forms": [],
+      "discovery_score": 46,
+      "news_burst_score": 19.8,
+      "source_diversity_score": 20,
+      "catalyst_quality_score": 90,
+      "freshness_score": 92,
+      "evidence_quality_score": 33,
+      "youtube_query": "NIO Q2 earnings 2026",
+      "youtube_event_terms": [
+        "Q2",
+        "earnings"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "\"nio\" OR \"NIO\"",
+        "article_count": 99,
+        "feed_capped": true,
+        "current_3h": 2,
+        "baseline_3h_median": 1,
+        "short_ratio": 1.5,
+        "current_day": 9,
+        "baseline_day_median": 3,
+        "long_ratio": 2.5,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 28,
+        "news_burst_score": 19.8
+      },
+      "source_domains": [
+        "quiverquant.com"
+      ],
+      "recent_evidence_count": 1,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "earnings_guidance",
+          "title": "NIO ($NIO) Releases Q2 2026 Earnings",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWDI5YVpCY1lKRlpLN1MwOV9HUmF2R2FDdlE2bldvdlBDYUw1cGREYzc3Y2pFR1ZVRDQ2T0twZ1RWZGpCTkxMX3l0MHlxVE84VDkxMlVKWkd1bG5mektQRWVTTHdaWUJ0ZG5DamtEemdLWG1VWWRUalNfYnd4X0NHQQ?oc=5",
+          "domain": "quiverquant.com",
+          "source_name": "Quiver Quantitative",
+          "timestamp_utc": "2026-09-01T10:30:00+00:00",
+          "entity": "NIO Inc.",
+          "ticker": "NIO",
+          "cik": "1736541",
+          "entity_type": "company"
+        }
+      ],
+      "judge_version": "B_V1",
+      "entity_accuracy": "pass",
+      "catalyst_reality_score": 24,
+      "investor_materiality_score": 20,
+      "novelty_score": 15,
+      "judge_evidence_quality_score": 7,
+      "content_potential_score": 19,
+      "judge_score": 85,
+      "judge_reason": "NIO 发布 Q2 2026 财报，是明确的新财务催化；同时 Scanner A 也观察到 NIO earnings 搜索强劲上升。",
+      "verification_note": "正式制作前核对收入、毛利、交付与最新指引，避免只引用聚合摘要。",
+      "youtube_metrics": {
+        "status": "ok",
+        "query": "NIO Q2 earnings 2026",
+        "raw_sample_size": 7,
+        "relevant_sample_size": 7,
+        "estimated_total_results": 23,
+        "youtube_supply_gap_score": 85.0,
+        "median_views_per_day": 8,
+        "small_channel_sample_size": 5,
+        "small_channel_hit_rate": 40.0,
+        "sample_videos": [
+          {
+            "video_id": "V9Nc1jQxKDA",
+            "title": "LIVE: NIO Q2 Earnings Report",
+            "channel_id": "UCzB_l3w3e7-cchFahGWMiYQ",
+            "published_at": "2026-09-01T11:09:28+00:00",
+            "views": 1045,
+            "views_per_day": 8360,
+            "channel_subscribers": 52500
+          },
+          {
+            "video_id": "0XfCt4Gwezw",
+            "title": "Nio Q2 earnings",
+            "channel_id": "UCgIATN6cRo7lK-IEX0Q9-hg",
+            "published_at": "2026-09-01T09:48:57+00:00",
+            "views": 545,
+            "views_per_day": 4360,
+            "channel_subscribers": 5150
+          },
+          {
+            "video_id": "orp5-9_6lsk",
+            "title": "Nio Q2 Earnings: Investor Drops FINAL Prediction! 🤯",
+            "channel_id": "UC9hQ13iGqAG2_9bcjWjsyNg",
+            "published_at": "2026-08-31T10:34:21+00:00",
+            "views": 1536,
+            "views_per_day": 1464,
+            "channel_subscribers": 6830
+          },
+          {
+            "video_id": "nbWIknxI9BA",
+            "title": "NIO (NIO|$10.9B) - 2026 Q3 Earnings Analysis",
+            "channel_id": "UCgSJ8USttBHsqpkkqxPHvrA",
+            "published_at": "2026-09-01T11:10:02+00:00",
+            "views": 1,
+            "views_per_day": 8,
+            "channel_subscribers": 2630
+          },
+          {
+            "video_id": "KY_76B1Sj1g",
+            "title": "🚨NIO STOCK:0.72X SALES EARNINGS TOMORROW! | Nio Stock ",
+            "channel_id": "UCauee_ZRHYhB1-Me3PrfTXw",
+            "published_at": "2026-09-01T11:40:31+00:00",
+            "views": 0,
+            "views_per_day": 0,
+            "channel_subscribers": 175
+          },
+          {
+            "video_id": "wBBKIIe15Pw",
+            "title": "🔴 LIVE: NIO CEO Explains Q2",
+            "channel_id": "UCzB_l3w3e7-cchFahGWMiYQ",
+            "published_at": "2026-09-01T10:00:17+00:00",
+            "views": 0,
+            "views_per_day": 0,
+            "channel_subscribers": 52500
+          },
+          {
+            "video_id": "0KJH3Uc1Q5M",
+            "title": "LIVE:  NIO Inc. Second Quarter 2026 Earnings Conference Call",
+            "channel_id": "UC6FAdYMu1iv-KJpC_fIIelA",
+            "published_at": "2026-09-01T05:59:44+00:00",
+            "views": 0,
+            "views_per_day": 0,
+            "channel_subscribers": 806
+          }
+        ]
+      },
+      "scanner_b_score": 73.3
+    },
+    {
+      "event_id": "126f05551955db1e",
+      "scanner": "B",
+      "entity": "MICRON TECHNOLOGY INC",
+      "ticker": "MU",
+      "entity_type": "company",
+      "event_title": "In Micron lawsuit, DOJ's filing raises a question: Does national security trump state environmental law?",
+      "event_timestamp_utc": "2026-09-01T09:00:00+00:00",
+      "categories": [
+        "regulatory_legal"
+      ],
+      "sec_forms": [],
+      "discovery_score": 47.5,
+      "news_burst_score": 29.7,
+      "source_diversity_score": 20,
+      "catalyst_quality_score": 80,
+      "freshness_score": 92,
+      "evidence_quality_score": 33,
+      "youtube_query": "MU DOJ lawsuit national security environmental",
+      "youtube_event_terms": [
+        "DOJ",
+        "lawsuit",
+        "national security"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "\"micron technology\" OR \"MU\"",
+        "article_count": 97,
+        "feed_capped": true,
+        "current_3h": 1,
+        "baseline_3h_median": 0,
+        "short_ratio": 2,
+        "current_day": 7,
+        "baseline_day_median": 1.5,
+        "long_ratio": 3.2,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 28,
+        "news_burst_score": 29.7
+      },
+      "source_domains": [
+        "centralcurrent.org"
+      ],
+      "recent_evidence_count": 1,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "regulatory_legal",
+          "title": "In Micron lawsuit, DOJ's filing raises a question: Does national security trump state environmental law?",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONnl5dV96dFlUWHRNd25oSFVzV2xEWnYzZjdsc1l6MU9iRnh1ZnM1MTVOaUdoVTFzWS1MUERhY2xuXy1mRWlyTVdnSkd3d3ZCU2RIaGQyaXdSTEdJM3VKTkR1ZDFuMnE0QnB6eGRwTDdpc1lndk9oQTU2OXFoSXkwMTZBenlzVTcyd2VOR21ZaUN0Rk16UnA0UWlYUEVob0NLWVE3M2lucVFLSVBWWnFHQlR1RGM1RzRmQjljUUNIMVd1QWRpcVk4?oc=5",
+          "domain": "centralcurrent.org",
+          "source_name": "Central Current",
+          "timestamp_utc": "2026-09-01T09:00:00+00:00",
+          "entity": "MICRON TECHNOLOGY INC",
+          "ticker": "MU",
+          "cik": "723125",
+          "entity_type": "company"
+        }
+      ],
+      "judge_version": "B_V1",
+      "entity_accuracy": "pass",
+      "catalyst_reality_score": 21,
+      "investor_materiality_score": 20,
+      "novelty_score": 12,
+      "judge_evidence_quality_score": 7,
+      "content_potential_score": 17,
+      "judge_score": 77,
+      "judge_reason": "Micron 项目相关诉讼引出 DOJ 对国家安全与州环境法冲突的立场，对美国半导体本土化审批具有政策含义。",
+      "verification_note": "核对诉讼标的、DOJ 文件的法律立场，以及该案是否会影响 Micron 具体项目进度。",
+      "youtube_metrics": {
+        "status": "ok_no_videos",
+        "query": "MU DOJ lawsuit national security environmental",
+        "raw_sample_size": 0,
+        "relevant_sample_size": 0,
+        "estimated_total_results": 22,
+        "youtube_supply_gap_score": 100.0,
+        "median_views_per_day": 0,
+        "small_channel_hit_rate": 0.0,
+        "sample_videos": []
+      },
+      "scanner_b_score": 72.8
+    },
+    {
+      "event_id": "55516ae9a6015dbb",
+      "scanner": "B",
+      "entity": "OpenAI",
+      "ticker": null,
+      "entity_type": "private_company",
+      "event_title": "OpenAI Hits Back at Apple Lawsuit Claiming It Stole Trade Secrets",
+      "event_timestamp_utc": "2026-09-01T11:04:00+00:00",
+      "categories": [
+        "regulatory_legal"
+      ],
+      "sec_forms": [],
+      "discovery_score": 46.6,
+      "news_burst_score": 5.7,
+      "source_diversity_score": 38,
+      "catalyst_quality_score": 80,
+      "freshness_score": 100,
+      "evidence_quality_score": 60,
+      "youtube_query": "OpenAI Apple trade secrets lawsuit",
+      "youtube_event_terms": [
+        "Apple",
+        "trade secrets",
+        "lawsuit"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "\"openai\"",
+        "article_count": 100,
+        "feed_capped": true,
+        "current_3h": 0,
+        "baseline_3h_median": 0,
+        "short_ratio": 1,
+        "current_day": 6,
+        "baseline_day_median": 3,
+        "long_ratio": 1.75,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 28,
+        "news_burst_score": 5.7
+      },
+      "source_domains": [
+        "bloomberg.com",
+        "wsj.com"
+      ],
+      "recent_evidence_count": 2,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "regulatory_legal",
+          "title": "OpenAI Hits Back at Apple Lawsuit Claiming It Stole Trade Secrets",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdnlicEZtSGZNeVNGYkNDb09mYlJ4WWNjcktnb29tRk96YTJLeHpMT0RvWHItaUJ0OXYzcDgwM0t3MFlZVXo2OWdRbWlVSmJvNWhRS2tYemJOQjkwUEliUVhqN0VBQVVkNG1VUU9FTVRaTGViZHNYMTlQWXN0d3NDeWcxeEVVdHlzNmRrckpjTVJYUDF2eGhTOUoxbE95cVd5?oc=5",
+          "domain": "wsj.com",
+          "source_name": "WSJ",
+          "timestamp_utc": "2026-09-01T11:04:00+00:00",
+          "entity": "OpenAI",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "private_company"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "regulatory_legal",
+          "title": "Apple Says OpenAI Is Destroying Evidence in Trade Secrets Case",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNYm5Mc1dzaE9XYzVCTnU3UDBlZk8xOTdYV2RObUVrSW1vcUVSZFQ1NlBNYmRBc0NsNzU1X1hYYmpCbmQwcnd6REtLRFVBVjlVSHRkSEJUQ0hNQTEyaHVQMGZ5VGMzZThJOVNCcDVZWUVLX2lUdFdjU21ZaGNRSm11d2VVZS1UUWItMGpnODhlRUpXTENqX2ZQNDYxV0N3S2R0RHA4ZHE5ZThjc0lEaGVhemk5Yw?oc=5",
+          "domain": "bloomberg.com",
+          "source_name": "Bloomberg.com",
+          "timestamp_utc": "2026-09-01T06:43:00+00:00",
+          "entity": "OpenAI",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "private_company"
+        }
+      ],
+      "judge_version": "B_V1",
+      "entity_accuracy": "pass",
+      "catalyst_reality_score": 23,
+      "investor_materiality_score": 20,
+      "novelty_score": 13,
+      "judge_evidence_quality_score": 14,
+      "content_potential_score": 18,
+      "judge_score": 88,
+      "judge_reason": "OpenAI 与 Apple 的商业秘密诉讼升级，WSJ/Bloomberg 支持，涉及 AI 人才、知识产权与大型科技竞争。",
+      "verification_note": "核对双方最新法庭文件，区分已经裁定的事实与双方指控。",
+      "youtube_metrics": {
+        "status": "ok",
+        "query": "OpenAI Apple trade secrets lawsuit",
+        "raw_sample_size": 14,
+        "relevant_sample_size": 12,
+        "estimated_total_results": 33,
+        "youtube_supply_gap_score": 70.0,
+        "median_views_per_day": 5,
+        "small_channel_sample_size": 11,
+        "small_channel_hit_rate": 0.0,
+        "sample_videos": [
+          {
+            "video_id": "vGOAkSui85Y",
+            "title": "Apple Files ‘Shocking Evidence’ in OpenAI Lawsuit Over Stolen Data | WION News",
+            "channel_id": "UC_gUM8rL-Lrg6O3adPW9K1g",
+            "published_at": "2026-09-01T09:28:36+00:00",
+            "views": 300,
+            "views_per_day": 2400,
+            "channel_subscribers": 10500000
+          },
+          {
+            "video_id": "osw582t3lIE",
+            "title": "🚨 Apple vs OpenAI: конфликт из-за секретов и нового AI-железа #ai #ainews #shorts",
+            "channel_id": "UCPiwpQF-0s_xcwzyavGl50A",
+            "published_at": "2026-09-01T07:28:43+00:00",
+            "views": 41,
+            "views_per_day": 231,
+            "channel_subscribers": 298
+          },
+          {
+            "video_id": "vIaXWSbU1fA",
+            "title": "【Yipee科技新聞】OpenAI 再出招反擊 Apple 蘋果！批評侵害商業機密指控缺乏具體事實，要求法院直接駁回訴訟",
+            "channel_id": "UCVqmM56GBWVxJc-QqHzlIXw",
+            "published_at": "2026-08-31T23:30:30+00:00",
+            "views": 29,
+            "views_per_day": 57,
+            "channel_subscribers": 12800
+          },
+          {
+            "video_id": "R2g52sPWUng",
+            "title": "Apple Just Dropped a Bombshell on OpenAI",
+            "channel_id": "UCvjazyd1n9MRSpdq86nTxsQ",
+            "published_at": "2026-09-01T09:55:14+00:00",
+            "views": 4,
+            "views_per_day": 32,
+            "channel_subscribers": 3
+          },
+          {
+            "video_id": "T0m-2cRVZzc",
+            "title": "Apple Accuses Ex-Employee of Data Theft for OpenAI 🚨",
+            "channel_id": "UC5MFLDzs7w-KVMp-0RZYcRg",
+            "published_at": "2026-09-01T10:04:46+00:00",
+            "views": 1,
+            "views_per_day": 8,
+            "channel_subscribers": 2040
+          },
+          {
+            "video_id": "FSE7eDHu20M",
+            "title": "Apple Says OpenAI Is Destroying Evidence in Trade Secrets Case",
+            "channel_id": "UC5JsJrGzFAchrrpSG-QH8Cw",
+            "published_at": "2026-09-01T08:06:43+00:00",
+            "views": 1,
+            "views_per_day": 7,
+            "channel_subscribers": 464
+          },
+          {
+            "video_id": "XDvaNgM_KSc",
+            "title": "Apple Accuses OpenAI of Data Theft!",
+            "channel_id": "UCWznUQ0EZz2kjXW04a_7DEQ",
+            "published_at": "2026-09-01T00:31:18+00:00",
+            "views": 2,
+            "views_per_day": 4,
+            "channel_subscribers": 197
+          },
+          {
+            "video_id": "nxKLhe8aBCc",
+            "title": "What's Really at Stake in Apple vs OpenAI #ai #llm #education #fyp #shorts #viral",
+            "channel_id": "UCx6zaFberrPGGzLI5F28v0A",
+            "published_at": "2026-08-31T17:00:23+00:00",
+            "views": 1,
+            "views_per_day": 1,
+            "channel_subscribers": 5
+          },
+          {
+            "video_id": "kcO5ciSRzjU",
+            "title": "Apple Accuses OpenAI of Destroying Evidence!",
+            "channel_id": "UCJ_nNNQJ7JscSFbCxlhXf0A",
+            "published_at": "2026-09-01T11:36:21+00:00",
+            "views": 0,
+            "views_per_day": 0,
+            "channel_subscribers": 0
+          },
+          {
+            "video_id": "Qu2SYRuy8bs",
+            "title": "Apple Escalates OpenAI Lawsuit with 'Shocking Evidence' of Trade Secret Theft",
+            "channel_id": "UCfHkJPerlRIAij0SQgzd_pA",
+            "published_at": "2026-09-01T08:00:46+00:00",
+            "views": 0,
+            "views_per_day": 0,
+            "channel_subscribers": 58
+          }
+        ]
+      },
+      "scanner_b_score": 72.0
+    },
+    {
+      "event_id": "039227a26d51fddb",
+      "scanner": "B",
+      "entity": "Bitcoin / Crypto",
+      "ticker": null,
+      "entity_type": "crypto",
+      "event_title": "Bitcoin ETFs see biggest weekly inflow since 20...",
+      "event_timestamp_utc": "2026-09-01T11:23:51+00:00",
+      "categories": [
+        "crypto"
+      ],
+      "sec_forms": [],
+      "discovery_score": 52.6,
+      "news_burst_score": 0,
+      "source_diversity_score": 88,
+      "catalyst_quality_score": 70,
+      "freshness_score": 100,
+      "evidence_quality_score": 60,
+      "youtube_query": "Bitcoin ETF inflows Aug 31",
+      "youtube_event_terms": [
+        "Bitcoin ETF",
+        "inflows"
+      ],
+      "baseline": {
+        "source": "google_news_rss",
+        "query": "Bitcoin OR Ethereum OR crypto",
+        "article_count": 100,
+        "feed_capped": true,
+        "current_3h": 0,
+        "baseline_3h_median": 0,
+        "short_ratio": 1,
+        "current_day": 0,
+        "baseline_day_median": 3,
+        "long_ratio": 0.25,
+        "short_history_buckets": 23,
+        "daily_history_buckets": 28,
+        "news_burst_score": 0
+      },
+      "source_domains": [
+        "bitget.com",
+        "coinpedia.org",
+        "finance.yahoo.com",
+        "hedgeco.net",
+        "kucoin.com",
+        "moomoo.com",
+        "pluang.com",
+        "techtimes.com"
+      ],
+      "recent_evidence_count": 9,
+      "evidence": [
+        {
+          "source_type": "news_rss",
+          "category": "crypto",
+          "title": "Bitcoin ETFs see biggest weekly inflow since 20...",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVHdPbkRnX2p4cXVNNFlsVnZDVm5VbnF5UGFkb2YySElQT2JyUUk1TEYxeDJfSTZ3V2NlQVRjaGladTRFRDVnczdmc3ZPTFZ5NFByZ2pGQkFOSXNJUmtsZ0plZVNselBPUEZPZ2VRbVp4cXFxTWZkSXE1dmkxeVA4NDlQUlJtR0FzajVZRHN4N0RyZThtVVoycThwNjBrcElNM2ZV?oc=5",
+          "domain": "pluang.com",
+          "source_name": "Pluang",
+          "timestamp_utc": "2026-09-01T11:23:51+00:00",
+          "entity": "Bitcoin / Crypto",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "crypto"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "crypto",
+          "title": "Crypto Winter Melts: Biggest Weekly Crypto ETF Buying Spree Since the October Flash Crash",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRW50eTlzSXMxSk9LY3kwM3owV2RtaS16RlR0X01wMXNKOGdHQTNuWmxQQy1HZlBpN0NLYWxyb0ViR0Z3Nk1paTUxd0VhQkhVbkpCdGJ3NFNZZkxwbm9Tc3A3eUFGS2FyNGNSSFZBX3BjcWNHUDJJR2JhMlF6eHBRNUpRR1FpUTNqNHl6U1N5eERxVEptRkdzaUF2NVgwRzdn?oc=5",
+          "domain": "finance.yahoo.com",
+          "source_name": "Yahoo Finance",
+          "timestamp_utc": "2026-09-01T11:07:10+00:00",
+          "entity": "Bitcoin / Crypto",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "crypto"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "crypto",
+          "title": "U.S. Spot Bitcoin and Ether ETFs See $217M and $87.68M Inflows on Aug. 31",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSVg5T1BXTUF2RkM5aEtBVG53dU1pYVo4MTNCWlZ5NzkwQ0R4b2J6NzFHXzZnaVU2OGJ5V3FlNzBQbnVDbmF6dlpMaW1LV2xnX3ZFY3p2Zk5rbGI1dE5ta0llMEhreUdGRXpOYV9hUGxqNEdld0lwUGtjSThpRnJ5eUlSM2dzRGY0bjB2bzNUdF8zeGhGLXVibWY3b285VnpzaG8zaUZn?oc=5",
+          "domain": "kucoin.com",
+          "source_name": "KuCoin",
+          "timestamp_utc": "2026-09-01T05:40:22+00:00",
+          "entity": "Bitcoin / Crypto",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "crypto"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "crypto",
+          "title": "Bitcoin ETFs have just recorded their best week since October 2025. This is why the author remains bullish on Bitcoin.",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOaU1oV3VDOW5QM0ptcVFTQXZ4Ykdqakx4cTRSanJyUjF0Y3JEU2ZWSWZXOVFiWHFkbXFIdkIxVlR3SFBKUU5SWW05Nml1bmcxZnBoVXJyR3JFWTA2aTJmYVA4c3RjaVRaekx0SVpPYmthUTJlcHpIRmMtQzhPaWp2SnQ2QmlSOW9IVjFoZDc3OWhYZHgyQ1gxcV9yVUhKWVRrWlNkYXlR?oc=5",
+          "domain": "moomoo.com",
+          "source_name": "Moomoo",
+          "timestamp_utc": "2026-09-01T05:35:00+00:00",
+          "entity": "Bitcoin / Crypto",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "crypto"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "crypto",
+          "title": "Bitcoin ETFs have just recorded their best weekly performance since October 2025. This is why the author remains bullish on Bitcoin.",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMU9hTFVJNUNIQV9BWGdzSmxnamZ3TEtKZHN5THM2QVFabjA0c3ZmWnhjVUdRSURvNmdsQWxaRS1zRVB3LWRNYXY5UzJENnY1V2k2VHQtS3lLZFRWeHNmaVZ4aVhXN3VBVUVGaEYzeVBjT3k0MFN3cTdXSnhuYnJVbGphVWo5V1JjZ28xbEMtRUo2S0QyTTJfczJ3NEh4Mld5M3I1Mi1DdmxMU2l3M0E?oc=5",
+          "domain": "moomoo.com",
+          "source_name": "Moomoo",
+          "timestamp_utc": "2026-09-01T05:35:00+00:00",
+          "entity": "Bitcoin / Crypto",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "crypto"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "crypto",
+          "title": "Bitcoin ETFs Draw $3.2B in Best Week Since October as Strategy Ends Buying Pause",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxORXJxVnFadWVvX3JUM3N6M182U2tSa21sRjhOcjFfVzA4TmZsSmtpRjByNW44bGVPWU9BMlZ6MjNEZkJScVF6aUE5QkwweDhvdmFhOFlidldXSTZaOGpvVU9IWDVPVktUY1piMWNTVkMyZHN3blhNMjAydEdjbld3TEFKUWVlMzBYTTRPV19CV1ZuNklJenljUUdrY0w5MXYzalJlR0NxOHFPYkxIWGxkbEtLRkNTd2tPS0R6OGx4WDJlVF9yNXc?oc=5",
+          "domain": "techtimes.com",
+          "source_name": "Tech Times",
+          "timestamp_utc": "2026-08-31T20:48:57+00:00",
+          "entity": "Bitcoin / Crypto",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "crypto"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "crypto",
+          "title": "Bitcoin ETFs see $210M outflow as Ethereum ETFs extend winning streak to ten days",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9uRHptVUZPWWFPd3pNcXBldmI2Y2JNMGgyOEVkMm9JcXdvSVlDWU9Nek1heVNwcENfMkxrWGpJMDlrNjE2cUY4Sm5QOVpVaUR3WWxlSkNkMXJZc0xWZ1NETlMtONIBY0FVX3lxTE9uRHptVUZPWWFPd3pNcXBldmI2Y2JNMGgyOEVkMm9JcXdvSVlDWU9Nek1heVNwcENfMkxrWGpJMDlrNjE2cUY4Sm5QOVpVaUR3WWxlSkNkMXJZc0xWZ1NETlMtOA?oc=5",
+          "domain": "bitget.com",
+          "source_name": "Bitget",
+          "timestamp_utc": "2026-08-31T19:36:36+00:00",
+          "entity": "Bitcoin / Crypto",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "crypto"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "crypto",
+          "title": "Spot Bitcoin ETFs Posted a $201.8 Million Outflow on August 28, Ending a Nine-Day Inflow Run",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPcVBVc3lHczBaX2I0M2ZtaC1XQk4xRHl5TDNLTElvdlNLN2dPRTRjdGxmNUtITmtLS25KVmU5RGQ5X3R6b0VuVVhfWEpWTHZQbTlNTnJkZ1oxZTk2NC0ydWZ6NTBDRTY1WEs3UGpxaENydDJCajdBU1kwVGZVTUdnU3c2ei1waU9BYU5yX05IUG0ybE41NFpVSk96LWVwNkFydTBoWUVUYXdlYXBnUHpxLXZzUVhYS3BfS0tocTFvWDl1R1FEYTRv?oc=5",
+          "domain": "hedgeco.net",
+          "source_name": "HedgeCo.Net",
+          "timestamp_utc": "2026-08-31T19:35:39+00:00",
+          "entity": "Bitcoin / Crypto",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "crypto"
+        },
+        {
+          "source_type": "news_rss",
+          "category": "crypto",
+          "title": "U.S. Crypto ETFs See Over $2 Billion in Weekly Inflows",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOLTRsSkNiZUN2aUh2MG1zMUx5TlVwSEJicEVqbHl3ZFdjY2R1b2NLeExJOXUzOGZhYlltQ0J3dl9SQlFtYzlzTzNnQzdadm9yR2FTQjNfWEF0ME9ybEVvTG1nTndOS2dHb0RGaTBzWXc2cTlnSkg1XzBWQzRyYWdRckc2UnlzblNQYzZPRExVR2tNRHI1QnZz0gGcAUFVX3lxTE9BWTRvYjJIQ0RxLWpZU01sVDBLMjFZckNncEdHTUVkb2d1QkF0Qm9WcHNOUU5Yb2ptT3ROTFRoVkhSaFhSYkR2cnlzaElTeTJNbkI5clJBdEJ3YkFqN05KRTltN3NfZm9najBQWXdIRmUwWWVtenFVeEotWVdFallsUGlNbkdKYnhFVFJMdFNGRXBBS015UmJfdl93ag?oc=5",
+          "domain": "coinpedia.org",
+          "source_name": "coinpedia.org",
+          "timestamp_utc": "2026-08-31T16:08:31+00:00",
+          "entity": "Bitcoin / Crypto",
+          "ticker": null,
+          "cik": null,
+          "entity_type": "crypto"
+        }
+      ],
+      "judge_version": "B_V1",
+      "entity_accuracy": "pass",
+      "catalyst_reality_score": 22,
+      "investor_materiality_score": 18,
+      "novelty_score": 13,
+      "judge_evidence_quality_score": 10,
+      "content_potential_score": 17,
+      "judge_score": 80,
+      "judge_reason": "美国现货 Bitcoin/Ether ETF 资金流重新显著转强，是可验证的机构资金信号并具高内容可读性。",
+      "verification_note": "核对具体日期、BTC 与 ETH 分项资金流，避免把周度与单日数据混用。",
+      "youtube_metrics": {
+        "status": "ok",
+        "query": "Bitcoin ETF inflows Aug 31",
+        "raw_sample_size": 41,
+        "relevant_sample_size": 12,
+        "estimated_total_results": 362,
+        "youtube_supply_gap_score": 70.0,
+        "median_views_per_day": 0,
+        "small_channel_sample_size": 12,
+        "small_channel_hit_rate": 0.0,
+        "sample_videos": [
+          {
+            "video_id": "GupoYat5huM",
+            "title": "Why XRP Price Isn't Pumping Despite $1 Billion ETF Inflows",
+            "channel_id": "UCe37D1b2lk5veTQcnuhEMFA",
+            "published_at": "2026-08-31T15:48:52+00:00",
+            "views": 178,
+            "views_per_day": 214,
+            "channel_subscribers": 27
+          },
+          {
+            "video_id": "9JeGiNLc0nU",
+            "title": "Bitcoin ETF Inflows Near $1B | BTC Stuck Below $80K | Is Michael Saylor Buying Again?",
+            "channel_id": "UCVQvkhK9tx45MezfEAKNWOA",
+            "published_at": "2026-09-01T04:09:24+00:00",
+            "views": 11,
+            "views_per_day": 35,
+            "channel_subscribers": 1270
+          },
+          {
+            "video_id": "71nVXrrSORc",
+            "title": "Bitcoin ETF Outflows Hit — Is the Rally in Trouble?",
+            "channel_id": "UCWDjfCZGYRkUQzQ6O7vs_Pw",
+            "published_at": "2026-09-01T06:16:39+00:00",
+            "views": 7,
+            "views_per_day": 31,
+            "channel_subscribers": 15600
+          },
+          {
+            "video_id": "FVuF7xo25qk",
+            "title": "Bitcoin ETFs Just Broke a Nine-Day Winning Streak",
+            "channel_id": "UCSxpdxS85r2jYKHQ24kAd1A",
+            "published_at": "2026-08-31T09:44:18+00:00",
+            "views": 9,
+            "views_per_day": 8,
+            "channel_subscribers": 3
+          },
+          {
+            "video_id": "mmNOeyOEivU",
+            "title": "Bitcoin Closes Best August Since 2017 With 24% Gain Driven by ETF Inflows",
+            "channel_id": "UCQnK5oQ9E7wLbd7F3ybx-Eg",
+            "published_at": "2026-08-31T11:43:03+00:00",
+            "views": 1,
+            "views_per_day": 1,
+            "channel_subscribers": 4
+          },
+          {
+            "video_id": "JwfC4dPeT6c",
+            "title": "Спотовые Bitcoin ETF привлекли $924 млн за неделю, пока ястребиная ФРС удерживает BTC ниже $80K",
+            "channel_id": "UCZLXZa4sAp8GgYikPr_U7_g",
+            "published_at": "2026-08-31T08:45:08+00:00",
+            "views": 1,
+            "views_per_day": 1,
+            "channel_subscribers": 5
+          },
+          {
+            "video_id": "qqT8IzFxsWw",
+            "title": "BlackRock's Crypto Surge: $350M Inflows into Bitcoin & Ethereum ETFs! #shorts",
+            "channel_id": "UCEYR41DOBsiQuHJ41uezKkw",
+            "published_at": "2026-08-31T22:28:32+00:00",
+            "views": 0,
+            "views_per_day": 0,
+            "channel_subscribers": 2
+          },
+          {
+            "video_id": "rLL8ZqLteWc",
+            "title": "Bitcoin ETFs Just Lost $202 MILLION",
+            "channel_id": "UCF9RWAkqu_bWOpoXhwg5fMg",
+            "published_at": "2026-08-31T17:01:17+00:00",
+            "views": 0,
+            "views_per_day": 0,
+            "channel_subscribers": 9
+          },
+          {
+            "video_id": "oYQ3DYByqd8",
+            "title": "O dia até agora: Bitcoin ETFs Snap Nine-Day Inflow Streak as Ethereum Funds Extend Their Run | Velum",
+            "channel_id": "UC7m6B-brfwieite-YM-wliA",
+            "published_at": "2026-08-31T16:15:01+00:00",
+            "views": 0,
+            "views_per_day": 0,
+            "channel_subscribers": 4
+          },
+          {
+            "video_id": "XWLKJVPq53s",
+            "title": "ETF Inflows, Price Still Fell: Here's Why",
+            "channel_id": "UCo7gJokoZj9qlbPZE2kfHCA",
+            "published_at": "2026-08-31T14:33:34+00:00",
+            "views": 0,
+            "views_per_day": 0,
+            "channel_subscribers": 35
+          }
+        ]
+      },
+      "scanner_b_score": 69.8
     }
   ]
 }
