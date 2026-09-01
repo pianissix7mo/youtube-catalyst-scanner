@@ -2,20 +2,6 @@ name: Scanner B - Discovery
 
 on:
   workflow_dispatch:
-  pull_request:
-  push:
-    branches: [main]
-    paths:
-      - "*.py"
-      - "config.json"
-      - "requirements.txt"
-      - ".github/workflows/scanner_b.yml"
-  schedule:
-    # Toronto 02:15. Keep both UTC entries for DST, but select by Toronto's
-    # current UTC offset instead of the workflow's actual start hour. GitHub
-    # scheduled runs can be delayed, so checking wall-clock start time is not reliable.
-    - cron: "15 6 * * *"
-    - cron: "15 7 * * *"
 
 permissions:
   contents: write
