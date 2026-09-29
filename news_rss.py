@@ -13,14 +13,14 @@ import requests
 GOOGLE_NEWS_RSS = "https://news.google.com/rss/search"
 
 
-def parse_pubdate(value: str) -> datetime:
+def parse_pubdate(value: str) -> datetime | None:
     try:
         dt = parsedate_to_datetime(value)
         if dt.tzinfo is None:
             dt = dt.replace(tzinfo=timezone.utc)
         return dt.astimezone(timezone.utc)
     except Exception:
-        return datetime.now(timezone.utc)
+        return None
 
 
 def clean_headline(title: str, source_name: str) -> str:
@@ -82,7 +82,7 @@ def fetch_google_news(
         guid = (item.findtext("guid", default="") or "").strip()
         published = parse_pubdate(item.findtext("pubDate", default=""))
         domain = urlparse(source_url).netloc.lower().removeprefix("www.") if source_url else ""
-        if not title:
+        if not title or published is None:
             continue
 
         key = story_key(title)
