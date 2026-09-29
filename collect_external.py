@@ -19,9 +19,10 @@ from scanner_common import (
     TICKER_DENYLIST,
     clean_company_name,
     ensure_dirs,
+    explicit_ticker_tokens,
     normalize_text,
     parse_timestamp,
-    title_similarity,
+    same_event_title,
     write_json,
 )
 
@@ -94,10 +95,7 @@ def load_sec_universe(s: requests.Session) -> tuple[dict[str, dict[str, Any]], d
 
 
 def match_company(title: str, by_ticker: dict[str, dict[str, Any]], first_word_index: dict[str, list[dict[str, Any]]]) -> dict[str, Any] | None:
-    upper_tokens = re.findall(r"(?<![A-Z0-9])\$?([A-Z]{2,5})(?![A-Z0-9])", title)
-    for token in upper_tokens:
-        if token in TICKER_DENYLIST:
-            continue
+    for token in explicit_ticker_tokens(title):
         if token in by_ticker:
             return by_ticker[token]
 
@@ -159,7 +157,10 @@ def collect_gdelt(
                 continue
             seen_urls.add(url)
             company = match_company(title, by_ticker, first_word_index)
-            ts = parse_timestamp(str(article.get("seendate") or article.get("date") or ""))
+            try:
+                ts = parse_timestamp(str(article.get("seendate") or article.get("date") or ""))
+            except ValueError:
+                continue
             domain = str(article.get("domain") or urlparse(url).netloc).lower().removeprefix("www.")
             base = {
                 "source_type": "news",
@@ -217,7 +218,10 @@ def collect_sec_current(s: requests.Session, by_cik: dict[str, dict[str, Any]], 
         for entry in root.findall("a:entry", atom_ns):
             title = (entry.findtext("a:title", default="", namespaces=atom_ns) or "").strip()
             updated = (entry.findtext("a:updated", default="", namespaces=atom_ns) or "").strip()
-            ts = parse_timestamp(updated)
+            try:
+                ts = parse_timestamp(updated)
+            except ValueError:
+                continue
             if ts < cutoff:
                 continue
             link_el = entry.find("a:link", atom_ns)
@@ -269,7 +273,7 @@ def cluster_evidence(evidence: list[dict[str, Any]]) -> list[dict[str, Any]]:
             for cluster in entity_clusters:
                 if str(cluster.get("cluster_key") or "").startswith("sec:"):
                     continue
-                if title_similarity(row["title"], cluster["representative_title"]) >= 0.34:
+                if same_event_title(row["title"], cluster["representative_title"]):
                     target = cluster
                     break
             if target is None:
@@ -288,7 +292,15 @@ def cluster_evidence(evidence: list[dict[str, Any]]) -> list[dict[str, Any]]:
             categories = sorted({str(x.get("category") or "") for x in ev if x.get("category")})
             forms = sorted({str(x.get("sec_form") or "") for x in ev if x.get("sec_form")})
             domains = sorted({str(x.get("domain") or "") for x in ev if x.get("domain")})
-            latest = max(parse_timestamp(str(x.get("timestamp_utc") or "")) for x in ev)
+            timestamps: list[datetime] = []
+            for row in ev:
+                try:
+                    timestamps.append(parse_timestamp(str(row.get("timestamp_utc") or "")))
+                except ValueError:
+                    continue
+            if not timestamps:
+                continue
+            latest = max(timestamps)
             first = ev[0]
             clusters.append({
                 "entity": entity,
