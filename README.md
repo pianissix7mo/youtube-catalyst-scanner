@@ -152,13 +152,17 @@ YouTube supply-gap enrichment
 output/latest.json + latest.md
 ```
 
-## Daily timing
+## Scheduling / legacy-repo status
 
-- **05:10 America/Toronto** — GitHub discovery workflow builds fresh candidates.
-- **05:55 America/Toronto** — ChatGPT Judge B V1 reviews candidates and writes the approved list.
-- Writing `data/selected_events.json` automatically triggers YouTube enrichment.
+This repository's discovery schedule was intentionally disabled on **2026-09-01**
+after the scheduled production flow moved to the unified repository. In this repo,
+`.github/workflows/scanner_b.yml` is currently **manual (`workflow_dispatch`) only**.
 
-The discovery workflow uses two UTC cron entries plus a Toronto local-hour guard so DST does not shift the intended local run hour.
+Writing a fresh `data/selected_events.json` on `main` still triggers YouTube
+enrichment. Enrichment rejects a Judge selection when its
+`source_candidates_generated_at_utc` does not match the current
+`judge_candidates.json`, or when that source candidate set is older than the
+configured freshness window.
 
 ## Files
 
