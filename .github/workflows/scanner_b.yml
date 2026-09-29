@@ -7,8 +7,8 @@ permissions:
   contents: write
 
 concurrency:
-  group: scanner-b-discovery-${{ github.event_name }}-${{ github.ref }}
-  cancel-in-progress: true
+  group: scanner-b-discovery-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
   scan:
@@ -54,7 +54,11 @@ jobs:
 
       - name: Syntax check
         if: steps.guard.outputs.run == 'true'
-        run: python -m py_compile scanner_common.py collect_external.py collect_external_safe.py news_rss.py collect_rss.py clean_events.py rank_candidates.py rank_rss.py rank_for_judge.py make_judge_review.py youtube_enrich.py
+        run: python -m py_compile scanner_common.py collect_external.py collect_external_safe.py news_rss.py collect_rss.py clean_events.py rank_candidates.py rank_rss.py rank_for_judge.py make_judge_review.py youtube_enrich.py test_scanner.py
+
+      - name: Regression tests
+        if: steps.guard.outputs.run == 'true'
+        run: python -m unittest -v test_scanner.py
 
       - name: Collect external catalysts
         if: steps.guard.outputs.run == 'true'
@@ -98,4 +102,5 @@ jobs:
             exit 0
           fi
           git commit -m "Update Scanner B discovery candidates"
-          git push
+          git pull --rebase origin "$GITHUB_REF_NAME"
+          git push origin "HEAD:$GITHUB_REF_NAME"
