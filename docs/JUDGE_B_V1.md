@@ -163,3 +163,9 @@ The top-level JSON written to `data/selected_events.json` must contain:
 - `judge_version`: `B_V1`
 - `notes`
 - `events`
+
+`source_candidates_generated_at_utc` must be copied exactly from the
+`generated_at_utc` value of the `data/judge_candidates.json` file that was
+actually reviewed. Do not reuse an older selection against a newer candidate
+file. YouTube enrichment independently verifies this provenance and also rejects
+candidate sets older than the configured freshness window.
