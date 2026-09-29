@@ -65,12 +65,26 @@ jobs:
           print(f'Validated {len(events)} Judge B events')
           PY
 
+      - name: Check selection is still current
+        id: current
+        shell: bash
+        run: |
+          git fetch origin "$GITHUB_REF_NAME"
+          if git diff --quiet HEAD "origin/$GITHUB_REF_NAME" -- data/selected_events.json; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+            echo "A newer selected_events.json exists; skipping stale enrichment."
+          fi
+
       - name: YouTube supply-gap enrichment
+        if: steps.current.outputs.run == 'true'
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: python youtube_enrich.py
 
       - name: Upload enrichment artifact
+        if: steps.current.outputs.run == 'true'
         uses: actions/upload-artifact@v4
         with:
           name: scanner-b-enrichment-latest
@@ -81,10 +95,16 @@ jobs:
           retention-days: 14
 
       - name: Commit enrichment output
+        if: steps.current.outputs.run == 'true'
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin "$GITHUB_REF_NAME"
+          if ! git diff --quiet HEAD "origin/$GITHUB_REF_NAME" -- data/selected_events.json; then
+            echo "Selection changed during enrichment; refusing to commit stale output."
+            exit 0
+          fi
           git add output/latest.json output/latest.md
           if git diff --cached --quiet; then
             echo "No enrichment changes to commit"
