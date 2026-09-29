@@ -25,5 +25,8 @@
     "424B2",
     "SC 13D",
     "SC 13G"
-  ]
+  ],
+  "judge_live_baseline_query_cap": 80,
+  "selected_events_max_age_hours": 24,
+  "youtube_relevance_language": "zh-Hans"
 }
