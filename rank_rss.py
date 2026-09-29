@@ -15,6 +15,7 @@ from news_rss import fetch_google_news
 from scanner_common import (
     DATA,
     clean_company_name,
+    content_tokens,
     ensure_dirs,
     load_config,
     median,
@@ -34,13 +35,21 @@ THEME_BASELINE_QUERY = {
 
 def baseline_query(event: dict) -> str:
     entity = str(event.get("entity") or "").strip()
-    if entity in THEME_BASELINE_QUERY:
-        return THEME_BASELINE_QUERY[entity]
     ticker = str(event.get("ticker") or "").strip()
     clean = clean_company_name(entity) or entity
-    if ticker:
-        return f'"{clean}" OR "{ticker}"'
-    return f'"{clean}"'
+    if entity in THEME_BASELINE_QUERY:
+        base = THEME_BASELINE_QUERY[entity]
+    elif ticker:
+        base = f'("{clean}" OR "{ticker}")'
+    else:
+        base = f'"{clean}"'
+
+    entity_tokens = content_tokens(entity)
+    extras = [
+        token for token in content_tokens(str(event.get("representative_title") or ""))
+        if token not in entity_tokens and token != ticker.lower()
+    ]
+    return f'{base} "{sorted(extras)[0]}"' if extras else base
 
 
 def make_bucket_counts(
@@ -77,11 +86,14 @@ def rss_baseline(session: requests.Session, event: dict) -> dict:
     except Exception as exc:
         return {"source": "rss_error", "error": str(exc), "news_burst_score": None}
 
-    timestamps = [
-        parse_timestamp(str(row.get("published_at_utc") or ""))
-        for row in articles
-        if row.get("published_at_utc")
-    ]
+    timestamps: list[datetime] = []
+    for row in articles:
+        if not row.get("published_at_utc"):
+            continue
+        try:
+            timestamps.append(parse_timestamp(str(row.get("published_at_utc") or "")))
+        except ValueError:
+            continue
     now = datetime.now(timezone.utc)
     # Google News search feeds are generally capped near 100 results.  When the
     # feed is saturated, do not pretend the missing older period contains zeros.
