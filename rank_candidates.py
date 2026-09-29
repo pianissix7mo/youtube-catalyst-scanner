@@ -141,17 +141,60 @@ def load_history() -> dict[str, list[dict[str, Any]]]:
         return {}
     try:
         payload = json.loads(BASELINE_HISTORY.read_text(encoding="utf-8"))
-        return payload if isinstance(payload, dict) else {}
     except Exception:
         return {}
+    if not isinstance(payload, dict):
+        return {}
+
+    normalized: dict[str, list[dict[str, Any]]] = {}
+    for key, rows in payload.items():
+        if not isinstance(rows, list):
+            continue
+        by_stamp: dict[str, dict[str, Any]] = {}
+        for row in rows:
+            if not isinstance(row, dict):
+                continue
+            stamp = str(row.get("timestamp_utc") or "")
+            if not stamp:
+                continue
+            current = by_stamp.get(stamp) or {
+                "timestamp_utc": stamp,
+                "recent_evidence_count": 0,
+                "source_domain_count": 0,
+            }
+            current["recent_evidence_count"] = max(
+                int(current.get("recent_evidence_count") or 0),
+                int(row.get("recent_evidence_count") or 0),
+            )
+            current["source_domain_count"] = max(
+                int(current.get("source_domain_count") or 0),
+                int(row.get("source_domain_count") or 0),
+            )
+            by_stamp[stamp] = current
+        normalized[str(key)] = [by_stamp[x] for x in sorted(by_stamp)][-180:]
+    return normalized
 
 
 def local_fallback(event: dict[str, Any], history: dict[str, list[dict[str, Any]]]) -> dict[str, Any]:
     key = str(event.get("entity") or "")
     rows = history.get(key) or []
     past = [float(x.get("recent_evidence_count") or 0) for x in rows[-30:]]
-    base = median(past)
     current = float(event.get("recent_evidence_count") or 0)
+    if len(past) < 3:
+        return {
+            "query": None,
+            "current_3h": None,
+            "baseline_3h_median": None,
+            "short_ratio": None,
+            "current_day": current,
+            "baseline_day_median": None,
+            "long_ratio": None,
+            "news_burst_score": 0.0,
+            "source": "rolling_local_fallback_insufficient_history",
+            "history_observations": len(past),
+        }
+
+    base = median(past)
     ratio = (current + 1.0) / (base + 1.0)
     return {
         "query": None,
@@ -163,6 +206,7 @@ def local_fallback(event: dict[str, Any], history: dict[str, list[dict[str, Any]
         "long_ratio": round(ratio, 3),
         "news_burst_score": round(ratio_score(ratio), 1),
         "source": "rolling_local_fallback",
+        "history_observations": len(past),
     }
 
 
@@ -175,21 +219,36 @@ def evidence_quality(event: dict[str, Any]) -> float:
 
 def append_history(history: dict[str, list[dict[str, Any]]], events: list[dict[str, Any]]) -> None:
     stamp = datetime.now(timezone.utc).isoformat()
+    per_entity: dict[str, dict[str, int]] = {}
     for event in events:
         key = str(event.get("entity") or "")
-        history.setdefault(key, []).append({
-            "timestamp_utc": stamp,
-            "recent_evidence_count": int(event.get("recent_evidence_count") or 0),
-            "source_domain_count": len(event.get("source_domains") or []),
-        })
+        if not key:
+            continue
+        summary = per_entity.setdefault(
+            key, {"recent_evidence_count": 0, "source_domain_count": 0}
+        )
+        summary["recent_evidence_count"] = max(
+            summary["recent_evidence_count"],
+            int(event.get("recent_evidence_count") or 0),
+        )
+        summary["source_domain_count"] = max(
+            summary["source_domain_count"],
+            len(event.get("source_domains") or []),
+        )
+
+    for key, summary in per_entity.items():
+        history.setdefault(key, []).append({"timestamp_utc": stamp, **summary})
         history[key] = history[key][-180:]
     write_json(BASELINE_HISTORY, history)
 
 
 def score_event(event: dict[str, Any], baseline: dict[str, Any]) -> dict[str, Any]:
     now = datetime.now(timezone.utc)
-    latest = parse_timestamp(str(event.get("latest_timestamp_utc") or ""))
-    hours_old = max(0.0, (now - latest).total_seconds() / 3600.0)
+    try:
+        latest = parse_timestamp(str(event.get("latest_timestamp_utc") or ""))
+        hours_old = max(0.0, (now - latest).total_seconds() / 3600.0)
+    except ValueError:
+        hours_old = float("inf")
     source_score = source_diversity_score(len(event.get("source_domains") or []))
     catalyst_score = catalyst_quality_score(event.get("categories") or [], event.get("sec_forms") or [])
     fresh_score = freshness_score(hours_old)
@@ -211,6 +270,7 @@ def score_event(event: dict[str, Any], baseline: dict[str, Any]) -> dict[str, An
         str(event.get("entity") or ""),
         str(event.get("ticker") or "") or None,
         str(event.get("representative_title") or ""),
+        event.get("categories") or [],
     )
     category = (event.get("categories") or ["unknown"])[0]
     event_id = stable_event_id(
