@@ -3,13 +3,26 @@ from __future__ import annotations
 
 import json
 import os
+import re
 import statistics
 from datetime import datetime, timedelta, timezone
 from typing import Any
 
 import requests
 
-from scanner_common import DATA, OUT, clamp, ensure_dirs, load_config, normalize_text, parse_timestamp, write_json
+from scanner_common import (
+    DATA,
+    OUT,
+    YOUTUBE_CATEGORY_ZH_TERMS,
+    clamp,
+    ensure_dirs,
+    load_config,
+    normalize_text,
+    parse_timestamp,
+    write_json,
+    youtube_identity_aliases,
+    youtube_identity_terms,
+)
 
 YT_API = "https://www.googleapis.com/youtube/v3"
 
@@ -25,11 +38,38 @@ def api_get(session: requests.Session, path: str, params: dict[str, Any]) -> dic
     return r.json()
 
 
-def event_title_relevant(title: str, terms: list[str]) -> bool:
-    if not terms:
-        return True
+def event_title_relevant(title: str, event: dict[str, Any]) -> bool:
+    if not re.search(r"[\u3400-\u4dbf\u4e00-\u9fff]", str(title or "")):
+        return False
+
     hay = normalize_text(title)
-    return any(normalize_text(term) in hay for term in terms if normalize_text(term))
+    raw_lower = str(title or "").lower()
+    ticker = str(event.get("ticker") or "") or None
+    entity = str(event.get("entity") or "")
+
+    identity_hit = any(
+        normalize_text(term) and normalize_text(term) in hay
+        for term in youtube_identity_terms(entity, ticker)
+    )
+    if not identity_hit:
+        identity_hit = any(
+            str(alias).lower() in raw_lower
+            for alias in youtube_identity_aliases(entity, ticker)
+        )
+    if not identity_hit:
+        return False
+
+    concept_terms = [str(x) for x in event.get("youtube_event_terms") or []]
+    for category in event.get("categories") or []:
+        concept_terms.extend(YOUTUBE_CATEGORY_ZH_TERMS.get(str(category), ()))
+    if not concept_terms:
+        return True
+
+    return any(
+        (normalize_text(term) and normalize_text(term) in hay)
+        or str(term).lower() in raw_lower
+        for term in concept_terms
+    )
 
 
 def supply_gap_score(relevant_sample_size: int) -> float:
@@ -65,7 +105,7 @@ def enrich_event(
         "order": "date",
         "maxResults": sample_size,
         "publishedAfter": published_after,
-        "relevanceLanguage": "zh",
+        "relevanceLanguage": str(config.get("youtube_relevance_language", "zh-Hans")),
         "key": api_key,
     })
     video_ids = [
@@ -82,7 +122,7 @@ def enrich_event(
             "raw_sample_size": 0,
             "relevant_sample_size": 0,
             "estimated_total_results": estimated_total,
-            "youtube_supply_gap_score": 100.0,
+            "youtube_supply_gap_score": None,
             "median_views_per_day": 0,
             "small_channel_hit_rate": 0.0,
             "sample_videos": [],
@@ -91,17 +131,15 @@ def enrich_event(
     videos = api_get(session, "videos", {
         "part": "statistics,snippet",
         "id": ",".join(video_ids),
-        "maxResults": 50,
         "key": api_key,
     })
 
-    terms = [str(x) for x in event.get("youtube_event_terms") or []]
     parsed: list[dict[str, Any]] = []
     for item in videos.get("items") or []:
         snippet = item.get("snippet") or {}
         stats = item.get("statistics") or {}
         title = str(snippet.get("title") or "")
-        if not event_title_relevant(title, terms):
+        if not event_title_relevant(title, event):
             continue
         try:
             published = parse_timestamp(str(snippet.get("publishedAt") or ""))
@@ -152,6 +190,20 @@ def enrich_event(
     vpds = [int(x["views_per_day"]) for x in parsed]
     parsed.sort(key=lambda x: int(x["views_per_day"]), reverse=True)
     relevant_count = len(parsed)
+    if relevant_count == 0:
+        return {
+            "status": "ok_no_relevant_videos",
+            "query": query,
+            "raw_sample_size": len(video_ids),
+            "relevant_sample_size": 0,
+            "estimated_total_results": estimated_total,
+            "youtube_supply_gap_score": None,
+            "median_views_per_day": 0,
+            "small_channel_sample_size": 0,
+            "small_channel_hit_rate": 0.0,
+            "sample_videos": [],
+        }
+
     return {
         "status": "ok",
         "query": query,
@@ -164,6 +216,30 @@ def enrich_event(
         "small_channel_hit_rate": round(100.0 * small_hits / small_count, 1) if small_count else 0.0,
         "sample_videos": parsed[:10],
     }
+
+
+def validate_selected_payload(
+    selected: dict[str, Any],
+    candidates: dict[str, Any],
+    config: dict[str, Any],
+) -> None:
+    source_stamp = str(selected.get("source_candidates_generated_at_utc") or "")
+    candidate_stamp = str(candidates.get("generated_at_utc") or "")
+    if not source_stamp or source_stamp != candidate_stamp:
+        raise RuntimeError(
+            "selected_events.json provenance does not match current judge_candidates.json"
+        )
+
+    source_time = parse_timestamp(source_stamp)
+    age_hours = (datetime.now(timezone.utc) - source_time).total_seconds() / 3600.0
+    max_age_hours = float(config.get("selected_events_max_age_hours", 24))
+    if age_hours < -0.25:
+        raise RuntimeError("selected_events.json source timestamp is unexpectedly in the future")
+    if age_hours > max_age_hours:
+        raise RuntimeError(
+            f"selected_events.json is stale ({age_hours:.1f}h > {max_age_hours:.1f}h); "
+            "run fresh discovery/Judge B first"
+        )
 
 
 def write_markdown(payload: dict[str, Any]) -> None:
@@ -192,6 +268,8 @@ def main() -> None:
     ensure_dirs()
     config = load_config()
     selected = json.loads((DATA / "selected_events.json").read_text(encoding="utf-8"))
+    candidates = json.loads((DATA / "judge_candidates.json").read_text(encoding="utf-8"))
+    validate_selected_payload(selected, candidates, config)
     events = list(selected.get("events") or [])
     budget = int(config.get("youtube_search_budget_per_run", 20))
     hard_limit = min(budget, int(config.get("candidate_limit_before_youtube", 20)), len(events))
@@ -214,8 +292,16 @@ def main() -> None:
             if search_calls >= budget:
                 yt = {"status": "skipped_budget_exhausted", "youtube_supply_gap_score": None}
             else:
-                yt = enrich_event(session, row, api_key, config)
                 search_calls += 1
+                try:
+                    yt = enrich_event(session, row, api_key, config)
+                except (requests.RequestException, RuntimeError, ValueError) as exc:
+                    yt = {
+                        "status": "error",
+                        "youtube_supply_gap_score": None,
+                        "query": row.get("youtube_query"),
+                        "error": str(exc)[:500],
+                    }
         row["youtube_metrics"] = yt
         gap = yt.get("youtube_supply_gap_score")
         discovery = float(row.get("discovery_score") or 0.0)
