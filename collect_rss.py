@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import json
+import os
 import re
 import time
 from datetime import datetime, timezone
@@ -16,6 +17,8 @@ from scanner_common import (
     TICKER_DENYLIST,
     clean_company_name,
     ensure_dirs,
+    explicit_ticker_tokens,
+    load_config,
     normalize_text,
     write_json,
 )
@@ -82,19 +85,31 @@ AMBIGUOUS_TICKERS = {
 
 
 class MirrorFirstSession(ResilientSession):
-    """Avoid the known SEC edge delay on GitHub-hosted runners."""
+    """Prefer the fast mirror, but fall back to SEC instead of making it a SPOF."""
 
     def get(self, url, *args, **kwargs):  # type: ignore[override]
         if url == legacy.SEC_TICKERS:
             mirror_kwargs = dict(kwargs)
             mirror_kwargs.pop("params", None)
-            return requests.Session.get(self, TICKER_MIRROR, *args, **mirror_kwargs)
-        return requests.Session.get(self, url, *args, **kwargs)
+            try:
+                response = requests.Session.get(self, TICKER_MIRROR, *args, **mirror_kwargs)
+                if response.ok:
+                    return response
+                print(f"Ticker mirror returned {response.status_code}; trying SEC reference")
+            except requests.RequestException as exc:
+                print(f"Ticker mirror failed ({exc}); trying SEC reference")
+            return super().get(url, *args, **kwargs)
+        return super().get(url, *args, **kwargs)
 
 
 def build_session() -> requests.Session:
     s = MirrorFirstSession()
-    s.headers.update({"User-Agent": "youtube-catalyst-scanner/1.0"})
+    s.headers.update({
+        "User-Agent": os.getenv(
+            "SEC_USER_AGENT",
+            "youtube-catalyst-scanner/1.0 70549770+pianissix7mo@users.noreply.github.com",
+        )
+    })
     return s
 
 
@@ -122,10 +137,8 @@ def strict_match_company(
     by_ticker: dict[str, dict],
     first_word_index: dict[str, list[dict]],
 ) -> dict | None:
-    # 1) Explicit, non-ambiguous ticker tokens are high precision.
-    for token in re.findall(r"(?<![A-Z0-9])\$?([A-Z]{2,5})(?![A-Z0-9])", title):
-        if token in AMBIGUOUS_TICKERS:
-            continue
+    # 1) Only explicitly formatted ticker symbols are high precision.
+    for token in explicit_ticker_tokens(title):
         item = by_ticker.get(token)
         if item:
             return item
@@ -182,7 +195,7 @@ def append_evidence(evidence: list[dict], base: dict, entity: dict) -> None:
 
 def main() -> None:
     ensure_dirs()
-    config = json.loads(open("config.json", encoding="utf-8").read())
+    config = load_config()
     lookback_hours = int(config.get("news_lookback_hours", 24))
     when = "1d" if lookback_hours <= 24 else f"{max(1, round(lookback_hours / 24))}d"
 
