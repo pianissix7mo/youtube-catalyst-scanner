@@ -11,8 +11,8 @@ permissions:
   contents: write
 
 concurrency:
-  group: scanner-b-enrichment
-  cancel-in-progress: true
+  group: scanner-b-enrichment-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
   enrich:
@@ -31,7 +31,10 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Syntax check
-        run: python -m py_compile scanner_common.py youtube_enrich.py
+        run: python -m py_compile scanner_common.py collect_rss.py collect_external.py news_rss.py rank_candidates.py rank_rss.py rank_for_judge.py youtube_enrich.py test_scanner.py
+
+      - name: Regression tests
+        run: python -m unittest -v test_scanner.py
 
       - name: Validate Judge B selection
         shell: bash
@@ -39,10 +42,16 @@ jobs:
           python - <<'PY'
           import json
           from pathlib import Path
+          from scanner_common import load_config
+          from youtube_enrich import validate_selected_payload
+
           p = Path('data/selected_events.json')
-          if not p.exists():
-              raise SystemExit('data/selected_events.json missing')
+          c = Path('data/judge_candidates.json')
+          if not p.exists() or not c.exists():
+              raise SystemExit('selected_events.json or judge_candidates.json missing')
           data = json.loads(p.read_text(encoding='utf-8'))
+          candidates = json.loads(c.read_text(encoding='utf-8'))
+          validate_selected_payload(data, candidates, load_config())
           if data.get('judge_version') != 'B_V1':
               raise SystemExit('selected_events.json was not produced by Judge B V1')
           events = data.get('events') or []
@@ -82,4 +91,5 @@ jobs:
             exit 0
           fi
           git commit -m "Update Scanner B YouTube enrichment"
-          git push
+          git pull --rebase origin "$GITHUB_REF_NAME"
+          git push origin "HEAD:$GITHUB_REF_NAME"
