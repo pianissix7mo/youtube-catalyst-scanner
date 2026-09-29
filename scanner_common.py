@@ -38,6 +38,44 @@ TICKER_DENYLIST = {
     "UK", "EU", "EV", "ETF", "FED", "GDP", "CEO", "CPI", "PPI", "PMI", "EPS", "YTD",
 }
 
+DIRECTION_CONFLICT_GROUPS = (
+    ({"inflow", "inflows", "buying"}, {"outflow", "outflows", "selling"}),
+    (
+        {"rise", "rises", "rising", "surge", "surges", "gain", "gains", "higher", "increase", "increases", "increased", "raises", "raised"},
+        {"fall", "falls", "falling", "drop", "drops", "decline", "declines", "lower", "decrease", "decreases", "decreased", "cuts", "cut", "slump"},
+    ),
+    ({"beat", "beats", "beating"}, {"miss", "misses", "missed"}),
+    ({"approve", "approves", "approved", "approval"}, {"reject", "rejects", "rejected", "denies", "denied"}),
+    ({"upgrade", "upgrades", "upgraded"}, {"downgrade", "downgrades", "downgraded"}),
+)
+
+YOUTUBE_CATEGORY_ZH_TERMS = {
+    "earnings_guidance": ("财报", "业绩", "营收", "利润", "指引", "预期"),
+    "mna": ("收购", "并购", "合并", "要约"),
+    "contract_order": ("合同", "订单", "合作", "供应"),
+    "regulatory_legal": ("诉讼", "调查", "监管", "反垄断", "罚款"),
+    "pricing_capacity": ("涨价", "价格", "产能", "短缺", "生产"),
+    "ai_semis": ("人工智能", "芯片", "半导体", "GPU", "HBM", "数据中心"),
+    "macro_rates": ("美联储", "利率", "国债", "收益率", "通胀", "关税"),
+    "crypto": ("比特币", "以太坊", "加密", "ETF"),
+}
+
+YOUTUBE_TICKER_ZH_ALIASES = {
+    "AAPL": ("苹果",), "AMZN": ("亚马逊",), "AMD": ("超威",), "AVGO": ("博通",),
+    "BABA": ("阿里巴巴",), "GOOG": ("谷歌",), "GOOGL": ("谷歌",), "INTC": ("英特尔",),
+    "JD": ("京东",), "META": ("Meta", "脸书"), "MSFT": ("微软",), "MU": ("美光",),
+    "NIO": ("蔚来",), "NVDA": ("英伟达", "辉达"), "TSLA": ("特斯拉",),
+}
+
+YOUTUBE_ENTITY_ZH_ALIASES = {
+    "Federal Reserve / Rates": ("美联储", "联储", "利率", "降息", "加息"),
+    "Inflation": ("通胀", "通货膨胀", "CPI", "PPI"),
+    "Tariffs / Trade": ("关税", "贸易"),
+    "Bitcoin / Crypto": ("比特币", "以太坊", "加密", "BTC", "ETH"),
+    "AI Infrastructure": ("人工智能", "AI", "数据中心", "GPU", "HBM", "芯片"),
+    "OpenAI": ("OpenAI",), "Anthropic": ("Anthropic",), "SK hynix": ("SK海力士", "海力士"),
+}
+
 
 def load_config() -> dict[str, Any]:
     return json.loads((ROOT / "config.json").read_text(encoding="utf-8"))
@@ -52,6 +90,24 @@ def normalize_text(value: str) -> str:
     text = unicodedata.normalize("NFKC", str(value or "")).lower()
     text = re.sub(r"[^a-z0-9$%+&./ -]+", " ", text)
     return " ".join(text.split())
+
+
+def explicit_ticker_tokens(title: str) -> list[str]:
+    value = str(title or "")
+    patterns = (
+        r"\$([A-Z]{1,5})\b",
+        r"\(([A-Z]{1,5})\)",
+        r"\b(?:NASDAQ|NYSE|AMEX)\s*:\s*([A-Z]{1,5})\b",
+    )
+    output: list[str] = []
+    seen: set[str] = set()
+    for pattern in patterns:
+        for match in re.findall(pattern, value):
+            token = str(match).upper()
+            if token and token not in seen:
+                seen.add(token)
+                output.append(token)
+    return output
 
 
 def clean_company_name(value: str) -> str:
@@ -79,14 +135,29 @@ def title_similarity(a: str, b: str) -> float:
     return max(jaccard, 0.8 * containment)
 
 
+def titles_have_direction_conflict(a: str, b: str) -> bool:
+    aa = set(re.findall(r"[a-z0-9]+", normalize_text(a)))
+    bb = set(re.findall(r"[a-z0-9]+", normalize_text(b)))
+    for positive, negative in DIRECTION_CONFLICT_GROUPS:
+        if (aa & positive and bb & negative) or (aa & negative and bb & positive):
+            return True
+    return False
+
+
+def same_event_title(a: str, b: str, min_similarity: float = 0.42) -> bool:
+    aa, bb = content_tokens(a), content_tokens(b)
+    return (
+        len(aa & bb) >= 2
+        and not titles_have_direction_conflict(a, b)
+        and title_similarity(a, b) >= min_similarity
+    )
+
+
 def parse_timestamp(value: str | None) -> datetime:
     raw = str(value or "").strip()
     if not raw:
-        return datetime.now(timezone.utc)
-    candidates = [
-        raw,
-        raw.replace("Z", "+00:00"),
-    ]
+        raise ValueError("missing timestamp")
+    candidates = [raw, raw.replace("Z", "+00:00")]
     for candidate in candidates:
         try:
             dt = datetime.fromisoformat(candidate)
@@ -98,7 +169,7 @@ def parse_timestamp(value: str | None) -> datetime:
             return datetime.strptime(raw, fmt).replace(tzinfo=timezone.utc)
         except Exception:
             pass
-    return datetime.now(timezone.utc)
+    raise ValueError(f"unparseable timestamp: {raw!r}")
 
 
 def clamp(value: float, low: float = 0.0, high: float = 100.0) -> float:
@@ -171,7 +242,31 @@ def stable_event_id(entity: str, representative_title: str, category: str) -> st
     return hashlib.sha1(payload.encode("utf-8")).hexdigest()[:16]
 
 
-def youtube_query(entity: str, ticker: str | None, title: str) -> tuple[str, list[str]]:
+def youtube_identity_terms(entity: str, ticker: str | None) -> list[str]:
+    terms: list[str] = []
+    if ticker:
+        terms.append(str(ticker).lower())
+    clean = clean_company_name(entity) or str(entity or "")
+    for token in content_tokens(clean):
+        if token not in COMPANY_SUFFIXES and token not in GENERIC_FIRST_WORDS:
+            terms.append(token)
+    return list(dict.fromkeys(terms))
+
+
+def youtube_identity_aliases(entity: str, ticker: str | None) -> list[str]:
+    aliases: list[str] = []
+    if ticker:
+        aliases.extend(YOUTUBE_TICKER_ZH_ALIASES.get(str(ticker).upper(), ()))
+    aliases.extend(YOUTUBE_ENTITY_ZH_ALIASES.get(str(entity), ()))
+    return list(dict.fromkeys(str(x) for x in aliases if str(x).strip()))
+
+
+def youtube_query(
+    entity: str,
+    ticker: str | None,
+    title: str,
+    categories: Iterable[str] = (),
+) -> tuple[str, list[str]]:
     entity_tokens = content_tokens(entity)
     extras = [
         token for token in re.findall(r"[A-Za-z0-9]+", title)
@@ -181,14 +276,35 @@ def youtube_query(entity: str, ticker: str | None, title: str) -> tuple[str, lis
     seen: set[str] = set()
     for token in extras:
         key = token.lower()
-        if key in seen:
-            continue
-        seen.add(key)
-        unique.append(token)
+        if key not in seen:
+            seen.add(key)
+            unique.append(token)
         if len(unique) >= 3:
             break
-    lead = ticker if ticker and len(ticker) >= 2 else entity
-    query = " ".join([lead] + unique).strip()
+
+    lead_parts: list[str] = []
+    if ticker:
+        lead_parts.append(str(ticker).upper())
+        brand_tokens = [
+            x for x in content_tokens(clean_company_name(entity) or entity)
+            if x not in COMPANY_SUFFIXES and x not in GENERIC_FIRST_WORDS
+        ]
+        if brand_tokens and brand_tokens[0].lower() != str(ticker).lower():
+            lead_parts.append(brand_tokens[0])
+    else:
+        lead_parts.append(str(entity).strip())
+
+    aliases = youtube_identity_aliases(entity, ticker)
+    if aliases:
+        lead_parts.append(aliases[0])
+
+    category_terms: list[str] = []
+    for category in categories:
+        category_terms.extend(YOUTUBE_CATEGORY_ZH_TERMS.get(str(category), ()))
+    if category_terms:
+        lead_parts.append(category_terms[0])
+
+    query = " ".join([x for x in lead_parts if x] + unique[:2]).strip()
     return query[:100], unique
 
 
